@@ -1,0 +1,18 @@
+{
+  "affects": ["Infantry Ranged"],
+  "cost": {"food": 600, "wood": 600, "stone": 0, "metal": 600},
+  "description": "Training increases damage of ranged infantry units.",
+  "genericName": "Ranged Infantry Masterclass",
+  "icon": "arrow_accuracy.png",
+  "modifications": [
+    {"value": "Attack/Ranged/Crush",  "multiply": 1.15},
+    {"value": "Attack/Ranged/Hack",   "multiply": 1.15},
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "attack_infantry_ranged_2",
+  "tooltip": "+15% ranged infantry attack."
+}

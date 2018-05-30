@@ -1,0 +1,15 @@
+{
+  "affects": ["Domestic"],
+  "cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0},
+  "description": "Breeding livestock for food.",
+  "genericName": "Stockbreeding",
+  "icon": "meat.png",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.75}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 45,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Domestic animals (goats, sheep, pigs, cattle, etc.) −25% breed time."
+}

@@ -1,0 +1,16 @@
+{
+  "affects": ["Infantry 1"],
+  "cost": {"food": 400, "wood": 0, "stone": 0, "metal": 400},
+  "description": "Give an improved training to all infantry soldiers.",
+  "genericName": "Improved Infantry Training",
+  "icon": "drill_infantry_02.png",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "drill_infantry_1",
+  "tooltip": "Infantry starts at rank 2/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."
+}

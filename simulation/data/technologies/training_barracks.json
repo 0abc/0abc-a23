@@ -1,0 +1,16 @@
+{
+  "affects": ["Barracks"],
+  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
+  "description": "Significantly increase training speed of soldiers at the barracks by training them in large batches or battalions.",
+  "genericName": "Mass Training",
+  "icon": "armor_corinthian.png",
+  "modifications": [
+    {"value": "ProductionQueue/BatchTimeModifier", "add": -0.1}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Faster batch training speed for the Barracks."
+}
+

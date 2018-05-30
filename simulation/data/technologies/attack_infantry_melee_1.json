@@ -1,0 +1,25 @@
+{
+  "affects": ["Infantry Melee"],
+  "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
+  "description": "Training increases damage of melee infantry units.",
+  "genericName": "Side Arms",
+  "icon": "sword.png",
+  "modifications": [
+    {"value": "Attack/Melee/Crush",  "multiply": 1.15},
+    {"value": "Attack/Melee/Hack",   "multiply": 1.15},
+    {"value": "Attack/Melee/Pierce", "multiply": 1.15}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 45,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Xíphos",
+    "mace": "Xíphos",
+    "ptol": "Xíphos",
+    "rome": "Pugio",
+    "sele": "Xíphos",
+    "spart": "Xíphos"
+  },
+  "tooltip": "+15% melee infantry attack."
+}

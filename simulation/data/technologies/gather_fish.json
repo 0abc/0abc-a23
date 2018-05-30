@@ -1,0 +1,15 @@
+{
+  "affects": ["FishingBoat", "Worker"],
+  "cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
+  "description": "Using net improves the fishing productivity.",
+  "genericName": "Fishing Net",
+  "icon": "fishing_net.png",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/food.fish", "multiply": 1.30}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 45,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Fishing boats and workers +30% fishing rate. Unlocks Salting Fish."
+}

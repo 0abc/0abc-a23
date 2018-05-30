@@ -1,0 +1,16 @@
+{
+  "affects": ["Cavalry", "Chariot"],
+  "cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
+  "description": "Breed the fastest horses.",
+  "genericName": "Horse Breeding",
+  "icon": "horse_trainer.png",
+  "modifications": [
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.05}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "speed_horse_1",
+  "tooltip": "+5% cavalry and chariot walk speed."
+}

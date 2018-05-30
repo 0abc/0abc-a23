@@ -1,0 +1,18 @@
+{
+  "affects": ["Centre"],
+  "cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+  "description": "A town watch to guard the centre.",
+  "genericName": "Town Watch",
+  "icon": "helmet_corinthian_silver.png",
+  "modifications": [
+    {"value": "BuildingAI/DefaultArrowCount", "add":  1.0},
+    {"value": "Capturable/RegenRate",         "add":  1.0},
+    {"value": "Vision/Range",                 "add": 10.0}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "centre_watch_1",
+  "tooltip": "Centres one additional default arrow and +10 vision range."
+}

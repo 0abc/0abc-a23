@@ -1,0 +1,19 @@
+{
+  "affects": ["Ship"],
+  "cost": {"food": 0, "wood": 400, "stone": 0, "metal": 0},
+  "description": "Wooden reinforcement beams for ship hulls.",
+  "genericName": "Reinforced hull",
+  "icon": "armor_ship_bronze.png",
+  "modifications": [
+    {"value": "Armour/Crush",         "add":      2.0 },
+    {"value": "Armour/Hack",          "add":      2.0 },
+    {"value": "Armour/Pierce",        "add":      2.0 },
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also −2% movement speed."
+}

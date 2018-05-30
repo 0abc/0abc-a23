@@ -1,0 +1,16 @@
+{
+  "affects": ["Worker"],
+  "cost": {"food": 0, "wood": 800, "stone": 0, "metal": 400},
+  "description": "Large settlements relied heavily on grain from elsewhere, allowing their local farmers to grow different crops.",
+  "genericName": "Grain imports",
+  "icon": "grain.png",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.05}
+  ],
+  "requirements": {"tech": "phase_metropolis"},
+  "requirementsTooltip": "Unlocked in Metropolis Phase.",
+  "researchTime": 90,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "gather_farm_3",
+  "tooltip": "Workers +5% farming rate."
+}

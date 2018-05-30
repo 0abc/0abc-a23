@@ -1,0 +1,19 @@
+{
+  "affects": ["House"],
+  "cost": {"food": 0, "wood": 300, "stone": 300, "metal": 0},
+  "description": "Homes tended to expand as the wealth and population of a settlement grew.",
+  "genericName": "Manors",
+  "icon": "population.png",
+  "modifications": [
+    {"value": "Cost/PopulationBonus", "multiply": 1.2}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "rome": "Insulae"
+  },
+  "supersedes": "house_population_2",
+  "tooltip": "Houses +20% population cap bonus."
+}

@@ -1,0 +1,15 @@
+{
+  "affects": ["Fortification"],
+  "cost": {"food": 0, "wood": 250, "stone": 250, "metal": 0},
+  "description": "Murder holes allow hitting enemies at the foot of the tower or fortress.",
+  "genericName": "Murder Holes",
+  "icon": "murder_holes.png",
+  "modifications": [
+    {"value": "Attack/Ranged/MinRange", "replace": 0}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Removes tower and fortress minimum attack range."
+}

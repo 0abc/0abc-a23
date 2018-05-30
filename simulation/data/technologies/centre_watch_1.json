@@ -1,0 +1,17 @@
+{
+  "affects": ["Centre"],
+  "cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+  "description": "A village watch to protect the centre.",
+  "genericName": "Village Watch",
+  "icon": "helmet_corinthian_bronze.png",
+  "modifications": [
+    {"value": "BuildingAI/DefaultArrowCount", "add":  1.0},
+    {"value": "Capturable/RegenRate",         "add":  1.0},
+    {"value": "Vision/Range",                 "add": 10.0}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 45,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Centres one additional default arrow and +10 vision range."
+}

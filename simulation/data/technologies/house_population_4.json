@@ -1,0 +1,16 @@
+{
+  "affects": ["House"],
+  "cost": {"food": 0, "wood": 400, "stone": 400, "metal": 0},
+  "description": "Homes tended to expand as the wealth and population of a settlement grew.",
+  "genericName": "Apartment Blocks",
+  "icon": "population.png",
+  "modifications": [
+    {"value": "Cost/PopulationBonus", "multiply": 1.2}
+  ],
+  "requirements": {"tech": "phase_metropolis"},
+  "requirementsTooltip": "Unlocked in Metropolis Phase.",
+  "researchTime": 90,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "house_population_3",
+  "tooltip": "Houses +20% population cap bonus."
+}

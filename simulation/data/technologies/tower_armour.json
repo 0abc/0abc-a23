@@ -1,0 +1,17 @@
+{
+  "affects": ["DefenseTower"],
+  "cost": {"food": 0, "wood": 500, "stone": 500, "metal": 0},
+  "description": "Reinforce the foundations in preparation of an attack.",
+  "genericName": "Sturdy Foundations",
+  "icon": "architecture.png",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": 2},
+    {"value": "Armour/Hack",   "add": 2},
+    {"value": "Armour/Pierce", "add": 2}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Stone towers +2 crush, hack, and pierce armour levels."
+}

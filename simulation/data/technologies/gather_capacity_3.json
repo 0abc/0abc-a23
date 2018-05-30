@@ -1,0 +1,19 @@
+{
+  "affects": ["Worker"],
+  "cost": {"food": 1000, "wood": 1000, "stone": 0, "metal": 0},
+  "description": "Use horse-drawn carts. Increases shuttling capacity for all resources.",
+  "genericName": "Horse-drawn Carts",
+  "icon": "handcart_empty.png",
+  "modifications": [
+    {"value": "ResourceGatherer/Capacities/food",  "add": 5},
+    {"value": "ResourceGatherer/Capacities/metal", "add": 5},
+    {"value": "ResourceGatherer/Capacities/stone", "add": 5},
+    {"value": "ResourceGatherer/Capacities/wood",  "add": 5}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "gather_capacity_2",
+  "tooltip": "Workers +5 shuttle capacity for all resources."
+}

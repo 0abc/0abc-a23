@@ -1,0 +1,28 @@
+{
+  "cost": {"food": 1500, "wood": 1500, "stone": 0, "metal": 1500},
+  "description": "The will to fight is crucial to victory.",
+  "genericName": "Will to fight",
+  "icon": "coinage.png",
+  "modifications": [
+    {"value": "Attack/Capture/Value", "multiply": 1.15, "affects": "Unit"     },
+    {"value": "Attack/Melee/Crush",   "multiply": 1.15, "affects": "Melee"    },
+    {"value": "Attack/Melee/Hack",    "multiply": 1.15, "affects": "Melee"    },
+    {"value": "Attack/Melee/Pierce",  "multiply": 1.15, "affects": "Melee"    },
+    {"value": "Attack/Ranged/Crush",  "multiply": 1.15, "affects": "Ranged"   },
+    {"value": "Attack/Ranged/Hack",   "multiply": 1.15, "affects": "Ranged"   },
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15, "affects": "Ranged"   },
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15, "affects": "Structure"}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Dýnamis",
+    "mace":  "Dýnamis",
+    "ptol":  "Dýnamis",
+    "sele":  "Dýnamis",
+    "spart": "Dýnamis"
+  },
+  "tooltip": "Inspire your troops with higher pay. Units and structures +15% attack strength."
+}

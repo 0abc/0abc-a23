@@ -1,0 +1,23 @@
+{
+  "affects": ["Worker"],
+  "cost": {"food": 250, "wood": 250, "stone": 0, "metal": 100},
+  "description": "Compel serfs to help your workers quarry stone. Increases stone gathering rates.",
+  "genericName": "Serfs",
+  "icon": "mining_stone.png",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Heílōtes",
+    "mace": "Heílōtes",
+    "ptol": "Heílōtes",
+    "sele": "Heílōtes",
+    "spart": "Heílōtes"
+  },
+  "supersedes": "gather_stone_1",
+  "tooltip": "Workers +25% stone gathering rate."
+}

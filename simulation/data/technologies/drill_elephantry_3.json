@@ -1,0 +1,16 @@
+{
+  "affects": ["Elephant 2"],
+  "cost": {"food": 1200, "wood": 0, "stone": 0, "metal": 600},
+  "description": "Give an advanced training to all elephant soldiers.",
+  "genericName": "Advanced Elephantry Training",
+  "icon": "drill_elephant_03.png",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "drill_elephantry_2",
+  "tooltip": "War elephants start at rank 3/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."
+}

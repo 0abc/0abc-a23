@@ -1,0 +1,20 @@
+{
+  "affects": ["NorthAfricanElephant"],
+  "autoResearch": true,
+  "description": "The Carthaginians, Kushites, and Ptolemies used North African elephants, which were smaller and weaker than the more expensive Asian elephants.",
+  "genericName": "Tribal Settlements",
+  "icon": "armor_elephant.png",
+  "modifications": [
+    {"value": "Attack/Melee/Crush",   "multiply": 0.9},
+    {"value": "Attack/Melee/Hack",    "multiply": 0.9},
+    {"value": "Attack/Melee/Pierce",  "multiply": 0.9},
+    {"value": "Attack/Ranged/Crush",  "multiply": 0.9},
+    {"value": "Attack/Ranged/Hack",   "multiply": 0.9},
+    {"value": "Attack/Ranged/Pierce", "multiply": 0.9},
+    {"value": "Cost/BuildTime",       "multiply": 0.9},
+    {"value": "Cost/Resources/metal", "multiply": 0.8},
+    {"value": "Cost/Resources/wood",  "multiply": 0.8},
+    {"value": "Health/Max",           "multiply": 0.8}
+  ],
+  "tooltip": "Elephants −20% wood and metal costs, −10% build time, −20% health, and −10% attack damage."
+}

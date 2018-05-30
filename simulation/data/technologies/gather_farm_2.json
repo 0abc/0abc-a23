@@ -1,0 +1,16 @@
+{
+  "affects": ["Worker"],
+  "cost": {"food": 0, "wood": 400, "stone": 0, "metal": 200},
+  "description": "Extra nutrients for farms.",
+  "genericName": "Fertilizer",
+  "icon": "crop_rotation.png",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "supersedes": "gather_farm_1",
+  "tooltip": "Workers +15% farming rate."
+}

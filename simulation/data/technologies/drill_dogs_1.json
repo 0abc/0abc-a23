@@ -1,0 +1,15 @@
+{
+  "affects": ["Dog 0"],
+  "cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0},
+  "description": "Give a basic training to all war dogs.",
+  "genericName": "Basic Dog Training",
+  "icon": "drill_dog_01.png",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 45,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "War dogs start at rank 1/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."
+}
