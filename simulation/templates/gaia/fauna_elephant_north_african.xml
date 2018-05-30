@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_hunt_defensive_elephant">
+  <Footprint>
+    <Height>3.0</Height>
+    <Square width="3.5" depth="7.0"/>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <GenericName>African Forest Elephant</GenericName>
+    <Icon>gaia/fauna_elephant_north_african.png</Icon>
+    <SpecificName>Loxodonta cyclotis</SpecificName>
+  </Identity>
+  <Loot>
+    <xp>50</xp>
+  </Loot>
+  <ResourceSupply>
+    <Amount>500</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>fauna/elephant_african_forest.xml</Actor>
+  </VisualActor>
+</Entity>

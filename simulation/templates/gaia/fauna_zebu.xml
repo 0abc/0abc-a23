@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Footprint>
+    <Height>2.0</Height>
+    <Square width="1.9" depth="3.8"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Zebu</GenericName>
+    <Icon>gaia/fauna_zebu.png</Icon>
+    <SpecificName>Bos taurus indicus</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <ResourceSupply>
+    <Amount>150</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <UnitMotion>
+    <Run>
+      <Speed>15.0</Speed>
+      <Range>600.0</Range>
+      <RangeMin>5.0</RangeMin>
+    </Run>
+    <WalkSpeed>6.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/zebu.xml</Actor>
+  </VisualActor>
+</Entity>

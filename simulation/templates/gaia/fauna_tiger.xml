@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack>
+    <Melee>
+      <Crush>0.0</Crush>
+      <Hack>30.0</Hack>
+      <MaxRange>4.0</MaxRange>
+      <Pierce>20.0</Pierce>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Height>2.0</Height>
+    <Square width="2.1" depth="4.2"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Tiger</GenericName>
+    <Icon>gaia/fauna_tiger.png</Icon>
+    <SpecificName>Panthera tigris</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
+      <death>actor/fauna/animal/lion_death.xml</death>
+      <select>actor/fauna/animal/lion_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>fauna/tiger.xml</Actor>
+  </VisualActor>
+</Entity>

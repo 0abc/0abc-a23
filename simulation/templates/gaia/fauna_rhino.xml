@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_hunt_aggressive">
+  <Attack>
+    <Melee>
+      <Crush>20.0</Crush>
+      <Hack>20.0</Hack>
+      <MaxRange>6.0</MaxRange>
+      <Pierce>0.0</Pierce>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Height>2.0</Height>
+    <Square width="2.8" depth="5.6"/>
+  </Footprint>
+  <Identity>
+    <GenericName>White Rhinoceros</GenericName>
+    <Icon>gaia/fauna_rhino.png</Icon>
+    <SpecificName>Ceratotherium simum</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <ResourceSupply>
+    <Amount>300</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
+      <death>actor/fauna/animal/lion_death.xml</death>
+      <select>actor/fauna/animal/lion_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>fauna/rhino.xml</Actor>
+  </VisualActor>
+</Entity>

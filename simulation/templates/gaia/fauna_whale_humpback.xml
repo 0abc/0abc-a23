@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_hunt_whale">
+  <Footprint>
+    <Height>2.5</Height>
+    <Square width="4.0" depth="16.0"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Humpback Whale</GenericName>
+    <Icon>gaia/fauna_fish.png</Icon>
+    <SpecificName>Megaptera novaeangliae</SpecificName>
+  </Identity>
+  <Position>
+    <Altitude>-4</Altitude>
+  </Position>
+  <VisualActor>
+    <Actor>fauna/whale.xml</Actor>
+  </VisualActor>
+</Entity>

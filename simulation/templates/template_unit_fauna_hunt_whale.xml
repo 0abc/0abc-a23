@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna">
+  <Health>
+    <DeathType>remain</DeathType>
+    <Max>200</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">SeaCreature</Classes>
+    <Tooltip>Kill, then gather food from this bountiful oceanic resource.</Tooltip>
+  </Identity>
+  <Loot>
+    <xp>10</xp>
+  </Loot>
+  <Obstruction>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+    <FloatDepth>0.0</FloatDepth>
+  </Position>
+  <ResourceSupply>
+    <Amount>2000</Amount>
+    <KillBeforeGather>true</KillBeforeGather>
+    <MaxGatherers>5</MaxGatherers>
+    <Type>food.fish</Type>
+  </ResourceSupply>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/512x512.png</MainTexture>
+        <MainTextureMask>circle/512x512_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <StatusBars>
+    <BarHeight>0.666</BarHeight>
+    <BarWidth>4.0</BarWidth>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
+  <UnitAI>
+    <FeedTimeMax>2</FeedTimeMax>
+    <FeedTimeMin>1</FeedTimeMin>
+    <FleeDistance>60.0</FleeDistance>
+    <NaturalBehaviour>skittish</NaturalBehaviour>
+    <RoamDistance>60.0</RoamDistance>
+    <RoamTimeMax>300000</RoamTimeMax>
+    <RoamTimeMin>100000</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed op="mul">1.8</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.8</WalkSpeed>
+  </UnitMotion>
+</Entity>

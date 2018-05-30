@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Armour>
+    <Crush>1</Crush>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush>0.0</Crush>
+      <Hack>7</Hack>
+      <MaxRange>3</MaxRange>
+      <Pierce>2</Pierce>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Population>0</Population>
+    <Resources>
+      <food>100</food>
+      <metal>0</metal>
+      <stone>0</stone>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Health>
+    <Max>90</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Organic Human</Classes>
+    <GenericName>War Dog</GenericName>
+    <Rank>Basic</Rank>
+    <Tooltip>Cannot attack structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>0</wood>
+    <xp>100</xp>
+  </Loot>
+  <Promotion>
+    <RequiredXp>100</RequiredXp>
+  </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>actor/fauna/death/death_animal_gen.xml</death>
+      <order_attack>voice/global/civ_dog_move.xml</order_attack>
+      <order_gather>voice/global/civ_dog_move.xml</order_gather>
+      <order_repair>voice/global/civ_dog_move.xml</order_repair>
+      <order_walk>voice/global/civ_dog_move.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>voice/global/civ_dog_bark.xml</select>
+      <trained>interface/complete/building/complete_kennel.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>6.5</HeightOffset>
+  </StatusBars>
+  <TrainingRestrictions>
+    <Category>WarDog</Category>
+  </TrainingRestrictions>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.6</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
+</Entity>

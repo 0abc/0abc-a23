@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_defensive">
+  <Attack>
+    <Melee>
+      <Crush>0.0</Crush>
+      <Hack>2.5</Hack>
+      <MaxRange>3.0</MaxRange>
+      <Pierce>5.0</Pierce>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Height>1.5</Height>
+    <Square width="1" depth="2"/>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+</Entity>

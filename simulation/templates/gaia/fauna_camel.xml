@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_hunt_skittish">
+  <Footprint>
+    <Height>3.0</Height>
+    <Square width="2.5" depth="5.0"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Dromedary</GenericName>
+    <Icon>gaia/fauna_camel.png</Icon>
+    <SpecificName>Camelus dromedarius</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <ResourceSupply>
+    <Amount>200</Amount>
+  </ResourceSupply>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/death/death_camel.xml</death>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <select>actor/fauna/animal/camel_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.45</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.45</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/camel.xml</Actor>
+  </VisualActor>
+</Entity>

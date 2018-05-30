@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Footprint>
+    <Height>1.0</Height>
+    <Square width="0.9" depth="1.8"/>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Chicken</GenericName>
+    <Icon>gaia/fauna_chicken.png</Icon>
+    <SpecificName>Gallus gallus domesticus</SpecificName>
+  </Identity>
+  <Obstruction>
+    <BlockMovement>false</BlockMovement>
+  </Obstruction>
+  <ResourceSupply>
+    <Amount>10</Amount>
+    <MaxGatherers>1</MaxGatherers>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/animal/chickens.xml</death>
+      <panic>actor/fauna/animal/chickens.xml</panic>
+      <select>actor/fauna/animal/chickens_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <UnitAI>
+    <FeedTimeMax>40000</FeedTimeMax>
+    <FeedTimeMin>10000</FeedTimeMin>
+    <FleeDistance>12.0</FleeDistance>
+    <RoamDistance>4.0</RoamDistance>
+    <RoamTimeMax>8000</RoamTimeMax>
+    <RoamTimeMin>2000</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.15</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.15</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/chicken.xml</Actor>
+  </VisualActor>
+</Entity>

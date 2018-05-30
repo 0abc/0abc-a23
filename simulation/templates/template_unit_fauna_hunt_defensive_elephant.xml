@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_hunt_defensive">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Cavalry>
+          <Classes>Cavalry</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Cavalry>
+      </Bonuses>
+      <Crush>20.0</Crush>
+      <Hack>25.0</Hack>
+      <MaxRange>6.0</MaxRange>
+      <Pierce>10.0</Pierce>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>50</xp>
+  </Loot>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>actor/fauna/animal/elephant_attack.xml</attack_melee>
+      <death>actor/fauna/animal/elephant_death.xml</death>
+      <order_attack>actor/fauna/animal/elephant_attack_order.xml</order_attack>
+      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
+      <select>actor/fauna/animal/elephant_select.xml</select>
+      <trained>actor/fauna/animal/elephant_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <Run>
+      <Speed op="mul">0.5</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/elephant_african_forest.xml</Actor>
+  </VisualActor>
+</Entity>

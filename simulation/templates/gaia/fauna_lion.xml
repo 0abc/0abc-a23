@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack>
+    <Melee>
+      <Crush>0.0</Crush>
+      <Hack>20.0</Hack>
+      <MaxRange>4.0</MaxRange>
+      <Pierce>0.0</Pierce>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Height>2.0</Height>
+    <Square width="2.0" depth="4.0"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Lion</GenericName>
+    <Icon>gaia/fauna_lion.png</Icon>
+    <SpecificName>Panthera leo</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
+      <death>actor/fauna/animal/lion_death.xml</death>
+      <select>actor/fauna/animal/lion_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.45</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.45</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/lion.xml</Actor>
+  </VisualActor>
+</Entity>

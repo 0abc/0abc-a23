@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_pig">
+  <Decay>
+    <DelayTime>10.0</DelayTime>
+    <SinkAccel>0.1</SinkAccel>
+    <SinkRate>0.05</SinkRate>
+  </Decay>
+  <Health>
+    <DamageVariants>
+      <heavydamage>0.20</heavydamage>
+      <lightdamage>0.80</lightdamage>
+      <mediumdamage>0.50</mediumdamage>
+    </DamageVariants>
+    <DeathType>corpse</DeathType>
+    <RegenRate>-2</RegenRate>
+  </Health>
+  <Identity>
+    <GenericName>Flaming Pig</GenericName>
+    <Icon>units/flaming_pig.png</Icon>
+  </Identity>
+  <ResourceSupply disable=""/>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/animal/pig_death.xml</death>
+      <order_walk>actor/fauna/animal/pig_flaming_order.xml</order_walk>
+      <select>actor/fauna/animal/pig_flaming_select.xml</select>
+      <trained>actor/fauna/animal/pig_flaming_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">3.5</Speed>
+    </Run>
+    <WalkSpeed op="mul">3.5</WalkSpeed>
+  </UnitMotion>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>fauna/pig_flaming.xml</Actor>
+  </VisualActor>
+</Entity>

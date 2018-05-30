@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This entity file is meant to make animals move
+ on the map instead of just staying there,
+ but not affect the gameplay in any way.
+ They have a minimum number of components. -->
+<Entity>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>false</Floating>
+    <FloatDepth>0.0</FloatDepth>
+    <TurnRate>6.0</TurnRate>
+  </Position>
+  <Selectable>
+    <EditorOnly/>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
+    <FeedTimeMax>2</FeedTimeMax>
+    <FeedTimeMin>1</FeedTimeMin>
+    <FleeDistance>10.0</FleeDistance>
+    <FormationController>false</FormationController>
+    <NaturalBehaviour>passive</NaturalBehaviour>
+    <RoamDistance>20</RoamDistance>
+    <RoamTimeMax>100000</RoamTimeMax>
+    <RoamTimeMin>10000</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <CostClass>default</CostClass>
+    <FormationController>false</FormationController>
+    <Run>
+      <Speed op="mul">1.2</Speed>
+    </Run>
+    <PassabilityClass>unrestricted</PassabilityClass>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <Visibility>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+    <RetainInFog>true</RetainInFog>
+  </Visibility>
+  <Vision>
+    <Range>0</Range>
+  </Vision>
+  <VisualActor>
+    <SilhouetteDisplay>false</SilhouetteDisplay>
+    <SilhouetteOccluder>false</SilhouetteOccluder>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly>
+  </VisualActor>
+</Entity>
