@@ -1,0 +1,11 @@
+{
+  "affects": ["Worker"],
+  "auraDescription": "Workers +20% farming gather rate.",
+  "auraName": "Farming bonus",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2}
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/farming.png",
+  "radius": 60,
+  "type": "range"
+}

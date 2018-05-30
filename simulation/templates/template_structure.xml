@@ -84,6 +84,7 @@
   </Obstruction>
   <OverlayRenderer/>
   <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <TechCostMultiplier>
       <food>1.0</food>
       <metal>1.0</metal>

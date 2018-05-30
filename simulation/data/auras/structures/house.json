@@ -1,0 +1,13 @@
+{
+  "affects": ["FemaleCitizen"],
+  "auraDescription": "Women +1 crush, hack, and pierce armour.",
+  "auraName": "Shelter",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": 1},
+    {"value": "Armour/Hack",   "add": 1},
+    {"value": "Armour/Pierce", "add": 1}
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
+  "radius": 15,
+  "type": "range"
+}

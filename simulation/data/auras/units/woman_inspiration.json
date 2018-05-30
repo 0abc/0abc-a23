@@ -1,0 +1,16 @@
+{
+  "affects": ["Soldier"],
+  "auraDescription": "Soldiers +10% build rate.",
+  "auraName": "Inspiration",
+  "modifications": [
+    {"value": "Builder/Rate", "multiply": 1.1}
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png",
+  "rangeOverlay" : {
+    "lineTexture": "outline_border.png",
+    "lineTextureMask": "outline_border_mask.png",
+    "lineThickness": 0.075
+  },
+  "radius": 10,
+  "type": "range"
+}
