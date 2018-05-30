@@ -1,4 +1,4 @@
-# # 0 A.D. is Actually Before Christ
+# 0 A.D. is Actually Before Christ
 **0abc**, a modification of “0 A.D. Empires Ascendant”, version 0.0.23 “Alpha XXIII: Ken Wood”
 
 ## Instructions
@@ -12,3 +12,5 @@
 * Add, remove, or move up or down any other mods, click “Save Configuration” and “Start Mods”
 * Click “Learn To Play” and “Structure Tree” to see the mod(s) implemented.
 * For more detailed information, please have a look at **0abc-readme.pdf**
+
+## Changelog
