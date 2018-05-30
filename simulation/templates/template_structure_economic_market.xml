@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="33.0" depth="29.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">LandTrader</List>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">1.5</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">BarterMarket</Classes>
+    <GenericName>Market</GenericName>
+    <Icon>structures/market.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Market</VisibleClasses>
+  </Identity>
+  <Loot>
+    <silver>30</silver>
+    <wood>60</wood>
+  </Loot>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
+  <Obstruction>
+    <Static width="30.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      armour_trader
+      speed_trader
+      trade_gain_1
+      trade_gain_2
+      trade_gain_3
+      trade_gain_4
+      trade_international
+      unlock_shared_los
+      unlock_shared_dropsites
+    </Technologies>
+    <Entities datatype="tokens">
+      {civ}/support_trader
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_market.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_market.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>40</Radius>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <Auras datatype="tokens">
+    structures/farmstead
+  </Auras>
+  <Capturable>
+    <CapturePoints op="mul">0.6</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">0.45</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="14.0" depth="14.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">0.9</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <GenericName>Farmstead</GenericName>
+    <Icon>structures/farmstead.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Dropsite for food. Research food gathering improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="12.0" depth="12.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      gather_forage
+      gather_farm_1
+      gather_farm_2
+      gather_farm_3
+      gather_farm_4
+    </Technologies>
+  </ProductionQueue>
+  <RallyPoint disable=""/>
+  <ResourceDropsite>
+    <Sharable>true</Sharable>
+    <Types>food</Types>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_farmstead.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_farmstead.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <BuildRestrictions>
+    <PlacementType>shore</PlacementType>
+    <Territory>own ally neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="18.0" depth="18.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">LandTrader</List>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">2.5</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Naval NavalMarket ConquestCritical</Classes>
+    <GenericName>Commercial Dock</GenericName>
+    <Icon>structures/dock.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Construct fishing boats to gather meat and merchant ships to trade with other docks.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Market Dock</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <wood>40</wood>
+  </Loot>
+  <Market>
+    <InternationalBonus>0.2</InternationalBonus>
+    <TradeType>land naval</TradeType>
+  </Market>
+  <Obstruction>
+    <Static width="18.0" depth="18.0"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/ship_fishing
+      {civ}/ship_merchant
+      {civ}/ship_skiff
+      {civ}/ship_barge
+      {civ}/ship_fire
+    </Entities>
+    <Technologies datatype="tokens">
+      gather_fish
+      training_naval
+    </Technologies>
+  </ProductionQueue>
+  <RallyPointRenderer>
+    <LinePassabilityClass>ship</LinePassabilityClass>
+  </RallyPointRenderer>
+  <ResourceDropsite>
+    <Types>food metal silver stone wood</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_dock.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_dock.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

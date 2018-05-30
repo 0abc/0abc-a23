@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <Auras datatype="tokens">
+    structures/corral
+  </Auras>
+  <Capturable>
+    <CapturePoints op="mul">0.6</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">0.5</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square width="12.0" depth="22.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">0.6</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Corral</GenericName>
+    <Icon>structures/corral.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Raise herd animals for food.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Corral</VisibleClasses>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="9.5" depth="19.75"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      gaia/fauna_goat
+      gaia/fauna_sheep
+      gaia/fauna_pig
+    </Entities>
+    <Technologies datatype="tokens">
+      gather_animals_stockbreeding
+      speed_horse_1
+      speed_horse_2
+      speed_horse_3
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_corral.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_corral.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

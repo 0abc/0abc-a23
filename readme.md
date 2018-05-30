@@ -16,7 +16,7 @@
 ## Overview
 * introduced a new resource: silver
 * all units are bribable (vision sharing)
-* "female citizen" is renamed to "woman"; can no longer build
+* economic structures can be build in neutral territory
 * markets are available for all civilizations in village phase
 * fauna is no longer visible in fog
 * team bonuses are disabled for all civilizations
