@@ -39,4 +39,7 @@
   <Vision>
     <Range>0</Range>
   </Vision>
+  <VisionSharing>
+    <Bribable>false</Bribable>
+  </VisionSharing>
 </Entity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object hidden="true" name="unitBarterPanel" size="12 12 100% 100%">
+  <repeat count="6">
+    <!-- Buy -->
+    <object name="unitBarterBuyButton[n]" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottomBold" hidden="true">
+      <object name="unitBarterBuyIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
+      <object name="unitBarterBuyAmount[n]" ghost="true" style="resourceText" type="text" size="0 0 100% 50%"/>
+    </object>
+    <!-- Sell -->
+    <object name="unitBarterSellButton[n]" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottomBold" hidden="true">
+      <object name="unitBarterSellIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
+      <object name="unitBarterSellAmount[n]" ghost="true" style="resourceText" type="text" size="0 0 100% 50%"/>
+      <object name="unitBarterSellSelection[n]" hidden="true" type="image" ghost="true" size="2 2 100%-2 100%-2" sprite="stretched:session/icons/corners.png"/>
+    </object>
+  </repeat>
+</object>

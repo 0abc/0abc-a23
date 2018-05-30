@@ -1,0 +1,15 @@
+{
+  "aiAnalysisInfluenceGroup": "ignore",
+  "code": "food",
+  "description": "Gather from hunting animals, foraging berry bushes, fishing, or agrigulture.",
+  "name": "Food",
+  "order": 2,
+  "subtypes": {
+    "cheese": "Cheese",
+    "fish": "Fish",
+    "fruit": "Fruit",
+    "grain": "Grain",
+    "meat": "Meat"
+  },
+  "truePrice": 100
+}

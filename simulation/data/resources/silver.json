@@ -1,0 +1,13 @@
+{
+  "aiAnalysisInfluenceGroup": "ignore",
+  "code": "silver",
+  "description": "Collect silver through trade or from taxation.",
+  "name": "Silver",
+  "order": 1,
+  "subtypes": {
+    "electrum": "Electrum",
+    "gold": "Gold",
+    "silver": "Silver"
+  },
+  "truePrice": 100
+}

@@ -1,0 +1,12 @@
+{
+  "aiAnalysisInfluenceGroup": "sparse",
+  "code": "stone",
+  "description": "Gather from stone quarries, rocks, or ruins.",
+  "name": "Stone",
+  "order": 5,
+  "subtypes": {
+    "rock": "Rock",
+    "ruins": "Ruins"
+  },
+  "truePrice": 100
+}

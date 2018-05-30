@@ -12,6 +12,7 @@
     <Resources>
       <food>0</food>
       <metal>0</metal>
+      <silver>0</silver>
       <stone>0</stone>
       <wood>0</wood>
     </Resources>
@@ -129,7 +130,7 @@
     <Range>50</Range>
   </Vision>
   <VisionSharing>
-    <Bribable>false</Bribable>
+    <Bribable>true</Bribable>
   </VisionSharing>
   <VisualActor>
     <SilhouetteDisplay>true</SilhouetteDisplay>

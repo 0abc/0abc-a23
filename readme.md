@@ -13,4 +13,8 @@
 * Click “Learn To Play” and “Structure Tree” to see the mod(s) implemented.
 * For more detailed information, please have a look at **0abc-readme.pdf**
 
-## Changelog
+## Overview
+* introduced a new resource: silver
+* all units are bribable (vision sharing)
+* fauna is no longer visible in fog
+* team bonuses are disabled for all civilizations
