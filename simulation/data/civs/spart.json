@@ -1,0 +1,121 @@
+{
+  "Code":"spart",
+  "Culture":"hele",
+  "Name":"Spartans",
+  "Emblem":"session/portraits/emblems/emblem_spartans.png",
+  "History":"Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco–Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
+  "Music":[
+      {"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+      {"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
+      {"File":"Forging_a_City-State.ogg", "Type":"peace"},
+      {"File":"The_Hellespont.ogg", "Type":"peace"}
+    ],
+  "Factions":
+  [
+    {
+      "Name":"Spartans",
+      "Description":"",
+      "Technologies":
+      [
+      ],
+      "Heroes":
+      [
+        {
+          "Name":"Leonidas I",
+          "Class":"",
+          "Armament":"",
+          "Emblem":"",
+          "History":"The king of Sparta, who fought and died at the battle of Thermopylae in 480 B.C. He successfully blocked the way of the huge Persian army through the narrow passage with his 7000 men, until Xerxes was made aware of a secret unobstructed path. Finding the enemy at his rear, Leonidas sent home most of his troops, choosing to stay behind with 300 hand-picked hoplites and win time for the others to withdraw."
+        },
+        {
+          "Name":"Brasidas",
+          "Class":"",
+          "Armament":"",
+          "Emblem":"",
+          "History":"Because Brasidas has sponsored their citizenship in return for service, Helot Skirmishers fight longer and harder for Sparta while within range of him."
+        },
+        {
+          "Name":"Agis III",
+          "Class":"",
+          "Armament":"",
+          "Emblem":"",
+          "History":"Agis III was the 20th Spartan king of the Eurypontid lineage. Agis cobbled together an alliance of Southern Greek states to fight off Macedonian hegemony while Alexander the Great was away in Asia on his conquest march. After securing Crete as a Spartan tributary, Agis then moved to besiege the city of Megalopolis in the Peloponnese, who was an ally of Macedon. Antipater, the Macedonian regent, lead an army to stop this new uprising. In the Battle of Megalopolis, the Macedonians prevailed in a long and bloody battle. Much like Leonidas 150 years earlier, instead of surrendering, Agis made a heroic final stand in order to buy time for his troops to retreat."
+        }
+      ]
+    }
+  ],
+  "CivBonuses":
+  [
+  ],
+  "TeamBonuses":
+  [
+  ],
+  "Structures":
+  [
+  ],
+  "WallSets":
+  [
+    "other/wallset_palisade",
+    "structures/spart_wallset_stone"
+  ],
+  "StartEntities":
+  [
+    {
+      "Template": "structures/spart_civil_centre"
+    },
+    {
+      "Template": "units/spart_support_female_citizen",
+      "Count": 5
+    },
+    {
+      "Template": "units/spart_infantry_spearman_b",
+      "Count": 2
+    },
+    {
+      "Template": "units/spart_infantry_javelinist_b",
+      "Count": 2
+    },
+    {
+      "Template": "units/spart_cavalry_javelinist_b"
+    }
+  ],
+  "Formations":
+  [
+    "special/formations/null",
+    "special/formations/box",
+    "special/formations/column_closed",
+    "special/formations/line_closed",
+    "special/formations/column_open",
+    "special/formations/line_open",
+    "special/formations/flank",
+    "special/formations/skirmish",
+    "special/formations/wedge",
+    "special/formations/battle_line",
+    "special/formations/phalanx"
+  ],
+  "AINames":
+  [
+    "Leonidas",
+    "Dienekes",
+    "Brasidas",
+    "Agis",
+    "Archidamus",
+    "Lysander",
+    "Pausanias",
+    "Agesilaus",
+    "Echestratus",
+    "Eurycrates",
+    "Eucleidas",
+    "Agesipolis"
+  ],
+  "SkirmishReplacements":
+  {
+    "skirmish/structures/default_house_10" : "structures/{civ}_house",
+    "skirmish/structures/default_wall_tower": "",
+    "skirmish/structures/default_wall_gate": "",
+    "skirmish/structures/default_wall_short": "",
+    "skirmish/structures/default_wall_medium": "",
+    "skirmish/structures/default_wall_long": ""
+  },
+  "SelectableInGameSetup": true
+}

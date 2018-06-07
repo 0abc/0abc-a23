@@ -1,0 +1,126 @@
+{
+  "Code":"ptol",
+  "Culture":"ptol",
+  "Name":"Ptolemies",
+  "Emblem":"session/portraits/emblems/emblem_ptolemies.png",
+  "History":"The Ptolemaic dynasty was a Macedonian Greek royal family which ruled the Ptolemaic Empire in Egypt during the Hellenistic period. Their rule lasted for 275 years, from 305 BC to 30 BC. They were the last dynasty of ancient Egypt.",
+  "Music":[
+      {"File":"Ammon-Ra.ogg", "Type":"peace"},
+      {"File":"Sands_of_Time.ogg", "Type":"peace"},
+      {"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
+      {"File":"Valley_of_the_Nile.ogg", "Type":"peace"}
+    ],
+  "Factions":
+  [
+    {
+      "Name":"Ptolemaic Egyptians",
+      "Description":"The great Greek-Macedonian dynastic rule over Ancient Egypt.",
+      "Technologies":
+      [
+      ],
+      "Heroes":
+      [
+        {
+          "Name":"Ptolemaios A' Soter",
+          "Class":"",
+          "Armament":"",
+          "Emblem":"",
+          "History":"."
+        },
+        {
+          "Name":"Ptolemaios D' Philopater",
+          "Class":"",
+          "Armament":"",
+          "Emblem":"",
+          "History":"."
+        },
+        {
+          "Name":"Kleopatra H' Philopater",
+          "Class":"",
+          "Armament":"",
+          "Emblem":"",
+          "History":"."
+        }
+      ]
+    }
+  ],
+  "CivBonuses":
+  [
+  ],
+  "TeamBonuses":
+  [
+  ],
+  "Structures":
+  [
+  ],
+  "WallSets":
+  [
+    "other/wallset_palisade",
+    "structures/ptol_wallset_stone"
+  ],
+  "StartEntities":
+  [
+    {
+      "Template": "structures/ptol_civil_centre"
+    },
+    {
+      "Template": "units/ptol_support_female_citizen",
+      "Count": 5
+    },
+    {
+      "Template": "units/ptol_infantry_pikeman_b",
+      "Count": 2
+    },
+    {
+      "Template": "units/ptol_infantry_javelinist_b",
+      "Count": 2
+    },
+    {
+      "Template": "units/ptol_cavalry_archer_b"
+    }
+  ],
+  "Formations":
+  [
+    "special/formations/null",
+    "special/formations/box",
+    "special/formations/column_closed",
+    "special/formations/line_closed",
+    "special/formations/column_open",
+    "special/formations/line_open",
+    "special/formations/flank",
+    "special/formations/skirmish",
+    "special/formations/wedge",
+    "special/formations/battle_line",
+    "special/formations/phalanx",
+    "special/formations/syntagma"
+  ],
+  "AINames":
+  [
+    "Ptolemy Soter",
+    "Ptolemy Philadelphus",
+    "Ptolemy Epigone",
+    "Ptolemy Eurgetes",
+    "Ptolemy Philopater",
+    "Ptolemy Epiphanes",
+    "Ptolemy Philometor",
+    "Ptolemy Eupator",
+    "Ptolemy Alexander",
+    "Ptolemy Neos Dionysos",
+    "Ptolemy Neos Philopater",
+    "Berenice Philopater",
+    "Cleopatra Tryphaena",
+    "Berenice Epiphaneia",
+    "Cleopatra Philopater",
+    "Cleopatra Selene",
+    "Cleopatra II Philometora Soteira",
+    "Arsinoe IV",
+    "Arsinoe II"
+  ],
+  "SkirmishReplacements":
+  {
+    "skirmish/units/default_infantry_melee_b": "units/ptol_infantry_pikeman_b",
+    "skirmish/units/default_cavalry": "units/ptol_cavalry_archer_b",
+    "skirmish/structures/default_house_5": "structures/{civ}_house"
+  },
+  "SelectableInGameSetup": true
+}
