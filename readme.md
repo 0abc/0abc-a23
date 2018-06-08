@@ -20,3 +20,5 @@
 * markets are available for all civilizations in village phase
 * fauna is no longer visible in fog
 * team bonuses are disabled for all civilizations
+* siege weapons are no longer capturable
+* battering rams can no longer attack organic units

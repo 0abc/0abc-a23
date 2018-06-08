@@ -38,7 +38,7 @@
     <Unhealable>false</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Unit ConquestCritical</Classes>
+    <Classes datatype="tokens">Unit ConquestCritical Bribable</Classes>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -110,6 +110,7 @@
   </UnitAI>
   <UnitMotion>
     <FormationController>false</FormationController>
+    <PassabilityClass>default</PassabilityClass>
     <Run>
       <DecayTime>0.2</DecayTime>
       <Range>50.0</Range>
@@ -117,7 +118,6 @@
       <RegenTime>0.1</RegenTime>
       <Speed>15.0</Speed>
     </Run>
-    <PassabilityClass>default</PassabilityClass>
     <WalkSpeed>9.0</WalkSpeed>
   </UnitMotion>
   <Visibility>

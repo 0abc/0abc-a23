@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>1</Hack>
+    <Pierce>50</Pierce>
+  </Armour>
+  <Identity>
+    <GenericName>Siege</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch-roll</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <order_attack>attack/siege/ram_move.xml</order_attack>
+      <order_walk>attack/siege/ram_move.xml</order_walk>
+      <select>attack/siege/siege_select.xml</select>
+      <trained>attack/siege/ram_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.5</BarHeight>
+    <BarWidth>4.0</BarWidth>
+  </StatusBars>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+  </UnitMotion>
+</Entity>

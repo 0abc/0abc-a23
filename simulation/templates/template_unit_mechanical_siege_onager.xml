@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Ship>
+          <Classes>Ship</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Ship>
+      </Bonuses>
+      <Crush>90.0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0.0</Hack>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>30.0</MinRange>
+      <Pierce>0.0</Pierce>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>4000</PrepareTime>
+      <Projectile>
+        <ImpactActorName>props/units/weapons/rock_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+      </Projectile>
+      <ProjectileSpeed>37.5</ProjectileSpeed>
+      <RepeatTime>5000</RepeatTime>
+      <Splash>
+        <Crush>30.0</Crush>
+        <FriendlyFire>true</FriendlyFire>
+        <Hack>0.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Range>10</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+      <Spread>4.0</Spread>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <food>100</food>
+      <metal>100</metal>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>4.5</Height>
+    <Square width="6.0" depth="15.0"/>
+  </Footprint>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <GenericName>Stone Thrower</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Catapult</VisibleClasses>
+  </Identity>
+  <Pack>
+    <Time>12000</Time>
+  </Pack>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/siegeprojectilehit.xml</attack_impact_ranged>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed>9.0</Speed>
+    </Run>
+    <WalkSpeed>7.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+</Entity>

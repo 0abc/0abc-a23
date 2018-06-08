@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0.0</Hack>
+      <MaxRange>120.0</MaxRange>
+      <MinRange>15.0</MinRange>
+      <Pierce>80.0</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>3000</PrepareTime>
+      <ProjectileSpeed>150.0</ProjectileSpeed>
+      <RepeatTime>4000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <food>100</food>
+      <metal>150</metal>
+      <silver>0</silver>
+      <stone>0</stone>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="5.0" depth="12.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <GenericName>Bolt Shooter</GenericName>
+    <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
+  </Identity>
+  <Pack>
+    <Time>9000</Time>
+  </Pack>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed>10</Speed>
+    </Run>
+    <WalkSpeed>8.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+</Entity>

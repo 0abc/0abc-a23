@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Structures>
+          <Classes>Defensive</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Structures>
+      </Bonuses>
+      <Crush>40.0</Crush>
+      <Hack>0.0</Hack>
+      <MaxRange>6.5</MaxRange>
+      <Pierce>0.0</Pierce>
+      <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <food>100</food>
+      <metal>100</metal>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support Infantry</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>8</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>400</Max>
+  </Health>
+  <Identity>
+    <GenericName>Battering Ram</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Garrison infantry for transport.
+Can not attack organic units or fields.
+Counters: 2.0× vs Walls, Towers, and Fortresses.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/siege/ram_attack.xml</attack_melee>
+      <order_attack>attack/siege/ram_attack_order.xml</order_attack>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed>6.0</Speed>
+    </Run>
+    <WalkSpeed>9.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+</Entity>

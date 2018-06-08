@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkAccel>2.0</SinkAccel>
+    <SinkRate>0.0</SinkRate>
+  </Decay>
+  <Health>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <GenericName>Mechanical</GenericName>
+    <VisibleClasses datatype="tokens">Mechanical</VisibleClasses>
+  </Identity>
+  <Repairable>
+    <RepairTimeRatio>4.0</RepairTimeRatio>
+  </Repairable>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>
