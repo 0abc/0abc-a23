@@ -68,9 +68,9 @@
   </StatusBars>
   <UnitMotion>
     <Run>
-      <Speed>6.0</Speed>
+      <Speed op="mul">0.4</Speed>
     </Run>
-    <WalkSpeed>4.0</WalkSpeed>
+    <WalkSpeed op="mul">0.4</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>100</Range>

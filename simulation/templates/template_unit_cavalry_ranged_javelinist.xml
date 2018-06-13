@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange op="mul">2.0</MaxRange>
+      <Pierce>15</Pierce>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <Spread>4.0</Spread>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>5</metal>
+      <wood>45</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Cavalry Javelinist</GenericName>
+    <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
+  </Identity>
+</Entity>

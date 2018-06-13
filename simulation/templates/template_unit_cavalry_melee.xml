@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry">
+  <Armour>
+    <Crush>3</Crush>
+    <Hack>3</Hack>
+    <Pierce>3</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Camelry>
+          <Classes>Camel</Classes>
+          <Multiplier>0.75</Multiplier>
+        </Camelry>
+        <Chariotry>
+          <Classes>Chariot</Classes>
+          <Multiplier>0.75</Multiplier>
+        </Chariotry>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>3</MaxRange>
+      <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Identity>
+    <GenericName>Melee Cavalry</GenericName>
+    <Tooltip>Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+  </Identity>
+</Entity>

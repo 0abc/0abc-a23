@@ -54,9 +54,9 @@ Counters: 2.0× vs Walls, Towers, and Fortresses.</Tooltip>
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed>6.0</Speed>
+      <Speed op="mul">0.6</Speed>
     </Run>
-    <WalkSpeed>9.0</WalkSpeed>
+    <WalkSpeed op="mul">0.6</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>40</Range>

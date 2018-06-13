@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Attack>
+    <Melee>
+      <Crush>1</Crush>
+      <Hack>0</Hack>
+      <Pierce>8</Pierce>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>40</metal>
+      <wood>10</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Cavalry Lancer</GenericName>
+    <VisibleClasses datatype="tokens">Lancer</VisibleClasses>
+  </Identity>
+</Entity>

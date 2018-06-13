@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged">
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.75</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange op="mul">3.0</MaxRange>
+      <Pierce>9</Pierce>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>25</metal>
+      <wood>25</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Cavalry Crossbowman</GenericName>
+    <Tooltip>Penalties: 0.75× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
+  </Identity>
+</Entity>

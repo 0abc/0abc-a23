@@ -118,7 +118,7 @@
       <RegenTime>0.1</RegenTime>
       <Speed>15.0</Speed>
     </Run>
-    <WalkSpeed>9.0</WalkSpeed>
+    <WalkSpeed>10.0</WalkSpeed>
   </UnitMotion>
   <Visibility>
     <AlwaysVisible>false</AlwaysVisible>

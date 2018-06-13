@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <Value>2</Value>
+    </Capture>
+    <Slaughter>
+      <Crush>0</Crush>
+      <Hack>100</Hack>
+      <MaxRange>2</MaxRange>
+      <Pierce>0</Pierce>
+    </Slaughter>
+  </Attack>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <food>75</food>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>7.5</Height>
+    <Square width="4" depth="6"/>
+  </Footprint>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Human Organic CitizenSoldier</Classes>
+    <GenericName>Cavalry</GenericName>
+    <Formations datatype="tokens">
+      special/formations/wedge
+    </Formations>
+    <Rank>Basic</Rank>
+    <VisibleClasses datatype="tokens">Soldier Cavalry Citizen</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>120</xp>
+  </Loot>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Promotion>
+    <RequiredXp>150</RequiredXp>
+  </Promotion>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.05</food>
+    </Rates>
+  </ResourceTrickle>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <death>actor/fauna/death/death_horse.xml</death>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <trained>interface/alarm/alarm_create_cav.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>6.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.5</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+</Entity>
