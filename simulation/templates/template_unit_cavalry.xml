@@ -34,7 +34,7 @@
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
-    <Rank>Basic</Rank>
+    <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Cavalry Citizen</VisibleClasses>
   </Identity>
   <Loot>
