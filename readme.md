@@ -2,11 +2,11 @@
 **0abc**, a modification of “0 A.D. Empires Ascendant”, version 0.0.23 “Alpha XXIII: Ken Wood”
 
 ## Table of Contents
-* https://github.com/0abc/0abc-a23#Instructions
-* https://github.com/0abc/0abc-a23#Overview
-* https://github.com/0abc/0abc-a23#Population_costs
-* https://github.com/0abc/0abc-a23#Upkeep
-* https://github.com/0abc/0abc-a23#Unit_counters
+* https://github.com/0abc/0abc-a23#instructions
+* https://github.com/0abc/0abc-a23#overview
+* https://github.com/0abc/0abc-a23#population-costs
+* https://github.com/0abc/0abc-a23#upkeep
+* https://github.com/0abc/0abc-a23#unit-counters
 
 ## Instructions
 * Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-a23.git`).
