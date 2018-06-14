@@ -1,59 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Attack>
-    <Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
-      <Value>2</Value>
-    </Capture>
-    <Slaughter>
+    <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
       <Crush>0</Crush>
-      <Hack>100</Hack>
-      <MaxRange>2</MaxRange>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
       <Pierce>0</Pierce>
-    </Slaughter>
+      <MaxRange>18</MaxRange>
+      <MinRange>0</MinRange>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+      <Spread>2.0</Spread>
+    </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime>30</BuildTime>
-    <Population>2</Population>
-    <Resources>
-      <food>75</food>
-    </Resources>
-  </Cost>
   <Footprint replace="">
-    <Height>7.5</Height>
-    <Square width="4" depth="6"/>
+    <Height>5</Height>
+    <Square width="7.5" depth="15"/>
   </Footprint>
   <Identity>
     <Classes datatype="tokens">Human Organic CitizenSoldier</Classes>
-    <GenericName>Cavalry</GenericName>
+    <GenericName>Chariot</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Cavalry Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Chariot Citizen</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>120</xp>
-  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <Promotion>
-    <RequiredXp>150</RequiredXp>
-  </Promotion>
-  <ResourceTrickle>
-    <Interval>1000</Interval>
-    <Rates>
-      <food>-0.05</food>
-    </Rates>
-  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
@@ -76,13 +66,7 @@
   <StatusBars>
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
-  <UnitMotion>
-    <Run>
-      <Speed op="mul">1.5</Speed>
-    </Run>
-    <WalkSpeed op="mul">1.5</WalkSpeed>
-  </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>85</Range>
   </Vision>
 </Entity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange op="mul">2.0</MaxRange>
+      <Pierce>21</Pierce>
+      <ProjectileSpeed>60</ProjectileSpeed>
+      <Spread>3.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Javelinist</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>2</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <Resources>
+      <metal>50</metal>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Biga Javelinist</GenericName>
+    <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
+  </Identity>
+</Entity>

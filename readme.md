@@ -22,14 +22,16 @@
 
 ## Overview
 * introduced a new resource: silver
-* all units are bribable (vision sharing)
 * economic structures can be build in neutral territory
 * markets are available in village phase to all civilizations
-* fauna is no longer visible in fog
 * team bonuses are disabled for all civilizations
+* all units are bribable (vision sharing), excluding fauna
+* fauna is no longer visible in fog
+* cavalry can no longer gather resources
+* camelry, chariotry, and elephantry are no longer considered cavalry
+* chariotry can no longer attack ships, siege, or structures
 * siege weapons are no longer capturable
 * battering rams can no longer attack organic units
-* cavalry can no longer gather resources
 
 ## Population costs
 * 0: fauna, catafalques, heroes, ships
@@ -39,12 +41,20 @@
 * 6: quadrigae, war elephants, siege towers
 
 ## Upkeep
+* Camelry: −0.04 food per second
 * Cavalry: −0.05 food per second
+* Bigae: −0.10 food per second
+* Quadrigae: −0.16 food per second
+* Elephantry: −0.20 food per second
 
 ## Unit counters
+* camel archers: 0.5× vs Elephantry
+* camel javelinists: –
+* camel spearmen: 0.75× vs Camelry, 0.75× vs Chariotry, 0.5× vs Elephantry
 * cavalry archers: 0.5× vs Elephantry
 * cavalry crossbowmen: 0.75× vs Elephantry
 * cavalry javelinists: –
+* war elephants: –
 * melee cavalry: 0.75× vs Camelry, 0.75× vs Chariotry, 0.5× vs Elephantry
 * bolt shooters: –
 * stone throwers: 2.0× vs Ships

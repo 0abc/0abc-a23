@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion">
+  <Armour>
+    <Crush>15</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush>60</Crush>
+      <Hack>0</Hack>
+      <MaxRange>6</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Population>6</Population>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <food>300</food>
+      <metal>150</metal>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="3.5"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max op="mul">6.0</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Organic Human</Classes>
+    <GenericName>War Elephant</GenericName>
+    <Rank>0</Rank>
+    <VisibleClasses datatype="tokens">Soldier Elephant Melee</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>360</xp>
+  </Loot>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Promotion>
+    <RequiredXp>300</RequiredXp>
+  </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_melee>actor/fauna/animal/elephant_attack.xml</attack_melee>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <death>actor/fauna/animal/elephant_death.xml</death>
+      <order_attack>actor/fauna/animal/elephant_attack_order.xml</order_attack>
+      <order_gather>actor/fauna/animal/elephant_order.xml</order_gather>
+      <order_garrison>actor/fauna/animal/elephant_order.xml</order_garrison>
+      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>actor/fauna/animal/elephant_select.xml</select>
+      <trained>actor/fauna/animal/elephant_trained.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>6.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <Run>
+      <Speed op="mul">1.2</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+</Entity>

@@ -12,7 +12,7 @@
       <Gravity>9.81</Gravity>
       <Hack>0</Hack>
       <Pierce>0</Pierce>
-      <MaxRange>16</MaxRange>
+      <MaxRange>17</MaxRange>
       <MinRange>0</MinRange>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>750</PrepareTime>
@@ -22,13 +22,13 @@
     </Ranged>
   </Attack>
   <Health>
-    <Max op="mul">1.2</Max>
+    <Max op="mul">1.1</Max>
   </Health>
   <Identity>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
-    <GenericName>Ranged Cavalry</GenericName>
+    <GenericName>Ranged Camel</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
 </Entity>

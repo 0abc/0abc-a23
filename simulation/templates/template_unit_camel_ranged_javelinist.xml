@@ -13,11 +13,11 @@
   <Cost>
     <Resources>
       <metal>5</metal>
-      <wood>45</wood>
+      <wood>35</wood>
     </Resources>
   </Cost>
   <Identity>
-    <GenericName>Cavalry Javelinist</GenericName>
+    <GenericName>Camel Javelinist</GenericName>
     <Tooltip>Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>

@@ -15,10 +15,10 @@
     </Slaughter>
   </Attack>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>25</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>75</food>
+      <food>60</food>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -27,26 +27,26 @@
   </Footprint>
   <Identity>
     <Classes datatype="tokens">Human Organic CitizenSoldier</Classes>
-    <GenericName>Cavalry</GenericName>
+    <GenericName>Camel</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Cavalry Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Camel Citizen</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>120</xp>
+    <xp>90</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
   <Promotion>
-    <RequiredXp>150</RequiredXp>
+    <RequiredXp>125</RequiredXp>
   </Promotion>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>-0.05</food>
+      <food>-0.04</food>
     </Rates>
   </ResourceTrickle>
   <Selectable>
@@ -78,11 +78,11 @@
   </StatusBars>
   <UnitMotion>
     <Run>
-      <Speed op="mul">1.5</Speed>
+      <Speed op="mul">1.8</Speed>
     </Run>
-    <WalkSpeed op="mul">1.5</WalkSpeed>
+    <WalkSpeed op="mul">1.8</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>85</Range>
   </Vision>
 </Entity>

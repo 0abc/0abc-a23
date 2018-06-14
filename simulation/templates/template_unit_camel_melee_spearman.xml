@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged">
+<Entity parent="template_unit_cavalry_melee">
   <Attack>
-    <Ranged>
+    <Melee>
       <Bonuses>
         <Elephantry>
           <Classes>Elephant</Classes>
@@ -10,20 +10,19 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
-      <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>6</Pierce>
-    </Ranged>
+      <Pierce>8</Pierce>
+    </Melee>
   </Attack>
   <Cost>
     <Resources>
       <metal>15</metal>
-      <wood>35</wood>
+      <wood>25</wood>
     </Resources>
   </Cost>
   <Identity>
-    <GenericName>Cavalry Archer</GenericName>
+    <GenericName>Camel Spearman</GenericName>
     <Tooltip>Penalties: 0.5× vs Elephants.
 Can capture.</Tooltip>
-    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
 </Entity>

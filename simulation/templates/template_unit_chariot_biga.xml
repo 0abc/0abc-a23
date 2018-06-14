@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+  </Armour>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <food>150</food>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">2.4</Max>
+  </Health>
+  <Identity>
+    <GenericName>Biga</GenericName>
+    <VisibleClasses datatype="tokens">Biga</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>180</xp>
+  </Loot>
+  <Promotion>
+    <RequiredXp>210</RequiredXp>
+  </Promotion>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.10</food>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.6</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+</Entity>

@@ -30,9 +30,13 @@
       <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
   <Identity>
     <GenericName>Melee Cavalry</GenericName>
-    <Tooltip>Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
+    <Tooltip>Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.
+Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
 </Entity>

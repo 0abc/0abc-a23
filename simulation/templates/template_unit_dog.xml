@@ -7,23 +7,20 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>0.0</Crush>
-      <Hack>7</Hack>
-      <MaxRange>3</MaxRange>
-      <Pierce>2</Pierce>
+      <Crush>0</Crush>
+      <Hack>3</Hack>
+      <MaxRange>2</MaxRange>
+      <Pierce>3</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>15</BuildTime>
+    <BuildTime>10</BuildTime>
     <Population>0</Population>
     <Resources>
-      <food>100</food>
-      <metal>0</metal>
-      <stone>0</stone>
-      <wood>0</wood>
+      <food>30</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -31,31 +28,27 @@
     <Height>3.0</Height>
   </Footprint>
   <Health>
-    <Max>90</Max>
+    <Max op="mul">0.3</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic Human</Classes>
+    <Classes datatype="tokens">Organic</Classes>
     <GenericName>War Dog</GenericName>
-    <Rank>Basic</Rank>
-    <Tooltip>Cannot attack structures.</Tooltip>
+    <Rank>0</Rank>
+    <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <metal>0</metal>
-    <stone>0</stone>
-    <wood>0</wood>
-    <xp>100</xp>
+    <xp>15</xp>
   </Loot>
   <Promotion>
-    <RequiredXp>100</RequiredXp>
+    <RequiredXp>30</RequiredXp>
   </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>arrow/256x256.png</MainTexture>
-        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
@@ -81,9 +74,9 @@
   </TrainingRestrictions>
   <UnitMotion>
     <Run>
-      <Speed op="mul">1.6</Speed>
+      <Speed op="mul">1.4</Speed>
     </Run>
-    <WalkSpeed op="mul">1.6</WalkSpeed>
+    <WalkSpeed op="mul">1.4</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>30</Range>

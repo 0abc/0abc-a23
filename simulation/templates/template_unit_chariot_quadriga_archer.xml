@@ -10,20 +10,26 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
+      <Pierce>8</Pierce>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>6</Pierce>
     </Ranged>
   </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Archer</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>2</MaxArrowCount>
+  </BuildingAI>
   <Cost>
     <Resources>
-      <metal>15</metal>
-      <wood>35</wood>
+      <metal>80</metal>
+      <wood>120</wood>
     </Resources>
   </Cost>
   <Identity>
-    <GenericName>Cavalry Archer</GenericName>
+    <GenericName>Quadriga Archer</GenericName>
     <Tooltip>Penalties: 0.5× vs Elephants.
-Can capture.</Tooltip>
+Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
 </Entity>
