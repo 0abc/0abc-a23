@@ -41,6 +41,7 @@
 * 6: quadrigae, war elephants, siege towers
 
 ## Upkeep
+* Infantry: −0.02 food per second
 * Camelry: −0.04 food per second
 * Cavalry: −0.05 food per second
 * Bigae: −0.10 food per second
@@ -48,14 +49,18 @@
 * Elephantry: −0.20 food per second
 
 ## Unit counters
+* infantry archers: 0.5× vs Elephantry
+* infantry crossbowman: 0.75× vs Elephantry
+* infantry javelinists: –
+* melee infantry: –
 * camel archers: 0.5× vs Elephantry
 * camel javelinists: –
 * camel spearmen: 0.75× vs Camelry, 0.75× vs Chariotry, 0.5× vs Elephantry
 * cavalry archers: 0.5× vs Elephantry
 * cavalry crossbowmen: 0.75× vs Elephantry
 * cavalry javelinists: –
-* war elephants: –
 * melee cavalry: 0.75× vs Camelry, 0.75× vs Chariotry, 0.5× vs Elephantry
+* war elephants: –
 * bolt shooters: –
 * stone throwers: 2.0× vs Ships
 * battering rams: 2.0× vs Defensive

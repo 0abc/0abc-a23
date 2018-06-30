@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.75</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <Pierce>5</Pierce>
+      <MaxRange op="mul">4.0</MaxRange>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>25</metal>
+      <wood>25</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Crossbowman</GenericName>
+    <Tooltip>Penalties: 0.75× vs Elephants.
+Can capture.</Tooltip>
+    <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
+  </Identity>
+</Entity>

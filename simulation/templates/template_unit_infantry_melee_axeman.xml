@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Attack>
+    <Melee>
+      <Crush>2</Crush>
+      <Hack>5</Hack>
+      <Pierce>0</Pierce>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>15</metal>
+      <wood>35</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Axeman</GenericName>
+    <VisibleClasses datatype="tokens">Axeman</VisibleClasses>
+  </Identity>
+</Entity>

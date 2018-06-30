@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Attack>
+    <Ranged>
+      <Crush>5</Crush>
+      <Hack>0</Hack>
+      <MaxRange op="mul">3.0</MaxRange>
+      <Pierce>0</Pierce>
+      <ProjectileSpeed>45</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <stone>10</stone>
+      <wood>40</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Stone Slinger</GenericName>
+    <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
+  </Identity>
+</Entity>

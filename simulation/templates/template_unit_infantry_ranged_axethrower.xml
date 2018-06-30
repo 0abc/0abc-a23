@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Attack>
+    <Ranged>
+      <Crush>2</Crush>
+      <Hack>6</Hack>
+      <MaxRange op="mul">1.0</MaxRange>
+      <Pierce>0</Pierce>
+      <ProjectileSpeed>30</ProjectileSpeed>
+      <Spread>4.0</Spread>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>20</metal>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Axe Thrower</GenericName>
+    <VisibleClasses datatype="tokens">AxeThrower</VisibleClasses>
+  </Identity>
+</Entity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">>
+  <Attack>
+    <Melee>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>6</MaxRange>
+      <Pierce>5</Pierce>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>5</metal>
+      <wood>45</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Formations datatype="tokens">
+      special/formations/syntagma
+    </Formations>
+    <GenericName>Pikeman</GenericName>
+    <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
+  </Identity>
+</Entity>
