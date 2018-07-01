@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_galley">
+  <Attack>
+    <Melee>
+      <Crush op="mul">0.5</Crush>
+    </Melee>
+  </Attack>
+  <BuildingAI>
+    <MaxArrowCount>3</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <Resources>
+      <food op="mul">0.6</food>
+      <metal op="mul">0.6</metal>
+      <wood op="mul">0.6</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="8.0" depth="33.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">-Human -Siege Dog Female Healer Infantry Slave</List>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">0.6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Light Galley</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Triakóntoros</SpecificName>
+  </Identity>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-3.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+  </UnitMotion>
+</Entity>

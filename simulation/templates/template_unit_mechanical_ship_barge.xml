@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
+      <MaxRange>60</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>5</Pierce>
+      <PreferredClasses datatype="tokens">Human Ship</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+    <MaxArrowCount>24</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>100</metal>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="12.0" depth="36.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human Siege</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>45</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>1800</Max>
+  </Health>
+  <Identity>
+    <GenericName>Warbarge</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
+</Entity>

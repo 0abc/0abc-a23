@@ -15,6 +15,7 @@
   <Repairable>
     <RepairTimeRatio>4.0</RepairTimeRatio>
   </Repairable>
+  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Attack>
+    <Melee>
+      <Crush>200</Crush>
+      <Hack>0</Hack>
+      <MaxRange>10</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>7500</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Ship</RestrictedClasses>
+    </Melee>
+    <Ranged>
+      <Crush>0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
+      <MaxRange>60</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>6</Pierce>
+      <PreferredClasses datatype="tokens">Human Ship</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+    <MaxArrowCount>5</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>50</metal>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="8.0" depth="33.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human Siege</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>10</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <GenericName>Wargalley</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.5</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <Vision>
+    <Range>105</Range>
+  </Vision>
+</Entity>

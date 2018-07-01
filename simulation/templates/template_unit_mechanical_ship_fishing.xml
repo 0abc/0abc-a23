@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Armour>
+    <Crush>2</Crush>
+    <Hack>2</Hack>
+    <Pierce>4</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush>0</Crush>
+      <Hack>10</Hack>
+      <MaxRange>5</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!SeaCreature</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>15</food>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>6.0</Height>
+    <Square width="4.0" depth="10.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Healer Infantry</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>1</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">-ConquestCritical FishingBoat</Classes>
+    <Formations disable=""/>
+    <GenericName>Fishing Boat</GenericName>
+    <Tooltip>Fish the waters for food.</Tooltip>
+  </Identity>
+  <ResourceGatherer>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>60</food>
+    </Capacities>
+    <MaxDistance>6.0</MaxDistance>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <order_attack>actor/ship/boat_move.xml</order_attack>
+      <order_walk>actor/ship/boat_move.xml</order_walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed op="mul">1.2</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>75</Range>
+  </Vision>
+</Entity>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Armour>
+    <Crush>3</Crush>
+    <Hack>3</Hack>
+    <Pierce>6</Pierce>
+  </Armour>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>30</food>
+      <metal>60</metal>
+      <wood>120</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Support Infantry Cavalry Dog</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>15</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>600</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">-ConquestCritical NavalTrader</Classes>
+    <Formations disable=""/>
+    <GenericName>Merchant Ship</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Trade between docks. Garrison a Trader aboard for additional profit (+20% for each garrisoned). Gather profitable aquatic treasures.</Tooltip>
+    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
+  </Identity>
+  <ResourceGatherer>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>50</food>
+      <metal>50</metal>
+      <silver>50</silver>
+      <stone>50</stone>
+      <wood>50</wood>
+    </Capacities>
+    <MaxDistance>12.0</MaxDistance>
+    <Rates>
+      <treasure>1</treasure>
+    </Rates>
+  </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Trader>
+    <GainMultiplier>0.75</GainMultiplier>
+  </Trader>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed op="mul">1.1</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+</Entity>

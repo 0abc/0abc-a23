@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Armour>
+    <Crush>4</Crush>
+    <Hack>4</Hack>
+    <Pierce>8</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush>5</Crush>
+      <Hack>5</Hack>
+      <MaxRange>10</MaxRange>
+      <Pierce>5</Pierce>
+      <PrepareTime>50</PrepareTime>
+      <RepeatTime>100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <DeathDamage>
+    <Crush>300.0</Crush>
+    <FriendlyFire>true</FriendlyFire>
+    <Hack>300.0</Hack>
+    <Pierce>300.0</Pierce>
+    <Range>30</Range>
+    <Shape>Circular</Shape>
+  </DeathDamage>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="8.0" depth="24.0"/>
+  </Footprint>
+  <Health>
+    <DamageVariants>
+      <heavydamage>0.35</heavydamage>
+      <lightdamage>0.85</lightdamage>
+      <mediumdamage>0.65</mediumdamage>
+    </DamageVariants>
+    <Max>450</Max>
+    <RegenRate>-5</RegenRate>
+  </Health>
+  <Identity>
+    <GenericName>Fire Ship</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Rapidly drain the health of enemy ships. Slowly loses health due to being on fire, so use the Fire Ship quickly.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee Warship Fireship</VisibleClasses>
+  </Identity>
+  <Repairable disable=""/>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed op="mul">1.3</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.3</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
+</Entity>

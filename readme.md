@@ -44,6 +44,7 @@
 * 6: quadrigae, war elephants, siege towers
 
 ## Upkeep
+Food:
 * Healers, Women: −0.02 food per second
 * Infantry: −0.02 food per second
 * Traders: −0.03 food per second
@@ -53,6 +54,19 @@
 * Worker Elephants: −0.12 food per second
 * Quadrigae: −0.16 food per second
 * Elephantry: −0.20 food per second
+
+Silver:
+* Triaconters: −3.0 silver per 30 seconds
+* Penteconters: −6.0 silver per 30 seconds
+* Biremes: −12.0 silver per 30 seconds
+* Triremes: −18.0 silver per 30 seconds
+* Quadriremes: −24.0 silver per 30 seconds
+* Quinqueremes: −30.0 silver per 30 seconds
+* Sexiremes: −36.0 silver per 30 seconds
+* Septiremes: −42.0 silver per 30 seconds
+* Octoremes: −48.0 silver per 30 seconds
+* Noviremes: −54.0 silver per 30 seconds
+* Deceremes: −60.0 silver per 30 seconds
 
 ## Unit counters
 * infantry archers: 0.5× vs Elephantry

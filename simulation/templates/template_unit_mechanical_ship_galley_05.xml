@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_galley">
+  <Armour>
+    <Crush op="add">2</Crush>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">4</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush op="mul">5.0</Crush>
+    </Melee>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount op="mul">5.0</DefaultArrowCount>
+    <MaxArrowCount op="mul">5.0</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime op="add">50</BuildTime>
+    <Resources>
+      <food op="mul">5.0</food>
+      <metal op="mul">5.0</metal>
+      <wood op="mul">5.0</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.0" depth="48.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max op="mul">5.0</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">5.0</Max>
+  </Health>
+  <Identity>
+    <GenericName>Quinquereme</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Pentḗrēs</SpecificName>
+  </Identity>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-30.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.25</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.75</WalkSpeed>
+  </UnitMotion>
+</Entity>

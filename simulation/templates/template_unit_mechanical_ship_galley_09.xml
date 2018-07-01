@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_galley">
+  <Armour>
+    <Crush op="add">3</Crush>
+    <Hack op="add">3</Hack>
+    <Pierce op="add">6</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush op="mul">9.0</Crush>
+    </Melee>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount op="mul">9.0</DefaultArrowCount>
+    <MaxArrowCount op="mul">9.0</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime op="add">90</BuildTime>
+    <Resources>
+      <food op="mul">9.0</food>
+      <metal op="mul">9.0</metal>
+      <wood op="mul">9.0</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.0" depth="48.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max op="mul">9.0</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">9.0</Max>
+  </Health>
+  <Identity>
+    <GenericName>Novireme</GenericName>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
+    <SpecificName>Ennḗrēs</SpecificName>
+  </Identity>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-54.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.45</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.55</WalkSpeed>
+  </UnitMotion>
+</Entity>

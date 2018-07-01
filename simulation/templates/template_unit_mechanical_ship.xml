@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical">
+  <Cost>
+    <Population>0</Population>
+  </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkAccel>7.0</SinkAccel>
+    <SinkingAnim>true</SinkingAnim>
+    <SinkRate>0.5</SinkRate>
+  </Decay>
+  <Footprint replace="">
+    <Height>8.0</Height>
+    <MaxSpawnDistance>10</MaxSpawnDistance>
+    <Square width="6.0" depth="30.0"/>
+  </Footprint>
+  <Identity>
+    <Formations disable=""/>
+    <GenericName>Ship</GenericName>
+    <VisibleClasses datatype="tokens">Ship</VisibleClasses>
+  </Identity>
+  <Position>
+    <FloatDepth>0.0</FloatDepth>
+    <Floating>true</Floating>
+    <TurnRate>3.0</TurnRate>
+  </Position>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+    <Rates>
+      <silver>-0.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <death>actor/ship/warship_death.xml</death>
+      <order_attack>actor/ship/warship_move_01.xml</order_attack>
+      <order_gather>actor/ship/warship_move_01.xml</order_gather>
+      <order_walk>actor/ship/warship_move_01.xml</order_walk>
+      <select>actor/ship/ship_select_01.xml</select>
+      <trained>interface/alarm/alarm_create_warship.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.5</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <PassabilityClass>ship</PassabilityClass>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+</Entity>
