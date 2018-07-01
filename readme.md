@@ -27,6 +27,7 @@
 * team bonuses are disabled for all civilizations
 * all units are bribable (vision sharing), excluding fauna
 * fauna is no longer visible in fog
+* female citizens are renamed to simply women and they can no longer build
 * cavalry can no longer gather resources
 * camelry, chariotry, and elephantry are no longer considered cavalry
 * chariotry can no longer attack ships, siege, or structures
@@ -37,14 +38,19 @@
 * 0: fauna, catafalques, heroes, ships
 * 1: infantry, women, healers, traders
 * 2: camelry, cavalry
+* 3: worker elephants
 * 4: bigae, battering rams, bolt shooters, stone throwers
+* 5: –
 * 6: quadrigae, war elephants, siege towers
 
 ## Upkeep
+* Healers, Women: −0.02 food per second
 * Infantry: −0.02 food per second
+* Traders: −0.03 food per second
 * Camelry: −0.04 food per second
 * Cavalry: −0.05 food per second
 * Bigae: −0.10 food per second
+* Worker Elephants: −0.12 food per second
 * Quadrigae: −0.16 food per second
 * Elephantry: −0.20 food per second
 

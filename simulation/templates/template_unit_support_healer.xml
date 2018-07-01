@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Cost>
+    <Resources>
+      <food>25</food>
+      <silver>50</silver>
+    </Resources>
+  </Cost>
+  <Heal>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+    <HP>1</HP>
+    <Range>12</Range>
+    <RangeOverlay>
+      <LineTexture>heal_overlay_range.png</LineTexture>
+      <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
+      <LineThickness>0.35</LineThickness>
+    </RangeOverlay>
+    <Rate>500</Rate>
+    <UnhealableClasses datatype="tokens"/>
+  </Heal>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <GenericName>Healer</GenericName>
+    <Rank>0</Rank>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Heal units.</Tooltip>
+    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>25</xp>
+  </Loot>
+  <Promotion>
+    <RequiredXp>200</RequiredXp>
+  </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>plus/128x128.png</MainTexture>
+        <MainTextureMask>plus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <death>actor/human/death/{gender}_death.xml</death>
+      <order_attack>voice/{lang}/civ/civ_{gender}_go_out_against.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_heal>voice/{lang}/civ/civ_{gender}_heal.xml</order_heal>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <run>actor/human/movement/run.xml</run>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+</Entity>

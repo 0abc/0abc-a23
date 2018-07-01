@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Armour>
+    <Crush>9</Crush>
+    <Hack>3</Hack>
+    <Pierce>6</Pierce>
+  </Armour>
+  <Builder>
+    <Entities datatype="tokens"/>
+    <Rate>2.0</Rate>
+  </Builder>
+  <Cost>
+    <Population>3</Population>
+    <Resources>
+      <food>150</food>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="4.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <GenericName>Worker Elephant</GenericName>
+    <Tooltip>Mobile dropsite. Can also assist in constructing buildings.</Tooltip>
+    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <ResourceDropsite>
+    <Sharable>false</Sharable>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.12</food>
+    </Rates>
+  </ResourceTrickle>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>actor/fauna/animal/elephant_attack.xml</attack_melee>
+      <death>actor/fauna/animal/elephant_death.xml</death>
+      <order_attack>actor/fauna/animal/elephant_attack_order.xml</order_attack>
+      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
+      <select>actor/fauna/animal/elephant_select.xml</select>
+      <trained>actor/fauna/animal/elephant_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <Run>
+      <Speed op="mul">0.6</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.6</WalkSpeed>
+  </UnitMotion>
+</Entity>

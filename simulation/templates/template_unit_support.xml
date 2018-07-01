@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Cost>
+    <BuildTime>25</BuildTime>
+  </Cost>
+  <Identity>
+    <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
+    <Formations disable=""/>
+    <GenericName>Support</GenericName>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+  <Minimap>
+    <Type>support</Type>
+  </Minimap>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.02</food>
+    </Rates>
+  </ResourceTrickle>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.9</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
+</Entity>

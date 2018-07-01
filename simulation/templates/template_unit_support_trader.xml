@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Auras datatype="tokens">
+    units/trader_caravan
+  </Auras>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <metal>50</metal>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">LandTrader</Classes>
+    <GenericName>Trader</GenericName>
+    <Tooltip>Gain resources via trade between your own markets and those of your allies.</Tooltip>
+    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
+  </Identity>
+  <Loot>
+    <silver>25</silver>
+  </Loot>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.03</food>
+    </Rates>
+  </ResourceTrickle>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <build>resource/construction/con_wood.xml</build>
+      <death>actor/human/death/{gender}_death.xml</death>
+      <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
+      <gather_grain>resource/farming/farm.xml</gather_grain>
+      <gather_ore>resource/mining/mining.xml</gather_ore>
+      <gather_rock>resource/mining/pickaxe.xml</gather_rock>
+      <gather_tree>resource/lumbering/lumbering.xml</gather_tree>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_trade>voice/{lang}/civ/civ_{gender}_trade.xml</order_trade>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <run>actor/human/movement/run.xml</run>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <trained>interface/alarm/alarm_create_worker.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Trader>
+    <GainMultiplier>0.75</GainMultiplier>
+  </Trader>
+</Entity>
