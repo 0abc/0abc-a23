@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
   <Armour>
-    <Crush>15</Crush>
+    <Crush>20</Crush>
     <Hack>5</Hack>
-    <Pierce>10</Pierce>
+    <Pierce>15</Pierce>
+    <Thrust>10</Thrust>
   </Armour>
   <Attack>
     <Melee>
       <Crush>60</Crush>
-      <Hack>0</Hack>
       <MaxRange>6</MaxRange>
-      <Pierce>0</Pierce>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
+    <Ranged disable=""/>
   </Attack>
   <Cost>
     <Population>6</Population>

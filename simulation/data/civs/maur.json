@@ -76,12 +76,13 @@
       "Count": 2
     },
     {
-      "Template": "units/maur_cavalry_javelinist_b",
-      "Count": 1
+      "Template": "units/maur_cavalry_javelinist_b"
     },
     {
-      "Template": "units/maur_support_elephant",
-      "Count": 1
+      "Template": "units/maur_support_elephant"
+    },
+    {
+      "Template": "units/maur_support_healer_b"
     }
   ],
   "Formations":

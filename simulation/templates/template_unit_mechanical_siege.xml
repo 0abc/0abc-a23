@@ -4,6 +4,7 @@
     <Crush>5</Crush>
     <Hack>1</Hack>
     <Pierce>50</Pierce>
+    <Thrust>2</Thrust>
   </Armour>
   <Identity>
     <GenericName>Siege</GenericName>

@@ -3,8 +3,6 @@
   <Attack>
     <Melee>
       <Crush>7</Crush>
-      <Hack>0</Hack>
-      <Pierce>0</Pierce>
     </Melee>
   </Attack>
   <Cost>

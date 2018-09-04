@@ -2,8 +2,6 @@
 <Entity parent="template_unit_cavalry_ranged">
   <Attack>
     <Ranged>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
       <MaxRange op="mul">2.0</MaxRange>
       <Pierce>21</Pierce>
       <ProjectileSpeed>60</ProjectileSpeed>

@@ -7,9 +7,9 @@
   ],
   "overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png",
   "rangeOverlay" : {
-    "lineTexture": "outline_border.png",
-    "lineTextureMask": "outline_border_mask.png",
-    "lineThickness": 0.075
+    "lineTexture": "overlays/zigzag.png",
+    "lineTextureMask": "overlays/zigzag_mask.png",
+    "lineThickness": 0.4
   },
   "radius": 10,
   "type": "range"

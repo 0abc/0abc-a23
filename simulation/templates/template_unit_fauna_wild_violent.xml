@@ -9,6 +9,7 @@
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <Loot>

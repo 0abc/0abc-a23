@@ -16,7 +16,8 @@
   <Identity>
     <Classes datatype="tokens">LandTrader</Classes>
     <GenericName>Trader</GenericName>
-    <Tooltip>Gain resources via trade between your own markets and those of your allies.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Gain resources via trade between centres or docks.</Tooltip>
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>

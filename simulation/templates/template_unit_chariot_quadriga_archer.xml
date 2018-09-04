@@ -8,10 +8,10 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
-      <Pierce>8</Pierce>
       <MaxRange op="mul">4.0</MaxRange>
+      <Pierce>8</Pierce>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <Spread>3.0</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>

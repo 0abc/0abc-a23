@@ -4,6 +4,7 @@
     <Crush>6</Crush>
     <Hack>6</Hack>
     <Pierce>6</Pierce>
+    <Thrust>6</Thrust>
   </Armour>
   <Cost>
     <BuildTime>50</BuildTime>

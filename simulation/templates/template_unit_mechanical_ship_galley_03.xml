@@ -4,6 +4,7 @@
     <Crush op="add">1</Crush>
     <Hack op="add">1</Hack>
     <Pierce op="add">2</Pierce>
+    <Thrust op="add">1</Thrust>
   </Armour>
   <Attack>
     <Melee>

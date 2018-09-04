@@ -4,20 +4,14 @@
     <Crush>5</Crush>
     <Hack>5</Hack>
     <Pierce>10</Pierce>
+    <Thrust>5</Thrust>
   </Armour>
   <Attack>
     <Ranged>
-      <Crush>0</Crush>
-      <Delay>0</Delay>
-      <Gravity>9.81</Gravity>
-      <Hack>0</Hack>
       <MaxRange>60</MaxRange>
-      <MinRange>0</MinRange>
       <Pierce>5</Pierce>
-      <PreferredClasses datatype="tokens">Human Ship</PreferredClasses>
-      <PrepareTime>750</PrepareTime>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+      <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>

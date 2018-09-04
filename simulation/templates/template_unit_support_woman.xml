@@ -8,16 +8,18 @@
       <Pierce>1</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
+      <Thrust>1</Thrust>
     </Melee>
     <Slaughter>
       <Crush>0</Crush>
       <Hack>25</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
+      <Thrust>0</Thrust>
     </Slaughter>
   </Attack>
   <Auras datatype="tokens">
-    units/female_inspiration
+    units/woman_inspiration
   </Auras>
   <Cost>
     <Resources>

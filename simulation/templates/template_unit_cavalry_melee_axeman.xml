@@ -4,7 +4,6 @@
     <Melee>
       <Crush>2</Crush>
       <Hack>6</Hack>
-      <Pierce>0</Pierce>
     </Melee>
   </Attack>
   <Cost>

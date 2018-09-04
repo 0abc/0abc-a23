@@ -12,28 +12,25 @@
       <Hack>50</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
+      <Thrust>0</Thrust>
     </Slaughter>
   </Attack>
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
+      structures/{civ}_civil_centre
       structures/{civ}_house
       structures/{civ}_storehouse
       structures/{civ}_farmstead
       structures/{civ}_field
-      structures/{civ}_corral
-      structures/{civ}_outpost
-      other/wallset_palisade
-      structures/{civ}_sentry_tower
+      structures/{civ}_market
       structures/{civ}_dock
-      structures/{civ}_barracks
       structures/{civ}_blacksmith
       structures/{civ}_temple
-      structures/{civ}_market
-      structures/{civ}_defense_tower
-      structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre
-      structures/{civ}_fortress
+      structures/{civ}_barracks
+      structures/{civ}_stable
+      structures/{civ}_elephant_stables
+      structures/{civ}_workshop
       structures/{civ}_wonder
     </Entities>
   </Builder>

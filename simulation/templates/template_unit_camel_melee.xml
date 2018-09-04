@@ -4,17 +4,10 @@
     <Crush>2</Crush>
     <Hack>2</Hack>
     <Pierce>2</Pierce>
+    <Thrust>2</Thrust>
   </Armour>
   <Attack>
-    <Melee>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
-      <MaxRange>3</MaxRange>
-      <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-    </Melee>
+    <Ranged disable=""/>
   </Attack>
   <Health>
     <Max op="mul">1.35</Max>

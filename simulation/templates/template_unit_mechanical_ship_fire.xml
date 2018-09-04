@@ -4,6 +4,7 @@
     <Crush>4</Crush>
     <Hack>4</Hack>
     <Pierce>8</Pierce>
+    <Thrust>4</Thrust>
   </Armour>
   <Attack>
     <Melee>
@@ -13,7 +14,9 @@
       <Pierce>5</Pierce>
       <PrepareTime>50</PrepareTime>
       <RepeatTime>100</RepeatTime>
+      <Thrust>5</Thrust>
     </Melee>
+    <Ranged disable=""/>
   </Attack>
   <Cost>
     <BuildTime>15</BuildTime>
@@ -22,12 +25,13 @@
     </Resources>
   </Cost>
   <DeathDamage>
-    <Crush>300.0</Crush>
+    <Crush>300</Crush>
     <FriendlyFire>true</FriendlyFire>
-    <Hack>300.0</Hack>
-    <Pierce>300.0</Pierce>
+    <Hack>300</Hack>
+    <Pierce>300</Pierce>
     <Range>30</Range>
     <Shape>Circular</Shape>
+    <Thrust>300</Thrust>
   </DeathDamage>
   <Footprint>
     <Height>8.0</Height>

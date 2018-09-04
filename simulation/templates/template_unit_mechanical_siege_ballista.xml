@@ -2,18 +2,14 @@
 <Entity parent="template_unit_mechanical_siege">
   <Attack>
     <Ranged>
-      <Crush>0</Crush>
-      <Delay>0</Delay>
-      <Gravity>9.81</Gravity>
-      <Hack>0.0</Hack>
-      <MaxRange>120.0</MaxRange>
-      <MinRange>15.0</MinRange>
-      <Pierce>80.0</Pierce>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <PrepareTime>3000</PrepareTime>
-      <ProjectileSpeed>150.0</ProjectileSpeed>
-      <RepeatTime>4000</RepeatTime>
+      <MaxRange>120</MaxRange>
+      <MinRange>15</MinRange>
+      <Pierce>100</Pierce>
+      <PrepareTime>4000</PrepareTime>
+      <ProjectileSpeed>150</ProjectileSpeed>
+      <RepeatTime>5000</RepeatTime>
       <Spread>2.0</Spread>
+      <Thrust>50</Thrust>
     </Ranged>
   </Attack>
   <Cost>

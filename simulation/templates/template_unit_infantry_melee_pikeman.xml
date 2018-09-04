@@ -2,10 +2,9 @@
 <Entity parent="template_unit_infantry_melee">>
   <Attack>
     <Melee>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
       <MaxRange>6</MaxRange>
-      <Pierce>5</Pierce>
+      <Pierce>3</Pierce>
+      <Thrust>3</Thrust>
     </Melee>
   </Attack>
   <Cost>

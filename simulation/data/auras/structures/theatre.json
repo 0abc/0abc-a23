@@ -1,0 +1,10 @@
+{
+  "affects": ["Structure"],
+  "auraDescription": "Increase territory influence by 20% per theatre owned.",
+  "auraName": "Hellenization",
+  "modifications": [
+    {"value": "TerritoryInfluence/Radius", "multiply": 1.2}
+  ],
+  "stackable": true,
+  "type": "global"
+}

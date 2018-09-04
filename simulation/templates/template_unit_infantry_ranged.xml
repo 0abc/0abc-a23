@@ -4,21 +4,12 @@
     <Crush>2</Crush>
     <Hack>2</Hack>
     <Pierce>2</Pierce>
+    <Thrust>2</Thrust>
   </Armour>
   <Attack>
+    <Melee disable=""/>
     <Ranged>
-      <Crush>0</Crush>
-      <Delay>0</Delay>
-      <Gravity>9.81</Gravity>
-      <Hack>0</Hack>
       <MaxRange>15</MaxRange>
-      <MinRange>0</MinRange>
-      <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <PrepareTime>750</PrepareTime>
-      <ProjectileSpeed>75</ProjectileSpeed>
-      <RepeatTime>1000</RepeatTime>
-      <Spread>3.0</Spread>
     </Ranged>
   </Attack>
   <Health>

@@ -9,14 +9,16 @@
         </Structures>
       </Bonuses>
       <Crush>40.0</Crush>
-      <Hack>0.0</Hack>
+      <Hack>0</Hack>
       <MaxRange>6.5</MaxRange>
-      <Pierce>0.0</Pierce>
+      <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>
+      <Thrust>0</Thrust>
     </Melee>
+    <Ranged disable=""/>
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>

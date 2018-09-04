@@ -5,7 +5,6 @@
       <Crush>2</Crush>
       <Hack>6</Hack>
       <MaxRange op="mul">1.0</MaxRange>
-      <Pierce>0</Pierce>
       <ProjectileSpeed>30</ProjectileSpeed>
       <Spread>4.0</Spread>
     </Ranged>

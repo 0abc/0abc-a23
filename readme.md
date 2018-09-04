@@ -21,6 +21,7 @@
 * For more detailed information, please have a look at **0abc-readme.pdf**
 
 ## Overview
+* pierce damage split into pierce (projectiles) and thrust (spears)
 * introduced a new resource: silver
 * economic structures can be build in neutral territory
 * markets are available in village phase to all civilizations

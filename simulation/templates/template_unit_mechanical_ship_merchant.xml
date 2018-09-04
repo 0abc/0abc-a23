@@ -4,7 +4,9 @@
     <Crush>3</Crush>
     <Hack>3</Hack>
     <Pierce>6</Pierce>
+    <Thrust>3</Thrust>
   </Armour>
+  <Attack disable=""/>
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>
@@ -58,6 +60,9 @@
   <Trader>
     <GainMultiplier>0.75</GainMultiplier>
   </Trader>
+  <TrainingRestrictions>
+    <Category>NavalTrader</Category>
+  </TrainingRestrictions>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>

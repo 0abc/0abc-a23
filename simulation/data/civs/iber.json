@@ -76,6 +76,9 @@
     },
     {
       "Template": "units/iber_cavalry_javelinist_b"
+    },
+    {
+      "Template": "units/iber_support_healer_b"
     }
   ],
   "Formations":

@@ -3,8 +3,7 @@
   <Attack>
     <Melee>
       <Crush>1</Crush>
-      <Hack>0</Hack>
-      <Pierce>8</Pierce>
+      <Thrust>8</Thrust>
     </Melee>
   </Attack>
   <Cost>

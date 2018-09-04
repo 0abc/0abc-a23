@@ -3,12 +3,13 @@
   <Attack>
     <Melee>
       <Crush>0</Crush>
-      <Hack>1</Hack>
+      <Hack>0</Hack>
       <MaxRange>4</MaxRange>
-      <Pierce>1</Pierce>
+      <Pierce>0</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <UnitAI>

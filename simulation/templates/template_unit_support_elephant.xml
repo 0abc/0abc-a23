@@ -3,7 +3,8 @@
   <Armour>
     <Crush>9</Crush>
     <Hack>3</Hack>
-    <Pierce>6</Pierce>
+    <Pierce>7</Pierce>
+    <Thrust>5</Thrust>
   </Armour>
   <Builder>
     <Entities datatype="tokens"/>

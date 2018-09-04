@@ -2,8 +2,6 @@
 <Entity parent="template_unit_infantry_ranged">
   <Attack>
     <Ranged>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
       <MaxRange op="mul">2.0</MaxRange>
       <Pierce>12</Pierce>
       <ProjectileSpeed>60</ProjectileSpeed>

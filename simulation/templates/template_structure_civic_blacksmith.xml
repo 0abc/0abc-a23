@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>Barracks</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <metal>100</metal>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry Healer</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <GenericName>Blacksmith</GenericName>
+    <Icon>structures/blacksmith.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Research weapon and armour technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Blacksmith</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>20</metal>
+    <wood>40</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="17.0" depth="17.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      attack_infantry_melee_1
+      attack_infantry_melee_2
+      attack_infantry_melee_3
+      attack_infantry_ranged_1
+      attack_infantry_ranged_2
+      attack_infantry_ranged_3
+      armour_infantry_1
+      armour_infantry_2
+      armour_infantry_3
+      attack_cavalry_melee_1
+      attack_cavalry_melee_2
+      attack_cavalry_melee_3
+      attack_cavalry_ranged_1
+      attack_cavalry_ranged_2
+      attack_cavalry_ranged_3
+      armour_cavalry_1
+      armour_cavalry_2
+      armour_cavalry_3
+      special/chainmail
+      special/steel_working
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_blacksmith.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_blacksmith.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>30</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

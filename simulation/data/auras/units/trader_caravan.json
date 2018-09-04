@@ -1,13 +1,19 @@
 {
   "affects": ["LandTrader"],
-  "auraDescription": "Traders in a caravan +1 crush, hack, and pierce armour.",
+  "auraDescription": "Traders in a caravan +1 crush, hack, pierce, and thrust armour.",
   "auraName": "Caravan",
   "modifications": [
     {"value": "Armour/Crush",  "add": 1},
     {"value": "Armour/Hack",   "add": 1},
-    {"value": "Armour/Pierce", "add": 1}
+    {"value": "Armour/Pierce", "add": 1},
+    {"value": "Armour/Thrust", "add": 1}
   ],
   "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
   "radius": 10,
+  "rangeOverlay" : {
+    "lineTexture": "overlays/inwards_2.png",
+    "lineTextureMask": "overlays/inwards_2_mask.png",
+    "lineThickness": 0.4
+  },
   "type": "range"
 }

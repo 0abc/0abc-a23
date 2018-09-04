@@ -29,7 +29,7 @@
       <Lighthouse>1</Lighthouse>
       <Monument>5</Monument>
       <NavalTrader>20</NavalTrader>
-      <Pillar>0</Pillar>
+      <Pillar>5</Pillar>
       <PyramidSmall>4</PyramidSmall>
       <PyramidLarge>2</PyramidLarge>
       <Stoa>2</Stoa>
@@ -40,12 +40,6 @@
       <Wonder>1</Wonder>
     </Limits>
     <LimitChangers>
-      <Juggernaut>
-        <PtolemyIV>4</PtolemyIV>
-      </Juggernaut>
-      <Pillar>
-        <Ashoka>5</Ashoka>
-      </Pillar>
       <WarDog>
         <Kennel>10</Kennel>
       </WarDog>

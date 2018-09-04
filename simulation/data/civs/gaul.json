@@ -78,6 +78,9 @@
     },
     {
       "Template": "units/gaul_cavalry_javelinist_b"
+    },
+    {
+      "Template": "units/gaul_support_healer_b"
     }
   ],
   "Formations":

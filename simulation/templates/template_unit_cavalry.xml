@@ -7,12 +7,6 @@
       <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
       <Value>2</Value>
     </Capture>
-    <Slaughter>
-      <Crush>0</Crush>
-      <Hack>100</Hack>
-      <MaxRange>2</MaxRange>
-      <Pierce>0</Pierce>
-    </Slaughter>
   </Attack>
   <Cost>
     <BuildTime>30</BuildTime>

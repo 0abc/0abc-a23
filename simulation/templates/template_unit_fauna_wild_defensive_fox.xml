@@ -2,13 +2,14 @@
 <Entity parent="template_unit_fauna_wild_defensive">
   <Attack>
     <Melee>
-      <Crush>0.0</Crush>
+      <Crush>0</Crush>
       <Hack>2.5</Hack>
-      <MaxRange>3.0</MaxRange>
-      <Pierce>5.0</Pierce>
+      <MaxRange>3</MaxRange>
+      <Pierce>5</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <Footprint>

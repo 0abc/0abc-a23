@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+  <Attack>
+    <Melee disable=""/>
+  </Attack>
   <Decay>
     <DelayTime>0.0</DelayTime>
     <SinkAccel>2.0</SinkAccel>

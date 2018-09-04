@@ -7,5 +7,10 @@
   ],
   "overlayIcon": "art/textures/ui/session/icons/resources/wood.png",
   "radius": 40,
+  "rangeOverlay" : {
+    "lineTexture": "overlays/zigzag.png",
+    "lineTextureMask": "overlays/zigzag_mask.png",
+    "lineThickness": 0.4
+  },
   "type": "range"
 }

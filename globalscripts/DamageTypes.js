@@ -6,6 +6,7 @@ function DamageTypes()
     "Crush": markForTranslationWithContext("damage type", "Crush"),
     "Hack": markForTranslationWithContext("damage type", "Hack"),
     "Pierce": markForTranslationWithContext("damage type", "Pierce"),
+    "Thrust": markForTranslationWithContext("damage type", "Thrust"),
   };
 
   deepfreeze(this.names);

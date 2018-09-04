@@ -7,5 +7,10 @@
   ],
   "overlayIcon": "art/textures/ui/session/icons/resources/food.png",
   "radius": 20,
+  "rangeOverlay" : {
+    "lineTexture": "overlays/zigzag.png",
+    "lineTextureMask": "overlays/zigzag_mask.png",
+    "lineThickness": 0.4
+  },
   "type": "range"
 }

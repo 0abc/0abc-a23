@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>spart</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Spartan Woman</GenericName>
+    <SpecificName>Spartiâtis</SpecificName>
+    <Icon>units/spart_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/spart_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -13,13 +13,14 @@
           <Multiplier>1.5</Multiplier>
         </Cavalry>
       </Bonuses>
-      <Crush>20.0</Crush>
-      <Hack>25.0</Hack>
-      <MaxRange>6.0</MaxRange>
-      <Pierce>10.0</Pierce>
+      <Crush>20</Crush>
+      <Hack>25</Hack>
+      <MaxRange>6</MaxRange>
+      <Pierce>10</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <Identity>

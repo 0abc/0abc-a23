@@ -6,9 +6,11 @@
       <Crush>1</Crush>
       <Hack>1</Hack>
       <Pierce>1</Pierce>
+      <Thrust>1</Thrust>
     </Foundation>
     <Hack>1</Hack>
     <Pierce>1</Pierce>
+    <Thrust>1</Thrust>
   </Armour>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>

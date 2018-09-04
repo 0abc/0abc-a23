@@ -4,17 +4,20 @@
     <Crush>2</Crush>
     <Hack>2</Hack>
     <Pierce>4</Pierce>
+    <Thrust>2</Thrust>
   </Armour>
   <Attack>
     <Melee>
       <Crush>0</Crush>
-      <Hack>10</Hack>
+      <Hack>0</Hack>
       <MaxRange>5</MaxRange>
       <Pierce>0</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">!SeaCreature</RestrictedClasses>
+      <Thrust>10</Thrust>
     </Melee>
+    <Ranged disable=""/>
   </Attack>
   <Cost>
     <BuildTime>15</BuildTime>

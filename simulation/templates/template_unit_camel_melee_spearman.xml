@@ -8,9 +8,7 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
-      <Pierce>8</Pierce>
+      <Thrust>8</Thrust>
     </Melee>
   </Attack>
   <Cost>
