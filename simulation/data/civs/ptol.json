@@ -77,9 +77,6 @@
     },
     {
       "Template": "units/ptol_cavalry_archer_b"
-    },
-    {
-      "Template": "units/ptol_support_healer_b"
     }
   ],
   "Formations":

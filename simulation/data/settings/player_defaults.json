@@ -6,7 +6,7 @@
       "Civ": "gaia",
       "Color": { "r": 255, "g": 255, "b": 255 },
       "AI": "",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -14,7 +14,7 @@
       "Civ": "athen",
       "Color": { "r": 255, "g": 64, "b": 64 },
       "AI": "",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -22,7 +22,7 @@
       "Civ": "cart",
       "Color": { "r": 64, "g": 64, "b": 255 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -30,7 +30,7 @@
       "Civ": "gaul",
       "Color": { "r": 64 , "g": 255, "b": 64 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -38,7 +38,7 @@
       "Civ": "kush",
       "Color": { "r": 192, "g": 192, "b": 0 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -46,7 +46,7 @@
       "Civ": "mace",
       "Color": { "r": 0, "g": 192, "b": 192 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -54,7 +54,7 @@
       "Civ": "maur",
       "Color": { "r": 255, "g": 128, "b": 0 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -62,7 +62,7 @@
       "Civ": "pers",
       "Color": { "r": 0, "g": 128, "b": 255 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     },
     {
@@ -70,7 +70,7 @@
       "Civ": "rome",
       "Color": { "r": 128, "g": 0, "b": 255 },
       "AI": "petra",
-      "AIDiff": 5,
+      "AIDiff": 3,
       "AIBehavior": "random"
     }
   ]

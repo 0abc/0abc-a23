@@ -4,15 +4,26 @@
     <Crush>1</Crush>
     <Hack>5</Hack>
     <Pierce>20</Pierce>
+    <Thrust>10</Thrust>
     <Foundation>
-      <Crush>1</Crush>
-      <Hack>1</Hack>
       <Pierce>5</Pierce>
     </Foundation>
   </Armour>
+  <BuildRestrictions>
+    <Category>Economic</Category>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Economic Structure</GenericName>
-    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Economic Village</VisibleClasses>
   </Identity>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
 </Entity>

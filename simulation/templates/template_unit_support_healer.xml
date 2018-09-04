@@ -24,7 +24,6 @@
   <Identity>
     <GenericName>Healer</GenericName>
     <Rank>0</Rank>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Heal units.</Tooltip>
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>
   </Identity>

@@ -16,7 +16,6 @@
   <Identity>
     <Classes datatype="tokens">LandTrader</Classes>
     <GenericName>Trader</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Gain resources via trade between centres or docks.</Tooltip>
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>

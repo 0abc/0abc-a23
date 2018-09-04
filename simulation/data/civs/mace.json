@@ -77,9 +77,6 @@
     },
     {
       "Template": "units/mace_cavalry_spearman_b"
-    },
-    {
-      "Template": "units/mace_support_healer_b"
     }
   ],
   "Formations":

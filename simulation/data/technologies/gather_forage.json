@@ -1,7 +1,7 @@
 {
   "affects": ["Worker"],
   "cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
-  "description": "Baskets to carry foraged food.",
+  "description": "Equip your foragers with wicker baskets to carry foraged food.",
   "genericName": "Wicker Baskets",
   "icon": "gather_basket.png",
   "modifications": [
@@ -10,7 +10,7 @@
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
+  "researchTime": 30,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Equip your foragers with wicker baskets. +50% fruit foraging rate and +5 food carry capacity."
+  "tooltip": "Workers +50% fruit foraging rate and +5 food carry capacity."
 }

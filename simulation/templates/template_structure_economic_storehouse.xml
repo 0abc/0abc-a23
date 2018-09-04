@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <AlertRaiser>
+    <EndOfAlertRange>100</EndOfAlertRange>
+    <List datatype="tokens">FemaleCitizen</List>
+    <RaiseAlertRange>60</RaiseAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="15.0" depth="15.0"/>
+  </Footprint>
+  <Health>
+    <Max>700</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone</Classes>
+    <GenericName>Storehouse</GenericName>
+    <Icon>structures/storehouse.png</Icon>
+    <Tooltip>Dropsite for wood, metal, and stone.</Tooltip>
+    <VisibleClasses datatype="tokens">Storehouse</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <RallyPoint disable=""/>
+  <ResourceDropsite>
+    <Sharable>true</Sharable>
+    <Types>wood stone metal</Types>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
+      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
+      <constructed>interface/complete/building/complete_storehouse.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_storehouse.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

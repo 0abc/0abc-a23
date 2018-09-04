@@ -99,6 +99,17 @@
     <Unit/>
   </Obstruction>
   <OverlayRenderer/>
+  <ProductionQueue>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <metal>1.0</metal>
+      <silver>1.0</silver>
+      <stone>1.0</stone>
+      <wood>1.0</wood>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </ProductionQueue>
   <RangeOverlayManager/>
   <RangeOverlayRenderer/>
   <ResourceGatherer>

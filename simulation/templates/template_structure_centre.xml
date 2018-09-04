@@ -83,10 +83,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">BarterMarket CivCentre CivilCentre</Classes>
+    <Classes datatype="tokens">CivCentre CivilCentre</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Build to acquire large tracts of territory. Train citizens and traders. Establish trade routes. Barter resources.</Tooltip>
+    <Tooltip>Build to acquire large tracts of territory. Dropsite for all resources. Train citizens. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Centre Market</VisibleClasses>
   </Identity>
   <Loot>
@@ -106,7 +106,6 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
-      units/{civ}_support_trader
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}
@@ -114,7 +113,6 @@
       centre_watch_1
       centre_watch_2
       centre_watch_3
-      centre_watch_4
       tower_range
       attack_soldiers_will
       unlock_shared_los

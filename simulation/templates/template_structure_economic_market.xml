@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <AlertRaiser>
+    <EndOfAlertRange>-1</EndOfAlertRange>
+    <List datatype="tokens">Trader+!Ship</List>
+    <RaiseAlertRange>-1</RaiseAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="33.0" depth="29.0"/>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">BarterMarket LandMarket</Classes>
+    <GenericName>Market</GenericName>
+    <Icon>structures/market.png</Icon>
+    <Tooltip>Train land traders. Barter resources. Research economic technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Market</VisibleClasses>
+  </Identity>
+  <Loot>
+    <wood>60</wood>
+  </Loot>
+  <Market>
+    <InternationalBonus>0.2</InternationalBonus>
+    <TradeType>land</TradeType>
+  </Market>
+  <Obstruction>
+    <Static width="30.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      speed_trader
+      armour_trader
+      gather_capacity_1
+      gather_capacity_2
+      gather_capacity_3
+      gather_farm_1
+      gather_farm_2
+      gather_farm_3
+      gather_wood_1
+      gather_wood_2
+      gather_wood_3
+      gather_metal_1
+      gather_metal_2
+      gather_metal_3
+      gather_stone_1
+      gather_stone_2
+      gather_stone_3
+      trade_gain_1
+      trade_gain_2
+      trade_gain_3
+      trade_international
+    </Technologies>
+    <Entities datatype="tokens">
+      units/{civ}_support_trader
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
+      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
+      <constructed>interface/complete/building/complete_market.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_market.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

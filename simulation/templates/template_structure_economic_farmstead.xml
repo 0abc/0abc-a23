@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <AlertRaiser>
+    <EndOfAlertRange>100</EndOfAlertRange>
+    <List datatype="tokens">FemaleCitizen</List>
+    <RaiseAlertRange>60</RaiseAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>900</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <GenericName>Farmstead</GenericName>
+    <Icon>structures/farmstead.png</Icon>
+    <Tooltip>Dropsite for food.</Tooltip>
+    <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+  </Loot>
+  <RallyPoint disable=""/>
+  <ResourceDropsite>
+    <Types>food</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
+      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
+      <constructed>interface/complete/building/complete_farmstead.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_farmstead.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>
