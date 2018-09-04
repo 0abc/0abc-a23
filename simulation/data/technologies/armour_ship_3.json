@@ -8,6 +8,7 @@
     {"value": "Armour/Crush",         "add":      2.0 },
     {"value": "Armour/Hack",          "add":      2.0 },
     {"value": "Armour/Pierce",        "add":      2.0 },
+    {"value": "Armour/Thrust",        "add":      2.0 },
     {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
     {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
@@ -16,5 +17,5 @@
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_ship_2",
-  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also −2% movement speed."
+  "tooltip": "Ships +2 armour levels, but also −2% movement speed."
 }

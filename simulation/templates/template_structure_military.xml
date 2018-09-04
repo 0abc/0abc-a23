@@ -3,15 +3,34 @@
   <Armour>
     <Crush>3</Crush>
     <Hack>20</Hack>
-    <Pierce>35</Pierce>
-    <Foundation>
-      <Crush>1</Crush>
-      <Hack>1</Hack>
-      <Pierce>5</Pierce>
-    </Foundation>
+    <Pierce>40</Pierce>
+    <Thrust>30</Thrust>
   </Armour>
+  <BuildRestrictions>
+    <Category>Military</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+    <Territory>own</Territory>
+  </BuildRestrictions>
   <Identity>
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+    <Rates>
+      <food>-4.0</food>
+      <wood>-1.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <TerritoryInfluence>
+    <Radius>40</Radius>
+    <Root>false</Root>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
 </Entity>

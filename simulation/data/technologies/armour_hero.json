@@ -7,7 +7,8 @@
   "modifications": [
     {"value": "Armour/Crush",  "add": 3.0},
     {"value": "Armour/Hack",   "add": 3.0},
-    {"value": "Armour/Pierce", "add": 3.0}
+    {"value": "Armour/Pierce", "add": 3.0},
+    {"value": "Armour/Thrust", "add": 3.0}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
@@ -21,5 +22,5 @@
     "sele": "Sidḗrea Panoplía",
     "spart": "Sidḗrea Panoplía"
   },
-  "tooltip": "All Heroes +3 Crush, Hack, and Pierce Armour levels."
+  "tooltip": "Heroes +3 armour levels."
 }

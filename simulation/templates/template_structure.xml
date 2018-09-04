@@ -5,16 +5,16 @@
     <Foundation>
       <Crush>1</Crush>
       <Hack>1</Hack>
-      <Pierce>1</Pierce>
+      <Pierce>5</Pierce>
       <Thrust>1</Thrust>
     </Foundation>
     <Hack>1</Hack>
-    <Pierce>1</Pierce>
+    <Pierce>5</Pierce>
     <Thrust>1</Thrust>
   </Armour>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
-    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
@@ -22,7 +22,7 @@
     <Territory>own</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>500</CapturePoints>
+    <CapturePoints>1000</CapturePoints>
     <GarrisonRegenRate>5.0</GarrisonRegenRate>
     <RegenRate>0.5</RegenRate>
   </Capturable>
@@ -46,6 +46,14 @@
     <SinkRate>3.0</SinkRate>
   </Decay>
   <Fogging/>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support+!Elephant Infantry Dog</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>0</Max>
+  </GarrisonHolder>
   <Guard/>
   <Health>
     <DeathType>corpse</DeathType>

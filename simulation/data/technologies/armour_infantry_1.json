@@ -8,6 +8,7 @@
     {"value": "Armour/Crush",         "add":      1.0 },
     {"value": "Armour/Hack",          "add":      1.0 },
     {"value": "Armour/Pierce",        "add":      1.0 },
+    {"value": "Armour/Thrust",        "add":      1.0 },
     {"value": "UnitMotion/Run/Speed", "multiply": 0.99},
     {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
   ],
@@ -30,5 +31,5 @@
     "sele": "Spolas",
     "spart": "Spolas"
   },
-  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
+  "tooltip": "Infantry +1 armour level, but also −1% movement speed."
 }

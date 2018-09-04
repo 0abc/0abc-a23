@@ -6,6 +6,9 @@
     <RaiseAlertRange>-1</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
+  <Capturable>
+    <CapturePoints>500</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
@@ -16,6 +19,9 @@
     <Height>8.0</Height>
     <Square width="33.0" depth="29.0"/>
   </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
   <Health>
     <Max>1500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>

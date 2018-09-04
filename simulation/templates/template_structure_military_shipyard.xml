@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic">
+<Entity parent="template_structure_military">
   <BuildRestrictions>
-    <Category>Dock</Category>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>500</CapturePoints>
-  </Capturable>
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <food>100</food>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="18.0" depth="18.0"/>
     <Height>8.0</Height>
+    <Square width="18.0" depth="18.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>5</Max>
@@ -26,19 +23,17 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Naval NavalMarket</Classes>
-    <GenericName>Dock</GenericName>
-    <Icon>structures/dock.png</Icon>
-    <Tooltip>Dropsite for all resources. Construct fishing boats and merchant ships. Establish trade routes.</Tooltip>
-    <VisibleClasses datatype="tokens">Market Dock</VisibleClasses>
+    <Classes datatype="tokens">Naval</Classes>
+    <GenericName>Shipyard</GenericName>
+    <Icon>structures/uber_dock.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Construct warships. Research naval improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Town Shipyard</VisibleClasses>
   </Identity>
   <Loot>
-    <wood>40</wood>
+    <food>20</food>
+    <wood>60</wood>
   </Loot>
-  <Market>
-    <InternationalBonus>0.2</InternationalBonus>
-    <TradeType>land naval</TradeType>
-  </Market>
   <Obstruction>
     <Static width="18.0" depth="18.0"/>
   </Obstruction>
@@ -48,21 +43,19 @@
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_ship_fishing
-      units/{civ}_ship_merchant
+      units/{civ}_ship_bireme
+      units/{civ}_ship_trireme
     </Entities>
     <Technologies datatype="tokens">
-      gather_fish
       training_naval
+      armour_ship_1
+      armour_ship_2
+      armour_ship_3
     </Technologies>
   </ProductionQueue>
   <RallyPointRenderer>
     <LinePassabilityClass>ship</LinePassabilityClass>
   </RallyPointRenderer>
-  <ResourceDropsite>
-    <Sharable>true</Sharable>
-    <Types>food wood stone metal</Types>
-  </ResourceDropsite>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_dock.xml</constructed>

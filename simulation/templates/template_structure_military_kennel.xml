@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Kennel</Category>
+    <Distance>
+      <FromClass>Kennel</FromClass>
+      <MinDistance>10</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>250</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="8.0" depth="7.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">-Support -Infantry</List>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Kennel</Classes>
+    <GenericName>Kennel</GenericName>
+    <Icon>structures/kennel.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Train war dogs.</Tooltip>
+    <VisibleClasses datatype="tokens">Village</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <wood>10</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="7.5" depth="6.75"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_war_dog_b
+    </Entities>
+    <Technologies datatype="tokens">
+      training_kennel
+      drill_dogs_1
+      drill_dogs_2
+      drill_dogs_3
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_kennel.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_kennel.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>20</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

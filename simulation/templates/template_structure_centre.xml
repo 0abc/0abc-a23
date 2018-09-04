@@ -60,7 +60,7 @@
   </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
-    <PopulationBonus>25</PopulationBonus>
+    <PopulationBonus>20</PopulationBonus>
     <Resources>
       <food>300</food>
       <wood>300</wood>
@@ -72,11 +72,6 @@
   </Footprint>
   <GarrisonHolder>
     <Max>25</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Human</List>
-    <BuffHeal>1</BuffHeal>
-    <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
     <Max>3000</Max>
@@ -114,7 +109,6 @@
       centre_watch_2
       centre_watch_3
       tower_range
-      attack_soldiers_will
       unlock_shared_los
       unlock_shared_dropsites
       unlock_spies
@@ -122,8 +116,8 @@
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
-    <Types>food metal silver stone wood</Types>
     <Sharable>true</Sharable>
+    <Types>food metal silver stone wood</Types>
   </ResourceDropsite>
   <ResourceTrickle>
     <Interval>7000</Interval>

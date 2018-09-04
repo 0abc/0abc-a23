@@ -3,6 +3,9 @@
   <Auras datatype="tokens">
     structures/rotary_mill
   </Auras>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>100</BuildTime>
     <Resources>
@@ -14,7 +17,9 @@
     <Circle radius="9.0"/>
     <Height>6.0</Height>
   </Footprint>
-  <GarrisonHolder disable=""/>
+  <GarrisonHolder>
+    <Max>6</Max>
+  </GarrisonHolder>
   <Health>
     <Max>1500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>

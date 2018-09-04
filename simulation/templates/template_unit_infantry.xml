@@ -20,17 +20,26 @@
     <Entities datatype="tokens">
       structures/{civ}_civil_centre
       structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
       structures/{civ}_field
-      structures/{civ}_market
+      structures/{civ}_farmstead
+      structures/{civ}_storehouse
       structures/{civ}_dock
+      structures/{civ}_market
       structures/{civ}_blacksmith
-      structures/{civ}_temple
+      structures/{civ}_kennel
       structures/{civ}_barracks
-      structures/{civ}_stable
-      structures/{civ}_elephant_stables
+      structures/{civ}_camel_stable
+      structures/{civ}_cavalry_stable
+      structures/{civ}_chariot_stable
+      structures/{civ}_elephant_stable
       structures/{civ}_workshop
+      structures/{civ}_shipyard
+      structures/{civ}_harbour
+      structures/{civ}_temple
+      structures/{civ}_pillar
+      structures/{civ}_theatre
+      structures/{civ}_library
+      structures/{civ}_lighthouse
       structures/{civ}_wonder
     </Entities>
   </Builder>

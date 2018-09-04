@@ -5,9 +5,6 @@
     <Hack>5</Hack>
     <Pierce>20</Pierce>
     <Thrust>10</Thrust>
-    <Foundation>
-      <Pierce>5</Pierce>
-    </Foundation>
   </Armour>
   <BuildRestrictions>
     <Category>Economic</Category>

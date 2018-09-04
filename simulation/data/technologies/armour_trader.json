@@ -8,6 +8,7 @@
     {"value": "Armour/Crush",         "add":      2.0 },
     {"value": "Armour/Hack",          "add":      2.0 },
     {"value": "Armour/Pierce",        "add":      2.0 },
+    {"value": "Armour/Thrust",        "add":      2.0 },
     {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
     {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
@@ -16,5 +17,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "speed_trader",
-  "tooltip": "Traders +2 Crush, Hack, and Pierce armour levels, but also −2% movement speed."
+  "tooltip": "Traders +2 armour levels, but also −2% movement speed."
 }
