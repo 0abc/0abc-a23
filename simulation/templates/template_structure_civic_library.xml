@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/library
+  </Auras>
+  <BuildRestrictions>
+    <Category>Library</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>400</BuildTime>
+    <Resources>
+      <metal>150</metal>
+      <stone>450</stone>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="29.0" depth="34.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>25</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Library</GenericName>
+    <Icon>structures/library_scroll.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Bibliothḗkē</SpecificName>
+    <Tooltip>Research special technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>30</metal>
+    <stone>90</stone>
+    <wood>30</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="25.0" depth="30.0"/>
+  </Obstruction>
+  <ResourceTrickle>
+    <Interval>7000</Interval>
+    <Rates>
+      <silver>-2.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_temple.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_temple.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/macedonians/library.xml</Actor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

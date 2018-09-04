@@ -55,6 +55,7 @@
       drill_dogs_3
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle disable=""/>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_kennel.xml</constructed>

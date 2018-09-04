@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/temple
+  </Auras>
+  <BuildRestrictions>
+    <Category>Temple</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <metal>100</metal>
+      <stone>300</stone>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="19.0" depth="31.5"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>3</BuffHeal>
+    <List datatype="tokens">Camel Cavalry</List>
+    <Max>20</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Temple</GenericName>
+    <Icon>structures/temple.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Train healers. Garrison units to heal them at a quick rate. Research healing technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>20</metal>
+    <stone>60</stone>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="17.5" depth="30.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_b
+    </Entities>
+    <Technologies datatype="tokens">
+      healer_range_1
+      healer_range_2
+      healer_rate_1
+      healer_rate_2
+      heal_garrison
+      health_regen_units
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_temple.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_temple.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

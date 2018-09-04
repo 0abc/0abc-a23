@@ -5,7 +5,7 @@
 * https://github.com/0abc/0abc-a23#instructions
 * https://github.com/0abc/0abc-a23#overview
 * https://github.com/0abc/0abc-a23#population-costs
-* https://github.com/0abc/0abc-a23#upkeep
+* https://github.com/0abc/0abc-a23#upkeep-and-income
 * https://github.com/0abc/0abc-a23#unit-counters
 
 ## Instructions
@@ -44,9 +44,9 @@
 * 5: –
 * 6: quadrigae, war elephants, siege towers
 
-## Upkeep
+## Upkeep and income
 Food:
-* Healers, Women: −0.02 food per second
+* Healers, Slaves, Women: −0.02 food per second
 * Infantry: −0.02 food per second
 * Traders: −0.03 food per second
 * Camelry: −0.04 food per second
@@ -55,8 +55,15 @@ Food:
 * Worker Elephants: −0.12 food per second
 * Quadrigae: −0.16 food per second
 * Elephantry: −0.20 food per second
+* Military structures: −4.0 food per 30 seconds
 
 Silver:
+* Village centre: +1.0 silver per 7 seconds
+* Town centre: +2.0 silver per 7 seconds
+* City centre: +3.0 silver per 7 seconds
+* Metropolis centre: +4.0 silver per 7 seconds
+* Wonder: +1.0 silver per second
+* Library: −2.0 silver per 7 seconds
 * Triaconters: −3.0 silver per 30 seconds
 * Penteconters: −6.0 silver per 30 seconds
 * Biremes: −12.0 silver per 30 seconds
@@ -68,6 +75,10 @@ Silver:
 * Octoremes: −48.0 silver per 30 seconds
 * Noviremes: −54.0 silver per 30 seconds
 * Deceremes: −60.0 silver per 30 seconds
+
+Wood:
+* Military structures: −1.0 wood per 30 seconds
+* Lighthouse: −2.0 wood per 7 seconds
 
 ## Unit counters
 * infantry archers: 0.5× vs Elephantry

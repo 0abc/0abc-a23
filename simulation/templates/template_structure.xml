@@ -28,6 +28,8 @@
   </Capturable>
   <Cost>
     <BuildTime>10</BuildTime>
+    <Population>0</Population>
+    <PopulationBonus>0</PopulationBonus>
     <Resources>
       <food>0</food>
       <metal>0</metal>
@@ -35,8 +37,6 @@
       <stone>0</stone>
       <wood>0</wood>
     </Resources>
-    <Population>0</Population>
-    <PopulationBonus>0</PopulationBonus>
   </Cost>
   <Decay>
     <Active>false</Active>
@@ -94,7 +94,7 @@
   </Obstruction>
   <OverlayRenderer/>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
     <TechCostMultiplier>
       <food>1.0</food>
       <metal>1.0</metal>

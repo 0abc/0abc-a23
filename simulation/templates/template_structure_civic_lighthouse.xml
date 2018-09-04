@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>Lighthouse</Category>
+    <PlacementType>shore</PlacementType>
+    <Territory>own ally neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>500</BuildTime>
+    <Resources>
+      <metal>200</metal>
+      <stone>600</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>25</Max>
+  </GarrisonHolder>
+  <Footprint replace="">
+    <Circle radius="14.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Lighthouse</GenericName>
+    <Icon>structures/lighthouse.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Pháros</SpecificName>
+    <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range.</Tooltip>
+    <VisibleClasses datatype="tokens">City Lighthouse</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>40</metal>
+    <stone>120</stone>
+    <wood>40</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="20.0" depth="25.0"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+    <FloatDepth>0.0</FloatDepth>
+  </Position>
+  <ResourceTrickle>
+    <Interval>7000</Interval>
+    <Rates>
+      <wood>-2.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_temple.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_temple.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Vision>
+    <Range>200</Range>
+    <RevealShore>true</RevealShore>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/ptolemies/lighthouse.xml</Actor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

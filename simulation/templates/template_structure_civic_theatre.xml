@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/theatre
+  </Auras>
+  <BuildRestrictions>
+    <Category>Theatre</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <metal>300</metal>
+      <stone>900</stone>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="25"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>40</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>4000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Theatre</GenericName>
+    <Icon>structures/theatron.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Théātron</SpecificName>
+    <VisibleClasses datatype="tokens">City Theatre</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>60</metal>
+    <stone>180</stone>
+    <wood>60</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="40" depth="46"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_greek_theater.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_greek_theater.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>100</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>
