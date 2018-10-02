@@ -46,7 +46,6 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Tower</Classes>
     <GenericName>Wall Turret</GenericName>
     <Icon>structures/tower.png</Icon>
     <Tooltip>Shoots arrows. Garrison to defend a city wall against attackers.</Tooltip>
