@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_entity_full">
+<Entity>
+  <AIProxy/>
   <Armour>
     <Crush>1</Crush>
     <Foundation>
@@ -80,6 +81,7 @@
     <wood>0</wood>
     <xp>0</xp>
   </Loot>
+  <Looter/>
   <Minimap>
     <Type>structure</Type>
   </Minimap>
@@ -94,6 +96,14 @@
     <DeleteUponConstruction>false</DeleteUponConstruction>
   </Obstruction>
   <OverlayRenderer/>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>upright</Anchor>
+    <FloatDepth>0.0</FloatDepth>
+    <Floating>false</Floating>
+    <TurnRate>6.0</TurnRate>
+  </Position>
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <TechCostMultiplier>
