@@ -47,9 +47,9 @@
     <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
   <BuildRestrictions>
-    <Category>CivilCentre</Category>
+    <Category>Centre</Category>
     <Distance>
-      <FromClass>CivilCentre</FromClass>
+      <FromClass>Centre</FromClass>
       <MinDistance>200</MinDistance>
     </Distance>
     <Territory>own neutral</Territory>
