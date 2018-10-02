@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_entity_full">
+<Entity>
+  <AIProxy/>
   <Armour>
     <Crush>1</Crush>
     <Hack>1</Hack>
@@ -85,6 +86,7 @@
     <GenericName>Unit</GenericName>
     <Undeletable>false</Undeletable>
   </Identity>
+  <Looter/>
   <Minimap>
     <Type>unit</Type>
   </Minimap>
@@ -100,6 +102,14 @@
     <Unit/>
   </Obstruction>
   <OverlayRenderer/>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>false</Floating>
+    <FloatDepth>0.0</FloatDepth>
+    <TurnRate>6.0</TurnRate>
+  </Position>
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <TechCostMultiplier>
