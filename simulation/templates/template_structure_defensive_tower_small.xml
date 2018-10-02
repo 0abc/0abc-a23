@@ -68,7 +68,7 @@
         <stone>75</stone>
         <wood>75</wood>
       </Cost>
-      <Entity>structures/{civ}_defense_tower</Entity>
+      <Entity>structures/{civ}/large_tower</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>
       <Time>100</Time>
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
