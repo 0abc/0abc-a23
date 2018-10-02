@@ -15,10 +15,9 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Economic Structure</GenericName>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Economic Village</VisibleClasses>
+    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
   </Identity>
   <Vision>
     <Range>30</Range>

@@ -81,7 +81,7 @@
     <Classes datatype="tokens">CivCentre CivilCentre</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Build to acquire large tracts of territory. Dropsite for all resources. Train citizens. Establish trade routes.</Tooltip>
+    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Train citizens. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Centre Market</VisibleClasses>
   </Identity>
   <Loot>

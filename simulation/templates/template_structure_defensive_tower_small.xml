@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower">
+  <Armour>
+    <Crush>2</Crush>
+    <Hack>5</Hack>
+    <Pierce>25</Pierce>
+    <Thrust>10</Thrust>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Pierce>9</Pierce>
+      <MaxRange>70</MaxRange>
+      <MinRange>10</MinRange>
+      <ElevationBonus>9</ElevationBonus>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>90</BuildTime>
+    <Resources>
+      <food>50</food>
+      <stone>50</stone>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="9.5" depth="8.5"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">GarrisonTower</Classes>
+    <GenericName>Sentry Tower</GenericName>
+    <Icon>structures/sentry_tower.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
+  </Identity>
+  <Loot>
+  <Loot>
+    <food>10</food>
+    <stone>10</stone>
+    <wood>20</wood>
+  </Loot>
+  </Loot>
+  <Obstruction>
+    <Static width="9.0" depth="7.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      tower_watch
+    </Technologies>
+  </ProductionQueue>
+  <StatusBars>
+    <HeightOffset>18.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>16</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Upgrade>
+    <Tower>
+      <Cost>
+        <stone>75</stone>
+        <wood>75</wood>
+      </Cost>
+      <Entity>structures/{civ}_defense_tower</Entity>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Time>100</Time>
+      <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
+    </Tower>
+  </Upgrade>
+  <VisualActor>
+    <Actor>props/special/palisade_rocks_fort.xml</Actor>
+  </VisualActor>
+</Entity>

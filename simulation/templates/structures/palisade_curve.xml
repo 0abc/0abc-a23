@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_palisade">
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <wood>25</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="3.5" depth="8.5"/>
+  </Footprint>
+  <Health>
+    <Max>750</Max>
+  </Health>
+  <Loot>
+    <wood>5</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="3.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>props/special/palisade_rocks_curve.xml</Actor>
+    <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Bend>0.5</Bend>
+    <Indent>2.8</Indent>
+    <Length>8.0</Length>
+    <Orientation>0.75</Orientation>
+  </WallPiece>
+</Entity>

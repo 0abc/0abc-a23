@@ -30,7 +30,7 @@
     <Icon>structures/theatron.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Théātron</SpecificName>
-    <VisibleClasses datatype="tokens">City Theatre</VisibleClasses>
+    <VisibleClasses datatype="tokens">Theatre</VisibleClasses>
   </Identity>
   <Loot>
     <metal>60</metal>
@@ -52,6 +52,6 @@
     <Radius>100</Radius>
   </TerritoryInfluence>
   <VisualActor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_pillar">
+  <Auras datatype="tokens">
+    structures/maur_pillar
+  </Auras>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square width="7.0" depth="7.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>maur</Civ>
+    <GenericName>Edict Pillar of Ashoka</GenericName>
+    <Icon>structures/ashoka_pillar.png</Icon>
+    <SpecificName>Śāsana Stambha Aśokā</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="4" depth="4"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>props/structures/mauryans/ashoka_pillar.xml</Actor>
+  </VisualActor>
+</Entity>

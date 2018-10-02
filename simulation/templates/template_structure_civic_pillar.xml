@@ -27,6 +27,9 @@
   </Health>
   <Identity>
     <GenericName>Monumental Pillar</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Territory root.</Tooltip>
+    <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
   </Identity>
   <Loot>
     <metal>20</metal>

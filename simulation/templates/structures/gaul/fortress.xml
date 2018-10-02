@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_fortress">
+  <Identity>
+    <Civ>gaul</Civ>
+    <SpecificName>Gallic Dun</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/gauls/fortress_gallic.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>16.8</Length>
+    <Indent>5.8</Indent>
+  </WallPiece>
+</Entity>

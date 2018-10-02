@@ -24,7 +24,7 @@
     <Icon>structures/pers_stable.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train chariotry. Research chariot technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">City ChariotStable</VisibleClasses>
+    <VisibleClasses datatype="tokens">ChariotStable</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

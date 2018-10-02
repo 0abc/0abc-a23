@@ -28,7 +28,7 @@
     <Icon>structures/uber_dock.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct warships. Research naval improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Shipyard</VisibleClasses>
+    <VisibleClasses datatype="tokens">Shipyard</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

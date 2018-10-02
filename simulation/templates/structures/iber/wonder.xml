@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_wonder">
+  <Footprint>
+    <Height>14.0</Height>
+    <Square width="43.0" depth="43.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Cancho Roano</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="41.0" depth="41.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/iberians/wonder.xml</Actor>
+    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -24,7 +24,7 @@
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct siege weapons. Research siege technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Workshop</VisibleClasses>
+    <VisibleClasses datatype="tokens">Workshop</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

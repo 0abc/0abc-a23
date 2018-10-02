@@ -56,6 +56,7 @@ Food:
 * Quadrigae: −0.16 food per second
 * Elephantry: −0.20 food per second
 * Military structures: −4.0 food per 30 seconds
+* Fortress: −6.0 food per 30 seconds
 
 Silver:
 * Village centre: +1.0 silver per 7 seconds
@@ -64,6 +65,7 @@ Silver:
 * Metropolis centre: +4.0 silver per 7 seconds
 * Wonder: +1.0 silver per second
 * Library: −2.0 silver per 7 seconds
+* Fortress: −2.0 silver per 30 seconds
 * Triaconters: −3.0 silver per 30 seconds
 * Penteconters: −6.0 silver per 30 seconds
 * Biremes: −12.0 silver per 30 seconds
@@ -78,6 +80,7 @@ Silver:
 
 Wood:
 * Military structures: −1.0 wood per 30 seconds
+* Fortress: −2.0 wood per 30 seconds
 * Lighthouse: −2.0 wood per 7 seconds
 
 ## Unit counters

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="16.0" depth="10.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>11.6</Y><Z>0</Z>
+      </Archer1>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>kush</Civ>
+    <SelectionGroupName>structures/kush/wallset</SelectionGroupName>
+    <SpecificName>sbty</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/kushites/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>11</Length>
+  </WallPiece>
+</Entity>

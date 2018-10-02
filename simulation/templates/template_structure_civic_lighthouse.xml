@@ -30,7 +30,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Pháros</SpecificName>
     <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range.</Tooltip>
-    <VisibleClasses datatype="tokens">City Lighthouse</VisibleClasses>
+    <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
   </Identity>
   <Loot>
     <metal>40</metal>
@@ -64,7 +64,6 @@
     <RevealShore>true</RevealShore>
   </Vision>
   <VisualActor>
-    <Actor>structures/ptolemies/lighthouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

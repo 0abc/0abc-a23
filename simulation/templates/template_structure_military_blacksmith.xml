@@ -27,7 +27,7 @@
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Research weapon and armour technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Village Blacksmith</VisibleClasses>
+    <VisibleClasses datatype="tokens">Blacksmith</VisibleClasses>
   </Identity>
   <Loot>
     <metal>20</metal>

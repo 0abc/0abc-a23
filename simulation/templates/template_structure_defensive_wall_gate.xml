@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall">
+  <Auras disable=""/>
+  <Cost>
+    <Resources>
+      <metal>30</metal>
+      <stone>180</stone>
+      <wood>90</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder disable=""/>
+  <Gate>
+    <PassRange>20</PassRange>
+  </Gate>
+  <Health>
+    <Max>3400</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Gates</Classes>
+    <GenericName>City Gate</GenericName>
+    <Icon>structures/gate.png</Icon>
+    <Tooltip>Allow units access through a city wall. Can be locked to prevent access.</Tooltip>
+  </Identity>
+  <Loot>
+    <metal>6</metal>
+    <stone>36</stone>
+    <wood>18</wood>
+  </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Door width="20.0" depth="6.5" x="0" z="0"/>
+      <Left width="5" depth="5" x="-10" z="0"/>
+      <Right width="5" depth="5" x="10" z="0"/>
+    </Obstructions>
+    <Static disable=""/>
+  </Obstruction>
+  <RallyPoint disable=""/>
+  <Repairable>
+    <RepairTimeRatio op="mul">0.85</RepairTimeRatio>
+  </Repairable>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_gate.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <gate_closing>actor/gate/stonegate_close.xml</gate_closing>
+      <gate_opening>actor/gate/stonegate_open.xml</gate_opening>
+      <gate_locked>interface/select/building/sel_gate.xml</gate_locked>
+      <gate_unlocked>interface/select/building/sel_gate.xml</gate_unlocked>
+      <select>interface/select/building/sel_gate.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
+  </VisualActor>
+</Entity>

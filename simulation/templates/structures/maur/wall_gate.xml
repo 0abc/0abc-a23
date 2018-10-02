@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="38.5" depth="8.5"/>
+  </Footprint>
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Dwara</SpecificName>
+  </Identity>
+  <Loot>
+    <stone>0</stone>
+    <wood>15</wood>
+  </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Door width="13" depth="6.5" x="0" z="0"/>
+      <Left width="12" depth="6.5" x="-12.5" z="0"/>
+      <Right width="12" depth="6.5" x="12.5" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/mauryans/wall_gate.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>36.2</Length>
+  </WallPiece>
+</Entity>

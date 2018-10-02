@@ -23,7 +23,7 @@
     <Icon>structures/range.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train ranged infantry. Research training improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Village Range</VisibleClasses>
+    <VisibleClasses datatype="tokens">Range</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

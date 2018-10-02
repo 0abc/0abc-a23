@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="16.0" depth="10.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>9.7</Y><Z>0</Z>
+      </Archer1>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>ptol</Civ>
+    <SelectionGroupName>structures/ptol/wallset</SelectionGroupName>
+    <SpecificName>h-n-njwt</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/ptolemies/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>14.0</Length>
+  </WallPiece>
+</Entity>

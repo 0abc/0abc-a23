@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
+      <MaxRange>72</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>16</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <RepeatTime>2000</RepeatTime>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.1</LineThickness>
+      </RangeOverlay>
+      <Spread>1.5</Spread>
+      <Thrust>0</Thrust>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Category>Fortress</Category>
+    <Distance>
+      <FromClass>Fortress</FromClass>
+      <MinDistance>75</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>4000</CapturePoints>
+    <RegenRate>10.0</RegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <food>200</food>
+      <metal>100</metal>
+      <stone>800</stone>
+      <wood>400</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="30.0" depth="30.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Soldier</List>
+    <Max>30</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>6000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">GarrisonFortress</Classes>
+    <GenericName>Fortress</GenericName>
+    <Icon>structures/fortress.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Territory root. Garrison units to fire additional arrows.</Tooltip>
+    <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>40</food>
+    <metal>20</metal>
+    <stone>160</stone>
+    <wood>80</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+    <Rates>
+      <food>-6.0</food>
+      <silver>-2.0</silver>
+      <wood>-2.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_fortress.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_fortress.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>100</Radius>
+    <Root>true</Root>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

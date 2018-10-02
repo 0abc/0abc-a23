@@ -24,7 +24,7 @@
     <Icon>structures/elephant_stables.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Train elephantry. Research elephant technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">City ElephantStable</VisibleClasses>
+    <VisibleClasses datatype="tokens">ElephantStable</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

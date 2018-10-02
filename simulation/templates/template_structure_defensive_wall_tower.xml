@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
+      <MaxRange>10</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <RepeatTime>2000</RepeatTime>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.1</LineThickness>
+      </RangeOverlay>
+      <Spread>1.5</Spread>
+      <Thrust>0</Thrust>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>0</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>90</BuildTime>
+    <Resources>
+      <stone>180</stone>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="6.0" depth="6.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>2</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Tower</Classes>
+    <GenericName>Wall Turret</GenericName>
+    <Icon>structures/tower.png</Icon>
+    <Tooltip>Shoots arrows. Garrison to defend a city wall against attackers.</Tooltip>
+  </Identity>
+  <Loot>
+    <stone>36</stone>
+    <wood>12</wood>
+  </Loot>
+  <Obstruction>
+    <ControlPersist/>
+    <Static width="6.0" depth="6.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      pair_walls_01
+    </Technologies>
+  </ProductionQueue>
+  <Repairable>
+    <RepairTimeRatio>4.5</RepairTimeRatio>
+  </Repairable>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_tower.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_tower.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>20.0</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay>
+    <DecayRate>5.0</DecayRate>
+  </TerritoryDecay>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

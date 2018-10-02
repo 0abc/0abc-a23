@@ -32,7 +32,7 @@
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train healers. Garrison units to heal them at a quick rate. Research healing technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
+    <VisibleClasses datatype="tokens">Temple</VisibleClasses>
   </Identity>
   <Loot>
     <metal>20</metal>

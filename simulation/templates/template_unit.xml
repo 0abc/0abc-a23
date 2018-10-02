@@ -70,6 +70,7 @@
     <Unhealable>false</Unhealable>
   </Health>
   <Identity>
+    <Civ>gaia</Civ>
     <Classes datatype="tokens">Unit ConquestCritical Bribable</Classes>
     <Formations datatype="tokens">
       special/formations/null

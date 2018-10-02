@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower">
+  <Attack>
+    <Ranged>
+      <Pierce>12</Pierce>
+      <MaxRange>76</MaxRange>
+      <MinRange>10</MinRange>
+      <ElevationBonus>15</ElevationBonus>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <food>50</food>
+      <stone>100</stone>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">GarrisonTower</Classes>
+    <GenericName>Stone Tower</GenericName>
+    <Icon>structures/defense_tower.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">DefenseTower</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <stone>20</stone>
+    <wood>30</wood>
+  </Loot>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      tower_watch
+      tower_crenellations
+      tower_range
+      tower_murderholes
+      tower_armour
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>32</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+</Entity>

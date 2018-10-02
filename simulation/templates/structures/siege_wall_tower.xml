@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_turf_wall">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
+      <MaxRange>10</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <RepeatTime>2000</RepeatTime>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.1</LineThickness>
+      </RangeOverlay>
+      <Spread>1.5</Spread>
+      <Thrust>0</Thrust>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>0</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <Resources>
+      <wood>120</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>14.0</Height>
+    <Square width="10.0" depth="10.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>2</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <GenericName>Siege Wall Tower</GenericName>
+    <SpecificName>Turris Circummunitionis</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>24</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="7.0" depth="7.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/romans/siege_wall_tower.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>6.0</Length>
+  </WallPiece>
+</Entity>

@@ -15,6 +15,7 @@
     <Territory>own</Territory>
   </BuildRestrictions>
   <Identity>
+    <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>

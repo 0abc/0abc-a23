@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="14.5" depth="9.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>8.9</Y><Z>0</Z>
+      </Archer1>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>rome</Civ>
+    <SelectionGroupName>structures/rome/wallset</SelectionGroupName>
+    <SpecificName>Moenia</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="7.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/romans/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>13.0</Length>
+  </WallPiece>
+</Entity>

@@ -67,7 +67,8 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Structure ConquestCritical</Classes>
+    <Civ>gaia</Civ>
+    <Classes datatype="tokens">Structure</Classes>
     <GenericName>Structure</GenericName>
     <Undeletable>false</Undeletable>
   </Identity>

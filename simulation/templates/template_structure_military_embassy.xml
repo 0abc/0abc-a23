@@ -28,7 +28,7 @@
   <Identity>
     <GenericName>Embassy</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Town Embassy</VisibleClasses>
+    <VisibleClasses datatype="tokens">Embassy</VisibleClasses>
   </Identity>
   <Loot>
     <wood>40</wood>

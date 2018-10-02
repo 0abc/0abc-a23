@@ -29,7 +29,7 @@
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Melonas</SpecificName>
-    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <VisibleClasses datatype="tokens">RotaryMill</VisibleClasses>
   </Identity>
   <Loot>
     <wood>40</wood>

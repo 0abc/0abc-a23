@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_resource">
+<Entity parent="template_structure">
   <Armour>
     <Crush>5</Crush>
     <Hack>15</Hack>
@@ -31,7 +31,7 @@
     <GenericName>Field</GenericName>
     <Icon>structures/field.png</Icon>
     <Tooltip>Harvest grain for food.</Tooltip>
-    <VisibleClasses datatype="tokens">Field</VisibleClasses>
+    <VisibleClasses datatype="tokens">Resource Field</VisibleClasses>
   </Identity>
   <Loot>
     <wood>20</wood>

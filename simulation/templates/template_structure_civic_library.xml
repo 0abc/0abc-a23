@@ -31,7 +31,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Bibliothḗkē</SpecificName>
     <Tooltip>Research special technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">City</VisibleClasses>
+    <VisibleClasses datatype="tokens">Library</VisibleClasses>
   </Identity>
   <Loot>
     <metal>30</metal>
@@ -55,7 +55,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/macedonians/library.xml</Actor>
     <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

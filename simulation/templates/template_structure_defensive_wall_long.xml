@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall">
+  <Auras datatype="tokens">
+    structures/wall_garrisoned
+  </Auras>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <stone>135</stone>
+      <wood>45</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>4000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">LongWall</Classes>
+    <Tooltip>Long wall segments can be converted to gates.</Tooltip>
+  </Identity>
+  <Loot>
+    <stone>27</stone>
+    <wood>9</wood>
+  </Loot>
+  <RallyPoint/>
+  <Upgrade>
+    <Gate>
+      <Cost>
+        <metal>30</metal>
+        <wood>30</wood>
+      </Cost>
+      <Entity>structures/{civ}_wall_gate</Entity>
+      <Time>15</Time>
+      <Tooltip>This will allow you to let units circulate through your fortifications.</Tooltip>
+    </Gate>
+  </Upgrade>
+  <VisualActor>
+    <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
+  </VisualActor>
+</Entity>

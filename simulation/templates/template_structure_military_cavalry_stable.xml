@@ -20,11 +20,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Stables</Classes>
     <GenericName>Stables</GenericName>
     <Icon>structures/pers_stable.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train cavalry. Research cavalry technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Stable</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
