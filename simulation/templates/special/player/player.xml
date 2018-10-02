@@ -16,9 +16,8 @@
   <EntityLimits>
     <Limits>
       <Apadana>1</Apadana>
-      <CivilCentre>1</CivilCentre>
+      <Centre>1</Centre>
       <Council>1</Council>
-      <DefenseTower>30</DefenseTower>
       <Embassy>2</Embassy>
       <Fortress>10</Fortress>
       <Hall>2</Hall>
@@ -27,14 +26,15 @@
       <Kennel>5</Kennel>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
-      <Monument>5</Monument>
       <NavalTrader>20</NavalTrader>
+      <Palace>1</Palace>
       <Pillar>5</Pillar>
       <PyramidSmall>4</PyramidSmall>
       <PyramidLarge>2</PyramidLarge>
       <Stoa>2</Stoa>
       <TempleOfAmun>1</TempleOfAmun>
-      <Theater>1</Theater>
+      <Theatre>1</Theatre>
+      <Tower>30</Tower>
       <UniqueBuilding>1</UniqueBuilding>
       <WarDog>0</WarDog>
       <Wonder>1</Wonder>
@@ -45,9 +45,9 @@
       </WarDog>
     </LimitChangers>
     <LimitRemovers>
-      <CivilCentre>
+      <Centre>
         <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
-      </CivilCentre>
+      </Centre>
     </LimitRemovers>
   </EntityLimits>
   <Identity>
