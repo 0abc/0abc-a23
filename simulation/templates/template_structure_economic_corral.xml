@@ -9,16 +9,11 @@
       <wood>100</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>5.0</Height>
-    <Square width="18.0" depth="17.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
     <Max>500</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Corral</GenericName>
@@ -29,9 +24,6 @@
   <Loot>
     <wood>20</wood>
   </Loot>
-  <Obstruction>
-    <Static width="16.0" depth="15.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       gaia/fauna_goat_trainable
@@ -50,7 +42,4 @@
       <select>interface/select/building/sel_corral.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
-  </VisualActor>
 </Entity>

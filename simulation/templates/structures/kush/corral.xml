@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_corral">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="15.0" depth="17.0"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kush</Civ>
+    <SpecificName>ihy</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="12.0" depth="14.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/kushites/corral.xml</Actor>
+    <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

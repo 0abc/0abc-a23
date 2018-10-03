@@ -20,21 +20,22 @@
     <Entities datatype="tokens">
       structures/{civ}/centre
       structures/{civ}/crannog
-      structures/{civ}_house
-      structures/{civ}_field
-      structures/{civ}_farmstead
-      structures/{civ}_storehouse
-      structures/{civ}_dock
-      structures/{civ}_market
-      structures/{civ}_blacksmith
-      structures/{civ}_kennel
-      structures/{civ}_barracks
-      structures/{civ}_camel_stable
-      structures/{civ}_cavalry_stable
-      structures/{civ}_chariot_stable
-      structures/{civ}_elephant_stable
-      structures/{civ}_workshop
-      structures/{civ}_shipyard
+      structures/{civ}/house
+      structures/{civ}/field
+      structures/{civ}/farmstead
+      structures/{civ}/storehouse
+      structures/{civ}/dock
+      structures/{civ}/market
+      structures/{civ}/rotarymill
+      structures/{civ}/blacksmith
+      structures/{civ}/kennel
+      structures/{civ}/barracks
+      structures/{civ}/camel_stable
+      structures/{civ}/cavalry_stable
+      structures/{civ}/chariot_stable
+      structures/{civ}/elephant_stable
+      structures/{civ}/workshop
+      structures/{civ}/shipyard
       structures/{civ}/harbour
       structures/{civ}/temple
       structures/{civ}/pillar

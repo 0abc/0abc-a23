@@ -23,7 +23,6 @@
   </GarrisonHolder>
   <Health>
     <Max>900</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">DropsiteFood</Classes>
@@ -49,7 +48,4 @@
       <select>interface/select/building/sel_farmstead.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-  </VisualActor>
 </Entity>

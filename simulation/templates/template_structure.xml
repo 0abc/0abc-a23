@@ -19,6 +19,7 @@
     <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
+    <Category>Structure</Category>
     <PlacementType>land</PlacementType>
     <Territory>own</Territory>
   </BuildRestrictions>
@@ -94,6 +95,7 @@
     <DisableBlockMovement>false</DisableBlockMovement>
     <DisableBlockPathfinding>false</DisableBlockPathfinding>
     <DeleteUponConstruction>false</DeleteUponConstruction>
+    <Static width="10.0" depth="10.0"/>
   </Obstruction>
   <OverlayRenderer/>
   <Ownership/>

@@ -81,7 +81,7 @@
       "Template": "units/brit_cavalry_javelinist_b"
     },
     {
-      "Template": "units/brit_war_dog_e"
+      "Template": "units/brit/war_dog"
     }
   ],
   "Formations":
@@ -114,7 +114,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_ranged_b": "units/brit_infantry_slinger_b",
-    "skirmish/units/special_starting_unit": "units/brit_war_dog_b",
+    "skirmish/units/special_starting_unit": "units/brit/war_dog",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

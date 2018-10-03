@@ -12,20 +12,12 @@
     </Foundation>
   </Armour>
   <BuildRestrictions>
-    <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>1500</CapturePoints>
   </Capturable>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="6.0" depth="6.0"/>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Classes datatype="tokens">SiegeWall</Classes>
     <GenericName>Siege Wall</GenericName>
@@ -33,9 +25,6 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>A wooden and turf palisade buildable in own, neutral, and enemy territories.</Tooltip>
   </Identity>
-  <Obstruction>
-    <Static width="6.0" depth="6.0"/>
-  </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
   <Repairable>

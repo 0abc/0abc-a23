@@ -7,7 +7,6 @@
     <Thrust>30</Thrust>
   </Armour>
   <BuildRestrictions>
-    <Category>Military</Category>
     <Distance>
       <FromClass>Military</FromClass>
       <MinDistance>30</MinDistance>

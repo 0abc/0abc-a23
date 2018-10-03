@@ -4,6 +4,9 @@
     <Height>20.0</Height>
     <Square width="48.0" depth="66.0"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>ptol</Civ>
     <SpecificName>Temple of Edfu</SpecificName>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_dog">
+  <Identity>
+    <Civ>brit</Civ>
+    <Icon>units/brit_war_dog.png</Icon>
+    <SpecificName>Coun</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/britons/war_dog_mastiff_a.xml</Actor>
+  </VisualActor>
+</Entity>

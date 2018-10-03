@@ -7,16 +7,11 @@
       <wood>300</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>12.0</Height>
-    <Square width="19.0" depth="19.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Practice Range</GenericName>
@@ -29,9 +24,6 @@
     <food>20</food>
     <wood>60</wood>
   </Loot>
-  <Obstruction>
-    <Static width="17.0" depth="17.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_infantry_javelinist_b
@@ -45,8 +37,5 @@
       <death>attack/destruction/building_collapse_large.xml</death>
       <select>interface/select/building/sel_barracks.xml</select>
     </SoundGroups>
-  </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-  </VisualActor>
+  </Sound>>
 </Entity>

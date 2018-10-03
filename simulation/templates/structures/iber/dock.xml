@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_dock">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="16.0" depth="26.0"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_iber_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Kai</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="24.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/iberians/dock.xml</Actor>
+    <FoundationActor>structures/fndn_dock_iber.xml</FoundationActor>
+  </VisualActor>
+</Entity>

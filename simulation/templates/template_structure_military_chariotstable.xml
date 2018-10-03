@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <List datatype="tokens">Chariot</List>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Chariot Stable</GenericName>
+    <Icon>structures/pers_stable.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Train chariotry. Research chariot technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">ChariotStable</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>20</food>
+    <wood>60</wood>
+  </Loot>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/biga_javelinist
+      units/{civ}/biga_archer
+      units/{civ}/quadriga_scythed
+    </Entities>
+    <Technologies datatype="tokens">
+      training_chariot_stables
+      drill_chariotry_1
+      drill_chariotry_2
+      drill_chariotry_3
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_barracks.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_barracks.xml</select>
+    </SoundGroups>
+  </Sound>
+</Entity>

@@ -4,6 +4,9 @@
     <Height>10.0</Height>
     <Square width="62.0" depth="62.0"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>pers</Civ>
     <SpecificName>Hanging Gardens of Babylon</SpecificName>

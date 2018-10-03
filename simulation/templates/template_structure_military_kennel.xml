@@ -17,17 +17,12 @@
       <wood>50</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="8.0" depth="7.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">-Support -Infantry</List>
+    <List datatype="tokens">-Support+!Elephant -Infantry</List>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>500</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Kennel</GenericName>
@@ -40,18 +35,12 @@
     <food>10</food>
     <wood>10</wood>
   </Loot>
-  <Obstruction>
-    <Static width="7.5" depth="6.75"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_war_dog_b
+      units/{civ}/war_dog
     </Entities>
     <Technologies datatype="tokens">
       training_kennel
-      drill_dogs_1
-      drill_dogs_2
-      drill_dogs_3
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle disable=""/>
@@ -68,7 +57,4 @@
   <TerritoryInfluence>
     <Radius>20</Radius>
   </TerritoryInfluence>
-  <VisualActor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
-  </VisualActor>
 </Entity>

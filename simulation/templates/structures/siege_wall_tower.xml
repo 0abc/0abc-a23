@@ -41,6 +41,7 @@
   </GarrisonHolder>
   <Health>
     <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Siege Wall Tower</GenericName>
@@ -54,6 +55,7 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/siege_wall_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>6.0</Length>

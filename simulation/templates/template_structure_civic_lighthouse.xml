@@ -16,13 +16,8 @@
   <GarrisonHolder>
     <Max>25</Max>
   </GarrisonHolder>
-  <Footprint replace="">
-    <Circle radius="14.0"/>
-    <Height>8.0</Height>
-  </Footprint>
   <Health>
     <Max>3000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Lighthouse</GenericName>
@@ -37,9 +32,6 @@
     <stone>120</stone>
     <wood>40</wood>
   </Loot>
-  <Obstruction>
-    <Static width="20.0" depth="25.0"/>
-  </Obstruction>
   <Position>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>
@@ -63,7 +55,4 @@
     <Range>200</Range>
     <RevealShore>true</RevealShore>
   </Vision>
-  <VisualActor>
-    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
-  </VisualActor>
 </Entity>

@@ -13,17 +13,12 @@
       <wood>200</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>12.0</Height>
-    <Square width="16.0" depth="16.0"/>
-  </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">Camel Cavalry</List>
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Embassy</GenericName>
@@ -33,9 +28,6 @@
   <Loot>
     <wood>40</wood>
   </Loot>
-  <Obstruction>
-    <Static width="16.0" depth="16.0"/>
-  </Obstruction>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
@@ -43,7 +35,4 @@
       <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
-  </VisualActor>
 </Entity>

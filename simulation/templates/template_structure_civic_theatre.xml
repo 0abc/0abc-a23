@@ -14,16 +14,11 @@
       <wood>300</wood>
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Circle radius="25"/>
-    <Height>10.0</Height>
-  </Footprint>
   <GarrisonHolder>
     <Max>40</Max>
   </GarrisonHolder>
   <Health>
     <Max>4000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Theatre</GenericName>
@@ -37,9 +32,6 @@
     <stone>180</stone>
     <wood>60</wood>
   </Loot>
-  <Obstruction>
-    <Static width="40" depth="46"/>
-  </Obstruction>
   <ProductionQueue disable=""/>
   <Sound>
     <SoundGroups>
@@ -51,7 +43,4 @@
   <TerritoryInfluence>
     <Radius>100</Radius>
   </TerritoryInfluence>
-  <VisualActor>
-    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
-  </VisualActor>
 </Entity>

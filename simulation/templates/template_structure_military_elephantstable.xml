@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <Cost>
+    <BuildTime>250</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <List datatype="tokens">Elephant</List>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Elephant Stable</GenericName>
+    <Icon>structures/elephant_stables.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Train elephantry. Research elephant technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">ElephantStable</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>20</food>
+    <wood>60</wood>
+  </Loot>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_support_elephant
+      units/{civ}_elephant_archer_b
+      units/{civ}_champion_elephant
+    </Entities>
+    <Technologies datatype="tokens">
+      training_elephant_stables
+      drill_elephantry_1
+      drill_elephantry_2
+      drill_elephantry_3
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_elephant_stables.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_elephant_stables.xml</select>
+    </SoundGroups>
+  </Sound>
+</Entity>

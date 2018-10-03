@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_centre">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="32.0" depth="32.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>skirm</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="30.0" depth="30.0"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <SkirmishReplacer>
+    <general>structures/{civ}/centre</general>
+  </SkirmishReplacer>
+  <VisualActor>
+    <Actor>structures/athenians/civil_centre.xml</Actor>
+  </VisualActor>
+</Entity>

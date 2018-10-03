@@ -15,6 +15,7 @@
   </Gate>
   <Health>
     <Max>1700</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Siege Wall Gate</GenericName>
@@ -34,6 +35,7 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/siege_wall_gate.xml</Actor>
+    <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>36.0</Length>

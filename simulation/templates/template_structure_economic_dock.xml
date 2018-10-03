@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
   <BuildRestrictions>
-    <Category>Dock</Category>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
@@ -14,16 +13,11 @@
       <wood>200</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="18.0" depth="18.0"/>
-    <Height>8.0</Height>
-  </Footprint>
   <GarrisonHolder>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">Naval NavalMarket</Classes>
@@ -39,9 +33,6 @@
     <InternationalBonus>0.2</InternationalBonus>
     <TradeType>land naval</TradeType>
   </Market>
-  <Obstruction>
-    <Static width="18.0" depth="18.0"/>
-  </Obstruction>
   <Position>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>
@@ -51,6 +42,7 @@
       units/{civ}/ship_fishing
       units/{civ}/ship_merchant
       units/{civ}/ship_barge
+      units/{civ}_ship_fire
     </Entities>
     <Technologies datatype="tokens">
       gather_fish
@@ -72,7 +64,4 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
-  <VisualActor>
-    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
-  </VisualActor>
 </Entity>

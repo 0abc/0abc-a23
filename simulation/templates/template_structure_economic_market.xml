@@ -15,16 +15,11 @@
       <wood>300</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="33.0" depth="29.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>1500</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">BarterMarket LandMarket</Classes>
@@ -40,9 +35,6 @@
     <InternationalBonus>0.2</InternationalBonus>
     <TradeType>land</TradeType>
   </Market>
-  <Obstruction>
-    <Static width="30.0" depth="26.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
       speed_trader
@@ -80,7 +72,4 @@
       <select>interface/select/building/sel_market.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
-  </VisualActor>
 </Entity>

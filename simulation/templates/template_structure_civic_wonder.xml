@@ -22,10 +22,6 @@
       <wood>1000</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>10.0</Height>
-    <Square width="34.0" depth="34.0"/>
-  </Footprint>
   <GarrisonHolder>
     <BuffHeal>5</BuffHeal>
     <List datatype="tokens">Soldier</List>
@@ -33,7 +29,6 @@
   </GarrisonHolder>
   <Health>
     <Max>6000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
@@ -49,9 +44,6 @@
     <stone>400</stone>
     <wood>200</wood>
   </Loot>
-  <Obstruction>
-    <Static width="30.0" depth="30.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
       wonder
@@ -78,8 +70,5 @@
     <Radius>100</Radius>
     <Weight>65535</Weight>
   </TerritoryInfluence>
-  <VisualActor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
-  </VisualActor>
   <Wonder/>
 </Entity>

@@ -7,17 +7,12 @@
       <wood>300</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="30.0" depth="30.0"/>
-    <Height>12.0</Height>
-  </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
     <List datatype="tokens">Siege</List>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Siege Workshop</GenericName>
@@ -30,9 +25,6 @@
     <food>20</food>
     <wood>60</wood>
   </Loot>
-  <Obstruction>
-    <Static width="29.0" depth="29.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_mechanical_siege_ballista_packed
@@ -56,7 +48,4 @@
       <select>interface/select/building/sel_barracks.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
-  </VisualActor>
 </Entity>

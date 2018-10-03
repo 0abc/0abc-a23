@@ -27,16 +27,12 @@
   <Identity>
     <Classes datatype="tokens">Organic</Classes>
     <GenericName>War Dog</GenericName>
-    <Rank>0</Rank>
     <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
     <xp>15</xp>
   </Loot>
-  <Promotion>
-    <RequiredXp>30</RequiredXp>
-  </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>

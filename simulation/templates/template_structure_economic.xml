@@ -7,7 +7,6 @@
     <Thrust>10</Thrust>
   </Armour>
   <BuildRestrictions>
-    <Category>Economic</Category>
     <Distance>
       <FromClass>Economic</FromClass>
       <MinDistance>20</MinDistance>

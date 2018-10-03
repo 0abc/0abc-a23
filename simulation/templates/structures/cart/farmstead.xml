@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="17.0" depth="19.0"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Aḥuzāh</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="15.0" depth="17.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/carthaginians/farmstead.xml</Actor>
+    <FoundationActor>structures/carthaginians/fndn_farmstead.xml</FoundationActor>
+  </VisualActor>
+</Entity>

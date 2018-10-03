@@ -10,16 +10,11 @@
       <wood>75</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>5.0</Height>
-    <Square width="13.0" depth="13.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
     <Max>600</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>House</GenericName>
@@ -30,9 +25,6 @@
   <Loot>
     <wood>15</wood>
   </Loot>
-  <Obstruction>
-    <Static width="11.0" depth="11.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/support_woman
@@ -40,6 +32,7 @@
     <Technologies datatype="tokens">
       training_woman
       armour_woman
+      gather_forage
       house_population_1
       house_population_2
       house_population_3
@@ -58,7 +51,4 @@
   <TerritoryDecay>
     <DecayRate>10</DecayRate>
   </TerritoryDecay>
-  <VisualActor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
-  </VisualActor>
 </Entity>

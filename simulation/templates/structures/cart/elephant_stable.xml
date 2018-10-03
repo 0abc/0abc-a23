@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_elephantstable">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="31" depth="29"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Carthaginian Elephant Stables</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="29" depth="27"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/carthaginians/stable_elephant.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

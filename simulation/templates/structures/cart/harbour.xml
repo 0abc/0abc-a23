@@ -34,7 +34,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Cothon</SpecificName>
     <Tooltip>Construct and repair mighty warships.</Tooltip>
-    <VisibleClasses datatype="tokens">-Town Harbour City</VisibleClasses>
+    <VisibleClasses datatype="tokens">Harbour</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

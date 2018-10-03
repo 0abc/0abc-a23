@@ -4,6 +4,9 @@
     <Height>15.0</Height>
     <Square width="10.0" depth="10.5"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>sele</Civ>
     <SpecificName>Pyrgíon</SpecificName>
@@ -16,5 +19,6 @@
   </StatusBars>
   <VisualActor>
     <Actor>structures/seleucids/scout_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

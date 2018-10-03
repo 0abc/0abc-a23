@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_fortress">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="30.0" depth="30.0"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>maur</Civ>
     <SpecificName>Durg</SpecificName>
     <Tooltip>Train heroes and champion units.</Tooltip>
   </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/mauryans/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>22.0</Length>

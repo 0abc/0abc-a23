@@ -4,6 +4,9 @@
     <Height>14.0</Height>
     <Square width="43.0" depth="43.0"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Cancho Roano</SpecificName>

@@ -7,6 +7,9 @@
     <Height>5.0</Height>
     <Square width="7.0" depth="7.0"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Edict Pillar of Ashoka</GenericName>
@@ -18,5 +21,6 @@
   </Obstruction>
   <VisualActor>
     <Actor>props/structures/mauryans/ashoka_pillar.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

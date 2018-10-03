@@ -22,10 +22,6 @@
       <wood>100</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>9.0</Height>
-    <Square width="9.5" depth="8.5"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>3</Max>
   </GarrisonHolder>
@@ -40,15 +36,10 @@
     <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
   </Identity>
   <Loot>
-  <Loot>
     <food>10</food>
     <stone>10</stone>
     <wood>20</wood>
   </Loot>
-  </Loot>
-  <Obstruction>
-    <Static width="9.0" depth="7.5"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
       tower_watch
@@ -74,7 +65,4 @@
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
     </Tower>
   </Upgrade>
-  <VisualActor>
-    <Actor>props/special/palisade_rocks_fort.xml</Actor>
-  </VisualActor>
 </Entity>

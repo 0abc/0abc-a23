@@ -6,9 +6,6 @@
     <Pierce>40</Pierce>
     <Thrust>40</Thrust>
   </Armour>
-  <BuildRestrictions>
-    <Category>Field</Category>
-  </BuildRestrictions>
   <Capturable>
     <CapturePoints>100</CapturePoints>
   </Capturable>

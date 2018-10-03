@@ -14,16 +14,11 @@
       <wood>150</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="29.0" depth="34.0"/>
-    <Height>9.0</Height>
-  </Footprint>
   <GarrisonHolder>
     <Max>25</Max>
   </GarrisonHolder>
   <Health>
     <Max>2500</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Library</GenericName>
@@ -38,9 +33,6 @@
     <stone>90</stone>
     <wood>30</wood>
   </Loot>
-  <Obstruction>
-    <Static width="25.0" depth="30.0"/>
-  </Obstruction>
   <ResourceTrickle>
     <Interval>7000</Interval>
     <Rates>
@@ -54,7 +46,4 @@
       <select>interface/select/building/sel_temple.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
-  </VisualActor>
 </Entity>

@@ -35,11 +35,6 @@
     <GenericName>Woman</GenericName>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      gather_forage
-    </Technologies>
-  </ProductionQueue>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>

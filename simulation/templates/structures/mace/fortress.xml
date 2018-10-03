@@ -4,6 +4,9 @@
     <Square width="26.0" depth="28.0"/>
     <Height>8.0</Height>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>mace</Civ>
     <SpecificName>Teíchisma</SpecificName>
@@ -13,6 +16,7 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/macedonians/fortress_up.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

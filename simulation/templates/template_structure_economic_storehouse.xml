@@ -15,16 +15,11 @@
       <wood>100</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="15.0" depth="15.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>4</Max>
   </GarrisonHolder>
   <Health>
     <Max>700</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone</Classes>
@@ -33,9 +28,6 @@
     <Tooltip>Dropsite for wood, metal, and stone.</Tooltip>
     <VisibleClasses datatype="tokens">Storehouse</VisibleClasses>
   </Identity>
-  <Obstruction>
-    <Static width="13.0" depth="13.0"/>
-  </Obstruction>
   <RallyPoint disable=""/>
   <ResourceDropsite>
     <Sharable>true</Sharable>
@@ -50,7 +42,4 @@
       <select>interface/select/building/sel_storehouse.xml</select>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
-  </VisualActor>
 </Entity>

@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_centre">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="32.0" depth="32.0"/>
+  </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_pers_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Provincial Governor</GenericName>
     <SpecificName>Xšaçapāvan</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="30.0" depth="30.0"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_infantry_spearman_b
       units/{civ}_infantry_archer_b
     </Entities>
-    <Technologies datatype="tokens">
-      persians/persian_architecture
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/civil_centre.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

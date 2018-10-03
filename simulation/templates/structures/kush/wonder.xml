@@ -4,6 +4,9 @@
     <Height>20.0</Height>
     <Square width="48.0" depth="66.0"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>kush</Civ>
     <SpecificName>Mnw nht</SpecificName>

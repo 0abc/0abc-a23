@@ -4,6 +4,9 @@
     <Height>8.0</Height>
     <Square width="26.0" depth="28.0"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>spart</Civ>
     <SpecificName>Teíkhisma</SpecificName>
@@ -13,6 +16,7 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/spartans/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>
