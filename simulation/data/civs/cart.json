@@ -54,14 +54,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/cart_wallset_short",
-    "structures/cart_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/cart/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/cart_civil_centre"
+      "Template": "structures/cart/centre"
     },
     {
       "Template": "units/cart_support_female_citizen",
@@ -115,7 +115,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_ranged_b": "units/cart_infantry_archer_b",
-    "skirmish/structures/default_house_10": "structures/{civ}_house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

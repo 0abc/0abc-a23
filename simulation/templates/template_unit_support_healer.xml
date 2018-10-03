@@ -23,16 +23,9 @@
   </Health>
   <Identity>
     <GenericName>Healer</GenericName>
-    <Rank>0</Rank>
     <Tooltip>Heal units.</Tooltip>
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>25</xp>
-  </Loot>
-  <Promotion>
-    <RequiredXp>200</RequiredXp>
-  </Promotion>
   <Selectable>
     <Overlay>
       <Texture>

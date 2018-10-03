@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>iber</Civ>
+    <Gender>female</Gender>
+    <GenericName>Priestess of Ataekina</GenericName>
+    <Icon>units/iber_support_healer.png</Icon>
+    <SelectionGroupName>units/iber/support_healer</SelectionGroupName>
+    <SpecificName>Emakumezko Apaiz de Ataekina</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/iberians/healer.xml</Actor>
+  </VisualActor>
+</Entity>

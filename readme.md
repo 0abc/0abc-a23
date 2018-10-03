@@ -29,6 +29,7 @@
 * all units are bribable (vision sharing), excluding fauna
 * fauna is no longer visible in fog
 * female citizens are renamed to simply women and they can no longer build
+* healers can no longer promote
 * cavalry can no longer gather resources
 * camelry, chariotry, and elephantry are no longer considered cavalry
 * chariotry can no longer attack ships, siege, or structures

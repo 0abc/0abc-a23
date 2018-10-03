@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_woman">
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Roman Woman</GenericName>
+    <Icon>units/rome_support_female_citizen.png</Icon>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome/support_woman</SelectionGroupName>
+    <SpecificName>Romana</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/romans/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -60,22 +60,21 @@
   </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
-    <PopulationBonus>20</PopulationBonus>
+    <PopulationBonus>15</PopulationBonus>
     <Resources>
       <food>300</food>
       <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="32.0" depth="32.0"/>
     <Height>8.0</Height>
+    <Square width="32.0" depth="32.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>25</Max>
   </GarrisonHolder>
   <Health>
     <Max>3000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">CivCentre CivilCentre</Classes>
@@ -100,7 +99,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen
+      units/{civ}/support_woman
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}

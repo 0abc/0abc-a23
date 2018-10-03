@@ -55,13 +55,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/pers_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/pers/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/pers_civil_centre"
+      "Template": "structures/pers/centre"
     },
     {
       "Template": "units/pers_support_female_citizen",
@@ -111,7 +112,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_ranged_b": "units/pers_infantry_archer_b",
-    "skirmish/structures/default_house_10" : "structures/{civ}_house"
+    "skirmish/structures/default_house_10" : "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

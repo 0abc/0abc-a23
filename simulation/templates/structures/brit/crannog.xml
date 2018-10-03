@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_centre">
+  <BuildRestrictions>
+    <PlacementType>shore</PlacementType>
+    <Territory>own ally neutral</Territory>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="17"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>brit</Civ>
+    <Classes datatype="tokens">Naval</Classes>
+    <GenericName>Island Settlement</GenericName>
+    <Icon>structures/crannog.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Crannóc</SpecificName>
+    <Tooltip>Increase population limit and defend waterways.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="29" depth="29"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+    <FloatDepth>0.0</FloatDepth>
+  </Position>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_slinger_b
+      units/{civ}_ship_fishing
+      units/{civ}_ship_merchant
+      units/{civ}_ship_barge
+    </Entities>
+    <Technologies datatype="tokens">
+      -phase_town_{civ}
+    </Technologies>
+  </ProductionQueue>
+  <RallyPointRenderer>
+    <LinePassabilityClass>ship</LinePassabilityClass>
+  </RallyPointRenderer>
+  <VisualActor>
+    <Actor>structures/britons/crannog.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

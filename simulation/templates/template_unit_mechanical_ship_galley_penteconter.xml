@@ -2,12 +2,11 @@
 <Entity parent="template_unit_mechanical_ship_galley">
   <Attack>
     <Melee>
-      <Crush op="mul">1.0</Crush>
+      <Crush>200</Crush>
     </Melee>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount op="mul">1.0</DefaultArrowCount>
-    <MaxArrowCount op="mul">1.0</MaxArrowCount>
+    <MaxArrowCount>5</MaxArrowCount>
   </BuildingAI>
   <Cost>
     <BuildTime op="add">10</BuildTime>
@@ -21,13 +20,13 @@
     <Square width="8.0" depth="33.0"/>
   </Footprint>
   <GarrisonHolder>
-    <Max op="mul">1.0</Max>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">1.0</Max>
   </Health>
   <Identity>
-    <GenericName>Unireme</GenericName>
+    <GenericName>Light Galley</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Pentēkóntoros</SpecificName>
   </Identity>

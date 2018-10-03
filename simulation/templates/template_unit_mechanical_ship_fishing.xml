@@ -26,10 +26,6 @@
       <wood>60</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>6.0</Height>
-    <Square width="4.0" depth="10.0"/>
-  </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Healer Infantry</EjectClassesOnDestroy>

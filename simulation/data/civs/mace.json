@@ -55,13 +55,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/mace_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/mace/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/mace_civil_centre"
+      "Template": "structures/mace/centre"
     },
     {
       "Template": "units/mace_support_female_citizen",
@@ -114,7 +115,7 @@
   {
     "skirmish/units/default_cavalry" : "units/mace_cavalry_spearman_b",
     "skirmish/units/default_infantry_melee_b": "units/mace_infantry_pikeman_b",
-    "skirmish/structures/default_house_10": "structures/{civ}_house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

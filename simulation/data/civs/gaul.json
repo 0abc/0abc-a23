@@ -56,13 +56,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/gaul_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/gaul/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/gaul_civil_centre"
+      "Template": "structures/gaul/centre"
     },
     {
       "Template": "units/gaul_support_female_citizen",
@@ -108,7 +109,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_5": "structures/{civ}_house"
+    "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

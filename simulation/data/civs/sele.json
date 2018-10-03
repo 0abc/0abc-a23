@@ -54,13 +54,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/sele_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/sele/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/sele_civil_centre"
+      "Template": "structures/sele/centre"
     },
     {
       "Template": "units/sele_support_female_citizen",
@@ -128,7 +129,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10" : "structures/{civ}_house"
+    "skirmish/structures/default_house_10" : "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

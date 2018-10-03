@@ -55,13 +55,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/maur_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/maur/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/maur_civil_centre"
+      "Template": "structures/maur/centre"
     },
     {
       "Template": "units/maur_support_female_citizen",
@@ -113,7 +114,7 @@
   {
     "skirmish/units/default_infantry_ranged_b": "units/maur_infantry_archer_b",
     "skirmish/units/special_starting_unit": "units/maur_support_elephant",
-    "skirmish/structures/default_house_5": "structures/{civ}_house"
+    "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

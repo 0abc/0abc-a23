@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_elephant">
+  <Footprint>
+    <Circle radius="4.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maur</Civ>
+    <Icon>units/maur_support_elephant.png</Icon>
+    <SpecificName>Karmākara Gaja</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/support_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

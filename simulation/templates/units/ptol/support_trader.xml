@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Footprint>
+    <Height>3.0</Height>
+    <Square width="4.0" depth="8.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>ptol</Civ>
+    <Icon>units/pers_support_trader.png</Icon>
+    <SpecificName>Émporos</SpecificName>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/death/death_camel.xml</death>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <select>actor/fauna/animal/camel_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/persians/trader.xml</Actor>
+  </VisualActor>
+</Entity>

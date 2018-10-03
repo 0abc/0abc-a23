@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Height>12.0</Height>
+    <Square width="24.0" depth="44.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>30</Max>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Temple of Mars</GenericName>
+    <SpecificName>Aedes Martis</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="40.0"/>
+  </Obstruction>
+  <TerritoryInfluence>
+    <Radius>50</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/romans/temple_mars.xml</Actor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

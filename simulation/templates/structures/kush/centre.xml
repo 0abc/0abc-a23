@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_centre">
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="32.0" depth="32"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kush</Civ>
+    <SpecificName>Pr-nsw</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="31.0" depth="31"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_archer_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/kushites/civic_centre_kush.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -16,10 +16,6 @@
       <food>150</food>
     </Resources>
   </Cost>
-  <Footprint>
-    <Circle radius="4.0"/>
-    <Height>6.0</Height>
-  </Footprint>
   <Health>
     <Max>300</Max>
   </Health>

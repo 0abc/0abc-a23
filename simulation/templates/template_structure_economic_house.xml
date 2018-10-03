@@ -35,7 +35,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen
+      units/{civ}/support_woman
     </Entities>
     <Technologies datatype="tokens">
       training_woman

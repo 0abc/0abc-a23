@@ -12,11 +12,8 @@
     {"value": "Attack/Ranged/Pierce",       "multiply": 1.05, "affects": "Ranged"           },
     {"value": "Attack/Ranged/Spread",       "multiply": 0.99, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",             "multiply": 1.05                                },
-    {"value": "Heal/Range",                 "add":      1,    "affects": "Healer"           },
-    {"value": "Heal/Rate",                  "multiply": 0.95, "affects": "Healer"           },
     {"value": "Health/Max",                 "multiply": 1.05                                },
     {"value": "ResourceGatherer/BaseSpeed", "multiply": 0.9                                 },
-    {"value": "Loot/silver",                "add":       1,   "affects": "Healer"           },
     {"value": "Loot/xp",                    "add":      20,   "affects": "Biga"             },
     {"value": "Loot/xp",                    "add":       8,   "affects": "Camel"            },
     {"value": "Loot/xp",                    "add":      10,   "affects": "Cavalry"          },
@@ -27,5 +24,5 @@
     {"value": "UnitMotion/Run/Speed",       "multiply": 1.01, "affects": "Melee"            },
     {"value": "UnitMotion/WalkSpeed",       "multiply": 1.01, "affects": "Melee"            }
   ],
-  "tooltip": "Units promoted to the first rank gain +5% health, +5% attack damage, and +5% capture attack, but also +5% training time and −10% resource gather speed; melee units also have +1% movement speed and ranged units −1% spread. Healers have +1 m heal range and −5% rate."
+  "tooltip": "Units promoted to the first rank gain +5% health, +5% attack damage, and +5% capture attack, but also +5% training time and −10% resource gather speed; melee units also have +1% movement speed and ranged units −1% spread."
 }

@@ -55,13 +55,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/spart_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/spart/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/spart_civil_centre"
+      "Template": "structures/spart/centre"
     },
     {
       "Template": "units/spart_support_female_citizen",
@@ -110,12 +111,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10" : "structures/{civ}_house",
-    "skirmish/structures/default_wall_tower": "",
-    "skirmish/structures/default_wall_gate": "",
-    "skirmish/structures/default_wall_short": "",
-    "skirmish/structures/default_wall_medium": "",
-    "skirmish/structures/default_wall_long": ""
+    "skirmish/structures/default_house_10" : "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

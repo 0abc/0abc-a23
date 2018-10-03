@@ -55,13 +55,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/athen_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/athen/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/athen_civil_centre"
+      "Template": "structures/athen/centre"
     },
     {
       "Template": "units/athen_support_female_citizen",
@@ -114,7 +115,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_ranged_b": "units/athen_infantry_slinger_b",
-    "skirmish/structures/default_house_10": "structures/{civ}_house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

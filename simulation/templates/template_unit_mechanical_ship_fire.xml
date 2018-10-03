@@ -33,10 +33,6 @@
     <Shape>Circular</Shape>
     <Thrust>300</Thrust>
   </DeathDamage>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="8.0" depth="24.0"/>
-  </Footprint>
   <Health>
     <DamageVariants>
       <heavydamage>0.35</heavydamage>

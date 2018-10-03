@@ -54,13 +54,14 @@
   ],
   "WallSets":
   [
-    "other/wallset_palisade",
-    "structures/iber_wallset_stone"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/iber/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/iber_civil_centre"
+      "Template": "structures/iber/centre"
     },
     {
       "Template": "units/iber_support_female_citizen",
@@ -94,7 +95,6 @@
   "AINames":
   [
     "Viriato",
-    "Viriato",
     "Karos",
     "Indibil",
     "Audax",
@@ -105,12 +105,12 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_melee_b": "units/iber_infantry_swordsman_b",
-    "skirmish/structures/default_house_5": "structures/{civ}_house",
-    "skirmish/structures/iber_wall_short": "structures/iber_wall_short",
-    "skirmish/structures/iber_wall_medium": "structures/iber_wall_medium",
-    "skirmish/structures/iber_wall_long": "structures/iber_wall_long",
-    "skirmish/structures/iber_wall_gate": "structures/iber_wall_gate",
-    "skirmish/structures/iber_wall_tower": "structures/iber_wall_tower"
+    "skirmish/structures/default_house_5": "structures/{civ}/house",
+    "skirmish/structures/iber_wall_short": "structures/iber/wall_short",
+    "skirmish/structures/iber_wall_medium": "structures/iber/wall_medium",
+    "skirmish/structures/iber_wall_long": "structures/iber/wall_long",
+    "skirmish/structures/iber_wall_gate": "structures/iber/wall_gate",
+    "skirmish/structures/iber_wall_tower": "structures/iber/wall_tower"
   },
   "SelectableInGameSetup": true
 }

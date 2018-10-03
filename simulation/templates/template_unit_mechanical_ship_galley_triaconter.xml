@@ -2,7 +2,7 @@
 <Entity parent="template_unit_mechanical_ship_galley">
   <Attack>
     <Melee>
-      <Crush op="mul">0.5</Crush>
+      <Crush>120</Crush>
     </Melee>
   </Attack>
   <BuildingAI>
@@ -26,8 +26,8 @@
     <Max op="mul">0.6</Max>
   </Health>
   <Identity>
-    <GenericName>Light Galley</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>Small Galley</GenericName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SpecificName>Triakóntoros</SpecificName>
   </Identity>
   <ResourceTrickle>

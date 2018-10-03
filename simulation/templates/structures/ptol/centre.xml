@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_centre">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="41" depth="33"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ptol</Civ>
+    <SpecificName>pr-'a</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="39" depth="31"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_pikeman_b
+      units/{civ}_infantry_javelinist_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/ptolemies/civic_centre.xml</Actor>
+  </VisualActor>
+</Entity>

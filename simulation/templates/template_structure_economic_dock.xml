@@ -48,8 +48,9 @@
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_ship_fishing
-      units/{civ}_ship_merchant
+      units/{civ}/ship_fishing
+      units/{civ}/ship_merchant
+      units/{civ}/ship_barge
     </Entities>
     <Technologies datatype="tokens">
       gather_fish

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_merchant">
+  <Footprint>
+    <Height>6.0</Height>
+    <Square width="12.0" depth="28.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>maur</Civ>
+    <Icon>units/maur_ship_merchant.png</Icon>
+    <SpecificName>Vanijyik Nauka</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mauryans/merchant_ship.xml</Actor>
+  </VisualActor>
+</Entity>

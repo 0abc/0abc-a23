@@ -55,13 +55,14 @@
   ],
   "WallSets":
   [
-    "structures/rome_wallset_stone",
-    "structures/rome_wallset_siege"
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/rome/wallset"
   ],
   "StartEntities":
   [
     {
-      "Template": "structures/rome_civil_centre"
+      "Template": "structures/rome/centre"
     },
     {
       "Template": "units/rome_support_female_citizen",
@@ -114,7 +115,7 @@
   {
     "skirmish/units/default_cavalry" : "units/rome_cavalry_spearman_b",
     "skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
-    "skirmish/structures/default_house_10" : "structures/{civ}_house"
+    "skirmish/structures/default_house_10" : "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

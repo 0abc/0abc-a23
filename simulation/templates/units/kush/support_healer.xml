@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Priest</GenericName>
+    <Icon>units/kush_support_healer.png</Icon>
+    <SelectionGroupName>units/kush/support_healer</SelectionGroupName>
+    <SpecificName>w’b nsw</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/healer.xml</Actor>
+  </VisualActor>
+</Entity>

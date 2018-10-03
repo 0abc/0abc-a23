@@ -54,10 +54,16 @@
   "Structures":
   [
   ],
+  "WallSets":
+  [
+    "structures/palisade_wallset",
+    "structures/siege_wallset",
+    "structures/kush/wallset"
+  ],
   "StartEntities":
   [
     {
-      "Template": "structures/kush_civil_centre"
+      "Template": "structures/kush/centre"
     },
     {
       "Template": "units/kush_support_female_citizen",
@@ -74,11 +80,6 @@
     {
       "Template": "units/kush_cavalry_javelinist_b"
     }
-  ],
-  "WallSets":
-  [
-    "other/wallset_palisade",
-    "structures/kush_wallset_stone"
   ],
   "Formations":
   [
@@ -114,7 +115,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_ranged_b": "units/kush_infantry_archer_b",
-    "skirmish/structures/default_house_10": "structures/{civ}_house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }
