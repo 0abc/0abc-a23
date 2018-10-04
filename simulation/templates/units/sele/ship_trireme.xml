@@ -2,9 +2,9 @@
 <Entity parent="template_unit_mechanical_ship_galley_03">
   <Identity>
     <Civ>sele</Civ>
-    <Icon>units/hele_ship_trireme.png</Icon>
+    <Icon>units/ptol_ship_trireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/athenians/trireme.xml</Actor>
+    <Actor>structures/ptolemies/trireme.xml</Actor>
   </VisualActor>
 </Entity>
