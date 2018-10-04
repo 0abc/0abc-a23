@@ -5,7 +5,6 @@
      templates). -->
 <Entity>
   <Identity>
-    <Civ>gaia</Civ>
     <Classes datatype="tokens">StoneWall</Classes>
     <GenericName>City Wall</GenericName>
     <Icon>structures/wall.png</Icon>
