@@ -55,9 +55,9 @@
   ],
   "WallSets":
   [
-    "structures/palisade_wallset",
-    "structures/siege_wallset",
-    "structures/ptol/wallset"
+    "structures/wallset_palisade",
+    "structures/wallset_siege",
+    "structures/ptol/wallset_city"
   ],
   "StartEntities":
   [
@@ -65,7 +65,7 @@
       "Template": "structures/ptol/centre"
     },
     {
-      "Template": "units/ptol_support_female_citizen",
+      "Template": "units/ptol/support_woman",
       "Count": 5
     },
     {

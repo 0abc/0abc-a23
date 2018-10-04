@@ -55,9 +55,9 @@
   ],
   "WallSets":
   [
-    "structures/palisade_wallset",
-    "structures/siege_wallset",
-    "structures/athen/wallset"
+    "structures/wallset_palisade",
+    "structures/wallset_siege",
+    "structures/athen/wallset_city"
   ],
   "StartEntities":
   [
@@ -65,7 +65,7 @@
       "Template": "structures/athen/centre"
     },
     {
-      "Template": "units/athen_support_female_citizen",
+      "Template": "units/athen/support_woman",
       "Count": 5
     },
     {

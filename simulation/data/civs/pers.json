@@ -55,9 +55,9 @@
   ],
   "WallSets":
   [
-    "structures/palisade_wallset",
-    "structures/siege_wallset",
-    "structures/pers/wallset"
+    "structures/wallset_palisade",
+    "structures/wallset_siege",
+    "structures/pers/wallset_city"
   ],
   "StartEntities":
   [
@@ -65,7 +65,7 @@
       "Template": "structures/pers/centre"
     },
     {
-      "Template": "units/pers_support_female_citizen",
+      "Template": "units/pers/support_woman",
       "Count": 5
     },
     {

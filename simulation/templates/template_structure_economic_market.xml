@@ -22,11 +22,11 @@
     <Max>1500</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">BarterMarket LandMarket</Classes>
+    <Classes datatype="tokens">LandMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
     <Tooltip>Train land traders. Barter resources. Research economic technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Market</VisibleClasses>
+    <VisibleClasses datatype="tokens">Market BarterMarket</VisibleClasses>
   </Identity>
   <Loot>
     <wood>60</wood>

@@ -55,9 +55,9 @@
   ],
   "WallSets":
   [
-    "structures/palisade_wallset",
-    "structures/siege_wallset",
-    "structures/maur/wallset"
+    "structures/wallset_palisade",
+    "structures/wallset_siege",
+    "structures/maur/wallset_city"
   ],
   "StartEntities":
   [
@@ -65,7 +65,7 @@
       "Template": "structures/maur/centre"
     },
     {
-      "Template": "units/maur_support_female_citizen",
+      "Template": "units/maur/support_woman",
       "Count": 5
     },
     {
@@ -80,7 +80,7 @@
       "Template": "units/maur_cavalry_javelinist_b"
     },
     {
-      "Template": "units/maur_support_elephant"
+      "Template": "units/maur/support_elephant"
     }
   ],
   "Formations":
@@ -113,7 +113,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_infantry_ranged_b": "units/maur_infantry_archer_b",
-    "skirmish/units/special_starting_unit": "units/maur_support_elephant",
+    "skirmish/units/special_starting_unit": "units/maur/support_elephant",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

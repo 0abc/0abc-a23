@@ -13,6 +13,14 @@
     </Distance>
     <Territory>own</Territory>
   </BuildRestrictions>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support+!Elephant Infantry Dog</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>0</Max>
+  </GarrisonHolder>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Military Structure</GenericName>

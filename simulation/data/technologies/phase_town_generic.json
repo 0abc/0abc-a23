@@ -1,0 +1,22 @@
+{
+  "affects": ["Centre"],
+  "cost": { "food": 400, "wood": 400, "stone": 200, "metal": 200 },
+  "description": "Advances from a small village to a bustling town, ready to expand rapidly.",
+  "genericName": "Town Phase",
+  "icon": "town_phase.png",
+  "modifications": [
+    {"value": "Cost/BuildTime",               "multiply": 1.2},
+    {"value": "Health/Max",                   "multiply": 1.2},
+    {"value": "Cost/Resources/stone",         "add":      300},
+    {"value": "Loot/silver",                  "add":       30},
+    {"value": "Loot/stone",                   "add":       60},
+    {"value": "Loot/xp",                      "multiply": 1.2},
+    {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
+    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
+  ],
+  "requirements": {"entity": {"class": "BarterMarket", "number": 1}},
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_phase.xml",
+  "supersedes": "phase_village",
+  "tooltip": "Advance to Town Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase silver income."
+}

@@ -48,14 +48,10 @@
     <SinkRate>3.0</SinkRate>
   </Decay>
   <Fogging/>
-  <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Support+!Elephant Infantry Dog</List>
-    <LoadingRange>2</LoadingRange>
-    <Max>0</Max>
-  </GarrisonHolder>
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="10.0" depth="10.0"/>
+  </Footprint>
   <Guard/>
   <Health>
     <DeathType>corpse</DeathType>

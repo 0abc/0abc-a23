@@ -15,7 +15,7 @@
   </Health>
   <Identity>
     <GenericName>Barracks</GenericName>
-    <Icon>structures/barracks.png</Icon>
+    <Icon>structures/pers_barracks.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train infantry. Research infantry technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Barracks</VisibleClasses>

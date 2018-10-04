@@ -319,7 +319,7 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
 
   let radius = 0;
   if (template.hasClass("Fortress") || template.hasClass("Workshop") ||
-    this.type == gameState.applyCiv("structures/{civ}/elephant_stables"))
+    this.type == gameState.applyCiv("structures/{civ}/elephant_stable"))
     radius = Math.floor((template.obstructionRadius().max + 8) / obstructions.cellSize);
   else if (template.resourceDropsiteTypes() === undefined && !template.hasClass("House") &&
            !template.hasClass("Field") && !template.hasClass("BarterMarket"))

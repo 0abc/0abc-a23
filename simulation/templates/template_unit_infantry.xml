@@ -46,9 +46,9 @@
       structures/{civ}/small_tower
       structures/{civ}/large_tower
       structures/{civ}/fortress
-      structures/palisade_wallset
-      structures/siege_wallset
-      structures/{civ}/wallset
+      structures/wallset_palisade
+      structures/wallset_siege
+      structures/{civ}/wallset_city
     </Entities>
   </Builder>
   <Cost>

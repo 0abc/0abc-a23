@@ -33,6 +33,14 @@
       <MinDistance>60</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support+!Elephant Infantry Dog</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>1</Max>
+  </GarrisonHolder>
   <Identity>
     <Classes datatype="tokens">Tower</Classes>
     <Tooltip>Garrison soldiers to fire additional arrows.</Tooltip>

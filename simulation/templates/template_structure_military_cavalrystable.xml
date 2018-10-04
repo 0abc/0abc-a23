@@ -19,7 +19,7 @@
     <Icon>structures/pers_stable.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train cavalry. Research cavalry technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Stable</VisibleClasses>
+    <VisibleClasses datatype="tokens">CavalryStable</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

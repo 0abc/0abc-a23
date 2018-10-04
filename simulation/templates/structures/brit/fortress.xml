@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_fortress">
-  <Footprint>
+  <Footprint replace="">
     <Circle radius="17.0"/>
     <Height>18.0</Height>
   </Footprint>

@@ -55,9 +55,9 @@
   ],
   "WallSets":
   [
-    "structures/palisade_wallset",
-    "structures/siege_wallset",
-    "structures/spart/wallset"
+    "structures/wallset_palisade",
+    "structures/wallset_siege",
+    "structures/spart/wallset_city"
   ],
   "StartEntities":
   [
@@ -65,7 +65,7 @@
       "Template": "structures/spart/centre"
     },
     {
-      "Template": "units/spart_support_female_citizen",
+      "Template": "units/spart/support_woman",
       "Count": 5
     },
     {

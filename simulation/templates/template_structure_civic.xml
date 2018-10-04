@@ -6,6 +6,14 @@
     <Pierce>35</Pierce>
     <Thrust>30</Thrust>
   </Armour>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support+!Elephant Infantry Dog</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>0</Max>
+  </GarrisonHolder>
   <Identity>
     <GenericName>Civic Structure</GenericName>
     <VisibleClasses datatype="tokens">Civic</VisibleClasses>

@@ -28,10 +28,9 @@
     <Classes datatype="tokens">TempleOfAmun</Classes>
     <GenericName>Grand Temple of Amun</GenericName>
     <Icon>structures/temple_epic.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Pr-‘Imn</SpecificName>
     <Tooltip>Train priests to heal your troops. Train Napatan Temple Guards and research unique technologies. Garrison units to heal them at a quick rate.</Tooltip>
-    <VisibleClasses datatype="tokens">City -Town</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="28" depth="56.0"/>
