@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Footprint>
+    <Circle radius="2.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <OverlayRenderer/>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>upright</Anchor>
+    <FloatDepth>0.0</FloatDepth>
+    <Floating>false</Floating>
+    <TurnRate>6.0</TurnRate>
+  </Position>
+  <Selectable>
+    <EditorOnly/>
+    <Overlay>
+      <Outline>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.4</LineThickness>
+      </Outline>
+    </Overlay>
+  </Selectable>
+  <Visibility>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+    <RetainInFog>false</RetainInFog>
+  </Visibility>
+  <VisualActor>
+    <SilhouetteDisplay>false</SilhouetteDisplay>
+    <SilhouetteOccluder>true</SilhouetteOccluder>
+    <VisibleInAtlasOnly>true</VisibleInAtlasOnly>
+  </VisualActor>
+</Entity>

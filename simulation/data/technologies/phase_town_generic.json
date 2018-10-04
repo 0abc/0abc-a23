@@ -14,6 +14,7 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
+  "replaces": ["phase_town"],
   "requirements": {"entity": {"class": "BarterMarket", "number": 1}},
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",

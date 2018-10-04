@@ -11,16 +11,11 @@
       <wood>300</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="18.0" depth="18.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">Naval</Classes>
@@ -34,17 +29,18 @@
     <food>20</food>
     <wood>60</wood>
   </Loot>
-  <Obstruction>
-    <Static width="18.0" depth="18.0"/>
-  </Obstruction>
   <Position>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_ship_bireme
-      units/{civ}_ship_trireme
+      units/{civ}/ship_triaconter
+      units/{civ}/ship_penteconter
+      units/{civ}/ship_bireme
+      units/{civ}/ship_trireme
+      units/{civ}/ship_quadrireme
+      units/{civ}/ship_quinquereme
     </Entities>
     <Technologies datatype="tokens">
       training_naval
@@ -64,7 +60,4 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
-  <VisualActor>
-    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
-  </VisualActor>
 </Entity>

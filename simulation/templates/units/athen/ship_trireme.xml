@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_galley_03">
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Athenian Trireme</GenericName>
+    <Icon>units/hele_ship_trireme.png</Icon>
+    <SpecificName>Triḗrēs Athēnaía</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/athenians/trireme.xml</Actor>
+  </VisualActor>
+</Entity>

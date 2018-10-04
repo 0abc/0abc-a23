@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_barge_huge">
+  <Identity>
+    <Civ>maur</Civ>
+    <Icon>units/maur_ship_trireme.png</Icon>
+    <SpecificName>Yudhpot</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mauryans/trireme.xml</Actor>
+  </VisualActor>
+</Entity>

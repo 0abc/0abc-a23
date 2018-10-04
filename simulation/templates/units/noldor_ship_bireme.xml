@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_galley">
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="8.0" depth="28.0"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Noldor Ship</GenericName>
+    <Icon>units/noldor_ship_bireme.png</Icon>
+    <SpecificName>Mankar Cirya</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/elven_bireme.xml</Actor>
+  </VisualActor>
+</Entity>

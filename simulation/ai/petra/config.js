@@ -50,20 +50,20 @@ m.Config = function(difficulty, behavior)
   // and that it will try to build on phase 3 when enough resources.
   this.buildings =
   {
-    "default": [],
-    "athen": [],
-    "brit": ["structures/{civ}/rotarymill"],
-    "cart": [],
-    "gaul": ["structures/{civ}/rotarymill"],
-    "iber": ["structures/{civ}/pillar"],
-    "kush": [],
-    "mace": [],
-    "maur": ["structures/{civ}/pillar"],
-    "pers": [],
-    "ptol": ["structures/{civ}/lighthouse"],
-    "rome": [],
-    "sele": [],
-    "spart": []
+		"default": [],
+		"athen": [],
+		"brit": ["structures/{civ}/rotarymill"],
+		"cart": ["structures/{civ}/harbour"],
+		"gaul": ["structures/{civ}/rotarymill"],
+		"iber": ["structures/{civ}/pillar"],
+		"kush": ["structures/{civ}/temple_amun"],
+		"mace": ["structures/{civ}/library", "structures/{civ}/theatre"],
+		"maur": ["structures/{civ}/palace", "structures/{civ}/pillar"],
+		"pers": ["structures/{civ}/palace"],
+		"ptol": ["structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre],
+		"rome": ["structures/{civ}/temple_vesta"],
+		"sele": ["structures/{civ}/library", "structures/{civ}/theatre"],
+		"spart": []
   };
 
   this.priorities =

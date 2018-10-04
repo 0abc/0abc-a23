@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_barge">
+  <Identity>
+    <Civ>iber</Civ>
+    <Icon>units/celt_ship_trireme.png</Icon>
+    <SpecificName>Ponti</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/iberians/warship.xml</Actor>
+  </VisualActor>
+</Entity>

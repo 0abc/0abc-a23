@@ -49,6 +49,7 @@
       armour_cavalry_2
       armour_cavalry_3
       attack_soldiers_will
+      steel_working
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle disable=""/>

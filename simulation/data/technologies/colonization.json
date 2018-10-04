@@ -1,0 +1,15 @@
+{
+  "affects": ["Centre", "Dock"],
+  "cost": {"food": 250, "wood": 250, "stone": 250, "metal": 250},
+  "description": "Greek, Phoenician, and Carthaginian cities established hundreds of colonies in the Mediterranean.",
+  "genericName": "Colonization",
+  "icon": "political_face.png",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.7}
+  ],
+  "requirements": {"all": [{"tech": "phase_town"}, {"any": [{"civ": "athen"}, {"civ": "cart"}, {"civ": "spart"}]}]},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Centres and docks −30% build time."
+}

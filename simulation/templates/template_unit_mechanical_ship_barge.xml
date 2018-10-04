@@ -16,10 +16,10 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
+    <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
-    <MaxArrowCount>24</MaxArrowCount>
+    <MaxArrowCount>20</MaxArrowCount>
   </BuildingAI>
   <Cost>
     <BuildTime>45</BuildTime>

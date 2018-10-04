@@ -30,6 +30,9 @@
       units/{civ}_infantry_slinger_b
       units/{civ}_infantry_archer_b
     </Entities>
+    <Technologies datatype="tokens">
+      archery_tradition
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

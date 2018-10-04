@@ -14,9 +14,10 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
+  "replaces": ["phase_city"],
   "requirements": {"entity": {"class": "Temple", "number": 1}},
   "researchTime": 120,
   "soundComplete": "interface/alarm/alarm_phase.xml",
-  "supersedes": "phase_town",
+  "supersedes": "phase_town_generic",
   "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase silver income."
 }

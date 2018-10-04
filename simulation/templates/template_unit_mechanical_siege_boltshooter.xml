@@ -32,6 +32,7 @@
   </Health>
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
   </Identity>
   <Pack>

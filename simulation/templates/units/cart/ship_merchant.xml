@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <Icon>units/cart_ship_merchant.png</Icon>
+    <Icon>units/hele_ship_merchant.png</Icon>
     <SpecificName>Seḥer</SpecificName>
   </Identity>
   <VisualActor>

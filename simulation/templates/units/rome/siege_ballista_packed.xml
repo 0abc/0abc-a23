@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege_stonethrower">
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square width="10.0" depth="10.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>rome</Civ>
+    <Icon>units/rome_mechanical_siege_ballista_packed.png</Icon>
+    <SpecificName>Ballista</SpecificName>
+  </Identity>
+  <Pack>
+    <Entity>units/rome/siege_ballista_unpacked</Entity>
+    <State>packed</State>
+  </Pack>
+  <VisualActor>
+    <Actor>units/romans/siege_rock_pivot_packed.xml</Actor>
+  </VisualActor>
+</Entity>

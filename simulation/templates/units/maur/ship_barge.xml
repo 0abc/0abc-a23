@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_barge">
+  <Identity>
+    <Civ>maur</Civ>
+    <Icon>units/maur_ship_bireme.png</Icon>
+    <SpecificName>Yudhpot</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mauryans/bireme.xml</Actor>
+  </VisualActor>
+</Entity>

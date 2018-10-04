@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_barge">
+  <BuildingAI>
+    <MaxArrowCount op="add">10</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime op="add">30</BuildTime>
+    <Resources>
+      <food op="add">50</food>
+      <metal op="add">50</metal>
+      <wood op="add">150</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="17.0" depth="45.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max op="add">30</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.85</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.85</WalkSpeed>
+  </UnitMotion>
+</Entity>

@@ -26,10 +26,6 @@
       <wood>500</wood>
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Height>20.0</Height>
-    <Square width="15.0" depth="15.0"/>
-  </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
@@ -43,6 +39,7 @@
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Garrison infantry for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
   </Identity>

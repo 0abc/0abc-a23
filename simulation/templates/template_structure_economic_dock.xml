@@ -42,7 +42,8 @@
       units/{civ}/ship_fishing
       units/{civ}/ship_merchant
       units/{civ}/ship_barge
-      units/{civ}_ship_fire
+      units/{civ}/ship_barge_huge
+      units/{civ}/ship_fire
     </Entities>
     <Technologies datatype="tokens">
       gather_fish
