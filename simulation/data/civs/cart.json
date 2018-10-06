@@ -54,9 +54,9 @@
   ],
   "WallSets":
   [
-    "structures/wallset_palisade",
-    "structures/wallset_siege",
-    "structures/cart/wallset_city"
+		"other/wallset_palisade",
+		"structures/cart_wallset_short",
+		"structures/cart_wallset_stone"
   ],
   "StartEntities":
   [

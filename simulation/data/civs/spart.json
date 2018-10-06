@@ -55,9 +55,8 @@
   ],
   "WallSets":
   [
-    "structures/wallset_palisade",
-    "structures/wallset_siege",
-    "structures/spart/wallset_city"
+		"other/wallset_palisade",
+		"structures/spart_wallset_stone"
   ],
   "StartEntities":
   [

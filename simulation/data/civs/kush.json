@@ -56,9 +56,8 @@
   ],
   "WallSets":
   [
-    "structures/wallset_palisade",
-    "structures/wallset_siege",
-    "structures/kush/wallset_city"
+		"other/wallset_palisade",
+		"structures/kush_wallset_stone"
   ],
   "StartEntities":
   [

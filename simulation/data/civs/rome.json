@@ -55,9 +55,8 @@
   ],
   "WallSets":
   [
-    "structures/wallset_palisade",
-    "structures/wallset_siege",
-    "structures/rome/wallset_city"
+		"structures/rome_wallset_stone",
+		"structures/rome_wallset_siege"
   ],
   "StartEntities":
   [
