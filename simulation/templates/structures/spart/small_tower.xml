@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
+    <SpecificName>Πυργίδιον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="9.0" depth="7.5"/>

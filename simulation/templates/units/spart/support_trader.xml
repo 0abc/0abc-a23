@@ -8,7 +8,7 @@
     <Civ>spart</Civ>
     <Icon>units/hele_support_trader.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Émporos Períoikos</SpecificName>
+    <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/trader.xml</Actor>

@@ -28,7 +28,7 @@
   <Identity>
     <GenericName>Small Galley</GenericName>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SpecificName>Triakóntoros</SpecificName>
+    <SpecificName>Τριακόντορος</SpecificName>
   </Identity>
   <ResourceTrickle>
     <Rates>

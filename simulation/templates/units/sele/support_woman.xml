@@ -6,7 +6,7 @@
     <Icon>units/sele_support_female.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/sele/support_woman</SelectionGroupName>
-    <SpecificName>Syrías Gýnē</SpecificName>
+    <SpecificName>Γύνη Σύρια</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/female_citizen.xml</Actor>

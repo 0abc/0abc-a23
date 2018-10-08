@@ -20,7 +20,6 @@
     <Icon>gaia/special_palisade.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>structures/palisade_wallset</SelectionGroupName>
-    <SpecificName>Palisade</SpecificName>
   </Identity>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
     <Icon>units/hele_mechanical_siege_oxybeles_packed.png</Icon>
-    <SpecificName>Oxybelḗs</SpecificName>
+    <SpecificName>Λιθοβόλος</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/spart/siege_oxybeles_unpacked</Entity>

@@ -8,7 +8,7 @@
     <Civ>sele</Civ>
     <Icon>units/hele_support_trader.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Émporos</SpecificName>
+    <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/hellenes/trader.xml</Actor>

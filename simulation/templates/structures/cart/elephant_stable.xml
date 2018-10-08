@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Carthaginian Elephant Stables</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="29" depth="27"/>

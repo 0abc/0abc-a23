@@ -6,7 +6,7 @@
     <Icon>units/spart_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/spart/support_woman</SelectionGroupName>
-    <SpecificName>Spartiâtis</SpecificName>
+    <SpecificName>Γύνη Λακεδαιμόνια</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/female_citizen.xml</Actor>

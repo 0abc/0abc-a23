@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>mace</Civ>
+    <SpecificName>Πυργίδιον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="9.0" depth="7.5"/>

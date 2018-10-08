@@ -24,8 +24,7 @@
     <GenericName>Library</GenericName>
     <Icon>structures/library_scroll.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Bibliothḗkē</SpecificName>
-    <Tooltip>Research special technologies.</Tooltip>
+    <SpecificName>Βιβλιοθήκη</SpecificName>
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
   </Identity>
   <Loot>

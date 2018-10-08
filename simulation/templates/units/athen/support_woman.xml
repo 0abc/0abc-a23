@@ -6,7 +6,7 @@
     <Icon>units/hele_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen/support_woman</SelectionGroupName>
-    <SpecificName>Gýnē Athēnaía</SpecificName>
+    <SpecificName>Γύνη Ἀθηναία</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/female_citizen.xml</Actor>

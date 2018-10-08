@@ -3,10 +3,9 @@
   <Identity>
     <Civ>gaia</Civ>
     <Classes datatype="tokens">-StoneWall Palisade</Classes>
-    <GenericName>Wooden Wall</GenericName>
+    <GenericName>Palisade</GenericName>
     <Icon>structures/palisade_wall.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SpecificName>Palisade</SpecificName>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>0.85</MaxTowerOverlap>

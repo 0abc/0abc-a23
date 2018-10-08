@@ -24,7 +24,6 @@
     <GenericName>Theatre</GenericName>
     <Icon>structures/theatron.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Théātron</SpecificName>
     <VisibleClasses datatype="tokens">Theatre</VisibleClasses>
   </Identity>
   <Loot>

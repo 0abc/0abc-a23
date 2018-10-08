@@ -23,7 +23,6 @@
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Pháros</SpecificName>
     <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range.</Tooltip>
     <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
   </Identity>

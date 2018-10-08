@@ -45,6 +45,11 @@
       <select>interface/select/building/sel_wall.xml</select>
     </SoundGroups>
   </Sound>
+  <TerritoryInfluence>
+    <Radius>20</Radius>
+    <Root>true</Root>
+    <Weight>65535</Weight>
+  </TerritoryInfluence>
   <TerritoryDecay>
     <DecayRate>5.0</DecayRate>
   </TerritoryDecay>

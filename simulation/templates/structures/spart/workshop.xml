@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
+    <SpecificName>Ἐργατήριον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="29.0" depth="29.0"/>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>sele</Civ>
     <Icon>units/hele_ship_fishing.png</Icon>
-    <SpecificName>Ploîon Halieutikón</SpecificName>
+    <SpecificName>Πλοῖον Ἁλιευτικόν</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/fishing_boat.xml</Actor>

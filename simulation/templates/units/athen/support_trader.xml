@@ -8,7 +8,7 @@
     <Civ>athen</Civ>
     <Icon>units/hele_support_trader.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Émporos</SpecificName>
+    <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/trader.xml</Actor>

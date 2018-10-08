@@ -7,7 +7,7 @@
   <Identity>
     <Civ>athen</Civ>
     <Icon>units/hele_ship_merchant.png</Icon>
-    <SpecificName>Ploîon Phortēgikón</SpecificName>
+    <SpecificName>Πλοῖον Φορτηγικόν</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/merchant.xml</Actor>

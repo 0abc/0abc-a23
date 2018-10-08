@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_tower_outpost">
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Prophylakḗ</SpecificName>
+    <SpecificName>Προφύλαγμα</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/outpost.xml</Actor>

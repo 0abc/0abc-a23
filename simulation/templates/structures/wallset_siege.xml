@@ -6,7 +6,6 @@
     <GenericName>Siege Wall</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SpecificName>Murus Latericius</SpecificName>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>1.00</MaxTowerOverlap>

@@ -18,10 +18,9 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Wooden Gate</GenericName>
+    <GenericName>Gate</GenericName>
     <Icon>structures/wooden_gate.png</Icon>
     <SelectionGroupName>structures/palisade_gate</SelectionGroupName>
-    <SpecificName>Palisade Gate</SpecificName>
   </Identity>
   <Loot>
     <wood>10</wood>

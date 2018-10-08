@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Turris Lignea</SpecificName>
+    <SpecificName>Turris</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>

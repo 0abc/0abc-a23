@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <Icon>units/hele_mechanical_siege_oxybeles_packed.png</Icon>
-    <SpecificName>Oxybelḗs</SpecificName>
+    <SpecificName>Ὀξυβελής</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/mace/siege_oxybeles_unpacked</Entity>
