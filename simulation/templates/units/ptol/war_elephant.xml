@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant">
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Ethiopian War Elephant</GenericName>
+    <Icon>units/ptol_champion_elephant.png</Icon>
+    <SpecificName>Αἰθιοπικός Ἐλέφας</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/elephantry_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

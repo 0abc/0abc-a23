@@ -27,9 +27,9 @@
   </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_support_elephant
-      units/{civ}_elephant_archer_b
-      units/{civ}_champion_elephant
+      units/{civ}/support_elephant
+      units/{civ}/elephant_archer
+      units/{civ}/war_elephant
     </Entities>
     <Technologies datatype="tokens">
       training_elephant_stables

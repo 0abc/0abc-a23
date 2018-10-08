@@ -27,9 +27,9 @@
   </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_camel_archer_b
-      units/{civ}_camel_javelinist_b
-      units/{civ}_camel_spearman_b
+      units/{civ}/camel_archer
+      units/{civ}/camel_javelinist
+      units/{civ}/camel_spearman
     </Entities>
     <Technologies datatype="tokens">
       training_camel_stables

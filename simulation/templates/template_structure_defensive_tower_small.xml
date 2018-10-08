@@ -30,7 +30,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">GarrisonTower</Classes>
-    <GenericName>Sentry Tower</GenericName>
+    <GenericName>Small Tower</GenericName>
     <Icon>structures/sentry_tower.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
