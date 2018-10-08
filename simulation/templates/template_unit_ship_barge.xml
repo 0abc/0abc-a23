@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
+    <Thrust>5</Thrust>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <MaxRange>60</MaxRange>
+      <Pierce>5</Pierce>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>0</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+    <MaxArrowCount>20</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>100</metal>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="12.0" depth="36.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human Siege</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>45</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>1800</Max>
+  </Health>
+  <Identity>
+    <GenericName>Warbarge</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
+</Entity>

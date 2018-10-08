@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
+    <Thrust>5</Thrust>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush>200</Crush>
+      <Hack>0</Hack>
+      <MaxRange>10</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>8000</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Ship</RestrictedClasses>
+      <Thrust>0</Thrust>
+    </Melee>
+    <Ranged>
+      <MaxRange>60</MaxRange>
+      <Pierce>6</Pierce>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+    <MaxArrowCount>5</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>50</metal>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="8.0" depth="33.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>10</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <GenericName>Penteconter</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Πεντηκόντορος</SpecificName>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-6.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.05</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.95</WalkSpeed>
+  </UnitMotion>
+</Entity>

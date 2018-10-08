@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical">
+<Entity parent="template_unit">
   <Armour>
     <Crush>5</Crush>
     <Hack>1</Hack>
     <Pierce>50</Pierce>
     <Thrust>2</Thrust>
   </Armour>
+  <Attack>
+    <Melee disable=""/>
+  </Attack>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkAccel>2.0</SinkAccel>
+    <SinkRate>0.0</SinkRate>
+  </Decay>
+  <Health>
+    <Unhealable>true</Unhealable>
+  </Health>
   <Identity>
     <GenericName>Siege</GenericName>
-    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mechanical Siege</VisibleClasses>
   </Identity>
   <Position>
     <Anchor>pitch-roll</Anchor>
   </Position>
+  <Repairable>
+    <RepairTimeRatio>4.0</RepairTimeRatio>
+  </Repairable>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <order_attack>attack/siege/ram_move.xml</order_attack>

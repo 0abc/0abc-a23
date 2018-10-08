@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_galley_04">
+<Entity parent="template_unit_ship_quadrireme">
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_ship_trireme.png</Icon>

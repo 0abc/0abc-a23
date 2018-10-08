@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_penteconter">
   <Identity>
-    <Civ>rome</Civ>
+    <Civ>sele</Civ>
     <Icon>units/hele_ship_bireme.png</Icon>
-    <SpecificName>Liburna</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/pentekonter.xml</Actor>
+    <Actor>structures/athenians/pentekonter.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,7 +5,7 @@
     <Icon>units/hele_support_healer.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/sele/support_healer</SelectionGroupName>
-    <SpecificName>Hiereús</SpecificName>
+    <SpecificName>Ἰατρός</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/hellenes/healer.xml</Actor>

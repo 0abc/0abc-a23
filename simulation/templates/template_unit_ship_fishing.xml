@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship">
+<Entity parent="template_unit_ship">
   <Armour>
     <Crush>2</Crush>
     <Hack>2</Hack>
@@ -84,3 +84,4 @@
     <Range>75</Range>
   </Vision>
 </Entity>
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship">
+<Entity parent="template_unit_ship">
   <Armour>
     <Crush>5</Crush>
     <Hack>5</Hack>
@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>200</Crush>
+      <Crush>600</Crush>
       <Hack>0</Hack>
       <MaxRange>10</MaxRange>
       <Pierce>0</Pierce>
@@ -26,17 +26,17 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
+    <DefaultArrowCount>2</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
-    <MaxArrowCount>5</MaxArrowCount>
+    <MaxArrowCount>10</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <food>100</food>
-      <metal>50</metal>
-      <wood>100</wood>
+      <food>300</food>
+      <metal>150</metal>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -49,30 +49,28 @@
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Human Siege</List>
     <LoadingRange>10</LoadingRange>
-    <Max>10</Max>
+    <Max>40</Max>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>1500</Max>
   </Health>
   <Identity>
-    <GenericName>Wargalley</GenericName>
+    <GenericName>Trireme</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Τριήρης</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
-  <Sound>
-    <SoundGroups>
-      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
-      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-    </SoundGroups>
-  </Sound>
-  <StatusBars>
-    <BarHeight>0.5</BarHeight>
-    <BarWidth>6.0</BarWidth>
-    <HeightOffset>6.0</HeightOffset>
-  </StatusBars>
-  <Vision>
-    <Range>105</Range>
-  </Vision>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-18.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.15</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.85</WalkSpeed>
+  </UnitMotion>
 </Entity>

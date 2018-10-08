@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_galley_triaconter">
+<Entity parent="template_unit_ship_penteconter">
   <Identity>
     <Civ>mace</Civ>
     <Icon>units/hele_ship_bireme.png</Icon>
-    <SpecificName>Hemiolos</SpecificName>
+    <SpecificName>Λέμβος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/pentekonter.xml</Actor>

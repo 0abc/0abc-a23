@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_galley_03">
+<Entity parent="template_unit_ship_trireme">
   <Identity>
     <Civ>kush</Civ>
-    <GenericName>Egyptian Mercenary Trireme</GenericName>
-    <Icon>units/ptol_ship_trireme.png</Icon>
+    <Icon>units/ptol_ship_bireme.png</Icon>
     <SpecificName>shry ‘3</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/ptolemies/trireme.xml</Actor>
+    <Actor>structures/ptolemies/bireme.xml</Actor>
   </VisualActor>
 </Entity>

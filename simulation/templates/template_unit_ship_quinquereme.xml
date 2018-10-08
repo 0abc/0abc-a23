@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship">
+<Entity parent="template_unit_ship">
   <Armour>
     <Crush>5</Crush>
     <Hack>5</Hack>
@@ -7,31 +7,41 @@
     <Thrust>5</Thrust>
   </Armour>
   <Attack>
+    <Melee>
+      <Crush>1000</Crush>
+      <Hack>0</Hack>
+      <MaxRange>10</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>8000</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Ship</RestrictedClasses>
+      <Thrust>0</Thrust>
+    </Melee>
     <Ranged>
       <MaxRange>60</MaxRange>
-      <Pierce>5</Pierce>
+      <Pierce>6</Pierce>
       <PreferredClasses datatype="tokens">Ship</PreferredClasses>
       <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>0</DefaultArrowCount>
+    <DefaultArrowCount>6</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
-    <MaxArrowCount>20</MaxArrowCount>
+    <MaxArrowCount>30</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <food>50</food>
-      <metal>100</metal>
-      <wood>250</wood>
+      <food>500</food>
+      <metal>250</metal>
+      <wood>500</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="12.0" depth="36.0"/>
+    <Height>10.0</Height>
+    <Square width="8.0" depth="33.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
@@ -39,25 +49,28 @@
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Human Siege</List>
     <LoadingRange>10</LoadingRange>
-    <Max>45</Max>
+    <Max>60</Max>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>1800</Max>
+    <Max>2500</Max>
   </Health>
   <Identity>
-    <GenericName>Warbarge</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>Quinquereme</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Πεντήρης</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
-  <Sound>
-    <SoundGroups>
-      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
-      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-    </SoundGroups>
-  </Sound>
-  <Vision>
-    <Range>120</Range>
-  </Vision>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-30.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.25</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.75</WalkSpeed>
+  </UnitMotion>
 </Entity>

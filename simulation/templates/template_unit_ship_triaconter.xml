@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
+    <Thrust>5</Thrust>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush>100</Crush>
+      <Hack>0</Hack>
+      <MaxRange>10</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>8000</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Ship</RestrictedClasses>
+      <Thrust>0</Thrust>
+    </Melee>
+    <Ranged>
+      <MaxRange>60</MaxRange>
+      <Pierce>6</Pierce>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+    <MaxArrowCount>3</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>60</food>
+      <metal>30</metal>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="8.0" depth="33.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human Siege</List>
+    <LoadingRange>10</LoadingRange>
+    <Max>10</Max>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <GenericName>Triaconter</GenericName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SpecificName>Τριακόντορος</SpecificName>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-3.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+  </UnitMotion>
+</Entity>

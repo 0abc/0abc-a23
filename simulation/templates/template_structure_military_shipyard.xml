@@ -37,7 +37,6 @@
     <Entities datatype="tokens">
       units/{civ}/ship_triaconter
       units/{civ}/ship_penteconter
-      units/{civ}/ship_bireme
       units/{civ}/ship_trireme
       units/{civ}/ship_quadrireme
       units/{civ}/ship_quinquereme

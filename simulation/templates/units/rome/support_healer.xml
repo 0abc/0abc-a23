@@ -4,9 +4,8 @@
     <Civ>rome</Civ>
     <Icon>units/rome_support_healer.png</Icon>
     <Lang>latin</Lang>
-    <GenericName>State Priest</GenericName>
     <SelectionGroupName>units/rome/support_healer</SelectionGroupName>
-    <SpecificName>Pontifex Minor</SpecificName>
+    <SpecificName>Medicus</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/healer.xml</Actor>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_tower">
+<Entity parent="template_unit_siege_tower">
   <Footprint replace="">
     <Height>20.0</Height>
     <Square width="15.0" depth="15.0"/>
   </Footprint>
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Ἑλέπολις</SpecificName>
     <Icon>units/hele_mechanical_siege_tower.png</Icon>
+    <SpecificName>Ἑλέπολις</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/siege_tower.xml</Actor>
