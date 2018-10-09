@@ -47,6 +47,11 @@
   ],
   "CivBonuses":
   [
+		{
+			"Name":"Celtic Architecture",
+			"History":"Celtic structures  were mostly made of wood, walls had rubble foundations.",
+			"Description":"Structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost."
+		}
   ],
   "TeamBonuses":
   [

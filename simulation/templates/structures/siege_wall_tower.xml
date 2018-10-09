@@ -28,6 +28,7 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
+    <BuildTime>60</BuildTime>
     <Resources>
       <wood>120</wood>
     </Resources>

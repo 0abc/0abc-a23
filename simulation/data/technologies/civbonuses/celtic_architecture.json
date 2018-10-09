@@ -1,0 +1,16 @@
+{
+  "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
+  "autoResearch": true,
+  "description": "Celtic structures were mostly made of wood, walls had rubble foundations.",
+  "genericName": "Celtic Architecture",
+  "modifications": [
+    {"value": "Cost/BuildTime",           "multiply": 0.8                      },
+    {"value": "Cost/Resources/stone",     "multiply": 0.5,  "affects": "Temple"},
+    {"value": "Cost/Resources/wood",      "multiply": 2.0,  "affects": "Temple"},
+    {"value": "Health/Max",               "multiply": 0.9                      },
+    {"value": "Loot/stone",               "multiply": 0.5,  "affects": "Temple"},
+    {"value": "Loot/wood",                "multiply": 2.0,  "affects": "Temple"}
+  ],
+  "requirements": {"any": [{"civ": "brit"}, {"civ": "gaul"}]},
+  "tooltip": "Celtic structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost."
+}

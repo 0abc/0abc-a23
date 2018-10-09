@@ -78,7 +78,7 @@
     <Max>3000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CivCentre CivilCentre</Classes>
+    <Classes datatype="tokens">CivCentre CivilCentre ConquestCritical</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
     <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Train citizens. Establish trade routes.</Tooltip>

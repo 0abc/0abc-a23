@@ -46,6 +46,11 @@
   ],
   "CivBonuses":
   [
+		{
+			"Name":"Persian Architecture",
+			"History":"Persian structures were often made out of mud bricks or stone.",
+			"Description":"Economic structures +20% health."
+		}
   ],
   "TeamBonuses":
   [

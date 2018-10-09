@@ -46,6 +46,11 @@
   ],
   "CivBonuses":
   [
+		{
+			"Name":"Roman Architecture",
+			"History":"Roman structures were originally made out of wood, but later also out of stone, fired bricks, and concrete.",
+			"Description":"Military structures −10% build time; city walls +10% health."
+		}
   ],
   "TeamBonuses":
   [

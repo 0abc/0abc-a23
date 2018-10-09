@@ -1,0 +1,16 @@
+{
+  "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
+  "autoResearch": true,
+  "description": "Iberian structures were probably made out of wood, perhaps with rubble foundations.",
+  "genericName": "Iberian Architecture",
+  "modifications": [
+    {"value": "Cost/BuildTime",           "multiply": 0.9,  "affects": "Centre"      },
+    {"value": "Cost/BuildTime",           "multiply": 1.1,  "affects": "DefenseTower"},
+    {"value": "Cost/Resources/stone",     "multiply": 1.2,  "affects": "DefenseTower"},
+    {"value": "Cost/Resources/wood",      "multiply": 1.2,  "affects": "DefenseTower"},
+    {"value": "Health/Max",               "multiply": 0.95, "affects": "Centre"      },
+    {"value": "Health/Max",               "multiply": 1.3,  "affects": "DefenseTower"}
+  ],
+  "requirements": {"civ": "iber"},
+  "tooltip": "Iberian centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health."
+}
