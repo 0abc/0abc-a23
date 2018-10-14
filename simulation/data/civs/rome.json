@@ -73,15 +73,15 @@
       "Count": 5
     },
     {
-      "Template": "units/rome_infantry_swordsman_b",
+      "Template": "units/rome/infantry_swordsman",
       "Count": 2
     },
     {
-      "Template": "units/rome_infantry_javelinist_b",
+      "Template": "units/rome/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/rome_cavalry_spearman_b"
+      "Template": "units/rome/cavalry_spearman"
     }
   ],
   "Formations":
@@ -117,8 +117,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/rome_cavalry_spearman_b",
-    "skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
+    "skirmish/units/default_cavalry" : "units/rome/cavalry_spearman",
+    "skirmish/units/default_infantry_melee_b": "units/rome/infantry_swordsman",
+    "skirmish/units/default_infantry_ranged_b": "units/rome/infantry_javelinist",
     "skirmish/structures/default_house_10" : "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

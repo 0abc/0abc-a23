@@ -4,6 +4,9 @@
     <Civ>ptol</Civ>
     <GenericName>Ethiopian War Elephant</GenericName>
     <Icon>units/ptol_champion_elephant.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/ptol/war_elephant</SelectionGroupName>
     <SpecificName>Αἰθιοπικός Ἐλέφας</SpecificName>
   </Identity>
   <VisualActor>

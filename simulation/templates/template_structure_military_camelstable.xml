@@ -33,9 +33,6 @@
     </Entities>
     <Technologies datatype="tokens">
       training_camel_stables
-      drill_camelry_1
-      drill_camelry_2
-      drill_camelry_3
     </Technologies>
   </ProductionQueue>
   <Sound>

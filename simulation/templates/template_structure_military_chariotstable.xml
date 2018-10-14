@@ -33,9 +33,6 @@
     </Entities>
     <Technologies datatype="tokens">
       training_chariot_stables
-      drill_chariotry_1
-      drill_chariotry_2
-      drill_chariotry_3
     </Technologies>
   </ProductionQueue>
   <Sound>

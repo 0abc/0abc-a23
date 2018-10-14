@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_longswordsman">
+  <Identity>
+    <Civ>brit</Civ>
+    <Icon>units/brit_champion_infantry.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/brit/infantry_longswordsman</SelectionGroupName>
+    <SpecificName>Delamokludda</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/britons/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

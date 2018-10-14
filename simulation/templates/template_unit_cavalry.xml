@@ -34,9 +34,6 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <Promotion>
-    <RequiredXp>150</RequiredXp>
-  </Promotion>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

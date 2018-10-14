@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Meroitic Pikeman</GenericName>
+    <Icon>units/kush_infantry_pikeman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/kush/infantry_pikeman</SelectionGroupName>
+    <SpecificName>si3wrd</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/infantry_pikeman_a.xml</Actor>
+  </VisualActor>
+</Entity>

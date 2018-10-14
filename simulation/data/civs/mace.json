@@ -73,15 +73,15 @@
       "Count": 5
     },
     {
-      "Template": "units/mace_infantry_pikeman_b",
+      "Template": "units/mace/infantry_pikeman",
       "Count": 2
     },
     {
-      "Template": "units/mace_infantry_javelinist_b",
+      "Template": "units/mace/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/mace_cavalry_spearman_b"
+      "Template": "units/mace/cavalry_spearman"
     }
   ],
   "Formations":
@@ -117,8 +117,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/mace_cavalry_spearman_b",
-    "skirmish/units/default_infantry_melee_b": "units/mace_infantry_pikeman_b",
+    "skirmish/units/default_cavalry" : "units/mace/cavalry_spearman",
+    "skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman",
+    "skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelinist",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

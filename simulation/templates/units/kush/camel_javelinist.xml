@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_camel_ranged_javelinist">
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Blemmye Desert Raider</GenericName>
+    <Icon>units/kush_merc_camelry.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/kush/camel_javelinist</SelectionGroupName>
+    <SpecificName>nhw Bulahau gml</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/camelry_javelinist_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

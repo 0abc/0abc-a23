@@ -23,9 +23,6 @@
   <Loot>
     <xp>180</xp>
   </Loot>
-  <Promotion>
-    <RequiredXp>210</RequiredXp>
-  </Promotion>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

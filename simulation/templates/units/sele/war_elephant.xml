@@ -5,6 +5,8 @@
     <GenericName>Syrian War Elephant</GenericName>
     <Icon>units/sele_champion_elephant.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/sele/war_elephant</SelectionGroupName>
     <SpecificName>Σύριος Ἐλέφας</SpecificName>
   </Identity>
   <VisualActor>

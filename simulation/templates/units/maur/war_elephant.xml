@@ -4,6 +4,8 @@
     <Civ>maur</Civ>
     <GenericName>Indian War Elephant</GenericName>
     <Icon>units/maur_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/maur/war_elephant</SelectionGroupName>
     <SpecificName>Gajendra</SpecificName>
   </Identity>
   <VisualActor>

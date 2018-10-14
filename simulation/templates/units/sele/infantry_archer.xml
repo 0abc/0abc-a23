@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Syrian Archer</GenericName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/sele/infantry_archer</SelectionGroupName>
+    <SpecificName>Τοξότης Συρίας</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

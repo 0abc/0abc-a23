@@ -33,9 +33,6 @@
     </Entities>
     <Technologies datatype="tokens">
       training_elephant_stables
-      drill_elephantry_1
-      drill_elephantry_2
-      drill_elephantry_3
     </Technologies>
   </ProductionQueue>
   <Sound>

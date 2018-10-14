@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_longbowman">
+  <Identity>
+    <Civ>maur</Civ>
+    <Icon>units/maur_infantry_archer.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/maur/infantry_longbowman</SelectionGroupName>
+    <SpecificName>Dhanurdhar</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/infantry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

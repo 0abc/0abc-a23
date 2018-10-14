@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_crossbowman">
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Gastraphetes</GenericName>
+    <Icon>units/athen_champion_ranged.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/mace/infantry_crossbowman</SelectionGroupName>
+    <SpecificName>Τοξότης Γαστρφέτης</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/infantry_crossbowman_c.xml</Actor>
+  </VisualActor>
+</Entity>

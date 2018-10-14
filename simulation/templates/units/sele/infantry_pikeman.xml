@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Bronze Shield Pikeman</GenericName>
+    <Icon>units/sele_infantry_spearman.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/sele/infantry_pikeman</SelectionGroupName>
+    <SpecificName>Χαλκάσπις</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_pikeman_a.xml</Actor>
+  </VisualActor>
+</Entity>

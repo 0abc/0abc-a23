@@ -72,9 +72,6 @@
   <Loot>
     <xp>60</xp>
   </Loot>
-  <Promotion>
-    <RequiredXp>100</RequiredXp>
-  </Promotion>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>

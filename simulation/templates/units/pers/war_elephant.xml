@@ -4,6 +4,8 @@
     <Civ>pers</Civ>
     <GenericName>Indian War Elephant</GenericName>
     <Icon>units/pers_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/pers/war_elephant</SelectionGroupName>
     <SpecificName>Hinduya Pila</SpecificName>
   </Identity>
   <VisualActor>

@@ -26,22 +26,19 @@
   </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_pikeman_b
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_hoplite_b
-      units/{civ}_infantry_axeman_b
-      units/{civ}_infantry_maceman_b
-      units/{civ}_infantry_sabreman_b
-      units/{civ}_infantry_swordsman_b
-      units/{civ}_infantry_javelinist_b
-      units/{civ}_infantry_archer_b
-      units/{civ}_infantry_slinger_b
+      units/{civ}/infantry_pikeman
+      units/{civ}/infantry_spearman
+      units/{civ}/infantry_hoplite
+      units/{civ}/infantry_axeman
+      units/{civ}/infantry_maceman
+      units/{civ}/infantry_sabreman
+      units/{civ}/infantry_swordsman
+      units/{civ}/infantry_javelinist
+      units/{civ}/infantry_archer
+      units/{civ}/infantry_slinger
     </Entities>
     <Technologies datatype="tokens">
       training_barracks
-      drill_infantry_1
-      drill_infantry_2
-      drill_infantry_3
       archery_tradition
       marching
     </Technologies>

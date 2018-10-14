@@ -4,6 +4,8 @@
     <Civ>kush</Civ>
     <GenericName>Meroitic War Elephant</GenericName>
     <Icon>units/kush_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/kush/war_elephant</SelectionGroupName>
     <SpecificName>Abore ‘h3</SpecificName>
   </Identity>
   <VisualActor>

@@ -74,15 +74,15 @@
       "Count": 5
     },
     {
-      "Template": "units/gaul_infantry_spearman_b",
+      "Template": "units/gaul/infantry_spearman",
       "Count": 2
     },
     {
-      "Template": "units/gaul_infantry_javelinist_b",
+      "Template": "units/gaul/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/gaul_cavalry_javelinist_b"
+      "Template": "units/gaul/cavalry_javelinist"
     }
   ],
   "Formations":
@@ -113,6 +113,9 @@
   ],
   "SkirmishReplacements":
   {
+    "skirmish/units/default_cavalry" : "units/gaul/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "units/gaul/infantry_spearman",
+    "skirmish/units/default_infantry_ranged_b": "units/gaul/infantry_javelinist",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

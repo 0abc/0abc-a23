@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_sabreman">
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Napatan Temple Guard</GenericName>
+    <Icon>units/kush_champion_amun.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/kush/infantry_sabreman</SelectionGroupName>
+    <SpecificName>rs ‘Imn</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

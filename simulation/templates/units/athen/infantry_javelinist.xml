@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelinist">
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Thracian Peltast</GenericName>
+    <Icon>units/hele_infantry_javelinist.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/athen/infantry_javelinist</SelectionGroupName>
+    <SpecificName>Πελταστής Θρᾶξ</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -73,15 +73,15 @@
       "Count": 5
     },
     {
-      "Template": "units/maur_infantry_spearman_b",
+      "Template": "units/maur/infantry_spearman",
       "Count": 2
     },
     {
-      "Template": "units/maur_infantry_archer_b",
+      "Template": "units/maur/infantry_longbowman",
       "Count": 2
     },
     {
-      "Template": "units/maur_cavalry_javelinist_b"
+      "Template": "units/maur/cavalry_javelinist"
     },
     {
       "Template": "units/maur/support_elephant"
@@ -116,7 +116,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_infantry_ranged_b": "units/maur_infantry_archer_b",
+    "skirmish/units/default_cavalry" : "units/maur/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "units/maur/infantry_spearman",
+    "skirmish/units/default_infantry_ranged_b": "units/maur/infantry_longbowman",
     "skirmish/units/special_starting_unit": "units/maur/support_elephant",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },

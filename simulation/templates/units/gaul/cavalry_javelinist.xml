@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/celt_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/gaul/cavalry_javelinist</SelectionGroupName>
+    <SpecificName>Gaisaredos</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/cavalry_javelinist_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

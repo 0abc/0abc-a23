@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/celt_infantry_spearman.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/gaul/infantry_spearman</SelectionGroupName>
+    <SpecificName>Gaeroa</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

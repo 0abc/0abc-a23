@@ -72,15 +72,15 @@
       "Count": 5
     },
     {
-      "Template": "units/iber_infantry_swordsman_b",
+      "Template": "units/iber/infantry_sabreman",
       "Count": 2
     },
     {
-      "Template": "units/iber_infantry_javelinist_b",
+      "Template": "units/iber/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/iber_cavalry_javelinist_b"
+      "Template": "units/iber/cavalry_javelinist"
     }
   ],
   "Formations":
@@ -108,7 +108,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_infantry_melee_b": "units/iber_infantry_swordsman_b",
+    "skirmish/units/default_cavalry" : "units/iber/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "units/iber/infantry_sabreman",
+    "skirmish/units/default_infantry_ranged_b": "units/iber/infantry_javelinist",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

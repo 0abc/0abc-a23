@@ -73,15 +73,15 @@
       "Count": 5
     },
     {
-      "Template": "units/cart_infantry_spearman_b",
+      "Template": "units/cart/infantry_hoplite",
       "Count": 2
     },
     {
-      "Template": "units/cart_infantry_archer_b",
+      "Template": "units/cart/infantry_archer",
       "Count": 2
     },
     {
-      "Template": "units/cart_cavalry_javelinist_b"
+      "Template": "units/cart/cavalry_javelinist"
     }
   ],
   "Formations":
@@ -119,7 +119,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_infantry_ranged_b": "units/cart_infantry_archer_b",
+    "skirmish/units/default_cavalry" : "units/cart/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "units/cart/infantry_hoplite",
+    "skirmish/units/default_infantry_ranged_b": "units/cart/infantry_archer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

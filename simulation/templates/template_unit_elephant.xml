@@ -41,9 +41,6 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <Promotion>
-    <RequiredXp>300</RequiredXp>
-  </Promotion>
   <Selectable>
     <Overlay>
       <Texture>

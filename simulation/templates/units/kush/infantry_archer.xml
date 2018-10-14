@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Noble Archer</GenericName>
+    <Icon>units/kush_champion_archer.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/kush/infantry_archer</SelectionGroupName>
+    <SpecificName>Hry pdty</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

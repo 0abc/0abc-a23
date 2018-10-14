@@ -7,6 +7,7 @@
 * https://github.com/0abc/0abc-a23#population-costs
 * https://github.com/0abc/0abc-a23#upkeep-and-income
 * https://github.com/0abc/0abc-a23#unit-counters
+* https://github.com/0abc/0abc-a23#civilization-bonuses
 
 ## Instructions
 * Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-a23.git`).
@@ -21,20 +22,36 @@
 * For more detailed information, please have a look at **0abc-readme.pdf**
 
 ## Overview
-* pierce damage split into pierce (projectiles) and thrust (spears)
+Changes include, but are not limited to:
+* units and some structures steadily consume small amounts of resources (upkeep)
 * introduced a new resource: silver
-* economic structures can be build in neutral territory
-* markets are available in village phase to all civilizations
-* team bonuses are disabled for all civilizations
+* pierce damage is split into pierce (arrows) and thrust (spears)
+* increased unit training and technology research times
+* a greater variety of aura range visualization markers
+* all civilization bonuses and penalties are replaced with new ones; team bonuses are disabled
+* disabled unit promotion
+* numerous minor tweaks and balances, most of which will probably go unnoticed
+
+### Structures
+* economic structures can be constructed in neutral territory
+* dropsites are just that: dropsites; all economic technologies are moved to the market, which is now available in the village phase
+* centres can be part of trade routes
+* walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
+* fortresses have a territory root, are purely defensive structures, have somewhat more health, but no longer train any units
+* all factions have cavalry stables (village) and siege workshops (town); most have separate economic docks (village) and military shipyards (town); many have elephant stables (city)
+
+### Units
 * all units are bribable (vision sharing), excluding fauna
 * fauna is no longer visible in fog
-* female citizens are renamed to simply women and they can no longer build
+* female citizens renamed to women; they can no longer build or repair
 * healers can no longer promote
 * cavalry can no longer gather resources
 * camelry, chariotry, and elephantry are no longer considered cavalry
 * chariotry can no longer attack ships, siege, or structures
 * siege weapons are no longer capturable
 * battering rams can no longer attack organic units
+* all factions can construct rams (town)
+* dogs, heroes, and ships require 0 population; support and infantry 1; camelry and cavalry 2; biga chariots and siege weapons 4; quadriga chariots, war elephants, and siege towers 6
 
 ## Population costs
 * 0: fauna, catafalques, heroes, ships
@@ -101,3 +118,16 @@ Wood:
 * stone throwers: 2.0× vs Ships
 * battering rams: 2.0× vs Defensive
 * siege towers: –
+
+## Civilization bonuses
+*All bonuses and penalties from the default distribution have been removed.*
+
+* **Celtic Architecture** (Britons, Gauls): all structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
+* **Greek Architecture** (Athenians, Macedonians, Seleucids, Spartans): civic structures +20% health.
+* **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+* **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
+* **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health.
+* **Persian Architecture** (Persians): economic structures +20% health.
+* **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
+* **Roman Architecture** (Romans): city walls +10% health; military structures −10% build time.
+
