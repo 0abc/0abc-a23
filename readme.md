@@ -4,6 +4,8 @@
 ## Table of Contents
 * https://github.com/0abc/0abc-a23#instructions
 * https://github.com/0abc/0abc-a23#overview
+* https://github.com/0abc/0abc-a23#structures
+* https://github.com/0abc/0abc-a23#units
 * https://github.com/0abc/0abc-a23#population-costs
 * https://github.com/0abc/0abc-a23#upkeep-and-income
 * https://github.com/0abc/0abc-a23#unit-counters
@@ -124,7 +126,7 @@ Wood:
 *All bonuses and penalties from the default distribution have been removed.*
 
 * **Celtic Architecture** (Britons, Gauls): all structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
-* **Greek Architecture** (Athenians, Macedonians, Seleucids, Spartans): civic structures +20% health.
+* **Greek Architecture** (Greeks, Macedonians, Seleucids): civic structures +20% health.
 * **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
 * **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health.
