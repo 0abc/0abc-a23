@@ -23,18 +23,19 @@
 
 ## Overview
 Changes include, but are not limited to:
-* units and some structures steadily consume small amounts of resources (upkeep)
 * introduced a new resource: silver
 * pierce damage is split into pierce (arrows) and thrust (spears)
+* units and some structures steadily consume small amounts of resources (upkeep)
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
-* all civilization bonuses and penalties are replaced with new ones; team bonuses are disabled
-* disabled unit promotion
+* all civilization bonuses and penalties are replaced with new ones
+* disabled unit promotion, champions, heroes, team bonuses; they might be reintroduced at a later stage
 * numerous minor tweaks and balances, most of which will probably go unnoticed
 
 ### Structures
 * economic structures can be constructed in neutral territory
 * dropsites are just that: dropsites; all economic technologies are moved to the market, which is now available in the village phase
+* town phase requires a market, city phase a temple
 * centres can be part of trade routes
 * walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
 * fortresses have a territory root, are purely defensive structures, have somewhat more health, but no longer train any units
@@ -44,14 +45,13 @@ Changes include, but are not limited to:
 * all units are bribable (vision sharing), excluding fauna
 * fauna is no longer visible in fog
 * female citizens renamed to women; they can no longer build or repair
-* healers can no longer promote
 * cavalry can no longer gather resources
 * camelry, chariotry, and elephantry are no longer considered cavalry
 * chariotry can no longer attack ships, siege, or structures
 * siege weapons are no longer capturable
 * battering rams can no longer attack organic units
 * all factions can construct rams (town)
-* dogs, heroes, and ships require 0 population; support and infantry 1; camelry and cavalry 2; biga chariots and siege weapons 4; quadriga chariots, war elephants, and siege towers 6
+* dogs, heroes, and ships require 0 population; support and infantry 1; camelry and cavalry 2; biga chariots and siege engines 4; quadriga chariots, war elephants, and siege towers 6
 
 ## Population costs
 * 0: fauna, catafalques, heroes, ships
