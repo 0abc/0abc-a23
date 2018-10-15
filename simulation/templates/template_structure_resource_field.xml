@@ -6,6 +6,9 @@
     <Pierce>40</Pierce>
     <Thrust>40</Thrust>
   </Armour>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>100</CapturePoints>
   </Capturable>
