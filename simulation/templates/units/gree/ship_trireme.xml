@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_trireme">
+  <Identity>
+    <Civ>gree</Civ>
+    <Icon>units/hele_ship_trireme.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/athenians/trireme.xml</Actor>
+  </VisualActor>
+</Entity>

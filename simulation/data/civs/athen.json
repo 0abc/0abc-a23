@@ -123,5 +123,5 @@
     "skirmish/units/default_infantry_ranged_b": "units/athen/infantry_slinger",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
-  "SelectableInGameSetup": true
+  "SelectableInGameSetup": false
 }

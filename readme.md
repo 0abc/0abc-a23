@@ -28,8 +28,9 @@ Changes include, but are not limited to:
 * units and some structures steadily consume small amounts of resources (upkeep)
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
-* all civilization bonuses and penalties are replaced with new ones
+* merged Athenians and Spartans into a single faction, the Greeks
 * disabled unit promotion, champions, heroes, team bonuses; they might be reintroduced at a later stage
+* all civilization bonuses and penalties are replaced with new ones
 * numerous minor tweaks and balances, most of which will probably go unnoticed
 
 ### Structures
@@ -42,7 +43,7 @@ Changes include, but are not limited to:
 * all factions have cavalry stables (village) and siege workshops (town); most have separate economic docks (village) and military shipyards (town); many have elephant stables (city)
 
 ### Units
-* all units are bribable (vision sharing), excluding fauna
+* all units are bribable (vision sharing), except for fauna
 * fauna is no longer visible in fog
 * female citizens renamed to women; they can no longer build or repair
 * cavalry can no longer gather resources

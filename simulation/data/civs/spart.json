@@ -120,5 +120,5 @@
     "skirmish/units/default_infantry_ranged_b": "units/spart/infantry_javelinist",
     "skirmish/structures/default_house_10" : "structures/{civ}/house"
   },
-  "SelectableInGameSetup": true
+  "SelectableInGameSetup": false
 }

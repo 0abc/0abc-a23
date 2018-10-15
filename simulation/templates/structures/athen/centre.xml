@@ -16,7 +16,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_spearman
+      units/{civ}/infantry_hoplite
       units/{civ}/infantry_slinger
     </Entities>
   </ProductionQueue>

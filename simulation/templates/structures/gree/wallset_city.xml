@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>gree</Civ>
+    <SpecificName>Τεῖχος</SpecificName>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>structures/gree/wall_gate</Gate>
+      <Tower>structures/gree/wall_tower</Tower>
+      <WallLong>structures/gree/wall_long</WallLong>
+      <WallMedium>structures/gree/wall_medium</WallMedium>
+      <WallShort>structures/gree/wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>
