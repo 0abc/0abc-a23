@@ -34,12 +34,18 @@
       <Stoa>2</Stoa>
       <TempleOfAmun>1</TempleOfAmun>
       <Theatre>1</Theatre>
-      <Tower>30</Tower>
+      <Tower>20</Tower>
       <UniqueBuilding>1</UniqueBuilding>
       <WarDog>0</WarDog>
       <Wonder>1</Wonder>
     </Limits>
     <LimitChangers>
+      <Fortress>
+        <Centre>2</Centre>
+      </Fortress>
+      <Tower>
+        <Centre>5</Centre>
+      </Tower>
       <WarDog>
         <Kennel>10</Kennel>
       </WarDog>
