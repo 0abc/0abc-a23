@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry">
+  <Attack>
+    <Melee disable=""/>
+    <Ranged>
+      <MaxRange>36</MaxRange>
+      <Pierce>40</Pierce>
+      <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <Spread>0.5</Spread>
+    </Ranged>
+  </Attack>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Identity>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+    <GenericName>Cavalry Javelinist Hero</GenericName>
+    <VisibleClasses datatype="tokens">Javelinist Ranged</VisibleClasses>
+  </Identity>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Footprint>
+    <Circle radius="1.5"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Infantry Hero</GenericName>
+    <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
+  </Identity>
+</Entity>

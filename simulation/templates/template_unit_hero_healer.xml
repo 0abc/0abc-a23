@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Attack disable=""/>
+  <Heal>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+    <HP>1</HP>
+    <Range>20</Range>
+    <RangeOverlay>
+      <LineTexture>overlays/cross.png</LineTexture>
+      <LineTextureMask>overlays/cross_mask.png</LineTextureMask>
+      <LineThickness>0.4</LineThickness>
+    </RangeOverlay>
+    <Rate>200</Rate>
+    <UnhealableClasses datatype="tokens"/>
+  </Heal>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">-Soldier Healer Support</VisibleClasses>
+  </Identity>
+</Entity>

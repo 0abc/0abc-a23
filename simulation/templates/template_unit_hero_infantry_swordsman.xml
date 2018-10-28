@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry">
+  <Attack>
+    <Melee>
+      <Hack>40</Hack>
+    </Melee>
+    <Ranged disable=""/>
+  </Attack>
+  <Identity>
+    <Formations datatype="tokens">
+      special/formations/testudo
+    </Formations>
+    <GenericName>Hero Swordsman</GenericName>
+    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
+  </Identity>
+</Entity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Attack>
+    <Melee>
+      <Crush>50</Crush>
+    </Melee>
+    <Ranged disable=""/>
+  </Attack>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <GenericName>War Elephant Hero</GenericName>
+    <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>actor/fauna/animal/elephant_attack.xml</attack_melee>
+      <death>actor/fauna/animal/elephant_death.xml</death>
+      <order_attack>actor/fauna/animal/elephant_attack_order.xml</order_attack>
+      <order_garrison>actor/fauna/animal/elephant_order.xml</order_garrison>
+      <order_gather>actor/fauna/animal/elephant_order.xml</order_gather>
+      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>actor/fauna/animal/elephant_select.xml</select>
+      <trained>actor/fauna/animal/elephant_trained.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+  </UnitMotion>
+</Entity>

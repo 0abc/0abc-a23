@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Armour>
+    <Crush>10</Crush>
+    <Hack>10</Hack>
+    <Pierce>10</Pierce>
+    <Thrust>10</Thrust>
+  </Armour>
+  <Attack>
+    <Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <Value>15</Value>
+    </Capture>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/hero_garrison
+  </Auras>
+  <Cost>
+    <Population>0</Population>
+    <BuildTime>60</BuildTime>
+  </Cost>
+  <Identity>
+    <Classes datatype="tokens">Organic Human</Classes>
+    <GenericName>Hero</GenericName>
+    <VisibleClasses datatype="tokens">Hero Soldier</VisibleClasses>
+  </Identity>
+  <Minimap>
+    <Type>hero</Type>
+  </Minimap>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>star/256x256.png</MainTexture>
+        <MainTextureMask>star/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <death>actor/human/death/{gender}_death.xml</death>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_heal>voice/{lang}/civ/civ_{gender}_heal.xml</order_heal>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <TrainingRestrictions>
+    <Category>Hero</Category>
+  </TrainingRestrictions>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/pers_hero_cyrus
+  </Auras>
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Cyrus II The Great</GenericName>
+    <Icon>units/pers_hero_cyrus.png</Icon>
+    <SpecificName>Kurush II</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/hero_cavalry_spearman_cyrus_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -11,9 +11,9 @@
     <HP>1</HP>
     <Range>12</Range>
     <RangeOverlay>
-        <LineTexture>overlays/cross.png</LineTexture>
-        <LineTextureMask>overlays/cross_mask.png</LineTextureMask>
-        <LineThickness>0.4</LineThickness>
+      <LineTexture>overlays/cross.png</LineTexture>
+      <LineTextureMask>overlays/cross_mask.png</LineTextureMask>
+      <LineThickness>0.4</LineThickness>
     </RangeOverlay>
     <Rate>500</Rate>
     <UnhealableClasses datatype="tokens"/>

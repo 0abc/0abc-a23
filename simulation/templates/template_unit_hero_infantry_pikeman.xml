@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry">
+  <Attack>
+    <Melee>
+      <MaxRange>6</MaxRange>
+      <Pierce>20</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Thrust>20</Thrust>
+    </Melee>
+    <Ranged disable=""/>
+  </Attack>
+  <Identity>
+    <GenericName>Infantry Pikeman Hero</GenericName>
+    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
+  </Identity>
+</Entity>

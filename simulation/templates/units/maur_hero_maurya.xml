@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Identity>
+    <Civ>maur</Civ>
+    <GenericName>Chandragupta Maurya</GenericName>
+    <Icon>units/maur_hero_chandragupta.png</Icon>
+    <SpecificName>Chandragupta Maurya</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/hero_elephantry_maurya_m.xml</Actor>
+  </VisualActor>
+</Entity>

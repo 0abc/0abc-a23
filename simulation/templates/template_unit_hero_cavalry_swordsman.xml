@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry">
+  <Attack>
+    <Melee>
+     <Hack>40</Hack>
+    </Melee>
+    <Ranged disable=""/>
+  </Attack>
+  <Identity>
+    <GenericName>Cavalry Swordsman Hero</GenericName>
+    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
+  </Identity>
+</Entity>
