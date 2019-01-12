@@ -28,8 +28,6 @@
   </Cost>
   <Identity>
     <GenericName>Biga Archer</GenericName>
-    <Tooltip>Penalties: 0.5× vs Elephants.
-Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
 </Entity>

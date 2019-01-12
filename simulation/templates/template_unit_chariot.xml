@@ -28,6 +28,7 @@
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
+    <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Soldier Chariot Citizen</VisibleClasses>
   </Identity>
   <Position>

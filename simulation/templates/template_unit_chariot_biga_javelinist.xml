@@ -22,7 +22,6 @@
   </Cost>
   <Identity>
     <GenericName>Biga Javelinist</GenericName>
-    <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>
 </Entity>

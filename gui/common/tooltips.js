@@ -344,14 +344,14 @@ function getCountersTooltip(template)
     if (!template.attack[attackType].bonuses)
       continue;
       
-    let string = headerFont(sprintf(translate("%(attackType)s counters: "), {
+    let string = headerFont(sprintf(translate("%(attackType)s Counters: "), {
       "attackType": translate(attackType)
     }));
     let bonusesBody = [];
     for (let key in template.attack[attackType].bonuses)
     {
       let bonus = template.attack[attackType].bonuses[key];
-      bonusesBody.push(sprintf("%(multiplier)s× vs %(classes)s", {
+      bonusesBody.push(sprintf(translate("%(multiplier)s× vs %(classes)s"), {
         "multiplier": bonus.multiplier,
         "classes": translate(bonus.classes)
       }));
