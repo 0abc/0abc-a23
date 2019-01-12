@@ -17,7 +17,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman
-      units/{civ}/infantry_archer
+      units/{civ}/infantry_longbowman
     </Entities>
   </ProductionQueue>
   <VisualActor>

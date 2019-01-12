@@ -34,7 +34,9 @@
       units/{civ}/infantry_sabreman
       units/{civ}/infantry_swordsman
       units/{civ}/infantry_javelinist
+      units/{civ}/infantry_longbowman
       units/{civ}/infantry_archer
+      units/{civ}/infantry_crossbowman
       units/{civ}/infantry_slinger
     </Entities>
     <Technologies datatype="tokens">
