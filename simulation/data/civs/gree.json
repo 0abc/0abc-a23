@@ -1,167 +1,167 @@
 {
-  "Code":"gree",
-  "Culture":"hele",
-  "Name":"Greeks",
-  "Emblem":"session/portraits/emblems/emblem_hellenes.png",
-  "History":"Although politically divided into a great number of city states, the Greeks did consider themselves a single people with a shared culture. There were pan-Hellenic institutions, sanctuaries, festivals, and games. Usually the major city states fought each other for hegemony, but occassionally they formed brief military alliances to counter 'barbarian' (i.e. non-Greek) invasions.",
+  "Code": "gree",
+  "Culture": "hele",
+  "Name": "Greeks",
+  "Emblem": "session/portraits/emblems/emblem_hellenes.png",
+  "History": "Although politically divided into a great number of city states, the Greeks did consider themselves a single people with a shared culture. There were pan-Hellenic institutions, sanctuaries, festivals, and games. Usually the major city states fought each other for hegemony, but occassionally they formed brief military alliances to counter 'barbarian' (i.e. non-Greek) invasions.",
   "Music":[
-      {"File":"Forging_a_City-State.ogg", "Type":"peace"},
-      {"File":"Harvest_Festival.ogg", "Type":"peace"},
-      {"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
-      {"File":"Highland_Mist.ogg", "Type":"peace"},
-      {"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
-      {"File":"The_Hellespont.ogg", "Type":"peace"}
+      {"File": "Forging_a_City-State.ogg", "Type": "peace"},
+      {"File": "Harvest_Festival.ogg", "Type": "peace"},
+      {"File": "Helen_Leaves_Sparta.ogg", "Type": "peace"},
+      {"File": "Highland_Mist.ogg", "Type": "peace"},
+      {"File": "Peaks_of_Atlas.ogg", "Type": "peace"},
+      {"File": "The_Hellespont.ogg", "Type": "peace"}
     ],
   "Factions":
   [
     {
-      "Name":"Argives",
-      "Description":"A Greek city-state of the Doric tribe, centred around Argos in the Pelopponese.",
+      "Name": "Argives",
+      "Description": "A Greek city-state of the Doric tribe, centred around Argos in the Pelopponese.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Pheidon",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Pheidon",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         }
       ]
     },
     {
-      "Name":"Athenians",
-      "Description":"A Greek city-state of the Ionian tribe, centred around Athens.",
+      "Name": "Athenians",
+      "Description": "A Greek city-state of the Ionian tribe, centred around Athens.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Themistocles",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Themistocles",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         },
         {
-          "Name":"Pericles",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Pericles",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         },
         {
-          "Name":"Iphicrates",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"."
+          "Name": "Iphicrates",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "."
         }
       ]
     },
     {
-      "Name":"Boeotians",
-      "Description":"A Greek city-state of the Aeolic tribe, centred around Thebes in Boeotia.",
+      "Name": "Boeotians",
+      "Description": "A Greek city-state of the Aeolic tribe, centred around Thebes in Boeotia.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Epaminondas",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Epaminondas",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         }
       ]
     },
     {
-      "Name":"Corinthians",
-      "Description":"A Greek city-state of the Doric tribe, centred around Corinth in the Peloponnese.",
+      "Name": "Corinthians",
+      "Description": "A Greek city-state of the Doric tribe, centred around Corinth in the Peloponnese.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Cypselus",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"."
+          "Name": "Cypselus",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "."
         },
         {
-          "Name":"Periander",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"."
+          "Name": "Periander",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "."
         }
       ]
     },
     {
-      "Name":"Lakedaimonians",
-      "Description":"A Greek city-state of the Doric tribe, centred around Sparta in the Peloponnese.",
+      "Name": "Lakedaimonians",
+      "Description": "A Greek city-state of the Doric tribe, centred around Sparta in the Peloponnese.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Leonidas I",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Leonidas I",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         },
         {
-          "Name":"Brasidas",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Brasidas",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         },
         {
-          "Name":"Agis III",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":""
+          "Name": "Agis III",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": ""
         }
       ]
     },
     {
-      "Name":"Syracusaeans",
-      "Description":"A Greek city-state of the Doric tribe, centred around Syracusae on Sicily.",
+      "Name": "Syracusaeans",
+      "Description": "A Greek city-state of the Doric tribe, centred around Syracusae on Sicily.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Gelon",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"."
+          "Name": "Gelon",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "."
         },
         {
-          "Name":"Dionysius I",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"."
+          "Name": "Dionysius I",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "."
         },
         {
-          "Name":"Archimedes",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"."
+          "Name": "Archimedes",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "."
         }
       ]
     }
@@ -169,9 +169,9 @@
   "CivBonuses":
   [
 		{
-			"Name":"Greek Architecture",
-			"History":"Greek structures were made out of wood, fired bricks, or stone.",
-			"Description":"Civic structures +20% health."
+			"Name": "Greek Architecture",
+			"History": "Greek structures were made out of wood, fired bricks, or stone.",
+			"Description": "Civic structures +20% health."
 		}
   ],
   "TeamBonuses":
@@ -261,10 +261,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/gree/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/gree/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/gree/infantry_hoplite",
     "skirmish/units/default_infantry_ranged_b": "units/gree/infantry_javelinist",
-    "skirmish/structures/default_house_10" : "structures/{civ}/house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

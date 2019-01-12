@@ -1,0 +1,10 @@
+{
+  "affects": ["Unit"],
+  "autoResearch": true,
+  "genericName": "Indian Elephants",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Elephant"}
+  ],
+  "requirements": {"civ": "maur"},
+  "tooltip": "Mauryan elephants −20% training time."
+}

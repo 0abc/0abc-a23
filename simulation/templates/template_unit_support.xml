@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Attack disable=""/>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>60</BuildTime>
   </Cost>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>

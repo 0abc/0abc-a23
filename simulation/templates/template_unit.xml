@@ -22,9 +22,9 @@
       <Delay>0</Delay>
       <Gravity>9.81</Gravity>
       <Hack>0</Hack>
-      <Pierce>0</Pierce>
       <MaxRange>10</MaxRange>
       <MinRange>0</MinRange>
+      <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>750</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>

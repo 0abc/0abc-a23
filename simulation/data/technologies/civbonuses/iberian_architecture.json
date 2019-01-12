@@ -1,7 +1,6 @@
 {
   "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
   "autoResearch": true,
-  "description": "Iberian structures were probably made out of wood, perhaps with rubble foundations.",
   "genericName": "Iberian Architecture",
   "modifications": [
     {"value": "Cost/BuildTime",           "multiply": 0.9,  "affects": "Centre"      },

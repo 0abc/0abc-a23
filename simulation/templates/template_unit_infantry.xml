@@ -53,9 +53,9 @@
     </Entities>
   </Builder>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <food>25</food>
+      <food>30</food>
     </Resources>
   </Cost>
   <Footprint>

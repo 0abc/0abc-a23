@@ -9,10 +9,10 @@
     </Capture>
   </Attack>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>45</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>60</food>
+      <food>75</food>
     </Resources>
   </Cost>
   <Footprint replace="">

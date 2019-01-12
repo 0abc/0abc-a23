@@ -21,7 +21,7 @@
     <Ranged disable=""/>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>40</BuildTime>
     <Population>4</Population>
     <Resources>
       <food>100</food>

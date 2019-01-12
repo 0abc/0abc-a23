@@ -129,8 +129,12 @@ Wood:
 * **Greek Architecture** (Greeks, Macedonians, Seleucids): civic structures +20% health.
 * **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
 * **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
+* **Indian Elephants** (Mauryas): elephants −20% training time.
 * **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health.
 * **Persian Architecture** (Persians): economic structures +20% health.
+* **Persian Archers** (Persians): archers −20% training time.
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
+* **Punic Merchants** (Carthaginians): traders −20% training time.
 * **Roman Architecture** (Romans): city walls +10% health; military structures −10% build time.
+* **Roman Engineers** (Romans): siege weapons −20% construction time.
 

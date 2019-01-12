@@ -5,9 +5,9 @@
   "Emblem": "session/portraits/emblems/emblem_iberians.png",
   "History": "The Iberians were a people of mysterious origins and language, with a strong tradition of horsemanship and metalworking. A relatively peaceful culture, they usually fought in other's battles only as mercenaries. However, they proved tenacious when Rome sought to take their land and freedom from them, and employed pioneering guerrilla tactics and flaming javelins as they fought back.",
   "Music":[
-      {"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
-      {"File":"Celtica.ogg", "Type":"peace"},
-      {"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"}
+      {"File": "An_old_Warhorse_goes_to_Pasture.ogg", "Type": "peace"},
+      {"File": "Celtica.ogg", "Type": "peace"},
+      {"File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace"}
     ],
   "Factions":
   [
@@ -46,9 +46,9 @@
   "CivBonuses":
   [
 		{
-			"Name":"Iberian Architecture",
-			"History":"Iberian structures were probably made out of wood, perhaps with rubble foundations.",
-			"Description":"Centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health."
+			"Name": "Iberian Architecture",
+			"History": "Iberian structures were probably made out of wood, perhaps with rubble foundations.",
+			"Description": "Centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health."
 		}
   ],
   "TeamBonuses":
@@ -108,7 +108,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/iber/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/iber/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/iber/infantry_sabreman",
     "skirmish/units/default_infantry_ranged_b": "units/iber/infantry_javelinist",
     "skirmish/structures/default_house_5": "structures/{civ}/house"

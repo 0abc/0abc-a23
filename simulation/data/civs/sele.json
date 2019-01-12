@@ -1,44 +1,44 @@
 {
-  "Code":"sele",
-  "Culture":"sele",
-  "Name":"Seleucids",
-  "Emblem":"session/portraits/emblems/emblem_seleucids.png",
-  "History":"The Macedonian-Greek dynasty that ruled most of Alexander's former empire.",
+  "Code": "sele",
+  "Culture": "sele",
+  "Name": "Seleucids",
+  "Emblem": "session/portraits/emblems/emblem_seleucids.png",
+  "History": "The Macedonian-Greek dynasty that ruled most of Alexander's former empire.",
   "Music":[
-      {"File":"Rise_of_Macedon.ogg", "Type":"peace"},
-      {"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
-      {"File":"The_Hellespont.ogg", "Type":"peace"}
+      {"File": "Rise_of_Macedon.ogg", "Type": "peace"},
+      {"File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace"},
+      {"File": "The_Hellespont.ogg", "Type": "peace"}
     ],
   "Factions":
   [
     {
-      "Name":"Seleucids",
-      "Description":"The Macedonian-Greek dynasty that ruled the Eastern part of Alexander's former empire.",
+      "Name": "Seleucids",
+      "Description": "The Macedonian-Greek dynasty that ruled the Eastern part of Alexander's former empire.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Seleukos A' Nikator",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"Always lying in wait for the neighboring nations, strong in arms and persuasive in council, he (Seleucus) acquired Mesopotamia, Armenia, 'Seleucid' Cappadocia, Persis, Parthia, Bactria, Arabia, Tapouria, Sogdia, Arachosia, Hyrcania, and other adjacent peoples that had been subdued by Alexander, as far as the river Indus, so that the boundaries of his empire were the most extensive in Asia after that of Alexander. The whole region from Phrygia to the Indus was subject to Seleucus. — Appian, 'The Syrian Wars'."
+          "Name": "Seleukos A' Nikator",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Always lying in wait for the neighboring nations, strong in arms and persuasive in council, he (Seleucus) acquired Mesopotamia, Armenia, 'Seleucid' Cappadocia, Persis, Parthia, Bactria, Arabia, Tapouria, Sogdia, Arachosia, Hyrcania, and other adjacent peoples that had been subdued by Alexander, as far as the river Indus, so that the boundaries of his empire were the most extensive in Asia after that of Alexander. The whole region from Phrygia to the Indus was subject to Seleucus. — Appian, 'The Syrian Wars'."
         },
         {
-          "Name":"Antiokhos G' Megas",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"Antiochus inherited a troubled kingdom upon the beginning of his reign. From the verge of collapse he managed to weld back together the empire Seleucus I fought so hard to found. The rebellious eastern satraps of Bactria and Parthia were brought to heel , temporarily securing his eastern borders. He then turned his attention to mother Greece, attempting to fulfill the dreams of his fathers by invading Greece under the pretext of liberation. The Achaean League and the Kingdom of Pergamon banded together with the Romans to defeat him at the Battle of Magnesia, forever burying the dream of reuniting Alexander's empire."
+          "Name": "Antiokhos G' Megas",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Antiochus inherited a troubled kingdom upon the beginning of his reign. From the verge of collapse he managed to weld back together the empire Seleucus I fought so hard to found. The rebellious eastern satraps of Bactria and Parthia were brought to heel , temporarily securing his eastern borders. He then turned his attention to mother Greece, attempting to fulfill the dreams of his fathers by invading Greece under the pretext of liberation. The Achaean League and the Kingdom of Pergamon banded together with the Romans to defeat him at the Battle of Magnesia, forever burying the dream of reuniting Alexander's empire."
         },
         {
-          "Name":"Antiokhos D' Epiphanes",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"Antiochus IV Epiphanes was a son of Antiochus III the Great and brother of Seleucus IV Philopator. Originally named Mithridates, he assumed the name Antiochus either upon his accession to the throne or after the death of his elder brother Antiochus. Notable events during his reign include the near-conquest of Egypt (twice), which was halted by the threat of Roman intervention, and the beginning of the Jewish revolt of the Maccabees. He died of sudden illness while fighting off a Parthian invasion from the East."
+          "Name": "Antiokhos D' Epiphanes",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Antiochus IV Epiphanes was a son of Antiochus III the Great and brother of Seleucus IV Philopator. Originally named Mithridates, he assumed the name Antiochus either upon his accession to the throne or after the death of his elder brother Antiochus. Notable events during his reign include the near-conquest of Egypt (twice), which was halted by the threat of Roman intervention, and the beginning of the Jewish revolt of the Maccabees. He died of sudden illness while fighting off a Parthian invasion from the East."
         }
       ]
     }
@@ -46,9 +46,9 @@
   "CivBonuses":
   [
 		{
-			"Name":"Greek Architecture",
-			"History":"Greek structures were made out of wood, fired bricks, or stone.",
-			"Description":"Civic structures +20% health."
+			"Name": "Greek Architecture",
+			"History": "Greek structures were made out of wood, fired bricks, or stone.",
+			"Description": "Civic structures +20% health."
 		}
   ],
   "TeamBonuses":
@@ -133,10 +133,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/sele/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/sele/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/sele/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/sele/infantry_javelinist",
-    "skirmish/structures/default_house_10" : "structures/{civ}/house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

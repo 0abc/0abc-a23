@@ -1,11 +1,10 @@
 {
   "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
   "autoResearch": true,
-  "description": "Greek structures were made out of wood, fired bricks, or stone.",
   "genericName": "Greek Architecture",
   "modifications": [
     {"value": "Health/Max",               "multiply": 1.2,  "affects": "Civic"}
   ],
-  "requirements": {"any": [{"civ": "athen"}, {"civ": "mace"}, {"civ": "sele"}, {"civ": "spart"}]},
-  "tooltip": "Athenian, Macedonian, Seleucid, and Spartan civic structures +20% health."
+  "requirements": {"any": [{"civ": "gree"}, {"civ": "mace"}, {"civ": "sele"}]},
+  "tooltip": "Greek, Macedonian, and Seleucid civic structures +20% health."
 }

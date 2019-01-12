@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_mauryans.png",
   "History": "Founded in 322 B.C. by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armoured war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
   "Music":[
-      {"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
-      {"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
-      {"File":"Eastern_Dreams.ogg", "Type":"peace"},
-      {"File":"Karmic_Confluence.ogg", "Type":"peace"}
+      {"File": "An_old_Warhorse_goes_to_Pasture.ogg", "Type": "peace"},
+      {"File": "Land_between_the_two_Seas.ogg", "Type": "peace"},
+      {"File": "Eastern_Dreams.ogg", "Type": "peace"},
+      {"File": "Karmic_Confluence.ogg", "Type": "peace"}
     ],
   "Factions":
   [
@@ -21,25 +21,25 @@
       "Heroes":
       [
         {
-          "Name":"Chandragupta Maurya",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"Founder of the Mauryan Empire."
+          "Name": "Chandragupta Maurya",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Founder of the Mauryan Empire."
         },
         {
-          "Name":"Ashoka the Great",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"Last great emperor of the Mauryan dynasty."
+          "Name": "Ashoka the Great",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Last great emperor of the Mauryan dynasty."
         },
         {
-          "Name":"Acharya Chāṇakya",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"Great teacher and advisor to Chandragupta Maurya."
+          "Name": "Acharya Chāṇakya",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Great teacher and advisor to Chandragupta Maurya."
         }
       ]
     }
@@ -47,9 +47,14 @@
   "CivBonuses":
   [
 		{
-			"Name":"Indian Architecture",
-			"History":"Indian structures were typically made out of bamboo or wood.",
-			"Description":"City walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health."
+			"Name": "Indian Architecture",
+			"History": "Indian structures were typically made out of bamboo or wood.",
+			"Description": "City walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health."
+		},
+		{
+			"Name": "Indian Elephants",
+			"History": "",
+			"Description": "Elephants −20% training time."
 		}
   ],
   "TeamBonuses":
@@ -116,7 +121,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/maur/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/maur/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/maur/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/maur/infantry_longbowman",
     "skirmish/units/special_starting_unit": "units/maur/support_elephant",

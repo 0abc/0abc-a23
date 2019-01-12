@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_persians.png",
   "History": "The Persian Empire, when ruled by the Achaemenid dynasty, was one of the greatest empires of antiquity, stretching at its zenith from the Indus Valley in the east to Greece in the west. The Persians were the pioneers of empire-building of the ancient world, successfully imposing a centralized rule over various peoples with different customs, laws, religions and languages, and building a cosmopolitan army made up of contingents from each of these nations.",
   "Music":[
-      {"File":"Eastern_Dreams.ogg", "Type":"peace"},
-      {"File":"Valley_of_the_Nile.ogg", "Type":"peace"},
-      {"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
-      {"File":"Sands_of_Time.ogg", "Type":"peace"}
+      {"File": "Eastern_Dreams.ogg", "Type": "peace"},
+      {"File": "Valley_of_the_Nile.ogg", "Type": "peace"},
+      {"File": "Land_between_the_two_Seas.ogg", "Type": "peace"},
+      {"File": "Sands_of_Time.ogg", "Type": "peace"}
     ],
   "Factions":
   [
@@ -47,9 +47,14 @@
   "CivBonuses":
   [
 		{
-			"Name":"Persian Architecture",
-			"History":"Persian structures were often made out of mud bricks or stone.",
-			"Description":"Economic structures +20% health."
+			"Name": "Persian Architecture",
+			"History": "Persian structures were often made out of mud bricks or stone.",
+			"Description": "Economic structures +20% health."
+		},
+		{
+			"Name": "Persian Archers",
+			"History": "",
+			"Description": "Archers −20% training time."
 		}
   ],
   "TeamBonuses":
@@ -115,10 +120,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/pers/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/pers/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/pers/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/pers/infantry_archer",
-    "skirmish/structures/default_house_10" : "structures/{civ}/house"
+    "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true
 }

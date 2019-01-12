@@ -1,45 +1,45 @@
 {
-  "Code":"mace",
-  "Culture":"hele",
-  "Name":"Macedonians",
-  "Emblem":"session/portraits/emblems/emblem_macedonians.png",
-  "History":"Macedonia was an ancient Greek kingdom, centered in the northeastern part of the Greek peninsula. Under the leadership of Alexander the Great, Macedonian forces and allies took over most of the world they knew, including Egypt, Persia and parts of the Indian subcontinent, allowing a diffusion of Hellenic and eastern cultures for years to come.",
+  "Code": "mace",
+  "Culture": "hele",
+  "Name": "Macedonians",
+  "Emblem": "session/portraits/emblems/emblem_macedonians.png",
+  "History": "Macedonia was an ancient Greek kingdom, centered in the northeastern part of the Greek peninsula. Under the leadership of Alexander the Great, Macedonian forces and allies took over most of the world they knew, including Egypt, Persia and parts of the Indian subcontinent, allowing a diffusion of Hellenic and eastern cultures for years to come.",
   "Music":[
-      {"File":"Rise_of_Macedon.ogg", "Type":"peace"},
-      {"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
-      {"File":"Elysian_Fields.ogg", "Type":"peace"},
-      {"File":"The_Hellespont.ogg", "Type":"peace"}
+      {"File": "Rise_of_Macedon.ogg", "Type": "peace"},
+      {"File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace"},
+      {"File": "Elysian_Fields.ogg", "Type": "peace"},
+      {"File": "The_Hellespont.ogg", "Type": "peace"}
     ],
   "Factions":
   [
     {
-      "Name":"Macedonians",
-      "Description":"A Hellenistic kingdom bordering the Greek city-states.",
+      "Name": "Macedonians",
+      "Description": "A Hellenistic kingdom bordering the Greek city-states.",
       "Technologies":
       [
       ],
       "Heroes":
       [
         {
-          "Name":"Philip II of Macedon",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"The king of Macedonia (359-336 B.C.), he carried out vast monetary and military reforms in order to make his kingdom the most powerful force in the Greek world. Greatly enlarged the size of Macedonia by conquering much of Thrace and subduing the Greeks. Murdered in Aegae while planning a campaign against Persia."
+          "Name": "Philip II of Macedon",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "The king of Macedonia (359-336 B.C.), he carried out vast monetary and military reforms in order to make his kingdom the most powerful force in the Greek world. Greatly enlarged the size of Macedonia by conquering much of Thrace and subduing the Greeks. Murdered in Aegae while planning a campaign against Persia."
         },
         {
-          "Name":"Alexander the Great",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"The most powerful hero of them all - son of Philip II, king of Macedonia (336-323 B.C.). After conquering the rest of the Thracians and quelling the unrest of the Greeks, Alexander embarked on a world-conquest march. Defeating the Persian forces at Granicus (334 B.C.), Issus (333 B.C.) and Gaugamela (331 B.C.), he became master of the Persian Empire. Entering India, he defeated king Porus at Hydaspes (326 B.C.), but his weary troops made him halt. Died in Babylon at the age of 33 while planning a campaign against Arabia."
+          "Name": "Alexander the Great",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "The most powerful hero of them all - son of Philip II, king of Macedonia (336-323 B.C.). After conquering the rest of the Thracians and quelling the unrest of the Greeks, Alexander embarked on a world-conquest march. Defeating the Persian forces at Granicus (334 B.C.), Issus (333 B.C.) and Gaugamela (331 B.C.), he became master of the Persian Empire. Entering India, he defeated king Porus at Hydaspes (326 B.C.), but his weary troops made him halt. Died in Babylon at the age of 33 while planning a campaign against Arabia."
         },
         {
-          "Name":"Demetrius the Besieger",
-          "Class":"",
-          "Armament":"",
-          "Emblem":"",
-          "History":"One of the Diadochi, king of Macedonia (294-288 B.C.), Demetrius was renowned as one of the bravest and most able successors of Alexander. As the son of Antigonus I Monophthalmus, he fought and won many important battles early on and was proclaimed king, along with his father, in 306 B.C. Losing his Asian possessions after the battle of Ipsus, he later won the Macedonian throne. Fearing lest they should be overpowered by Demetrios, the other Diadochi united against him and defeated him."
+          "Name": "Demetrius the Besieger",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "One of the Diadochi, king of Macedonia (294-288 B.C.), Demetrius was renowned as one of the bravest and most able successors of Alexander. As the son of Antigonus I Monophthalmus, he fought and won many important battles early on and was proclaimed king, along with his father, in 306 B.C. Losing his Asian possessions after the battle of Ipsus, he later won the Macedonian throne. Fearing lest they should be overpowered by Demetrios, the other Diadochi united against him and defeated him."
         }
       ]
     }
@@ -47,9 +47,9 @@
   "CivBonuses":
   [
 		{
-			"Name":"Greek Architecture",
-			"History":"Greek structures were made out of wood, fired bricks, or stone.",
-			"Description":"Civic structures +20% health."
+			"Name": "Greek Architecture",
+			"History": "Greek structures were made out of wood, fired bricks, or stone.",
+			"Description": "Civic structures +20% health."
 		}
   ],
   "TeamBonuses":
@@ -117,7 +117,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry" : "units/mace/cavalry_spearman",
+    "skirmish/units/default_cavalry": "units/mace/cavalry_spearman",
     "skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman",
     "skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelinist",
     "skirmish/structures/default_house_10": "structures/{civ}/house"

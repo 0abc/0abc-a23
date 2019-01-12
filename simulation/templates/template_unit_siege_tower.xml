@@ -18,7 +18,7 @@
     <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>60</BuildTime>
+    <BuildTime>180</BuildTime>
     <Population>6</Population>
     <Resources>
       <food>200</food>

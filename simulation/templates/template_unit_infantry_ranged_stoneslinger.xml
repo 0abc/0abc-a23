@@ -8,6 +8,7 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime op="add">40</BuildTime>
     <Resources>
       <stone>10</stone>
       <wood>40</wood>

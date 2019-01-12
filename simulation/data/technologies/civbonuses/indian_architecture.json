@@ -1,7 +1,6 @@
 {
   "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
   "autoResearch": true,
-  "description": "Indian structures were typically made out of bamboo or wood.",
   "genericName": "Indian Architecture",
   "modifications": [
     {"value": "Cost/BuildTime",           "multiply": 0.7,  "affects": "StoneWall"},

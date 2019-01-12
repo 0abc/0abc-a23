@@ -1,7 +1,6 @@
 {
   "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
   "autoResearch": true,
-  "description": "Egyptian structures were often made of sun-dried mud bricks; wood and stone were scarce and expensive.",
   "genericName": "Egyptian Architecture",
   "modifications": [
     {"value": "Cost/BuildTime",           "multiply": 2.0,  "affects": "Economic"},

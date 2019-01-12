@@ -8,7 +8,7 @@
   </Armour>
   <Attack disable=""/>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>40</BuildTime>
     <Resources>
       <food>30</food>
       <metal>60</metal>

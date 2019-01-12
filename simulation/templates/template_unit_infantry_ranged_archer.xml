@@ -15,6 +15,7 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime op="add">30</BuildTime>
     <Resources>
       <metal>15</metal>
       <wood>35</wood>

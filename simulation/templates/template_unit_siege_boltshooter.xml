@@ -13,7 +13,7 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>80</BuildTime>
     <Population>4</Population>
     <Resources>
       <food>100</food>

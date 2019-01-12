@@ -32,7 +32,7 @@
     <MaxArrowCount>20</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime>75</BuildTime>
     <Resources>
       <food>400</food>
       <metal>200</metal>

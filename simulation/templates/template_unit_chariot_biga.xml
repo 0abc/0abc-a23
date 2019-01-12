@@ -7,10 +7,9 @@
     <Thrust>5</Thrust>
   </Armour>
   <Cost>
-    <BuildTime>40</BuildTime>
     <Population>4</Population>
     <Resources>
-      <food>150</food>
+      <food>180</food>
     </Resources>
   </Cost>
   <Health>

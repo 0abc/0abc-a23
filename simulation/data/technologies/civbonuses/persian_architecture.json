@@ -1,7 +1,6 @@
 {
   "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
   "autoResearch": true,
-  "description": "Persian structures were often made out of mud bricks or stone.",
   "genericName": "Persian Architecture",
   "modifications": [
     {"value": "Health/Max",               "multiply": 1.2,  "affects": "Economic"}

@@ -1,0 +1,10 @@
+{
+  "affects": ["Unit"],
+  "autoResearch": true,
+  "genericName": "Roman Engineers",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Siege"}
+  ],
+  "requirements": {"civ": "rome"},
+  "tooltip": "Roman siege weapons −20% construction time."
+}
