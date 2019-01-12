@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
   <Attack>
-    <Melee>
-      <Crush>1</Crush>
-      <Hack>1</Hack>
-      <MaxRange>2</MaxRange>
-      <Pierce>1</Pierce>
-      <PrepareTime>500</PrepareTime>
+    <Ranged>
+      <Crush>5</Crush>
+      <Delay>0</Delay>
+      <Gravity>9.81</Gravity>
+      <Hack>0</Hack>
+      <MaxRange>15</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Animal</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>30</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
-      <Thrust>1</Thrust>
-    </Melee>
+      <Spread>1.0</Spread>
+      <Thrust>0</Thrust>
+    </Ranged>
     <Slaughter>
       <Crush>0</Crush>
       <Hack>25</Hack>
