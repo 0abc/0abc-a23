@@ -344,7 +344,7 @@ function getCountersTooltip(template)
     if (!template.attack[attackType].bonuses)
       continue;
       
-    let string = headerFont(sprintf(translate("Counters %(attackType)s: "), {
+    let string = headerFont(sprintf(translate("%(attackType)s counters: "), {
       "attackType": translate(attackType)
     }));
     let bonusesBody = [];
