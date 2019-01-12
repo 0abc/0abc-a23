@@ -23,8 +23,6 @@
   </Cost>
   <Identity>
     <GenericName>Crossbowman</GenericName>
-    <Tooltip>Penalties: 0.75× vs Elephants.
-Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
   </Identity>
 </Entity>

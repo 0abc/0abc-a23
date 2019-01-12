@@ -17,7 +17,6 @@
   </Cost>
   <Identity>
     <GenericName>Camel Javelinist</GenericName>
-    <Tooltip>Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>
 </Entity>

@@ -19,8 +19,6 @@
   </Cost>
   <Identity>
     <GenericName>Camel Spearman</GenericName>
-    <Tooltip>Penalties: 0.5× vs Elephants.
-Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
 </Entity>

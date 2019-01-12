@@ -23,8 +23,6 @@
   </Cost>
   <Identity>
     <GenericName>Camel Archer</GenericName>
-    <Tooltip>Penalties: 0.5× vs Elephants.
-Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
 </Entity>

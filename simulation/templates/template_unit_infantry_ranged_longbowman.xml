@@ -23,8 +23,6 @@
   </Cost>
   <Identity>
     <GenericName>Longbowman</GenericName>
-    <Tooltip>Penalties: 0.5× vs Elephants.
-Can capture.</Tooltip>
     <VisibleClasses datatype="tokens">Longbowman</VisibleClasses>
   </Identity>
 </Entity>
