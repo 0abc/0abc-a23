@@ -89,15 +89,9 @@ Silver:
 * Fortress: −2.0 silver per 30 seconds
 * Triaconters: −3.0 silver per 30 seconds
 * Penteconters: −6.0 silver per 30 seconds
-* Biremes: −12.0 silver per 30 seconds
 * Triremes: −18.0 silver per 30 seconds
 * Quadriremes: −24.0 silver per 30 seconds
 * Quinqueremes: −30.0 silver per 30 seconds
-* Sexiremes: −36.0 silver per 30 seconds
-* Septiremes: −42.0 silver per 30 seconds
-* Octoremes: −48.0 silver per 30 seconds
-* Noviremes: −54.0 silver per 30 seconds
-* Deceremes: −60.0 silver per 30 seconds
 
 Wood:
 * Military structures: −1.0 wood per 30 seconds
