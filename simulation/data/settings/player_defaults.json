@@ -12,7 +12,7 @@
     {
       "Name": "Player 1",
       "Civ": "athen",
-      "Color": { "r": 255, "g": 64, "b": 64 },
+      "Color": { "r": 255, "g": 0, "b": 0 },
       "AI": "",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -20,7 +20,7 @@
     {
       "Name": "Player 2",
       "Civ": "cart",
-      "Color": { "r": 64, "g": 64, "b": 255 },
+      "Color": { "r": 0, "g": 51, "b": 255 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -28,7 +28,7 @@
     {
       "Name": "Player 3",
       "Civ": "gaul",
-      "Color": { "r": 64 , "g": 255, "b": 64 },
+      "Color": { "r": 128 , "g": 255, "b": 0 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -36,7 +36,7 @@
     {
       "Name": "Player 4",
       "Civ": "kush",
-      "Color": { "r": 192, "g": 192, "b": 0 },
+      "Color": { "r": 255, "g": 0, "b": 204 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -44,7 +44,7 @@
     {
       "Name": "Player 5",
       "Civ": "mace",
-      "Color": { "r": 0, "g": 192, "b": 192 },
+      "Color": { "r": 0, "g": 255, "b": 255 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -52,7 +52,7 @@
     {
       "Name": "Player 6",
       "Civ": "maur",
-      "Color": { "r": 255, "g": 128, "b": 0 },
+      "Color": { "r": 255, "g": 204, "b": 0 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -60,7 +60,7 @@
     {
       "Name": "Player 7",
       "Civ": "pers",
-      "Color": { "r": 0, "g": 128, "b": 255 },
+      "Color": { "r": 128, "g": 0, "b": 255 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
@@ -68,7 +68,7 @@
     {
       "Name": "Player 8",
       "Civ": "rome",
-      "Color": { "r": 128, "g": 0, "b": 255 },
+      "Color": { "r": 0, "g": 255, "b": 51 },
       "AI": "petra",
       "AIDiff": 3,
       "AIBehavior": "random"
