@@ -35,6 +35,14 @@ Changes include, but are not limited to:
 * all civilization bonuses and penalties are replaced with new ones
 * numerous minor tweaks and balances, most of which will probably go unnoticed
 
+### AI
+The AI no longer gets a resource stockpiling bonus or penalty, but the difficulty level determines how much time it takes to train units, build structures, or research technologies:
+* Very Hard: 50%
+* Hardest: 71%
+* Medium: 100%
+* Easy: 141%
+* Very Easy: 200%
+
 ### Structures
 * economic structures can be constructed in neutral territory
 * dropsites are just that: dropsites; all economic technologies are moved to the market, which is now available in the village phase
