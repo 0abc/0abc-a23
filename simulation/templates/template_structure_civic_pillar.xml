@@ -23,7 +23,6 @@
   <Identity>
     <GenericName>Monumental Pillar</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
   </Identity>
   <Loot>
@@ -40,7 +39,5 @@
       <select>interface/select/building/sel_iber_monument.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>true</Root>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
 </Entity>
