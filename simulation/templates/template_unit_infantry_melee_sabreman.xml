@@ -5,12 +5,6 @@
       <Hack>6</Hack>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>20</metal>
-      <wood>30</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Sabreman</GenericName>
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>

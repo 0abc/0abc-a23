@@ -120,7 +120,7 @@
   {
     "skirmish/units/default_cavalry": "units/kush/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/kush/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/kush/infantry_archer",
+    "skirmish/units/default_infantry_ranged_b": "units/kush/infantry_longbowman",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

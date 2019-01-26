@@ -6,7 +6,9 @@
 * https://github.com/0abc/0abc-a23#overview
 * https://github.com/0abc/0abc-a23#structures
 * https://github.com/0abc/0abc-a23#units
-* https://github.com/0abc/0abc-a23#population-costs
+* https://github.com/0abc/0abc-a23#costs
+* https://github.com/0abc/0abc-a23#population
+* https://github.com/0abc/0abc-a23#recruitment
 * https://github.com/0abc/0abc-a23#upkeep-and-income
 * https://github.com/0abc/0abc-a23#unit-counters
 * https://github.com/0abc/0abc-a23#civilization-bonuses
@@ -64,7 +66,8 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * all factions can construct rams (town)
 * dogs, heroes, and ships require 0 population; support and infantry 1; camelry and cavalry 2; biga chariots and siege engines 4; quadriga chariots, war elephants, and siege towers 6
 
-## Population costs
+## Costs
+### Population
 * 0: fauna, catafalques, heroes, ships
 * 1: infantry, women, healers, traders
 * 2: camelry, cavalry
@@ -73,7 +76,17 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * 5: –
 * 6: quadrigae, war elephants, siege towers
 
-## Upkeep and income
+### Recruitment
+* Infantry: 30 food, 30 silver (mercenary 0 and 60)
+* Camelry: 75 food, 50 silver (mercenary 0 and 75)
+* Cavalry: 90 food, 60 silver (mercenary 0 and 90)
+* Bigae: 180 food, 120 silver (mercenary 0 and 180)
+* Quadrigae: 300 food, 180 silver (mercenary 0 and 240)
+* Elephantry: 300 food, 300 silver (mercenary 0 and 360)
+
+**NB**: champions cost +100% silver
+
+### Upkeep and income
 Food:
 * Healers, Slaves, Women: −0.02 food per second
 * Infantry: −0.02 food per second

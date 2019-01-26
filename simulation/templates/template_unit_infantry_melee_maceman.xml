@@ -5,12 +5,6 @@
       <Crush>6</Crush>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>35</metal>
-      <wood>15</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Maceman</GenericName>
     <VisibleClasses datatype="tokens">Maceman</VisibleClasses>

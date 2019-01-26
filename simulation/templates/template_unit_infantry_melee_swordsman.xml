@@ -6,12 +6,6 @@
       <Thrust>3</Thrust>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>25</metal>
-      <wood>25</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <Formations datatype="tokens">
       special/formations/testudo

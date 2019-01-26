@@ -14,21 +14,10 @@
     {"value": "Attack/Ranged/Hack",           "multiply": 2.0, "affects": "Ranged"           },
     {"value": "Attack/Ranged/Pierce",         "multiply": 2.0, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",               "multiply": 2.0                                },
-    {"value": "Cost/Resources/metal",         "add":      50,  "affects": "Infantry"         },
-    {"value": "Cost/Resources/metal",         "add":      60,  "affects": "Camel"            },
-    {"value": "Cost/Resources/metal",         "add":      70,  "affects": "Cavalry"          },
-    {"value": "Cost/Resources/metal",         "add":      100, "affects": "Biga"             },
-    {"value": "Cost/Resources/metal",         "add":      120, "affects": "Quadriga"         },
-    {"value": "Cost/Resources/metal",         "add":      150, "affects": "Elephant"         },
-    {"value": "Cost/Resources/wood",          "add":      25,  "affects": "Infantry"         },
-    {"value": "Cost/Resources/wood",          "add":      30,  "affects": "Camel"            },
-    {"value": "Cost/Resources/wood",          "add":      35,  "affects": "Cavalry"          },
-    {"value": "Cost/Resources/wood",          "add":      50,  "affects": "Biga"             },
-    {"value": "Cost/Resources/wood",          "add":      60,  "affects": "Quadriga"         },
-    {"value": "Cost/Resources/wood",          "add":      75,  "affects": "Elephant"         },
+    {"value": "Cost/Resources/silver",        "multiply": 2.0                                },
     {"value": "Health/Max",                   "multiply": 1.5                                },
     {"value": "Loot/xp",                      "multiply": 3.0                                },
     {"value": "Promotion/RequiredXp",         "multiply": 2.0                                }
   ],
-  "tooltip": "Champion units have +50% health, +3 crush, hack, and pierce armour, +100% capture attack strength, +100% melee and ranged attack crush, hack, and pierce damage, but also +100% training time, increased metal and wood costs, and +100% experience required to promote to the next rank."
+  "tooltip": "Champion units have +50% health, +3 crush, hack, and pierce armour, +100% capture attack strength, +100% melee and ranged attack crush, hack, and pierce damage, but also +100% training time, +100% silver cost, and +100% experience required to promote to the next rank."
 }

@@ -5,7 +5,7 @@
     <GenericName>Romanized Heavy Swordsman</GenericName>
     <Icon>units/sele_champion_swordsman.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_swordsman</SelectionGroupName>
     <SpecificName>Θορακιτής Ῥωμαικός</SpecificName>
   </Identity>

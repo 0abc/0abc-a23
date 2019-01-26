@@ -6,12 +6,6 @@
       <Thrust>2</Thrust>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>30</metal>
-      <wood>20</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Longswordsman</GenericName>
     <VisibleClasses datatype="tokens">Longswordsman</VisibleClasses>

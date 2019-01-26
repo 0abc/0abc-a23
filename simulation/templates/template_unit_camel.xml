@@ -13,6 +13,7 @@
     <Population>2</Population>
     <Resources>
       <food>75</food>
+      <silver>50</silver>
     </Resources>
   </Cost>
   <Footprint replace="">

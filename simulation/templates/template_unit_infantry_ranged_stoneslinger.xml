@@ -9,10 +9,6 @@
   </Attack>
   <Cost>
     <BuildTime op="add">40</BuildTime>
-    <Resources>
-      <stone>10</stone>
-      <wood>40</wood>
-    </Resources>
   </Cost>
   <Identity>
     <GenericName>Stone Slinger</GenericName>

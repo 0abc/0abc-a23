@@ -5,7 +5,7 @@
     <GenericName>Bronze Shield Pikeman</GenericName>
     <Icon>units/sele_infantry_spearman.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_pikeman</SelectionGroupName>
     <SpecificName>Χαλκάσπις</SpecificName>
   </Identity>

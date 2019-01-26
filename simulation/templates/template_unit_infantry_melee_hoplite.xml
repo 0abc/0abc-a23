@@ -6,12 +6,6 @@
       <Thrust>5</Thrust>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>40</metal>
-      <wood>10</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <Formations datatype="tokens">
       special/formations/phalanx

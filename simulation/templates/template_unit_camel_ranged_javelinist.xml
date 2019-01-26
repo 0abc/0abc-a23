@@ -10,10 +10,6 @@
   </Attack>
   <Cost>
     <BuildTime op="add">15</BuildTime>
-    <Resources>
-      <metal>5</metal>
-      <wood>35</wood>
-    </Resources>
   </Cost>
   <Identity>
     <GenericName>Camel Javelinist</GenericName>

@@ -11,12 +11,6 @@
       <Thrust>8</Thrust>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>15</metal>
-      <wood>25</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Camel Spearman</GenericName>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>

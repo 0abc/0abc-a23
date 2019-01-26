@@ -21,7 +21,7 @@
     {"value": "Cost/Resources/silver",        "replace":  90,  "affects": "Cavalry"          },
     {"value": "Cost/Resources/silver",        "replace":  180, "affects": "Biga"             },
     {"value": "Cost/Resources/silver",        "replace":  240, "affects": "Quadriga"         },
-    {"value": "Cost/Resources/silver",        "replace":  300, "affects": "Elephant"         },
+    {"value": "Cost/Resources/silver",        "replace":  360, "affects": "Elephant"         },
     {"value": "Cost/Resources/stone",         "replace":  0                                  },
     {"value": "Cost/Resources/wood",          "replace":  0                                  },
     {"value": "Health/Max",                   "multiply": 1.1                                }

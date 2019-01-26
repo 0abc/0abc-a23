@@ -16,10 +16,6 @@
   </Attack>
   <Cost>
     <BuildTime op="add">30</BuildTime>
-    <Resources>
-      <metal>10</metal>
-      <wood>30</wood>
-    </Resources>
   </Cost>
   <Identity>
     <GenericName>Camel Archer</GenericName>

@@ -10,6 +10,7 @@
     <Population>6</Population>
     <Resources>
       <food>300</food>
+      <silver>180</silver>
     </Resources>
   </Cost>
   <Health>

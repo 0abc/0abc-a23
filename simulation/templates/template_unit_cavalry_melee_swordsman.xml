@@ -6,12 +6,6 @@
       <Thrust>2</Thrust>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>35</metal>
-      <wood>15</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Cavalry Swordsman</GenericName>
     <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>

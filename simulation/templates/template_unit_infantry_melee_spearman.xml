@@ -5,12 +5,6 @@
       <Thrust>6</Thrust>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>10</metal>
-      <wood>40</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Spearman</GenericName>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>

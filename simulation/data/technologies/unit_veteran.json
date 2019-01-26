@@ -14,21 +14,10 @@
     {"value": "Attack/Ranged/Hack",           "multiply": 1.5, "affects": "Ranged"           },
     {"value": "Attack/Ranged/Pierce",         "multiply": 1.5, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",               "multiply": 1.5                                },
-    {"value": "Cost/Resources/metal",         "add":      30,  "affects": "Infantry"         },
-    {"value": "Cost/Resources/metal",         "add":      40,  "affects": "Camel"            },
-    {"value": "Cost/Resources/metal",         "add":      50,  "affects": "Cavalry"          },
-    {"value": "Cost/Resources/metal",         "add":      70,  "affects": "Biga"             },
-    {"value": "Cost/Resources/metal",         "add":      80,  "affects": "Quadriga"         },
-    {"value": "Cost/Resources/metal",         "add":      100, "affects": "Elephant"         },
-    {"value": "Cost/Resources/wood",          "add":      15,  "affects": "Infantry"         },
-    {"value": "Cost/Resources/wood",          "add":      20,  "affects": "Camel"            },
-    {"value": "Cost/Resources/wood",          "add":      25,  "affects": "Cavalry"          },
-    {"value": "Cost/Resources/wood",          "add":      35,  "affects": "Biga"             },
-    {"value": "Cost/Resources/wood",          "add":      40,  "affects": "Quadriga"         },
-    {"value": "Cost/Resources/wood",          "add":      50,  "affects": "Elephant"         },
+    {"value": "Cost/Resources/silver",        "multiply": 1.5                                },
     {"value": "Health/Max",                   "multiply": 1.2                                },
     {"value": "Loot/xp",                      "multiply": 2.0                                },
     {"value": "Promotion/RequiredXp",         "multiply": 1.5                                }
   ],
-  "tooltip": "Veteran units have +2 crush, hack, and pierce armour, +50% capture attack strength, +50% melee and ranged attack crush, hack, and pierce damage, but also +50% training time, increased metal and wood costs, and +50% experience required to promote to the next rank."
+  "tooltip": "Veteran units have +2 crush, hack, and pierce armour, +50% capture attack strength, +50% melee and ranged attack crush, hack, and pierce damage, but also +50% training time, +50% silver cost, and +50% experience required to promote to the next rank."
 }

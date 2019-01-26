@@ -6,12 +6,6 @@
       <Hack>4</Hack>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>15</metal>
-      <wood>35</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Axeman</GenericName>
     <VisibleClasses datatype="tokens">Axeman</VisibleClasses>
