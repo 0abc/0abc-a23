@@ -50,9 +50,6 @@
     <Root>false</Root>
     <Weight>65535</Weight>
   </TerritoryInfluence>
-  <TerritoryDecay>
-    <DecayRate>5.0</DecayRate>
-  </TerritoryDecay>
   <Vision>
     <Range>30</Range>
   </Vision>

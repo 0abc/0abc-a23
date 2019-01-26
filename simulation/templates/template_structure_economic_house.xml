@@ -48,7 +48,4 @@
   <StatusBars>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <DecayRate>10</DecayRate>
-  </TerritoryDecay>
 </Entity>

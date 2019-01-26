@@ -154,7 +154,7 @@
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <TerritoryDecay>
-    <DecayRate>20</DecayRate>
+    <DecayRate>5</DecayRate>
   </TerritoryDecay>
   <Visibility>
     <AlwaysVisible>false</AlwaysVisible>

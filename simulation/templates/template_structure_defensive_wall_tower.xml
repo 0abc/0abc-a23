@@ -71,9 +71,6 @@
   <StatusBars>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <DecayRate>5.0</DecayRate>
-  </TerritoryDecay>
   <Vision>
     <Range>60</Range>
   </Vision>

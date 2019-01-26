@@ -36,10 +36,6 @@
   <StatusBars>
     <HeightOffset>9.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <DecayRate>5.0</DecayRate>
-  </TerritoryDecay>
-  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>10</Range>
   </Vision>
