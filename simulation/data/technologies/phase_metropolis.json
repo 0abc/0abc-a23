@@ -13,7 +13,6 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
-  "requirements": {"all": [{"entity": {"class": "Centre", "number": 1}}, {"any": [{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]}]},
   "researchTime": 180,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_city",
