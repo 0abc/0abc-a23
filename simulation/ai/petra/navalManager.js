@@ -1,15 +1,15 @@
 var PETRA = function(m)
 {
 
-/**
- * Naval Manager
- * Will deal with anything ships.
- * -Basically trade over water (with fleets and goals commissioned by the economy manager)
- * -Defense over water (commissioned by the defense manager)
- * -Transport of units over water (a few units).
- * -Scouting, ultimately.
- * Also deals with handling docks, making sure we have access and stuffs like that.
- */
+/*
+ Naval Manager
+ Will deal with anything ships.
+ * Basically trade over water (with fleets and goals commissioned by the economy manager)
+ * Defence over water (commissioned by the defense manager)
+ * Transport of units over water (a few units).
+ * Scouting, ultimately.
+ Also deals with handling docks, making sure we have access and stuffs like that.
+*/
 
 m.NavalManager = function(Config)
 {
@@ -775,6 +775,8 @@ m.NavalManager.prototype.getBestShip = function(gameState, sea, goal)
   let trainableShips = [];
   gameState.getOwnTrainingFacilities().filter(API3.Filters.byMetadata(PlayerID, "sea", sea)).forEach(function(ent) {
     let trainables = ent.trainableEntities(civ);
+    if (!trainables)
+      return;
     for (let trainable of trainables)
     {
       if (gameState.isTemplateDisabled(trainable))
