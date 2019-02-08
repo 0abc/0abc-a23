@@ -1,16 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
-  <Identity>
-    <Civ>spart</Civ>
-    <GenericName>Skiritai Commando</GenericName>
-    <Icon>units/spart_champion_infantry_sword.png</Icon>
-    <Lang>greek</Lang>
-    <Rank>Elite</Rank>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <SpecificName>Ékdromos Skirítēs</SpecificName>
-  </Identity>
-  <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/spartans/infantry_swordsman_c.xml</Actor>
-  </VisualActor>
-</Entity>
+<Entity parent="units/spart/infantry_swordsman"/>

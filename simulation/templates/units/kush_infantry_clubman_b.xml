@@ -1,24 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
-  <Identity>
-    <Civ>kush</Civ>
-    <SelectionGroupName>units/kush_infantry_clubman_b</SelectionGroupName>
-    <GenericName>Nuba Clubman</GenericName>
-    <SpecificName>nhw Noba</SpecificName>
-    <Icon>units/kush_infantry_clubman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
-  </Identity>
-  <Promotion>
-    <Entity>units/kush_infantry_clubman_a</Entity>
-  </Promotion>
-  <UnitMotion>
-    <WalkSpeed op="mul">1.1</WalkSpeed>
-    <Run>
-      <Speed op="mul">1.1</Speed>
-    </Run>
-  </UnitMotion>
-  <VisualActor>
-    <Actor>units/kushites/infantry_clubman_b.xml</Actor>
-  </VisualActor>
-</Entity>
+<Entity parent="units/kush/infantry_maceman"/>

@@ -31,6 +31,7 @@
       <Left width="2" depth="2" x="-6" z="0"/>
       <Right width="2" depth="2" x="6" z="0"/>
     </Obstructions>
+    <Static disable=""/>
   </Obstruction>
   <VisualActor>
     <Actor>props/special/palisade_rocks_gate.xml</Actor>

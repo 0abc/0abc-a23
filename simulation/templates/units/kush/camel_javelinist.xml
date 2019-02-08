@@ -9,6 +9,6 @@
     <SpecificName>nhw Bulahau gml</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/kushites/camelry_javelinist_a_m.xml</Actor>
+    <Actor>units/kushites/camelry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

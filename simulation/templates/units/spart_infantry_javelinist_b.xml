@@ -1,17 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelinist">
-  <Identity>
-    <Civ>spart</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/spart_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Helot Skirmisher</GenericName>
-    <SpecificName>Akontistḗs Heílōs</SpecificName>
-    <Icon>units/spart_infantry_javelinist.png</Icon>
-  </Identity>
-  <Promotion>
-    <Entity>units/spart_infantry_javelinist_a</Entity>
-  </Promotion>
-  <VisualActor>
-    <Actor>units/spartans/infantry_javelinist_b.xml</Actor>
-  </VisualActor>
-</Entity>
+<Entity parent="units/spart/infantry_javelinist"/>

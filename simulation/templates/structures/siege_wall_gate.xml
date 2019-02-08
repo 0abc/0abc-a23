@@ -33,6 +33,7 @@
       <Left width="13" depth="5" x="-12" z="0"/>
       <Right width="13" depth="5" x="12" z="0"/>
     </Obstructions>
+    <Static disable=""/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/siege_wall_gate.xml</Actor>
