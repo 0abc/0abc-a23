@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_crossbowman">
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>mace</Civ>
     <GenericName>Gastraphetes</GenericName>
     <Icon>units/athen_champion_ranged.png</Icon>
     <Lang>greek</Lang>

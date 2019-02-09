@@ -37,8 +37,6 @@
   </Market>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      speed_trader
-      armour_trader
       gather_capacity_1
       gather_capacity_2
       gather_capacity_3

@@ -39,6 +39,15 @@
     </Entities>
     <Technologies datatype="tokens">
       training_cavalry_stables
+      armour_cavalry_1
+      armour_cavalry_2
+      armour_cavalry_3
+      attack_cavalry_melee_1
+      attack_cavalry_melee_2
+      attack_cavalry_melee_3
+      attack_cavalry_ranged_1
+      attack_cavalry_ranged_2
+      attack_cavalry_ranged_3
       speed_horse_1
       speed_horse_2
       speed_horse_3
