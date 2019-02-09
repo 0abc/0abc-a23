@@ -1,6 +1,6 @@
 {
   "affects": ["FemaleCitizen"],
-  "cost": { "food": 300, "wood": 100, "stone": 0, "metal": 100 },
+  "cost": {"food": 300, "wood": 100, "stone": 0, "metal": 100},
   "description": "A festival attended by women-only, to celebrate female fertility.",
   "genericName": "Fertility Festival",
   "icon": "wives_festival.png",

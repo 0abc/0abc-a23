@@ -1,5 +1,5 @@
 {
-  "cost": { "silver": 500, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
+  "cost": {"silver": 500, "food": 0, "wood": 0, "stone": 0, "metal": 0},
   "description": "The extension of trade leads to the permanent establishment of storekeepers and their families in foreign countries, allowing them to exploit the wealth of these countries.",
   "genericName": "Diaspora",
   "icon": "diaspora.png",

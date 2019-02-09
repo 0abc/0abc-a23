@@ -10,7 +10,10 @@
     {"value": "Health/Max",               "multiply": 1.2                     },
     {"value": "Loot/xp",                  "multiply": 1.2, "affects": "Centre"}
   ],
-  "requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
+  "requirements": {"all": [
+    {"tech": "phase_village"}, 
+    {"civ": "pers"}
+  ]},
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

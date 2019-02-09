@@ -1,5 +1,5 @@
 {
-  "cost": {"food": 1500, "wood": 1500, "stone": 0, "metal": 1500},
+  "cost": {"silver": 3000, "food": 0, "wood": 0, "stone": 0, "metal": 0},
   "description": "The will to fight is crucial to victory.",
   "genericName": "Will to fight",
   "icon": "coinage.png",

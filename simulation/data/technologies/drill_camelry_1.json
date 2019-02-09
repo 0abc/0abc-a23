@@ -7,7 +7,10 @@
   "modifications": [
     {"value": "Promotion/RequiredXp", "replace": 0}
   ],
-  "requirements": { "all": [{ "tech": "phase_village" }, { "any": [{ "civ": "ptol" }] }] },
+  "requirements": {"all": [
+    {"tech": "phase_village"},
+    {"any": [{"civ": "ptol"}]}
+  ]},
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

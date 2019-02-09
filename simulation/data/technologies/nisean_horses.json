@@ -7,7 +7,10 @@
   "modifications": [
     {"value": "Health/Max", "multiply": 1.2}
   ],
-  "requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "pers"}, {"civ": "sele"}]}]},
+  "requirements": {"all": [
+    {"tech": "phase_city"},
+    {"any": [{"civ": "pers"}, {"civ": "sele"}]}
+  ]},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

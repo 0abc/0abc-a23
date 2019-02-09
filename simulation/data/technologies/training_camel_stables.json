@@ -1,6 +1,6 @@
 {
   "affects": ["CamelStables"],
-  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
+  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
   "description": "Significantly increase training speed of soldiers at the camel stables by training them in large batches or squadrons.",
   "genericName": "Mass Training",
   "icon": "armor_corinthian.png",

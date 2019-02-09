@@ -7,7 +7,10 @@
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.7}
   ],
-  "requirements": {"all": [{"tech": "phase_town"}, {"any": [{"civ": "athen"}, {"civ": "cart"}, {"civ": "spart"}]}]},
+  "requirements": {"all": [
+    {"tech": "phase_town"},
+    {"any": [{"civ": "athen"}, {"civ": "cart"}, {"civ": "gree"}, {"civ": "spart"}]}
+  ]},
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

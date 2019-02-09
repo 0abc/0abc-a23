@@ -1,6 +1,6 @@
 {
   "affects": ["FemaleCitizen"],
-  "cost": {"food": 100, "wood": 100, "stone": 0, "metal": 0},
+  "cost": {"food": 0, "wood": 200, "stone": 0, "metal": 100},
   "description": "The loom allowed the creation of finer clothing for settlers. Women of the household were taught from a young age how to weave on the loom, and subsequently spent a large share of their lives working with it.",
   "genericName": "The Loom",
   "icon": "loom.png",

@@ -1,6 +1,6 @@
 {
   "affects": ["Ram"],
-  "cost": { "food": 0, "wood": 1000, "stone": 0, "metal": 500 },
+  "cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 500},
   "description": "Advanced technologies improve siege efficiency",
   "genericName": "Advanced Siege",
   "icon": "siege_ram.png",

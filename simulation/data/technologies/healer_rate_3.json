@@ -1,6 +1,6 @@
 {
   "affects": ["Healer"],
-  "cost": {"food": 900, "wood": 0, "stone": 0, "metal": 450},
+  "cost": {"silver": 900, "food": 0, "wood": 0, "stone": 0, "metal": 0},
   "description": "Increases the healing rate of all healers.",
   "genericName": "Expert Healing Rate",
   "icon": "healing_rate.png",

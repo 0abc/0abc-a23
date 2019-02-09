@@ -7,7 +7,10 @@
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.8}
   ],
-  "requirements": {"all": [{"tech": "phase_metropolis"}, {"civ": "sele"}]},
+  "requirements": {"all": [
+    {"tech": "phase_metropolis"}, 
+    {"civ": "sele"}
+  ]},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

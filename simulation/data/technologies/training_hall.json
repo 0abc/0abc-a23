@@ -1,6 +1,6 @@
 {
   "affects": ["Hall"],
-  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
+  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
   "description": "Significantly increase training speed of soldiers at the military hall by training them in large batches or battalions.",
   "genericName": "Mass Training",
   "icon": "laurel_wreath.png",

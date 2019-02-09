@@ -1,6 +1,6 @@
 {
   "affects": ["Siege"],
-  "cost": { "food": 500, "wood": 0, "stone": 250, "metal": 500 },
+  "cost": {"food": 500, "wood": 0, "stone": 250, "metal": 500},
   "description": "Siege weapons cost less wood",
   "genericName": "Artillery Instructors",
   "icon": "anvil.png",

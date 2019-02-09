@@ -7,7 +7,10 @@
   "modifications": [
     {"value": "Promotion/RequiredXp", "replace": 0}
   ],
-  "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "ptol" }] }] },
+  "requirements": {"all": [
+    {"tech": "phase_city"},
+    {"any": [{"civ": "ptol"}]}
+  ]},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

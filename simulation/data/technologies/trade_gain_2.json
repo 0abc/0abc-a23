@@ -1,6 +1,6 @@
 {
   "affects": ["Trader"],
-  "cost": {"food": 200, "wood": 200, "stone": 0, "metal": 200},
+  "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
   "description": "The progress in handicraft improves the trading profit.",
   "genericName": "Improved Handicraft",
   "icon": "amphore.png",

@@ -7,7 +7,10 @@
   "modifications": [
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
   ],
-  "requirements": {"all": [{"tech": "phase_town"}, {"any": [{"civ": "mace"}, {"civ": "rome"}]}]},
+  "requirements": {"all": [
+    {"tech": "phase_town"},
+    {"any": [{"civ": "mace"}, {"civ": "rome"}]}
+  ]},
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

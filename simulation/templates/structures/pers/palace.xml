@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure">
   <BuildRestrictions>
     <Category>Apadana</Category>
   </BuildRestrictions>
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>
-      <food>0</food>
-      <wood>0</wood>
-      <stone>300</stone>
+      <food>200</food>
+      <wood>200</wood>
+      <stone>400</stone>
       <metal>200</metal>
     </Resources>
   </Cost>
@@ -25,11 +25,11 @@
   </Health>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Persian Palace</GenericName>
+    <GenericName>Palace</GenericName>
     <SpecificName>Apadana</SpecificName>
     <Classes datatype="tokens">Palace Apadana</Classes>
     <Icon>structures/palace.png</Icon>
-    <Tooltip>"Satrapy Tribute": Gain a trickle of food, wood, stone, and metal resources. Train Persian heroes and their "Immortals" bodyguards.</Tooltip>
+    <Tooltip>"Satrapy Tribute": Gain a trickle of food, wood, stone, and metal resources.</Tooltip>
   </Identity>
   <Loot>
     <wood>0</wood>
@@ -39,23 +39,15 @@
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_champion_infantry
-    </Entities>
-    <Technologies datatype="tokens">
-      persians/immortals
-    </Technologies>
-  </ProductionQueue>
   <ResourceTrickle>
     <Rates>
       <food>1.0</food>
+      <metal>1.0</metal>
+      <silver>1.0</silver>
+      <stone>1.0</stone>
       <wood>1.0</wood>
-      <stone>0.75</stone>
-      <metal>0.75</metal>
     </Rates>
-    <Interval>1000</Interval>
+    <Interval>2000</Interval>
   </ResourceTrickle>
   <TerritoryInfluence>
     <Root>true</Root>
