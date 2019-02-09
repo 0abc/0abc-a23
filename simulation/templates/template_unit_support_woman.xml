@@ -24,9 +24,6 @@
       <Thrust>0</Thrust>
     </Slaughter>
   </Attack>
-  <Auras datatype="tokens">
-    units/woman_inspiration
-  </Auras>
   <Cost>
     <Resources>
       <food>30</food>
