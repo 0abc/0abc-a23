@@ -1,6 +1,6 @@
 {
   "affects": ["House"],
-  "cost": {"food": 0, "wood": 200, "stone": 200, "metal": 0},
+  "cost": {"food": 0, "wood": 400, "stone": 200, "metal": 0},
   "description": "Home gardens ranged from simple fenced-in areas to large manicured and colonnaded enclosures.",
   "genericName": "Home Garden",
   "icon": "population.png",

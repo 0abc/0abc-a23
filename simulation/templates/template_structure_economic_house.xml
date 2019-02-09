@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
+  <BuildRestrictions>
+    <Distance disable=""/>
+    <Territory>own</Territory>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>200</CapturePoints>
   </Capturable>
@@ -7,7 +11,7 @@
     <BuildTime>25</BuildTime>
     <PopulationBonus>5</PopulationBonus>
     <Resources>
-      <wood>75</wood>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -23,7 +27,7 @@
     <VisibleClasses datatype="tokens">House</VisibleClasses>
   </Identity>
   <Loot>
-    <wood>15</wood>
+    <wood>20</wood>
   </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">

@@ -1,6 +1,6 @@
 {
   "affects": ["House"],
-  "cost": {"food": 0, "wood": 300, "stone": 300, "metal": 0},
+  "cost": {"food": 0, "wood": 600, "stone": 300, "metal": 0},
   "description": "Homes tended to expand as the wealth and population of a settlement grew.",
   "genericName": "Manors",
   "icon": "population.png",

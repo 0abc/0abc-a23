@@ -1,6 +1,6 @@
 {
   "affects": ["House"],
-  "cost": {"food": 0, "wood": 400, "stone": 400, "metal": 0},
+  "cost": {"food": 0, "wood": 800, "stone": 400, "metal": 0},
   "description": "Homes tended to expand as the wealth and population of a settlement grew.",
   "genericName": "Apartment Blocks",
   "icon": "population.png",

@@ -1,6 +1,6 @@
 {
   "affects": ["House"],
-  "cost": {"food": 0, "wood": 100, "stone": 100, "metal": 0},
+  "cost": {"food": 0, "wood": 200, "stone": 100, "metal": 0},
   "description": "Houses could expand by constructing an extra room.",
   "genericName": "Extra room",
   "icon": "population.png",
