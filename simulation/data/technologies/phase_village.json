@@ -6,9 +6,9 @@
   "modifications": [
     {"value": "Cost/BuildTime",               "multiply": 1.2},
     {"value": "Health/Max",                   "multiply": 1.2},
-    {"value": "Cost/Resources/wood",          "add":      300},
+    {"value": "Cost/Resources/food",          "add":      300},
+    {"value": "Loot/food",                    "add":       60},
     {"value": "Loot/silver",                  "add":       30},
-    {"value": "Loot/wood",                    "add":       60},
     {"value": "Loot/xp",                      "multiply": 1.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}

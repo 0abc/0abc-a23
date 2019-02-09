@@ -1,15 +1,15 @@
 {
   "affects": ["Centre"],
-  "cost": { "food": 800, "wood": 800, "stone": 400, "metal": 400 },
+  "cost": { "food": 0, "wood": 800, "stone": 800, "metal": 800 },
   "description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
   "genericName": "City Phase",
   "icon": "city_phase.png",
   "modifications": [
     {"value": "Cost/BuildTime",               "multiply": 1.2},
+    {"value": "Cost/Resources/stone",         "add":      300},
     {"value": "Health/Max",                   "multiply": 1.2},
-    {"value": "Cost/Resources/metal",         "add":      300},
-    {"value": "Loot/metal",                   "add":       60},
     {"value": "Loot/silver",                  "add":       30},
+    {"value": "Loot/stone",                   "add":       60},
     {"value": "Loot/xp",                      "multiply": 1.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}

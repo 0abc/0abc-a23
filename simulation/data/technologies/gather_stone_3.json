@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 500, "wood": 500, "stone": 0, "metal": 200},
+  "cost": {"food": 0, "wood": 900, "stone": 0, "metal": 600},
   "description": "Buy slaves to help your workers quarry stone. Increases stone gathering rates.",
   "genericName": "Slaves",
   "icon": "mining_stone.png",

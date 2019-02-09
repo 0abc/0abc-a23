@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 250, "wood": 250, "stone": 0, "metal": 100},
+  "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
   "description": "Compel serfs to help your workers quarry stone. Increases stone gathering rates.",
   "genericName": "Serfs",
   "icon": "mining_stone.png",

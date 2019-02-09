@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 0, "wood": 400, "stone": 0, "metal": 200},
+  "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
   "description": "Extra nutrients for farms.",
   "genericName": "Fertilizer",
   "icon": "crop_rotation.png",

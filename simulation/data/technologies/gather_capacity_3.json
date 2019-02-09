@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 1000, "wood": 1000, "stone": 0, "metal": 0},
+  "cost": {"food": 0, "wood": 900, "stone": 0, "metal": 600},
   "description": "Use horse-drawn carts. Increases shuttling capacity for all resources.",
   "genericName": "Horse-drawn Carts",
   "icon": "handcart_empty.png",

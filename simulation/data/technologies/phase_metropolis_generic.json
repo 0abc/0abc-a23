@@ -1,13 +1,13 @@
 {
   "affects": ["Centre"],
-  "cost": { "food": 1200, "wood": 1200, "stone": 600, "metal": 600 },
+  "cost": { "food": 0, "wood": 1200, "stone": 1200, "metal": 1200 },
   "description": "Advances from a veritable city to a true metropolis, larger and more influential than any other settlement.",
   "genericName": "Metropolis Phase",
   "icon": "imperial_phase.png",
   "modifications": [
     {"value": "Cost/BuildTime",               "multiply": 1.2},
-    {"value": "Health/Max",                   "multiply": 1.2},
     {"value": "Cost/Resources/silver",        "add":      300},
+    {"value": "Health/Max",                   "multiply": 1.2},
     {"value": "Loot/silver",                  "add":       90},
     {"value": "Loot/xp",                      "multiply": 1.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},

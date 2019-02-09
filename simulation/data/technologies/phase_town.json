@@ -1,15 +1,15 @@
 {
   "affects": ["Centre"],
-  "cost": { "food": 400, "wood": 400, "stone": 200, "metal": 200 },
+  "cost": { "food": 0, "wood": 400, "stone": 400, "metal": 400 },
   "description": "Advances from a small village to a bustling town, ready to expand rapidly.",
   "genericName": "Town Phase",
   "icon": "town_phase.png",
   "modifications": [
     {"value": "Cost/BuildTime",               "multiply": 1.2},
+    {"value": "Cost/Resources/metal",         "add":      300},
     {"value": "Health/Max",                   "multiply": 1.2},
-    {"value": "Cost/Resources/stone",         "add":      300},
+    {"value": "Loot/metal",                   "add":       60},
     {"value": "Loot/silver",                  "add":       30},
-    {"value": "Loot/stone",                   "add":       60},
     {"value": "Loot/xp",                      "multiply": 1.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}

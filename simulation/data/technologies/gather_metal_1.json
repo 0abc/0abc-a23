@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 125, "wood": 125, "stone": 0, "metal": 50},
+  "cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
   "description": "Equip your workers with helpful tools. Increases metal gathering rates.",
   "genericName": "Wedge and Mallet",
   "icon": "mining_metal.png",

@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 250, "wood": 250, "stone": 0, "metal": 0},
+  "cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
   "description": "Use baskets. Increases shuttling capacity for all resources.",
   "genericName": "Baskets",
   "icon": "gather_basket_empty.png",

@@ -62,8 +62,7 @@
     <BuildTime>500</BuildTime>
     <PopulationBonus>15</PopulationBonus>
     <Resources>
-      <food>300</food>
-      <wood>300</wood>
+      <food>600</food>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -85,9 +84,8 @@
     <VisibleClasses datatype="tokens">Centre Market</VisibleClasses>
   </Identity>
   <Loot>
-    <food>60</food>
     <silver>60</silver>
-    <wood>60</wood>
+    <wood>120</wood>
     <xp>250</xp>
   </Loot>
   <Market>

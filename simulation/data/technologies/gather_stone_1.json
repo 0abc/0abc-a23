@@ -1,6 +1,6 @@
 {
   "affects": ["Worker"],
-  "cost": {"food": 125, "wood": 125, "stone": 0, "metal": 50},
+  "cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
   "description": "Hire servants to help quarry stone. Increases stone gathering rates.",
   "genericName": "Servants",
   "icon": "mining_stone.png",
