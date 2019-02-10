@@ -45,6 +45,47 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * Easy: 141%
 * Very Easy: 200%
 
+### Damage types
+There are four damage types (crush, hack, pierce, thrust)
+* infantry:
+  * stone sling: 100% crush
+  * lead sling: 100% pierce
+  * crossbow: 100% pierce
+  * composite bow: 100% pierce
+  * longbow: 100% pierce
+  * javelin: 100% pierce
+  * pike: 50% pierce, 50% thrust
+  * spear: 100% thrust
+  * sword: 50% hack, 50% thrust
+  * sabre: 100% hack
+  * axe: 33% crush, 67% hack
+  * mace: 100% crush
+* camelry:
+  * composite bow: 100% pierce
+  * javelin: 100% pierce
+  * spear: 100% thrust
+* cavalry:
+  * crossbow: 100% pierce
+  * longbow: 100% pierce
+  * javelin: 100% pierce
+  * spear: 100% thrust
+  * sword: 50% hack, 50% thrust
+  * sabre: 100% hack
+  * axe: 33% crush, 67% hack
+  * mace: 100% crush
+* chariotry:
+  * composite bow: 100% pierce
+  * javelin: 100% pierce
+* elephantry: melee 100% crush
+* siege:
+  * ram: 100% crush
+  * bolt shooter: 67% pierce, 33% thrust
+  * stone thrower: 100% crush
+  * tower: 75% pierce, 25% crush
+* fireship: 25% each
+* wargalleys: melee 100% crush, ranged 100% pierce
+* structures: 100% pierce
+
 ### Structures
 * economic structures can be constructed in neutral territory
 * dropsites are just that: dropsites; all economic technologies are moved to the market, which is now available in the village phase

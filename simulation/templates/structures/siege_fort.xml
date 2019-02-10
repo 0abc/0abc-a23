@@ -29,6 +29,7 @@
     <GenericName>Army Camp</GenericName>
     <Icon>structures/roman_camp.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Can be built in neutral and enemy territory. Garrison units to fire additional arrows.</Tooltip>
   </Identity>
   <Loot>
     <stone>0</stone>
@@ -36,16 +37,13 @@
   <Obstruction>
     <Static width="36" depth="36"/>
   </Obstruction>
-  <TerritoryDecay>
-    <DecayRate>37.5</DecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/romans/camp.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>29.5</Length>
     <Indent>8</Indent>
+    <Length>30</Length>
   </WallPiece>
 </Entity>
