@@ -15,14 +15,11 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
-      <Apadana>1</Apadana>
       <Centre>1</Centre>
-      <Council>1</Council>
       <Embassy>2</Embassy>
       <Fortress>10</Fortress>
       <Hall>2</Hall>
       <Hero>1</Hero>
-      <Juggernaut>1</Juggernaut>
       <Kennel>5</Kennel>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
@@ -31,11 +28,8 @@
       <Pillar>5</Pillar>
       <PyramidSmall>4</PyramidSmall>
       <PyramidLarge>2</PyramidLarge>
-      <Stoa>2</Stoa>
-      <TempleOfAmun>1</TempleOfAmun>
       <Theatre>1</Theatre>
       <Tower>20</Tower>
-      <UniqueBuilding>1</UniqueBuilding>
       <WarDog>0</WarDog>
       <Wonder>1</Wonder>
     </Limits>

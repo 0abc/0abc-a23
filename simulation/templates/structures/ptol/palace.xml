@@ -2,20 +2,20 @@
 <Entity parent="template_structure_civic_palace">
   <Footprint>
     <Height>8.0</Height>
-    <Square width="32.0" depth="32.0"/>
+    <Square width="41.0" depth="33.0"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>pers</Civ>
-    <SpecificName>Apadana</SpecificName>
+    <Civ>ptol</Civ>
+    <SpecificName>Βασίλειον</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="30.0" depth="30.0"/>
+    <Static width="39.0" depth="31.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/persians/apadana.xml</Actor>
+    <Actor>structures/ptolemies/civic_centre.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

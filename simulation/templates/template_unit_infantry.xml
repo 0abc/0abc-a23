@@ -36,12 +36,12 @@
       structures/{civ}/workshop
       structures/{civ}/shipyard
       structures/{civ}/harbour
-      structures/{civ}/palace
       structures/{civ}/temple
       structures/{civ}/pillar
-      structures/{civ}/theatre
       structures/{civ}/library
       structures/{civ}/lighthouse
+      structures/{civ}/palace
+      structures/{civ}/theatre
       structures/{civ}/wonder
       structures/{civ}/small_tower
       structures/{civ}/large_tower

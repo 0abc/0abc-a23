@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_wonder">
   <Footprint>
-    <Height>20.0</Height>
-    <Square width="48.0" depth="66.0"/>
+    <Height>12.0</Height>
+    <Square width="32.0" depth="62.0"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Mnw nht</SpecificName>
+    <SpecificName>Pr-‘Imn</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="44.0" depth="60.0"/>
+    <Static width="28.0" depth="56.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/kushites/wonder.xml</Actor>
+    <Actor>structures/kushites/temple_amun.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>Palace</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <food>200</food>
+      <metal>200</metal>
+      <stone>400</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <List datatype="tokens">Soldier+!Elephant</List>
+    <Max>20</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>3000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Palace</GenericName>
+    <Icon>structures/palace.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Territory root. Gain a trickle of food, wood, stone, and metal resources.</Tooltip>
+    <VisibleClasses datatype="tokens">Palace</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>40</food>
+    <metal>40</metal>
+    <silver>200</silver>
+    <stone>80</stone>
+    <wood>40</wood>
+  </Loot>
+  <ResourceTrickle>
+    <Interval>2000</Interval>
+    <Rates>
+      <food>1.0</food>
+      <metal>1.0</metal>
+      <silver>1.0</silver>
+      <stone>1.0</stone>
+      <wood>1.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>60</Radius>
+    <Weight>60000</Weight>
+  </TerritoryInfluence>
+</Entity>
