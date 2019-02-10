@@ -7,7 +7,7 @@ const g_MaxPlayers = 8;
 /**
  * The maximum number of teams allowed.
  */
-const g_MaxTeams = 8;
+const g_MaxTeams = 4;
 
 /**
  * Directory containing all editable settings.
