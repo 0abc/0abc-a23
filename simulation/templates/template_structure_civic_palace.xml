@@ -23,7 +23,7 @@
     <GenericName>Palace</GenericName>
     <Icon>structures/palace.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Territory root. Gain a trickle of food, wood, stone, and metal resources.</Tooltip>
+    <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
   </Identity>
   <Loot>
