@@ -4,7 +4,7 @@
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
   <BuildingAI>
-    <DefaultArrowCount>-1</DefaultArrowCount>
+    <DefaultArrowCount op="add">-1</DefaultArrowCount>
   </BuildingAI>
   <Capturable>
     <CapturePoints op="mul">0.5</CapturePoints>
