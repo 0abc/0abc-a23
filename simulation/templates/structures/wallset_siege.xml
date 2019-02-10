@@ -11,6 +11,7 @@
     <MaxTowerOverlap>1.00</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
+      <Fort>structures/siege_fort</Fort>
       <Gate>structures/siege_wall_gate</Gate>
       <Tower>structures/siege_wall_tower</Tower>
       <WallLong>structures/siege_wall_long</WallLong>
