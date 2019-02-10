@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_small">
+  <Capturable disable=""/>
+  <Footprint>
+    <Square width="9.5" depth="8.5"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Classes datatype="tokens">Palisade</Classes>
+    <GenericName>Palisade Fort</GenericName>
+    <Icon>structures/palisade_fort.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="9.0" depth="7.5"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>props/special/palisade_rocks_fort.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>8.0</Length>
+  </WallPiece>
+</Entity>

@@ -11,6 +11,7 @@
     <MaxTowerOverlap>0.85</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
+      <Fort>structures/palisade_fort</Fort>
       <Gate>structures/palisade_gate</Gate>
       <Tower>structures/palisade_tower</Tower>
       <WallCurves>structures/palisade_curve</WallCurves>
