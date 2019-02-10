@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <SpecificName>Στρατοπεδεία</SpecificName>
+    <SpecificName>Στρατόπεδον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

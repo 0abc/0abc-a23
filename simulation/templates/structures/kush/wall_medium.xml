@@ -20,7 +20,7 @@
   <Identity>
     <Civ>kush</Civ>
     <SelectionGroupName>structures/kush/wallset</SelectionGroupName>
-    <SpecificName>sbty</SpecificName>
+    <SpecificName>Sbty</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="8.0"/>

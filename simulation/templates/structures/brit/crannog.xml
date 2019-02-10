@@ -14,7 +14,7 @@
     <GenericName>Island Settlement</GenericName>
     <Icon>structures/crannog.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SpecificName>Crannóc</SpecificName>
+    <SpecificName>Cranogion</SpecificName>
     <Tooltip>Increase population limit and defend waterways.</Tooltip>
   </Identity>
   <Obstruction>

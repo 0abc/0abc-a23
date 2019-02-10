@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>sht</SpecificName>
+    <SpecificName>Sht</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_medit.xml</Actor>

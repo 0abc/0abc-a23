@@ -2,17 +2,17 @@
 <Entity parent="template_structure_centre">
   <Footprint>
     <Height>8.0</Height>
-    <Square width="41" depth="33"/>
+    <Square width="40" depth="40"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>pr-'a</SpecificName>
+    <SpecificName>Ἀγορά</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="39" depth="31"/>
+    <Static width="36" depth="36"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -20,7 +20,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/ptolemies/civic_centre.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <Actor>structures/ptolemies/military_colony.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

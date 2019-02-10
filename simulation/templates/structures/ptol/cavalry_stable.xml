@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
+    <SpecificName>Ἱππών</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="23.0" depth="23.0"/>

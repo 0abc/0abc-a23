@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>gaul</Civ>
+    <SpecificName>Miletucerdon</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="29.0" depth="29.0"/>
