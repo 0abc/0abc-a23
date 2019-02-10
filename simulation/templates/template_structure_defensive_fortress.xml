@@ -24,6 +24,7 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>

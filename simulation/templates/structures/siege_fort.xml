@@ -5,6 +5,7 @@
   </BuildRestrictions>
   <BuildingAI>
     <DefaultArrowCount op="add">-1</DefaultArrowCount>
+    <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
   <Capturable>
     <CapturePoints op="mul">0.5</CapturePoints>
