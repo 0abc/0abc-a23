@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Workshop</Category>
+  </BuildRestrictions>
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
@@ -34,6 +37,7 @@
       units/{civ}/siege_lithobolos_packed
       units/{civ}/siege_ballista_packed
       units/{civ}/siege_tower
+      units/{civ}/quadriga_scythed
     </Entities>
     <Technologies datatype="tokens">
       training_siege_workshop

@@ -5,8 +5,9 @@
     <GenericName>Noble Archer</GenericName>
     <Icon>units/kush_champion_archer.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/kush/infantry_archer</SelectionGroupName>
+    <SelectionGroupName>units/kush/infantry_archer_champion</SelectionGroupName>
     <SpecificName>Hry pdty</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_archer_c.xml</Actor>

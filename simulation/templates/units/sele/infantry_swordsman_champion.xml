@@ -6,8 +6,9 @@
     <Icon>units/sele_champion_swordsman.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/sele/infantry_swordsman</SelectionGroupName>
-    <SpecificName>Θορακιτής Ῥωμαικός</SpecificName>
+    <SelectionGroupName>units/sele/infantry_swordsman_champion</SelectionGroupName>
+    <SpecificName>Θορακιτής Ῥωμαϊκός</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_swordsman_c.xml</Actor>

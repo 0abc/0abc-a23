@@ -8,6 +8,9 @@
       <Value>2</Value>
     </Capture>
   </Attack>
+  <Auras datatype="tokens">
+    units/camel_stench
+  </Auras>
   <Cost>
     <BuildTime>45</BuildTime>
     <Population>2</Population>

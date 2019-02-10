@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Royal Guard Pikeman</GenericName>
+    <Icon>units/ptol_champion_infantry.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/ptol/infantry_pikeman_champion</SelectionGroupName>
+    <SpecificName>Ἄγημα</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_pikeman_c.xml</Actor>
+  </VisualActor>
+</Entity>

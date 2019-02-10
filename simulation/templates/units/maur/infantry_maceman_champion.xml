@@ -2,10 +2,12 @@
 <Entity parent="template_unit_infantry_melee_maceman">
   <Identity>
     <Civ>maur</Civ>
+    <SpecificName>Warrior</SpecificName>
     <Icon>units/maur_champion_maceman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/maur/infantry_maceman</SelectionGroupName>
+    <SelectionGroupName>units/maur/infantry_maceman_champion</SelectionGroupName>
     <SpecificName>Yōddha</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/infantry_maceman_c.xml</Actor>

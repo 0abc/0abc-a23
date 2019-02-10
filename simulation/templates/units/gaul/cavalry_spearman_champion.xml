@@ -2,10 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>gaul</Civ>
+    <GenericName>Gallic Noble Cavalry</GenericName>
     <Icon>units/gaul_champion_cavalry.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/gaul/cavalry_spearman</SelectionGroupName>
-    <SpecificName>Gallic Brihent</SpecificName>
+    <SelectionGroupName>units/gaul/cavalry_spearman_champion</SelectionGroupName>
+    <SpecificName>Brihent</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/gauls/cavalry_spearman_c_m.xml</Actor>

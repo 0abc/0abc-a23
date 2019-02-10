@@ -1,0 +1,25 @@
+{
+  "affectedPlayers": ["Enemy"],
+  "affects": ["Cavalry"],
+  "auraDescription": "Enemy cavalry −20% attack damage and capture strength.",
+  "auraName": "Stench",
+  "modifications": [
+    {"value": "Attack/Capture/Value", "multiply": 0.8                     },
+    {"value": "Attack/Melee/Crush",   "multiply": 0.8, "affects": "Melee" },
+    {"value": "Attack/Melee/Hack",    "multiply": 0.8, "affects": "Melee" },
+    {"value": "Attack/Melee/Pierce",  "multiply": 0.8, "affects": "Melee" },
+    {"value": "Attack/Melee/Thrust",  "multiply": 0.8, "affects": "Melee" },
+    {"value": "Attack/Ranged/Crush",  "multiply": 0.8, "affects": "Ranged"},
+    {"value": "Attack/Ranged/Hack",   "multiply": 0.8, "affects": "Ranged"},
+    {"value": "Attack/Ranged/Pierce", "multiply": 0.8, "affects": "Ranged"},
+    {"value": "Attack/Ranged/Thrust", "multiply": 0.8, "affects": "Ranged"}
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/attack_penalty.png",
+  "rangeOverlay" : {
+    "lineTexture": "overlays/outwards_2.png",
+    "lineTextureMask": "overlays/outwards_2_mask.png",
+    "lineThickness": 0.4
+  },
+  "radius": 15,
+  "type": "range"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Silver Shield Pikeman</GenericName>
+    <Icon>units/sele_champion_pikeman.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/sele/infantry_pikeman_champion</SelectionGroupName>
+    <SpecificName>Ἀργυράσπις</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_pikeman_c.xml</Actor>
+  </VisualActor>
+</Entity>

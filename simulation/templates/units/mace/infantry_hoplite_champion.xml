@@ -2,12 +2,13 @@
 <Entity parent="template_unit_infantry_melee_hoplite">
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Macedonian Shield Bearer</GenericName>
+    <GenericName>Shield Bearer</GenericName>
     <Icon>units/mace_hypaspist.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/mace/infantry_hoplite</SelectionGroupName>
+    <SelectionGroupName>units/mace/infantry_hoplite_champion</SelectionGroupName>
     <SpecificName>Ὑπασπιστής</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/infantry_spearman_c_a.xml</Actor>

@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_crossbowman</SelectionGroupName>
     <SpecificName>Τοξότης Γαστρφέτης</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_crossbowman_c.xml</Actor>

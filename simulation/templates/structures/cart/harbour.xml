@@ -3,6 +3,9 @@
   <Auras datatype="tokens">
     structures/cart_super_dock_repair
   </Auras>
+  <BuildRestrictions>
+    <Category>Harbour</Category>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>2500</CapturePoints>
     <GarrisonRegenRate>10</GarrisonRegenRate>

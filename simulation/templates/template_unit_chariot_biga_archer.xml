@@ -20,12 +20,6 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
-  <Cost>
-    <Resources>
-      <metal>60</metal>
-      <wood>90</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Biga Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>

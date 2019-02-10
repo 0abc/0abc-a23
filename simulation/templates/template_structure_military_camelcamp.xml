@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>CamelCamp</Category>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>100</BuildTime>
     <Resources>
       <food>100</food>
-      <wood>300</wood>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -12,18 +16,18 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
-    <GenericName>Camel Stable</GenericName>
-    <Icon>structures/pers_stable.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <GenericName>Camel Camp</GenericName>
+    <Icon>structures/mercenary_camp.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train camelry. Research camel technologies.</Tooltip>
     <VisibleClasses datatype="tokens">CamelStable</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
-    <wood>60</wood>
+    <wood>20</wood>
   </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -31,9 +35,6 @@
       units/{civ}/camel_javelinist
       units/{civ}/camel_spearman
     </Entities>
-    <Technologies datatype="tokens">
-      training_camel_stables
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
@@ -42,4 +43,5 @@
       <select>interface/select/building/sel_barracks.xml</select>
     </SoundGroups>
   </Sound>
+  <TerritoryInfluence disable=""/>
 </Entity>

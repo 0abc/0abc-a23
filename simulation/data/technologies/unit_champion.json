@@ -3,21 +3,23 @@
   "autoResearch": true,
   "icon": "upgrade_elite.png",
   "modifications": [
-    {"value": "Armour/Crush",                 "add":      3                                  },
-    {"value": "Armour/Hack",                  "add":      3                                  },
-    {"value": "Armour/Pierce",                "add":      3                                  },
+    {"value": "Armour/Crush",                 "add":      2                                  },
+    {"value": "Armour/Hack",                  "add":      2                                  },
+    {"value": "Armour/Pierce",                "add":      2                                  },
+    {"value": "Armour/Thrust",                "add":      2                                  },
     {"value": "Attack/Capture/Value",         "multiply": 2.0, "affects": "Soldier"          },
     {"value": "Attack/Melee/Crush",           "multiply": 2.0, "affects": "Melee"            },
     {"value": "Attack/Melee/Hack",            "multiply": 2.0, "affects": "Melee"            },
     {"value": "Attack/Melee/Pierce",          "multiply": 2.0, "affects": "Melee"            },
+    {"value": "Attack/Melee/Thrust",          "multiply": 2.0, "affects": "Melee"            },
     {"value": "Attack/Ranged/Crush",          "multiply": 2.0, "affects": "Ranged"           },
     {"value": "Attack/Ranged/Hack",           "multiply": 2.0, "affects": "Ranged"           },
     {"value": "Attack/Ranged/Pierce",         "multiply": 2.0, "affects": "Ranged"           },
+    {"value": "Attack/Ranged/Thrust",         "multiply": 2.0, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",               "multiply": 2.0                                },
-    {"value": "Cost/Resources/silver",        "multiply": 2.0                                },
+    {"value": "Cost/Resources/silver",        "multiply": 3.0                                },
     {"value": "Health/Max",                   "multiply": 1.5                                },
-    {"value": "Loot/xp",                      "multiply": 3.0                                },
-    {"value": "Promotion/RequiredXp",         "multiply": 2.0                                }
+    {"value": "Loot/xp",                      "multiply": 3.0                                }
   ],
-  "tooltip": "Champion units have +50% health, +3 crush, hack, and pierce armour, +100% capture attack strength, +100% melee and ranged attack crush, hack, and pierce damage, but also +100% training time, +100% silver cost, and +100% experience required to promote to the next rank."
+  "tooltip": "Champion units have +50% health, +2 crush, hack, pierce, and thrust armour, +100% capture attack strength, +100% melee and ranged attack crush, hack, pierce, and thrust damage, but also +100% training time and +200% silver cost."
 }

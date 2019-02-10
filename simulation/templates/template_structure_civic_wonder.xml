@@ -35,7 +35,7 @@
     <GenericName>Wonder</GenericName>
     <Icon>structures/wonder.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Territory root. Bring glory to your civilization and add large tracts of land to your empire.</Tooltip>
+    <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Wonder</VisibleClasses>
   </Identity>
   <Loot>

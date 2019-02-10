@@ -20,10 +20,11 @@
     <Max>3000</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Palace</GenericName>
-    <Icon>structures/palace.png</Icon>
+    <Icon>technologies/laurel_wreath.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Territory root.</Tooltip>
+    <Tooltip>Territory root. Trains infantry champions.</Tooltip>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
   </Identity>
   <Loot>
@@ -33,16 +34,39 @@
     <stone>80</stone>
     <wood>40</wood>
   </Loot>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_pikeman_champion
+      units/{civ}/infantry_spearman_champion
+      units/{civ}/infantry_hoplite_champion
+      units/{civ}/infantry_axeman_champion
+      units/{civ}/infantry_maceman_champion
+      units/{civ}/infantry_sabreman_champion
+      units/{civ}/infantry_swordsman_champion
+      units/{civ}/infantry_javelinist_champion
+      units/{civ}/infantry_longbowman_champion
+      units/{civ}/infantry_archer_champion
+      units/{civ}/infantry_crossbowman_champion
+      units/{civ}/infantry_slinger_champion
+    </Entities>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
   <ResourceTrickle>
-    <Interval>2000</Interval>
+    <Interval>1000</Interval>
     <Rates>
-      <food>1.0</food>
-      <metal>1.0</metal>
       <silver>1.0</silver>
-      <stone>1.0</stone>
-      <wood>1.0</wood>
     </Rates>
   </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+    </SoundGroups>
+  </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
     <Radius>60</Radius>

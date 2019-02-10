@@ -9,10 +9,6 @@
   <Attack>
     <Melee>
       <Bonuses>
-        <Camelry>
-          <Classes>Camel</Classes>
-          <Multiplier>0.75</Multiplier>
-        </Camelry>
         <Chariotry>
           <Classes>Chariot</Classes>
           <Multiplier>0.75</Multiplier>

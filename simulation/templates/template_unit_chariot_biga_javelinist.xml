@@ -14,12 +14,6 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
-  <Cost>
-    <Resources>
-      <metal>50</metal>
-      <wood>100</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Biga Javelinist</GenericName>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>

@@ -5,8 +5,9 @@
     <GenericName>Meroitic Temple Guard</GenericName>
     <Icon>units/kush_champion_apedemak.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/kush/infantry_axeman</SelectionGroupName>
+    <SelectionGroupName>units/kush/infantry_axeman_champion</SelectionGroupName>
     <SpecificName>rs ‘Iprmk</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_axeman_c.xml</Actor>

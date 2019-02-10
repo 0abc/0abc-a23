@@ -15,23 +15,23 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
+      <CamelCamp>3</CamelCamp>
       <Centre>1</Centre>
-      <Embassy>2</Embassy>
+      <ElephantStable>4</ElephantStable>
       <Fortress>10</Fortress>
-      <Hall>2</Hall>
+      <Harbour>1</Harbour>
       <Hero>1</Hero>
-      <Kennel>5</Kennel>
+      <Kennel>10</Kennel>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
       <NavalTrader>20</NavalTrader>
       <Palace>1</Palace>
       <Pillar>5</Pillar>
-      <PyramidSmall>4</PyramidSmall>
-      <PyramidLarge>2</PyramidLarge>
       <Theatre>1</Theatre>
       <Tower>20</Tower>
       <WarDog>0</WarDog>
       <Wonder>1</Wonder>
+      <Workshop>2</Workshop>
     </Limits>
     <LimitChangers>
       <Fortress>
@@ -41,8 +41,11 @@
         <Centre>5</Centre>
       </Tower>
       <WarDog>
-        <Kennel>10</Kennel>
+        <Kennel>5</Kennel>
       </WarDog>
+      <Workshop>
+        <Centre>1</Centre>
+      </Workshop>
     </LimitChangers>
     <LimitRemovers>
       <Centre>
@@ -78,6 +81,7 @@
     <SpyCostMultiplier>1.0</SpyCostMultiplier>
   </Player>
   <ResourceTrickle>
+    <Interval>1000</Interval>
     <Rates>
       <food>0.0</food>
       <metal>0.0</metal>
@@ -85,7 +89,6 @@
       <stone>0.0</stone>
       <wood>0.0</wood>
     </Rates>
-    <Interval>1000</Interval>
   </ResourceTrickle>
   <StatisticsTracker/>
   <TechnologyManager/>

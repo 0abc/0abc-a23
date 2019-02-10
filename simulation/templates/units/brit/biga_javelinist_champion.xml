@@ -10,6 +10,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit_champion_chariot</SelectionGroupName>
     <SpecificName>Carbanto</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/britons/chariot_javelinist_c_m.xml</Actor>

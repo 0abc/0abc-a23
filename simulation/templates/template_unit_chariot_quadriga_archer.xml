@@ -20,12 +20,6 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
-  <Cost>
-    <Resources>
-      <metal>80</metal>
-      <wood>120</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Quadriga Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
