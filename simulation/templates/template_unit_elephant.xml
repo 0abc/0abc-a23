@@ -13,6 +13,9 @@
     </Melee>
     <Ranged disable=""/>
   </Attack>
+  <Auras datatype="tokens">
+    units/elephant_intimidation
+  </Auras>
   <Cost>
     <Population>6</Population>
     <BuildTime>90</BuildTime>
