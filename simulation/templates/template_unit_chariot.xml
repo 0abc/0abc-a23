@@ -20,19 +20,15 @@
   <Cost>
     <BuildTime>75</BuildTime>
   </Cost>
-  <Footprint replace="">
-    <Height>5</Height>
-    <Square width="7.5" depth="15"/>
-  </Footprint>
   <Identity>
-    <Classes datatype="tokens">Human Organic CitizenSoldier</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>Chariot</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
     <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
-    <VisibleClasses datatype="tokens">Soldier Chariot Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Chariot</VisibleClasses>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>

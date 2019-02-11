@@ -1,0 +1,9 @@
+{
+  "affects": ["Cretan"],
+  "autoResearch": true,
+  "genericName": "Cretan Archers",
+  "modifications": [
+    {"value": "Attack/Ranged/Spread",       "multiply": 0.80, "affects": "Ranged"           }
+  ],
+  "tooltip": "Cretan archers −20% ranged attack spread."
+}

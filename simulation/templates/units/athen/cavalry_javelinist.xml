@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/athen/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Πρόδρομος</SpecificName>
+    <VisibleClasses datatype="tokens">Greek</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>

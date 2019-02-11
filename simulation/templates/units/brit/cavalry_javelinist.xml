@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Gaisaredos</SpecificName>
+    <VisibleClasses datatype="tokens">Celt</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/cavalry_javelinist_a_m.xml</Actor>

@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_spearman</SelectionGroupName>
     <SpecificName>Ezkutari</SpecificName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/infantry_spearman_a.xml</Actor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>Campanian Mercenary Cavalry</GenericName>
+    <Icon>units/cart_cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/cart/cavalry_spearman_mercenary</SelectionGroupName>
+    <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>
+    <VisibleClasses datatype="tokens">Italic Mercenary</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/cavalry_spearman_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

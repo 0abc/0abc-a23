@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Royal Guard Cavalry</GenericName>
+    <Icon>units/ptol_champion_cavalry.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/ptol/cavalry_spearman_champion</SelectionGroupName>
+    <SpecificName>Ἄγημα Βασιλέως</SpecificName>
+    <VisibleClasses datatype="tokens">Greek Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

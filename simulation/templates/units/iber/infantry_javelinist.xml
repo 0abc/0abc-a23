@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_javelinist</SelectionGroupName>
     <SpecificName>Lusitano Ezpatari</SpecificName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/infantry_javelinist_a.xml</Actor>

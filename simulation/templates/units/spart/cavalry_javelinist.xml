@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Πρόδρομος Περίοικος</SpecificName>
+    <VisibleClasses datatype="tokens">Greek</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/cavalry_javelinist_a_m.xml</Actor>

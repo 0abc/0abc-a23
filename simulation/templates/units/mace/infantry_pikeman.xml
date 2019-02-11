@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_pikeman</SelectionGroupName>
     <SpecificName>Πεζέταιρος</SpecificName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/infantry_pikeman_a.xml</Actor>

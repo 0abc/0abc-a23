@@ -2,16 +2,11 @@
 <Entity parent="template_unit_infantry_ranged">
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.75</Multiplier>
-        </Elephantry>
-      </Bonuses>
-      <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>5</Pierce>
+      <MaxRange op="mul">3.0</MaxRange>
+      <Pierce>6</Pierce>
       <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>3.0</Spread>
+      <Thrust>3</Thrust>
     </Ranged>
   </Attack>
   <Cost>
@@ -21,4 +16,10 @@
     <GenericName>Crossbowman</GenericName>
     <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.9</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
 </Entity>

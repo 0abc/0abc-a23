@@ -9,7 +9,7 @@
         </Elephantry>
       </Bonuses>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>5</Pierce>
+      <Pierce>6</Pierce>
       <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>3.0</Spread>
     </Ranged>
@@ -21,4 +21,10 @@
     <GenericName>Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.05</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.05</WalkSpeed>
+  </UnitMotion>
 </Entity>

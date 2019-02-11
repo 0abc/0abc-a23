@@ -22,10 +22,4 @@
     <GenericName>Ranged</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
-  <UnitMotion>
-    <Run>
-      <Speed op="mul">1.1</Speed>
-    </Run>
-    <WalkSpeed op="mul">1.1</WalkSpeed>
-  </UnitMotion>
 </Entity>

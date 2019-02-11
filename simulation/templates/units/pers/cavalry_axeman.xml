@@ -3,10 +3,11 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Hyrcanian Cavalry</GenericName>
-    <Icon>units/pers_cavalry_swordsman.png</Icon>
+    <Icon>units/pers_cavalry_axeman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/cavalry_axeman</SelectionGroupName>
     <SpecificName>Varkaniya Asabara</SpecificName>
+    <VisibleClasses datatype="tokens">Hyrcanian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/cavalry_swordsman_a_m.xml</Actor>

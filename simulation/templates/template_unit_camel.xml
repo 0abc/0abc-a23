@@ -24,13 +24,13 @@
     <Square width="4" depth="6"/>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">Human Organic CitizenSoldier</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>Camel</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Camel Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>
   </Identity>
   <Loot>
     <xp>90</xp>

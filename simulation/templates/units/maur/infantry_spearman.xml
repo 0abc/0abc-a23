@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_spearman</SelectionGroupName>
     <SpecificName>Kauntika</SpecificName>
+    <VisibleClasses datatype="tokens">Indian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/infantry_spearman_a.xml</Actor>

@@ -9,6 +9,7 @@
     <GenericName>Assyrian Siege Ram</GenericName>
     <Icon>units/pers_mechanical_siege_ram.png</Icon>
     <SpecificName>Athuriya Hamaranakuba</SpecificName>
+    <VisibleClasses datatype="tokens">Assyrian Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/siege_ram.xml</Actor>

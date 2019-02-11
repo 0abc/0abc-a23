@@ -13,6 +13,10 @@
       <silver>120</silver>
     </Resources>
   </Cost>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square width="7.0" depth="10.0"/>
+  </Footprint>
   <Health>
     <Max op="mul">2.4</Max>
   </Health>

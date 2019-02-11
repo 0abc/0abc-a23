@@ -1,0 +1,24 @@
+{
+  "affects": ["Mercenary"],
+  "autoResearch": true,
+  "genericName": "Mercenary Units",
+  "modifications": [
+    {"value": "Attack/Capture/Value",         "multiply": 1.15, "affects": "Soldier"         },
+    {"value": "Attack/Melee/Crush",           "multiply": 1.15, "affects": "Melee"           },
+    {"value": "Attack/Melee/Hack",            "multiply": 1.15, "affects": "Melee"           },
+    {"value": "Attack/Melee/Pierce",          "multiply": 1.15, "affects": "Melee"           },
+    {"value": "Attack/Melee/Thrust",          "multiply": 1.15, "affects": "Melee"           },
+    {"value": "Attack/Ranged/Crush",          "multiply": 1.15, "affects": "Ranged"          },
+    {"value": "Attack/Ranged/Hack",           "multiply": 1.15, "affects": "Ranged"          },
+    {"value": "Attack/Ranged/Pierce",         "multiply": 1.15, "affects": "Ranged"          },
+    {"value": "Attack/Ranged/Thrust",         "multiply": 1.15, "affects": "Ranged"          },
+    {"value": "Cost/BuildTime",               "multiply": 0.5                                },
+    {"value": "Cost/Resources/food",          "replace":  0                                  },
+    {"value": "Cost/Resources/metal",         "replace":  0                                  },
+    {"value": "Cost/Resources/silver",        "multiply": 2.0                                },
+    {"value": "Cost/Resources/stone",         "replace":  0                                  },
+    {"value": "Cost/Resources/wood",          "replace":  0                                  },
+    {"value": "Health/Max",                   "multiply": 1.1                                }
+  ],
+  "tooltip": "Mercenary units have +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, and +15% melee and ranged attack."
+}

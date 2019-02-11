@@ -7,8 +7,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>1</Hack>
-      <Thrust>5</Thrust>
+      <Hack>2</Hack>
+      <Thrust>6</Thrust>
     </Melee>
   </Attack>
   <Identity>
@@ -18,4 +18,10 @@
     <GenericName>Hoplite</GenericName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.95</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.95</WalkSpeed>
+  </UnitMotion>
 </Entity>

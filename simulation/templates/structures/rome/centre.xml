@@ -16,7 +16,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman
+      units/{civ}/infantry_sabreman
     </Entities>
   </ProductionQueue>
   <VisualActor>

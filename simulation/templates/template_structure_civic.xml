@@ -18,11 +18,6 @@
     <GenericName>Civic Structure</GenericName>
     <VisibleClasses datatype="tokens">Civic</VisibleClasses>
   </Identity>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>50</Radius>
-    <Weight>50000</Weight>
-  </TerritoryInfluence>
   <Vision>
     <Range>50</Range>
   </Vision>

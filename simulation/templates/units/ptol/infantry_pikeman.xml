@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman</SelectionGroupName>
     <SpecificName>Φαλαγγομάχιμος</SpecificName>
+    <VisibleClasses datatype="tokens">Egyptian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/infantry_pikeman_a.xml</Actor>

@@ -14,11 +14,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/biga_javelinist_champion
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/britons/stable.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

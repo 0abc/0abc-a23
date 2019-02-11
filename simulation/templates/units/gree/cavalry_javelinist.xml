@@ -2,13 +2,15 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>gree</Civ>
-    <Icon>units/spart_cavalry_javelinist.png</Icon>
+    <GenericName>Militia Cavalry</GenericName>
+    <Icon>units/hele_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gree/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Πρόδρομος</SpecificName>
+    <VisibleClasses datatype="tokens">Greek</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

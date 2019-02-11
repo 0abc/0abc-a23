@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_longbowman</SelectionGroupName>
     <SpecificName>Dhanurdhar</SpecificName>
+    <VisibleClasses datatype="tokens">Indian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/infantry_archer_a.xml</Actor>

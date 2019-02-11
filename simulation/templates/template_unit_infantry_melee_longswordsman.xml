@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>4</Hack>
+      <Hack>6</Hack>
       <Thrust>2</Thrust>
     </Melee>
   </Attack>
@@ -16,4 +16,10 @@
     <GenericName>Longswordsman</GenericName>
     <VisibleClasses datatype="tokens">Longswordsman</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.95</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.95</WalkSpeed>
+  </UnitMotion>
 </Entity>

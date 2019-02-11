@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_chariot_quadriga_archer">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Babylonian Scythed Chariot</GenericName>
+    <Icon>units/pers_chariot_archer.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/pers/quadriga_scythed_champion</SelectionGroupName>
+    <SpecificName>Babiruviya Ratha</SpecificName>
+    <VisibleClasses datatype="tokens">Babylonian Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/chariot_archer_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

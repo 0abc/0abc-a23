@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged">
   <Attack>
     <Ranged>
-      <Crush>2</Crush>
+      <Crush>3</Crush>
       <Hack>6</Hack>
       <MaxRange op="mul">1.0</MaxRange>
       <ProjectileSpeed>30</ProjectileSpeed>
@@ -16,4 +16,10 @@
     <GenericName>Axe Thrower</GenericName>
     <VisibleClasses datatype="tokens">AxeThrower</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.05</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.05</WalkSpeed>
+  </UnitMotion>
 </Entity>

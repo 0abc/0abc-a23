@@ -31,8 +31,14 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/biga_javelinist
+      units/{civ}/biga_javelinist_mercenary
+      units/{civ}/biga_javelinist_champion
       units/{civ}/biga_archer
+      units/{civ}/biga_archer_mercenary
+      units/{civ}/biga_archer_champion
       units/{civ}/quadriga_scythed
+      units/{civ}/quadriga_scythed_mercenary
+      units/{civ}/quadriga_scythed_champion
     </Entities>
     <Technologies datatype="tokens">
       training_chariot_stables

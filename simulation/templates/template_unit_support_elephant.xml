@@ -6,6 +6,7 @@
     <Pierce>7</Pierce>
     <Thrust>5</Thrust>
   </Armour>
+  <Attack disable=""/>
   <Builder>
     <Entities datatype="tokens"/>
     <Rate>2.0</Rate>

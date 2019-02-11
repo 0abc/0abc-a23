@@ -21,13 +21,13 @@
     <Square width="4" depth="6"/>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">Human Organic CitizenSoldier</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Cavalry Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>
   </Identity>
   <Loot>
     <xp>120</xp>

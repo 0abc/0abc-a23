@@ -52,17 +52,18 @@ m.Config = function(difficulty, behavior)
   {
 		"default": [],
 		"athen": [],
-		"brit": ["structures/{civ}/rotarymill"],
-		"cart": ["structures/{civ}/harbour"],
+		"brit": ["structures/{civ}/rotarymill", "structures/{civ}/kennel"],
+		"cart": ["structures/{civ}/palace", "structures/{civ}/harbour"],
 		"gaul": ["structures/{civ}/rotarymill"],
+		"gree": ["structures/{civ}/palace"],
 		"iber": ["structures/{civ}/pillar"],
-		"kush": ["structures/{civ}/temple_amun"],
-		"mace": ["structures/{civ}/library", "structures/{civ}/theatre"],
+		"kush": ["structures/{civ}/palace", "structures/{civ}/camel_camp"],
+		"mace": ["structures/{civ}/palace", "structures/{civ}/library", "structures/{civ}/theatre"],
 		"maur": ["structures/{civ}/palace", "structures/{civ}/pillar"],
-		"pers": ["structures/{civ}/palace"],
-		"ptol": ["structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre"],
-		"rome": ["structures/{civ}/temple_vesta"],
-		"sele": ["structures/{civ}/library", "structures/{civ}/theatre"],
+		"pers": ["structures/{civ}/palace", "structures/{civ}/camel_camp"],
+		"ptol": ["structures/{civ}/palace", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/theatre", "structures/{civ}/lighthouse"],
+		"rome": ["structures/{civ}/palace", "structures/{civ}/camp"],
+		"sele": ["structures/{civ}/palace", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/theatre"],
 		"spart": []
   };
 

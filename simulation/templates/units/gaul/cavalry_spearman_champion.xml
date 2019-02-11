@@ -7,7 +7,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gaul/cavalry_spearman_champion</SelectionGroupName>
     <SpecificName>Brihent</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Celt Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/gauls/cavalry_spearman_c_m.xml</Actor>

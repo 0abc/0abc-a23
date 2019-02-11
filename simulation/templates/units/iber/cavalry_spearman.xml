@@ -8,6 +8,6 @@
     <SpecificName>Lantzari</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/cavalry_spearman_a_m.xml</Actor>
+    <Actor>units/iberians/cavalry_spearman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

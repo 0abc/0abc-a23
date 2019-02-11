@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_crossbowman">
+  <Builder disable=""/>
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Gastraphetes</GenericName>
-    <Icon>units/athen_champion_ranged.png</Icon>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <GenericName>Crossbowman</GenericName>
+    <Icon>units/mace_infantry_crossbowman_champion.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_crossbowman</SelectionGroupName>
     <SpecificName>Τοξότης Γαστρφέτης</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Greek Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/athenians/infantry_crossbowman_c.xml</Actor>
   </VisualActor>

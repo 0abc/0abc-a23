@@ -20,4 +20,10 @@
     <GenericName>Pikeman</GenericName>
     <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.9</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
 </Entity>

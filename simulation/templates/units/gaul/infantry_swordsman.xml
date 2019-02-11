@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_swordsman</SelectionGroupName>
     <SpecificName>Solduros</SpecificName>
+    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/gauls/infantry_swordsman_c.xml</Actor>

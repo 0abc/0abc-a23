@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/war_elephant</SelectionGroupName>
     <SpecificName>Σύριος Ἐλέφας</SpecificName>
+    <VisibleClasses datatype="tokens">Cataphract IndianElephant</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/elephantry_c_m.xml</Actor>

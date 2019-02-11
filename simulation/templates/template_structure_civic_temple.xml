@@ -51,4 +51,9 @@
       <select>interface/select/building/sel_temple.xml</select>
     </SoundGroups>
   </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>50</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
 </Entity>

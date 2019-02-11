@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_hoplite">
+  <Builder disable=""/>
   <Identity>
     <Civ>cart</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Sacred Band</GenericName>
     <Icon>units/cart_champion_infantry.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_hoplite_champion</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Punic Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/carthaginians/infantry_spearman_c.xml</Actor>
   </VisualActor>

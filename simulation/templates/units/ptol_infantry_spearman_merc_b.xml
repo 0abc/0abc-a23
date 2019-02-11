@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/ptol/infantry_spearman"/>
+<Entity parent="units/ptol/infantry_spearman_mercenary"/>

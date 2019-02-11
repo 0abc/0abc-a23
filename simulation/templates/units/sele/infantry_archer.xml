@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_archer</SelectionGroupName>
     <SpecificName>Τοξότης Συρίας</SpecificName>
+    <VisibleClasses datatype="tokens">Syrian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_archer_a.xml</Actor>

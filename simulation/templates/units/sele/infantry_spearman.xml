@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_spearman</SelectionGroupName>
     <SpecificName>Θυρεοφόρος</SpecificName>
+    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_spearman_a.xml</Actor>

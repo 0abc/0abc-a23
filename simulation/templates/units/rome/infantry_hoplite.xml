@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_spearman</SelectionGroupName>
     <SpecificName>Triarius</SpecificName>
+    <VisibleClasses datatype="tokens">Roman Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/romans/infantry_spearman_a.xml</Actor>

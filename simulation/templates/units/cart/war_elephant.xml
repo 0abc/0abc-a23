@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/cart/war_elephant</SelectionGroupName>
     <SpecificName>Pil Malḥamit</SpecificName>
+    <VisibleClasses datatype="tokens">NorthAfricanElephant</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/elephantry_c_m.xml</Actor>

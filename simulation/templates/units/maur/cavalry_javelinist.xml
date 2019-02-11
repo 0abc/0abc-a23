@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Ashwarohi</SpecificName>
+    <VisibleClasses datatype="tokens">Indian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/cavalry_javelinist_a_m.xml</Actor>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_lancer">
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>Punic Heavy Cavalry</GenericName>
+    <Icon>units/cart_champion_cavalry.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/cart/cavalry_lancer_champion</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Punic Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

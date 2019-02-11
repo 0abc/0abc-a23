@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Eques Socius</SpecificName>
+    <VisibleClasses datatype="tokens">Italic</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/romans/cavalry_javelinist_a_m.xml</Actor>

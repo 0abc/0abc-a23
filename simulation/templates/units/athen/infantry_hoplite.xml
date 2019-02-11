@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_hoplite</SelectionGroupName>
     <SpecificName>Ὁπλίτης Ἀθηναῖος</SpecificName>
+    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_spearman_a.xml</Actor>

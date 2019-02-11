@@ -13,11 +13,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/cavalry_javelinist_champion
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/stables.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

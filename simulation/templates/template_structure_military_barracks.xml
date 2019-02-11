@@ -41,6 +41,18 @@
       units/{civ}/infantry_archer
       units/{civ}/infantry_crossbowman
       units/{civ}/infantry_slinger
+      units/{civ}/infantry_pikeman_mercenary
+      units/{civ}/infantry_spearman_mercenary
+      units/{civ}/infantry_hoplite_mercenary
+      units/{civ}/infantry_axeman_mercenary
+      units/{civ}/infantry_maceman_mercenary
+      units/{civ}/infantry_sabreman_mercenary
+      units/{civ}/infantry_swordsman_mercenary
+      units/{civ}/infantry_javelinist_mercenary
+      units/{civ}/infantry_longbowman_mercenary
+      units/{civ}/infantry_archer_mercenary
+      units/{civ}/infantry_crossbowman_mercenary
+      units/{civ}/infantry_slinger_mercenary
     </Entities>
     <Technologies datatype="tokens">
       training_barracks

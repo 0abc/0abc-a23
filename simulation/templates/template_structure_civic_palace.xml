@@ -24,7 +24,7 @@
     <GenericName>Palace</GenericName>
     <Icon>technologies/laurel_wreath.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Territory root. Trains infantry champions.</Tooltip>
+    <Tooltip>Territory root. Train infantry champions.</Tooltip>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
   </Identity>
   <Loot>

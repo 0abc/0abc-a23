@@ -81,7 +81,7 @@
       "Count": 2
     },
     {
-      "Template": "units/mace/cavalry_spearman"
+      "Template": "units/mace/cavalry_lancer"
     }
   ],
   "Formations":
@@ -117,7 +117,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/mace/cavalry_spearman",
+    "skirmish/units/default_cavalry": "units/mace/cavalry_lancer",
     "skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman",
     "skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelinist",
     "skirmish/structures/default_house_10": "structures/{civ}/house"

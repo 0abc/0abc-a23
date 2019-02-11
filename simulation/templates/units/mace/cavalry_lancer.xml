@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_lancer">
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Thessalian Lancer</GenericName>
+    <Icon>units/mace_cavalry_spearman.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/mace/cavalry_lancer</SelectionGroupName>
+    <SpecificName>Ξυστοφόρος Θεσσαλικός</SpecificName>
+    <VisibleClasses datatype="tokens">Thessalian</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_spearman_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

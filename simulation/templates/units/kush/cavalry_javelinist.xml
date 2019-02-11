@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_javelinist</SelectionGroupName>
     <SpecificName>iry hr ssmwtt</SpecificName>
+    <VisibleClasses datatype="tokens">Kushite</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/cavalry_javelinist_a_m.xml</Actor>

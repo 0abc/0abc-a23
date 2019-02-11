@@ -6,11 +6,17 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>6</Hack>
+      <Hack>7</Hack>
     </Melee>
   </Attack>
   <Identity>
     <GenericName>Sabreman</GenericName>
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.05</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.05</WalkSpeed>
+  </UnitMotion>
 </Entity>

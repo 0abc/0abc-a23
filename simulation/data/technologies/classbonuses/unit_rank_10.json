@@ -1,0 +1,29 @@
+{
+  "affects": ["10", "11", "12"],
+  "autoResearch": true,
+  "modifications": [
+    {"value": "Attack/Capture/Value",       "multiply": 1.05                                },
+    {"value": "Attack/Melee/Crush",         "multiply": 1.05, "affects": "Melee"            },
+    {"value": "Attack/Melee/Hack",          "multiply": 1.05, "affects": "Melee"            },
+    {"value": "Attack/Melee/Pierce",        "multiply": 1.05, "affects": "Melee"            },
+    {"value": "Attack/Melee/Thrust",        "multiply": 1.05, "affects": "Melee"            },
+    {"value": "Attack/Ranged/Crush",        "multiply": 1.05, "affects": "Ranged"           },
+    {"value": "Attack/Ranged/Hack",         "multiply": 1.05, "affects": "Ranged"           },
+    {"value": "Attack/Ranged/Pierce",       "multiply": 1.05, "affects": "Ranged"           },
+    {"value": "Attack/Ranged/Spread",       "multiply": 0.99, "affects": "Ranged"           },
+    {"value": "Attack/Ranged/Thrust",       "multiply": 1.05, "affects": "Ranged"           },
+    {"value": "Cost/BuildTime",             "multiply": 1.05                                },
+    {"value": "Health/Max",                 "multiply": 1.05                                },
+    {"value": "ResourceGatherer/BaseSpeed", "multiply": 0.9                                 },
+    {"value": "Loot/xp",                    "add":      20,   "affects": "Biga"             },
+    {"value": "Loot/xp",                    "add":       8,   "affects": "Camel"            },
+    {"value": "Loot/xp",                    "add":      10,   "affects": "Cavalry"          },
+    {"value": "Loot/xp",                    "add":       3,   "affects": "Dog"              },
+    {"value": "Loot/xp",                    "add":      30,   "affects": "Elephant"         },
+    {"value": "Loot/xp",                    "add":       5,   "affects": "Infantry"         },
+    {"value": "Loot/xp",                    "add":      25,   "affects": "Quadriga"         },
+    {"value": "UnitMotion/Run/Speed",       "multiply": 1.01, "affects": "Melee"            },
+    {"value": "UnitMotion/WalkSpeed",       "multiply": 1.01, "affects": "Melee"            }
+  ],
+  "tooltip": "Units promoted to the tenth rank gain +5% health, +5% attack damage, and +5% capture attack, but also +5% training time and −10% resource gather speed; melee units also have +1% movement speed and ranged units −1% spread."
+}

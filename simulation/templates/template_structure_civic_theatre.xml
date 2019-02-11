@@ -40,6 +40,8 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
+    <Root>false</Root>
     <Radius>100</Radius>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
 </Entity>

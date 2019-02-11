@@ -2,14 +2,15 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Roman Swordsman</GenericName>
+    <GenericName>Experienced Swordsman</GenericName>
     <Icon>units/rome_infantry_swordsman.png</Icon>
     <Lang>latin</Lang>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_swordsman</SelectionGroupName>
-    <SpecificName>Hastatus</SpecificName>
+    <SpecificName>Princeps</SpecificName>
+    <VisibleClasses datatype="tokens">Roman Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_a.xml</Actor>
+    <Actor>units/romans/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

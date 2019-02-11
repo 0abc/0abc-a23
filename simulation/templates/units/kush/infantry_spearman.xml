@@ -5,8 +5,9 @@
     <GenericName>Nubian Spearman</GenericName>
     <Icon>units/kush_infantry_spearman.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SelectionGroupName>units/kush_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/kush/infantry_spearman</SelectionGroupName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <VisibleClasses datatype="tokens">Kushite Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_spearman_a.xml</Actor>

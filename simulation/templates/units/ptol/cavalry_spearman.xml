@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/cavalry_spearman</SelectionGroupName>
     <SpecificName>Ἱππεύς Μακεδονικός</SpecificName>
+    <VisibleClasses datatype="tokens">Macedonian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_spearman_a_m.xml</Actor>

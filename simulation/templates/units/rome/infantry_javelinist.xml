@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_javelinist</SelectionGroupName>
     <SpecificName>Veles</SpecificName>
+    <VisibleClasses datatype="tokens">Roman Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/romans/infantry_javelinist_a.xml</Actor>

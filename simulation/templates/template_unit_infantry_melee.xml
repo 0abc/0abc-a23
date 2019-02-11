@@ -16,10 +16,4 @@
     <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
-  <UnitMotion>
-    <Run>
-      <Speed op="mul">1.0</Speed>
-    </Run>
-    <WalkSpeed op="mul">1.0</WalkSpeed>
-  </UnitMotion>
 </Entity>

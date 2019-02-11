@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_javelinist</SelectionGroupName>
     <SpecificName>Baguada</SpecificName>
+    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/infantry_javelinist_a.xml</Actor>

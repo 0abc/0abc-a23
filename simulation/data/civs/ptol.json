@@ -77,11 +77,11 @@
       "Count": 2
     },
     {
-      "Template": "units/ptol/infantry_javelinist",
+      "Template": "units/ptol/infantry_slinger",
       "Count": 2
     },
     {
-      "Template": "units/ptol/camel_archer"
+      "Template": "units/ptol/cavalry_spearman"
     }
   ],
   "Formations":
@@ -123,9 +123,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/ptol/camel_archer",
+    "skirmish/units/default_cavalry": "units/ptol/cavalry_spearman",
     "skirmish/units/default_infantry_melee_b": "units/ptol/infantry_pikeman",
-    "skirmish/units/default_infantry_ranged_b": "units/ptol/infantry_javelinist",
+    "skirmish/units/default_infantry_ranged_b": "units/ptol/infantry_slinger",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

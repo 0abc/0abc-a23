@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_spearman</SelectionGroupName>
     <SpecificName>Htr</SpecificName>
+    <VisibleClasses datatype="tokens">Kushite</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/cavalry_spearman_a_m.xml</Actor>

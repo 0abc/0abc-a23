@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>athen</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <GenericName>Cretan Archer</GenericName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/athen/infantry_archer</SelectionGroupName>
+    <SpecificName>Τοξότης Κρητικός</SpecificName>
+    <VisibleClasses datatype="tokens">Cretan Mercenary</VisibleClasses>
+  </Identity>
+  <ResourceGatherer disable=""/>
+  <VisualActor>
+    <Actor>units/athenians/infantry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

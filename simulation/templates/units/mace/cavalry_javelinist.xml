@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Ἱππακοντιστὴς Ὀδρυσός</SpecificName>
+    <VisibleClasses datatype="tokens">Odrysian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_a_m.xml</Actor>

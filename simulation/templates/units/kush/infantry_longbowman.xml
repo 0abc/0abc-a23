@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_archer</SelectionGroupName>
     <SpecificName>Pdty Nhsyw</SpecificName>
+    <VisibleClasses datatype="tokens">Kushite Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_archer_a.xml</Actor>

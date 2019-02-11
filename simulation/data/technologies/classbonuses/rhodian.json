@@ -1,0 +1,9 @@
+{
+  "affects": ["Rhodian"],
+  "autoResearch": true,
+  "genericName": "Rhodian Slingers",
+  "modifications": [
+    {"value": "Attack/Ranged/Spread",       "multiply": 0.80, "affects": "Ranged"           }
+  ],
+  "tooltip": "Rhodian Slingers −20% ranged attack spread."
+}

@@ -8,7 +8,7 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <Thrust>8</Thrust>
+      <Thrust>9</Thrust>
     </Melee>
   </Attack>
   <Identity>

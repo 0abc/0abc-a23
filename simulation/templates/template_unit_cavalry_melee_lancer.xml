@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee">
   <Attack>
     <Melee>
-      <Crush>1</Crush>
+      <Crush>2</Crush>
       <Thrust>8</Thrust>
     </Melee>
   </Attack>

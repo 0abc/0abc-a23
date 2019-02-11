@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_swordsman</SelectionGroupName>
     <SpecificName>knw hps</SpecificName>
+    <VisibleClasses datatype="tokens">Kushite Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_swordsman_a.xml</Actor>

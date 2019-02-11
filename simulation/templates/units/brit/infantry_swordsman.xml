@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_longswordsman</SelectionGroupName>
     <SpecificName>Delamokludda</SpecificName>
+    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/britons/infantry_swordsman_c.xml</Actor>

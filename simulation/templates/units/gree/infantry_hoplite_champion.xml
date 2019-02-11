@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_hoplite">
+  <Builder disable=""/>
   <Identity>
     <Civ>gree</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <Icon>units/spart_champion_infantry_spear.png</Icon>
     <Lang>greek</Lang>
     <GenericName>Spartan Hoplite</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_hoplite_champion</SelectionGroupName>
     <SpecificName>Σπαρτιάτης</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Spartan Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/spartans/infantry_spearman_c.xml</Actor>
   </VisualActor>

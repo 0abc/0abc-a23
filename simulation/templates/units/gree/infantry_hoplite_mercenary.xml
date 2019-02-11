@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_hoplite">
+  <Identity>
+    <Civ>gree</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <GenericName>Mercenary Hoplite</GenericName>
+    <Icon>units/samnite_spearman.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/gree/infantry_hoplite_mercenary</SelectionGroupName>
+    <SpecificName>Ὁπλίτης</SpecificName>
+    <VisibleClasses datatype="tokens">Greek Mercenary</VisibleClasses>
+  </Identity>
+  <ResourceGatherer disable=""/>
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

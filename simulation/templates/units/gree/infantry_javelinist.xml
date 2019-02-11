@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_javelinist</SelectionGroupName>
     <SpecificName>Ἀκοντιστής</SpecificName>
+    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/infantry_javelinist_a.xml</Actor>

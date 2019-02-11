@@ -78,7 +78,7 @@
       "Count": 5
     },
     {
-      "Template": "units/rome/infantry_swordsman",
+      "Template": "units/rome/infantry_sabreman",
       "Count": 2
     },
     {
@@ -123,7 +123,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/rome/cavalry_spearman",
-    "skirmish/units/default_infantry_melee_b": "units/rome/infantry_swordsman",
+    "skirmish/units/default_infantry_melee_b": "units/rome/infantry_sabreman",
     "skirmish/units/default_infantry_ranged_b": "units/rome/infantry_javelinist",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },

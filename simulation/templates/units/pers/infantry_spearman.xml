@@ -7,8 +7,9 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman</SelectionGroupName>
     <SpecificName>Sparabara</SpecificName>
+    <VisibleClasses datatype="tokens">Persian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/infantry_spearman_a.xml</Actor>
+    <Actor>units/persians/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

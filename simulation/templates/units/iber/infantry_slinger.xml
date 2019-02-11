@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_slinger</SelectionGroupName>
     <SpecificName>Habailari</SpecificName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/infantry_slinger_a.xml</Actor>

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_maceman">
+  <Builder disable=""/>
   <Identity>
     <Civ>maur</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <SpecificName>Warrior</SpecificName>
     <Icon>units/maur_champion_maceman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_maceman_champion</SelectionGroupName>
     <SpecificName>Yōddha</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Indian Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/mauryans/infantry_maceman_c.xml</Actor>
   </VisualActor>

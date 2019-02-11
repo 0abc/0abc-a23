@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder disable=""/>
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Italic Heavy Infantry</GenericName>
     <Icon>units/rome_champion_infantry.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_swordsman_champion</SelectionGroupName>
     <SpecificName>Extraordinarius</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Italic Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_c.xml</Actor>
   </VisualActor>

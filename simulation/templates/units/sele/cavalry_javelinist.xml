@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Ἱππακοντίστης</SpecificName>
+    <VisibleClasses datatype="tokens">Macedonian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>

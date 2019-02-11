@@ -1,12 +1,9 @@
 {
   "affects": ["NavalTrader"],
-  "auraDescription": "Merchant ships in a convoy +1 crush, hack, pierce, and thrust armour.",
+  "auraDescription": "Merchant ships in a convoy +2 pierce armour.",
   "auraName": "Convoy",
   "modifications": [
-    {"value": "Armour/Crush",  "add": 1},
-    {"value": "Armour/Hack",   "add": 1},
-    {"value": "Armour/Pierce", "add": 1},
-    {"value": "Armour/Thrust", "add": 1}
+    {"value": "Armour/Pierce", "add": 2}
   ],
   "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
   "radius": 20,

@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_slinger</SelectionGroupName>
     <SpecificName>Iaosae</SpecificName>
+    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/infantry_slinger_a.xml</Actor>

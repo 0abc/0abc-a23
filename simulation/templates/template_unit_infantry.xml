@@ -64,10 +64,10 @@
     <Height>2.5</Height>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Classes datatype="tokens">Human Organic Citizen CitizenSoldier</Classes>
     <GenericName>Infantry</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Infantry Citizen Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Infantry</VisibleClasses>
   </Identity>
   <Loot>
     <xp>60</xp>
@@ -124,6 +124,12 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.0</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.0</WalkSpeed>
+  </UnitMotion>
   <Vision>
     <Range>75</Range>
   </Vision>

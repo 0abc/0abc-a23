@@ -6,11 +6,17 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>6</Crush>
+      <Crush>7</Crush>
     </Melee>
   </Attack>
   <Identity>
     <GenericName>Maceman</GenericName>
     <VisibleClasses datatype="tokens">Maceman</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.0</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.0</WalkSpeed>
+  </UnitMotion>
 </Entity>

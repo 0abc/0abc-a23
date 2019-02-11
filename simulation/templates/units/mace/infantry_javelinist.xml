@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_javelinist</SelectionGroupName>
     <SpecificName>Pελταστής Ἀγρίας</SpecificName>
+    <VisibleClasses datatype="tokens">Agrianian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/infantry_javelinist_a.xml</Actor>

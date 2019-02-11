@@ -3,10 +3,11 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <Icon>units/pers_champion_elephant.png</Icon>
+    <Icon>units/pers_elephant_mercenary.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/war_elephant</SelectionGroupName>
     <SpecificName>Hinduya Pila</SpecificName>
+    <VisibleClasses datatype="tokens">IndianElephant Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/elephantry_c_m.xml</Actor>

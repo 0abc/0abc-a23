@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/war_elephant</SelectionGroupName>
     <SpecificName>Αἰθιοπικός Ἐλέφας</SpecificName>
+    <VisibleClasses datatype="tokens">NorthAfricanElephant</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/elephantry_c_m.xml</Actor>

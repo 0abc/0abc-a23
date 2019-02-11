@@ -6,11 +6,17 @@
   </Armour>
   <Attack>
     <Melee>
-      <Thrust>6</Thrust>
+      <Thrust>7</Thrust>
     </Melee>
   </Attack>
   <Identity>
     <GenericName>Spearman</GenericName>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.0</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.0</WalkSpeed>
+  </UnitMotion>
 </Entity>

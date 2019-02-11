@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_spearman</SelectionGroupName>
     <SpecificName>Eques Romanus</SpecificName>
+    <VisibleClasses datatype="tokens">Roman</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/romans/cavalry_spearman_a_m.xml</Actor>

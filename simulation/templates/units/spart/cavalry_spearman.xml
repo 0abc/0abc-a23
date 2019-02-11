@@ -8,6 +8,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart/cavalry_spearman</SelectionGroupName>
     <SpecificName>Ἱππεύς Συμμαχικός</SpecificName>
+    <VisibleClasses datatype="tokens">Greek</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/cavalry_spearman_a_m.xml</Actor>

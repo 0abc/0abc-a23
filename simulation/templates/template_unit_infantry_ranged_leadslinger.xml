@@ -15,4 +15,10 @@
     <GenericName>Lead Slinger</GenericName>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
   </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.15</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.15</WalkSpeed>
+  </UnitMotion>
 </Entity>

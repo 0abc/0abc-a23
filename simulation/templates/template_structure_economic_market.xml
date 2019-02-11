@@ -7,7 +7,7 @@
     <SearchRange>100</SearchRange>
   </AlertRaiser>
   <Capturable>
-    <CapturePoints>500</CapturePoints>
+    <CapturePoints>600</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>120</BuildTime>

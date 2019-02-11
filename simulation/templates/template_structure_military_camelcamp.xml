@@ -34,6 +34,12 @@
       units/{civ}/camel_archer
       units/{civ}/camel_javelinist
       units/{civ}/camel_spearman
+      units/{civ}/camel_archer_mercenary
+      units/{civ}/camel_javelinist_mercenary
+      units/{civ}/camel_spearman_mercenary
+      units/{civ}/camel_archer_champion
+      units/{civ}/camel_javelinist_champion
+      units/{civ}/camel_spearman_champion
     </Entities>
   </ProductionQueue>
   <Sound>

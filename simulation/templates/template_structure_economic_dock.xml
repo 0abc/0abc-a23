@@ -5,7 +5,7 @@
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>500</CapturePoints>
+    <CapturePoints>600</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>150</BuildTime>

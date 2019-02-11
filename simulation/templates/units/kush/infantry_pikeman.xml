@@ -7,6 +7,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_pikeman</SelectionGroupName>
     <SpecificName>si3wrd</SpecificName>
+    <VisibleClasses datatype="tokens">Kushite Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_pikeman_a.xml</Actor>

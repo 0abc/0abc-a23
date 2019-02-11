@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_hoplite">
+  <Identity>
+    <Civ>cart</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <GenericName>Samnite Spearman</GenericName>
+    <Icon>units/samnite_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/cart/infantry_hoplite_mercenary_2</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Samnite Mercenary</VisibleClasses>
+  </Identity>
+  <ResourceGatherer disable=""/>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_spearman_c_samnite.xml</Actor>
+  </VisualActor>
+</Entity>
