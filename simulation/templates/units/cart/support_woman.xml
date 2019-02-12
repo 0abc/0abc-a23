@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Carthaginian Woman</GenericName>
-    <Icon>units/cart_support_female_citizen.png</Icon>
+    <Icon>units/support_woman_cart.png</Icon>
     <SelectionGroupName>units/iber/support_woman</SelectionGroupName>
     <SpecificName>Aštāh</SpecificName>
   </Identity>

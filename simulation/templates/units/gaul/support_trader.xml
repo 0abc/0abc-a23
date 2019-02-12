@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>gaul</Civ>
-    <Icon>units/celt_support_trader.png</Icon>
+    <Icon>units/support_trader_celt.png</Icon>
     <SpecificName>Cyfnewidiwr</SpecificName>
   </Identity>
   <VisualActor>

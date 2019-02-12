@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>gaul</Civ>
-    <Icon>units/celt_mechanical_siege_ram.png</Icon>
+    <Icon>units/siege_ram_celt.png</Icon>
     <SpecificName>Reithe</SpecificName>
   </Identity>
   <VisualActor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Egyptian Woman</GenericName>
-    <Icon>units/ptol_support_female_citizen.png</Icon>
+    <Icon>units/support_woman_ptol.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/ptol/support_woman</SelectionGroupName>
     <SpecificName>Γύνη Αἰγύπτια</SpecificName>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_fauna_wild_aggressive_dog">
   <Identity>
     <GenericName>Mastiff</GenericName>
-    <Icon>gaia/fauna_dog.png</Icon>
+    <Icon>gaia/fauna_dog_mastiff.png</Icon>
     <SpecificName>Canis lupus familiaris</SpecificName>
   </Identity>
   <VisualActor>

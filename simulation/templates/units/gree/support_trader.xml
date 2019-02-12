@@ -6,11 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>gree</Civ>
-    <Icon>units/hele_support_trader.png</Icon>
+    <Icon>units/support_trader_gree.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/trader.xml</Actor>
+    <Actor>units/greeks/trader.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Identity>
+    <GenericName>Dragon</GenericName>
+    <Icon>units/dragon.png</Icon>
+    <SpecificName>Draco</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <VisualActor>
+    <Actor>fauna/dragon.xml</Actor>
+  </VisualActor>
+</Entity>

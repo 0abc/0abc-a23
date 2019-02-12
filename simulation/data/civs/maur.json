@@ -78,6 +78,9 @@
       "Count": 5
     },
     {
+      "Template": "units/maur/support_trader"
+    },
+    {
       "Template": "units/maur/infantry_spearman",
       "Count": 2
     },
@@ -90,6 +93,10 @@
     },
     {
       "Template": "units/maur/support_elephant"
+    },
+    {
+      "Template": "gaia/fauna_goat",
+      "Count": 4
     }
   ],
   "Formations":

@@ -72,6 +72,9 @@
       "Count": 5
     },
     {
+      "Template": "units/iber/support_trader"
+    },
+    {
       "Template": "units/iber/infantry_sabreman",
       "Count": 2
     },
@@ -81,6 +84,10 @@
     },
     {
       "Template": "units/iber/cavalry_javelinist"
+    },
+    {
+      "Template": "gaia/fauna_sheep",
+      "Count": 3
     }
   ],
   "Formations":

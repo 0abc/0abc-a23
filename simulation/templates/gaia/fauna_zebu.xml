@@ -13,16 +13,13 @@
     <Anchor>pitch</Anchor>
   </Position>
   <ResourceSupply>
-    <Amount>150</Amount>
-    <Type>food.meat</Type>
+    <Amount>300</Amount>
   </ResourceSupply>
   <UnitMotion>
     <Run>
-      <Speed>15.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
+      <Speed op="mul">0.6</Speed>
     </Run>
-    <WalkSpeed>6.0</WalkSpeed>
+    <WalkSpeed op="mul">0.6</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/zebu.xml</Actor>

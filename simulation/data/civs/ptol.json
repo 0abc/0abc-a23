@@ -73,6 +73,9 @@
       "Count": 5
     },
     {
+      "Template": "units/ptol/support_trader"
+    },
+    {
       "Template": "units/ptol/infantry_pikeman",
       "Count": 2
     },
@@ -82,6 +85,10 @@
     },
     {
       "Template": "units/ptol/cavalry_spearman"
+    },
+    {
+      "Template": "gaia/fauna_goat",
+      "Count": 4
     }
   ],
   "Formations":

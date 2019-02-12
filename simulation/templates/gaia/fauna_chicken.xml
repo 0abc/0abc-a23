@@ -18,7 +18,6 @@
   <ResourceSupply>
     <Amount>10</Amount>
     <MaxGatherers>1</MaxGatherers>
-    <Type>food.meat</Type>
   </ResourceSupply>
   <Sound>
     <SoundGroups>

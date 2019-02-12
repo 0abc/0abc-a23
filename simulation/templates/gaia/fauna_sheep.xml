@@ -12,6 +12,9 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
+  <ResourceSupply>
+    <Amount>100</Amount>
+  </ResourceSupply>
   <Sound>
     <SoundGroups>
       <death>actor/fauna/animal/sheep.xml</death>

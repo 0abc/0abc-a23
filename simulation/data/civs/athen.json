@@ -73,6 +73,9 @@
       "Count": 5
     },
     {
+      "Template": "units/athen/support_trader"
+    },
+    {
       "Template": "units/athen/infantry_hoplite",
       "Count": 2
     },
@@ -82,6 +85,10 @@
     },
     {
       "Template": "units/athen/cavalry_javelinist"
+    },
+    {
+      "Template": "gaia/fauna_goat",
+      "Count": 4
     }
   ],
   "Formations":

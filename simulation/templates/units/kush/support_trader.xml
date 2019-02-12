@@ -7,7 +7,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Nilotic Merchant</GenericName>
-    <Icon>units/kush_support_trader.png</Icon>
+    <Icon>units/support_trader_kush.png</Icon>
     <SpecificName>rmt sbt</SpecificName>
   </Identity>
   <VisualActor>

@@ -73,6 +73,9 @@
       "Count": 5
     },
     {
+      "Template": "units/mace/support_trader"
+    },
+    {
       "Template": "units/mace/infantry_pikeman",
       "Count": 2
     },
@@ -82,6 +85,10 @@
     },
     {
       "Template": "units/mace/cavalry_lancer"
+    },
+    {
+      "Template": "gaia/fauna_sheep",
+      "Count": 3
     }
   ],
   "Formations":

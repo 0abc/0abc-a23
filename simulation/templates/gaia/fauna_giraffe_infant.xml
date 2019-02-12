@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <GenericName>Juvenile Giraffe</GenericName>
-    <Icon>gaia/fauna_giraffe.png</Icon>
+    <Icon>gaia/fauna_giraffe_infant.png</Icon>
     <SpecificName>Giraffa camelopardalis</SpecificName>
   </Identity>
   <Position>

@@ -2,7 +2,11 @@
 <Entity parent="gaia/fauna_horse">
   <Identity>
     <GenericName>Pony</GenericName>
+    <Icon>gaia/fauna_horse_pony.png</Icon>
   </Identity>
+  <ResourceSupply>
+    <Amount>160</Amount>
+  </ResourceSupply>
   <UnitMotion>
     <Run>
       <Speed op="mul">0.8</Speed>

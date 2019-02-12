@@ -72,6 +72,9 @@
       "Count": 5
     },
     {
+      "Template": "units/sele/support_trader"
+    },
+    {
       "Template": "units/sele/infantry_spearman",
       "Count": 2
     },
@@ -81,6 +84,10 @@
     },
     {
       "Template": "units/sele/cavalry_javelinist"
+    },
+    {
+      "Template": "gaia/fauna_sheep",
+      "Count": 3
     }
   ],
   "Formations":

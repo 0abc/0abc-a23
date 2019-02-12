@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Blemmye Desert Raider</GenericName>
-    <Icon>units/kush_merc_camelry.png</Icon>
+    <Icon>units/camel_javelinist_mercenary.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/camel_javelinist_mercenary</SelectionGroupName>
     <SpecificName>nhw Bulahau gml</SpecificName>

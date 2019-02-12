@@ -6,14 +6,14 @@
   </Footprint>
   <Identity>
     <GenericName>Dromedary</GenericName>
-    <Icon>gaia/fauna_camel.png</Icon>
+    <Icon>gaia/fauna_dromedary.png</Icon>
     <SpecificName>Camelus dromedarius</SpecificName>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
   <ResourceSupply>
-    <Amount>200</Amount>
+    <Amount>250</Amount>
   </ResourceSupply>
   <Selectable>
     <Overlay>
@@ -32,9 +32,9 @@
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed op="mul">0.45</Speed>
+      <Speed op="mul">0.7</Speed>
     </Run>
-    <WalkSpeed op="mul">0.45</WalkSpeed>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/camel.xml</Actor>

@@ -2,6 +2,7 @@
 <Entity parent="gaia/fauna_lion">
   <Identity>
     <GenericName>Lioness</GenericName>
+    <Icon>gaia/fauna_lioness.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>fauna/lioness.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Kushite Woman</GenericName>
-    <Icon>units/kush_support_female_citizen.png</Icon>
+    <Icon>units/support_woman_kush.png</Icon>
     <SelectionGroupName>units/kush/support_woman</SelectionGroupName>
     <SpecificName>Shmt</SpecificName>
   </Identity>

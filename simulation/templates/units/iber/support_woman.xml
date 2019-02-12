@@ -3,7 +3,7 @@
   <Identity>
     <Civ>iber</Civ>
     <GenericName>Iberian Woman</GenericName>
-    <Icon>units/iber_support_female_citizen.png</Icon>
+    <Icon>units/support_woman_iber.png</Icon>
     <SelectionGroupName>units/iber/support_woman</SelectionGroupName>
     <SpecificName>Emazteki</SpecificName>
   </Identity>

@@ -74,6 +74,9 @@
       "Count": 5
     },
     {
+      "Template": "units/kush/support_trader"
+    },
+    {
       "Template": "units/kush/infantry_spearman",
       "Count": 2
     },
@@ -83,6 +86,10 @@
     },
     {
       "Template": "units/kush/cavalry_javelinist"
+    },
+    {
+      "Template": "gaia/fauna_sheep",
+      "Count": 3
     }
   ],
   "Formations":

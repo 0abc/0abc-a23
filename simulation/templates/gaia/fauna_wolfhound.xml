@@ -2,7 +2,7 @@
 <Entity parent="template_unit_fauna_wild_aggressive_dog">
   <Identity>
     <GenericName>Wolfhound</GenericName>
-    <Icon>units/brit_wolfhound.png</Icon>
+    <Icon>units/brit_dog_wolfhound.png</Icon>
     <SpecificName>Canis lupus familiaris</SpecificName>
   </Identity>
   <VisualActor>

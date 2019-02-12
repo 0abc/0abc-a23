@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>mace</Civ>
-    <Icon>units/hele_support_healer.png</Icon>
+    <Icon>units/support_healer_gree.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mace/support_healer</SelectionGroupName>
     <SpecificName>Ἰατρός</SpecificName>

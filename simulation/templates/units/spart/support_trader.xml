@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>spart</Civ>
-    <Icon>units/hele_support_trader.png</Icon>
+    <Icon>units/support_trader_rome.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>

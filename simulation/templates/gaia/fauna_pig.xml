@@ -12,6 +12,9 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
+  <ResourceSupply>
+    <Amount>150</Amount>
+  </ResourceSupply>
   <Sound>
     <SoundGroups>
       <death>actor/fauna/animal/pig.xml</death>
@@ -25,9 +28,9 @@
   </StatusBars>
   <UnitMotion>
     <Run>
-      <Speed op="mul">0.45</Speed>
+      <Speed op="mul">0.4</Speed>
     </Run>
-    <WalkSpeed op="mul">0.45</WalkSpeed>
+    <WalkSpeed op="mul">0.4</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/pig1.xml</Actor>

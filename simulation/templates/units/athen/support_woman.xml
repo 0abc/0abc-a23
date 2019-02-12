@@ -3,7 +3,7 @@
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Athenian Woman</GenericName>
-    <Icon>units/hele_support_female_citizen.png</Icon>
+    <Icon>units/support_woman_athen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen/support_woman</SelectionGroupName>
     <SpecificName>Γύνη Ἀθηναία</SpecificName>

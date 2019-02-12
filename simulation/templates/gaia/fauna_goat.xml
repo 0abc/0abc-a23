@@ -13,9 +13,7 @@
     <Anchor>pitch</Anchor>
   </Position>
   <ResourceSupply>
-    <Amount>100</Amount>
-    <MaxGatherers>6</MaxGatherers>
-    <Type>food.meat</Type>
+    <Amount>75</Amount>
   </ResourceSupply>
   <Sound>
     <SoundGroups>
@@ -27,9 +25,9 @@
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed op="mul">0.45</Speed>
+      <Speed op="mul">0.5</Speed>
     </Run>
-    <WalkSpeed op="mul">0.45</WalkSpeed>
+    <WalkSpeed op="mul">0.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/goat.xml</Actor>

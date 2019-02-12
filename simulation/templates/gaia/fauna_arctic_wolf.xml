@@ -2,7 +2,7 @@
 <Entity parent="template_unit_fauna_wild_aggressive_wolf">
   <Identity>
     <GenericName>Arctic Wolf</GenericName>
-    <Icon>gaia/fauna_arctic_wolf.png</Icon>
+    <Icon>gaia/fauna_wolf_arctic.png</Icon>
     <SpecificName>Canis lupus</SpecificName>
   </Identity>
   <VisualActor>

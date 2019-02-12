@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>rome</Civ>
+    <Icon>units/support_trader_rome.png</Icon>
     <Lang>latin</Lang>
-    <Icon>units/rome_support_trader.png</Icon>
     <SpecificName>Mercator</SpecificName>
   </Identity>
   <VisualActor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Priest</GenericName>
-    <Icon>units/kush_support_healer.png</Icon>
+    <Icon>units/support_healer_kush.png</Icon>
     <SelectionGroupName>units/kush/support_healer</SelectionGroupName>
     <SpecificName>w’b nsw</SpecificName>
   </Identity>

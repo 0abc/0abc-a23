@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <Icon>units/cart_support_trader.png</Icon>
+    <Icon>units/support_trader_pers.png</Icon>
     <SpecificName>Mekir</SpecificName>
   </Identity>
   <Sound>

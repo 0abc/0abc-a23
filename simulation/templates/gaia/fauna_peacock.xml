@@ -9,9 +9,8 @@
     <SpecificName>Pavo cristatus</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>50</Amount>
-    <MaxGatherers>5</MaxGatherers>
-    <Type>food.meat</Type>
+    <Amount>20</Amount>
+    <MaxGatherers>1</MaxGatherers>
   </ResourceSupply>
   <Sound>
     <SoundGroups>
@@ -32,9 +31,9 @@
   </UnitAI>
   <UnitMotion>
     <Run>
-      <Speed op="mul">0.3</Speed>
+      <Speed op="mul">0.25</Speed>
     </Run>
-    <WalkSpeed op="mul">0.3</WalkSpeed>
+    <WalkSpeed op="mul">0.25</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/peacock.xml</Actor>

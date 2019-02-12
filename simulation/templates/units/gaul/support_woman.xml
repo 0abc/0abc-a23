@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gaul</Civ>
     <GenericName>Celtic Woman</GenericName>
-    <Icon>units/celt_support_female_citizen.png</Icon>
+    <Icon>units/support_woman_gaul.png</Icon>
     <SelectionGroupName>units/gaul/support_woman</SelectionGroupName>
     <SpecificName>Bodu</SpecificName>
   </Identity>
