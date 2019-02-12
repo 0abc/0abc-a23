@@ -39,9 +39,6 @@
     <Entities datatype="tokens">
       units/{civ}/war_dog
     </Entities>
-    <Technologies datatype="tokens">
-      training_kennel
-    </Technologies>
   </ProductionQueue>
   <ResourceTrickle disable=""/>
   <Sound>

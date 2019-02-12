@@ -40,14 +40,13 @@
       units/{civ}/infantry_pikeman_champion
       units/{civ}/infantry_spearman_champion
       units/{civ}/infantry_hoplite_champion
+      units/{civ}/infantry_swordsman_champion
+      units/{civ}/infantry_sabreman_champion
       units/{civ}/infantry_axeman_champion
       units/{civ}/infantry_maceman_champion
-      units/{civ}/infantry_sabreman_champion
-      units/{civ}/infantry_swordsman_champion
       units/{civ}/infantry_javelinist_champion
       units/{civ}/infantry_longbowman_champion
       units/{civ}/infantry_archer_champion
-      units/{civ}/infantry_crossbowman_champion
       units/{civ}/infantry_slinger_champion
     </Entities>
     <Technologies datatype="tokens">

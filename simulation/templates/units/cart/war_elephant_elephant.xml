@@ -3,11 +3,11 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>North African War Elephant</GenericName>
-    <Icon>units/cart_champion_elephant.png</Icon>
+    <Icon>units/elephant_champion_cart.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/cart/war_elephant</SelectionGroupName>
+    <SelectionGroupName>units/cart/war_elephant_champion</SelectionGroupName>
     <SpecificName>Pil Malḥamit</SpecificName>
-    <VisibleClasses datatype="tokens">NorthAfricanElephant</VisibleClasses>
+    <VisibleClasses datatype="tokens">NorthAfricanElephant Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/elephantry_c_m.xml</Actor>

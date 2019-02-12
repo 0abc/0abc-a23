@@ -2,12 +2,14 @@
 <Entity parent="template_unit_infantry_melee_longswordsman">
   <Identity>
     <Civ>brit</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <Icon>units/brit_champion_infantry.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/brit/infantry_longswordsman</SelectionGroupName>
+    <SelectionGroupName>units/brit/infantry_longswordsman_champion</SelectionGroupName>
     <SpecificName>Delamokludda</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Celt Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/britons/infantry_swordsman_c.xml</Actor>
   </VisualActor>

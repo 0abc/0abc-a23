@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>gree</Civ>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Ἱππών</SpecificName>
   </Identity>
   <Obstruction>

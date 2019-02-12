@@ -35,9 +35,6 @@
       units/{civ}/war_elephant_mercenary
       units/{civ}/war_elephant_champion
     </Entities>
-    <Technologies datatype="tokens">
-      training_elephant_stables
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

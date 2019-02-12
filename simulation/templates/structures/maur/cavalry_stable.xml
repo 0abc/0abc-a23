@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>maur</Civ>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

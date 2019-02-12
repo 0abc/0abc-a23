@@ -80,7 +80,7 @@
     <Classes datatype="tokens">CivCentre CivilCentre ConquestCritical</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Train citizens. Establish trade routes.</Tooltip>
+    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Centre Market</VisibleClasses>
   </Identity>
   <Loot>
@@ -89,23 +89,27 @@
     <xp>250</xp>
   </Loot>
   <Market>
-    <TradeType>land</TradeType>
     <InternationalBonus>0.2</InternationalBonus>
+    <TradeType>land</TradeType>
   </Market>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
+      centre_watch_1
+      centre_watch_2
+      centre_watch_3
+      trade_international
       unlock_shared_los
       unlock_shared_dropsites
       unlock_spies
       unlock_counterespionage
-      centre_watch_1
-      centre_watch_2
-      centre_watch_3
       colonization
     </Technologies>
+    <Entities datatype="tokens">
+      units/{civ}/support_trader
+    </Entities>
   </ProductionQueue>
   <ResourceDropsite>
     <Sharable>true</Sharable>

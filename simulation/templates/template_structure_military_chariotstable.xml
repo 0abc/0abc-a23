@@ -40,9 +40,6 @@
       units/{civ}/quadriga_scythed_mercenary
       units/{civ}/quadriga_scythed_champion
     </Entities>
-    <Technologies datatype="tokens">
-      training_chariot_stables
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

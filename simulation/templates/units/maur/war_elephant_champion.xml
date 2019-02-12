@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant">
+  <Identity>
+    <Civ>maur</Civ>
+    <GenericName>Indian War Elephant</GenericName>
+    <Icon>units/elephant_champion_maur.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/maur/war_elephant_champion</SelectionGroupName>
+    <SpecificName>Gajendra</SpecificName>
+    <VisibleClasses datatype="tokens">IndianElephant Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/elephantry_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

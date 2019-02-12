@@ -25,7 +25,7 @@
     <Classes datatype="tokens">LandMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
-    <Tooltip>Train land traders. Barter resources. Research economic technologies.</Tooltip>
+    <Tooltip>Barter resources. Research economic technologies. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Market BarterMarket</VisibleClasses>
   </Identity>
   <Loot>
@@ -55,11 +55,7 @@
       trade_gain_1
       trade_gain_2
       trade_gain_3
-      trade_international
     </Technologies>
-    <Entities datatype="tokens">
-      units/{civ}/support_trader
-    </Entities>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

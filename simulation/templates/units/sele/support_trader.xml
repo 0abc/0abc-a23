@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_trader">
   <Footprint replace="">
-    <Height>3.0</Height>
-    <Square width="4.0" depth="8.0"/>
+    <Circle radius="2.0"/>
+    <Height>7.5</Height>
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <Icon>units/support_trader_rome.png</Icon>
+    <Icon>units/support_trader_pers.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/death/death_camel.xml</death>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <select>actor/fauna/animal/camel_select.xml</select>
+    </SoundGroups>
+  </Sound>
   <VisualActor>
-    <Actor>units/hellenes/trader.xml</Actor>
+    <Actor>units/persians/trader.xml</Actor>
   </VisualActor>
 </Entity>

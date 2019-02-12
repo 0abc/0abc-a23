@@ -2,12 +2,14 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>gaul</Civ>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <Icon>units/gaul_champion_infantry.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/gaul/infantry_swordsman</SelectionGroupName>
+    <SelectionGroupName>units/gaul/infantry_swordsman_champion</SelectionGroupName>
     <SpecificName>Solduros</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Celt Champion</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/gauls/infantry_swordsman_c.xml</Actor>
   </VisualActor>

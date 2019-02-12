@@ -3,13 +3,13 @@
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <Icon>units/maur_champion_elephant.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>units/elephant_maur.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/war_elephant</SelectionGroupName>
-    <SpecificName>Gajendra</SpecificName>
+    <SpecificName>Vachii Gaja</SpecificName>
     <VisibleClasses datatype="tokens">IndianElephant</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/mauryans/elephantry_c_m.xml</Actor>
+    <Actor>units/mauryas/war_elephant.xml</Actor>
   </VisualActor>
 </Entity>
