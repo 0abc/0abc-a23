@@ -3,7 +3,7 @@
   <BuildRestrictions>
     <Category>Kennel</Category>
     <Distance>
-      <FromClass>Kennel</FromClass>
+      <FromClass>Military</FromClass>
       <MinDistance>10</MinDistance>
     </Distance>
   </BuildRestrictions>
@@ -52,6 +52,6 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
-    <Radius>20</Radius>
+    <Radius>10</Radius>
   </TerritoryInfluence>
 </Entity>

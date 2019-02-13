@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Nabataean Camel Archer</GenericName>
-    <Icon>units/camel_archer_mercenary.png</Icon>
+    <Icon>units/ptol_camel_archer_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/camel_archer_mercenary</SelectionGroupName>
     <SpecificName>Mutsābiq Gamal Nabatu</SpecificName>

@@ -22,6 +22,6 @@
   </BuildingAI>
   <Identity>
     <GenericName>Quadriga Archer</GenericName>
-    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>
 </Entity>

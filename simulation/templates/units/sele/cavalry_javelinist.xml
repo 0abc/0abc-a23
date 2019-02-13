@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Militia Cavalry</GenericName>
-    <Icon>units/sele_cavalry_javelinist.png</Icon>
+    <Icon>units/sele_cavalry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_javelinist</SelectionGroupName>

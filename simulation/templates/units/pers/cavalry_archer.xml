@@ -3,13 +3,13 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Dahae Horse Archer</GenericName>
-    <Icon>units/pers_cavalry_archer.png</Icon>
+    <Icon>units/sele_cavalry_archer_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/cavalry_archer</SelectionGroupName>
     <SpecificName>Dahan Asabara</SpecificName>
     <VisibleClasses datatype="tokens">Dahae</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/seleucids/cavalry_archer_a_m.xml</Actor>
+    <Actor>units/seleucids/cavalry_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

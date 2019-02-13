@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Napatan Light Cavalry</GenericName>
-    <Icon>units/kush_cavalry_javelinist.png</Icon>
+    <Icon>units/kush_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_javelinist</SelectionGroupName>
     <SpecificName>iry hr ssmwtt</SpecificName>

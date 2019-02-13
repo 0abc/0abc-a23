@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Attack>
-    <Melee disable=""/>
     <Ranged>
-      <Bonuses>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.5</Multiplier>
-        </Elephantry>
-      </Bonuses>
       <MaxRange>18</MaxRange>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
-      <Spread>2.0</Spread>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant">
+<Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <Icon>units/elephant_maur.png</Icon>
+    <Icon>units/pers_elephant_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/war_elephant</SelectionGroupName>
     <SpecificName>Vachii Gaja</SpecificName>
-    <VisibleClasses datatype="tokens">IndianElephant</VisibleClasses>
+    <VisibleClasses datatype="tokens">Indian</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/mauryas/war_elephant.xml</Actor>
+    <Actor>units/persians/war_elephant.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,14 +2,14 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>Numidian Cavalry</GenericName>
-    <Icon>units/cart_cavalry_javelinist.png</Icon>
+    <GenericName>Libyan Cavalry</GenericName>
+    <Icon>units/cart_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelinist</SelectionGroupName>
-    <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
-    <VisibleClasses datatype="tokens">Numidian</VisibleClasses>
+    <SpecificName>Ḥayyāl Raḫūv Ḥanīt</SpecificName>
+    <VisibleClasses datatype="tokens">Libyan</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/carthaginians/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

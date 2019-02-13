@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gree</Civ>
     <GenericName>Militia Cavalry</GenericName>
-    <Icon>units/hele_cavalry_javelinist.png</Icon>
+    <Icon>units/athen_cavalry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gree/cavalry_javelinist</SelectionGroupName>

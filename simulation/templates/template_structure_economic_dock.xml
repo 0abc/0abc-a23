@@ -46,7 +46,6 @@
       units/{civ}/ship_fire
     </Entities>
     <Technologies datatype="tokens">
-      gather_fish
       training_naval
     </Technologies>
   </ProductionQueue>

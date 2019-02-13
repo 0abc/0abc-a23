@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_northafrican">
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Ethiopian War Elephant</GenericName>
+    <Icon>units/ptol_elephant_turret_c.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>units/ptol/war_elephant_champion</SelectionGroupName>
+    <SpecificName>Αἰθιοπικός Ἐλέφας</SpecificName>
+    <VisibleClasses datatype="tokens">Ethiopian Champion</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/elephantry_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

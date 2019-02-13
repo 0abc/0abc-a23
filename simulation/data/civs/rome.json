@@ -78,9 +78,6 @@
       "Count": 5
     },
     {
-      "Template": "units/rome/support_trader"
-    },
-    {
       "Template": "units/rome/infantry_sabreman",
       "Count": 2
     },

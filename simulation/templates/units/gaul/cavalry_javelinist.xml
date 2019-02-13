@@ -2,13 +2,13 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>gaul</Civ>
-    <Icon>units/celt_cavalry_javelinist.png</Icon>
+    <Icon>units/gaul_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Gaisaredos</SpecificName>
     <VisibleClasses datatype="tokens">Celt</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/celts/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/celts/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

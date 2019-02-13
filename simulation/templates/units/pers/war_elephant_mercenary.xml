@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant">
+<Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <Icon>units/elephant_mercenary_pers.png</Icon>
+    <Icon>units/pers_elephant_a.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/war_elephant_mercenary</SelectionGroupName>
     <SpecificName>Hinduya Pila</SpecificName>
-    <VisibleClasses datatype="tokens">IndianElephant Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Indian Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/war_elephant.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Dahae Horse Archer</GenericName>
-    <Icon>units/sele_cavalry_archer_mercenary.png</Icon>
+    <Icon>units/sele_cavalry_archer_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_archer</SelectionGroupName>

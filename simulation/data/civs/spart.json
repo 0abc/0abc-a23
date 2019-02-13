@@ -73,9 +73,6 @@
       "Count": 5
     },
     {
-      "Template": "units/spart/support_trader"
-    },
-    {
       "Template": "units/spart/infantry_hoplite",
       "Count": 2
     },

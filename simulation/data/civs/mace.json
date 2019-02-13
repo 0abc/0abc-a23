@@ -73,9 +73,6 @@
       "Count": 5
     },
     {
-      "Template": "units/mace/support_trader"
-    },
-    {
       "Template": "units/mace/infantry_pikeman",
       "Count": 2
     },

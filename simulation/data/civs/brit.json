@@ -74,9 +74,6 @@
       "Count": 5
     },
     {
-      "Template": "units/brit/support_trader"
-    },
-    {
       "Template": "units/brit/infantry_spearman",
       "Count": 2
     },

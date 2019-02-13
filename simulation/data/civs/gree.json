@@ -194,9 +194,6 @@
       "Count": 5
     },
     {
-      "Template": "units/gree/support_trader"
-    },
-    {
       "Template": "units/gree/infantry_hoplite",
       "Count": 2
     },

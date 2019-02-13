@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/iber_champion_cavalry.png</Icon>
+    <Icon>units/iber_cavalry_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelinist_champion</SelectionGroupName>
     <SpecificName>Leial Zalduneria</SpecificName>

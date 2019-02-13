@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_chariot_biga">
   <Attack>
+    <Melee disable=""/>
     <Ranged>
       <Bonuses>
         <Elephantry>
@@ -22,6 +23,6 @@
   </BuildingAI>
   <Identity>
     <GenericName>Biga Archer</GenericName>
-    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>
 </Entity>

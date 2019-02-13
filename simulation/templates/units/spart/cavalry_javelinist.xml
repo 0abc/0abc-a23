@@ -3,7 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Perioikoi Cavalryman</GenericName>
-    <Icon>units/spart_cavalry_javelinist.png</Icon>
+    <Icon>units/spart_cavalry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart/cavalry_javelinist</SelectionGroupName>

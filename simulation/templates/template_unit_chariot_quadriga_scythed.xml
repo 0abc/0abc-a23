@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_chariot_quadriga">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <Crush>5</Crush>
+      <Hack>10</Hack>
+      <MaxRange>5</MaxRange>
+      <Pierce>0</Pierce>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Thrust>10</Thrust>
+    </Melee>
+    <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <MaxRange op="mul">4.0</MaxRange>
+      <Pierce>7</Pierce>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <Spread>3.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Archer</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>2</MaxArrowCount>
+  </BuildingAI>
+  <Identity>
+    <GenericName>Scythed Quadriga</GenericName>
+    <VisibleClasses datatype="tokens">Melee Scythed</VisibleClasses>
+  </Identity>
+</Entity>

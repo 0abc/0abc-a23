@@ -108,6 +108,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * chariotry:
   * composite bow (72 range): 100% pierce
   * javelin (36 range): 100% pierce
+  * scythed (melee): 20% crush, 40% hack, 40% thrust
 * elephantry (melee): 100% crush
 * siege:
   * ram (melee): 100% crush
@@ -203,8 +204,6 @@ Wood:
 * **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, and +15% melee and ranged attack damage.
 * **Cataphract**: +20% silver cost, +2 armour levels, and −5% movement speed.
 * **Fanatic**: −4 armour levels, +15% melee attack damage, and +30% movement speed.
-* **Indian Elephant** (Mauryas, Persians, Seleucids): +10% food and silver costs, training time, health, and melee attack damage.
-* **North African Elephant** (Carthaginians, Kushites, Ptolemies): −10% food and silver costs, training time, health, and melee attack damage.
 * **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, and +5% movement speed.
 * **Cretan**: −20% ranged attack spread.
 * **Libyan**: −5% health, +5% ranged attack damage, −5% reload time, and +5% movement speed.

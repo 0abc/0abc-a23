@@ -2,12 +2,12 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/iber_cavalry_javelinist.png</Icon>
+    <Icon>units/iber_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Kantabriako Zaldun</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/iberians/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

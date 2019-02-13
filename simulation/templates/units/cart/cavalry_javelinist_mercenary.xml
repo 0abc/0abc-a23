@@ -2,14 +2,14 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>Tarantine Mercenary Cavalry</GenericName>
-    <Icon>units/tarentine_cavalry_e.png</Icon>
-    <Lang>greek</Lang>
+    <GenericName>Numidian Cavalry</GenericName>
+    <Icon>units/cart_cavalry_javelinist_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelinist_mercenary</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Tarentine Mercenary</VisibleClasses>
+    <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
+    <VisibleClasses datatype="tokens">Numidian Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_javelinist_e_m.xml</Actor>
+    <Actor>units/carthaginians/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

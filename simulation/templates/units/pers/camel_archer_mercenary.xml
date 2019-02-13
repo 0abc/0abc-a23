@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Arab Camel Archer</GenericName>
-    <Icon>units/camel_archer_mercenary.png</Icon>
+    <Icon>units/ptol_camel_archer_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/camel_archer_mercenary</SelectionGroupName>
     <VisibleClasses datatype="tokens">Arab Mercenary</VisibleClasses>
