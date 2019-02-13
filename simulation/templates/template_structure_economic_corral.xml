@@ -10,7 +10,8 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>3</Max>
+    <Max>5</Max>
+    <List datatype="tokens">Domestic</List>
   </GarrisonHolder>
   <Health>
     <Max>500</Max>
@@ -18,23 +19,12 @@
   <Identity>
     <GenericName>Corral</GenericName>
     <Icon>structures/corral.png</Icon>
-    <Tooltip>Raise herd animals for food.</Tooltip>
+    <Tooltip>Garrison domestic animals.</Tooltip>
     <VisibleClasses datatype="tokens">Corral</VisibleClasses>
   </Identity>
   <Loot>
     <wood>20</wood>
   </Loot>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      gaia/fauna_goat_trainable
-      gaia/fauna_sheep_trainable
-      gaia/fauna_pig_trainable
-      gaia/fauna_zebu_trainable
-    </Entities>
-    <Technologies datatype="tokens">
-      gather_animals_stockbreeding
-    </Technologies>
-  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_corral.xml</constructed>

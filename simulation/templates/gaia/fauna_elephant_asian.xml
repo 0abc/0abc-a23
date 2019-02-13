@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_defensive_elephant">
+<Entity parent="template_gaia_fauna_melee_elephant">
   <Footprint>
     <Height>3.5</Height>
     <Square width="4.0" depth="8.0"/>
   </Footprint>
   <Health>
-    <Max>250</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Asian Elephant</GenericName>
@@ -16,8 +16,7 @@
     <xp>60</xp>
   </Loot>
   <ResourceSupply>
-    <Amount>650</Amount>
-    <Type>food.meat</Type>
+    <Amount>600</Amount>
   </ResourceSupply>
   <VisualActor>
     <Actor>fauna/elephant_asian.xml</Actor>

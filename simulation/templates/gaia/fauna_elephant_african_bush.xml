@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_defensive_elephant">
+<Entity parent="template_gaia_fauna_melee_elephant">
   <Footprint>
     <Height>4.0</Height>
     <Square width="4.6" depth="9.2"/>
   </Footprint>
   <Health>
-    <Max>300</Max>
+    <Max>350</Max>
   </Health>
   <Identity>
     <GenericName>African Bush Elephant</GenericName>
@@ -13,11 +13,10 @@
     <SpecificName>Loxodonta africana</SpecificName>
   </Identity>
   <Loot>
-    <xp>75</xp>
+    <xp>70</xp>
   </Loot>
   <ResourceSupply>
-    <Amount>800</Amount>
-    <Type>food.meat</Type>
+    <Amount>700</Amount>
   </ResourceSupply>
   <VisualActor>
     <Actor>fauna/elephant_african_bush.xml</Actor>

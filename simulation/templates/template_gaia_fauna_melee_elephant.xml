@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_defensive">
+<Entity parent="template_gaia_fauna_melee">
   <Armour>
     <Crush>5</Crush>
     <Hack>3</Hack>
     <Pierce>4</Pierce>
+    <Thrust>2</Thrust>
   </Armour>
   <Attack>
     <Melee>
-      <Bonuses>
-        <Cavalry>
-          <Classes>Cavalry</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Cavalry>
-      </Bonuses>
-      <Crush>20</Crush>
-      <Hack>25</Hack>
+      <Crush>100</Crush>
       <MaxRange>6</MaxRange>
-      <Pierce>10</Pierce>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
-      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <Identity>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>50</xp>
-  </Loot>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <Selectable>
     <Overlay>
       <Texture>
@@ -50,6 +33,9 @@
       <trained>actor/fauna/animal/elephant_trained.xml</trained>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <NaturalBehaviour>defensive</NaturalBehaviour>
+  </UnitAI>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
     <Run>
@@ -57,7 +43,4 @@
     </Run>
     <WalkSpeed op="mul">0.5</WalkSpeed>
   </UnitMotion>
-  <VisualActor>
-    <Actor>fauna/elephant_african_forest.xml</Actor>
-  </VisualActor>
 </Entity>

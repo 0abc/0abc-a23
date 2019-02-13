@@ -54,6 +54,7 @@
   </Builder>
   <Cost>
     <BuildTime>30</BuildTime>
+    <Population>1</Population>
     <Resources>
       <food>30</food>
       <silver>30</silver>

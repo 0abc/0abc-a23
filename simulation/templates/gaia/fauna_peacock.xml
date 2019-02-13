@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_herd_domestic">
+<Entity parent="template_gaia_fauna">
+  <Footprint>
+    <Height>1.0</Height>
+    <Square width="1.8" depth="1.2"/>
+  </Footprint>
   <Health>
-    <Max>10</Max>
+    <Max>5</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Domestic</Classes>
     <GenericName>Peacock</GenericName>
     <Icon>gaia/fauna_peacock.png</Icon>
     <SpecificName>Pavo cristatus</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>20</Amount>
+    <Amount>25</Amount>
     <MaxGatherers>1</MaxGatherers>
   </ResourceSupply>
   <Sound>

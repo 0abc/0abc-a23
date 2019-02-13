@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="gaia/fauna_horse">
+  <Health>
+    <Max op="mul">0.8</Max>
+  </Health>
   <Identity>
     <GenericName>Pony</GenericName>
     <Icon>gaia/fauna_horse_pony.png</Icon>

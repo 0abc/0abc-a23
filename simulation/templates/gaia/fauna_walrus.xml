@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_defensive">
+<Entity parent="template_gaia_fauna_melee">
   <Armour>
     <Crush>5</Crush>
     <Hack>3</Hack>
@@ -8,14 +8,10 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>0</Crush>
-      <Hack>15</Hack>
+      <Crush>10</Crush>
       <MaxRange>4</MaxRange>
-      <Pierce>10</Pierce>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Structure Ship Siege</RestrictedClasses>
-      <Thrust>0</Thrust>
+      <Pierce>15</Pierce>
+      <Thrust>25</Thrust>
     </Melee>
   </Attack>
   <Footprint>
@@ -27,12 +23,8 @@
     <Icon>gaia/fauna_walrus.png</Icon>
     <SpecificName>Odobenus rosmarus</SpecificName>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <ResourceSupply>
     <Amount>300</Amount>
-    <Type>food.meat</Type>
   </ResourceSupply>
   <Selectable>
     <Overlay>
@@ -42,6 +34,9 @@
       </Texture>
     </Overlay>
   </Selectable>
+  <UnitAI>
+    <NaturalBehaviour>defensive</NaturalBehaviour>
+  </UnitAI>
   <VisualActor>
     <Actor>fauna/walrus.xml</Actor>
   </VisualActor>

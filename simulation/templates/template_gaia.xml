@@ -30,15 +30,15 @@
     <EditorOnly/>
   </Selectable>
   <StatusBars>
-    <BarWidth>2.0</BarWidth>
     <BarHeight>0.333</BarHeight>
+    <BarWidth>2.0</BarWidth>
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>
   <Visibility>
-    <RetainInFog>true</RetainInFog>
     <AlwaysVisible>false</AlwaysVisible>
     <Corpse>false</Corpse>
     <Preview>false</Preview>
+    <RetainInFog>true</RetainInFog>
   </Visibility>
   <Vision>
     <Range>0</Range>

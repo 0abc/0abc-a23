@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_fauna">
+  <Health>
+    <Max>150</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">SeaCreature</Classes>
+    <GenericName>Shark</GenericName>
+  </Identity>
+  <Minimap disable=""/>
+  <Obstruction>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+  </Obstruction>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Altitude>-1</Altitude>
+    <FloatDepth>0.0</FloatDepth>
+    <Floating>true</Floating>
+    <TurnRate>5.0</TurnRate>
+  </Position>
+  <ResourceSupply disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <UnitAI>
+    <FleeDistance>60.0</FleeDistance>
+    <NaturalBehaviour>passive</NaturalBehaviour>
+    <RoamDistance>100.0</RoamDistance>
+    <RoamTimeMax>300000</RoamTimeMax>
+    <RoamTimeMin>100000</RoamTimeMin>
+    <FeedTimeMin>1</FeedTimeMin>
+    <FeedTimeMax>2</FeedTimeMax>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed op="mul">0.9</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
+</Entity>

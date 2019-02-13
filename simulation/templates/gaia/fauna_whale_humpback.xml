@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_whale">
+<Entity parent="template_gaia_fauna_whale">
   <Footprint>
     <Height>2.5</Height>
     <Square width="4.0" depth="16.0"/>

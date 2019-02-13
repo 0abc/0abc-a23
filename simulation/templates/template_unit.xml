@@ -39,8 +39,8 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>1</BuildTime>
-    <Population>1</Population>
+    <BuildTime>60</BuildTime>
+    <Population>0</Population>
     <PopulationBonus>0</PopulationBonus>
     <Resources>
       <food>0</food>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia">
+  <Obstruction disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
+    <FeedTimeMax>2</FeedTimeMax>
+    <FeedTimeMin>1</FeedTimeMin>
+    <FleeDistance>10.0</FleeDistance>
+    <FormationController>false</FormationController>
+    <NaturalBehaviour>passive</NaturalBehaviour>
+    <RoamDistance>20</RoamDistance>
+    <RoamTimeMax>100000</RoamTimeMax>
+    <RoamTimeMin>10000</RoamTimeMin>
+  </UnitAI>
+  <VisualActor>
+    <SilhouetteOccluder>false</SilhouetteOccluder>
+  </VisualActor>
+</Entity>

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_aggressive">
+<Entity parent="template_gaia_fauna_melee">
   <Attack>
     <Melee>
       <Crush>20</Crush>
       <Hack>20</Hack>
       <MaxRange>6</MaxRange>
-      <Pierce>0</Pierce>
-      <RepeatTime>2000</RepeatTime>
-      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <Footprint>
@@ -19,12 +16,8 @@
     <Icon>gaia/fauna_bear.png</Icon>
     <SpecificName>Ursus arctos</SpecificName>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <ResourceSupply>
     <Amount>300</Amount>
-    <Type>food.meat</Type>
   </ResourceSupply>
   <Sound>
     <SoundGroups>
@@ -33,6 +26,9 @@
       <select>actor/fauna/animal/lion_select.xml</select>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <NaturalBehaviour>aggressive</NaturalBehaviour>
+  </UnitAI>
   <VisualActor>
     <Actor>fauna/bear.xml</Actor>
   </VisualActor>

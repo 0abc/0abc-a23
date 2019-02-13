@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_wild_violent">
+<Entity parent="template_gaia_fauna_melee">
   <Attack>
     <Melee>
-      <Crush>0</Crush>
       <Hack>20</Hack>
       <MaxRange>4</MaxRange>
-      <Pierce>0</Pierce>
-      <RepeatTime>2000</RepeatTime>
-      <Thrust>0</Thrust>
     </Melee>
   </Attack>
   <Footprint>
@@ -19,9 +15,7 @@
     <Icon>gaia/fauna_lion.png</Icon>
     <SpecificName>Panthera leo</SpecificName>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
+  <ResourceSupply disable=""/>
   <Sound>
     <SoundGroups>
       <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
@@ -29,6 +23,9 @@
       <select>actor/fauna/animal/lion_select.xml</select>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <NaturalBehaviour>violent</NaturalBehaviour>
+  </UnitAI>
   <UnitMotion>
     <Run>
       <Speed op="mul">0.45</Speed>

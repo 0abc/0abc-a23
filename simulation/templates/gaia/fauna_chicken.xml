@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_herd_domestic">
+<Entity parent="template_gaia_fauna">
   <Footprint>
     <Height>1.0</Height>
     <Square width="0.9" depth="1.8"/>
   </Footprint>
   <Health>
-    <Max>5</Max>
+    <Max>3</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Domestic</Classes>
     <GenericName>Chicken</GenericName>
     <Icon>gaia/fauna_chicken.png</Icon>
     <SpecificName>Gallus gallus domesticus</SpecificName>
@@ -16,7 +17,7 @@
     <BlockMovement>false</BlockMovement>
   </Obstruction>
   <ResourceSupply>
-    <Amount>10</Amount>
+    <Amount>15</Amount>
     <MaxGatherers>1</MaxGatherers>
   </ResourceSupply>
   <Sound>
@@ -33,6 +34,7 @@
     <FeedTimeMax>40000</FeedTimeMax>
     <FeedTimeMin>10000</FeedTimeMin>
     <FleeDistance>12.0</FleeDistance>
+    <NaturalBehaviour>domestic</NaturalBehaviour>
     <RoamDistance>4.0</RoamDistance>
     <RoamTimeMax>8000</RoamTimeMax>
     <RoamTimeMin>2000</RoamTimeMin>

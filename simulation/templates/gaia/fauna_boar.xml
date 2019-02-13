@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_aggressive">
+<Entity parent="template_gaia_fauna_melee">
   <Attack>
     <Melee>
-      <Crush>0</Crush>
-      <Hack>12</Hack>
+      <Crush>8</Crush>
       <MaxRange>4</MaxRange>
-      <Pierce>0</Pierce>
-      <RepeatTime>1000</RepeatTime>
-      <Thrust>0</Thrust>
+      <Thrust>16</Thrust>
     </Melee>
   </Attack>
   <Footprint>
@@ -19,16 +16,15 @@
     <Icon>gaia/fauna_boar.png</Icon>
     <SpecificName>Sus scrofa</SpecificName>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <ResourceSupply>
     <Amount>150</Amount>
-    <Type>food.meat</Type>
   </ResourceSupply>
   <StatusBars>
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>
+  <UnitAI>
+    <NaturalBehaviour>aggressive</NaturalBehaviour>
+  </UnitAI>
   <VisualActor>
     <Actor>fauna/boar.xml</Actor>
   </VisualActor>

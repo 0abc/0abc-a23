@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_hunt_skittish">
+<Entity parent="gaia/fauna_giraffe">
   <Footprint>
     <Height>3.5</Height>
     <Square width="1.9" depth="3.8"/>
@@ -7,24 +7,14 @@
   <Identity>
     <GenericName>Juvenile Giraffe</GenericName>
     <Icon>gaia/fauna_giraffe_infant.png</Icon>
-    <SpecificName>Giraffa camelopardalis</SpecificName>
+    <VisibleClasses datatype="tokens">Infant</VisibleClasses>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <ResourceSupply>
-    <Amount>150</Amount>
-    <Type>food.meat</Type>
+    <Amount>140</Amount>
   </ResourceSupply>
   <StatusBars>
     <HeightOffset>7.0</HeightOffset>
   </StatusBars>
-  <UnitMotion>
-    <Run>
-      <Speed op="mul">0.6</Speed>
-    </Run>
-    <WalkSpeed op="mul">0.6</WalkSpeed>
-  </UnitMotion>
   <VisualActor>
     <Actor>fauna/giraffe_baby.xml</Actor>
   </VisualActor>

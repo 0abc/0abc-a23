@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna">
+<Entity parent="template_gaia_fauna">
   <Health>
     <DeathType>remain</DeathType>
-    <Max>200</Max>
+    <Max>300</Max>
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">SeaCreature</Classes>
+    <Classes datatype="tokens">SeaCreature Whale</Classes>
+    <GenericName>Whale</GenericName>
     <Tooltip>Kill, then gather food from this bountiful oceanic resource.</Tooltip>
   </Identity>
-  <Loot>
-    <xp>10</xp>
-  </Loot>
   <Obstruction>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
   <Position>
+    <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>
   </Position>
   <ResourceSupply>
     <Amount>2000</Amount>
-    <KillBeforeGather>true</KillBeforeGather>
-    <MaxGatherers>5</MaxGatherers>
     <Type>food.fish</Type>
   </ResourceSupply>
   <Selectable>
@@ -51,8 +48,8 @@
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
     <Run>
-      <Speed op="mul">1.8</Speed>
+      <Speed op="mul">1.5</Speed>
     </Run>
-    <WalkSpeed op="mul">1.8</WalkSpeed>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
 </Entity>

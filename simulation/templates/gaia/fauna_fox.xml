@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_fauna_melee">
+  <Attack>
+    <Melee>
+      <Hack>5</Hack>
+      <MaxRange>3</MaxRange>
+      <Pierce>10</Pierce>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Height>1.5</Height>
+    <Square width="1" depth="2"/>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <GenericName>Red Fox</GenericName>
+    <Icon>gaia/fauna_fox_red.png</Icon>
+    <SpecificName>Vulpes vulpes</SpecificName>
+  </Identity>
+  <ResourceSupply disable=""/>
+  <UnitAI>
+    <NaturalBehaviour>defensive</NaturalBehaviour>
+  </UnitAI>
+  <VisualActor>
+    <Actor>fauna/fox_red.xml</Actor>
+  </VisualActor>
+</Entity>

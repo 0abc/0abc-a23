@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_wild_aggressive_wolf">
+<Entity parent="template_gaia_fauna_melee">
   <Attack>
     <Melee>
-      <Crush>0</Crush>
-      <Hack>7</Hack>
-      <Pierce>2</Pierce>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-      <Thrust>0</Thrust>
+      <Hack>14</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>4</Pierce>
     </Melee>
   </Attack>
+  <Identity>
+    <GenericName>Wolf</GenericName>
+    <Icon>gaia/fauna_wolf.png</Icon>
+    <SpecificName>Canis lupus familiaris</SpecificName>
+  </Identity>
+  <Footprint>
+    <Height>1.5</Height>
+    <Square width="1.4" depth="2.8"/>
+  </Footprint>
+  <ResourceSupply disable=""/>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword.xml</attack_melee>
@@ -24,10 +31,10 @@
       <walk>actor/mounted/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <Run>
-      <Speed op="mul">1.6</Speed>
-    </Run>
-    <WalkSpeed op="mul">1.6</WalkSpeed>
-  </UnitMotion>
+  <UnitAI>
+    <NaturalBehaviour>aggressive</NaturalBehaviour>
+  </UnitAI>
+  <VisualActor>
+    <Actor>fauna/wolf.xml</Actor>
+  </VisualActor>
 </Entity>

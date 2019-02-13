@@ -2,6 +2,7 @@
 <Entity parent="template_unit">
   <Cost>
     <BuildTime>60</BuildTime>
+    <Population>1</Population>
   </Cost>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
