@@ -1,0 +1,141 @@
+\documentclass{article}
+
+\usepackage[english]{babel}
+%\usepackage{fontspec} %\setmainfont{CMU Serif} % XeLaTeX 
+\usepackage[a4paper,margin=5mm]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{pdflscape}
+\usepackage{url}
+\usepackage{verbatim}
+
+\newcommand{\civ}{\textsc{\color{blue} \{civ\}}}
+%\newcommand{\athen}{\textsc{\color{blue} athen}}
+\newcommand{\brit}{\textsc{\color{blue} brit}}
+\newcommand{\cart}{\textsc{\color{blue} cart}}
+\newcommand{\gaul}{\textsc{\color{blue} gaul}}
+\newcommand{\gree}{\textsc{\color{blue} gree}}
+\newcommand{\iber}{\textsc{\color{blue} iber}}
+\newcommand{\kush}{\textsc{\color{blue} kush}}
+\newcommand{\mace}{\textsc{\color{blue} mace}}
+\newcommand{\maur}{\textsc{\color{blue} maur}}
+\newcommand{\pers}{\textsc{\color{blue} pers}}
+\newcommand{\ptol}{\textsc{\color{blue} ptol}}
+\newcommand{\rome}{\textsc{\color{blue} rome}}
+\newcommand{\sele}{\textsc{\color{blue} sele}}
+%\newcommand{\spart}{\textsc{\color{blue} spart}}
+%\newcommand{\theba}{\textsc{\color{blue} theba}}
+\newcommand{\phase}{\textsc{\color{blue} \{phase\}}}
+\newcommand{\village}{\textsc{\color{blue} village}}
+\newcommand{\town}{\textsc{\color{blue} town}}
+\newcommand{\city}{\textsc{\color{blue} city}}
+\newcommand{\metropolis}{\textsc{\color{blue} metropolis}}
+
+\begin{document}
+
+\begin{landscape}
+\footnotesize
+
+\begin{tabular}{l||c|c|c|c||c|c|c|c||c|c|c|c}
+\hline
+\hline
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\village % village phase
+ & \brit          & \cart          & \gaul          & \gree          & \iber          & \kush          & \mace          & \maur          & \pers          & \ptol          & \rome          & \sele          \\
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\hline
+\hline\textit{support}
+ & trader         & trader         & trader         & trader         & trader         & trader         & trader         & trader         & trader         & trader         & trader         & trader         \\
+ & woman          & woman          & woman          & woman          & woman          & woman          & woman          & woman          & woman          & woman          & woman          & woman          \\
+ &                &                &                &                &                &                &                & elephant       &                &                &                &                \\
+\hline\textit{infantry}
+ &                & hoplite        & spearman       & hoplite        &                & spearman       & pikeman        & spearman       & spearman       & pikeman        &                & spearman       \\
+ & swordsman      &                &                &                & sabreman       &                &                &                &                &                & sabreman       &                \\
+ &                &                & javelinist     & javelinist     & javelinist     &                & javelinist     &                &                &                & javelinist     & javelinist     \\
+ &                & archer         &                &                &                & longbowman     &                & longbowman     & archer         &                &                &                \\
+ & stone-slinger  &                &                &                &                &                &                &                &                & stone-slinger  &                &                \\
+\hline\textit{cavalry}
+ &                &                & swordsman      &                &                &                & lancer         &                &                &                &                &                \\
+ & javelinist     & javelinist     &                &                & javelinist     & javelinist     &                &                & javelinist     &                &                & javelinist     \\
+\hline\textit{dog}
+ & dog            &                &                &                &                &                &                &                &                &                &                &                \\
+\hline\textit{ship}
+ & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        & fishing        \\
+
+\hline
+\hline
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\town % town phase
+ & \brit          & \cart          & \gaul          & \gree          & \iber          & \kush          & \mace          & \maur          & \pers          & \ptol          & \rome          & \sele          \\
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\hline
+\hline\textit{support}
+ & healer         & healer         & healer         & healer         & healer         & healer         & healer         & healer         & healer         & healer         & healer         & healer         \\
+\hline\textit{infantry}
+ & spearman       & hoplite M      & swordsman      & hoplite M      & spearman       & pikeman        & hoplite M      & sabreman       & javelinist     & spearman M     & hoplite        & pikeman        \\
+ &                & swordsman M    &                &                &                & swordsman      &                &                &                & swordsman M    & swordsman      &                \\
+ &                &                &                &                &                & maceman M      &                &                &                &                &                &                \\
+ & javelinist     & javelinist M   &                & javelinist M   &                & javelinist M   &                &                &                & javelinist M   &                &                \\
+ &                &                &                & archer M       &                &                & archer M       &                &                & archer M       &                & archer         \\
+ &                & lead-slinger M & stone-slinger  & lead-slinger M & stone-slinger  &                & lead-slinger M &                &                & lead-slinger M &                &                \\
+\hline\textit{cavalry}
+ &                & spearman M     &                &                & spearman       & spearman       &                &                & spearman       & spearman       & spearman       & lancer         \\
+ & swordsman      & swordsman M    &                & sabreman       &                &                &                & swordsman      &                &                &                &                \\
+ &                & sabreman M     &                &                &                &                &                &                & axeman         &                &                &                \\
+ &                & javelinist M   & javelinist     & javelinist     &                &                & javelinist     & javelinist     &                & javelinist M   & javelinist     &                \\
+ &                &                &                &                &                &                &                &                & archer         &                &                & archer M       \\
+\hline\textit{camel}
+ &                &                &                &                &                & javelinist M   &                &                & archer M       & archer M       &                & archer M       \\
+\hline\textit{elephant}
+ &                &                &                &                &                &                &                & Indian         &                &                &                &                \\
+\hline\textit{siege} 
+ & ram            & ram            & ram            & ram            & ram            & ram            & ram            & ram            & ram            & ram            & ram            & ram            \\
+\hline\textit{ship}
+ & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       & merchant       \\
+ &                &                &                & penteconter    & fireship       &                & penteconter    &                & penteconter    &                & penteconter    & penteconter    \\
+ & barge          & trireme        & barge          & trireme        & barge          & trireme        & trireme        & barge          & trireme        & trireme        & trireme        & trireme        \\
+
+\hline
+\hline
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\city % city phase
+ & \brit          & \cart          & \gaul          & \gree          & \iber          & \kush          & \mace          & \maur          & \pers          & \ptol          & \rome          & \sele          \\
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\hline
+\hline\textit{infantry}
+ &                & hoplite C      &                & hoplite C      &                & axeman C       & hoplite C      &                & spearman C     & pikeman C      &                & pikeman C      \\
+ &                &                &                &                &                & sabreman C     &                & maceman C      & hoplite M      &                & swordsman C    & swordsman C    \\
+ &                &                &                &                &                & archer C       & crossbowman C  &                &                &                &                &                \\
+\hline\textit{cavalry}
+ &                & lancer C       & spearman C     &                &                & spearman C     & lancer C       &                & lancer C       & spearman C     &                & lancer C       \\
+ &                &                &                &                & javelinist C   &                &                &                & archer C       &                &                &                \\
+\hline\textit{biga}
+ & javelinist C   &                &                &                &                &                &                & archer C       &                &                &                &                \\
+\hline\textit{quadriga}
+ &                &                &                &                &                &                &                &                &                & scythed C      &                & scythed C      \\
+\hline\textit{elephant}
+ &                & African C      &                &                &                & African        &                & Indian C       & Indian M       & African C      &                & Indian C       \\
+\hline\textit{siege}
+ &                & oxybeles       &                & oxybeles       &                &                & oxybeles       &                &                & polybolos      & scorpio        &                \\
+ &                & stone-thrower  &                &                &                &                & stone-thrower  & stone-thrower  &                & stone-thrower  & stone-thrower  & stone-thrower  \\
+ &                &                &                &                &                &                & tower          &                &                & tower          &                & tower          \\
+\hline\textit{ship}
+ &                & quadrireme     &                & quadrireme     &                &                &                &                &                & quadrireme     & quadrireme     &                \\
+ &                & quinquereme    &                &                &                &                & quinquereme    & huge barge     &                & quinquereme    & quinquereme    &                \\
+
+\hline
+\hline
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\metropolis % metropolis phase
+ & \brit          & \cart          & \gaul          & \gree          & \iber          & \kush          & \mace          & \maur          & \pers          & \ptol          & \rome          & \sele          \\
+ &                &                &                &                &                &                &                &                &                &                &                &                \\
+\hline
+\hline
+\end{tabular}
+
+\textbf{NB}: \emph{\emph{M} means mercenary, \emph{V} means veteran, \emph{C} means champion.}\\
+\end{landscape}
+\end{document}
+

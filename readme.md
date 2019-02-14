@@ -7,9 +7,9 @@
 * https://github.com/0abc/0abc-a23#ai
 * https://github.com/0abc/0abc-a23#structures
 * https://github.com/0abc/0abc-a23#units
+* https://github.com/0abc/0abc-a23#population-costs
 * https://github.com/0abc/0abc-a23#damage-types
 * https://github.com/0abc/0abc-a23#bonus-attacks
-* https://github.com/0abc/0abc-a23#population-costs
 * https://github.com/0abc/0abc-a23#recruitment-costs
 * https://github.com/0abc/0abc-a23#upkeep-and-income
 * https://github.com/0abc/0abc-a23#auras-and-technologies
@@ -17,6 +17,21 @@
 * https://github.com/0abc/0abc-a23#class-bonuses
 * https://github.com/0abc/0abc-a23#civilization-bonuses
 * https://github.com/0abc/0abc-a23#team-bonuses
+* https://github.com/0abc/0abc-a23#civilization_rosters
+* https://github.com/0abc/0abc-a23#britons
+* https://github.com/0abc/0abc-a23#carthaginians
+* https://github.com/0abc/0abc-a23#gauls
+* https://github.com/0abc/0abc-a23#greeks
+* https://github.com/0abc/0abc-a23#iberians
+* https://github.com/0abc/0abc-a23#kushites
+* https://github.com/0abc/0abc-a23#macedonians
+* https://github.com/0abc/0abc-a23#mauryas
+* https://github.com/0abc/0abc-a23#persians
+* https://github.com/0abc/0abc-a23#ptolemies
+* https://github.com/0abc/0abc-a23#romans
+* https://github.com/0abc/0abc-a23#seleucids
+
+
 
 ## Instructions
 * Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-a23.git`).
@@ -30,7 +45,13 @@
 * Click “Learn To Play” and “Structure Tree” to see the mod(s) implemented.
 * For more detailed information, please have a look at **0abc-readme.pdf**
 
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+
+
 ## Overview
+*Parts of this readme might be outdated. For more accurate information, please have a look at* **0abc-readme.pdf**
+
 Changes include, but are not limited to:
 * introduced a new resource: silver
 * pierce damage is split into pierce (arrows) and thrust (spears)
@@ -42,6 +63,8 @@ Changes include, but are not limited to:
 * all civilization bonuses and penalties are replaced with new ones
 * numerous minor tweaks and balances, most of which will probably go unnoticed
 
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 ### AI
 The AI no longer gets a resource stockpiling bonus or penalty, but the difficulty level determines how much time it takes to train units, build structures, or research technologies:
 * Very Hard: 50%
@@ -49,6 +72,9 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * Medium: 100%
 * Easy: 141%
 * Very Easy: 200%
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 
 ### Structures
 * economic structures can be constructed in neutral territory
@@ -58,6 +84,9 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
 * fortresses have a territory root, are purely defensive structures, have somewhat more health, but no longer train any units
 * all factions have cavalry stables (village) and siege workshops (town); most have separate economic docks (village) and military shipyards (town); many have elephant stables (city)
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 
 ### Units
 * all units are bribable (vision sharing), except for fauna
@@ -69,7 +98,19 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * siege weapons are no longer capturable
 * battering rams can no longer attack organic units
 * all factions can construct rams (town)
-* dogs, heroes, and ships require 0 population; support and infantry 1; camelry and cavalry 2; biga chariots and siege engines 4; quadriga chariots, war elephants, and siege towers 6
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Population costs
+* 0: fauna, catafalques, heroes, ships
+* 1: infantry, women, healers, traders
+* 2: camelry, cavalry
+* 3: worker elephants
+* 4: bigae, battering rams, bolt shooters, stone throwers
+* 5: –
+* 6: quadrigae, war elephants, siege towers
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Damage types
 There are four damage types (crush, hack, pierce, thrust)
@@ -119,6 +160,8 @@ There are four damage types (crush, hack, pierce, thrust)
 * wargalleys: melee 100% crush, ranged 100% pierce
 * structures (ranged): 100% pierce
 
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 #### Bonus attacks
 * infantry archers: 0.5× vs Elephantry
 * infantry crossbowman: –
@@ -137,14 +180,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * battering rams: 2.0× vs Defensive
 * siege towers: –
 
-#### Population costs
-* 0: fauna, catafalques, heroes, ships
-* 1: infantry, women, healers, traders
-* 2: camelry, cavalry
-* 3: worker elephants
-* 4: bigae, battering rams, bolt shooters, stone throwers
-* 5: –
-* 6: quadrigae, war elephants, siege towers
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Recruitment costs
 * Infantry: 30 food, 30 silver
@@ -155,6 +191,9 @@ There are four damage types (crush, hack, pierce, thrust)
 * Elephantry: 300 food, 300 silver
 
 **NB**: champions cost +200% silver, mercenaries 0 other resources but +100% silver
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 
 ### Upkeep and income
 Food:
@@ -190,6 +229,9 @@ Wood:
 * Fortress: −2.0 wood per 30 seconds
 * Lighthouse: −2.0 wood per 7 seconds
 
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+
 ### Auras and technologies
 #### Unit auras
 * **Camel Stench** (15 m): enemy cavalry −20% attack damage and capture strength.
@@ -197,6 +239,8 @@ Wood:
 * **Elephant Intimidation** (10 m): enemy soldiers −10% attack damage and capture strength.
 * **Merchant Convoy** (20 m): own naval traders +2.0 pierce armour.
 * **Trader Caravan** (10 m): own land traders +2.0 pierce armour.
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Class bonuses
 * **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, and +100% melee and ranged attack damage.
@@ -209,6 +253,8 @@ Wood:
 * **Libyan**: −5% health, +5% ranged attack damage, −5% reload time, and +5% movement speed.
 * **Numidian**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, and +5% movement speed.
 * **Rhodian**: −20% ranged attack spread.
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Civilization bonuses
 *All bonuses and penalties from the default distribution have been removed.*
@@ -225,5 +271,336 @@ Wood:
 * **Roman Architecture** (Romans): city walls +10% health; military structures −10% build time.
 * **Roman Training** (Romans): siege weapons −20% construction time.
 
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 #### Team bonuses
 —
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+
+### Civilization rosters
+#### Britons
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Swordsman
+  * Infantry Stone-slinger
+  * Cavalry Javelinist
+  * War Dog
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Spearman
+  * Infantry Javelinist
+  * Cavalry Swordsman
+  * War Barge
+* City phase:
+  * Biga Javelinist Champion
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Carthaginians
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Hoplite
+  * Infantry Archer
+  * Cavalry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Hoplite Mercenary
+  * Infantry Swordsman Mercenary
+  * Infantry Javelinist Mercenary
+  * Infantry Lead-slinger Mercenary
+  * Cavalry Javelinist Mercenary
+  * Cavalry Sabreman Mercenary
+  * Cavalry Swordsman Mercenary
+  * Cavalry Spearman Mercenary
+  * Trireme
+* City phase:
+  * Infantry Hoplite Champion
+  * Cavalry Lancer Champion
+  * War Elephant Champion
+  * Oxybeles
+  * Stone-thrower
+  * Quadrireme
+  * Quinquereme
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Gauls
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Spearman
+  * Infantry Javelinist
+  * Cavalry Swordsman
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Swordsman
+  * Infantry Slinger
+  * Cavalry Javelinist
+  * War Barge
+* City phase:
+  * Cavalry Spearman Champion
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Greeks
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Hoplite
+  * Infantry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Hoplite Mercenary
+  * Infantry Javelinist Mercenary
+  * Infantry Archer Mercenary
+  * Infantry Lead-slinger Mercenary
+  * Cavalry Javelinist
+  * Cavalry Sabreman
+  * Penteconter
+  * Trireme
+* City phase:
+  * Infantry Hoplite Champion
+  * Oxybeles
+  * Quadrireme
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Iberians
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Sabreman
+  * Infantry Javelinist
+  * Cavalry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Spearman
+  * Infantry Slinger
+  * Cavalry Spearman
+  * War Barge
+  * Fire Ship
+* City phase:
+  * Cavalry Javelinist Champion
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Kushites
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Spearman
+  * Infantry Longbowman
+  * Cavalry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Pikeman
+  * Infantry Swordsman
+  * Infantry Maceman Mercenary
+  * Infantry Javelinist Mercenary
+  * Cavalry Spearman
+  * Camel Javelinist Mercenary
+  * Trireme
+* City phase:
+  * Infantry Axeman Champion
+  * Infantry Sabreman Champion
+  * Infantry Archer Champion
+  * Cavalry Spearman Champion
+  * War Elephant
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Macedonians
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Pikeman
+  * Infantry Javelinist
+  * Cavalry Lancer
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Hoplite Mercenary
+  * Infantry Archer Mercenary
+  * Infantry Lead-slinger Mercenary
+  * Cavalry Javelinist
+  * Penteconter
+  * Trireme
+* City phase:
+  * Infantry Hoplite Champion
+  * Infantry Crossbowman Champion
+  * Cavalry Lancer Champion
+  * War Elephant Champion
+  * Oxybeles
+  * Stone-thrower
+  * Siege Tower
+  * Quinquereme
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Mauryas
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Spearman
+  * Infantry Longbowman
+  * Support Elephant
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Sabreman
+  * Cavalry Swordsman
+  * Cavalry Javelinist
+  * War Elephant
+  * War Barge
+* City phase:
+  * Infantry Maceman Champion
+  * Biga Archer Champion
+  * War Elephant Champion
+  * Stone-thrower
+  * Huge Barge
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Persians
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Spearman
+  * Infantry Archer
+  * Cavalry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Javelinist
+  * Cavalry Axeman
+  * Cavalry Spearman
+  * Cavalry Archer
+  * Camel Archer Mercenary
+  * Penteconter
+  * Trireme
+* City phase:
+  * Infantry Hoplite Mercenary
+  * Infantry Spearman Champion
+  * Cavalry Lancer Champion
+  * Cavalry Archer Champion
+  * Quadriga Scythed Champion
+  * War Elephant Mercenary
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Ptolemies
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Pikeman
+  * Infantry Stone-slinger
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Spearman Mercenary
+  * Infantry Swordsman Mercenary
+  * Infantry Javelinist Mercenary
+  * Infantry Archer Mercenary
+  * Infantry Lead-slinger Mercenary
+  * Cavalry Spearman
+  * Cavalry Javelinist Mercenary
+  * Camel Archer Mercenary
+  * Trireme
+* City phase:
+  * Infantry Pikeman Champion
+  * Cavalry Spearman Champion
+  * War Elephant Champion
+  * Polybolos
+  * Stone-thrower
+  * Siege Tower
+  * Quadrireme
+  * Quinquereme
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Romans
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Sabreman
+  * Infantry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Swordsman
+  * Infantry Hoplite
+  * Cavalry Spearman
+  * Cavalry Javelinist
+  * Penteconter
+  * Trireme
+* City phase:
+  * Infantry Swordsman Champion
+  * Scorpio
+  * Stone-thrower
+  * Quadrireme
+  * Quinquereme
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Seleucids
+* Village phase:
+  * Woman
+  * Trader
+  * Fishing Boat
+  * Infantry Spearman
+  * Infantry Javelinist
+  * Cavalry Javelinist
+* Town phase:
+  * Healer
+  * Battering Ram
+  * Merchant Ship
+  * Infantry Pikeman
+  * Infantry Archer
+  * Cavalry Lancer
+  * Cavalry Archer Mercenary
+  * Camel Archer Mercenary
+  * Penteconter
+  * Trireme
+* City phase:
+  * Infantry Pikeman Champion
+  * Infantry Swordsman Champion
+  * Cavalry Lancer Champion
+  * Quadriga Scythed Champion
+  * War Elephant Champion
+  * Stone-thrower
+  * Siege Tower
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
