@@ -17,7 +17,7 @@
 * https://github.com/0abc/0abc-a23#class-bonuses
 * https://github.com/0abc/0abc-a23#civilization-bonuses
 * https://github.com/0abc/0abc-a23#team-bonuses
-* https://github.com/0abc/0abc-a23#civilization_rosters
+* https://github.com/0abc/0abc-a23#civilization-rosters
 * https://github.com/0abc/0abc-a23#britons
 * https://github.com/0abc/0abc-a23#carthaginians
 * https://github.com/0abc/0abc-a23#gauls
