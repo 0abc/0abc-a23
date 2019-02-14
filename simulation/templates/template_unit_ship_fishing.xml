@@ -54,14 +54,6 @@
       <food.fish>1.8</food.fish>
     </Rates>
   </ResourceGatherer>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <order_attack>actor/ship/boat_move.xml</order_attack>

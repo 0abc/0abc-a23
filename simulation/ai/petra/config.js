@@ -47,12 +47,12 @@ m.Config = function(difficulty, behavior)
   };
 
   // Additional buildings that the AI does not yet know when to build 
-  // and that it will try to build on phase 3 when enough resources.
+  // and that it will try to build on phase III when enough resources.
   this.buildings =
   {
 		"default": [],
 		"athen": [],
-		"brit": ["structures/{civ}/rotarymill", "structures/{civ}/kennel"],
+		"brit": ["structures/{civ}/crannog", "structures/{civ}/rotarymill", "structures/{civ}/kennel"],
 		"cart": ["structures/{civ}/palace", "structures/{civ}/harbour"],
 		"gaul": ["structures/{civ}/rotarymill"],
 		"gree": ["structures/{civ}/palace"],

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <Gender>female</Gender>
-    <Icon>units/support_healer_cart.png</Icon>
+    <Icon>units/cart_support_healer.png</Icon>
     <SelectionGroupName>units/cart/support_healer</SelectionGroupName>
     <SpecificName>Kehinit</SpecificName>
   </Identity>

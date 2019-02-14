@@ -2,7 +2,7 @@
 <Entity parent="template_unit_siege_stonethrower">
   <Identity>
     <Civ>cart</Civ>
-    <Icon>units/cart_mechanical_siege_ballista_packed.png</Icon>
+    <Icon>units/cart_siege_ballista_p.png</Icon>
     <SpecificName>Ballista</SpecificName>
   </Identity>
   <Pack>

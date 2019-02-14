@@ -16,7 +16,7 @@
       <silver>60</silver>
     </Resources>
   </Cost>
-  <Footprint replace="">
+  <Footprint>
     <Height>7.5</Height>
     <Square width="4" depth="6"/>
   </Footprint>
@@ -41,14 +41,6 @@
       <food>-0.05</food>
     </Rates>
   </ResourceTrickle>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>

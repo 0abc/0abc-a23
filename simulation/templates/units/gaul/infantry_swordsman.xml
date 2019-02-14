@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/cart_infantry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/gaul/infantry_swordsman</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>

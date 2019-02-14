@@ -190,6 +190,9 @@
       "Template": "structures/gree/centre"
     },
     {
+      "Template": "units/gree/support_healer"
+    },
+    {
       "Template": "units/gree/support_woman",
       "Count": 5
     },

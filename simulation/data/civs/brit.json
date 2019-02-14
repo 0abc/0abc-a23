@@ -70,6 +70,9 @@
       "Template": "structures/brit/centre"
     },
     {
+      "Template": "units/brit/support_healer"
+    },
+    {
       "Template": "units/brit/support_woman",
       "Count": 5
     },

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_dog">
   <Identity>
     <Civ>brit</Civ>
-    <Icon>units/brit_war_dog.png</Icon>
+    <Icon>units/brit_war_dog_b.png</Icon>
     <SpecificName>Coun</SpecificName>
   </Identity>
   <VisualActor>

@@ -1,0 +1,18 @@
+{
+  "affects": ["Structure", "Worker"],
+  "auraDescription": "Workers +20% build rate and ; structures +100% ungarrisoned base capture points regeneration.",
+  "auraName": "Settlement Core",
+  "modifications": [
+    {"value": "Builder/Rate",               "multiply": 1.2, "affects": "Worker"   },
+    {"value": "ResourceGatherer/BaseSpeed", "multiply": 0.8, "affects": "Worker"   },
+    {"value": "Capturable/RegenRate",       "multiply": 2.0, "affects": "Structure"}
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/build.png",
+  "radius": 60,
+  "rangeOverlay" : {
+    "lineTexture": "overlays/zigzag.png",
+    "lineTextureMask": "overlays/zigzag.png",
+    "lineThickness": 0.5
+  },
+  "type": "range"
+}

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Tarantine Settler Cavalry</GenericName>
-    <Icon>units/tarentine_cavalry_e.png</Icon>
+    <Icon>units/mace_cavalry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/cavalry_javelinist_mercenary</SelectionGroupName>

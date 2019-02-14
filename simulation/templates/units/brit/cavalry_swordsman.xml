@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>brit</Civ>
-    <Icon>units/celt_cavalry_swordsman.png</Icon>
+    <Icon>units/celt_cavalry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/brit/cavalry_swordsman</SelectionGroupName>
     <SpecificName>Epos</SpecificName>

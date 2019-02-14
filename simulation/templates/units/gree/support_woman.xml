@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_woman">
   <Identity>
     <Civ>gree</Civ>
-    <Icon>units/support_woman_athen.png</Icon>
+    <Icon>units/athen_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen/support_woman</SelectionGroupName>
     <SpecificName>Γύνη</SpecificName>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/support_trader_iber.png</Icon>
+    <Icon>units/iber_support_trader.png</Icon>
     <SpecificName>Merkatari</SpecificName>
   </Identity>
   <VisualActor>

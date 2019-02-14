@@ -74,6 +74,9 @@
       "Template": "structures/rome/centre"
     },
     {
+      "Template": "units/rome/support_healer"
+    },
+    {
       "Template": "units/rome/support_woman",
       "Count": 5
     },

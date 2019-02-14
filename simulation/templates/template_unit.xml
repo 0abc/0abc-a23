@@ -57,10 +57,6 @@
     <SinkingAnim>false</SinkingAnim>
     <SinkRate>0.01</SinkRate>
   </Decay>
-  <Footprint>
-    <Circle radius="1.5"/>
-    <Height>2.5</Height>
-  </Footprint>
   <Garrisonable/>
   <Guard/>
   <Health>
@@ -137,14 +133,6 @@
       <treasure>1</treasure>
     </Rates>
   </ResourceGatherer>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attacked>interface/alarm/alarm_attackplayer.xml</attacked>

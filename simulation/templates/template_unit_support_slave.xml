@@ -10,6 +10,10 @@
       <silver>50</silver>
     </Resources>
   </Cost>
+  <Footprint>
+    <Circle radius="1.5"/>
+    <Height>2.5</Height>
+  </Footprint>
   <Health>
     <Max>45</Max>
   </Health>
@@ -38,8 +42,8 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>rhombus/128x128.png</MainTexture>
-        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

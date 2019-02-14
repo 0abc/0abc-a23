@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Companion Cavalry</GenericName>
-    <Icon>units/mace_cavalry_spearman.png</Icon>
+    <Icon>units/mace_cavalry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_lancer</SelectionGroupName>

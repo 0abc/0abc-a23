@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Seleucid Cataphract</GenericName>
-    <Icon>units/sele_champion_cavalry.png</Icon>
+    <Icon>units/sele_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_lancer_champion</SelectionGroupName>

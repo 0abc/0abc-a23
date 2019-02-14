@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Macedonian Woman</GenericName>
-    <Icon>units/support_woman_mace.png</Icon>
+    <Icon>units/mace_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mace/support_woman</SelectionGroupName>
     <SpecificName>Γύνη Μακεδονική</SpecificName>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rome</Civ>
     <GenericName>Roman Cavalry</GenericName>
-    <Icon>units/rome_cavalry_spearman.png</Icon>
+    <Icon>units/rome_cavalry_spearman_b.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_spearman</SelectionGroupName>
@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Roman</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/romans/cavalry_spearman_a_m.xml</Actor>
+    <Actor>units/romans/cavalry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

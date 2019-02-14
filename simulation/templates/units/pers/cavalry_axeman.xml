@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Hyrcanian Cavalry</GenericName>
-    <Icon>units/pers_cavalry_axeman.png</Icon>
+    <Icon>units/pers_cavalry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/cavalry_axeman</SelectionGroupName>
     <SpecificName>Varkaniya Asabara</SpecificName>

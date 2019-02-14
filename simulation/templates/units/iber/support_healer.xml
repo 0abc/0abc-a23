@@ -4,7 +4,7 @@
     <Civ>iber</Civ>
     <Gender>female</Gender>
     <GenericName>Priestess of Ataekina</GenericName>
-    <Icon>units/support_healer_iber.png</Icon>
+    <Icon>units/iber_support_healer.png</Icon>
     <SelectionGroupName>units/iber/support_healer</SelectionGroupName>
     <SpecificName>Emakumezko Apaiz de Ataekina</SpecificName>
   </Identity>

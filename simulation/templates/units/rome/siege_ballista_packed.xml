@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>rome</Civ>
-    <Icon>units/rome_mechanical_siege_ballista_packed.png</Icon>
+    <Icon>units/rome_siege_ballista_p.png</Icon>
     <SpecificName>Ballista</SpecificName>
   </Identity>
   <Pack>

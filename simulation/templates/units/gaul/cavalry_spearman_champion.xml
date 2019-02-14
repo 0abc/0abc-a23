@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gaul</Civ>
     <GenericName>Gallic Noble Cavalry</GenericName>
-    <Icon>units/gaul_champion_cavalry.png</Icon>
+    <Icon>units/gaul_cavalry_spearman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gaul/cavalry_spearman_champion</SelectionGroupName>
     <SpecificName>Brihent</SpecificName>

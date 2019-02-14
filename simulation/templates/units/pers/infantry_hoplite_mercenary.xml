@@ -4,7 +4,7 @@
     <Civ>pers</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Mercenary Hoplite</GenericName>
-    <Icon>units/gree_infantry_hoplite_mercenary.png</Icon>
+    <Icon>units/samnite_spearman.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_hoplite_mercenary</SelectionGroupName>

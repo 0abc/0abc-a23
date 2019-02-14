@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Egyptian Priest</GenericName>
-    <Icon>units/support_healer_ptol.png</Icon>
+    <Icon>units/ptol_support_healer.png</Icon>
     <SelectionGroupName>units/ptol/support_healer</SelectionGroupName>
     <SpecificName>Ἰατρός</SpecificName>
   </Identity>

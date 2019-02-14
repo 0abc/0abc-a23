@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>athen</Civ>
-    <Icon>units/support_healer_gree.png</Icon>
+    <Icon>units/athen_support_healer.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen/support_healer</SelectionGroupName>
     <SpecificName>Ἰατρός</SpecificName>

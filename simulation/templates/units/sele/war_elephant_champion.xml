@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Syrian War Elephant</GenericName>
-    <Icon>units/sele_elephant_turret_c.png</Icon>
+    <Icon>units/sele_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/war_elephant_champion</SelectionGroupName>

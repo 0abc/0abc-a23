@@ -15,8 +15,8 @@
   "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
   "radius": 50,
   "rangeOverlay" : {
-    "lineTexture": "overlays/outwards_2.png",
-    "lineTextureMask": "overlays/outwards_2_mask.png",
+    "lineTexture": "overlays/outwards.png",
+    "lineTextureMask": "overlays/outwards_mask.png",
     "lineThickness": 0.4
   },
   "type": "range"

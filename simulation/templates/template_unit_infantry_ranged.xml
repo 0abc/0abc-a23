@@ -22,4 +22,12 @@
     <GenericName>Ranged</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
 </Entity>

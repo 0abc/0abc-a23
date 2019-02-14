@@ -19,4 +19,12 @@
     <GenericName>Biga Javelinist</GenericName>
     <VisibleClasses datatype="tokens">Ranged Javelinist</VisibleClasses>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
 </Entity>

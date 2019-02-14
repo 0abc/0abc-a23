@@ -3,7 +3,7 @@
   <Identity>
     <Civ>brit</Civ>
     <Icon>units/celt_infantry_spearman.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_spearman</SelectionGroupName>
     <SpecificName>Gaeroa</SpecificName>
     <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>

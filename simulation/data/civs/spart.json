@@ -69,6 +69,9 @@
       "Template": "structures/spart/centre"
     },
     {
+      "Template": "units/spart/support_healer"
+    },
+    {
       "Template": "units/spart/support_woman",
       "Count": 5
     },

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_chariot_biga_javelinist">
   <Identity>
     <Civ>brit</Civ>
-    <Icon>units/brit_biga_javelinist_c.png</Icon>
+    <Icon>units/brit_chariot_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit_champion_chariot</SelectionGroupName>
     <SpecificName>Carbanto</SpecificName>

@@ -28,14 +28,6 @@
     <RepairTimeRatio>4.0</RepairTimeRatio>
   </Repairable>
   <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/256x256.png</MainTexture>
-        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <order_attack>attack/siege/ram_move.xml</order_attack>

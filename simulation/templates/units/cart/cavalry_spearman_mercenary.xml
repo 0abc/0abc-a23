@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Campanian Mercenary Cavalry</GenericName>
-    <Icon>units/cart_cavalry_spearman.png</Icon>
+    <Icon>units/cart_cavalry_spearman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_spearman_mercenary</SelectionGroupName>
     <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>

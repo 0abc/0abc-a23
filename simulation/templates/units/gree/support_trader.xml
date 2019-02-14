@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>gree</Civ>
-    <Icon>units/support_trader_gree.png</Icon>
+    <Icon>units/gree_support_trader.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>

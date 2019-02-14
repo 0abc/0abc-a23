@@ -74,6 +74,9 @@
       "Template": "structures/pers/centre"
     },
     {
+      "Template": "units/pers/support_healer"
+    },
+    {
       "Template": "units/pers/support_woman",
       "Count": 5
     },

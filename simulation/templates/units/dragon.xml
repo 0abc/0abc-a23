@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+  <Footprint>
+    <Circle radius="15"/>
+    <Height>10</Height>
+  </Footprint>
   <Identity>
     <GenericName>Dragon</GenericName>
     <Icon>units/dragon.png</Icon>
@@ -11,4 +15,12 @@
   <VisualActor>
     <Actor>fauna/dragon.xml</Actor>
   </VisualActor>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>octagram/256x256.png</MainTexture>
+        <MainTextureMask>octagram/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
 </Entity>

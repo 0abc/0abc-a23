@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>North African War Elephant</GenericName>
-    <Icon>units/cart_elephant_turret_c.png</Icon>
+    <Icon>units/cart_elephant_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/cart/war_elephant_champion</SelectionGroupName>
     <SpecificName>Pil Malḥamit</SpecificName>

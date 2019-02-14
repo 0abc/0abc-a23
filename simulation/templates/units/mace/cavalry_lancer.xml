@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Thessalian Lancer</GenericName>
-    <Icon>units/mace_cavalry_spearman.png</Icon>
+    <Icon>units/mace_cavalry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_lancer</SelectionGroupName>

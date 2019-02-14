@@ -6,13 +6,12 @@
   "icon": "helmet_corinthian_gold.png",
   "modifications": [
     {"value": "BuildingAI/DefaultArrowCount", "add":  1.0},
-    {"value": "Capturable/RegenRate",         "add":  1.0},
-    {"value": "Vision/Range",                 "add": 10.0}
+    {"value": "Capturable/RegenRate",         "add":  1.0}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "centre_watch_2",
-  "tooltip": "Centres one additional default arrow and +10 vision range."
+  "tooltip": "Centres one additional default arrow."
 }

@@ -2,8 +2,8 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>gaul</Civ>
-    <Icon>units/gaul_cavalry_javelinist_b.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Icon>units/celt_cavalry_javelinist_b.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gaul/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Gaisaredos</SpecificName>
     <VisibleClasses datatype="tokens">Celt</VisibleClasses>

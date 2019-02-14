@@ -68,6 +68,9 @@
       "Template": "structures/iber/centre"
     },
     {
+      "Template": "units/iber/support_healer"
+    },
+    {
       "Template": "units/iber/support_woman",
       "Count": 5
     },

@@ -48,6 +48,14 @@ Can not attack organic units or fields.
 Counters: 2.0× vs Walls, Towers, and Fortresses.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/siege/ram_attack.xml</attack_melee>

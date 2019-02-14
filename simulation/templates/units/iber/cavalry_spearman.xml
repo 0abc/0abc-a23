@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/iber_cavalry_spearman.png</Icon>
+    <Icon>units/iber_cavalry_spearman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_spearman</SelectionGroupName>
     <SpecificName>Lantzari</SpecificName>

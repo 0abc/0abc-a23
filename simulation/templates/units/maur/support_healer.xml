@@ -3,7 +3,7 @@
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Brahmin Priest</GenericName>
-    <Icon>units/support_healer_maur.png</Icon>
+    <Icon>units/maur_support_healer.png</Icon>
     <SelectionGroupName>units/maur/support_healer</SelectionGroupName>
     <SpecificName>Brāhmaṇa Pujari</SpecificName>
   </Identity>

@@ -70,6 +70,9 @@
       "Template": "structures/gaul/centre"
     },
     {
+      "Template": "units/gaul/support_healer"
+    },
+    {
       "Template": "units/gaul/support_woman",
       "Count": 5
     },

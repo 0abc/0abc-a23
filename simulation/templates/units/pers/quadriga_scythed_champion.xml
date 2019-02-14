@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Babylonian Scythed Chariot</GenericName>
-    <Icon>units/pers_quadriga_scythed_c.png</Icon>
+    <Icon>units/pers_chariot_scythed_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/quadriga_scythed_champion</SelectionGroupName>
     <SpecificName>Babiruviya Ratha</SpecificName>

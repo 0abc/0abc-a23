@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <Icon>units/siege_ram_iber.png</Icon>
+    <Icon>units/iber_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/iberians/siege_ram.xml</Actor>

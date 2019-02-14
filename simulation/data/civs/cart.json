@@ -74,6 +74,9 @@
       "Template": "structures/cart/centre"
     },
     {
+      "Template": "units/cart/support_healer"
+    },
+    {
       "Template": "units/cart/support_woman",
       "Count": 5
     },

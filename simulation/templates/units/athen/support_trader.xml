@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>athen</Civ>
-    <Icon>units/support_trader_rome.png</Icon>
+    <Icon>units/athen_support_trader.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>

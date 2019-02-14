@@ -38,6 +38,14 @@
   <Pack>
     <Time>9000</Time>
   </Pack>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>

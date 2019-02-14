@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <Icon>units/siege_tower.png</Icon>
+    <Icon>units/mace_siege_tower.png</Icon>
     <SpecificName>Ἑλέπολις</SpecificName>
   </Identity>
   <VisualActor>

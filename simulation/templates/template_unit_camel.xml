@@ -44,14 +44,6 @@
       <food>-0.04</food>
     </Rates>
   </ResourceTrickle>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>

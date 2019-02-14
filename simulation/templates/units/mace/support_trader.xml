@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mace</Civ>
-    <Icon>units/support_trader_mace.png</Icon>
+    <Icon>units/mace_support_trader.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>

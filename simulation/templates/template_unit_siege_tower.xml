@@ -43,6 +43,14 @@
     <Tooltip>Garrison infantry for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>

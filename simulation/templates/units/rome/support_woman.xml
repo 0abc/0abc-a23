@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rome</Civ>
     <GenericName>Roman Woman</GenericName>
-    <Icon>units/support_woman_rome.png</Icon>
+    <Icon>units/rome_support_female_citizen.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>units/rome/support_woman</SelectionGroupName>
     <SpecificName>Romana</SpecificName>

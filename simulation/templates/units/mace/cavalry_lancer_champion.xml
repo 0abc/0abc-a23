@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Companion Cavalry</GenericName>
-    <Icon>units/mace_champion_cavalry.png</Icon>
+    <Icon>units/mace_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_lancer_champion</SelectionGroupName>

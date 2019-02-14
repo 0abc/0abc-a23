@@ -39,4 +39,12 @@
     <GenericName>Scythed Quadriga</GenericName>
     <VisibleClasses datatype="tokens">Melee Scythed</VisibleClasses>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
 </Entity>

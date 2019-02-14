@@ -5,7 +5,7 @@
     <Civ>pers</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Persian Immortal</GenericName>
-    <Icon>units/pers_infantry_spearman_c.png</Icon>
+    <Icon>units/pers_champion_infantry.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Anusiya</SpecificName>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>rome</Civ>
-    <Icon>units/rome_mechanical_siege_scorpio_packed.png</Icon>
+    <Icon>units/rome_siege_scorpio_p.png</Icon>
     <SpecificName>Scorpio</SpecificName>
   </Identity>
   <Pack>

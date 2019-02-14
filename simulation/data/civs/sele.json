@@ -68,6 +68,9 @@
       "Template": "structures/sele/centre"
     },
     {
+      "Template": "units/sele/support_healer"
+    },
+    {
       "Template": "units/sele/support_woman",
       "Count": 5
     },

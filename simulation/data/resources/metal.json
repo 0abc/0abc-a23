@@ -1,14 +1,13 @@
 {
   "aiAnalysisInfluenceGroup": "sparse",
   "code": "metal",
-  "description": "Gather from metal mines.",
+  "description": "Gather from iron mines.",
   "name": "Metal",
   "order": 4,
   "subtypes": {
-    "ore": "Iron",
-    "copper": "Copper",
-    "lead": "Lead",
-    "tin": "Tin"
+    "ore": "iron ore",
+    "pig": "pig iron",
+    "steel": "steel"
   },
   "truePrice": 100
 }

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Mesopotamian Woman</GenericName>
-    <Icon>units/support_woman_pers.png</Icon>
+    <Icon>units/pers_support_female_citizen.png</Icon>
     <SelectionGroupName>units/pers/support_woman</SelectionGroupName>
     <SpecificName>Banu Miyanrudani</SpecificName>
   </Identity>

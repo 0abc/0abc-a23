@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Meroitic Heavy Cavalry</GenericName>
-    <Icon>units/kush_cavalry_spearman.png</Icon>
+    <Icon>units/kush_cavalry_spearman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_spearman</SelectionGroupName>
     <SpecificName>Htr</SpecificName>

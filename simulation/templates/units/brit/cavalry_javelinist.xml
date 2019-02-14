@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>brit</Civ>
-    <Icon>units/brit_cavalry_javelinist_b.png</Icon>
+    <Icon>units/celt_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Gaisaredos</SpecificName>

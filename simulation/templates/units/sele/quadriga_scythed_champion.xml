@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Scythed Chariot</GenericName>
-    <Icon>units/sele_quadriga_scythed_c.png</Icon>
+    <Icon>units/sele_chariot_scythed_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/quadriga_scythed_champion</SelectionGroupName>

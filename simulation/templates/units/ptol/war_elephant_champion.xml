@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Ethiopian War Elephant</GenericName>
-    <Icon>units/ptol_elephant_turret_c.png</Icon>
+    <Icon>units/ptol_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/war_elephant_champion</SelectionGroupName>

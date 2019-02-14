@@ -3,7 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Spartan Woman</GenericName>
-    <Icon>units/support_woman_spart.png</Icon>
+    <Icon>units/spart_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/spart/support_woman</SelectionGroupName>
     <SpecificName>Γύνη Λακεδαιμόνια</SpecificName>

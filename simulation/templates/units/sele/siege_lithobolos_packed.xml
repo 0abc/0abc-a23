@@ -2,7 +2,7 @@
 <Entity parent="template_unit_siege_stonethrower">
   <Identity>
     <Civ>sele</Civ>
-    <Icon>units/hele_mechanical_siege_lithobolos_packed.png</Icon>
+    <Icon>units/athen_siege_lithobolos_p.png</Icon>
     <SpecificName>Λιθοβόλος</SpecificName>
   </Identity>
   <Pack>

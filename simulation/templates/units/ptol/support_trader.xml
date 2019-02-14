@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
-    <Icon>units/support_trader_pers.png</Icon>
+    <Icon>units/ptol_support_trader.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ἔμπορος</SpecificName>
   </Identity>

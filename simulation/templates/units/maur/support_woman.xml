@@ -3,7 +3,7 @@
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Indian Woman</GenericName>
-    <Icon>units/support_woman_maur.png</Icon>
+    <Icon>units/maur_support_female_citizen.png</Icon>
     <SelectionGroupName>units/maur/support_woman</SelectionGroupName>
     <SpecificName>Naari</SpecificName>
   </Identity>

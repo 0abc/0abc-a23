@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Median Magus</GenericName>
-    <Icon>units/support_healer_pers.png</Icon>
+    <Icon>units/pers_support_healer.png</Icon>
     <SelectionGroupName>units/pers/support_healer</SelectionGroupName>
     <SpecificName>Maguš Mada</SpecificName>
   </Identity>

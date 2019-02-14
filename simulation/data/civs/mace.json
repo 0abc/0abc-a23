@@ -69,6 +69,9 @@
       "Template": "structures/mace/centre"
     },
     {
+      "Template": "units/mace/support_healer"
+    },
+    {
       "Template": "units/mace/support_woman",
       "Count": 5
     },

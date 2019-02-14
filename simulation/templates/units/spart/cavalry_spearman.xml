@@ -4,7 +4,7 @@
     <Civ>spart</Civ>
     <Lang>greek</Lang>
     <GenericName>Greek Allied Cavalry</GenericName>
-    <Icon>units/spart_cavalry_spearman.png</Icon>
+    <Icon>units/spart_cavalry_spearman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart/cavalry_spearman</SelectionGroupName>
     <SpecificName>Ἱππεύς Συμμαχικός</SpecificName>
