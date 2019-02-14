@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna_melee">
+  <Armour>
+    <Pierce>3</Pierce>
+  </Armour>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
-      <MaxRange>4</MaxRange>
+      <Hack>25</Hack>
+      <MaxRange>6</MaxRange>
+      <Pierce>25</Pierce>
     </Melee>
   </Attack>
   <Footprint>
     <Height>2.0</Height>
     <Square width="2.1" depth="4.2"/>
   </Footprint>
+  <Health>
+    <Max>110</Max>
+  </Health>
   <Identity>
     <GenericName>Tiger</GenericName>
     <Icon>gaia/fauna_tiger.png</Icon>
@@ -26,6 +33,12 @@
   <UnitAI>
     <NaturalBehaviour>violent</NaturalBehaviour>
   </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.4</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.4</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/tiger.xml</Actor>
   </VisualActor>

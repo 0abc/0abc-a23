@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna_melee">
   <Armour>
-    <Crush>5</Crush>
-    <Hack>3</Hack>
+    <Crush>4</Crush>
+    <Hack>2</Hack>
     <Pierce>4</Pierce>
     <Thrust>2</Thrust>
   </Armour>
   <Attack>
     <Melee>
       <Crush>10</Crush>
-      <MaxRange>4</MaxRange>
+      <MaxRange>5</MaxRange>
       <Pierce>15</Pierce>
       <Thrust>25</Thrust>
     </Melee>
@@ -18,13 +18,17 @@
     <Height>2.0</Height>
     <Square width="3.2" depth="6.4"/>
   </Footprint>
+  <Health>
+    <Max>160</Max>
+  </Health>
   <Identity>
     <GenericName>Walrus</GenericName>
     <Icon>gaia/fauna_walrus.png</Icon>
     <SpecificName>Odobenus rosmarus</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>300</Amount>
+    <Amount>320</Amount>
+    <MaxGatherers>6</MaxGatherers>
   </ResourceSupply>
   <Selectable>
     <Overlay>
@@ -37,6 +41,12 @@
   <UnitAI>
     <NaturalBehaviour>defensive</NaturalBehaviour>
   </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.2</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.2</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/walrus.xml</Actor>
   </VisualActor>

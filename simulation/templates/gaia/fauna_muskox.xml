@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna">
+  <Armour>
+    <Crush>2</Crush>
+    <Pierce>4</Pierce>
+  </Armour>
   <Footprint>
     <Height>2.0</Height>
     <Square width="2.1" depth="4.2"/>
   </Footprint>
+  <Health>
+    <Max>75</Max>
+  </Health>
   <Identity>
     <GenericName>Muskox</GenericName>
     <Icon>gaia/fauna_muskox.png</Icon>
     <SpecificName>Ovibos moschatus</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>210</Amount>
+    <Amount>170</Amount>
+    <MaxGatherers>3</MaxGatherers>
   </ResourceSupply>
   <UnitAI>
     <NaturalBehaviour>skittish</NaturalBehaviour>
   </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.55</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.55</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/muskox.xml</Actor>
   </VisualActor>

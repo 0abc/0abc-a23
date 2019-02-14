@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna_melee">
+  <Armour>
+    <Crush>4</Crush>
+    <Hack>2</Hack>
+    <Pierce>3</Pierce>
+    <Thrust>1</Thrust>
+  </Armour>
   <Attack>
     <Melee>
       <Crush>20</Crush>
@@ -11,13 +17,17 @@
     <Height>2.0</Height>
     <Square width="2.0" depth="4.0"/>
   </Footprint>
+  <Health>
+    <Max>140</Max>
+  </Health>
   <Identity>
     <GenericName>Brown Bear</GenericName>
     <Icon>gaia/fauna_bear.png</Icon>
     <SpecificName>Ursus arctos</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>300</Amount>
+    <Amount>280</Amount>
+    <MaxGatherers>4</MaxGatherers>
   </ResourceSupply>
   <Sound>
     <SoundGroups>
@@ -29,6 +39,12 @@
   <UnitAI>
     <NaturalBehaviour>aggressive</NaturalBehaviour>
   </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.6</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.6</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/bear.xml</Actor>
   </VisualActor>

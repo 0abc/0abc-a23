@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna">
+  <Armour>
+    <Crush>7</Crush>
+    <Hack>3</Hack>
+    <Pierce>5</Pierce>
+    <Thrust>1</Thrust>
+  </Armour>
   <Health>
     <DeathType>remain</DeathType>
-    <Max>300</Max>
+    <Max>400</Max>
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
@@ -22,6 +28,7 @@
   <ResourceSupply>
     <Amount>2000</Amount>
     <Type>food.fish</Type>
+    <MaxGatherers>5</MaxGatherers>
   </ResourceSupply>
   <Selectable>
     <Overlay>

@@ -17,13 +17,20 @@
   </Obstruction>
   <ResourceSupply>
     <Amount>20</Amount>
+    <MaxGatherers>1</MaxGatherers>
   </ResourceSupply>
-  <UnitAI>
-    <NaturalBehaviour>skittish</NaturalBehaviour>
-  </UnitAI>
   <StatusBars>
     <HeightOffset>3.0</HeightOffset>
   </StatusBars>
+  <UnitAI>
+    <NaturalBehaviour>skittish</NaturalBehaviour>
+  </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.35</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.35</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/rabbit1.xml</Actor>
   </VisualActor>

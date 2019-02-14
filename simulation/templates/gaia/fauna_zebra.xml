@@ -4,13 +4,17 @@
     <Height>2.0</Height>
     <Square width="1.9" depth="3.8"/>
   </Footprint>
+  <Health>
+    <Max>85</Max>
+  </Health>
   <Identity>
     <GenericName>Common Zebra</GenericName>
     <Icon>gaia/fauna_zebra.png</Icon>
     <SpecificName>Equus quagga</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>150</Amount>
+    <Amount>170</Amount>
+    <MaxGatherers>3</MaxGatherers>
   </ResourceSupply>
   <UnitAI>
     <NaturalBehaviour>skittish</NaturalBehaviour>

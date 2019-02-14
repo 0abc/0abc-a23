@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna_melee">
+  <Armour>
+    <Crush>4</Crush>
+    <Hack>2</Hack>
+    <Pierce>5</Pierce>
+    <Thrust>3</Thrust>
+  </Armour>
   <Attack>
     <Melee>
       <Crush>20</Crush>
@@ -11,6 +17,9 @@
     <Height>2.0</Height>
     <Square width="2.8" depth="5.6"/>
   </Footprint>
+  <Health>
+    <Max>200</Max>
+  </Health>
   <Identity>
     <GenericName>White Rhinoceros</GenericName>
     <Icon>gaia/fauna_rhinoceros.png</Icon>
@@ -18,6 +27,7 @@
   </Identity>
   <ResourceSupply>
     <Amount>400</Amount>
+    <MaxGatherers>7</MaxGatherers>
   </ResourceSupply>
   <Selectable>
     <Overlay>
@@ -37,6 +47,12 @@
   <UnitAI>
     <NaturalBehaviour>aggressive</NaturalBehaviour>
   </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.7</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/rhino.xml</Actor>
   </VisualActor>

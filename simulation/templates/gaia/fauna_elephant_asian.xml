@@ -17,6 +17,7 @@
   </Loot>
   <ResourceSupply>
     <Amount>600</Amount>
+    <MaxGatherers>10</MaxGatherers>
   </ResourceSupply>
   <VisualActor>
     <Actor>fauna/elephant_asian.xml</Actor>

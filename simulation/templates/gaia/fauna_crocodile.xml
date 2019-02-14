@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna_melee">
+  <Armour>
+    <Crush>7</Crush>
+    <Hack>3</Hack>
+    <Pierce>9</Pierce>
+    <Thrust>5</Thrust>
+  </Armour>
   <Attack>
     <Melee>
       <Hack>30</Hack>
@@ -10,6 +16,9 @@
     <Height>1.5</Height>
     <Square width="3.5" depth="7.0"/>
   </Footprint>
+  <Health>
+    <Max>90</Max>
+  </Health>
   <Identity>
     <GenericName>Nile Crocodile</GenericName>
     <Icon>gaia/fauna_crocodile.png</Icon>
@@ -18,7 +27,10 @@
   <Position>
     <Anchor>pitch-roll</Anchor>
   </Position>
-  <ResourceSupply disable=""/>
+  <ResourceSupply>
+    <Amount>180</Amount>
+    <MaxGatherers>3</MaxGatherers>
+  </ResourceSupply>
   <Selectable>
     <Overlay>
       <Texture>
@@ -39,9 +51,9 @@
   </UnitAI>
   <UnitMotion>
     <Run>
-      <Speed op="mul">0.3</Speed>
+      <Speed op="mul">0.4</Speed>
     </Run>
-    <WalkSpeed op="mul">0.3</WalkSpeed>
+    <WalkSpeed op="mul">0.4</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/crocodile.xml</Actor>

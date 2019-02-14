@@ -15,6 +15,7 @@
   </Identity>
   <ResourceSupply>
     <Amount>150</Amount>
+    <MaxGatherers>2</MaxGatherers>
   </ResourceSupply>
   <Sound>
     <SoundGroups>

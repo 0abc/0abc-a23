@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna">
   <Health>
-    <Max>150</Max>
+    <Max>180</Max>
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>

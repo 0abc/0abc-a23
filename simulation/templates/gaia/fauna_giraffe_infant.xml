@@ -4,17 +4,26 @@
     <Height>3.5</Height>
     <Square width="1.9" depth="3.8"/>
   </Footprint>
+  <Health>
+    <Max op="mul">0.4</Max>
+  </Health>
   <Identity>
     <GenericName>Juvenile Giraffe</GenericName>
     <Icon>gaia/fauna_giraffe_infant.png</Icon>
-    <VisibleClasses datatype="tokens">Infant</VisibleClasses>
   </Identity>
   <ResourceSupply>
     <Amount>140</Amount>
+    <MaxGatherers>2</MaxGatherers>
   </ResourceSupply>
   <StatusBars>
     <HeightOffset>7.0</HeightOffset>
   </StatusBars>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">0.9</Speed>
+    </Run>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/giraffe_baby.xml</Actor>
   </VisualActor>

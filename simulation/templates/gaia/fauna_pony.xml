@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="gaia/fauna_horse">
   <Health>
-    <Max op="mul">0.8</Max>
+    <Max op="mul">0.75</Max>
   </Health>
   <Identity>
     <GenericName>Pony</GenericName>
@@ -9,6 +9,7 @@
   </Identity>
   <ResourceSupply>
     <Amount>160</Amount>
+    <MaxGatherers>2</MaxGatherers>
   </ResourceSupply>
   <UnitMotion>
     <Run>

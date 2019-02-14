@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna">
+  <Armour>
+    <Pierce>2</Pierce>
+  </Armour>
   <Footprint>
     <Height>2.0</Height>
     <Square width="1.7" depth="3.4"/>
   </Footprint>
+  <Health>
+    <Max>65</Max>
+  </Health>
   <Identity>
     <GenericName>Red Deer</GenericName>
     <Icon>gaia/fauna_deer.png</Icon>
     <SpecificName>Cervus elaphus</SpecificName>
   </Identity>
   <ResourceSupply>
-    <Amount>125</Amount>
+    <Amount>130</Amount>
+    <MaxGatherers>2</MaxGatherers>
   </ResourceSupply>
   <UnitAI>
     <NaturalBehaviour>skittish</NaturalBehaviour>

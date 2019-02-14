@@ -4,14 +4,27 @@
     <Height>2.0</Height>
     <Square width="1.5" depth="3.0"/>
   </Footprint>
+  <Health>
+    <Max>30</Max>
+  </Health>
   <Identity>
     <GenericName>Thomson's Gazelle</GenericName>
     <Icon>gaia/fauna_gazelle.png</Icon>
     <SpecificName>Eudorcas thomsonii</SpecificName>
   </Identity>
+  <ResourceSupply>
+    <Amount>60</Amount>
+    <MaxGatherers>2</MaxGatherers>
+  </ResourceSupply>
   <UnitAI>
     <NaturalBehaviour>skittish</NaturalBehaviour>
   </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.25</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.25</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/gazelle.xml</Actor>
   </VisualActor>
