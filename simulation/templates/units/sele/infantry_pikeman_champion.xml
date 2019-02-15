@@ -5,7 +5,7 @@
     <Civ>sele</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Silver Shield Pikeman</GenericName>
-    <Icon>units/sele_champion_pikeman.png</Icon>
+    <Icon>units/sele_infantry_pikeman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_pikeman_champion</SelectionGroupName>

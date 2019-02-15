@@ -5,7 +5,7 @@
     <Civ>maur</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <SpecificName>Warrior</SpecificName>
-    <Icon>units/maur_champion_maceman.png</Icon>
+    <Icon>units/maur_infantry_maceman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_maceman_champion</SelectionGroupName>
     <SpecificName>Yōddha</SpecificName>

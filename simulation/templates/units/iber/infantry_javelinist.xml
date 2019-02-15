@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/iber_infantry_javelinist.png</Icon>
+    <Icon>units/iber_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_javelinist</SelectionGroupName>
     <SpecificName>Lusitano Ezpatari</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Iberian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/infantry_javelinist_a.xml</Actor>
+    <Actor>units/iberians/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

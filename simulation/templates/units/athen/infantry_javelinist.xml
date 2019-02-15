@@ -3,7 +3,7 @@
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Thracian Peltast</GenericName>
-    <Icon>units/hele_infantry_javelinist.png</Icon>
+    <Icon>units/hele_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_javelinist</SelectionGroupName>

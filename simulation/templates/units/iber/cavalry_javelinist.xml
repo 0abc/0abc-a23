@@ -6,6 +6,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Kantabriako Zaldun</SpecificName>
+    <VisibleClasses datatype="tokens">Iberian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/cavalry_javelinist_b_m.xml</Actor>

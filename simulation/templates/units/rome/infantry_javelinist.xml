@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rome</Civ>
     <GenericName>Roman Skirmisher</GenericName>
-    <Icon>units/rome_infantry_javelinist.png</Icon>
+    <Icon>units/rome_infantry_javelinist_b.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_javelinist</SelectionGroupName>
@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Roman Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/romans/infantry_javelinist_a.xml</Actor>
+    <Actor>units/romans/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

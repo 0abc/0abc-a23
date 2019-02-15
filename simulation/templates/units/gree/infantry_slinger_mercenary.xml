@@ -4,7 +4,7 @@
     <Civ>gree</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Rhodian Slinger</GenericName>
-    <Icon>units/mace_infantry_slinger.png</Icon>
+    <Icon>units/athen_infantry_slinger_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_slinger</SelectionGroupName>
@@ -13,6 +13,6 @@
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/infantry_slinger_a.xml</Actor>
+    <Actor>units/athenians/infantry_slinger_e.xml</Actor>
   </VisualActor>
 </Entity>

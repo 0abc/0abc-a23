@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rome</Civ>
     <GenericName>Experienced Swordsman</GenericName>
-    <Icon>units/rome_infantry_swordsman.png</Icon>
+    <Icon>units/rome_infantry_swordsman_b.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_swordsman</SelectionGroupName>
@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Roman Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_e.xml</Actor>
+    <Actor>units/romans/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

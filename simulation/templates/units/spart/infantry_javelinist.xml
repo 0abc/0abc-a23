@@ -3,7 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Helot Skirmisher</GenericName>
-    <Icon>units/spart_infantry_javelinist.png</Icon>
+    <Icon>units/spart_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_javelinist</SelectionGroupName>
@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/infantry_javelinist_a.xml</Actor>
+    <Actor>units/spartans/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

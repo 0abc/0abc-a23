@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Spartan Pikeman</GenericName>
+    <Icon>units/spart_infantry_pikeman_c.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/spart/infantry_pikeman</SelectionGroupName>
+    <SpecificName>Φαλαγγίτης Σπαρτιατικός</SpecificName>
+    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/infantry_pikeman_c.xml</Actor>
+  </VisualActor>
+</Entity>

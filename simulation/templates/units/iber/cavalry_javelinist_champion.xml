@@ -6,7 +6,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelinist_champion</SelectionGroupName>
     <SpecificName>Leial Zalduneria</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Iberian Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/cavalry_javelinist_c_m.xml</Actor>

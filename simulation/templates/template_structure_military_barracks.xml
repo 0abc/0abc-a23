@@ -31,7 +31,7 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_pikeman
       units/{civ}/infantry_spearman
-      units/{civ}/infantry_hoplite
+      units/{civ}/infantry_longswordsman
       units/{civ}/infantry_swordsman
       units/{civ}/infantry_sabreman
       units/{civ}/infantry_axeman
@@ -42,7 +42,7 @@
       units/{civ}/infantry_slinger
       units/{civ}/infantry_pikeman_mercenary
       units/{civ}/infantry_spearman_mercenary
-      units/{civ}/infantry_hoplite_mercenary
+      units/{civ}/infantry_longswordsman_mercenary
       units/{civ}/infantry_swordsman_mercenary
       units/{civ}/infantry_sabreman_mercenary
       units/{civ}/infantry_axeman_mercenary

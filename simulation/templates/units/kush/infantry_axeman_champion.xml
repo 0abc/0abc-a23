@@ -5,7 +5,7 @@
     <Civ>kush</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Meroitic Temple Guard</GenericName>
-    <Icon>units/kush_champion_apedemak.png</Icon>
+    <Icon>units/kush_infantry_axeman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_axeman_champion</SelectionGroupName>
     <SpecificName>rs ‘Iprmk</SpecificName>

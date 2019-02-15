@@ -5,7 +5,7 @@
     <Civ>ptol</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Royal Guard Pikeman</GenericName>
-    <Icon>units/ptol_champion_infantry.png</Icon>
+    <Icon>units/ptol_infantry_pikeman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman_champion</SelectionGroupName>

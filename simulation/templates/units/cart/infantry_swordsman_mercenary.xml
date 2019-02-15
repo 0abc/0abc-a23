@@ -4,7 +4,7 @@
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Gallic Mercenary Swordsman</GenericName>
-    <Icon>units/cart_infantry_swordsman.png</Icon>
+    <Icon>units/cart_infantry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_swordsman_mercenary</SelectionGroupName>
     <SpecificName>Seḫīr Ḥerev</SpecificName>

@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_sabreman">
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
+    <Icon>units/iber_infantry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber_infantry_swordsman_b</SelectionGroupName>
     <SpecificName>Ezpatari</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Iberian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/infantry_swordsman_a.xml</Actor>

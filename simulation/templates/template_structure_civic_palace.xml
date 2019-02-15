@@ -39,7 +39,9 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_pikeman_champion
       units/{civ}/infantry_spearman_champion
-      units/{civ}/infantry_hoplite_champion
+      units/{civ}/infantry_spearman_champion_2
+      units/{civ}/infantry_spearman_champion_3
+      units/{civ}/infantry_longswordsman_champion
       units/{civ}/infantry_swordsman_champion
       units/{civ}/infantry_sabreman_champion
       units/{civ}/infantry_axeman_champion

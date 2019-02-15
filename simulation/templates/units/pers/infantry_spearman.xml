@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Shield Bearer</GenericName>
-    <Icon>units/pers_infantry_spearman.png</Icon>
+    <Icon>units/pers_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman</SelectionGroupName>
     <SpecificName>Sparabara</SpecificName>

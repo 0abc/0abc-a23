@@ -4,7 +4,7 @@
     <Civ>kush</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Nuba Skirmisher</GenericName>
-    <Icon>units/kush_infantry_merc_javelinist.png</Icon>
+    <Icon>units/kush_infantry_javelinist_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>nhw ‘h3w Noba</SpecificName>

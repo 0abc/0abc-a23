@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Egyptian Pikeman</GenericName>
-    <Icon>units/ptol_infantry_spearman.png</Icon>
+    <Icon>units/ptol_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman</SelectionGroupName>
@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Egyptian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_pikeman_a.xml</Actor>
+    <Actor>units/ptolemies/infantry_pikeman_b.xml</Actor>
   </VisualActor>
 </Entity>

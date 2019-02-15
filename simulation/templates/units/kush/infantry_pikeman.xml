@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Meroitic Pikeman</GenericName>
-    <Icon>units/kush_infantry_pikeman.png</Icon>
+    <Icon>units/kush_infantry_pikeman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_pikeman</SelectionGroupName>
     <SpecificName>si3wrd</SpecificName>

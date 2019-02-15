@@ -4,7 +4,7 @@
     <Civ>ptol</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Mercenary Thureos Skirmisher</GenericName>
-    <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
+    <Icon>units/ptol_infantry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_javelinist_mercenary</SelectionGroupName>

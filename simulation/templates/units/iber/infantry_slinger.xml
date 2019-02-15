@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_stoneslinger">
   <Identity>
     <Civ>iber</Civ>
-    <Icon>units/iber_infantry_slinger.png</Icon>
+    <Icon>units/iber_infantry_slinger_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_slinger</SelectionGroupName>
     <SpecificName>Habailari</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Iberian</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/infantry_slinger_a.xml</Actor>
+    <Actor>units/iberians/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

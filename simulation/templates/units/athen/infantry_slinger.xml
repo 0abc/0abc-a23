@@ -4,7 +4,7 @@
     <Civ>athen</Civ>
     <GenericName>Athenian Slinger</GenericName>
     <Lang>greek</Lang>
-    <Icon>units/athen_infantry_slinger.png</Icon>
+    <Icon>units/athen_infantry_slinger_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_slinger</SelectionGroupName>
     <SpecificName>Σφενδονήτης Ἀθηναῖος</SpecificName>

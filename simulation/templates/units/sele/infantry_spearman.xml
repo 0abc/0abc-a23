@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Militia Thureos Spearman</GenericName>
-    <Icon>units/sele_infantry_spearman_2.png</Icon>
+    <Icon>units/sele_infantry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_spearman</SelectionGroupName>

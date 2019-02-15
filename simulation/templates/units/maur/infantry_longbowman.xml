@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_longbowman">
   <Identity>
     <Civ>maur</Civ>
-    <Icon>units/maur_infantry_archer.png</Icon>
+    <Icon>units/maur_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_longbowman</SelectionGroupName>
     <SpecificName>Dhanurdhar</SpecificName>
     <VisibleClasses datatype="tokens">Indian Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/mauryans/infantry_archer_a.xml</Actor>
+    <Actor>units/mauryans/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

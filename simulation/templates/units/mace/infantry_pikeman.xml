@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Foot Companion</GenericName>
-    <Icon>units/mace_infantry_pikeman.png</Icon>
+    <Icon>units/mace_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_pikeman</SelectionGroupName>

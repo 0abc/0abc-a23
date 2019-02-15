@@ -4,7 +4,7 @@
     <Civ>ptol</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Mercenary Thureos Spearman</GenericName>
-    <Icon>units/ptol_infantry_spearman_2.png</Icon>
+    <Icon>units/ptol_infantry_spearman_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_spearman_mercenary</SelectionGroupName>

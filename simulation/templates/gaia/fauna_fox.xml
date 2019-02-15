@@ -19,7 +19,7 @@
   </Health>
   <Identity>
     <GenericName>Red Fox</GenericName>
-    <Icon>gaia/fauna_fox_red.png</Icon>
+    <Icon>gaia/fauna_fox.png</Icon>
     <SpecificName>Vulpes vulpes</SpecificName>
   </Identity>
   <ResourceSupply disable=""/>

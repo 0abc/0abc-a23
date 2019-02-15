@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>brit</Civ>
-    <Icon>units/celt_infantry_javelinist.png</Icon>
+    <Icon>units/celt_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_javelinist</SelectionGroupName>
     <SpecificName>Baguada</SpecificName>

@@ -4,7 +4,7 @@
     <Civ>gree</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Thracian Peltast</GenericName>
-    <Icon>units/hele_infantry_javelinist.png</Icon>
+    <Icon>units/athen_infantry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_javelinist_mercenary</SelectionGroupName>

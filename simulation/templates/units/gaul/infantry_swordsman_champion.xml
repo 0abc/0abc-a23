@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gaul</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
-    <Icon>units/gaul_champion_infantry.png</Icon>
+    <Icon>units/gaul_infantry_swordsman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_swordsman_champion</SelectionGroupName>
     <SpecificName>Solduros</SpecificName>

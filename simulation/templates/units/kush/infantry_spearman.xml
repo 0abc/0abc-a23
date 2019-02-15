@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Nubian Spearman</GenericName>
-    <Icon>units/kush_infantry_spearman.png</Icon>
+    <Icon>units/kush_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_spearman</SelectionGroupName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Skiritai Commando</GenericName>
-    <Icon>units/spart_champion_infantry_sword.png</Icon>
+    <Icon>units/spart_infantry_swordsman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_swordsman</SelectionGroupName>

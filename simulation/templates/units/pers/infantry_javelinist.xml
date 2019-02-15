@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Anatolian Auxiliary</GenericName>
-    <Icon>units/pers_infantry_javelinist.png</Icon>
+    <Icon>units/pers_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_javelinist</SelectionGroupName>
     <SpecificName>Spardiya Takabara</SpecificName>

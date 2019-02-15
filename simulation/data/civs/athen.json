@@ -76,7 +76,7 @@
       "Count": 5
     },
     {
-      "Template": "units/athen/infantry_hoplite",
+      "Template": "units/athen/infantry_spearman",
       "Count": 2
     },
     {
@@ -126,7 +126,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/athen/cavalry_javelinist",
-    "skirmish/units/default_infantry_melee_b": "units/athen/infantry_hoplite",
+    "skirmish/units/default_infantry_melee_b": "units/athen/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/athen/infantry_slinger",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },

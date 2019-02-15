@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Agrianian Peltast</GenericName>
-    <Icon>units/mace_infantry_javelinist.png</Icon>
+    <Icon>units/mace_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_javelinist</SelectionGroupName>

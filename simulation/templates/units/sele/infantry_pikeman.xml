@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Bronze Shield Pikeman</GenericName>
-    <Icon>units/sele_infantry_spearman.png</Icon>
+    <Icon>units/sele_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_pikeman</SelectionGroupName>

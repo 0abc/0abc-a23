@@ -5,7 +5,7 @@
     <Civ>kush</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Noble Archer</GenericName>
-    <Icon>units/kush_champion_archer.png</Icon>
+    <Icon>units/kush_infantry_archer_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_archer_champion</SelectionGroupName>
     <SpecificName>Hry pdty</SpecificName>

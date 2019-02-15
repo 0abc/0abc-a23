@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>gaul</Civ>
-    <Icon>units/celt_infantry_spearman.png</Icon>
+    <Icon>units/celt_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_spearman</SelectionGroupName>
     <SpecificName>Gaeroa</SpecificName>

@@ -197,7 +197,7 @@
       "Count": 5
     },
     {
-      "Template": "units/gree/infantry_hoplite",
+      "Template": "units/gree/infantry_spearman",
       "Count": 2
     },
     {
@@ -269,7 +269,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/gree/cavalry_javelinist",
-    "skirmish/units/default_infantry_melee_b": "units/gree/infantry_hoplite",
+    "skirmish/units/default_infantry_melee_b": "units/gree/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/gree/infantry_javelinist",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },

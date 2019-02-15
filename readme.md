@@ -129,7 +129,6 @@ There are four damage types (crush, hack, pierce, thrust)
   * sabre (melee): 100% hack
   * longsword (melee): 75% hack, 25% thrust
   * sword (melee): 50% hack, 50% thrust
-  * hoplite (melee): 25% hack, 75% thrust
   * spear (melee): 100% thrust
   * pike (melee): 50% pierce, 50% thrust
 * camelry:
@@ -307,14 +306,14 @@ Wood:
   * Woman
   * Trader
   * Fishing Boat
-  * Infantry Hoplite
+  * Infantry Spearman
   * Infantry Archer
   * Cavalry Javelinist
 * Town phase:
   * Healer
   * Battering Ram
   * Merchant Ship
-  * Infantry Hoplite Mercenary
+  * Infantry Spearman Mercenary
   * Infantry Swordsman Mercenary
   * Infantry Javelinist Mercenary
   * Infantry Lead-slinger Mercenary
@@ -324,7 +323,7 @@ Wood:
   * Cavalry Spearman Mercenary
   * Trireme
 * City phase:
-  * Infantry Hoplite Champion
+  * Infantry Spearman Champion
   * Cavalry Lancer Champion
   * War Elephant Champion
   * Oxybeles
@@ -360,13 +359,13 @@ Wood:
   * Woman
   * Trader
   * Fishing Boat
-  * Infantry Hoplite
+  * Infantry Spearman
   * Infantry Javelinist
 * Town phase:
   * Healer
   * Battering Ram
   * Merchant Ship
-  * Infantry Hoplite Mercenary
+  * Infantry Spearman Mercenary
   * Infantry Javelinist Mercenary
   * Infantry Archer Mercenary
   * Infantry Lead-slinger Mercenary
@@ -375,7 +374,7 @@ Wood:
   * Penteconter
   * Trireme
 * City phase:
-  * Infantry Hoplite Champion
+  * Infantry Spearman Champion
   * Oxybeles
   * Quadrireme
 
@@ -443,14 +442,14 @@ Wood:
   * Healer
   * Battering Ram
   * Merchant Ship
-  * Infantry Hoplite Mercenary
+  * Infantry Spearman Mercenary
   * Infantry Archer Mercenary
   * Infantry Lead-slinger Mercenary
   * Cavalry Javelinist
   * Penteconter
   * Trireme
 * City phase:
-  * Infantry Hoplite Champion
+  * Infantry Spearman Champion
   * Infantry Crossbowman Champion
   * Cavalry Lancer Champion
   * War Elephant Champion
@@ -507,7 +506,7 @@ Wood:
   * Penteconter
   * Trireme
 * City phase:
-  * Infantry Hoplite Mercenary
+  * Infantry Spearman Mercenary
   * Infantry Spearman Champion
   * Cavalry Lancer Champion
   * Cavalry Archer Champion
@@ -560,7 +559,7 @@ Wood:
   * Battering Ram
   * Merchant Ship
   * Infantry Swordsman
-  * Infantry Hoplite
+  * Infantry Spearman
   * Cavalry Spearman
   * Cavalry Javelinist
   * Penteconter

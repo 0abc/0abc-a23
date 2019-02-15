@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Armour>
-    <Hack op="add">-1</Hack>
-    <Thrust op="add">1</Thrust>
+    <Crush>4</Crush>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
+    <Thrust>5</Thrust>
   </Armour>
   <Attack>
     <Melee>
