@@ -36,9 +36,8 @@
     <FloatDepth>0.0</FloatDepth>
   </Position>
   <ResourceTrickle>
-    <Interval>7000</Interval>
     <Rates>
-      <wood>-2.0</wood>
+      <wood>-8.0</wood>
     </Rates>
   </ResourceTrickle>
   <Sound>

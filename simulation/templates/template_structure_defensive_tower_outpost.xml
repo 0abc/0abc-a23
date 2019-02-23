@@ -8,10 +8,8 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Pierce>16</Pierce>
-      <MaxRange>55</MaxRange>
-      <MinRange>13</MinRange>
-      <ElevationBonus>0</ElevationBonus>
+      <MaxRange op="mul">2.0</MaxRange>
+      <ElevationBonus op="mul">2.0</ElevationBonus>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -31,7 +29,7 @@
     <Square width="9.0" depth="9.0"/>
   </Footprint>
   <Health>
-    <Max>750</Max>
+    <Max>500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -48,7 +46,6 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       tower_decay
-      tower_vision
     </Technologies>
   </ProductionQueue>
   <StatusBars>

@@ -53,6 +53,8 @@
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
+      training_soldiers
+      parade
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

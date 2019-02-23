@@ -42,12 +42,6 @@
       units/{civ}/quadriga_scythed_mercenary
       units/{civ}/quadriga_scythed_champion
     </Entities>
-    <Technologies datatype="tokens">
-      training_siege_workshop
-      siege_armour
-      siege_attack
-      siege_bolt_accuracy
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

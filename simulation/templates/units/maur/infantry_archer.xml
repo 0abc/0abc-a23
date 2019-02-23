@@ -4,7 +4,7 @@
     <Civ>maur</Civ>
     <Icon>units/maur_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SelectionGroupName>units/maur/infantry_longbowman</SelectionGroupName>
+    <SelectionGroupName>units/maur/infantry_archer</SelectionGroupName>
     <SpecificName>Dhanurdhar</SpecificName>
     <VisibleClasses datatype="tokens">Indian Worker</VisibleClasses>
   </Identity>

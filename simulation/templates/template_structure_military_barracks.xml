@@ -53,19 +53,14 @@
       units/{civ}/infantry_slinger_mercenary
     </Entities>
     <Technologies datatype="tokens">
-      training_barracks
       armour_infantry_1
       armour_infantry_2
       armour_infantry_3
-      attack_infantry_melee_1
-      attack_infantry_melee_2
-      attack_infantry_melee_3
-      attack_infantry_ranged_1
-      attack_infantry_ranged_2
-      attack_infantry_ranged_3
-      marching
       archery_tradition
+      arrowheads
+      attack_infantry_javelin
       steel_working
+      marching
     </Technologies>
   </ProductionQueue>
   <Sound>

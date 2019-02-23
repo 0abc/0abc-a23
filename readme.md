@@ -262,7 +262,8 @@ Wood:
 * **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
 * **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Indian Training** (Mauryas): elephants −20% training time.
-* **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health.
+* **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
+* **Near Eastern Archers** (Persians, Seleucids): archers +15% ranged attack range.
 * **Persian Architecture** (Persians): economic structures +20% health.
 * **Persian Training** (Persians): archers −20% training time.
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
@@ -327,7 +328,7 @@ Wood:
   * Cavalry Lancer Champion
   * War Elephant Champion
   * Oxybeles
-  * Stone-thrower
+  * Ballista
   * Quadrireme
   * Quinquereme
 
@@ -454,7 +455,7 @@ Wood:
   * Cavalry Lancer Champion
   * War Elephant Champion
   * Oxybeles
-  * Stone-thrower
+  * Lithobolos
   * Siege Tower
   * Quinquereme
 
@@ -479,9 +480,9 @@ Wood:
   * War Barge
 * City phase:
   * Infantry Maceman Champion
-  * Biga Archer Champion
+  * Biga Longbowman Champion
   * War Elephant Champion
-  * Stone-thrower
+  * Lithobolos
   * Huge Barge
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
@@ -540,7 +541,7 @@ Wood:
   * Cavalry Spearman Champion
   * War Elephant Champion
   * Polybolos
-  * Stone-thrower
+  * Lithobolos
   * Siege Tower
   * Quadrireme
   * Quinquereme
@@ -567,7 +568,7 @@ Wood:
 * City phase:
   * Infantry Swordsman Champion
   * Scorpio
-  * Stone-thrower
+  * Ballista
   * Quadrireme
   * Quinquereme
 
@@ -598,7 +599,7 @@ Wood:
   * Cavalry Lancer Champion
   * Quadriga Scythed Champion
   * War Elephant Champion
-  * Stone-thrower
+  * Lithobolos
   * Siege Tower
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)

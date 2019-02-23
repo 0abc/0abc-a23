@@ -1,0 +1,10 @@
+{
+  "affects": ["Archer"],
+  "autoResearch": true,
+  "genericName": "Near Eastern Archers",
+  "modifications": [
+    {"value": "Attack/Ranged/MaxRange", "multiply": 1.15}
+  ],
+  "requirements": {"any": [{"civ": "pers"}, {"civ": "sele"}]},
+  "tooltip": "Archers +15% ranged attack range."
+}

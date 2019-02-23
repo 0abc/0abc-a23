@@ -8,13 +8,13 @@
           <Multiplier>2.0</Multiplier>
         </Structures>
       </Bonuses>
-      <Crush>40.0</Crush>
+      <Crush>80.0</Crush>
       <Hack>0</Hack>
       <MaxRange>6.5</MaxRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>
       <Thrust>0</Thrust>
     </Melee>

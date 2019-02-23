@@ -34,12 +34,11 @@
       units/{civ}/support_woman
     </Entities>
     <Technologies datatype="tokens">
-      training_woman
-      armour_woman
-      gather_forage
       house_population_1
       house_population_2
       house_population_3
+      armour_woman
+      training_woman
     </Technologies>
   </ProductionQueue>
   <Sound>

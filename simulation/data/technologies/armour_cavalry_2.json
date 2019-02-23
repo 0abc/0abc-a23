@@ -3,19 +3,19 @@
   "cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 500},
   "description": "Linen armour for cavalry.",
   "genericName": "Improved Chamfron",
-  "icon": "armor_plates_cavalry.png",
+  "icon": "armor_plates_silver_cavalry.png",
   "modifications": [
     {"value": "Armour/Crush",         "add":      1.0 },
     {"value": "Armour/Hack",          "add":      1.0 },
     {"value": "Armour/Pierce",        "add":      1.0 },
     {"value": "Armour/Thrust",        "add":      1.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.99},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
-  "requirements": {"tech": "phase_town"},
-  "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 60,
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_cavalry_1",
-  "tooltip": "Cavalry +1 armour level, but also −1% movement speed."
+  "tooltip": "Cavalry +1 armour level, but also −2% movement speed."
 }

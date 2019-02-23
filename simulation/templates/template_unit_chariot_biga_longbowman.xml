@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_chariot_biga">
+  <Attack>
+    <Melee disable=""/>
+    <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <MaxRange op="mul">4.0</MaxRange>
+      <Pierce>7</Pierce>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <Spread>3.0</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Longbowman</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>2</MaxArrowCount>
+  </BuildingAI>
+  <Identity>
+    <GenericName>Biga Longbowman</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Longbowman</VisibleClasses>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>

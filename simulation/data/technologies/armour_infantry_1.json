@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry !Fanatic"],
+  "affects": ["Infantry Melee !Fanatic"],
   "cost": {"food": 0, "wood": 800, "stone": 0, "metal": 400},
   "description": "Equip infantrymen with body armour made from quilted leather.",
   "genericName": "Quilted Leather Body Armour",
@@ -9,8 +9,8 @@
     {"value": "Armour/Hack",          "add":      1.0 },
     {"value": "Armour/Pierce",        "add":      1.0 },
     {"value": "Armour/Thrust",        "add":      1.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.99},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
@@ -31,5 +31,5 @@
     "sele": "Spolas",
     "spart": "Spolas"
   },
-  "tooltip": "Infantry +1 armour level, but also −1% movement speed."
+  "tooltip": "Melee Infantry +1 armour level, but also −2% movement speed."
 }

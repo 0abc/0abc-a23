@@ -1,0 +1,24 @@
+{
+  "affects": ["Archer", "Ship", "Structure"],
+  "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 600},
+  "description": "Give your arrows iron arrowheads.",
+  "genericName": "Iron Arrowheads",
+  "icon": "arrow.png",
+  "modifications": [
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.2}
+  ],
+  "requirements": {"all": [
+    {"tech": "phase_town"},
+    {"notciv": "iber"},
+    {"notciv": "kush"},
+    {"notciv": "maur"},
+    {"notciv": "ptol"},
+    {"notciv": "rome"},
+    {"notciv": "sele"},
+    {"notciv": "spart"}
+  ]},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Archers, Ships, and Structures +20% ranged attack pierce damage."
+}

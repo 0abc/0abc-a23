@@ -81,7 +81,7 @@
       "Count": 2
     },
     {
-      "Template": "units/kush/infantry_longbowman",
+      "Template": "units/kush/infantry_archer",
       "Count": 2
     },
     {
@@ -127,7 +127,7 @@
   {
     "skirmish/units/default_cavalry": "units/kush/cavalry_javelinist",
     "skirmish/units/default_infantry_melee_b": "units/kush/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/kush/infantry_longbowman",
+    "skirmish/units/default_infantry_ranged_b": "units/kush/infantry_archer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

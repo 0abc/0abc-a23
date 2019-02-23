@@ -8,16 +8,16 @@
     {"value": "Armour/Crush",         "add":      1.0 },
     {"value": "Armour/Hack",          "add":      1.0 },
     {"value": "Armour/Pierce",        "add":      1.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.99},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
   "requirements": {"all": [
     {"tech": "phase_city"},
-    {"any":[{"civ": "brit"}, {"civ": "gaul"}, {"civ": "rome"}]}
+    {"any": [{"civ": "brit"}, {"civ": "gaul"}, {"civ": "rome"}]}
   ]},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_infantry_3",
-  "tooltip": "Champions +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
+  "tooltip": "Champions +1 Crush, Hack, and Pierce Armour levels, but also −2% movement speed."
 }

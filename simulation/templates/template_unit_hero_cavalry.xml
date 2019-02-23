@@ -4,9 +4,6 @@
     <Circle radius="2.5"/>
     <Height>5.0</Height>
   </Footprint>
-  <Health>
-    <Max>1500</Max>
-  </Health>
   <Identity>
     <Formations datatype="tokens">
       special/formations/wedge
@@ -14,9 +11,6 @@
     <GenericName>Cavalry Hero</GenericName>
     <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <Sound>
     <SoundGroups>
       <run>actor/mounted/movement/walk.xml</run>

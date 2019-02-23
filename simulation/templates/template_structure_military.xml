@@ -30,7 +30,6 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
   </ProductionQueue>
   <ResourceTrickle>
-    <Interval>30000</Interval>
     <Rates>
       <food>-4.0</food>
       <wood>-1.0</wood>

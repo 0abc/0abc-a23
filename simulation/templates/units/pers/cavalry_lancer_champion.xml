@@ -4,7 +4,6 @@
     <Civ>pers</Civ>
     <GenericName>Bactrian Cataphract Lancer</GenericName>
     <Icon>units/pers_cavalry_spearman_c.png</Icon>
-    <Lang>persian</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/cavalry_lancer_champion</SelectionGroupName>
     <SpecificName>Bakhtrish Asabara</SpecificName>

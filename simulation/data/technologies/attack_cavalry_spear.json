@@ -1,0 +1,23 @@
+{
+  "affects": ["Spearman", "Lancer"],
+  "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
+  "description": "Training increases ranged attack.",
+  "genericName": "Cavalry Spear Training",
+  "icon": "spear_cavalry.png",
+  "modifications": [
+    {"value": "Attack/Melee/Crush",   "multiply": 1.2, "affects": "Cavalry"},
+    {"value": "Attack/Melee/Hack",    "multiply": 1.2, "affects": "Cavalry"},
+    {"value": "Attack/Melee/Pierce",  "multiply": 1.2, "affects": "Cavalry"},
+    {"value": "Attack/Melee/Thrust",  "multiply": 1.2, "affects": "Cavalry"}
+  ],
+  "requirements": {"all": [
+    {"tech": "phase_town"},
+    {"notciv": "athen"},
+    {"notciv": "brit"},
+    {"notciv": "maur"}
+  ]},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Cavalry spearmen and lancers +20% melee attack damage."
+}

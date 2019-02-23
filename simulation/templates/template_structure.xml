@@ -113,6 +113,16 @@
       <time>1.0</time>
     </TechCostMultiplier>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+    <Rates>
+      <food>0.0</food>
+      <metal>0.0</metal>
+      <silver>0.0</silver>
+      <stone>0.0</stone>
+      <wood>0.0</wood>
+    </Rates>
+  </ResourceTrickle>
   <RallyPoint/>
   <RallyPointRenderer>
     <LineDashColor r="158" g="11" b="15"/>

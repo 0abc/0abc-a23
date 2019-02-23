@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_cavalry">
   <Attack>
     <Melee>
-     <Hack>40</Hack>
+      <Hack>40</Hack>
     </Melee>
     <Ranged disable=""/>
   </Attack>

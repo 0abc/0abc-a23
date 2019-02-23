@@ -6,9 +6,9 @@
       <Delay>0</Delay>
       <Gravity>9.81</Gravity>
       <Hack>0</Hack>
-      <MaxRange>72</MaxRange>
+      <MaxRange>80</MaxRange>
       <MinRange>0</MinRange>
-      <Pierce>16</Pierce>
+      <Pierce>8</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
@@ -23,7 +23,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
+    <DefaultArrowCount>5</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
@@ -31,7 +31,7 @@
     <Category>Fortress</Category>
     <Distance>
       <FromClass>Fortress</FromClass>
-      <MinDistance>75</MinDistance>
+      <MinDistance>80</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Capturable>
@@ -41,10 +41,10 @@
   <Cost>
     <BuildTime>600</BuildTime>
     <Resources>
-      <food>200</food>
-      <metal>100</metal>
+      <food>400</food>
+      <metal>200</metal>
       <stone>800</stone>
-      <wood>400</wood>
+      <wood>600</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -67,13 +67,12 @@
     <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
   </Identity>
   <Loot>
-    <food>40</food>
-    <metal>20</metal>
+    <food>60</food>
+    <metal>40</metal>
     <stone>160</stone>
-    <wood>80</wood>
+    <wood>120</wood>
   </Loot>
   <ResourceTrickle>
-    <Interval>30000</Interval>
     <Rates>
       <food>-6.0</food>
       <silver>-2.0</silver>

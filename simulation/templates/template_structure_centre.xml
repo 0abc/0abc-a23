@@ -23,7 +23,7 @@
       <Crush>0</Crush>
       <Delay>0</Delay>
       <Hack>0</Hack>
-      <Pierce>12</Pierce>
+      <Pierce>8</Pierce>
       <MaxRange>80</MaxRange>
       <MinRange>0</MinRange>
       <Gravity>9.81</Gravity>
@@ -63,9 +63,9 @@
   </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
-    <PopulationBonus>15</PopulationBonus>
+    <PopulationBonus>10</PopulationBonus>
     <Resources>
-      <food>600</food>
+      <wood>600</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -103,6 +103,7 @@
       centre_watch_1
       centre_watch_2
       centre_watch_3
+      arrowheads
       trade_international
       unlock_shared_los
       unlock_shared_dropsites
@@ -118,12 +119,6 @@
     <Sharable>true</Sharable>
     <Types>food metal silver stone wood</Types>
   </ResourceDropsite>
-  <ResourceTrickle>
-    <Interval>7000</Interval>
-    <Rates>
-      <silver>0.0</silver>
-    </Rates>
-  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>

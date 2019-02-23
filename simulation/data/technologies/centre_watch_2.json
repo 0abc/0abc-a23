@@ -6,7 +6,8 @@
   "icon": "helmet_corinthian_silver.png",
   "modifications": [
     {"value": "BuildingAI/DefaultArrowCount", "add":  1.0},
-    {"value": "Capturable/RegenRate",         "add":  1.0}
+    {"value": "Capturable/RegenRate",         "add":  1.0},
+    {"value": "ResourceTrickle/Rates/food",   "add": -1.0}
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",

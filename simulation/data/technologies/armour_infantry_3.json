@@ -1,21 +1,21 @@
 {
-  "affects": ["Infantry !Fanatic"],
+  "affects": ["Infantry Melee !Fanatic"],
   "cost": {"food": 0, "wood": 1200, "stone": 0, "metal": 600},
   "description": "Equip infantrymen with body armour reinforced with metal scales.",
   "genericName": "Scaled Metal Body Armour",
-  "icon": "armor_plates_iron.png",
+  "icon": "armor_scale.png",
   "modifications": [
     {"value": "Armour/Crush",         "add":      1.0 },
     {"value": "Armour/Hack",          "add":      1.0 },
     {"value": "Armour/Pierce",        "add":      1.0 },
     {"value": "Armour/Thrust",        "add":      1.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.99},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_infantry_2",
-  "tooltip": "Infantry +1 armour level, but also −1% movement speed."
+  "tooltip": "Melee Infantry +1 armour level, but also −2% movement speed."
 }

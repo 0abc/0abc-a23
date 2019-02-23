@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero">
   <Attack>
     <Melee>
-      <Crush>50</Crush>
+      <Crush>80</Crush>
     </Melee>
     <Ranged disable=""/>
   </Attack>

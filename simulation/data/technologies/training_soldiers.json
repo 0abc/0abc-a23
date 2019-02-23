@@ -1,0 +1,16 @@
+{
+  "affects": ["Military"],
+  "cost": {"food": 2000, "wood": 1000, "stone": 0, "metal": 0},
+  "description": "Significantly increase training speed of soldiers by training them in large batches or battalions.",
+  "genericName": "Standing Army",
+  "icon": "armor_corinthian.png",
+  "modifications": [
+    {"value": "ProductionQueue/BatchTimeModifier", "add": -0.1}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Military structures have increased batch training bonus."
+}
+

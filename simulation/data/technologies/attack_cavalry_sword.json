@@ -1,0 +1,27 @@
+{
+  "affects": ["Axeman", "Sabreman", "Swordsman"],
+  "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
+  "description": "Training increases ranged attack.",
+  "genericName": "Cavalry Sword Training",
+  "icon": "sword_cavalry.png",
+  "modifications": [
+    {"value": "Attack/Melee/Crush",   "multiply": 1.2, "affects": "Cavalry"},
+    {"value": "Attack/Melee/Hack",    "multiply": 1.2, "affects": "Cavalry"},
+    {"value": "Attack/Melee/Pierce",  "multiply": 1.2, "affects": "Cavalry"},
+    {"value": "Attack/Melee/Thrust",  "multiply": 1.2, "affects": "Cavalry"}
+  ],
+  "requirements": {"all": [
+    {"tech": "phase_town"},
+    {"notciv": "iber"},
+    {"notciv": "kush"},
+    {"notciv": "mace"},
+    {"notciv": "ptol"},
+    {"notciv": "rome"},
+    {"notciv": "sele"},
+    {"notciv": "spart"}
+  ]},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Cavalry axemen, sabremen, and swordsmen +20% melee attack damage."
+}

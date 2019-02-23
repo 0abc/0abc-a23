@@ -2,18 +2,19 @@
 <Entity parent="template_structure_defensive_tower">
   <Armour>
     <Crush>2</Crush>
-    <Hack>5</Hack>
+    <Hack>8</Hack>
     <Pierce>25</Pierce>
-    <Thrust>10</Thrust>
+    <Thrust>15</Thrust>
   </Armour>
   <Attack>
     <Ranged>
-      <Pierce>9</Pierce>
-      <MaxRange>70</MaxRange>
-      <MinRange>10</MinRange>
-      <ElevationBonus>9</ElevationBonus>
+      <MaxRange op="mul">3.0</MaxRange>
+      <ElevationBonus op="mul">3.0</ElevationBonus>
     </Ranged>
   </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+  </BuildingAI>
   <Cost>
     <BuildTime>90</BuildTime>
     <Resources>
@@ -40,11 +41,11 @@
     <stone>10</stone>
     <wood>20</wood>
   </Loot>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      tower_watch
-    </Technologies>
-  </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-1.0</food>
+    </Rates>
+  </ResourceTrickle>
   <StatusBars>
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
@@ -56,6 +57,7 @@
   <Upgrade>
     <Tower>
       <Cost>
+        <food>75</food>
         <stone>75</stone>
         <wood>75</wood>
       </Cost>

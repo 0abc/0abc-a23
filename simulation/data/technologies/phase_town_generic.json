@@ -11,7 +11,7 @@
     {"value": "Loot/metal",                   "add":       60},
     {"value": "Loot/silver",                  "add":       30},
     {"value": "Loot/xp",                      "multiply": 1.2},
-    {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
+    {"value": "ResourceTrickle/Rates/silver", "add":      5.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "replaces": ["phase_town"],

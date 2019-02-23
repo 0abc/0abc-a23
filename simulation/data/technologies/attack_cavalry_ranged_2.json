@@ -7,12 +7,13 @@
   "modifications": [
     {"value": "Attack/Ranged/Crush",  "multiply": 1.15},
     {"value": "Attack/Ranged/Hack",   "multiply": 1.15},
-    {"value": "Attack/Ranged/Pierce", "multiply": 1.15}
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15},
+    {"value": "Attack/Ranged/Thrust", "multiply": 1.15}
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "attack_cavalry_ranged_1",
-  "tooltip": "+15% ranged cavalry attack."
+  "tooltip": "Cavalry +15% ranged attack damage."
 }
