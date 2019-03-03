@@ -4,13 +4,14 @@
     <Ranged>
       <Crush>0</Crush>
       <Delay>0</Delay>
+      <ElevationBonus>20</ElevationBonus>
       <Gravity>9.81</Gravity>
       <Hack>0</Hack>
-      <MaxRange>80</MaxRange>
+      <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>8</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <PrepareTime>1200</PrepareTime>
+      <PrepareTime>1000</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RepeatTime>2000</RepeatTime>
       <RangeOverlay>

@@ -5,7 +5,6 @@
     <Ranged>
       <MaxRange>80</MaxRange>
       <Pierce>20</Pierce>
-      <PrepareTime>600</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>0.5</Spread>
     </Ranged>

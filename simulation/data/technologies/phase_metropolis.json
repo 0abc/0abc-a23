@@ -11,7 +11,8 @@
     {"value": "Loot/silver",                  "add":       90},
     {"value": "Loot/xp",                      "multiply": 1.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      5.0},
-    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
+    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2},
+    {"value": "Vision/Range",                 "add":     10.0}
   ],
   "requirements": {"all": [
     {"entity": {"class": "House",              "number":  15}},

@@ -2,11 +2,11 @@
 <Entity parent="template_unit_siege">
   <Attack>
     <Ranged>
-      <MaxRange>120</MaxRange>
-      <MinRange>15</MinRange>
+      <MaxRange>100</MaxRange>
+      <MinRange>20</MinRange>
       <Pierce>100</Pierce>
-      <PrepareTime>4000</PrepareTime>
-      <ProjectileSpeed>150</ProjectileSpeed>
+      <PrepareTime>3000</PrepareTime>
+      <ProjectileSpeed>100</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>
       <Spread>2.0</Spread>
       <Thrust>50</Thrust>

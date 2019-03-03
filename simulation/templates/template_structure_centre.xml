@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
   <AlertRaiser>
-    <EndOfAlertRange>190</EndOfAlertRange>
+    <EndOfAlertRange>200</EndOfAlertRange>
     <List datatype="tokens">FemaleCitizen</List>
-    <RaiseAlertRange>140</RaiseAlertRange>
+    <RaiseAlertRange>150</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
   <Armour>
@@ -22,12 +22,13 @@
     <Ranged>
       <Crush>0</Crush>
       <Delay>0</Delay>
+      <ElevationBonus>4</ElevationBonus>
       <Hack>0</Hack>
       <Pierce>8</Pierce>
-      <MaxRange>80</MaxRange>
+      <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
       <Gravity>9.81</Gravity>
-      <PrepareTime>1200</PrepareTime>
+      <PrepareTime>1000</PrepareTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RangeOverlay>
@@ -134,6 +135,6 @@
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>100</Range>
+    <Range>70</Range>
   </Vision>
 </Entity>

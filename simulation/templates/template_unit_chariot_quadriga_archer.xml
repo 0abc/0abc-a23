@@ -8,7 +8,7 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <MaxRange op="mul">4.0</MaxRange>
+      <MaxRange op="mul">6.0</MaxRange>
       <Pierce>8</Pierce>
       <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>3.0</Spread>

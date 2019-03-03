@@ -9,7 +9,7 @@
   <Attack>
     <Melee disable=""/>
     <Ranged>
-      <MaxRange>17</MaxRange>
+      <ElevationBonus>3</ElevationBonus>
     </Ranged>
   </Attack>
   <Health>

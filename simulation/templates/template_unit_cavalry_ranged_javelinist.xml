@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged">
   <Attack>
     <Ranged>
-      <MaxRange op="mul">2.0</MaxRange>
+      <MaxRange op="mul">3.0</MaxRange>
       <Pierce>15</Pierce>
       <ProjectileSpeed>60</ProjectileSpeed>
       <Spread>4.0</Spread>

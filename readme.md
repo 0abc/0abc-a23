@@ -263,7 +263,7 @@ Wood:
 * **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Indian Training** (Mauryas): elephants −20% training time.
 * **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
-* **Near Eastern Archers** (Persians, Seleucids): archers +15% ranged attack range.
+* **Near Eastern Archers** (Persians, Seleucids): archers +20% ranged attack range.
 * **Persian Architecture** (Persians): economic structures +20% health.
 * **Persian Training** (Persians): archers −20% training time.
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.

@@ -20,6 +20,7 @@
     <Ranged>
       <Crush>0</Crush>
       <Delay>0</Delay>
+      <ElevationBonus>0</ElevationBonus>
       <Gravity>9.81</Gravity>
       <Hack>0</Hack>
       <MaxRange>10</MaxRange>

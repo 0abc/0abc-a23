@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Attack>
     <Ranged>
-      <MaxRange>18</MaxRange>
+      <ElevationBonus>2</ElevationBonus>
       <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
     </Ranged>
   </Attack>

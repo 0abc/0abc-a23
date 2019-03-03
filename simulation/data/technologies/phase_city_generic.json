@@ -12,7 +12,8 @@
     {"value": "Loot/stone",                   "add":       60},
     {"value": "Loot/xp",                      "multiply": 1.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      5.0},
-    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
+    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2},
+    {"value": "Vision/Range",                 "add":     10.0}
   ],
   "replaces": ["phase_city"],
   "requirements": {"all": [

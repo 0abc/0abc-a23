@@ -2,12 +2,14 @@
 <Entity parent="template_unit_siege">
   <Attack>
     <Ranged>
-      <Crush>2.0</Crush>
-      <ElevationBonus>10.0</ElevationBonus>
-      <MaxRange>60.0</MaxRange>
-      <MinRange>10.0</MinRange>
-      <Pierce>6.0</Pierce>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <Crush>3.0</Crush>
+      <ElevationBonus>12</ElevationBonus>
+      <MaxRange>60</MaxRange>
+      <MinRange>10</MinRange>
+      <Pierce>9.0</Pierce>
+      <ProjectileSpeed>75</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>

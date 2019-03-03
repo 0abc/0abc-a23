@@ -8,8 +8,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange op="mul">4.0</MaxRange>
-      <ElevationBonus op="mul">4.0</ElevationBonus>
+      <ElevationBonus op="mul">5.0</ElevationBonus>
     </Ranged>
   </Attack>
   <BuildingAI>

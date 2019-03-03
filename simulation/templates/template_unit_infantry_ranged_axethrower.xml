@@ -10,7 +10,7 @@
     <Ranged>
       <Crush>3</Crush>
       <Hack>6</Hack>
-      <MaxRange op="mul">1.0</MaxRange>
+      <MaxRange op="mul">2.0</MaxRange>
       <ProjectileSpeed>30</ProjectileSpeed>
       <Spread>4.0</Spread>
     </Ranged>

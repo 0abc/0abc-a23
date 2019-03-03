@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange op="mul">2.0</MaxRange>
+      <MaxRange op="mul">3.0</MaxRange>
       <Pierce>12</Pierce>
       <ProjectileSpeed>60</ProjectileSpeed>
       <Spread>4.0</Spread>

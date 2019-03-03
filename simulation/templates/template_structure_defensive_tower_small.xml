@@ -8,7 +8,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange op="mul">3.0</MaxRange>
       <ElevationBonus op="mul">3.0</ElevationBonus>
     </Ranged>
   </Attack>
