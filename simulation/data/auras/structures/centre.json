@@ -8,7 +8,7 @@
     {"value": "Capturable/RegenRate",       "multiply": 2.0, "affects": "Structure"}
   ],
   "overlayIcon": "art/textures/ui/session/auras/build.png",
-  "radius": 50,
+  "radius": 75,
   "rangeOverlay" : {
     "lineTexture": "overlays/zigzag.png",
     "lineTextureMask": "overlays/zigzag_mask.png",
