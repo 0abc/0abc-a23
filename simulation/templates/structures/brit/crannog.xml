@@ -24,10 +24,10 @@
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_spearman_b
-      units/{civ}_ship_fishing
-      units/{civ}_ship_merchant
-      units/{civ}_ship_barge
+      units/{civ}/infantry_swordsman
+      units/{civ}/ship_fishing
+      units/{civ}/ship_merchant
+      units/{civ}/ship_barge
     </Entities>
   </ProductionQueue>
   <RallyPointRenderer>
