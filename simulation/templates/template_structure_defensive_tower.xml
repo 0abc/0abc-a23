@@ -47,11 +47,6 @@
     <Classes datatype="tokens">Tower</Classes>
     <Tooltip>Garrison soldiers to fire additional arrows.</Tooltip>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      tower_vision
-    </Technologies>
-  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_tower.xml</constructed>
