@@ -19,21 +19,16 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/centre
-      structures/{civ}/crannog
-      structures/wallset_palisade
-      structures/wallset_siege
-      structures/{civ}/wallset_city
-      structures/{civ}/small_tower
-      structures/{civ}/large_tower
-      structures/{civ}/fortress
-      structures/{civ}/camp
+      structures/{civ}/house
       structures/{civ}/market
       structures/{civ}/dock
       structures/{civ}/storehouse
       structures/{civ}/farmstead
-      structures/{civ}/rotarymill
       structures/{civ}/field
-      structures/{civ}/house
+      structures/{civ}/temple
+      structures/{civ}/palace
+      structures/{civ}/wonder
+      structures/{civ}/crannog
       structures/{civ}/kennel
       structures/{civ}/barracks
       structures/{civ}/camel_camp
@@ -43,13 +38,18 @@
       structures/{civ}/workshop
       structures/{civ}/shipyard
       structures/{civ}/harbour
-      structures/{civ}/temple
-      structures/{civ}/pillar
+      structures/wallset_palisade
+      structures/wallset_siege
+      structures/{civ}/wallset_city
+      structures/{civ}/small_tower
+      structures/{civ}/large_tower
+      structures/{civ}/fortress
+      structures/{civ}/camp
       structures/{civ}/library
       structures/{civ}/lighthouse
+      structures/{civ}/pillar
+      structures/{civ}/rotarymill
       structures/{civ}/theatre
-      structures/{civ}/palace
-      structures/{civ}/wonder
     </Entities>
   </Builder>
   <Cost>
@@ -61,8 +61,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="1.5"/>
-    <Height>2.5</Height>
+    <Circle radius="1.0"/>
+    <Height>2.0</Height>
   </Footprint>
   <Identity>
     <Classes datatype="tokens">Human Organic Citizen CitizenSoldier</Classes>

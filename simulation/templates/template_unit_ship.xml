@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+  <Attack>
+    <Ranged>
+      <MaxRange>60</MaxRange>
+      <Pierce>6</Pierce>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+    </Ranged>
+  </Attack>
   <Decay>
     <DelayTime>0.0</DelayTime>
     <SinkAccel>7.0</SinkAccel>

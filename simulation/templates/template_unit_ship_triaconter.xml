@@ -17,11 +17,6 @@
       <RestrictedClasses datatype="tokens">!Ship</RestrictedClasses>
       <Thrust>0</Thrust>
     </Melee>
-    <Ranged>
-      <MaxRange>60</MaxRange>
-      <Pierce>6</Pierce>
-      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
-    </Ranged>
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>

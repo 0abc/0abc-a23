@@ -12,6 +12,7 @@
       <Hack>5</Hack>
       <MaxRange>10</MaxRange>
       <Pierce>5</Pierce>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
       <PrepareTime>50</PrepareTime>
       <RepeatTime>100</RepeatTime>
       <Thrust>5</Thrust>

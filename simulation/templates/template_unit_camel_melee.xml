@@ -7,6 +7,9 @@
     <Thrust>2</Thrust>
   </Armour>
   <Attack>
+    <Melee>
+      <MaxRange>4</MaxRange>
+    </Melee>
     <Ranged disable=""/>
   </Attack>
   <Health>

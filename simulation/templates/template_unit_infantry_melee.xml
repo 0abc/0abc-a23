@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry">
   <Attack>
+    <Melee>
+      <MaxRange>2</MaxRange>
+    </Melee>
     <Ranged disable=""/>
   </Attack>
   <Health>

@@ -9,7 +9,7 @@
   <Attack>
     <Melee>
       <Crush>60</Crush>
-      <MaxRange>6</MaxRange>
+      <MaxRange>5</MaxRange>
     </Melee>
     <Ranged disable=""/>
   </Attack>
@@ -78,6 +78,7 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>95</Range>
+    <Range>95
+</Range>
   </Vision>
 </Entity>

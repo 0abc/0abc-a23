@@ -6,13 +6,6 @@
     <Pierce>10</Pierce>
     <Thrust>5</Thrust>
   </Armour>
-  <Attack>
-    <Ranged>
-      <MaxRange>60</MaxRange>
-      <Pierce>5</Pierce>
-      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
-    </Ranged>
-  </Attack>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>

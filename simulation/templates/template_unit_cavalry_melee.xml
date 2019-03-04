@@ -18,7 +18,8 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <MaxRange>3</MaxRange>
+      <MaxRange>4</MaxRange>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>

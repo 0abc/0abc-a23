@@ -10,9 +10,9 @@
       </Bonuses>
       <Crush>80.0</Crush>
       <Hack>0</Hack>
-      <MaxRange>6.5</MaxRange>
+      <MaxRange>7</MaxRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
+      <PreferredClasses datatype="tokens">Gates Fortress</PreferredClasses>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>

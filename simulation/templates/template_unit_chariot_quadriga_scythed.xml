@@ -10,7 +10,7 @@
       </Bonuses>
       <Crush>5</Crush>
       <Hack>10</Hack>
-      <MaxRange>5</MaxRange>
+      <MaxRange>8</MaxRange>
       <Pierce>0</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>

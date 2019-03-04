@@ -11,7 +11,7 @@
     <Melee>
       <Crush>0</Crush>
       <Hack>0</Hack>
-      <MaxRange>2</MaxRange>
+      <MaxRange>1</MaxRange>
       <Pierce>0</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
@@ -26,7 +26,7 @@
       <MaxRange>10</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <PrepareTime>750</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RangeOverlay>
