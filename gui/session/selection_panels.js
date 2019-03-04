@@ -77,9 +77,9 @@ g_SelectionPanels.Alert = {
 g_SelectionPanels.Barter = {
   "getMaxNumberOfItems": function()
   {
-    return 4;
+    return 5;
   },
-  "rowLength": 4,
+  "rowLength": 5,
   "conflictsWith": ["Garrison"],
   "getItems": function(unitEntStates)
   {
@@ -211,8 +211,9 @@ g_SelectionPanels.AllyCommand = {
 g_SelectionPanels.Construction = {
   "getMaxNumberOfItems": function()
   {
-    return 24 - getNumberOfRightPanelButtons();
+    return 30 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function()
   {
     return getAllBuildableEntitiesFromSelection();
@@ -400,8 +401,9 @@ g_SelectionPanels.Garrison = {
 g_SelectionPanels.Gate = {
   "getMaxNumberOfItems": function()
   {
-    return 24 - getNumberOfRightPanelButtons();
+    return 30 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let hideLocked = unitEntStates.every(state => !state.gate || !state.gate.locked);
@@ -441,8 +443,9 @@ g_SelectionPanels.Gate = {
 g_SelectionPanels.Pack = {
   "getMaxNumberOfItems": function()
   {
-    return 24 - getNumberOfRightPanelButtons();
+    return 30 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let checks = {};
@@ -924,8 +927,9 @@ g_SelectionPanels.Stance = {
 g_SelectionPanels.Training = {
   "getMaxNumberOfItems": function()
   {
-    return 24 - getNumberOfRightPanelButtons();
+    return 30 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function()
   {
     return getAllTrainableEntitiesFromSelection();
@@ -1024,8 +1028,9 @@ g_SelectionPanels.Training = {
 g_SelectionPanels.Upgrade = {
   "getMaxNumberOfItems": function()
   {
-    return 24 - getNumberOfRightPanelButtons();
+    return 30 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     // Interface becomes complicated with multiple different units and this is meant per-entity, so prevent it if the selection has multiple different units.
