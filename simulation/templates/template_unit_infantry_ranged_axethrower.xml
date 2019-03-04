@@ -11,8 +11,7 @@
       <Crush>3</Crush>
       <Hack>6</Hack>
       <MaxRange op="mul">2.0</MaxRange>
-      <ProjectileSpeed>30</ProjectileSpeed>
-      <Spread>4.0</Spread>
+      <ProjectileSpeed op="mul">0.4</ProjectileSpeed>
     </Ranged>
   </Attack>
   <Cost>

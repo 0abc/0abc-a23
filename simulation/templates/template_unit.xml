@@ -35,7 +35,7 @@
         <LineThickness>0.1</LineThickness>
       </RangeOverlay>
       <RepeatTime>1000</RepeatTime>
-      <Spread>1.0</Spread>
+      <Spread>3.0</Spread>
       <Thrust>0</Thrust>
     </Ranged>
   </Attack>

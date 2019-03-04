@@ -5,8 +5,8 @@
     <Ranged>
       <MaxRange>40</MaxRange>
       <Pierce>40</Pierce>
-      <ProjectileSpeed>60</ProjectileSpeed>
-      <Spread>0.5</Spread>
+      <ProjectileSpeed op="mul">0.8</ProjectileSpeed>
+      <Spread>1.0</Spread>
     </Ranged>
   </Attack>
   <Footprint>

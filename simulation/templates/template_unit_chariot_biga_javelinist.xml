@@ -5,8 +5,7 @@
     <Ranged>
       <MaxRange op="mul">3.0</MaxRange>
       <Pierce>21</Pierce>
-      <ProjectileSpeed>60</ProjectileSpeed>
-      <Spread>3.0</Spread>
+      <ProjectileSpeed op="mul">0.8</ProjectileSpeed>
     </Ranged>
   </Attack>
   <BuildingAI>

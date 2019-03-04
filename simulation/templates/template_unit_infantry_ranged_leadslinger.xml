@@ -10,8 +10,7 @@
     <Ranged>
       <MaxRange op="mul">8.0</MaxRange>
       <Pierce>4</Pierce>
-      <ProjectileSpeed>90</ProjectileSpeed>
-      <Spread>3.0</Spread>
+      <ProjectileSpeed op="mul">1.2</ProjectileSpeed>
     </Ranged>
   </Attack>
   <Cost>

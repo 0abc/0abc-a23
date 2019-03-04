@@ -78,6 +78,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>90</Range>
+    <Range>100</Range>
   </Vision>
 </Entity>

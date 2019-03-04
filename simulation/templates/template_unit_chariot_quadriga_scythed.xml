@@ -25,8 +25,6 @@
       </Bonuses>
       <MaxRange op="mul">6.0</MaxRange>
       <Pierce>8</Pierce>
-      <ProjectileSpeed>75</ProjectileSpeed>
-      <Spread>3.0</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>

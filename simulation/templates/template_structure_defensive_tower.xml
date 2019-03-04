@@ -19,7 +19,7 @@
         <LineTextureMask>outline_border_mask.png</LineTextureMask>
         <LineThickness>0.1</LineThickness>
       </RangeOverlay>
-      <Spread>1.5</Spread>
+      <Spread>2.0</Spread>
       <Thrust>0</Thrust>
     </Ranged>
   </Attack>
@@ -55,6 +55,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>80</Range>
+    <Range>100</Range>
   </Vision>
 </Entity>

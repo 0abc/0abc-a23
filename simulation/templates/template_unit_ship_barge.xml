@@ -11,8 +11,6 @@
       <MaxRange>60</MaxRange>
       <Pierce>5</Pierce>
       <PreferredClasses datatype="tokens">Ship</PreferredClasses>
-      <ProjectileSpeed>75</ProjectileSpeed>
-      <Spread>2.0</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>

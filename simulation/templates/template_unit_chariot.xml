@@ -3,7 +3,6 @@
   <Attack>
     <Ranged>
       <ElevationBonus>2</ElevationBonus>
-      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
@@ -19,7 +18,6 @@
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Soldier Chariot</VisibleClasses>
   </Identity>
   <Position>
