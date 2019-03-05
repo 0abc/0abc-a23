@@ -10,7 +10,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Ἐπίλεκτος</SpecificName>
-    <VisibleClasses datatype="tokens">Athenian Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Greek Athenian Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

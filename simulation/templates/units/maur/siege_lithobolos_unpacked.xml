@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/maur/siege_lithobolos_packed">
+  <Footprint>
+    <Height>7</Height>
+  </Footprint>
   <Identity>
     <Icon>units/athen_siege_lithobolos_u.png</Icon>
   </Identity>

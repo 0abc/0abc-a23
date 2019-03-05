@@ -10,7 +10,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion_2</SelectionGroupName>
     <SpecificName>Σπαρτιάτης</SpecificName>
-    <VisibleClasses datatype="tokens">Spartan Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Greek Spartan Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

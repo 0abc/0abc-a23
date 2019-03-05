@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_boltshooter">
+  <Attack>
+    <Ranged>
+      <MaxRange>95</MaxRange>
+      <MinRange>15</MinRange>
+      <Pierce op="mul">0.4</Pierce>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Thrust op="mul">0.4</Thrust>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime op="add">10</BuildTime>
+  </Cost>
+</Entity>

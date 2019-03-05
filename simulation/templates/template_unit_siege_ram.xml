@@ -12,7 +12,7 @@
       <Hack>0</Hack>
       <MaxRange>7</MaxRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Gates Fortress</PreferredClasses>
+      <PreferredClasses datatype="tokens">Fortress Gates Tower</PreferredClasses>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>
@@ -25,17 +25,21 @@
     <Population>4</Population>
     <Resources>
       <food>100</food>
-      <metal>100</metal>
-      <wood>300</wood>
+      <metal>50</metal>
+      <wood>250</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>6</Height>
+    <Square width="8" depth="12"/>
+  </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Support Infantry</List>
     <LoadingRange>2</LoadingRange>
-    <Max>8</Max>
+    <Max>6</Max>
   </GarrisonHolder>
   <Health>
     <Max>400</Max>
@@ -44,8 +48,7 @@
     <GenericName>Battering Ram</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Garrison infantry for transport.
-Can not attack organic units or fields.
-Counters: 2.0× vs Walls, Towers, and Fortresses.</Tooltip>
+Can not attack organic units or fields.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Selectable>

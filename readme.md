@@ -177,7 +177,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * bolt shooters: –
 * stone throwers: 2.0× vs Ships
 * battering rams: 2.0× vs Defensive
-* siege towers: –
+* siege towers: 1.5× vs Towers
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -269,7 +269,7 @@ Wood:
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
 * **Punic Training** (Carthaginians): traders −20% training time.
 * **Roman Architecture** (Romans): city walls +10% health; military structures −10% build time.
-* **Roman Training** (Romans): siege weapons −20% construction time.
+* **Roman Engineers** (Romans): stone throwers +25% wood cost, +20% health, and +25% ranged attack crush damage.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -291,11 +291,11 @@ Wood:
   * War Dog
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Spearman
   * Infantry Javelinist
   * Cavalry Swordsman
+  * Small Battering Ram
   * War Barge
 * City phase:
   * Biga Javelinist Champion
@@ -312,7 +312,6 @@ Wood:
   * Cavalry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Spearman Mercenary
   * Infantry Swordsman Mercenary
@@ -322,6 +321,7 @@ Wood:
   * Cavalry Sabreman Mercenary
   * Cavalry Swordsman Mercenary
   * Cavalry Spearman Mercenary
+  * Small Battering Ram
   * Trireme
 * City phase:
   * Infantry Spearman Champion
@@ -344,11 +344,11 @@ Wood:
   * Cavalry Swordsman
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Swordsman
   * Infantry Slinger
   * Cavalry Javelinist
+  * Small Battering Ram
   * War Barge
 * City phase:
   * Cavalry Spearman Champion
@@ -364,7 +364,6 @@ Wood:
   * Infantry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Spearman Mercenary
   * Infantry Javelinist Mercenary
@@ -372,6 +371,7 @@ Wood:
   * Infantry Lead-slinger Mercenary
   * Cavalry Javelinist
   * Cavalry Sabreman
+  * Small Battering Ram
   * Penteconter
   * Trireme
 * City phase:
@@ -391,11 +391,11 @@ Wood:
   * Cavalry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Spearman
   * Infantry Slinger
   * Cavalry Spearman
+  * Small Battering Ram
   * War Barge
   * Fire Ship
 * City phase:
@@ -413,7 +413,6 @@ Wood:
   * Cavalry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Pikeman
   * Infantry Swordsman
@@ -421,6 +420,7 @@ Wood:
   * Infantry Javelinist Mercenary
   * Cavalry Spearman
   * Camel Javelinist Mercenary
+  * Large Battering Ram
   * Trireme
 * City phase:
   * Infantry Axeman Champion
@@ -441,12 +441,12 @@ Wood:
   * Cavalry Lancer
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Spearman Mercenary
   * Infantry Archer Mercenary
   * Infantry Lead-slinger Mercenary
   * Cavalry Javelinist
+  * Large Battering Ram
   * Penteconter
   * Trireme
 * City phase:
@@ -471,11 +471,11 @@ Wood:
   * Support Elephant
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Sabreman
   * Cavalry Swordsman
   * Cavalry Javelinist
+  * Small Battering Ram
   * War Elephant
   * War Barge
 * City phase:
@@ -497,13 +497,13 @@ Wood:
   * Cavalry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Javelinist
   * Cavalry Axeman
   * Cavalry Spearman
   * Cavalry Archer
   * Camel Archer Mercenary
+  * Large Battering Ram
   * Penteconter
   * Trireme
 * City phase:
@@ -525,7 +525,6 @@ Wood:
   * Infantry Stone-slinger
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Spearman Mercenary
   * Infantry Swordsman Mercenary
@@ -535,6 +534,7 @@ Wood:
   * Cavalry Spearman
   * Cavalry Javelinist Mercenary
   * Camel Archer Mercenary
+  * Large Battering Ram
   * Trireme
 * City phase:
   * Infantry Pikeman Champion
@@ -557,12 +557,12 @@ Wood:
   * Infantry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Swordsman
   * Infantry Spearman
   * Cavalry Spearman
   * Cavalry Javelinist
+  * Large Battering Ram
   * Penteconter
   * Trireme
 * City phase:
@@ -584,13 +584,13 @@ Wood:
   * Cavalry Javelinist
 * Town phase:
   * Healer
-  * Battering Ram
   * Merchant Ship
   * Infantry Pikeman
   * Infantry Archer
   * Cavalry Lancer
   * Cavalry Archer Mercenary
   * Camel Archer Mercenary
+  * Large Battering Ram
   * Penteconter
   * Trireme
 * City phase:

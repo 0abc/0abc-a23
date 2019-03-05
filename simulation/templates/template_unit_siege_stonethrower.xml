@@ -19,7 +19,7 @@
       </Projectile>
       <ProjectileSpeed>50</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>
-      <Spread>4.0</Spread>
+      <Spread>3.0</Spread>
     </Ranged>
   </Attack>
   <Cost>
@@ -31,9 +31,9 @@
       <wood>200</wood>
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Height>4.5</Height>
-    <Square width="6.0" depth="15.0"/>
+  <Footprint>
+    <Height>5</Height>
+    <Square width="10" depth="16"/>
   </Footprint>
   <Health>
     <Max>250</Max>

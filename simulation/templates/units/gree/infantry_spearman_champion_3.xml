@@ -10,7 +10,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion_3</SelectionGroupName>
     <SpecificName>Ἱερὸς Λόχος</SpecificName>
-    <VisibleClasses datatype="tokens">Theban Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Greek Theban Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

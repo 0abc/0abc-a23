@@ -9,7 +9,7 @@
   <Attack>
     <Melee>
       <Crush>60</Crush>
-      <MaxRange>5</MaxRange>
+      <MaxRange>6</MaxRange>
     </Melee>
     <Ranged disable=""/>
   </Attack>
@@ -25,8 +25,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="3.5"/>
-    <Height>6.0</Height>
+    <Height>10</Height>
+    <Square width="6" depth="10"/>
   </Footprint>
   <Health>
     <Max op="mul">6.0</Max>

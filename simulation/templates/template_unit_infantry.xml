@@ -61,8 +61,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="1.0"/>
-    <Height>2.0</Height>
+    <Circle radius="1"/>
+    <Height>4</Height>
   </Footprint>
   <Identity>
     <Classes datatype="tokens">Human Organic Citizen CitizenSoldier</Classes>

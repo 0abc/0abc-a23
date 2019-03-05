@@ -29,7 +29,7 @@
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
       <PrepareTime>1000</PrepareTime>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RangeOverlay>
         <LineTexture>outline_border.png</LineTexture>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/ptol/siege_polybolos_packed">
+  <Footprint>
+    <Height>6</Height>
+  </Footprint>
   <Identity>
     <Icon>units/ptol_siege_polybolos_u.png</Icon>
   </Identity>

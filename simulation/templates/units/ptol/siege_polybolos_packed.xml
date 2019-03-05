@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_siege_boltshooter">
+<Entity parent="template_unit_siege_boltshooter_polybolos">
   <Identity>
     <Civ>ptol</Civ>
     <Icon>units/ptol_siege_polybolos_p.png</Icon>

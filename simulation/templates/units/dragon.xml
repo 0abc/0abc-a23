@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Footprint>
     <Circle radius="15"/>
-    <Height>10</Height>
+    <Height>15</Height>
   </Footprint>
   <Identity>
     <GenericName>Dragon</GenericName>

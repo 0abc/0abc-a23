@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_boltshooter">
+  <Attack>
+    <Ranged>
+      <MaxRange>90</MaxRange>
+      <MinRange>10</MinRange>
+      <Pierce op="mul">0.4</Pierce>
+      <PrepareTime>3000</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Thrust op="mul">0.4</Thrust>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <food>50</food>
+      <metal>100</metal>
+      <silver>0</silver>
+      <stone>0</stone>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>4</Height>
+    <Square width="4" depth="8"/>
+  </Footprint>
+  <Health>
+    <Max op="mul">0.5</Max>
+  </Health>
+  <Pack>
+    <Time op="mul">0.5</Time>
+  </Pack>
+</Entity>

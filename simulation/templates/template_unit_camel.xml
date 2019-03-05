@@ -19,9 +19,9 @@
       <silver>50</silver>
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Height>7.5</Height>
-    <Square width="4" depth="6"/>
+  <Footprint>
+    <Height>8</Height>
+    <Square width="4" depth="8"/>
   </Footprint>
   <Identity>
     <Classes datatype="tokens">Human Organic</Classes>

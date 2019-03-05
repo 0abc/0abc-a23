@@ -2,6 +2,12 @@
 <Entity parent="template_unit_siege">
   <Attack>
     <Ranged>
+      <Bonuses>
+        <Tower>
+          <Classes>Tower</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Tower>
+      </Bonuses>
       <Crush>3.0</Crush>
       <ElevationBonus>12</ElevationBonus>
       <MaxRange>60</MaxRange>
@@ -20,7 +26,7 @@
     <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>180</BuildTime>
+    <BuildTime>150</BuildTime>
     <Population>6</Population>
     <Resources>
       <food>200</food>
@@ -28,6 +34,10 @@
       <wood>500</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>30</Height>
+    <Square width="15" depth="15"/>
+  </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
