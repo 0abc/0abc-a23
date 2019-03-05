@@ -25,11 +25,14 @@
       structures/{civ}/storehouse
       structures/{civ}/farmstead
       structures/{civ}/field
+      structures/wallset_palisade
+      structures/wallset_siege
+      structures/{civ}/wallset_city
+
+      structures/{civ}/small_tower
+      structures/{civ}/large_tower
+      structures/{civ}/fortress
       structures/{civ}/temple
-      structures/{civ}/palace
-      structures/{civ}/wonder
-      structures/{civ}/crannog
-      structures/{civ}/kennel
       structures/{civ}/barracks
       structures/{civ}/camel_camp
       structures/{civ}/cavalry_stable
@@ -37,19 +40,18 @@
       structures/{civ}/elephant_stable
       structures/{civ}/workshop
       structures/{civ}/shipyard
+
+      structures/{civ}/crannog
       structures/{civ}/harbour
-      structures/wallset_palisade
-      structures/wallset_siege
-      structures/{civ}/wallset_city
-      structures/{civ}/small_tower
-      structures/{civ}/large_tower
-      structures/{civ}/fortress
       structures/{civ}/camp
+      structures/{civ}/kennel
       structures/{civ}/library
       structures/{civ}/lighthouse
+      structures/{civ}/palace
       structures/{civ}/pillar
       structures/{civ}/rotarymill
       structures/{civ}/theatre
+      structures/{civ}/wonder
     </Entities>
   </Builder>
   <Cost>
