@@ -2,6 +2,12 @@
 <Entity parent="template_unit_siege">
   <Attack>
     <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
       <MaxRange>100</MaxRange>
       <MinRange>20</MinRange>
       <Pierce>100</Pierce>

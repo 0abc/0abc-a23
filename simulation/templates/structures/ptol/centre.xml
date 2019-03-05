@@ -2,7 +2,7 @@
 <Entity parent="template_structure_centre">
   <Footprint>
     <Height>8.0</Height>
-    <Square width="40" depth="40"/>
+    <Square width="38" depth="38"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>

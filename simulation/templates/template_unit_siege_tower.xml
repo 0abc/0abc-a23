@@ -9,7 +9,7 @@
         </Tower>
       </Bonuses>
       <Crush>3.0</Crush>
-      <ElevationBonus>12</ElevationBonus>
+      <ElevationBonus>15</ElevationBonus>
       <MaxRange>60</MaxRange>
       <MinRange>10</MinRange>
       <Pierce>9.0</Pierce>
