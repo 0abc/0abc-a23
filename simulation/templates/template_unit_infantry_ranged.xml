@@ -4,6 +4,7 @@
     <Melee disable=""/>
     <Ranged>
       <ElevationBonus>1</ElevationBonus>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Health>

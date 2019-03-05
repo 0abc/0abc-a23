@@ -12,6 +12,7 @@
       <Hack>10</Hack>
       <MaxRange>8</MaxRange>
       <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Infantry Cavalry</PreferredClasses>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <Thrust>10</Thrust>

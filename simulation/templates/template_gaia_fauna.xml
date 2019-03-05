@@ -22,7 +22,7 @@
     <Unhealable>false</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Animal Organic Unit Fauna</Classes>
+    <Classes datatype="tokens">Unit Organic Animal Fauna</Classes>
     <GenericName>Fauna</GenericName>
     <Undeletable>false</Undeletable>
   </Identity>

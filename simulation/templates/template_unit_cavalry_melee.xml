@@ -19,7 +19,7 @@
         </Elephantry>
       </Bonuses>
       <MaxRange>4</MaxRange>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+      <PreferredClasses datatype="tokens">Siege Ranged Organic</PreferredClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>

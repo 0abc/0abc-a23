@@ -12,7 +12,7 @@
       <Hack>0</Hack>
       <MaxRange>7</MaxRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Fortress Gates Tower</PreferredClasses>
+      <PreferredClasses datatype="tokens">Gates Fortress Tower</PreferredClasses>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>

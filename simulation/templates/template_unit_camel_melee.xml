@@ -9,6 +9,7 @@
   <Attack>
     <Melee>
       <MaxRange>4</MaxRange>
+      <PreferredClasses datatype="tokens">Support Cavalry Ranged Organic</PreferredClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>

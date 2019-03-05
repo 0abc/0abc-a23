@@ -4,7 +4,6 @@
     <Melee>
       <MaxRange>6</MaxRange>
       <Pierce>20</Pierce>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <Thrust>20</Thrust>
     </Melee>
     <Ranged disable=""/>

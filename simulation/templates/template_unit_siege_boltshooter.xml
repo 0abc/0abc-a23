@@ -5,6 +5,7 @@
       <MaxRange>100</MaxRange>
       <MinRange>20</MinRange>
       <Pierce>100</Pierce>
+      <PreferredClasses datatype="tokens">Soldier</PreferredClasses>
       <PrepareTime>3000</PrepareTime>
       <ProjectileSpeed>100</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>

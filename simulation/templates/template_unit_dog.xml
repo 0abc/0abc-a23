@@ -5,8 +5,10 @@
   </Armour>
   <Attack>
     <Melee>
-      <Pierce>6</Pierce>
-      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
+      <Hack>5</Hack>
+      <Pierce>5</Pierce>
+      <PreferredClasses datatype="tokens">Animal Support Infantry</PreferredClasses>
+      <RestrictedClasses datatype="tokens">!Organic</RestrictedClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>
@@ -24,9 +26,9 @@
     <Max op="mul">0.3</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic</Classes>
+    <Classes datatype="tokens">Organic Animal</Classes>
     <GenericName>War Dog</GenericName>
-    <Tooltip>Can not attack Ships, Siege, or Structures.</Tooltip>
+    <Tooltip>Can only attack organic units.</Tooltip>
     <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
   </Identity>
   <Loot>

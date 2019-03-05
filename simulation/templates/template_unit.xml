@@ -26,7 +26,6 @@
       <MaxRange>10</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <PrepareTime>750</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RangeOverlay>

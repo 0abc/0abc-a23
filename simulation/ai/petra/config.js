@@ -52,7 +52,7 @@ m.Config = function(difficulty, behavior)
   {
 		"default": [],
 		"athen": [],
-		"brit": ["structures/{civ}/crannog", "structures/{civ}/rotarymill", "structures/{civ}/kennel"],
+		"brit": ["structures/{civ}/crannog", "structures/{civ}/kennel", "structures/{civ}/rotarymill"],
 		"cart": ["structures/{civ}/palace", "structures/{civ}/harbour"],
 		"gaul": ["structures/{civ}/rotarymill"],
 		"gree": ["structures/{civ}/palace"],

@@ -3,6 +3,7 @@
   <Attack>
     <Ranged>
       <ElevationBonus>2</ElevationBonus>
+      <PreferredClasses datatype="tokens">Infantry Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">

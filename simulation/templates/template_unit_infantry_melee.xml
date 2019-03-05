@@ -3,6 +3,7 @@
   <Attack>
     <Melee>
       <MaxRange>2</MaxRange>
+      <PreferredClasses datatype="tokens">Siege Organic</PreferredClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>

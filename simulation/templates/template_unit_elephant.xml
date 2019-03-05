@@ -10,6 +10,7 @@
     <Melee>
       <Crush>60</Crush>
       <MaxRange>6</MaxRange>
+      <PreferredClasses datatype="tokens">Siege Organic Field</PreferredClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>

@@ -5,8 +5,8 @@
     <Ranged>
       <Crush>5</Crush>
       <MaxRange>15</MaxRange>
-      <PreferredClasses datatype="tokens">Animal</PreferredClasses>
-      <ProjectileSpeed>30</ProjectileSpeed>
+      <PreferredClasses datatype="tokens">Animal Siege</PreferredClasses>
+      <ProjectileSpeed>25</ProjectileSpeed>
     </Ranged>
     <Slaughter>
       <Crush>0</Crush>

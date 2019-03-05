@@ -5,10 +5,10 @@
       <Crush>0</Crush>
       <Hack>0</Hack>
       <MaxRange>2</MaxRange>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Pierce>0</Pierce>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Ship Siege Structure</RestrictedClasses>
       <Thrust>0</Thrust>
     </Melee>
   </Attack>

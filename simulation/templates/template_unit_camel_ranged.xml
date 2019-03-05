@@ -10,6 +10,7 @@
     <Melee disable=""/>
     <Ranged>
       <ElevationBonus>3</ElevationBonus>
+      <PreferredClasses datatype="tokens">Support Cavalry Melee Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Health>

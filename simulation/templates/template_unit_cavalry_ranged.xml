@@ -10,6 +10,7 @@
     <Melee disable=""/>
     <Ranged>
       <ElevationBonus>2</ElevationBonus>
+      <PreferredClasses datatype="tokens">Support Melee Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Health>
