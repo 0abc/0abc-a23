@@ -34,6 +34,7 @@
       structures/{civ}/fortress
       structures/{civ}/temple
       structures/{civ}/barracks
+      structures/{civ}/kennel
       structures/{civ}/camel_camp
       structures/{civ}/cavalry_stable
       structures/{civ}/chariot_stable
@@ -41,15 +42,14 @@
       structures/{civ}/workshop
       structures/{civ}/shipyard
 
-      structures/{civ}/crannog
       structures/{civ}/harbour
+      structures/{civ}/crannog
       structures/{civ}/camp
-      structures/{civ}/kennel
+      structures/{civ}/pillar
+      structures/{civ}/rotarymill
       structures/{civ}/library
       structures/{civ}/lighthouse
       structures/{civ}/palace
-      structures/{civ}/pillar
-      structures/{civ}/rotarymill
       structures/{civ}/theatre
       structures/{civ}/wonder
     </Entities>
