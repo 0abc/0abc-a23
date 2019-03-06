@@ -31,7 +31,7 @@
   <RallyPoint disable=""/>
   <ResourceDropsite>
     <Sharable>true</Sharable>
-    <Types>wood stone metal</Types>
+    <Types>metal stone wood</Types>
   </ResourceDropsite>
   <Sound>
     <SoundGroups>

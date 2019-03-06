@@ -1,10 +1,11 @@
 {
   "aiAnalysisInfluenceGroup": "sparse",
   "code": "metal",
-  "description": "Gather from iron mines.",
-  "name": "Metal",
+  "description": "Gather from mineral mines.",
+  "name": "Iron",
   "order": 4,
   "subtypes": {
+    "meteorite": "meteorite iron",
     "ore": "iron ore",
     "pig": "pig iron",
     "steel": "steel"

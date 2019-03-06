@@ -1,7 +1,7 @@
 {
   "affects": ["Worker"],
   "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
-  "description": "Develop shaft mining. Increases metal gathering rates.",
+  "description": "Develop shaft mining.",
   "genericName": "Shaft Mining",
   "icon": "mining_metal.png",
   "modifications": [
@@ -12,5 +12,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_metal_1",
-  "tooltip": "Workers +25% metal gathering rate."
+  "tooltip": "Workers +25% iron gathering rate."
 }

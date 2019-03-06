@@ -1,7 +1,7 @@
 {
   "affects": ["Worker"],
   "cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
-  "description": "Equip your workers with helpful tools. Increases metal gathering rates.",
+  "description": "Equip your workers with helpful tools.",
   "genericName": "Wedge and Mallet",
   "icon": "mining_metal.png",
   "modifications": [
@@ -11,5 +11,5 @@
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
-  "tooltip": "Workers +20% metal gathering rate."
+  "tooltip": "Workers +20% iron gathering rate."
 }

@@ -1,7 +1,7 @@
 {
   "affects": ["Siege"],
   "cost": {"food": 500, "wood": 0, "stone": 250, "metal": 500},
-  "description": "Siege weapons cost less wood",
+  "description": "Siege weapons cost less wood.",
   "genericName": "Artillery Instructors",
   "icon": "anvil.png",
   "modifications": [
@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Siege weapons cost −20% wood"
+  "tooltip": "Siege weapons −20% wood cost."
 }

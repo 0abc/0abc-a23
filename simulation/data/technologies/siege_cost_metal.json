@@ -1,7 +1,7 @@
 {
   "affects": ["Siege"],
   "cost": {"food": 500, "wood": 500, "stone": 250, "metal": 0},
-  "description": "Siege weapons require less metal resource",
+  "description": "Siege weapons require less iron.",
   "genericName": "Metalworker",
   "icon": "metalworker.png",
   "modifications": [
@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Siege weapons cost −20% metal"
+  "tooltip": "Siege weapons −20% iron cost."
 }
