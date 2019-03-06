@@ -4,8 +4,8 @@
     structures/maur_pillar
   </Auras>
   <Footprint>
-    <Height>5.0</Height>
-    <Square width="7.0" depth="7.0"/>
+    <Height>6</Height>
+    <Square width="6" depth="6"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>

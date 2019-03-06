@@ -12,8 +12,8 @@
     <BuildTime>60</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>90</food>
-      <silver>60</silver>
+      <food>80</food>
+      <silver>40</silver>
     </Resources>
   </Cost>
   <Footprint>

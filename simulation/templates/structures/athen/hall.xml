@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_hall">
+  <Footprint replace="">
+    <Circle radius="16"/>
+    <Height>12</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Council Chambers</GenericName>
+    <SpecificName>Πρυτανεῖον</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="24" depth="24"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/athenians/prytaneion.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

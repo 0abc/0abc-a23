@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_palace">
+<Entity parent="template_structure_defensive_palace">
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="41.0" depth="33.0"/>
+    <Height>20</Height>
+    <Square width="40" depth="32"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Βασίλειον</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="39.0" depth="31.0"/>
+    <Static width="38" depth="30"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/ptolemies/civic_centre.xml</Actor>

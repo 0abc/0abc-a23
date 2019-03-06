@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_centre">
+<Entity parent="template_structure_defensive_centre">
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="40.0" depth="34.0"/>
+    <Height>8</Height>
+    <Square width="40" depth="34"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_maur_cc</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Rajadhanika</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="36.0" depth="30.0"/>
+    <Static width="38" depth="32"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">

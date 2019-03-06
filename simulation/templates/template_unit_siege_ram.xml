@@ -15,7 +15,7 @@
       <PreferredClasses datatype="tokens">Gates Fortress Tower</PreferredClasses>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Organic</RestrictedClasses>
       <Thrust>0</Thrust>
     </Melee>
     <Ranged disable=""/>

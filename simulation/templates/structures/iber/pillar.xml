@@ -5,7 +5,7 @@
   </Auras>
   <Footprint>
     <Height>8.0</Height>
-    <Square width="10.0" depth="10.0"/>
+    <Square width="8" depth="8"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
@@ -17,7 +17,7 @@
     <SpecificName>Gur Oroigarri</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="10.0" depth="10.0"/>
+    <Static width="6" depth="6"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/iberians/sb_1.xml</Actor>

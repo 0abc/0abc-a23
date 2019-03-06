@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
+  <Attack disable=""/>
+  <BuildingAI disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
@@ -12,14 +14,6 @@
     <Height>8.0</Height>
     <Square width="6.0" depth="6.0"/>
   </Footprint>
-  <GarrisonHolder>
-    <Max>0</Max>
-    <List datatype="tokens">Ranged+Infantry</List>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>

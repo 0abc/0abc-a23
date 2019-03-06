@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_wonder">
   <Footprint>
-    <Height>12.0</Height>
-    <Square width="35.0" depth="64.0"/>
+    <Height>18</Height>
+    <Square width="34" depth="64"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>gree</Civ>
-    <SpecificName>Temple of Olympic Zeus</SpecificName>
+    <SpecificName>Temple of Demeter Amphictyonis</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="34.0" depth="63.0"/>
+    <Static width="32" depth="62"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/spartans/wonder.xml</Actor>

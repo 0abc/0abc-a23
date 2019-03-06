@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_palace">
+<Entity parent="template_structure_defensive_palace">
   <Footprint>
-    <Height>20.0</Height>
-    <Square width="48.0" depth="66.0"/>
+    <Height>20</Height>
+    <Square width="44" depth="62"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Mnw nht</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="44.0" depth="60.0"/>
+    <Static width="42" depth="60"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/kushites/wonder.xml</Actor>

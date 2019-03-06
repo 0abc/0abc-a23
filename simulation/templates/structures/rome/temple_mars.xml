@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_palace">
+<Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="20.0" depth="30.0"/>
+    <Height>30</Height>
+    <Square width="20" depth="40"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>gree</Civ>
-    <GenericName>Council Chambers</GenericName>
-    <SpecificName>Πρυτανεῖον</SpecificName>
+    <Civ>rome</Civ>
+    <GenericName>Temple of Mars</GenericName>
+    <SpecificName>Aedes Martis</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="16.0" depth="26.0"/>
+    <Static width="18" depth="38"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/spartans/syssiton.xml</Actor>
+    <Actor>structures/romans/temple_mars.xml</Actor>
     <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

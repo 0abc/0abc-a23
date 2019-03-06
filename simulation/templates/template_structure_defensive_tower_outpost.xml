@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <ElevationBonus op="mul">2.0</ElevationBonus>
+      <ElevationBonus>8</ElevationBonus>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -24,9 +24,12 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>15.0</Height>
-    <Square width="9.0" depth="9.0"/>
+    <Height>15</Height>
+    <Square width="7" depth="7"/>
   </Footprint>
+  <GarrisonHolder>
+    <Max>1</Max>
+  </GarrisonHolder>
   <Health>
     <Max>500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
@@ -34,13 +37,14 @@
   <Identity>
     <GenericName>Outpost</GenericName>
     <Icon>structures/outpost.png</Icon>
+    <Tooltip>Can be built in neutral territory. Garrison a soldier to fire arrows.</Tooltip>
     <VisibleClasses datatype="tokens">Outpost</VisibleClasses>
   </Identity>
   <Loot>
     <wood>15</wood>
   </Loot>
   <Obstruction>
-    <Static width="6.5" depth="6.5"/>
+    <Static width="5" depth="5"/>
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
@@ -48,7 +52,7 @@
     </Technologies>
   </ProductionQueue>
   <StatusBars>
-    <HeightOffset>18.0</HeightOffset>
+    <HeightOffset>18</HeightOffset>
   </StatusBars>
   <TerritoryDecay>
     <DecayRate>2</DecayRate>
@@ -60,7 +64,7 @@
         <stone>50</stone>
         <wood>50</wood>
       </Cost>
-      <Entity>structures/{civ}_sentry_tower</Entity>
+      <Entity>structures/{civ}/small_tower</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>
       <Time>100</Time>
       <Tooltip>Expand and upgrade to a sentry tower.</Tooltip>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_centre">
+<Entity parent="template_structure_defensive_centre">
   <Footprint replace="">
-    <Circle radius="15.0"/>
-    <Height>8.0</Height>
+    <Circle radius="15"/>
+    <Height>8</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_brit_cc</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Tigernotreba</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="25.0"/>
+    <Static width="25" depth="25"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">

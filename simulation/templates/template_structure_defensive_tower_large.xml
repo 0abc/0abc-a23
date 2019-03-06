@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <ElevationBonus op="mul">5.0</ElevationBonus>
+      <ElevationBonus>20</ElevationBonus>
     </Ranged>
   </Attack>
   <BuildingAI>

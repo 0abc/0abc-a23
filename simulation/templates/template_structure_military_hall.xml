@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Hall</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>50</metal>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Hall</GenericName>
+    <Icon>structures/italian_embassy.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Train infantry champions.</Tooltip>
+    <VisibleClasses datatype="tokens">Hall</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>10</metal>
+    <wood>40</wood>
+  </Loot>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_pikeman_champion
+      units/{civ}/infantry_spearman_champion
+      units/{civ}/infantry_spearman_champion_2
+      units/{civ}/infantry_spearman_champion_3
+      units/{civ}/infantry_longswordsman_champion
+      units/{civ}/infantry_swordsman_champion
+      units/{civ}/infantry_sabreman_champion
+      units/{civ}/infantry_axeman_champion
+      units/{civ}/infantry_maceman_champion
+      units/{civ}/infantry_javelinist_champion
+      units/{civ}/infantry_longbowman_champion
+      units/{civ}/infantry_archer_champion
+      units/{civ}/infantry_slinger_champion
+    </Entities>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+      training_soldiers
+    </Technologies>
+  </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-2.0</food>
+      <silver>-1.0</silver>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>20</Radius>
+  </TerritoryInfluence>
+</Entity>

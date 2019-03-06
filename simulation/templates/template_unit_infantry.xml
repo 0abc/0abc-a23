@@ -19,39 +19,42 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/centre
-      structures/{civ}/house
-      structures/{civ}/market
-      structures/{civ}/dock
-      structures/{civ}/storehouse
-      structures/{civ}/farmstead
-      structures/{civ}/field
-      structures/wallset_palisade
-      structures/wallset_siege
-      structures/{civ}/wallset_city
-
+      structures/{civ}/outpost
       structures/{civ}/small_tower
       structures/{civ}/large_tower
       structures/{civ}/fortress
+      structures/wallset_palisade
+      structures/wallset_siege
+      structures/{civ}/wallset_city
       structures/{civ}/temple
+      structures/{civ}/wonder
+
+      structures/{civ}/house
+      structures/{civ}/field
+      structures/{civ}/farmstead
+      structures/{civ}/storehouse
+      structures/{civ}/dock
+      structures/{civ}/market
       structures/{civ}/barracks
-      structures/{civ}/kennel
-      structures/{civ}/camel_camp
       structures/{civ}/cavalry_stable
-      structures/{civ}/chariot_stable
-      structures/{civ}/elephant_stable
       structures/{civ}/workshop
       structures/{civ}/shipyard
 
-      structures/{civ}/harbour
-      structures/{civ}/crannog
       structures/{civ}/camp
+      structures/{civ}/crannog
+      structures/{civ}/harbour
+      structures/{civ}/palace
+      structures/{civ}/palace_2
+      structures/{civ}/camel_camp
+      structures/{civ}/chariot_stable
+      structures/{civ}/elephant_stable
+      structures/{civ}/hall
+      structures/{civ}/kennel
       structures/{civ}/pillar
       structures/{civ}/rotarymill
       structures/{civ}/library
       structures/{civ}/lighthouse
-      structures/{civ}/palace
       structures/{civ}/theatre
-      structures/{civ}/wonder
     </Entities>
   </Builder>
   <Cost>

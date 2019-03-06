@@ -13,11 +13,6 @@
     <Pierce>5</Pierce>
     <Thrust>1</Thrust>
   </Armour>
-  <BuildingAI>
-    <DefaultArrowCount>0</DefaultArrowCount>
-    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
-    <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
-  </BuildingAI>
   <BuildRestrictions>
     <Category>Structure</Category>
     <PlacementType>land</PlacementType>
@@ -49,8 +44,8 @@
   </Decay>
   <Fogging/>
   <Footprint>
-    <Height>10.0</Height>
-    <Square width="10.0" depth="10.0"/>
+    <Height>10</Height>
+    <Square width="10" depth="10"/>
   </Footprint>
   <Guard/>
   <Health>
@@ -103,7 +98,7 @@
     <TurnRate>6.0</TurnRate>
   </Position>
   <ProductionQueue>
-    <BatchTimeModifier>1.0</BatchTimeModifier>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <TechCostMultiplier>
       <food>1.0</food>
       <metal>1.0</metal>

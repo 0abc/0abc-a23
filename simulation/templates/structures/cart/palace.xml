@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_palace">
+<Entity parent="template_structure_defensive_palace">
   <Footprint>
-    <Height>15.0</Height>
-    <Square width="30.0" depth="30.0"/>
+    <Height>15</Height>
+    <Square width="30" depth="30"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>cart</Civ>
   </Identity>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="28" depth="28"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/carthaginians/embassy.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <Actor>structures/carthaginians/palace.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

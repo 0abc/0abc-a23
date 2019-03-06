@@ -9,8 +9,8 @@
   <Cost>
     <Population>4</Population>
     <Resources>
-      <food>180</food>
-      <silver>120</silver>
+      <food>160</food>
+      <silver>90</silver>
     </Resources>
   </Cost>
   <Footprint>

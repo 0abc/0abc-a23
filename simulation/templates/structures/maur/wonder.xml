@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_wonder">
   <Footprint replace="">
-    <Circle radius="31"/>
-    <Height>10.0</Height>
+    <Circle radius="30"/>
+    <Height>30</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>

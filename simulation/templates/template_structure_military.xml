@@ -26,15 +26,19 @@
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-  </ProductionQueue>
   <ResourceTrickle>
     <Rates>
       <food>-4.0</food>
       <wood>-1.0</wood>
     </Rates>
   </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_barracks.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_barracks.xml</select>
+    </SoundGroups>
+  </Sound>
   <TerritoryInfluence>
     <Radius>40</Radius>
     <Root>false</Root>

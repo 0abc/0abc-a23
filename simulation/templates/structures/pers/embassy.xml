@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+  <Footprint>
+    <Height>15</Height>
+    <Square width="25" depth="25"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>pers</Civ>
+    <SpecificName>Duvarthi Visadahyu</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="23" depth="23"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/persians/hall.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

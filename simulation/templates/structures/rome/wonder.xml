@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_wonder">
   <Footprint>
-    <Height>12.0</Height>
-    <Square width="46.0" depth="54.0"/>
+    <Height>30</Height>
+    <Square width="42" depth="52"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Capitoline Temple of Jupiter Optimus Maximus</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="42.0" depth="50.0"/>
+    <Static width="40" depth="50"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/capitoline.xml</Actor>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_theatre">
-  <Footprint replace="">
+  <Footprint>
     <Circle radius="25"/>
-    <Height>10.0</Height>
+    <Height>10</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>

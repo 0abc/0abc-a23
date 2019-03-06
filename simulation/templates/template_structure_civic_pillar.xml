@@ -22,6 +22,7 @@
   </Health>
   <Identity>
     <GenericName>Monumental Pillar</GenericName>
+    <Icon>structures/tholos.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
   </Identity>

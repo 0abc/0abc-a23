@@ -6,6 +6,8 @@
     <Pierce>25</Pierce>
     <Thrust>10</Thrust>
   </Armour>
+  <Attack disable=""/>
+  <BuildingAI disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
@@ -14,6 +16,7 @@
   <Capturable>
     <CapturePoints>500</CapturePoints>
   </Capturable>
+  <GarrisonHolder disable=""/>
   <Identity>
     <Classes datatype="tokens">Palisade</Classes>
     <GenericName>Palisade</GenericName>

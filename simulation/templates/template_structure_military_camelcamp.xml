@@ -42,12 +42,5 @@
       units/{civ}/camel_spearman_champion
     </Entities>
   </ProductionQueue>
-  <Sound>
-    <SoundGroups>
-      <constructed>interface/complete/building/complete_barracks.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-      <select>interface/select/building/sel_barracks.xml</select>
-    </SoundGroups>
-  </Sound>
   <TerritoryInfluence disable=""/>
 </Entity>

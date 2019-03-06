@@ -2,10 +2,9 @@
 <Entity parent="template_structure_civic">
   <Auras datatype="tokens">
     structures/wonder_heal
-    structures/wonder_population
     structures/wonder_speed
     structures/wonder_territory
-    structures/wonder_training
+    structures/wonder_population
   </Auras>
   <BuildRestrictions>
     <Category>Wonder</Category>

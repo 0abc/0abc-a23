@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_wonder">
   <Footprint replace="">
-    <Circle radius="30.0"/>
-    <Height>10.0</Height>
+    <Circle radius="27"/>
+    <Height>10</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Stonehenge</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="55.0" depth="55.0"/>
+    <Static width="55" depth="55"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/celts/stone_monument.xml</Actor>

@@ -11,6 +11,8 @@
       <Pierce>7</Pierce>
     </Foundation>
   </Armour>
+  <Attack disable=""/>
+  <BuildingAI disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
@@ -19,14 +21,6 @@
   <Capturable>
     <CapturePoints>1500</CapturePoints>
   </Capturable>
-  <GarrisonHolder>
-    <Max>0</Max>
-    <List datatype="tokens">Ranged+Infantry</List>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>
   <Identity>
     <Classes datatype="tokens">SiegeWall</Classes>
     <GenericName>Siege Wall</GenericName>
