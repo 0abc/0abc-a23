@@ -8,5 +8,5 @@
     {"value": "Health/Max",          "multiply": 1.2,  "affects": "Catapult"}
   ],
   "requirements": {"civ": "rome"},
-  "tooltip": "Roman stone throwers +25% wood cost, +20% health, and +25% ranged attack crush damage."
+  "tooltip": "Roman stone-throwers +25% wood cost, +20% health, +25% ranged attack crush damage."
 }

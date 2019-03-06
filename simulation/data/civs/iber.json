@@ -48,7 +48,7 @@
 		{
 			"Name": "Iberian Architecture",
 			"History": "Iberian structures were probably made out of wood, perhaps with rubble foundations.",
-			"Description": "Centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +30% health."
+			"Description": "Large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health."
 		}
   ],
   "TeamBonuses":

@@ -1,0 +1,8 @@
+CARTHAGINIANS
+
+• Market −50% wood cost; fortress +10% stone cost, +10% build time, +20% health; city walls +20% stone cost, +20% build time, +30% health.
+
+• Land and sea traders −15% training time.
+
+• Starts with three sheep.
+

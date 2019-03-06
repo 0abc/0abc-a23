@@ -1,0 +1,14 @@
+{
+  "affects": ["Structure"],
+  "autoResearch": true,
+  "genericName": "Iberian Architecture",
+  "modifications": [
+    {"value": "Cost/BuildTime",       "multiply": 1.1,  "affects": "DefenseTower"},
+    {"value": "Cost/Resources/stone", "multiply": 1.2,  "affects": "DefenseTower"},
+    {"value": "Cost/Resources/wood",  "multiply": 1.2,  "affects": "DefenseTower"},
+    {"value": "GarrisonHolder/Max",   "multiply": 2.0,  "affects": "DefenseTower"},
+    {"value": "Health/Max",           "multiply": 1.3,  "affects": "DefenseTower"}
+  ],
+  "requirements": {"civ": "iber"},
+  "tooltip": "Iberian large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, and +30% health."
+}

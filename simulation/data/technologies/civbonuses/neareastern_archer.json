@@ -5,6 +5,9 @@
   "modifications": [
     {"value": "Attack/Ranged/MaxRange", "multiply": 1.2}
   ],
-  "requirements": {"any": [{"civ": "pers"}, {"civ": "sele"}]},
-  "tooltip": "Archers +20% ranged attack range."
+  "requirements": {"any": [
+    {"civ": "pers"},
+    {"civ": "sele"}
+  ]},
+  "tooltip": "Persian and Seleucid archers +20% ranged attack range."
 }

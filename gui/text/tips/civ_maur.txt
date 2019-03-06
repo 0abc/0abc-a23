@@ -1,0 +1,8 @@
+MAURYAS
+
+• Temple and city walls 0 stone cost, +200% wood cost, −30% build time, −20% health.
+
+• Elephants −15% training time.
+
+• Starts with one zebu and a worker elephant.
+

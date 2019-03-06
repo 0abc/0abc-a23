@@ -1,9 +1,9 @@
 {
-  "affects": ["Structure !Field !Outpost !Palisade !SiegeWall !Wonder"],
+  "affects": ["Structure"],
   "autoResearch": true,
   "genericName": "Persian Architecture",
   "modifications": [
-    {"value": "Health/Max",               "multiply": 1.2,  "affects": "Economic"}
+    {"value": "Health/Max", "multiply": 1.2,  "affects": "Economic"}
   ],
   "requirements": {"civ": "pers"},
   "tooltip": "Persian economic structures +20% health."

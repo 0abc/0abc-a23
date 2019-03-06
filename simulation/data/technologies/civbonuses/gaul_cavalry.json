@@ -1,0 +1,10 @@
+{
+  "affects": ["Cavalry Melee"],
+  "autoResearch": true,
+  "genericName": "Gallic Cavalry",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.85}
+  ],
+  "requirements": {"civ": "gaul"},
+  "tooltip": "Gaulish melee cavalry −15% training time."
+}

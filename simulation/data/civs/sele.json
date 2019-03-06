@@ -49,6 +49,11 @@
 			"Name": "Greek Architecture",
 			"History": "Greek structures were made out of wood, fired bricks, or stone.",
 			"Description": "Civic structures +20% health."
+		},
+		{
+			"Name": "Near Eastern Archers",
+			"History": "",
+			"Description": "Archers +20% ranged attack range."
 		}
   ],
   "TeamBonuses":

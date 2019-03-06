@@ -54,7 +54,12 @@
 		{
 			"Name": "Persian Archers",
 			"History": "",
-			"Description": "Archers −20% training time."
+			"Description": "Archers −15% training time."
+		},
+		{
+			"Name": "Near Eastern Archers",
+			"History": "",
+			"Description": "Archers +20% ranged attack range."
 		}
   ],
   "TeamBonuses":

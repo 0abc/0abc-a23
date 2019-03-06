@@ -1,0 +1,8 @@
+GAULS
+
+• Structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
+
+• Melee cavalry −15% training time.
+
+• Starts with two pigs.
+

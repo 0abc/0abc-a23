@@ -232,12 +232,25 @@ Wood:
 
 
 ### Auras and technologies
+#### Structure auras
+* {Centre} **Settlement Core** (75 m): workers +20% build rate, −20% resource gather base speed; structures +100% ungarrisoned base capture points regeneration.
+* {Library} **Power of Knowledge** (global): technologies −10% resource costs and research time per library owned.
+* {Iberian Pillar} **Religious Fervour** (50 m): soldiers +20% melee and ranged attack damage.
+* {Mauryan Pillar} **Edicts of Ashoka** (75 m): traders +20% movement speed.
+* {Rotary Mill} **Farming Bonus** (60 m): workers +20% farming gather rate.
+* {Temple} **Medical Treatment** (40 m): humans +1.0 health regeneration rate.
+* {Theatre} **Hellenization** (global): units −5% training time per theatre owned.
+* {Wonder} **Blessing of the Gods** (50 m): humans +2.0 health regeneration rate.
+* {Wonder} **Monumental Awe** (100 m): enemy units −5% movement speed.
+* {Wonder} **Symbol of Greatness** (global): structures +10% territory influence radius per wonder owned.
+* {Wonder} **Glorious Expansion** (global): +10% maximum population limit per wonder owned (requires “Glorious Expansion” technology).
+
 #### Unit auras
-* **Camel Stench** (15 m): enemy cavalry −20% attack damage and capture strength.
-* **Chariot Noise** (12 m): enemy infantry −15% attack damage and capture strength.
-* **Elephant Intimidation** (10 m): enemy soldiers −10% attack damage and capture strength.
-* **Merchant Convoy** (20 m): own naval traders +2.0 pierce armour.
-* **Trader Caravan** (10 m): own land traders +2.0 pierce armour.
+* {Camel} **Stench** (15 m): enemy cavalry −20% attack damage and capture strength.
+* {Chariot} **Noise** (12 m): enemy infantry −15% attack damage and capture strength.
+* {Elephant} **Intimidation** (10 m): enemy soldiers −10% attack damage and capture strength.
+* {Merchant} **Convoy** (20 m): own naval traders +2.0 pierce armour.
+* {Trader} **Caravan** (10 m): own land traders +2.0 pierce armour.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -257,19 +270,24 @@ Wood:
 
 #### Civilization bonuses
 *All bonuses and penalties from the default distribution have been removed.*
+* **Briton Chariots** (Britons): chariots −15% training time.
 * **Celtic Architecture** (Britons, Gauls): all structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
+* **Gallic Cavalry** (Gauls): melee cavalry −15% training time.
 * **Greek Architecture** (Greeks, Macedonians, Seleucids): civic structures +20% health.
+* **Greek Galleys** (Greeks): warships +5% movement speed.
 * **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
 * **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
-* **Indian Training** (Mauryas): elephants −20% training time.
-* **Iberian Architecture** (Iberians): centres −10% build time, −5% health; large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
+* **Indian Elephants** (Mauryas): elephants −15% training time.
+* **Iberian Architecture** (Iberians): large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
+* **Macedonian Engineers** (Macedonians): siege engines −15% construction time.
 * **Near Eastern Archers** (Persians, Seleucids): archers +20% ranged attack range.
 * **Persian Architecture** (Persians): economic structures +20% health.
-* **Persian Training** (Persians): archers −20% training time.
+* **Persian Archers** (Persians): archers −15% training time.
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
-* **Punic Training** (Carthaginians): traders −20% training time.
-* **Roman Architecture** (Romans): city walls +10% health; military structures −10% build time.
-* **Roman Engineers** (Romans): stone throwers +25% wood cost, +20% health, and +25% ranged attack crush damage.
+* **Punic Merchants** (Carthaginians): traders −15% training time.
+* **Roman Architecture** (Romans): military structures −10% build time; city walls +10% health.
+* **Roman Engineers** (Romans): stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
+
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

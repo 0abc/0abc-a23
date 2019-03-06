@@ -1,0 +1,10 @@
+{
+  "affects": ["Archer"],
+  "autoResearch": true,
+  "genericName": "Persian Archers",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.85}
+  ],
+  "requirements": {"civ": "pers"},
+  "tooltip": "Persian archers −15% training time."
+}

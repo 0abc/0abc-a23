@@ -1,6 +1,6 @@
 {
   "affects": ["Trader"],
-  "auraName": "Edict of Ashoka",
+  "auraName": "Edicts of Ashoka",
   "auraDescription": "Traders +20% movement speed.",
   "modifications": [
     {"value": "UnitMotion/Run/Speed", "multiply": 1.2},
