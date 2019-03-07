@@ -59,4 +59,7 @@
       <select>interface/select/building/sel_blacksmith.xml</select>
     </SoundGroups>
   </Sound>
+  <TerritoryInfluence>
+    <Radius>25</Radius>
+  </TerritoryInfluence>
 </Entity>

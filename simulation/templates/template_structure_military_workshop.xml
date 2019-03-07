@@ -43,4 +43,7 @@
       units/{civ}/quadriga_scythed_champion
     </Entities>
   </ProductionQueue>
+  <TerritoryInfluence>
+    <Radius>30</Radius>
+  </TerritoryInfluence>
 </Entity>

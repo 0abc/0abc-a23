@@ -17,7 +17,7 @@
     <Limits>
       <CamelCamp>3</CamelCamp>
       <Centre>1</Centre>
-      <ElephantStable>4</ElephantStable>
+      <ElephantStable>0</ElephantStable>
       <Embassy>1</Embassy>
       <Fortress>10</Fortress>
       <Hall>0</Hall>
@@ -37,6 +37,9 @@
       <Workshop>0</Workshop>
     </Limits>
     <LimitChangers>
+      <ElephantStable>
+        <Centre>1</Centre>
+      </ElephantStable>
       <Fortress>
         <Centre>2</Centre>
       </Fortress>
