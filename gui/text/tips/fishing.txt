@@ -1,0 +1,10 @@
+FISHING
+
+• Fish the seas to supplement your food stocks.
+
+• Fishing is a faster way to gather food than farming fields.
+
+• Fishing boats carry a large amount of food per trip.
+
+• Careful! Fish are not an infinite resource!
+

@@ -11,5 +11,5 @@
     {"value": "UnitMotion/Run/Speed",         "multiply": 0.95                               },
     {"value": "UnitMotion/WalkSpeed",         "multiply": 0.95                               }
   ],
-  "tooltip": "Cataphract units have +20% silver cost, +2 armour levels, and −5% movement speed."
+  "tooltip": "Cataphract units have +20% silver cost, +2 armour levels, −5% movement speed."
 }

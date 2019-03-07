@@ -255,15 +255,15 @@ Wood:
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Class bonuses
-* **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, and +100% melee and ranged attack damage.
-* **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, and +50% melee and ranged attack damage.
-* **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, and +15% melee and ranged attack damage.
-* **Cataphract**: +20% silver cost, +2 armour levels, and −5% movement speed.
-* **Fanatic**: −4 armour levels, +15% melee attack damage, and +30% movement speed.
-* **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, and +5% movement speed.
+* **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, +100% melee and ranged attack damage.
+* **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, +50% melee and ranged attack damage.
+* **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, +15% melee and ranged attack damage.
+* **Cataphract**: +20% silver cost, +2 armour levels, −5% movement speed.
+* **Fanatic**: −3 armour levels, +15% melee attack damage, +30% movement speed.
+* **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
 * **Cretan**: −20% ranged attack spread.
-* **Libyan**: −5% health, +5% ranged attack damage, −5% reload time, and +5% movement speed.
-* **Numidian**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, and +5% movement speed.
+* **Libyan**: −5% health, +5% ranged attack damage, −5% reload time, +5% movement speed.
+* **Numidian**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
 * **Rhodian**: −20% ranged attack spread.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
@@ -273,9 +273,10 @@ Wood:
 * **Briton Chariots** (Britons): chariots −15% training time.
 * **Celtic Architecture** (Britons, Gauls): all structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
 * **Gallic Cavalry** (Gauls): melee cavalry −15% training time.
-* **Greek Architecture** (Greeks, Macedonians, Seleucids): civic structures +20% health.
+* **Greek Architecture** (Greeks, Macedonians, Seleucids): temples +25% health.
 * **Greek Galleys** (Greeks): warships +5% movement speed.
 * **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+* **Egyptian Medicine** (Ptolemies): healers −20% healing time.
 * **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Indian Elephants** (Mauryas): elephants −15% training time.
 * **Iberian Architecture** (Iberians): large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
@@ -283,11 +284,11 @@ Wood:
 * **Near Eastern Archers** (Persians, Seleucids): archers +20% ranged attack range.
 * **Persian Architecture** (Persians): economic structures +20% health.
 * **Persian Archers** (Persians): archers −15% training time.
+* **Priesthood of Amun** (Kuhites): healers +3 healing range.
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
 * **Punic Merchants** (Carthaginians): traders −15% training time.
 * **Roman Architecture** (Romans): military structures −10% build time; city walls +10% health.
 * **Roman Engineers** (Romans): stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
-
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

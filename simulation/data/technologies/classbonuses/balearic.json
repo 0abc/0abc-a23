@@ -13,5 +13,5 @@
     {"value": "UnitMotion/Run/Speed",       "multiply": 1.05                                },
     {"value": "UnitMotion/WalkSpeed",       "multiply": 1.05                                }
   ],
-  "tooltip": "Balearic slingers −10% health, +5% ranged attack damage, −10% repeat time, −10% spread, and +5% movement speed."
+  "tooltip": "Balearic slingers −10% health, +5% ranged attack damage, −10% repeat time, −10% spread, +5% movement speed."
 }

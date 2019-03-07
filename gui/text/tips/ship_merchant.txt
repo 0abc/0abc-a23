@@ -1,0 +1,12 @@
+MERCHANT SHIPS
+
+• Available to all factions; enabled in town phase.
+
+• 0 population cost; limited to 20 per player.
+
+• Establish trade routes between docks to obtain any resource.
+
+• Longer routes mean higher income.
+
+• Bonus for trading with docks of other players.
+

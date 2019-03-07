@@ -1,0 +1,10 @@
+MERCENARIES
+
+• Enabled in town phase.
+
+• Can not gather resources.
+
+• +100% silver cost, 0 other resource costs, −50% training time.
+
+• +10% health, +15% capture attack strength, +15% melee and ranged attack damage.
+

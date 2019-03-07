@@ -1,0 +1,10 @@
+PALISADES
+
+• Available to all factions; enabled in village phase.
+
+• Can be built in own, allied, neutral, and enemy territory.
+
+• Cheap and quick to build, but also weak.
+
+• Attackable by enemy soldiers, unlike city walls, which are only attackable by siege weapons.
+

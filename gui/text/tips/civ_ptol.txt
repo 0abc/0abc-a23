@@ -1,6 +1,10 @@
 PTOLEMIES
 
-• Economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+• Economic structures −75% wood cost, +100% build time; 
+military structures −50% wood cost, +50% build time; 
+fortresses +25% build time, +10% health.
+
+• Healers −20% healing time.
 
 • Starts with four goats.
 

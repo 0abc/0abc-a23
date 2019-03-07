@@ -1,6 +1,6 @@
 SELEUCIDS
 
-• Civic structures +20% health. 
+• Temples +25% health.
 
 • Archers +20% ranged attack range.
 

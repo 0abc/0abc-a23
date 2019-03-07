@@ -1,6 +1,7 @@
 BRITONS
 
-• Structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
+• Structures −20% build time, −10% health; 
+temples −50% stone cost, +100% wood cost.
 
 • Chariots −15% training time.
 

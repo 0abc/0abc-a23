@@ -12,5 +12,5 @@
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "healer_range_2",
-  "tooltip": "Healers +3 Healing Range."
+  "tooltip": "Healers +3 healing range."
 }

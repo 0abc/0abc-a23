@@ -1,6 +1,6 @@
 MACEDONIANS
 
-• Civic structures +20% health.
+• Temples +25% health.
 
 • Siege engines −15% construction time.
 

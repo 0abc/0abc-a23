@@ -57,19 +57,6 @@
   <TerritoryDecay>
     <DecayRate>2</DecayRate>
   </TerritoryDecay>
-  <Upgrade>
-    <Tower>
-      <Cost>
-        <food>50</food>
-        <stone>50</stone>
-        <wood>50</wood>
-      </Cost>
-      <Entity>structures/{civ}/small_tower</Entity>
-      <RequiredTechnology>phase_town</RequiredTechnology>
-      <Time>100</Time>
-      <Tooltip>Expand and upgrade to a sentry tower.</Tooltip>
-    </Tower>
-  </Upgrade>
   <VisualActor>
     <Actor>props/special/palisade_rocks_outpost.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>

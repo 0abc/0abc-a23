@@ -22,5 +22,5 @@
     {"value": "Health/Max",                   "multiply": 1.2                                },
     {"value": "Loot/xp",                      "multiply": 2.0                                }
   ],
-  "tooltip": "Veteran units have +50% silver cost, +50% training time, +20% health, +1 armour levels, +50% capture attack strength, and +50% melee and ranged attack damage."
+  "tooltip": "Veteran units have +50% silver cost, +50% training time, +20% health, +1 armour levels, +50% capture attack strength, +50% melee and ranged attack damage."
 }

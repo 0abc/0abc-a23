@@ -1,0 +1,10 @@
+{
+  "affects": ["Healer"],
+  "autoResearch": true,
+  "genericName": "Priesthood of Amun",
+  "modifications": [
+    {"value": "Heal/Range", "add": 3}
+  ],
+  "requirements": {"civ": "kush"},
+  "tooltip": "Kushite healers +3 healing range."
+}

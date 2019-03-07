@@ -1,0 +1,10 @@
+OUTPOSTS
+
+• Available to all factions; enabled in village phase.
+
+• Can be built in neutral territory.
+
+• Cheap and quick to build, but also weak.
+
+• Garrison a soldier in it to fire arrows and to prevent from decaying when outside your territory.
+

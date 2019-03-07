@@ -1,6 +1,6 @@
 GREEKS
 
-• Civic structures +20% health.
+• Temples +25% health.
 
 • Warships +5% movement speed. 
 
