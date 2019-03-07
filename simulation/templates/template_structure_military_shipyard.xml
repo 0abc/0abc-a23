@@ -59,4 +59,5 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
 </Entity>
