@@ -6,11 +6,11 @@
     <Foundation>
       <Crush>1</Crush>
       <Hack>1</Hack>
-      <Pierce>5</Pierce>
+      <Pierce>10</Pierce>
       <Thrust>1</Thrust>
     </Foundation>
     <Hack>1</Hack>
-    <Pierce>5</Pierce>
+    <Pierce>10</Pierce>
     <Thrust>1</Thrust>
   </Armour>
   <BuildRestrictions>
@@ -168,7 +168,7 @@
     <RetainInFog>true</RetainInFog>
   </Visibility>
   <Vision>
-    <Range>40</Range>
+    <Range>0</Range>
   </Vision>
   <VisionSharing>
     <Bribable>false</Bribable>

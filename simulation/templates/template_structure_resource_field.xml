@@ -4,7 +4,7 @@
     <Crush>5</Crush>
     <Hack>15</Hack>
     <Pierce>40</Pierce>
-    <Thrust>40</Thrust>
+    <Thrust>30</Thrust>
   </Armour>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
@@ -19,8 +19,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>2.0</Height>
-    <Square width="28.0" depth="28.0"/>
+    <Height>1</Height>
+    <Square width="28" depth="28"/>
   </Footprint>
   <Health>
     <Max>300</Max>
@@ -41,7 +41,7 @@
   <Obstruction>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
-    <Static width="22.0" depth="22.0"/>
+    <Static width="24" depth="24"/>
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
@@ -55,7 +55,6 @@
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_field.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <select>interface/select/building/sel_field.xml</select>
     </SoundGroups>
   </Sound>
@@ -65,11 +64,7 @@
   <TerritoryDecay>
     <DecayRate>5.0</DecayRate>
   </TerritoryDecay>
-  <Vision>
-    <Range>0</Range>
-  </Vision>
   <VisualActor>
-    <Actor>structures/plot_field_3D_8x8.xml</Actor>
     <FoundationActor>structures/plot_field_found.xml</FoundationActor>
     <SelectionShape>
       <Footprint/>

@@ -18,14 +18,12 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">LongWall</Classes>
     <Tooltip>Long wall segments can be converted to gates.</Tooltip>
   </Identity>
   <Loot>
     <stone>27</stone>
     <wood>9</wood>
   </Loot>
-  <RallyPoint/>
   <Upgrade>
     <Gate>
       <Cost>

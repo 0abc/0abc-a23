@@ -14,6 +14,7 @@
   </Gate>
   <Health>
     <Max>3400</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">Gates</Classes>
@@ -27,11 +28,6 @@
     <wood>18</wood>
   </Loot>
   <Obstruction>
-    <Obstructions>
-      <Door width="20.0" depth="6.5" x="0" z="0"/>
-      <Left width="5" depth="5" x="-10" z="0"/>
-      <Right width="5" depth="5" x="10" z="0"/>
-    </Obstructions>
     <Static disable=""/>
   </Obstruction>
   <RallyPoint disable=""/>
@@ -41,7 +37,6 @@
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_gate.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <gate_closing>actor/gate/stonegate_close.xml</gate_closing>
       <gate_opening>actor/gate/stonegate_open.xml</gate_opening>
       <gate_locked>interface/select/building/sel_gate.xml</gate_locked>

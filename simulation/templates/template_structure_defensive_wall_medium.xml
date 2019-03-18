@@ -21,7 +21,6 @@
     <stone>18</stone>
     <wood>6</wood>
   </Loot>
-  <RallyPoint/>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>
   </VisualActor>

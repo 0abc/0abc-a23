@@ -44,7 +44,6 @@
       <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
       <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
       <constructed>interface/complete/building/complete_farmstead.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <select>interface/select/building/sel_farmstead.xml</select>
     </SoundGroups>
   </Sound>

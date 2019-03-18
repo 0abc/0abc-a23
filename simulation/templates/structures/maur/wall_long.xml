@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
-  <Cost>
-    <Resources>
-      <stone>0</stone>
-      <wood>30</wood>
-    </Resources>
-  </Cost>
   <Footprint>
     <Height>9.0</Height>
     <Square width="36.5" depth="9.0"/>
@@ -34,10 +28,6 @@
     <SelectionGroupName>structures/maur/wallset</SelectionGroupName>
     <SpecificName>Shilabanda</SpecificName>
   </Identity>
-  <Loot>
-    <stone>0</stone>
-    <wood>15</wood>
-  </Loot>
   <Obstruction>
     <Static width="35.0" depth="7.5"/>
   </Obstruction>

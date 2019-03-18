@@ -10,13 +10,6 @@
   <Capturable>
     <CapturePoints>1500</CapturePoints>
   </Capturable>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="6.0" depth="6.0"/>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Classes datatype="tokens">StoneWall</Classes>
     <GenericName>City Wall</GenericName>
@@ -24,18 +17,13 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Wall off your city for a stout defence.</Tooltip>
   </Identity>
-  <Obstruction>
-    <Static width="6.0" depth="6.0"/>
-  </Obstruction>
   <ProductionQueue disable=""/>
-  <RallyPoint disable=""/>
   <Repairable>
     <RepairTimeRatio>4</RepairTimeRatio>
   </Repairable>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_wall.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <select>interface/select/building/sel_wall.xml</select>
     </SoundGroups>
   </Sound>

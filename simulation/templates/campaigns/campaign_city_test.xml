@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_centre">
+<Entity parent="template_structure_defensive_centre">
   <Footprint replace="">
     <Circle radius="26.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>athen</Civ>
-    <VisibleClasses datatype="tokens">Market</VisibleClasses>
+    <Civ>gree</Civ>
     <GenericName>Settlement</GenericName>
     <SpecificName>Greek Polis</SpecificName>
     <Tooltip>This is a major Greek city.</Tooltip>
@@ -18,7 +17,6 @@
     <Entities datatype="tokens">
       campaigns/army_mace_hero_alexander
       campaigns/army_mace_standard
-      units/{civ}/support_trader
     </Entities>
   </ProductionQueue>
   <TerritoryInfluence>

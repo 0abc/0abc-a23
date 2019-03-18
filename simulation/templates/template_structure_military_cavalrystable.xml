@@ -18,7 +18,7 @@
     <Max>2000</Max>
   </Health>
   <Identity>
-    <GenericName>Stables</GenericName>
+    <GenericName>Stable</GenericName>
     <Icon>structures/pers_stable.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train cavalry. Research cavalry technologies.</Tooltip>

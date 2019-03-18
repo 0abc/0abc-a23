@@ -5,8 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>athen</Civ>
-    <VisibleClasses datatype="tokens">Market</VisibleClasses>
+    <Civ>gree</Civ>
     <GenericName>Settlement</GenericName>
     <SpecificName>Minor Greek Polis</SpecificName>
     <Tooltip>This is a minor Greek city.</Tooltip>

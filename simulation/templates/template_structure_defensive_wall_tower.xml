@@ -7,10 +7,6 @@
       <wood>60</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>8.0</Height>
-    <Square width="6.0" depth="6.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
   </GarrisonHolder>
@@ -29,7 +25,6 @@
   </Loot>
   <Obstruction>
     <ControlPersist/>
-    <Static width="6.0" depth="6.0"/>
   </Obstruction>
   <Repairable>
     <RepairTimeRatio>4.5</RepairTimeRatio>
@@ -37,16 +32,12 @@
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_tower.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <select>interface/select/building/sel_tower.xml</select>
     </SoundGroups>
   </Sound>
   <StatusBars>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>

@@ -53,4 +53,7 @@
   <TerritoryInfluence>
     <Radius>10</Radius>
   </TerritoryInfluence>
+  <Vision>
+    <Range>10</Range>
+  </Vision>
 </Entity>

@@ -36,7 +36,7 @@
     <Icon>structures/crannog.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Cothon</SpecificName>
-    <Tooltip>Construct and repair mighty warships.</Tooltip>
+    <Tooltip>Territory root. Construct and repair warships.</Tooltip>
     <VisibleClasses datatype="tokens">Harbour</VisibleClasses>
   </Identity>
   <Loot>

@@ -59,7 +59,6 @@
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_dock.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <select>interface/select/building/sel_dock.xml</select>
     </SoundGroups>
   </Sound>
