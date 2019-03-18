@@ -4,33 +4,33 @@
 ## Table of Contents
 * [Instructions](https://github.com/0abc/0abc-a23#instructions)
 * [Overview](https://github.com/0abc/0abc-a23#overview)
- * [AI](https://github.com/0abc/0abc-a23#ai)
- * [Structures](https://github.com/0abc/0abc-a23#structures)
- * [Units](https://github.com/0abc/0abc-a23#units)
-  * [Population costs](https://github.com/0abc/0abc-a23#population-costs)
-  * [Damage types](https://github.com/0abc/0abc-a23#damage-types)
-  * [Bonus attacks](https://github.com/0abc/0abc-a23#bonus-attacks)
-  * [Recruitment costs](https://github.com/0abc/0abc-a23#recruitment-costs)
- * [Upkeep and income](https://github.com/0abc/0abc-a23#upkeep-and-income)
- * [Auras and technologies](https://github.com/0abc/0abc-a23#auras-and-technologies)
-  * [Structure auras](https://github.com/0abc/0abc-a23#structure-auras)
-  * [Unit auras](https://github.com/0abc/0abc-a23#unit-auras)
-  * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
-  * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
-  * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
- * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
-  * [Britons](https://github.com/0abc/0abc-a23#britons)
-  * [Carthaginians](https://github.com/0abc/0abc-a23#carthaginians)
-  * [Gauls](https://github.com/0abc/0abc-a23#gauls)
-  * [Greeks](https://github.com/0abc/0abc-a23#greeks)
-  * [Iberians](https://github.com/0abc/0abc-a23#iberians)
-  * [Kushites](https://github.com/0abc/0abc-a23#kushites)
-  * [Macedonians](https://github.com/0abc/0abc-a23#macedonians)
-  * [Mauryas](https://github.com/0abc/0abc-a23#mauryas)
-  * [Persians](https://github.com/0abc/0abc-a23#persians)
-  * [Ptolemies](https://github.com/0abc/0abc-a23#ptolemies)
-  * [Romans](https://github.com/0abc/0abc-a23#romans)
-  * [Seleucids](https://github.com/0abc/0abc-a23#seleucids)
+  * [AI](https://github.com/0abc/0abc-a23#ai)
+  * [Structures](https://github.com/0abc/0abc-a23#structures)
+  * [Units](https://github.com/0abc/0abc-a23#units)
+    * [Population costs](https://github.com/0abc/0abc-a23#population-costs)
+    * [Damage types](https://github.com/0abc/0abc-a23#damage-types)
+    * [Bonus attacks](https://github.com/0abc/0abc-a23#bonus-attacks)
+    * [Recruitment costs](https://github.com/0abc/0abc-a23#recruitment-costs)
+  * [Upkeep and income](https://github.com/0abc/0abc-a23#upkeep-and-income)
+  * [Auras and technologies](https://github.com/0abc/0abc-a23#auras-and-technologies)
+    * [Structure auras](https://github.com/0abc/0abc-a23#structure-auras)
+    * [Unit auras](https://github.com/0abc/0abc-a23#unit-auras)
+    * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
+    * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
+    * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
+  * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
+    * [Britons](https://github.com/0abc/0abc-a23#britons)
+    * [Carthaginians](https://github.com/0abc/0abc-a23#carthaginians)
+    * [Gauls](https://github.com/0abc/0abc-a23#gauls)
+    * [Greeks](https://github.com/0abc/0abc-a23#greeks)
+    * [Iberians](https://github.com/0abc/0abc-a23#iberians)
+    * [Kushites](https://github.com/0abc/0abc-a23#kushites)
+    * [Macedonians](https://github.com/0abc/0abc-a23#macedonians)
+    * [Mauryas](https://github.com/0abc/0abc-a23#mauryas)
+    * [Persians](https://github.com/0abc/0abc-a23#persians)
+    * [Ptolemies](https://github.com/0abc/0abc-a23#ptolemies)
+    * [Romans](https://github.com/0abc/0abc-a23#romans)
+    * [Seleucids](https://github.com/0abc/0abc-a23#seleucids)
 
 
 
@@ -210,10 +210,10 @@ Food:
 * Fortress: −6.0 food per 30 seconds
 
 Silver:
-* Village centre: +1.0 silver per 7 seconds
-* Town centre: +2.0 silver per 7 seconds
-* City centre: +3.0 silver per 7 seconds
-* Metropolis centre: +4.0 silver per 7 seconds
+* Village centre: +5.0 silver per 30 seconds
+* Town centre: +10.0 silver per 30 seconds
+* City centre: +15.0 silver per 30 seconds
+* Metropolis centre: +20.0 silver per 30 seconds
 * Palace: +1.0 silver per second
 * Wonder: +1.0 silver per second
 * Library: −2.0 silver per 7 seconds
@@ -245,6 +245,8 @@ Wood:
 * {Wonder} **Monumental Awe** (100 m): enemy units −5% movement speed.
 * {Wonder} **Symbol of Greatness** (global): structures +10% territory influence radius per wonder owned.
 * {Wonder} **Glorious Expansion** (global): +10% maximum population limit per wonder owned (requires “Glorious Expansion” technology).
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Unit auras
 * {Camel} **Stench** (15 m): enemy cavalry −20% attack damage and capture strength.
