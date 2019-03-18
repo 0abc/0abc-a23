@@ -2,34 +2,35 @@
 **0abc**, a modification of “0 A.D. Empires Ascendant”, version 0.0.23 “Alpha XXIII: Ken Wood”
 
 ## Table of Contents
-* https://github.com/0abc/0abc-a23#instructions
-* https://github.com/0abc/0abc-a23#overview
-* https://github.com/0abc/0abc-a23#ai
-* https://github.com/0abc/0abc-a23#structures
-* https://github.com/0abc/0abc-a23#units
-* https://github.com/0abc/0abc-a23#population-costs
-* https://github.com/0abc/0abc-a23#damage-types
-* https://github.com/0abc/0abc-a23#bonus-attacks
-* https://github.com/0abc/0abc-a23#recruitment-costs
-* https://github.com/0abc/0abc-a23#upkeep-and-income
-* https://github.com/0abc/0abc-a23#auras-and-technologies
-* https://github.com/0abc/0abc-a23#unit-auras
-* https://github.com/0abc/0abc-a23#class-bonuses
-* https://github.com/0abc/0abc-a23#civilization-bonuses
-* https://github.com/0abc/0abc-a23#team-bonuses
-* https://github.com/0abc/0abc-a23#civilization-rosters
-* https://github.com/0abc/0abc-a23#britons
-* https://github.com/0abc/0abc-a23#carthaginians
-* https://github.com/0abc/0abc-a23#gauls
-* https://github.com/0abc/0abc-a23#greeks
-* https://github.com/0abc/0abc-a23#iberians
-* https://github.com/0abc/0abc-a23#kushites
-* https://github.com/0abc/0abc-a23#macedonians
-* https://github.com/0abc/0abc-a23#mauryas
-* https://github.com/0abc/0abc-a23#persians
-* https://github.com/0abc/0abc-a23#ptolemies
-* https://github.com/0abc/0abc-a23#romans
-* https://github.com/0abc/0abc-a23#seleucids
+* [Instructions](https://github.com/0abc/0abc-a23#instructions)
+* [Overview](https://github.com/0abc/0abc-a23#overview)
+ * [AI](https://github.com/0abc/0abc-a23#ai)
+ * [Structures](https://github.com/0abc/0abc-a23#structures)
+ * [Units](https://github.com/0abc/0abc-a23#units)
+  * [Population costs](https://github.com/0abc/0abc-a23#population-costs)
+  * [Damage types](https://github.com/0abc/0abc-a23#damage-types)
+  * [Bonus attacks](https://github.com/0abc/0abc-a23#bonus-attacks)
+  * [Recruitment costs](https://github.com/0abc/0abc-a23#recruitment-costs)
+ * [Upkeep and income](https://github.com/0abc/0abc-a23#upkeep-and-income)
+ * [Auras and technologies](https://github.com/0abc/0abc-a23#auras-and-technologies)
+  * [Structure auras](https://github.com/0abc/0abc-a23#structure-auras)
+  * [Unit auras](https://github.com/0abc/0abc-a23#unit-auras)
+  * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
+  * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
+  * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
+ * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
+  * [Britons](https://github.com/0abc/0abc-a23#britons)
+  * [Carthaginians](https://github.com/0abc/0abc-a23#carthaginians)
+  * [Gauls](https://github.com/0abc/0abc-a23#gauls)
+  * [Greeks](https://github.com/0abc/0abc-a23#greeks)
+  * [Iberians](https://github.com/0abc/0abc-a23#iberians)
+  * [Kushites](https://github.com/0abc/0abc-a23#kushites)
+  * [Macedonians](https://github.com/0abc/0abc-a23#macedonians)
+  * [Mauryas](https://github.com/0abc/0abc-a23#mauryas)
+  * [Persians](https://github.com/0abc/0abc-a23#persians)
+  * [Ptolemies](https://github.com/0abc/0abc-a23#ptolemies)
+  * [Romans](https://github.com/0abc/0abc-a23#romans)
+  * [Seleucids](https://github.com/0abc/0abc-a23#seleucids)
 
 
 
@@ -79,7 +80,7 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 ### Structures
 * economic structures can be constructed in neutral territory
 * dropsites are just that: dropsites; all economic technologies are moved to the market, which is now available in the village phase
-* town phase requires a market, city phase a temple
+* town phase requires a market and five houses, city phase a temple and ten houses
 * centres can be part of trade routes
 * walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
 * fortresses have a territory root, are purely defensive structures, have somewhat more health, but no longer train any units
@@ -298,7 +299,7 @@ Wood:
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Civilization rosters
+### Unit rosters
 #### Britons
 * Village phase:
   * Woman
