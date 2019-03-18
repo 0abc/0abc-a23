@@ -326,6 +326,7 @@ Wood:
   * Small Battering Ram
   * War Barge
 * City phase:
+  * Infantry Swordsman Champion
   * Biga Javelinist Champion
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
@@ -381,6 +382,8 @@ Wood:
   * Small Battering Ram
   * War Barge
 * City phase:
+  * Infantry Spearman Champion
+  * Infantry Swordsman Champion
   * Cavalry Spearman Champion
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
@@ -431,6 +434,7 @@ Wood:
   * War Barge
   * Fire Ship
 * City phase:
+  * Infantry Sabreman Champion
   * Cavalry Javelinist Champion
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
