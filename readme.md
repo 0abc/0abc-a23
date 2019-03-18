@@ -118,13 +118,13 @@ There are four damage types (crush, hack, pierce, thrust)
 * support:
   * woman (15 range): 100% crush
 * infantry:
-  * stone sling (45 range): 100% crush
-  * lead sling (75 range): 100% pierce
-  * longbow (66 range): 100% pierce
-  * composite bow (60 range): 100% pierce
-  * crossbow (45 range): 67% pierce, 33% thrust
-  * javelin (30 range): 100% pierce
-  * throwing axe (15 range): 33% crush, 67% hack
+  * lead sling (80+1 range): 100% pierce
+  * longbow (70+1 range): 100% pierce
+  * composite bow (60+1 range): 100% pierce
+  * crossbow (50+1 range): 67% pierce, 33% thrust
+  * stone sling (40+1 range): 100% crush
+  * javelin (30+1 range): 100% pierce
+  * throwing axe (20+1 range): 33% crush, 67% hack
   * mace (melee): 100% crush
   * axe (melee): 33% crush, 67% hack
   * sabre (melee): 100% hack
@@ -133,13 +133,14 @@ There are four damage types (crush, hack, pierce, thrust)
   * spear (melee): 100% thrust
   * pike (melee): 50% pierce, 50% thrust
 * camelry:
-  * composite bow (68 range): 100% pierce
-  * javelin (34 range): 100% pierce
+  * composite bow (60+3 range): 100% pierce
+  * javelin (30+3 range): 100% pierce
   * spear (melee): 100% thrust
 * cavalry:
-  * composite bow (64 range): 100% pierce
-  * crossbow (48 range): 67% pierce, 33% thrust
-  * javelin (32 range): 100% pierce
+  * longbow (70+2 range): 100% pierce
+  * composite bow (60+2 range): 100% pierce
+  * crossbow (50+2 range): 67% pierce, 33% thrust
+  * javelin (30+2 range): 100% pierce
   * mace (melee): 100% crush
   * axe (melee): 33% crush, 67% hack
   * sabre (melee): 100% hack
@@ -147,15 +148,16 @@ There are four damage types (crush, hack, pierce, thrust)
   * spear (melee): 100% thrust
   * lance (melee): 20% crush, 80% thrust
 * chariotry:
-  * composite bow (72 range): 100% pierce
-  * javelin (36 range): 100% pierce
+  * longbow (70+2 range): 100% pierce
+  * composite bow (60+2 range): 100% pierce
+  * javelin (30+2 range): 100% pierce
   * scythed (melee): 20% crush, 40% hack, 40% thrust
 * elephantry (melee): 100% crush
 * siege:
   * ram (melee): 100% crush
   * bolt shooter (15–90 range): 67% pierce, 33% thrust
   * stone thrower (30–90 range): 100% crush
-  * tower (10–60+10 range): 75% pierce, 25% crush
+  * tower (10–60+15 range): 75% pierce, 25% crush
 * fireship: 25% each
 * wargalleys: melee 100% crush, ranged 100% pierce
 * structures (ranged): 100% pierce
@@ -164,8 +166,10 @@ There are four damage types (crush, hack, pierce, thrust)
 
 #### Bonus attacks
 * infantry archers: 0.5× vs Elephantry
-* infantry crossbowman: –
+* infantry crossbowmen: –
 * infantry javelinists: –
+* infantry longbowmen: 0.5× vs Elephantry
+* infantry slingers: –
 * melee infantry: –
 * camel archers: 0.5× vs Elephantry
 * camel javelinists: –
@@ -175,7 +179,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * cavalry javelinists: –
 * melee cavalry: 0.75× vs Chariotry, 0.5× vs Elephantry
 * war elephants: –
-* bolt shooters: –
+* bolt shooters: 1.5× vs Elephantry
 * stone throwers: 2.0× vs Ships
 * battering rams: 2.0× vs Defensive
 * siege towers: 1.5× vs Towers
@@ -184,11 +188,12 @@ There are four damage types (crush, hack, pierce, thrust)
 
 #### Recruitment costs
 * Infantry: 30 food, 30 silver
-* Camelry: 75 food, 50 silver
-* Cavalry: 90 food, 60 silver
-* Bigae: 180 food, 120 silver
-* Quadrigae: 300 food, 180 silver
-* Elephantry: 300 food, 300 silver
+* Camelry: 70 food, 35 silver
+* Cavalry: 80 food, 40 silver
+* Bigae: 160 food, 90 silver
+* Quadrigae: 240 food, 120 silver
+* North African War Elephants: 270 food, 270 silver
+* Indian War Elephants: 330 food, 330 silver
 
 **NB**: champions cost +200% silver, mercenaries 0 other resources but +100% silver
 
