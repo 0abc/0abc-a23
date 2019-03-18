@@ -18,19 +18,19 @@
     * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
     * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
     * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
-  * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
-    * [Britons](https://github.com/0abc/0abc-a23#britons)
-    * [Carthaginians](https://github.com/0abc/0abc-a23#carthaginians)
-    * [Gauls](https://github.com/0abc/0abc-a23#gauls)
-    * [Greeks](https://github.com/0abc/0abc-a23#greeks)
-    * [Iberians](https://github.com/0abc/0abc-a23#iberians)
-    * [Kushites](https://github.com/0abc/0abc-a23#kushites)
-    * [Macedonians](https://github.com/0abc/0abc-a23#macedonians)
-    * [Mauryas](https://github.com/0abc/0abc-a23#mauryas)
-    * [Persians](https://github.com/0abc/0abc-a23#persians)
-    * [Ptolemies](https://github.com/0abc/0abc-a23#ptolemies)
-    * [Romans](https://github.com/0abc/0abc-a23#romans)
-    * [Seleucids](https://github.com/0abc/0abc-a23#seleucids)
+* [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
+  * [Britons](https://github.com/0abc/0abc-a23#britons)
+  * [Carthaginians](https://github.com/0abc/0abc-a23#carthaginians)
+  * [Gauls](https://github.com/0abc/0abc-a23#gauls)
+  * [Greeks](https://github.com/0abc/0abc-a23#greeks)
+  * [Iberians](https://github.com/0abc/0abc-a23#iberians)
+  * [Kushites](https://github.com/0abc/0abc-a23#kushites)
+  * [Macedonians](https://github.com/0abc/0abc-a23#macedonians)
+  * [Mauryas](https://github.com/0abc/0abc-a23#mauryas)
+  * [Persians](https://github.com/0abc/0abc-a23#persians)
+  * [Ptolemies](https://github.com/0abc/0abc-a23#ptolemies)
+  * [Romans](https://github.com/0abc/0abc-a23#romans)
+  * [Seleucids](https://github.com/0abc/0abc-a23#seleucids)
 
 
 
@@ -301,8 +301,9 @@ Wood:
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Unit rosters
-#### Britons
+
+## Unit rosters
+### Britons
 * Village phase:
   * Woman
   * Trader
@@ -324,7 +325,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Carthaginians
+
+### Carthaginians
 * Village phase:
   * Woman
   * Trader
@@ -356,7 +358,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Gauls
+
+### Gauls
 * Village phase:
   * Woman
   * Trader
@@ -377,7 +380,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Greeks
+
+### Greeks
 * Village phase:
   * Woman
   * Trader
@@ -403,7 +407,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Iberians
+
+### Iberians
 * Village phase:
   * Woman
   * Trader
@@ -425,7 +430,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Kushites
+
+### Kushites
 * Village phase:
   * Woman
   * Trader
@@ -453,7 +459,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Macedonians
+
+### Macedonians
 * Village phase:
   * Woman
   * Trader
@@ -483,7 +490,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Mauryas
+
+### Mauryas
 * Village phase:
   * Woman
   * Trader
@@ -509,7 +517,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Persians
+
+### Persians
 * Village phase:
   * Woman
   * Trader
@@ -538,7 +547,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Ptolemies
+
+### Ptolemies
 * Village phase:
   * Woman
   * Trader
@@ -570,7 +580,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Romans
+
+### Romans
 * Village phase:
   * Woman
   * Trader
@@ -596,7 +607,8 @@ Wood:
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Seleucids
+
+### Seleucids
 * Village phase:
   * Woman
   * Trader
