@@ -24,7 +24,7 @@ m.HQ.prototype.gameAnalysis = function(gameState)
   nobase.init(gameState);
   nobase.accessIndex = 0;
   this.baseManagers.push(nobase);   // baseManagers[0] will deal with unit/structure without base
-  let ccEnts = gameState.getOwnStructures().filter(API3.Filters.byClass("CivCentre"));
+  let ccEnts = gameState.getOwnStructures().filter(API3.Filters.byClass("Centre"));
   for (let cc of ccEnts.values())
     if (cc.foundationProgress() === undefined)
       this.createBase(gameState, cc);
@@ -40,9 +40,9 @@ m.HQ.prototype.gameAnalysis = function(gameState)
   this.canExpand = this.Config.difficulty != 0;
   // If no base yet, check if we can construct one. If not, dispatch our units to possible tasks/attacks
   this.canBuildUnits = true;
-  if (!gameState.getOwnStructures().filter(API3.Filters.byClass("CivCentre")).hasEntities())
+  if (!gameState.getOwnStructures().filter(API3.Filters.byClass("Centre")).hasEntities())
   {
-    let template = gameState.applyCiv("structures/{civ}/civil_centre");
+    let template = gameState.applyCiv("structures/{civ}/centre");
     if (!gameState.isTemplateAvailable(template) || !gameState.getTemplate(template).available(gameState))
     {
       if (this.Config.debug > 1)
@@ -142,7 +142,7 @@ m.HQ.prototype.regionAnalysis = function(gameState)
   let accessibility = gameState.ai.accessibility;
   let landIndex;
   let seaIndex;
-  let ccEnts = gameState.getOwnStructures().filter(API3.Filters.byClass("CivCentre"));
+  let ccEnts = gameState.getOwnStructures().filter(API3.Filters.byClass("Centre"));
   for (let cc of ccEnts.values())
   {
     let land = accessibility.getAccessValue(cc.position());
@@ -249,14 +249,14 @@ m.HQ.prototype.buildFirstBase = function(gameState)
 {
   if (gameState.ai.queues.civilCentre.hasQueuedUnits())
     return;
-  let templateName = gameState.applyCiv("structures/{civ}/civil_centre");
+  let templateName = gameState.applyCiv("structures/{civ}/centre");
   if (gameState.isTemplateDisabled(templateName))
     return;
   let template = gameState.getTemplate(templateName);
   if (!template)
     return;
   let total = gameState.getResources();
-  let goal = "civil_centre";
+  let goal = "centre";
   if (!total.canAfford(new API3.Resources(template.cost())))
   {
     let totalExpected = gameState.getResources();
@@ -307,7 +307,7 @@ m.HQ.prototype.buildFirstBase = function(gameState)
   {
     if (!ent.hasClass("Worker") && !(ent.hasClass("Support") && ent.hasClass("Elephant")))
       continue;
-    if (ent.hasClass("Cavalry"))
+    if (ent.hasClass("Mounted"))
       continue;
     let pos = ent.position();
     if (!pos)
@@ -349,7 +349,7 @@ m.HQ.prototype.buildFirstBase = function(gameState)
     gameState.ai.queues.dock.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/dock", { "sea": sea, "proximity": startingPoint[imax].pos }));
   }
   else
-    gameState.ai.queues.civilCentre.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/civil_centre", { "base": -1, "resource": "wood", "proximity": startingPoint[imax].pos }));
+    gameState.ai.queues.civilCentre.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/centre", { "base": -1, "resource": "wood", "proximity": startingPoint[imax].pos }));
 };
 
 /**
@@ -359,7 +359,7 @@ m.HQ.prototype.buildFirstBase = function(gameState)
  */
 m.HQ.prototype.dispatchUnits = function(gameState)
 {
-  let allycc = gameState.getExclusiveAllyEntities().filter(API3.Filters.byClass("CivCentre")).toEntityArray();
+  let allycc = gameState.getExclusiveAllyEntities().filter(API3.Filters.byClass("Centre")).toEntityArray();
   if (allycc.length)
   {
     if (this.Config.debug > 1)

@@ -31,8 +31,8 @@ m.HQ = function(Config)
   this.targetNumWorkers = this.Config.Economy.targetNumWorkers;
   this.supportRatio = this.Config.Economy.supportRatio;
 
-  this.fortStartTime = 180;  // sentry defense towers, will start at fortStartTime + towerLapseTime
-  this.towerStartTime = 0;  // stone defense towers, will start as soon as available
+  this.fortStartTime = 180;  // small towers, will start at fortStartTime + towerLapseTime
+  this.towerStartTime = 0;  // large towers, will start as soon as available
   this.towerLapseTime = this.Config.Military.towerLapseTime;
   this.fortressStartTime = 0;  // will start as soon as available
   this.fortressLapseTime = this.Config.Military.fortressLapseTime;
@@ -345,7 +345,7 @@ m.HQ.prototype.checkEvents = function(gameState, events)
         ent.setMetadata(PlayerID, "plan", -1);
       continue;
     }
-    if (ent.hasClass("CivCentre"))   // build a new base around it
+    if (ent.hasClass("Centre"))   // build a new base around it
     {
       let newbase;
       if (ent.foundationProgress() !== undefined)
@@ -932,7 +932,7 @@ m.HQ.prototype.pickMostNeededResources = function(gameState)
 };
 
 /**
- * Returns the best position to build a new Civil Centre
+ * Returns the best position to build a new centre
  * Whose primary function would be to reach new resources of type "resource".
  */
 m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, proximity, fromStrategic)
@@ -951,8 +951,8 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
   else if (template.get("Footprint/Circle"))
     halfSize = +template.get("Footprint/Circle/@radius");
 
-  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre"));
-  let dpEnts = gameState.getOwnDropsites().filter(API3.Filters.not(API3.Filters.byClassesOr(["CivCentre", "Elephant"])));
+  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre"));
+  let dpEnts = gameState.getOwnDropsites().filter(API3.Filters.not(API3.Filters.byClassesOr(["Centre", "Elephant"])));
   let ccList = [];
   for (let cc of ccEnts.values())
     ccList.push({ "ent": cc, "pos": cc.position(), "ally": gameState.isPlayerAlly(cc.owner()) });
@@ -1132,7 +1132,7 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
 };
 
 /**
- * Returns the best position to build a new Civil Centre
+ * Returns the best position to build a new centre
  * Whose primary function would be to assure territorial continuity with our allies
  */
 m.HQ.prototype.findStrategicCCLocation = function(gameState, template)
@@ -1142,7 +1142,7 @@ m.HQ.prototype.findStrategicCCLocation = function(gameState, template)
   // with the constraints that all CC have dist > 200 and at least one have dist < 400
   // This needs at least 2 CC. Otherwise, go back to economic CC.
 
-  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre"));
+  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre"));
   let ccList = [];
   let numAllyCC = 0;
   for (let cc of ccEnts.values())
@@ -1405,14 +1405,14 @@ m.HQ.prototype.findDefensiveLocation = function(gameState, template)
 
   let ownStructures = gameState.getOwnStructures().filter(API3.Filters.byClassesOr(["Fortress", "Tower"])).toEntityArray();
   let enemyStructures = gameState.getEnemyStructures().filter(API3.Filters.not(API3.Filters.byOwner(0))).
-    filter(API3.Filters.byClassesOr(["CivCentre", "Fortress", "Tower"]));
+    filter(API3.Filters.byClassesOr(["Centre", "Fortress", "Tower"]));
   if (!enemyStructures.hasEntities())  // we may be in cease fire mode, build defense against neutrals
   {
     enemyStructures = gameState.getNeutralStructures().filter(API3.Filters.not(API3.Filters.byOwner(0))).
-      filter(API3.Filters.byClassesOr(["CivCentre", "Fortress", "Tower"]));
+      filter(API3.Filters.byClassesOr(["Centre", "Fortress", "Tower"]));
     if (!enemyStructures.hasEntities() && !gameState.getAlliedVictory())
       enemyStructures = gameState.getAllyStructures().filter(API3.Filters.not(API3.Filters.byOwner(PlayerID))).
-        filter(API3.Filters.byClassesOr(["CivCentre", "Fortress", "Tower"]));
+        filter(API3.Filters.byClassesOr(["Centre", "Fortress", "Tower"]));
     if (!enemyStructures.hasEntities())
       return undefined;
   }
@@ -1494,7 +1494,7 @@ m.HQ.prototype.findDefensiveLocation = function(gameState, template)
         minDist = -1;
         break;
       }
-      if (str.hasClass("CivCentre") && dist + dista < minDist)
+      if (str.hasClass("Centre") && dist + dista < minDist)
         minDist = dist + dista;
     }
     if (minDist < 0)
@@ -1805,25 +1805,25 @@ m.HQ.prototype.buildNewBase = function(gameState, queues, resource)
 {
   if (this.numPotentialBases() > 0 && this.currentPhase == 1 && !gameState.isResearching(gameState.getPhaseName(2)))
     return false;
-  if (gameState.getOwnFoundations().filter(API3.Filters.byClass("CivCentre")).hasEntities() || queues.civilCentre.hasQueuedUnits())
+  if (gameState.getOwnFoundations().filter(API3.Filters.byClass("Centre")).hasEntities() || queues.civilCentre.hasQueuedUnits())
     return false;
 
   let template;
-  // We require at least one of this civ civCentre as they may allow specific units or techs
+  // We require at least one of this civ's centre as they may allow specific units or techs
   let hasOwnCC = false;
-  for (let ent of gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre")).values())
+  for (let ent of gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre")).values())
   {
-    if (ent.owner() != PlayerID || ent.templateName() != gameState.applyCiv("structures/{civ}/civil_centre"))
+    if (ent.owner() != PlayerID || ent.templateName() != gameState.applyCiv("structures/{civ}/centre"))
       continue;
     hasOwnCC = true;
     break;
   }
-  if (hasOwnCC && this.canBuild(gameState, "structures/{civ}/military_colony"))
-    template = "structures/{civ}/military_colony";
-  else if (this.canBuild(gameState, "structures/{civ}/civil_centre"))
-    template = "structures/{civ}/civil_centre";
-  else if (!hasOwnCC && this.canBuild(gameState, "structures/{civ}/military_colony"))
-    template = "structures/{civ}/military_colony";
+  if (hasOwnCC && this.canBuild(gameState, "structures/{civ}/colony"))
+    template = "structures/{civ}/colony";
+  else if (this.canBuild(gameState, "structures/{civ}/centre"))
+    template = "structures/{civ}/centre";
+  else if (!hasOwnCC && this.canBuild(gameState, "structures/{civ}/colony"))
+    template = "structures/{civ}/colony";
   else
     return false;
 
@@ -1882,7 +1882,7 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
   if ((!numTowers || gameState.ai.elapsedTime > (1 + 0.1*numTowers)*towerLapseTime + this.towerStartTime) &&
     numTowers < 2 * this.numActiveBases() + 3 + this.extraTowers &&
     numTowers < Math.floor(gameState.getPopulation() / 8) &&
-    gameState.getOwnFoundationsByClass("DefenseTower").length < 3)
+    gameState.getOwnFoundationsByClass("LargeTower").length < 3)
   {
     this.towerStartTime = gameState.ai.elapsedTime;
     if (numTowers > 2 * this.numActiveBases() + 3)
@@ -1907,7 +1907,7 @@ m.HQ.prototype.buildBlacksmith = function(gameState, queues)
 };
 
 /**
- * Deals with constructing military buildings (barracks, stables…)
+ * Deals with constructing military buildings (barracks, stable, etc)
  * They are mostly defined by Config.js. This is unreliable since changes could be done easily.
  */
 m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
@@ -1925,14 +1925,13 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
   let numRanges = gameState.getOwnEntitiesByClass("Range", true).length;
   numBarracks -= numRanges;
 
-  let stableTemplate = this.canBuild(gameState, "structures/{civ}/cavalry_stable") ? "structures/{civ}/cavalry_stable" :
-                       this.canBuild(gameState, "structures/{civ}/stable") ? "structures/{civ}/stable" : undefined;
-  let numStables = gameState.getOwnEntitiesByClass("CavalryStable", true).length;
+  let stableTemplate = this.canBuild(gameState, "structures/{civ}/stable") ? "structures/{civ}/stable" : undefined;
+  let numStables = gameState.getOwnEntitiesByClass("Stable", true).length;
 
   if (this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks1 ||
       this.phasing == 2 && gameState.getOwnStructures().filter(API3.Filters.byClass("Village")).length < 5)
   {
-    // first barracks/range and stables.
+    // first barracks/range and stable.
     if (numBarracks + numRanges == 0)
     {
       let template = barracksTemplate || rangeTemplate;
@@ -1951,7 +1950,7 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
       return;
     }
 
-    // Second range/barracks and stables
+    // Second range/barracks and stable
     if (numBarracks + numRanges == 1 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2)
     {
       let template = numBarracks == 0 ? (barracksTemplate || rangeTemplate) : (rangeTemplate || barracksTemplate);
@@ -1967,7 +1966,7 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
       return;
     }
 
-    // Then 3rd barracks/range/stables if needed
+    // Then third barracks/range/stable if needed
     if (numBarracks + numRanges + numStables == 2 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2 + 30)
     {
       let template = barracksTemplate || stableTemplate || rangeTemplate;
@@ -2029,7 +2028,7 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
  */
 m.HQ.prototype.findBestBaseForMilitary = function(gameState)
 {
-  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre")).toEntityArray();
+  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre")).toEntityArray();
   let bestBase;
   let enemyFound = false;
   let distMin = Math.min();
@@ -2060,7 +2059,7 @@ m.HQ.prototype.findBestBaseForMilitary = function(gameState)
 };
 
 /**
- * train with highest priority ranged infantry in the nearest civil centre from a given set of positions
+ * train with highest priority ranged infantry in the nearest centre from a given set of positions
  * and garrison them there for defense
  */
 m.HQ.prototype.trainEmergencyUnits = function(gameState, positions)

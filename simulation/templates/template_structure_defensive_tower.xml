@@ -8,8 +8,8 @@
     </Distance>
   </BuildRestrictions>
   <Identity>
-    <Classes datatype="tokens">Tower</Classes>
     <Tooltip>Garrison soldiers to fire additional arrows.</Tooltip>
+    <VisibleClasses datatype="tokens">Tower</VisibleClasses>
   </Identity>
   <Sound>
     <SoundGroups>

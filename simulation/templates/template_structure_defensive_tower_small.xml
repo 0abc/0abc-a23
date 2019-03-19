@@ -29,11 +29,10 @@
     <Max>1000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">GarrisonTower</Classes>
+    <Classes datatype="tokens">GarrisonTower SmallTower</Classes>
     <GenericName>Small Tower</GenericName>
     <Icon>structures/sentry_tower.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>

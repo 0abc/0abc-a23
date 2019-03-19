@@ -14,6 +14,7 @@
     <Max>2000</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Mounted</Classes>
     <GenericName>War Elephant Hero</GenericName>
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
   </Identity>

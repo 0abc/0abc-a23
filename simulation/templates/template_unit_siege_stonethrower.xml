@@ -41,7 +41,7 @@
   <Identity>
     <GenericName>Stone Thrower</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Ranged Catapult</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
   </Identity>
   <Pack>
     <Time>12000</Time>

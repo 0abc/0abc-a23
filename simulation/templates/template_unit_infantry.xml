@@ -36,7 +36,7 @@
       structures/{civ}/dock
       structures/{civ}/market
       structures/{civ}/barracks
-      structures/{civ}/cavalry_stable
+      structures/{civ}/stable
       structures/{civ}/workshop
       structures/{civ}/shipyard
 

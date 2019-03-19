@@ -33,7 +33,7 @@
     <Max op="mul">6.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic Human</Classes>
+    <Classes datatype="tokens">Human Organic Mounted</Classes>
     <GenericName>War Elephant</GenericName>
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Elephant Melee</VisibleClasses>

@@ -29,11 +29,10 @@
     <Max>1500</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">GarrisonTower</Classes>
+    <Classes datatype="tokens">GarrisonTower LargeTower</Classes>
     <GenericName>Large Tower</GenericName>
     <Icon>structures/defense_tower.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">DefenseTower</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

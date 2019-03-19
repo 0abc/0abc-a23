@@ -116,7 +116,7 @@ m.Worker.prototype.update = function(gameState, ent)
           }
           else if (!gameState.isPlayerAlly(territoryOwner))
           {
-            let distanceSquare = ent.hasClass("Cavalry") ? 90000 : 30000;
+            let distanceSquare = ent.hasClass("Mounted") ? 90000 : 30000;
             let targetAccess = m.getLandAccess(gameState, target);
             let foodDropsites = gameState.playerData.hasSharedDropsites ?
                                 gameState.getAnyDropsites("food") : gameState.getOwnDropsites("food");
@@ -748,7 +748,7 @@ m.Worker.prototype.startHunting = function(gameState, position)
   let nearestSupplyDist = Math.min();
   let nearestSupply;
 
-  let isCavalry = this.ent.hasClass("Cavalry");
+  let isMounted = this.ent.hasClass("Mounted");
   let isRanged = this.ent.hasClass("Ranged");
   let entPosition = position ? position : this.ent.position();
   let foodDropsites = gameState.playerData.hasSharedDropsites ?
@@ -794,8 +794,8 @@ m.Worker.prototype.startHunting = function(gameState, position)
       continue;
 
     let canFlee = !supply.hasClass("Domestic") && supply.templateName().indexOf("resource|") == -1;
-    // Only cavalry and range units should hunt fleeing animals
-    if (canFlee && !isCavalry && !isRanged)
+    // Only mounted and range units should hunt fleeing animals
+    if (canFlee && !isMounted && !isRanged)
       continue;
 
     let supplyAccess = m.getLandAccess(gameState, supply);
@@ -807,8 +807,8 @@ m.Worker.prototype.startHunting = function(gameState, position)
     if (dist > nearestSupplyDist)
       continue;
 
-    // Only cavalry should hunt faraway
-    if (!isCavalry && dist > 25000)
+    // Only mounted units should hunt faraway
+    if (!isMounted && dist > 25000)
       continue;
 
     // Avoid ennemy territory
@@ -819,10 +819,10 @@ m.Worker.prototype.startHunting = function(gameState, position)
     if (territoryOwner != 0 && territoryOwner != PlayerID && supply.owner() == territoryOwner)
       continue;
 
-    // Only cavalry should hunt far from dropsite (specially for non domestic animals which flee)
-    if (!isCavalry && canFlee && territoryOwner == 0)
+    // Only mounted units should hunt far from dropsite (specially for non domestic animals which flee)
+    if (!isMounted && canFlee && territoryOwner == 0)
       continue;
-    let distanceSquare = isCavalry ? 35000 : (canFlee ? 7000 : 12000);
+    let distanceSquare = isMounted ? 35000 : (canFlee ? 7000 : 12000);
     if (!hasFoodDropsiteWithinDistance(supply.position(), supplyAccess, distanceSquare))
       continue;
 

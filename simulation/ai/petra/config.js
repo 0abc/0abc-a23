@@ -51,20 +51,20 @@ m.Config = function(difficulty, behavior)
   this.buildings =
   {
 		"default": [],
-		"athen": [],
+		"athen": ["structures/{civ}/shipyard"],
 		"brit": ["structures/{civ}/hall", "structures/{civ}/crannog", "structures/{civ}/kennel", "structures/{civ}/rotarymill"],
-		"cart": ["structures/{civ}/palace", "structures/{civ}/harbour"],
+		"cart": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/harbour"],
 		"gaul": ["structures/{civ}/hall", "structures/{civ}/rotarymill"],
-		"gree": ["structures/{civ}/hall"],
+		"gree": ["structures/{civ}/hall", "structures/{civ}/shipyard"],
 		"iber": ["structures/{civ}/hall", "structures/{civ}/pillar"],
-		"kush": ["structures/{civ}/palace", "structures/{civ}/camel_camp"],
-		"mace": ["structures/{civ}/palace", "structures/{civ}/library", "structures/{civ}/theatre"],
-		"maur": ["structures/{civ}/palace", "structures/{civ}/pillar"],
-		"pers": ["structures/{civ}/palace", "structures/{civ}/palace_2", "structures/{civ}/camel_camp"],
-		"ptol": ["structures/{civ}/palace", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/theatre", "structures/{civ}/lighthouse"],
-		"rome": ["structures/{civ}/palace", "structures/{civ}/camp"],
-		"sele": ["structures/{civ}/palace", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/theatre"],
-		"spart": []
+		"kush": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camel_camp"],
+		"mace": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/theatre"],
+		"maur": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/pillar"],
+		"pers": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/palace_2", "structures/{civ}/camel_camp"],
+		"ptol": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre"],
+		"rome": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camp"],
+		"sele": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/theatre"],
+		"spart": ["structures/{civ}/shipyard"]
   };
 
   this.priorities =

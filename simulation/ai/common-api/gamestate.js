@@ -25,7 +25,7 @@ m.GameState.prototype.init = function(SharedScript, state, player)
   this.ceasefireTimeRemaining = SharedScript.ceasefireTimeRemaining;
 
   // get the list of possible phases for this civ:
-  // we assume all of them are researchable from the civil centre
+  // we assume all of them are researchable from the centre
   this.phases = [];
   let cctemplate = this.getTemplate(this.applyCiv("structures/{civ}/centre"));
   if (!cctemplate)

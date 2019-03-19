@@ -13,7 +13,7 @@
     <BuildTime>75</BuildTime>
   </Cost>
   <Identity>
-    <Classes datatype="tokens">Human Organic</Classes>
+    <Classes datatype="tokens">Human Organic Mounted</Classes>
     <GenericName>Chariot</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge

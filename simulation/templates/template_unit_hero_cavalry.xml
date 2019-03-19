@@ -5,6 +5,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
+    <Classes datatype="tokens">Mounted</Classes>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>

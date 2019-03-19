@@ -91,7 +91,7 @@ m.BaseManager.prototype.assignEntity = function(gameState, ent)
 
 m.BaseManager.prototype.setAnchor = function(gameState, anchorEntity)
 {
-  if (!anchorEntity.hasClass("CivCentre"))
+  if (!anchorEntity.hasClass("Centre"))
     API3.warn("Error: Petra base " + this.ID + " has been assigned " + ent.templateName() + " as anchor.");
   else
   {
@@ -267,7 +267,7 @@ m.BaseManager.prototype.findBestDropsiteLocation = function(gameState, resource)
 
   let obstructions = m.createObstructionMap(gameState, this.accessIndex, template);
 
-  let ccEnts = gameState.getOwnStructures().filter(API3.Filters.byClass("CivCentre")).toEntityArray();
+  let ccEnts = gameState.getOwnStructures().filter(API3.Filters.byClass("Centre")).toEntityArray();
   let dpEnts = gameState.getOwnStructures().filter(API3.Filters.byClassesOr(["Storehouse", "Dock"])).toEntityArray();
 
   let bestIdx;
@@ -446,7 +446,7 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
         let newDP = this.findBestDropsiteLocation(gameState, type);
         if (newDP.quality > 50 && gameState.ai.HQ.canBuild(gameState, "structures/{civ}/storehouse"))
           queues.dropsites.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/storehouse", { "base": this.ID, "type": type }, newDP.pos));
-        else if (!gameState.getOwnFoundations().filter(API3.Filters.byClass("CivCentre")).hasEntities() && !queues.civilCentre.hasQueuedUnits())
+        else if (!gameState.getOwnFoundations().filter(API3.Filters.byClass("Centre")).hasEntities() && !queues.civilCentre.hasQueuedUnits())
         {
           // No good dropsite, try to build a new base if no base already planned,
           // and if not possible, be less strict on dropsite quality.
@@ -651,7 +651,7 @@ m.BaseManager.prototype.reassignIdleWorkers = function(gameState, idleWorkers)
         }
       }
     }
-    else if (ent.hasClass("Cavalry"))
+    else if (ent.hasClass("Mounted"))
       ent.setMetadata(PlayerID, "subrole", "hunter");
     else if (ent.hasClass("FishingBoat"))
       ent.setMetadata(PlayerID, "subrole", "fisher");
@@ -782,7 +782,7 @@ m.BaseManager.prototype.assignToFoundations = function(gameState, noRepair)
       continue; // we do not build fields
 
     if (gameState.ai.HQ.isNearInvadingArmy(target.position()))
-      if (!target.hasClass("CivCentre") && !target.hasClass("StoneWall") &&
+      if (!target.hasClass("Centre") && !target.hasClass("StoneWall") &&
           (!target.hasClass("Wonder") || !gameState.getVictoryConditions().has("wonder")))
         continue;
 
@@ -876,16 +876,16 @@ m.BaseManager.prototype.assignToFoundations = function(gameState, noRepair)
 
   for (let target of damagedBuildings.values())
   {
-    // Don't repair if we're still under attack, unless it's a vital (civcentre or wall) building
+    // Don't repair if we're still under attack, unless it's a vital (centre or wall) building
     // that's being destroyed.
     if (gameState.ai.HQ.isNearInvadingArmy(target.position()))
     {
       if (target.healthLevel() > 0.5 ||
-          !target.hasClass("CivCentre") && !target.hasClass("StoneWall") &&
+          !target.hasClass("Centre") && !target.hasClass("StoneWall") &&
           (!target.hasClass("Wonder") || !gameState.getVictoryConditions().has("wonder")))
         continue;
     }
-    else if (noRepair && !target.hasClass("CivCentre"))
+    else if (noRepair && !target.hasClass("Centre"))
       continue;
 
     if (target.decaying())
@@ -1051,7 +1051,7 @@ m.BaseManager.prototype.update = function(gameState, queues, events)
     if(owner != 0 && !gameState.isPlayerAlly(owner))
     {
       // we're in enemy territory. If we're too close from the enemy, destroy us.
-      let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre"));
+      let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre"));
       for (let cc of ccEnts.values())
       {
         if (cc.owner() != owner)

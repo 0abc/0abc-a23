@@ -132,7 +132,7 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
 
   if (!this.position)
   {
-    if (template.hasClass("CivCentre"))
+    if (template.hasClass("Centre"))
     {
       let pos;
       if (this.metadata && this.metadata.resource)
@@ -155,7 +155,7 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
       }
       return false;
     }
-    else if (template.hasClass("DefenseTower") || template.hasClass("Fortress") || template.hasClass("ArmyCamp"))
+    else if (template.hasClass("LargeTower") || template.hasClass("Fortress") || template.hasClass("ArmyCamp"))
     {
       let pos = HQ.findDefensiveLocation(gameState, template);
       if (pos)
@@ -242,7 +242,7 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
           placement.addInfluence(x, z, 120/cellSize, -50);
         else if (template.hasClass("Military"))
           placement.addInfluence(x, z, 40/cellSize, -40);
-        else if (template.genericName() == "Rotary Mill" && ent.hasClass("Field"))
+        else if (template.hasClass("RotaryMill") && ent.hasClass("Field"))
           placement.addInfluence(x, z, 60/cellSize, 40);
       });
     }
@@ -415,7 +415,7 @@ m.ConstructionPlan.prototype.findDockPosition = function(gameState)
   // water is a measure of the water space around, and maxWater is the max value that can be returned by checkDockPlacement
   const maxRes = 10;
   const maxWater = 16;
-  let ccEnts = oversea ? gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre")) : null;
+  let ccEnts = oversea ? gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre")) : null;
   let docks = oversea ? gameState.getOwnStructures().filter(API3.Filters.byClass("Dock")) : null;
   // Normalisation factors (only guessed, no attempt to optimize them)
   let factor = proxyAccess ? 1 : oversea ? 0.2 : 40;
@@ -546,7 +546,7 @@ m.ConstructionPlan.prototype.buildOverseaDock = function(gameState, template)
 
   let passabilityMap = gameState.getPassabilityMap();
   let cellArea = passabilityMap.cellSize * passabilityMap.cellSize;
-  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre"));
+  let ccEnts = gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre"));
 
   let land = {};
   let found;
@@ -685,13 +685,13 @@ m.ConstructionPlan.prototype.checkDockPlacement = function(gameState, x, z, half
 {
   let sz = halfDepth * Math.sin(angle);
   let cz = halfDepth * Math.cos(angle);
-  // center back position
+  // centre back position
   let pos = gameState.ai.accessibility.gamePosToMapPos([x - sz, z - cz]);
   let j = pos[0] + pos[1]*gameState.ai.accessibility.width;
   let land = gameState.ai.accessibility.landPassMap[j];
   if (land < 2)
     return null;
-  // center front position
+  // centre front position
   pos = gameState.ai.accessibility.gamePosToMapPos([x + sz, z + cz]);
   j = pos[0] + pos[1]*gameState.ai.accessibility.width;
   if (gameState.ai.accessibility.landPassMap[j] > 1 || gameState.ai.accessibility.navalPassMap[j] < 2)

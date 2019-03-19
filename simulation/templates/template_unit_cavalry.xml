@@ -21,7 +21,7 @@
     <Square width="4" depth="6"/>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">Human Organic</Classes>
+    <Classes datatype="tokens">Human Organic Mounted</Classes>
     <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
       special/formations/wedge
