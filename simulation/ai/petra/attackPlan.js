@@ -120,7 +120,7 @@ m.AttackPlan = function(gameState, Config, uniqueID, type, data)
   if (type == "Rush")
   {
     priority = 250;
-    this.unitStat.Infantry = { "priority": 1, "minSize": 10, "targetSize": 20, "batchSize": 2, "classes": ["Infantry"],
+    this.unitStat.Infantry = { "priority": 1, "minSize": 10, "targetSize": 20, "batchSize": 3, "classes": ["Infantry"],
       "interests": [["strength", 1], ["costsResource", 0.5, "stone"], ["costsResource", 0.6, "metal"]] };
     this.unitStat.Mounted = { "priority": 1, "minSize": 2, "targetSize": 4, "batchSize": 2, "classes": ["Mounted"],
       "interests": [["strength", 1]] };
@@ -143,17 +143,17 @@ m.AttackPlan = function(gameState, Config, uniqueID, type, data)
       "interests": [["strength", 3]] };
     this.unitStat.MeleeInfantry     = { "priority": 0.7, "minSize": 5, "targetSize": 20, "batchSize": 5, "classes": ["Infantry", "Melee", "!Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.ChampRangedInfantry = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 3, "classes": ["Infantry", "Ranged", "Champion"],
+    this.unitStat.ChampRangedInfantry = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 4, "classes": ["Infantry", "Ranged", "Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.ChampMeleeInfantry  = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 3, "classes": ["Infantry", "Melee", "Champion"],
+    this.unitStat.ChampMeleeInfantry  = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 4, "classes": ["Infantry", "Melee", "Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.RangedMounted     = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 4, "classes": ["Mounted", "Ranged", "!Champion"],
+    this.unitStat.RangedMounted     = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 3, "classes": ["Mounted", "Ranged", "!Champion"],
       "interests": [["strength", 2]] };
-    this.unitStat.MeleeMounted      = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 4, "classes": ["Mounted", "Melee", "!Champion"],
+    this.unitStat.MeleeMounted      = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 3, "classes": ["Mounted", "Melee", "!Champion"],
       "interests": [["strength", 2]] };
-    this.unitStat.ChampRangedMounted  = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 3, "classes": ["Mounted", "Ranged", "Champion"],
+    this.unitStat.ChampRangedMounted  = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 2, "classes": ["Mounted", "Ranged", "Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.ChampMeleeMounted   = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 3, "classes": ["Mounted", "Melee", "Champion"],
+    this.unitStat.ChampMeleeMounted   = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 2, "classes": ["Mounted", "Melee", "Champion"],
       "interests": [["strength", 2]] };
     this.unitStat.Hero                = { "priority": 1, "minSize": 0, "targetSize":  1, "batchSize": 1, "classes": ["Hero"],
       "interests": [["strength", 2]] };
