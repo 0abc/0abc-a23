@@ -278,16 +278,20 @@ Wood:
 
 #### Civilization bonuses
 *All bonuses and penalties from the default distribution have been removed.*
+* **Briton Architecture** (Britons): structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; small towers 0 stone cost; temples 0 stone cost, +200% wood cost.
 * **Briton Chariots** (Britons): chariots −15% training time.
-* **Celtic Architecture** (Britons, Gauls): all structures −20% build time, −10% health; temples −50% stone cost, +100% wood cost.
+* **Druidism** (Britons, Gauls): healers +2 armour levels.
 * **Gallic Cavalry** (Gauls): melee cavalry −15% training time.
-* **Greek Architecture** (Greeks, Macedonians, Seleucids): temples +25% health.
+* **Gauls Architecture** (Gauls): structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; fortresses −50% stone cost, +50% wood cost; temples 0 stone cost, +200% wood cost.
+* **Greek Architecture** (Greeks): temples +25% health.
 * **Greek Galleys** (Greeks): warships +5% movement speed.
-* **Egyptian Architecture** (Kushites, Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+* **Egyptian Architecture** (Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
 * **Egyptian Medicine** (Ptolemies): healers −20% healing time.
-* **Indian Architecture** (Mauryas): city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
+* **Indian Architecture** (Mauryas): centres 0 stone cost, +100% wood cost; city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Indian Elephants** (Mauryas): elephants −15% training time.
 * **Iberian Architecture** (Iberians): large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
+* **Kushite Architecture** (Kushites): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+* **Macedonian Architecture** (Macedonians): temples +25% health.
 * **Macedonian Engineers** (Macedonians): siege engines −15% construction time.
 * **Near Eastern Archers** (Persians, Seleucids): archers +20% ranged attack range.
 * **Persian Architecture** (Persians): economic structures +20% health.
@@ -297,6 +301,7 @@ Wood:
 * **Punic Merchants** (Carthaginians): traders −15% training time.
 * **Roman Architecture** (Romans): military structures −10% build time; city walls +10% health.
 * **Roman Engineers** (Romans): stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
+* **Syrian Architecture** (Seleucids): temples +25% health.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

@@ -1,7 +1,11 @@
 BRITONS
 
 • Structures −20% build time, −10% health; 
-temples −50% stone cost, +100% wood cost.
+centres 0 stone cost, +100% wood cost; 
+small tower 0 stone cost; 
+temples 0 stone cost, +200% wood cost.
+
+• Healers +2 armour levels.
 
 • Chariots −15% training time.
 

@@ -1,0 +1,10 @@
+{
+  "affects": ["Structure"],
+  "autoResearch": true,
+  "genericName": "Syrian Architecture",
+  "modifications": [
+    {"value": "Health/Max", "multiply": 1.25,  "affects": "Temple"}
+  ],
+  "requirements": {"civ": "sele"},
+  "tooltip": "Seleucid temples +25% health."
+}

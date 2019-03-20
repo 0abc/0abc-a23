@@ -45,7 +45,8 @@
     <BuildTime>500</BuildTime>
     <PopulationBonus>10</PopulationBonus>
     <Resources>
-      <wood>600</wood>
+      <stone>300</stone>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -63,7 +64,8 @@
   </Identity>
   <Loot>
     <silver>60</silver>
-    <wood>120</wood>
+    <stone>60</stone>
+    <wood>60</wood>
     <xp>250</xp>
   </Loot>
   <Market>

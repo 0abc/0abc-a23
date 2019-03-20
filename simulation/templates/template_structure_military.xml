@@ -27,7 +27,7 @@
   </Identity>
   <ResourceTrickle>
     <Rates>
-      <food>-4.0</food>
+      <food>-5.0</food>
       <wood>-1.0</wood>
     </Rates>
   </ResourceTrickle>

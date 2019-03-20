@@ -27,7 +27,7 @@
       <MinRange>0</MinRange>
       <Pierce>0</Pierce>
       <PrepareTime>750</PrepareTime>
-      <ProjectileSpeed>75</ProjectileSpeed>
+      <ProjectileSpeed>100</ProjectileSpeed>
       <RangeOverlay>
         <LineTexture>outline_border.png</LineTexture>
         <LineTextureMask>outline_border_mask.png</LineTextureMask>

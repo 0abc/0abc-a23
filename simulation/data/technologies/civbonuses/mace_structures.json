@@ -5,10 +5,6 @@
   "modifications": [
     {"value": "Health/Max", "multiply": 1.25,  "affects": "Temple"}
   ],
-  "requirements": {"any": [
-    {"civ": "gree"},
-    {"civ": "mace"},
-    {"civ": "sele"}
-  ]},
-  "tooltip": "Greek, Macedonian, and Seleucid temples +25% health."
+  "requirements": {"civ": "mace"},
+  "tooltip": "Macedonian temples +25% health."
 }

@@ -1,0 +1,10 @@
+{
+  "affects": ["Structure"],
+  "autoResearch": true,
+  "genericName": "Greek Architecture",
+  "modifications": [
+    {"value": "Health/Max", "multiply": 1.25,  "affects": "Temple"}
+  ],
+  "requirements": {"civ": "gree"},
+  "tooltip": "Greek temples +25% health."
+}

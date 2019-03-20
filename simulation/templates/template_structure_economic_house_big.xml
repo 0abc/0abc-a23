@@ -7,7 +7,7 @@
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>45</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -17,6 +17,6 @@
     <Max>1000</Max>
   </Health>
   <Loot>
-    <wood>40</wood>
+    <wood>30</wood>
   </Loot>
 </Entity>

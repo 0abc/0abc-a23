@@ -3,12 +3,12 @@
   "autoResearch": true,
   "genericName": "Punic Architecture",
   "modifications": [
-    {"value": "Cost/BuildTime",       "multiply": 1.1,  "affects": "Fortress"    },
-    {"value": "Cost/BuildTime",       "multiply": 1.2,  "affects": "StoneWall"   },
-    {"value": "Cost/Resources/stone", "multiply": 1.1,  "affects": "Fortress"    },
-    {"value": "Cost/Resources/stone", "multiply": 1.2,  "affects": "StoneWall"   },
     {"value": "Cost/Resources/wood",  "multiply": 0.5,  "affects": "BarterMarket"},
+    {"value": "Cost/BuildTime",       "multiply": 1.1,  "affects": "Fortress"    },
+    {"value": "Cost/Resources/stone", "multiply": 1.1,  "affects": "Fortress"    },
     {"value": "Health/Max",           "multiply": 1.2,  "affects": "Fortress"    },
+    {"value": "Cost/BuildTime",       "multiply": 1.2,  "affects": "StoneWall"   },
+    {"value": "Cost/Resources/stone", "multiply": 1.2,  "affects": "StoneWall"   },
     {"value": "Health/Max",           "multiply": 1.3,  "affects": "StoneWall"   }
   ],
   "requirements": {"civ": "cart"},

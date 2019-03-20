@@ -37,7 +37,7 @@ m.Config = function(difficulty, behavior)
   };
 
   // Note: attack settings are set directly in attack_plan.js
-  // defense
+  // defence
   this.Defense =
   {
     "defenseRatio": { "ally": 1.4, "neutral": 1.8, "own": 2 },  // ratio of defenders/attackers.

@@ -71,6 +71,9 @@
   <StatusBars>
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
+  <TrainingRestrictions>
+    <Category>Elephant</Category>
+  </TrainingRestrictions>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
     <Run>
