@@ -13,9 +13,6 @@
       <ProjectileSpeed op="mul">1.2</ProjectileSpeed>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">45</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Lead Slinger</GenericName>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>

@@ -14,9 +14,6 @@
       <ProjectileSpeed op="mul">0.4</ProjectileSpeed>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">10</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Axe Thrower</GenericName>
     <VisibleClasses datatype="tokens">AxeThrower</VisibleClasses>

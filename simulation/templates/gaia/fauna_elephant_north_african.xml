@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna_melee_elephant">
+  <Attack>
+    <Melee>
+      <Crush op="mul">0.9</Crush>
+    </Melee>
+  </Attack>
   <Footprint>
     <Height>3.0</Height>
     <Square width="3.5" depth="7.0"/>

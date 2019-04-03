@@ -13,9 +13,6 @@
       <ProjectileSpeed op="mul">0.6</ProjectileSpeed>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">40</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Stone Slinger</GenericName>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>

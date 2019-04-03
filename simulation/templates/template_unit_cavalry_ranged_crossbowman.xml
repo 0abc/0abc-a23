@@ -8,9 +8,6 @@
       <Thrust>3</Thrust>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">20</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Cavalry Crossbowman</GenericName>
     <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>

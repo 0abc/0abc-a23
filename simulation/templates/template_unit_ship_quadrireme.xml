@@ -53,7 +53,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Τετρήρης</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Warship Galley</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Rates>

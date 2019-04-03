@@ -38,7 +38,7 @@
 * Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-a23.git`).
 * Place it in your `/0ad/mods/` folder:
   * GNU/Linux (e.g. Fedora) typically: `~/.local/share/0ad/mods/`
-  * Macintosh/Apple OS X typically: `~/Library/Application\Support/0ad/mods/`
+  * Apple OS X typically: `~/Library/Application\Support/0ad/mods/`
   * Microsoft Windows typically: `~\Documents\My Games\0ad\mods\`
 * Launch 0 A.D., click “Settings” and “Mod Selection”
 * Select `0abc`, click “Enable” and “Save Configuration”

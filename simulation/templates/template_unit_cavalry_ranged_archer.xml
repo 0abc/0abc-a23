@@ -12,9 +12,6 @@
       <Pierce>7</Pierce>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">30</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Cavalry Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>

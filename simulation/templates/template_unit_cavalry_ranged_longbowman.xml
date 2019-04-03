@@ -7,9 +7,6 @@
       <ProjectileSpeed op="mul">0.9</ProjectileSpeed>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">25</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Cavalry Longbowman</GenericName>
     <VisibleClasses datatype="tokens">Longbowman</VisibleClasses>

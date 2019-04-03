@@ -40,7 +40,7 @@
     <GenericName>Warbarge</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Warship Barge</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

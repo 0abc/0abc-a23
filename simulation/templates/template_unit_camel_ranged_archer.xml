@@ -18,9 +18,6 @@
       <Pierce>6</Pierce>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">30</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Camel Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>

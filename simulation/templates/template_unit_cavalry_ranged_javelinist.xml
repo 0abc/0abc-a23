@@ -7,9 +7,6 @@
       <ProjectileSpeed op="mul">0.8</ProjectileSpeed>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime op="add">15</BuildTime>
-  </Cost>
   <Identity>
     <GenericName>Cavalry Javelinist</GenericName>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
