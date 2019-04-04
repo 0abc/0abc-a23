@@ -21,5 +21,5 @@
     {"value": "Cost/Resources/wood",          "replace":  0                                  },
     {"value": "Health/Max",                   "multiply": 1.1                                }
   ],
-  "tooltip": "Mercenary units have +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, +15% melee and ranged attack damage."
+  "tooltip": "Mercenaries have +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, +15% melee and ranged attack damage."
 }

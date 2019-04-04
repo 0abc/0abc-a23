@@ -2,9 +2,10 @@
 <Entity parent="template_unit_support">
   <Attack disable=""/>
   <Cost>
+    <BuildTime>60</BuildTime>
     <Resources>
       <food>30</food>
-      <silver>50</silver>
+      <silver>60</silver>
     </Resources>
   </Cost>
   <Footprint>

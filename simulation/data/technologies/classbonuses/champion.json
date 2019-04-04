@@ -22,5 +22,5 @@
     {"value": "Health/Max",                   "multiply": 1.5                                },
     {"value": "Loot/xp",                      "multiply": 3.0                                }
   ],
-  "tooltip": "Champion units have +200% silver cost, +100% training time, +50% health, +2 armour levels, +100% capture attack strength, +100% melee and ranged attack damage."
+  "tooltip": "Champions have +200% silver cost, +100% training time, +50% health, +2 armour levels, +100% capture attack strength, +100% melee and ranged attack damage."
 }

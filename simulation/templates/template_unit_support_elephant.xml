@@ -12,6 +12,7 @@
     <Rate>2.0</Rate>
   </Builder>
   <Cost>
+    <BuildTime>45</BuildTime>
     <Population>3</Population>
     <Resources>
       <food>150</food>

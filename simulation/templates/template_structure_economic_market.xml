@@ -36,6 +36,9 @@
     <TradeType>land</TradeType>
   </Market>
   <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/support_slave
+    </Entities>
     <Technologies datatype="tokens">
       gather_capacity_1
       gather_capacity_2
