@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_kennel">
-  <Footprint>
-    <Height>5.0</Height>
-    <Square width="8.0" depth="7.0"/>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>brit</Civ>
     <SpecificName>Cunattegia</SpecificName>
   </Identity>
-  <Obstruction>
-    <Static width="7.5" depth="6.75"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/britons/kennel.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

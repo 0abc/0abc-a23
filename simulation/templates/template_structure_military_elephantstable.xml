@@ -10,12 +10,17 @@
       <wood>300</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>8</Height>
+    <Square width="31" depth="29"/>
+  </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">Elephant</List>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Elephant Stable</GenericName>
@@ -28,6 +33,9 @@
     <food>20</food>
     <wood>60</wood>
   </Loot>
+  <Obstruction>
+    <Static width="29" depth="27"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/support_elephant
@@ -42,4 +50,7 @@
       <select>interface/select/building/sel_elephant_stables.xml</select>
     </SoundGroups>
   </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>

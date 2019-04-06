@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_range">
-  <Footprint>
-    <Height>12.0</Height>
-    <Square width="28.0" depth="26.0"/>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>kush</Civ>
     <SpecificName>Ỉḥ Abu</SpecificName>
   </Identity>
-  <Obstruction>
-    <Static width="24.0" depth="22.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/kushites/range.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

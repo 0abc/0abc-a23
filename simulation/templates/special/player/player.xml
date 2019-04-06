@@ -24,7 +24,6 @@
       <Hall>0</Hall>
       <Harbour>1</Harbour>
       <Hero>1</Hero>
-      <Kennel>10</Kennel>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
       <NavalTrader>20</NavalTrader>
@@ -33,7 +32,7 @@
       <Tachara>1</Tachara>
       <Theatre>1</Theatre>
       <Tower>20</Tower>
-      <WarDog>0</WarDog>
+      <WarDog>30</WarDog>
       <Wonder>1</Wonder>
       <Workshop>0</Workshop>
     </Limits>
@@ -53,9 +52,6 @@
       <Tower>
         <Centre>5</Centre>
       </Tower>
-      <WarDog>
-        <Kennel>5</Kennel>
-      </WarDog>
       <Workshop>
         <Centre>1</Centre>
       </Workshop>

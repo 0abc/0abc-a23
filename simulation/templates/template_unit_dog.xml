@@ -26,7 +26,7 @@
     <Max op="mul">0.3</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic Animal</Classes>
+    <Classes datatype="tokens">Animal Organic Mounted</Classes>
     <GenericName>War Dog</GenericName>
     <Tooltip>Can only attack organic units.</Tooltip>
     <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
@@ -58,7 +58,7 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <HeightOffset>6.5</HeightOffset>
+    <HeightOffset>5</HeightOffset>
   </StatusBars>
   <TrainingRestrictions>
     <Category>WarDog</Category>

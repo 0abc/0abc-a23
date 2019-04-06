@@ -40,6 +40,7 @@
   </GarrisonHolder>
   <Health>
     <Max>6000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">GarrisonFortress</Classes>
@@ -73,4 +74,7 @@
     <Root>true</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>

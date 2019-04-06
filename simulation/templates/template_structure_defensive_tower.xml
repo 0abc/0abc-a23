@@ -7,6 +7,9 @@
       <MinDistance>60</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Tooltip>Garrison soldiers to fire additional arrows.</Tooltip>
     <VisibleClasses datatype="tokens">Tower</VisibleClasses>
@@ -17,4 +20,7 @@
       <select>interface/select/building/sel_tower.xml</select>
     </SoundGroups>
   </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
 </Entity>

@@ -10,11 +10,16 @@
       <wood>300</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>10</Height>
+    <Square width="25" depth="25"/>
+  </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Practice Range</GenericName>
@@ -27,6 +32,9 @@
     <food>20</food>
     <wood>60</wood>
   </Loot>
+  <Obstruction>
+    <Static width="23" depth="23"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_javelinist
@@ -43,5 +51,8 @@
     <SoundGroups>
       <constructed>interface/complete/building/complete_range.xml</constructed>
     </SoundGroups>
-  </Sound>>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
 </Entity>

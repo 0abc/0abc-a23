@@ -11,12 +11,17 @@
       <wood>100</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>8</Height>
+    <Square width="29" depth="29"/>
+  </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">Camel</List>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Camel Camp</GenericName>
@@ -29,6 +34,9 @@
     <food>20</food>
     <wood>20</wood>
   </Loot>
+  <Obstruction>
+    <Static width="27" depth="27"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/camel_archer
@@ -43,4 +51,7 @@
     </Entities>
   </ProductionQueue>
   <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
+  </VisualActor>
 </Entity>

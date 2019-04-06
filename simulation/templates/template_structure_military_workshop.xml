@@ -10,24 +10,32 @@
       <wood>300</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>12</Height>
+    <Square width="30" depth="30"/>
+  </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
     <List datatype="tokens">Siege</List>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Siege Workshop</GenericName>
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Construct siege weapons. Research siege technologies.</Tooltip>
+    <Tooltip>Construct siege engines.</Tooltip>
     <VisibleClasses datatype="tokens">Workshop</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
     <wood>60</wood>
   </Loot>
+  <Obstruction>
+    <Static width="28" depth="28"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/siege_ram
@@ -46,4 +54,7 @@
   <TerritoryInfluence>
     <Radius>30</Radius>
   </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
 </Entity>

@@ -12,11 +12,16 @@
       <wood>300</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>8</Height>
+    <Square width="26" depth="30"/>
+  </Footprint>
   <GarrisonHolder>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">Naval</Classes>
@@ -30,6 +35,9 @@
     <food>20</food>
     <wood>60</wood>
   </Loot>
+  <Obstruction>
+    <Static width="22" depth="26"/>
+  </Obstruction>
   <Position>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>
@@ -60,4 +68,7 @@
   </Sound>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+  </VisualActor>
 </Entity>

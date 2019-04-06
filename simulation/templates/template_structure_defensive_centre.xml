@@ -107,4 +107,7 @@
     <Root>true</Root>
     <Weight>10000</Weight>
   </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>

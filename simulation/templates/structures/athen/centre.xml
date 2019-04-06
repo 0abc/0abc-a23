@@ -21,6 +21,5 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/civil_centre.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

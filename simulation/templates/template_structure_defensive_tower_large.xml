@@ -22,6 +22,10 @@
       <wood>150</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>18</Height>
+    <Square width="9" depth="9"/>
+  </Footprint>
   <GarrisonHolder>
     <Max>5</Max>
   </GarrisonHolder>
@@ -39,11 +43,17 @@
     <stone>20</stone>
     <wood>30</wood>
   </Loot>
+  <Obstruction>
+    <Static width="7" depth="7"/>
+  </Obstruction>
   <ResourceTrickle>
     <Rates>
       <food>-2.0</food>
     </Rates>
   </ResourceTrickle>
+  <StatusBars>
+    <HeightOffset>21</HeightOffset>
+  </StatusBars>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>32</Radius>

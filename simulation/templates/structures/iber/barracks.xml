@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-  <Footprint>
-    <Height>12.0</Height>
-    <Square width="19.0" depth="19.0"/>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Kaserna</SpecificName>
   </Identity>
-  <Obstruction>
-    <Static width="17.0" depth="17.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/iberians/barracks.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

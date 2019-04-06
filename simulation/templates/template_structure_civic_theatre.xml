@@ -14,11 +14,16 @@
       <wood>300</wood>
     </Resources>
   </Cost>
+  <Footprint replace="">
+    <Circle radius="25"/>
+    <Height>15</Height>
+  </Footprint>
   <GarrisonHolder>
     <Max>40</Max>
   </GarrisonHolder>
   <Health>
     <Max>4000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Theatre</GenericName>
@@ -31,6 +36,9 @@
     <stone>180</stone>
     <wood>60</wood>
   </Loot>
+  <Obstruction>
+    <Static width="40" depth="46"/>
+  </Obstruction>
   <ProductionQueue disable=""/>
   <Sound>
     <SoundGroups>
@@ -38,6 +46,9 @@
       <select>interface/select/building/sel_greek_theater.xml</select>
     </SoundGroups>
   </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
+  </VisualActor>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>100</Radius>

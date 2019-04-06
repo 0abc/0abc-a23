@@ -17,12 +17,17 @@
       <wood>50</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>5</Height>
+    <Square width="8" depth="7"/>
+  </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">-Support+!Elephant -Infantry</List>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Kennel</GenericName>
@@ -35,6 +40,9 @@
     <food>10</food>
     <wood>10</wood>
   </Loot>
+  <Obstruction>
+    <Static width="6" depth="5"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/war_dog
@@ -56,4 +64,7 @@
   <Vision>
     <Range>10</Range>
   </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
 </Entity>
