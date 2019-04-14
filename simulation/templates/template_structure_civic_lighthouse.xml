@@ -23,7 +23,7 @@
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range.</Tooltip>
+    <Tooltip>Very large vision range.</Tooltip>
     <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
   </Identity>
   <Loot>
@@ -48,7 +48,6 @@
   </Sound>
   <TerritoryDecay disable=""/>
   <Vision>
-    <Range>200</Range>
-    <RevealShore>true</RevealShore>
+    <Range>300</Range>
   </Vision>
 </Entity>
