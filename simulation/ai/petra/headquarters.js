@@ -1923,7 +1923,6 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 
   let rangeTemplate = this.canBuild(gameState, "structures/{civ}/range") ? "structures/{civ}/range" : undefined;
   let numRanges = gameState.getOwnEntitiesByClass("Range", true).length;
-  numBarracks -= numRanges;
 
   let stableTemplate = this.canBuild(gameState, "structures/{civ}/stable") ? "structures/{civ}/stable" : undefined;
   let numStables = gameState.getOwnEntitiesByClass("Stable", true).length;
