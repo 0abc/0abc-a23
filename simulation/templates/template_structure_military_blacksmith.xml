@@ -4,7 +4,7 @@
     <CapturePoints>500</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
       <metal>100</metal>
       <wood>200</wood>

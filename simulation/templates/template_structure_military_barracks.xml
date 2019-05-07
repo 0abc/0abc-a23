@@ -4,7 +4,7 @@
     <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>180</BuildTime>
     <Resources>
       <food>100</food>
       <wood>300</wood>

@@ -4,7 +4,7 @@
     <Category>ChariotStable</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>210</BuildTime>
     <Resources>
       <food>100</food>
       <wood>300</wood>

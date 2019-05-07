@@ -4,7 +4,7 @@
     <Category>Hall</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>100</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
       <food>50</food>
       <metal>50</metal>

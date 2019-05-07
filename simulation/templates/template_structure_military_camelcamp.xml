@@ -5,7 +5,7 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>100</BuildTime>
+    <BuildTime>90</BuildTime>
     <Resources>
       <food>100</food>
       <wood>100</wood>

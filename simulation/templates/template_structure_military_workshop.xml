@@ -4,7 +4,7 @@
     <Category>Workshop</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>180</BuildTime>
     <Resources>
       <food>100</food>
       <wood>300</wood>

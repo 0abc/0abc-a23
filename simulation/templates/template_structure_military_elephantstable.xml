@@ -4,7 +4,7 @@
     <Category>ElephantStable</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>250</BuildTime>
+    <BuildTime>240</BuildTime>
     <Resources>
       <food>100</food>
       <wood>300</wood>
