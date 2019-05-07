@@ -8,8 +8,9 @@
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <food>100</food>
-      <wood>300</wood>
+      <metal>100</metal>
+      <stone>100</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -20,7 +21,7 @@
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1800</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -32,8 +33,9 @@
     <VisibleClasses datatype="tokens">Shipyard</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <wood>60</wood>
+    <metal>20</metal>
+    <stone>20</stone>
+    <wood>40</wood>
   </Loot>
   <Obstruction>
     <Static width="22" depth="26"/>
