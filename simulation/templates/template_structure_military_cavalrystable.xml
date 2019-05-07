@@ -80,6 +80,12 @@
       nisean_horses
     </Technologies>
   </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_cavalry_stables.xml</constructed>
+      <select>interface/select/building/sel_cavalry_stables.xml</select>
+    </SoundGroups>
+  </Sound>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
