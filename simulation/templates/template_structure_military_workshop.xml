@@ -7,7 +7,8 @@
     <BuildTime>180</BuildTime>
     <Resources>
       <food>100</food>
-      <wood>300</wood>
+      <metal>100</metal>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -19,7 +20,7 @@
     <List datatype="tokens">Siege</List>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1800</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -31,7 +32,8 @@
   </Identity>
   <Loot>
     <food>20</food>
-    <wood>60</wood>
+    <metal>20</metal>
+    <wood>40</wood>
   </Loot>
   <Obstruction>
     <Static width="28" depth="28"/>
