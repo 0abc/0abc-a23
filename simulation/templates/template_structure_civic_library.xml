@@ -32,9 +32,8 @@
     <wood>30</wood>
   </Loot>
   <ResourceTrickle>
-    <Interval>7000</Interval>
     <Rates>
-      <silver>-2.0</silver>
+      <silver>-0.5</silver>
     </Rates>
   </ResourceTrickle>
   <Sound>
