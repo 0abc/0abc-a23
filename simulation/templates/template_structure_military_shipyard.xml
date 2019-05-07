@@ -25,7 +25,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Naval</Classes>
+    <Classes datatype="tokens">-ConquestCritical Naval</Classes>
     <GenericName>Shipyard</GenericName>
     <Icon>structures/uber_dock.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
