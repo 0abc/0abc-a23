@@ -50,6 +50,13 @@
       tower_decay
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.020</food>
+      <silver>-0.005</silver>
+      <wood>-0.005</wood>
+    </Rates>
+  </ResourceTrickle>
   <StatusBars>
     <HeightOffset>15</HeightOffset>
   </StatusBars>

@@ -48,7 +48,9 @@
   </Obstruction>
   <ResourceTrickle>
     <Rates>
-      <food>-2.0</food>
+      <food>-0.060</food>
+      <silver>-0.015</silver>
+      <wood>-0.015</wood>
     </Rates>
   </ResourceTrickle>
   <StatusBars>

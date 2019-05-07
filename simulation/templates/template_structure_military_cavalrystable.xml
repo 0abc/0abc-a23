@@ -80,6 +80,12 @@
       nisean_horses
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.20</food>
+      <wood>-0.05</wood>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_cavalry_stables.xml</constructed>

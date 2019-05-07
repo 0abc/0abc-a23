@@ -71,6 +71,12 @@
       marching
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.20</food>
+      <wood>-0.05</wood>
+    </Rates>
+  </ResourceTrickle>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>

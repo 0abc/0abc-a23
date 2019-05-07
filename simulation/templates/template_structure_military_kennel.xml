@@ -48,7 +48,6 @@
       units/{civ}/war_dog
     </Entities>
   </ProductionQueue>
-  <ResourceTrickle disable=""/>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_kennel.xml</constructed>

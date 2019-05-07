@@ -52,7 +52,6 @@
       steel_working
     </Technologies>
   </ProductionQueue>
-  <ResourceTrickle disable=""/>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_blacksmith.xml</constructed>

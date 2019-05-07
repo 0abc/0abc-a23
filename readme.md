@@ -56,7 +56,7 @@
 Changes include, but are not limited to:
 * introduced a new resource: silver
 * pierce damage is split into pierce (arrows) and thrust (spears)
-* units and some structures steadily consume small amounts of resources (upkeep)
+* most units and many structures steadily consume small amounts of resources (upkeep)
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
 * merged Athenians and Spartans into a single faction, the Greeks
@@ -196,43 +196,6 @@ There are four damage types (crush, hack, pierce, thrust)
 * Indian War Elephants: 330 food, 330 silver
 
 **NB**: champions cost +200% silver, mercenaries 0 other resources but +100% silver
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
-
-### Upkeep and income
-Food:
-* Healers, Slaves, Women: −0.02 food per second
-* Infantry: −0.02 food per second
-* Traders: −0.03 food per second
-* Camelry: −0.04 food per second
-* Cavalry: −0.05 food per second
-* Bigae: −0.10 food per second
-* Worker Elephants: −0.12 food per second
-* Quadrigae: −0.16 food per second
-* Elephantry: −0.20 food per second
-* Military structures: −4.0 food per 30 seconds
-* Fortress: −6.0 food per 30 seconds
-
-Silver:
-* Village centre: +5.0 silver per 30 seconds
-* Town centre: +10.0 silver per 30 seconds
-* City centre: +15.0 silver per 30 seconds
-* Metropolis centre: +20.0 silver per 30 seconds
-* Palace: +1.0 silver per second
-* Wonder: +1.0 silver per second
-* Library: −2.0 silver per 7 seconds
-* Fortress: −2.0 silver per 30 seconds
-* Triaconters: −3.0 silver per 30 seconds
-* Penteconters: −6.0 silver per 30 seconds
-* Triremes: −18.0 silver per 30 seconds
-* Quadriremes: −24.0 silver per 30 seconds
-* Quinqueremes: −30.0 silver per 30 seconds
-
-Wood:
-* Military structures: −1.0 wood per 30 seconds
-* Fortress: −2.0 wood per 30 seconds
-* Lighthouse: −2.0 wood per 7 seconds
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

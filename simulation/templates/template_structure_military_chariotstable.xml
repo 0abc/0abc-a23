@@ -41,4 +41,11 @@
       units/{civ}/quadriga_scythed_champion
     </Entities>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.20</food>
+      <silver>-0.05</silver>
+      <wood>-0.05</wood>
+    </Rates>
+  </ResourceTrickle>
 </Entity>

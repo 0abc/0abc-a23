@@ -5,9 +5,11 @@
   "genericName": "Metropolis Watch",
   "icon": "helmet_corinthian_metal.png",
   "modifications": [
-    {"value": "BuildingAI/DefaultArrowCount", "add":  1.0},
-    {"value": "Capturable/RegenRate",         "add":  1.0},
-    {"value": "ResourceTrickle/Rates/food",   "add": -1.0}
+    {"value": "BuildingAI/DefaultArrowCount", "add":  1.0  },
+    {"value": "Capturable/RegenRate",         "add":  1.0  },
+    {"value": "ResourceTrickle/Rates/food",   "add": -0.020},
+    {"value": "ResourceTrickle/Rates/silver", "add": -0.005},
+    {"value": "ResourceTrickle/Rates/wood",   "add": -0.005}
   ],
   "requirements": {"tech": "phase_metropolis"},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",

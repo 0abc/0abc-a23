@@ -58,9 +58,9 @@
   </Loot>
   <ResourceTrickle>
     <Rates>
-      <food>-6.0</food>
-      <silver>-2.0</silver>
-      <wood>-2.0</wood>
+      <food>-0.2</food>
+      <silver>-0.05</silver>
+      <wood>-0.05</wood>
     </Rates>
   </ResourceTrickle>
   <Sound>

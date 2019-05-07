@@ -13,7 +13,9 @@
     {"value": "Loot/metal",                   "add":       20},
     {"value": "Loot/silver",                  "add":       20},
     {"value": "Loot/xp",                      "multiply": 1.2},
-    {"value": "ResourceTrickle/Rates/silver", "add":      5.0},
+    {"value": "ResourceTrickle/Rates/food",   "add":     -0.1},
+    {"value": "ResourceTrickle/Rates/silver", "add":      0.2},
+    {"value": "ResourceTrickle/Rates/wood",   "add":     -0.1},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "requirements": {"all": [

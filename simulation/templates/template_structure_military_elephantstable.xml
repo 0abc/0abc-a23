@@ -44,6 +44,13 @@
       units/{civ}/war_elephant_champion
     </Entities>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.20</food>
+      <silver>-0.05</silver>
+      <wood>-0.05</wood>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_elephant_stables.xml</constructed>

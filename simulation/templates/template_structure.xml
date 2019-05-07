@@ -109,7 +109,7 @@
     </TechCostMultiplier>
   </ProductionQueue>
   <ResourceTrickle>
-    <Interval>30000</Interval>
+    <Interval>1000</Interval>
     <Rates>
       <food>0.0</food>
       <metal>0.0</metal>

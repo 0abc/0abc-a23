@@ -25,12 +25,6 @@
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
-  <ResourceTrickle>
-    <Rates>
-      <food>-5.0</food>
-      <wood>-1.0</wood>
-    </Rates>
-  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_barracks.xml</constructed>
