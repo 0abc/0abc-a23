@@ -15,7 +15,6 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
-      <CamelCamp>3</CamelCamp>
       <Centre>1</Centre>
       <Elephant>0</Elephant>
       <ElephantStable>0</ElephantStable>
@@ -26,6 +25,7 @@
       <Hero>1</Hero>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
+      <MercenaryCamp>2</MercenaryCamp>
       <NavalTrader>20</NavalTrader>
       <Palace>1</Palace>
       <Pillar>5</Pillar>

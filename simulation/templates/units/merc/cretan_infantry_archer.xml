@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <GenericName>Cretan Archer</GenericName>
+    <Icon>units/mace_infantry_archer_a.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/cretan_infantry_archer</SelectionGroupName>
+    <SpecificName>Τοξότης Κρητικός</SpecificName>
+    <VisibleClasses datatype="tokens">Cretan Mercenary</VisibleClasses>
+  </Identity>
+  <ResourceGatherer disable=""/>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

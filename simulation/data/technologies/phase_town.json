@@ -19,8 +19,8 @@
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "requirements": {"all": [
-    {"entity": {"class": "House",             "number":   5}},
-    {"entity": {"class": "BarterMarket",      "number":   1}}
+    {"entity": {"class": "House",             "number":    5}},
+    {"entity": {"class": "BarterMarket",      "number":    1}}
   ]},
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",

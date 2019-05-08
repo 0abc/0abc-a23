@@ -49,13 +49,13 @@
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
       <attack_melee>attack/weapon/sword.xml</attack_melee>
       <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-      <death>actor/fauna/death/death_horse.xml</death>
+      <death>actor/fauna/death/death_camel.xml</death>
       <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
       <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
       <run>actor/mounted/movement/walk.xml</run>
-      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <select>actor/fauna/animal/camel_select.xml</select>
       <trained>interface/alarm/alarm_create_cav.xml</trained>
       <walk>actor/mounted/movement/walk.xml</walk>
     </SoundGroups>

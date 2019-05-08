@@ -2,21 +2,20 @@
 <Entity parent="template_structure_military_hall">
   <Footprint>
     <Height>12</Height>
-    <Square width="13" depth="16"/>
+    <Square width="27" depth="25"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>gree</Civ>
-    <GenericName>Council Chambers</GenericName>
-    <SpecificName>Πρυτανεῖον</SpecificName>
+    <SpecificName>Στοά</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="11" depth="14"/>
+    <Static width="25" depth="23"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/carthaginians/embassy_italiote.xml</Actor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+    <Actor>structures/spartans/stoa.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

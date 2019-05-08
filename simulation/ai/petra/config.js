@@ -57,13 +57,13 @@ m.Config = function(difficulty, behavior)
 		"gaul": ["structures/{civ}/hall", "structures/{civ}/rotarymill"],
 		"gree": ["structures/{civ}/hall", "structures/{civ}/shipyard"],
 		"iber": ["structures/{civ}/hall", "structures/{civ}/pillar"],
-		"kush": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camel_camp"],
+		"kush": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/blemmye_camp", "structures/nuba_camp"],
 		"mace": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/theatre"],
 		"maur": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/pillar"],
-		"pers": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/palace_2", "structures/{civ}/camel_camp"],
-		"ptol": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre"],
+		"pers": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/palace_2", "structures/nabatean_camp"],
+		"ptol": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre", "structures/nabatean_camp"],
 		"rome": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camp"],
-		"sele": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camel_camp", "structures/{civ}/library", "structures/{civ}/theatre"],
+		"sele": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/theatre", "structures/nabatean_camp"],
 		"spart": ["structures/{civ}/shipyard"]
   };
 

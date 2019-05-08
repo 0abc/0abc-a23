@@ -59,8 +59,8 @@
     <Classes datatype="tokens">CivCentre CivilCentre ConquestCritical</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Establish trade routes.</Tooltip>
-    <VisibleClasses datatype="tokens">-Defensive Centre Market</VisibleClasses>
+    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources.</Tooltip>
+    <VisibleClasses datatype="tokens">-Defensive Centre</VisibleClasses>
   </Identity>
   <Loot>
     <silver>60</silver>
@@ -86,9 +86,6 @@
       unlock_counterespionage
       colonization
     </Technologies>
-    <Entities datatype="tokens">
-      units/{civ}/support_trader
-    </Entities>
   </ProductionQueue>
   <ResourceDropsite>
     <Sharable>true</Sharable>

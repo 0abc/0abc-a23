@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military">
+<Entity parent="template_structure_economic">
   <Capturable>
     <CapturePoints>500</CapturePoints>
   </Capturable>
@@ -14,14 +14,13 @@
     <Max>8</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Blacksmith</GenericName>
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <Tooltip>Research weapon and armour technologies.</Tooltip>
+    <Tooltip>Research economic technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Blacksmith</VisibleClasses>
   </Identity>
   <Loot>
@@ -30,26 +29,24 @@
   </Loot>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      attack_infantry_melee_1
-      attack_infantry_melee_2
-      attack_infantry_melee_3
-      attack_infantry_ranged_1
-      attack_infantry_ranged_2
-      attack_infantry_ranged_3
-      armour_infantry_1
-      armour_infantry_2
-      armour_infantry_3
-      attack_cavalry_melee_1
-      attack_cavalry_melee_2
-      attack_cavalry_melee_3
-      attack_cavalry_ranged_1
-      attack_cavalry_ranged_2
-      attack_cavalry_ranged_3
-      armour_cavalry_1
-      armour_cavalry_2
-      armour_cavalry_3
-      attack_soldiers_will
-      steel_working
+      gather_capacity_1
+      gather_capacity_2
+      gather_capacity_3
+      gather_farm_1
+      gather_farm_2
+      gather_farm_3
+      gather_wood_1
+      gather_wood_2
+      gather_wood_3
+      gather_metal_1
+      gather_metal_2
+      gather_metal_3
+      gather_stone_1
+      gather_stone_2
+      gather_stone_3
+      trade_gain_1
+      trade_gain_2
+      trade_gain_3
     </Technologies>
   </ProductionQueue>
   <Sound>
@@ -58,7 +55,4 @@
       <select>interface/select/building/sel_blacksmith.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>25</Radius>
-  </TerritoryInfluence>
 </Entity>

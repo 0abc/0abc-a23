@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <BuildRestrictions>
-    <Category>Embassy</Category>
+    <Category>MercenaryCamp</Category>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>90</BuildTime>
     <Resources>
       <food>0</food>
-      <metal>0</metal>
+      <metal>50</metal>
       <silver>0</silver>
       <stone>0</stone>
-      <wood>200</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
     <List datatype="tokens">Camel Cavalry</List>
-    <Max>6</Max>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
-    <GenericName>Embassy</GenericName>
+    <GenericName>Mercenary Camp</GenericName>
+    <Icon>structures/mercenary_camp.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Embassy</VisibleClasses>
+    <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
   </Identity>
   <Loot>
-    <wood>40</wood>
+    <metal>10</metal>
+    <wood>30</wood>
   </Loot>
   <Sound>
     <SoundGroups>
@@ -34,4 +37,6 @@
       <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
 </Entity>

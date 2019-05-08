@@ -19,8 +19,10 @@
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "requirements": {"all": [
-    {"entity": {"class": "House",             "number":  10}},
-    {"entity": {"class": "Temple",            "number":   1}}
+    {"entity": {"class": "House",             "number":   10}},
+    {"entity": {"class": "Blacksmith",        "number":    1}},
+    {"entity": {"class": "Market",            "number":    1}},
+    {"entity": {"class": "Temple",            "number":    1}}
   ]},
   "researchTime": 120,
   "soundComplete": "interface/alarm/alarm_phase.xml",

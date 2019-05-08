@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_maceman">
   <Identity>
-    <Civ>kush</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
     <GenericName>Nuba Clubman</GenericName>
     <Icon>units/kush_infantry_clubman_a.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <SelectionGroupName>units/kush/infantry_clubman_mercenary</SelectionGroupName>
+    <SelectionGroupName>units/nuba_infantry_maceman</SelectionGroupName>
     <SpecificName>nhw Noba</SpecificName>
     <VisibleClasses datatype="tokens">Nuba Mercenary</VisibleClasses>
   </Identity>
