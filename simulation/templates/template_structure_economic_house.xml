@@ -4,31 +4,12 @@
     <Distance disable=""/>
     <Territory>own</Territory>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>200</CapturePoints>
-  </Capturable>
-  <Cost>
-    <BuildTime>25</BuildTime>
-    <PopulationBonus>5</PopulationBonus>
-    <Resources>
-      <wood>100</wood>
-    </Resources>
-  </Cost>
-  <GarrisonHolder>
-    <Max>3</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max>600</Max>
-  </Health>
   <Identity>
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
     <Tooltip>Increase the population limit.</Tooltip>
     <VisibleClasses datatype="tokens">House</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>20</wood>
-  </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/support_woman

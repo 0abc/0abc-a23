@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_house">
+  <Capturable>
+    <CapturePoints>600</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <PopulationBonus>15</PopulationBonus>
+    <Resources>
+      <stone>50</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Loot>
+    <stone>10</stone>
+    <wood>40</wood>
+  </Loot>
+</Entity>

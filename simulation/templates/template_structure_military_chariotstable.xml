@@ -19,7 +19,7 @@
   </Health>
   <Identity>
     <GenericName>Chariot Stable</GenericName>
-    <Icon>structures/pers_stable.png</Icon>
+    <Icon>technologies/wheel.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train chariotry. Research chariot technologies.</Tooltip>
     <VisibleClasses datatype="tokens">ChariotStable</VisibleClasses>
