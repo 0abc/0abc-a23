@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Armour>
-    <Crush>20</Crush>
-    <Hack>5</Hack>
-    <Pierce>15</Pierce>
-    <Thrust>10</Thrust>
+    <Crush>12</Crush>
+    <Hack>3</Hack>
+    <Pierce>9</Pierce>
+    <Thrust>6</Thrust>
   </Armour>
   <Attack>
     <Melee>
