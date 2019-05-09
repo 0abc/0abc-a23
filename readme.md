@@ -248,12 +248,12 @@ There are four damage types (crush, hack, pierce, thrust)
 * **Gauls Architecture** (Gauls): structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; fortresses −50% stone cost, +50% wood cost; temples 0 stone cost, +200% wood cost.
 * **Greek Architecture** (Greeks): temples +25% health.
 * **Greek Galleys** (Greeks): warships +5% movement speed.
-* **Egyptian Architecture** (Ptolemies): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+* **Egyptian Architecture** (Ptolemies): economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health.
 * **Egyptian Medicine** (Ptolemies): healers −20% healing time.
 * **Indian Architecture** (Mauryas): centres 0 stone cost, +100% wood cost; city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Indian Elephants** (Mauryas): elephants −15% training time.
 * **Iberian Architecture** (Iberians): large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
-* **Kushite Architecture** (Kushites): economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health.
+* **Kushite Architecture** (Kushites): economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health.
 * **Macedonian Architecture** (Macedonians): temples +25% health.
 * **Macedonian Engineers** (Macedonians): siege engines −15% construction time.
 * **Near Eastern Archers** (Persians, Seleucids): archers +20% ranged attack range.
@@ -421,10 +421,10 @@ There are four damage types (crush, hack, pierce, thrust)
   * Merchant Ship
   * Infantry Pikeman
   * Infantry Swordsman
-  * Infantry Maceman Mercenary
-  * Infantry Javelinist Mercenary
+  * *Nuba Infantry Maceman*
+  * *Nuba Infantry Javelinist*
   * Cavalry Spearman
-  * Camel Javelinist Mercenary
+  * *Blemmye Camel Javelinist*
   * Large Battering Ram
   * Trireme
 * City phase:
@@ -510,7 +510,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Cavalry Axeman
   * Cavalry Spearman
   * Cavalry Archer
-  * Camel Archer Mercenary
+  * *Nabatean Camel Archer*
   * Large Battering Ram
   * Penteconter
   * Trireme
@@ -542,7 +542,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Infantry Lead-slinger Mercenary
   * Cavalry Spearman
   * Cavalry Javelinist Mercenary
-  * Camel Archer Mercenary
+  * *Nabatean Camel Archer*
   * Large Battering Ram
   * Trireme
 * City phase:
@@ -600,7 +600,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Infantry Archer
   * Cavalry Lancer
   * Cavalry Archer Mercenary
-  * Camel Archer Mercenary
+  * *Nabatean Camel Archer*
   * Large Battering Ram
   * Penteconter
   * Trireme

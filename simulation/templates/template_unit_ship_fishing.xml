@@ -41,7 +41,6 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical FishingBoat</Classes>
-    <Formations disable=""/>
     <GenericName>Fishing Boat</GenericName>
     <Tooltip>Fish the waters for food.</Tooltip>
   </Identity>

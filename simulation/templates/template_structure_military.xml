@@ -12,6 +12,12 @@
       <MinDistance>30</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <metal>100</metal>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
@@ -25,6 +31,10 @@
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>20</metal>
+    <wood>60</wood>
+  </Loot>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_barracks.xml</constructed>

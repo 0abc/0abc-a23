@@ -5,10 +5,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>240</BuildTime>
-    <Resources>
-      <food>100</food>
-      <wood>300</wood>
-    </Resources>
   </Cost>
   <Footprint>
     <Height>8</Height>
@@ -29,10 +25,6 @@
     <Tooltip>Train elephantry. Research elephant technologies.</Tooltip>
     <VisibleClasses datatype="tokens">ElephantStable</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <wood>60</wood>
-  </Loot>
   <Obstruction>
     <Static width="29" depth="27"/>
   </Obstruction>

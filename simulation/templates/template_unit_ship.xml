@@ -22,9 +22,9 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Formations disable=""/>
+    <Classes datatype="tokens">Mechanical</Classes>
     <GenericName>Ship</GenericName>
-    <VisibleClasses datatype="tokens">Mechanical Ship</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
   <Position>
     <FloatDepth>0.0</FloatDepth>

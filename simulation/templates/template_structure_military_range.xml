@@ -5,10 +5,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>150</BuildTime>
-    <Resources>
-      <food>100</food>
-      <wood>300</wood>
-    </Resources>
   </Cost>
   <Footprint>
     <Height>10</Height>
@@ -28,10 +24,6 @@
     <Tooltip>Train ranged infantry. Research training improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Range</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <wood>60</wood>
-  </Loot>
   <Obstruction>
     <Static width="23" depth="23"/>
   </Obstruction>

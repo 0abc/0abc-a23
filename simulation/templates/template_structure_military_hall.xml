@@ -5,11 +5,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>120</BuildTime>
-    <Resources>
-      <food>50</food>
-      <metal>50</metal>
-      <wood>200</wood>
-    </Resources>
   </Cost>
   <GarrisonHolder>
     <Max>5</Max>
@@ -24,11 +19,6 @@
     <Tooltip>Train infantry champions.</Tooltip>
     <VisibleClasses datatype="tokens">Hall</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>10</food>
-    <metal>10</metal>
-    <wood>40</wood>
-  </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_pikeman_champion

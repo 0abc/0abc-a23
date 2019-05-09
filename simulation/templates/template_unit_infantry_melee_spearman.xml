@@ -12,6 +12,9 @@
     </Melee>
   </Attack>
   <Identity>
+    <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations>
     <GenericName>Spearman</GenericName>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>

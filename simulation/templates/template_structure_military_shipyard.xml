@@ -7,11 +7,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>150</BuildTime>
-    <Resources>
-      <metal>100</metal>
-      <stone>100</stone>
-      <wood>200</wood>
-    </Resources>
   </Cost>
   <Footprint>
     <Height>8</Height>
@@ -32,11 +27,6 @@
     <Tooltip>Construct warships. Research naval improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Shipyard</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>20</metal>
-    <stone>20</stone>
-    <wood>40</wood>
-  </Loot>
   <Obstruction>
     <Static width="22" depth="26"/>
   </Obstruction>

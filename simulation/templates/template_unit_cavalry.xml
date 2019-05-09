@@ -24,6 +24,14 @@
     <Classes datatype="tokens">Human Organic Mounted</Classes>
     <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
+      special/formations/null
+      special/formations/battle_line
+      special/formations/box
+      special/formations/column_closed
+      special/formations/column_open
+      special/formations/flank
+      special/formations/line_closed
+      special/formations/line_open
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>

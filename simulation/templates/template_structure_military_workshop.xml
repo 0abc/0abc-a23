@@ -5,11 +5,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>180</BuildTime>
-    <Resources>
-      <food>100</food>
-      <metal>100</metal>
-      <wood>200</wood>
-    </Resources>
   </Cost>
   <Footprint>
     <Height>12</Height>
@@ -30,11 +25,6 @@
     <Tooltip>Construct siege engines.</Tooltip>
     <VisibleClasses datatype="tokens">Workshop</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <metal>20</metal>
-    <wood>40</wood>
-  </Loot>
   <Obstruction>
     <Static width="28" depth="28"/>
   </Obstruction>

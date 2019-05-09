@@ -5,7 +5,6 @@
   </Cost>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
-    <Formations disable=""/>
     <GenericName>Support</GenericName>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>

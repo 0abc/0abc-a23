@@ -5,10 +5,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>210</BuildTime>
-    <Resources>
-      <food>100</food>
-      <wood>300</wood>
-    </Resources>
   </Cost>
   <GarrisonHolder>
     <List datatype="tokens">Chariot</List>
@@ -24,10 +20,6 @@
     <Tooltip>Train chariotry. Research chariot technologies.</Tooltip>
     <VisibleClasses datatype="tokens">ChariotStable</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <wood>60</wood>
-  </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/biga_javelinist

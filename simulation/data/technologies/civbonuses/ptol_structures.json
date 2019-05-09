@@ -7,11 +7,8 @@
     {"value": "Cost/Resources/wood", "multiply": 0.25, "affects": "Economic"},
     {"value": "Loot/wood",           "multiply": 0.25, "affects": "Economic"},
     {"value": "Cost/BuildTime",      "multiply": 1.25, "affects": "Fortress"},
-    {"value": "Health/Max",          "multiply": 1.1,  "affects": "Fortress"},
-    {"value": "Cost/BuildTime",      "multiply": 1.5,  "affects": "Military"},
-    {"value": "Cost/Resources/wood", "multiply": 0.5,  "affects": "Military"},
-    {"value": "Loot/wood",           "multiply": 0.5,  "affects": "Military"}
+    {"value": "Health/Max",          "multiply": 1.1,  "affects": "Fortress"}
   ],
   "requirements": {"civ": "ptol"},
-  "tooltip": "Ptolemaic economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health."
+  "tooltip": "Ptolemaic economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health."
 }

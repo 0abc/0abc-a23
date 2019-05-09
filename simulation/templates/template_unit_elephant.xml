@@ -34,6 +34,16 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>
+    <Formations datatype="tokens">
+      special/formations/null
+      special/formations/battle_line
+      special/formations/box
+      special/formations/column_closed
+      special/formations/column_open
+      special/formations/flank
+      special/formations/line_closed
+      special/formations/line_open
+    </Formations>
     <GenericName>War Elephant</GenericName>
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Elephant Melee</VisibleClasses>

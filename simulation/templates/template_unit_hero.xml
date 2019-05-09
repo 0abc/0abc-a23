@@ -25,6 +25,16 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Organic Human</Classes>
+    <Formations datatype="tokens">
+      special/formations/null
+      special/formations/battle_line
+      special/formations/box
+      special/formations/column_closed
+      special/formations/column_open
+      special/formations/flank
+      special/formations/line_closed
+      special/formations/line_open
+    </Formations>
     <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Hero Soldier</VisibleClasses>
   </Identity>

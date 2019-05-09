@@ -5,10 +5,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>180</BuildTime>
-    <Resources>
-      <food>100</food>
-      <wood>300</wood>
-    </Resources>
   </Cost>
   <Footprint>
     <Height>12.0</Height>
@@ -28,10 +24,6 @@
     <Tooltip>Train infantry. Research infantry technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <wood>60</wood>
-  </Loot>
   <Obstruction>
     <Static width="20" depth="20"/>
   </Obstruction>
