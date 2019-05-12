@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Abstract entity to serve as a bare-minimum dummy constructable entity to initiate wall placement.
-     Defines the set of actual entities that are part of the same wall construction system (i.e., towers,
-     gates, wall segments of various length, etc.) using the WallSet component (to be overridden by child
-     templates). -->
+<!-- Abstract entity to serve as a bare-minimum dummy constructable entity to initiate wall 
+     placement. Defines the set of actual entities that are part of the same wall construction 
+     system (i.e., towers, gates, wall segments of various length, etc.) using the WallSet 
+     component (to be overridden by child templates). -->
 <Entity>
   <Identity>
     <Civ>gaia</Civ>
@@ -13,4 +13,10 @@
     <Tooltip>Wall off an area for a stout defence.</Tooltip>
     <Undeletable>true</Undeletable>
   </Identity>
+  <Visibility>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+    <RetainInFog>false</RetainInFog>
+  </Visibility>
 </Entity>
