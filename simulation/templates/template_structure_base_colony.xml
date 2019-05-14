@@ -64,6 +64,6 @@
   <TerritoryInfluence>
     <Radius>100</Radius>
     <Root>true</Root>
-    <Weight>10000</Weight>
+    <Weight>20000</Weight>
   </TerritoryInfluence>
 </Entity>

@@ -37,9 +37,9 @@
   </Identity>
   <ResourceTrickle>
     <Rates>
-      <food>-0.4</food>
-      <silver>1.0</silver>
-      <wood>-0.1</wood>
+      <food>-1.0</food>
+      <silver>1.2</silver>
+      <wood>-0.2</wood>
     </Rates>
   </ResourceTrickle>
   <Sound>

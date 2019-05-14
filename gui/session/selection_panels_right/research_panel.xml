@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitResearchPanel" size="10 100%-102 100% 100%">
+<object name="unitResearchPanel" size="6 100%-82 100% 100%">
   <object size="0 0 100% 100%">
     <repeat count="20">
       <object name="unitResearchButton[n]" hidden="true" style="iconButton" type="button" size="0 0 38 38" tooltip_style="sessionToolTipBottom">

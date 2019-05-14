@@ -18,14 +18,15 @@ m.Config = function(difficulty, behavior)
 
   this.Military = {
     "towerLapseTime": 90,  // Time to wait between building 2 towers
-    "fortressLapseTime": 390,  // Time to wait between building 2 fortresses
-    "popForBarracks1": 25,
-    "popForBarracks2": 95,
-    "popForBlacksmith": 65,
+    "fortressLapseTime": 360,  // Time to wait between building 2 fortresses
+    "popForBarracks1": 30,
+    "popForBlacksmith": 60,
+    "popForBarracks2": 90,
+    "popForBarracks3": 120,
     "numSentryTowers": 1
   };
   this.Economy = {
-    "popPhase2": 30,  // How many units we want before aging to phase2.
+    "popPhase2": 40,  // How many units we want before aging to phase2.
     "workPhase3": 60,  // How many workers we want before aging to phase3.
     "workPhase4": 90,  // How many workers we want before aging to phase4 or higher.
     "popForDock": 25,
@@ -33,7 +34,7 @@ m.Config = function(difficulty, behavior)
     "targetNumTraders": 5,  // Target number of traders
     "targetNumFishers": 1,  // Target number of fishers per sea
     "supportRatio": 0.35,  // fraction of support workers among the workforce
-    "provisionFields": 5
+    "provisionFields": 3
   };
 
   // Note: attack settings are set directly in attack_plan.js

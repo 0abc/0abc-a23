@@ -1,5 +1,5 @@
 {
-  "aiAnalysisInfluenceGroup": "ignore",
+  "aiAnalysisInfluenceGroup": "abundant",
   "code": "food",
   "description": "Gather from hunting animals, foraging berry bushes, fishing, or agrigulture.",
   "name": "Food",

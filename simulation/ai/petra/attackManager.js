@@ -317,12 +317,11 @@ m.AttackManager.prototype.update = function(gameState, queues, events)
 
   // creating plans after updating because an aborted plan might be reused in that case.
 
-  let barracksNb = gameState.getOwnEntitiesByClass("Barracks", true).filter(API3.Filters.isBuilt()).length;
-  if (this.rushNumber < this.maxRushes && barracksNb >= 1)
+  if (this.rushNumber < this.maxRushes)
   {
     if (unexecutedAttacks.Rush === 0)
     {
-      // we have a barracks and we want to rush, rush.
+      // we want to rush, rush, rush.
       let data = { "targetSize": this.rushSize[this.rushNumber] };
       let attackPlan = new m.AttackPlan(gameState, this.Config, this.totalNumber, "Rush", data);
       if (!attackPlan.failed)
@@ -340,7 +339,7 @@ m.AttackManager.prototype.update = function(gameState, queues, events)
     this.startedAttacks.Attack.length + this.startedAttacks.HugeAttack.length < Math.min(2, 1 + Math.round(gameState.getPopulationMax()/100)) &&
     (this.startedAttacks.Attack.length + this.startedAttacks.HugeAttack.length == 0 || gameState.getPopulationMax() - gameState.getPopulation() > 12))
   {
-    if (barracksNb >= 1 && (gameState.currentPhase() > 1 || gameState.isResearching(gameState.getPhaseName(2))) ||
+    if ((gameState.currentPhase() > 1 || gameState.isResearching(gameState.getPhaseName(2))) ||
       !gameState.ai.HQ.baseManagers[1])  // if we have no base ... nothing else to do than attack
     {
       let type = this.attackNumber < 2 || this.startedAttacks.HugeAttack.length > 0 ? "Attack" : "HugeAttack";
