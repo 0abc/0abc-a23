@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_hall">
+<Entity parent="template_structure_military_mercenarycamp">
   <Footprint>
     <Height>12</Height>
     <Square width="27" depth="25"/>
@@ -8,12 +8,18 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>gree</Civ>
     <SpecificName>Στοά</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25" depth="23"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/merc/greek_infantry_spearman
+      units/merc/cretan_infantry_archer
+      units/merc/rhodian_infantry_slinger
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/spartans/stoa.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

@@ -56,14 +56,14 @@ m.Config = function(difficulty, behavior)
 		"brit": ["structures/{civ}/crannog", "structures/{civ}/rotarymill"],
 		"cart": ["structures/{civ}/hall", "structures/{civ}/naval_base"],
 		"gaul": ["structures/{civ}/rotarymill"],
-		"gree": ["structures/{civ}/hall"],
+		"gree": ["structures/greek_camp"],
 		"iber": ["structures/{civ}/pillar"],
 		"kush": ["structures/blemmye_camp", "structures/nuba_camp"],
-		"mace": ["structures/{civ}/hall",  "structures/{civ}/library", "structures/{civ}/theatre"],
+		"mace": ["structures/{civ}/library", "structures/{civ}/theatre", "structures/greek_camp"],
 		"maur": ["structures/{civ}/palace", "structures/{civ}/pillar"],
 		"pers": ["structures/{civ}/hall", "structures/{civ}/palace", "structures/{civ}/palace_2", "structures/nabatean_camp"],
-		"ptol": ["structures/{civ}/colony", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre", "structures/nabatean_camp"],
-		"rome": ["structures/{civ}/camp"],
+		"ptol": ["structures/{civ}/colony", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre", "structures/greek_camp", "structures/nabatean_camp"],
+		"rome": ["structures/{civ}/army_camp"],
 		"sele": ["structures/{civ}/colony", "structures/{civ}/library", "structures/{civ}/theatre", "structures/nabatean_camp"],
 		"spart": []
   };

@@ -233,10 +233,8 @@ There are four damage types (crush, hack, pierce, thrust)
 * **Cataphract**: +20% silver cost, +2 armour levels, −5% movement speed.
 * **Fanatic**: −3 armour levels, +15% melee attack damage, +30% movement speed.
 * **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
-* **Cretan**: −20% ranged attack spread.
 * **Libyan**: −5% health, +5% ranged attack damage, −5% reload time, +5% movement speed.
 * **Numidian**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
-* **Rhodian**: −20% ranged attack spread.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -368,10 +366,9 @@ There are four damage types (crush, hack, pierce, thrust)
 * Town phase:
   * Healer
   * Merchant Ship
-  * Infantry Spearman Mercenary
-  * Infantry Javelinist Mercenary
-  * Infantry Archer Mercenary
-  * Infantry Lead-slinger Mercenary
+  * *Greek Infantry Spearman*
+  * *Cretan Infantry Archer*
+  * *Rhodian Infantry Slinger*
   * Cavalry Javelinist
   * Cavalry Sabreman
   * Small Battering Ram
@@ -449,9 +446,9 @@ There are four damage types (crush, hack, pierce, thrust)
 * Town phase:
   * Healer
   * Merchant Ship
-  * Infantry Spearman Mercenary
-  * Infantry Archer Mercenary
-  * Infantry Lead-slinger Mercenary
+  * *Greek Infantry Spearman*
+  * *Cretan Infantry Archer*
+  * *Rhodian Infantry Slinger*
   * Cavalry Javelinist
   * Large Battering Ram
   * Penteconter
@@ -539,8 +536,9 @@ There are four damage types (crush, hack, pierce, thrust)
   * Infantry Spearman Mercenary
   * Infantry Swordsman Mercenary
   * Infantry Javelinist Mercenary
-  * Infantry Archer Mercenary
-  * Infantry Lead-slinger Mercenary
+  * *Greek Infantry Spearman*
+  * *Cretan Infantry Archer*
+  * *Rhodian Infantry Slinger*
   * Cavalry Spearman
   * Cavalry Javelinist Mercenary
   * *Nabatean Camel Archer*
