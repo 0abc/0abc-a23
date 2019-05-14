@@ -76,7 +76,7 @@
   "StartEntities":
   [
     {
-      "Template": "structures/pers/wonder"
+      "Template": "structures/pers/centre"
     },
     {
       "Template": "units/pers/support_healer"

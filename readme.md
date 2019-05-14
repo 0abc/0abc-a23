@@ -226,9 +226,9 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Class bonuses
-* **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, +100% melee and ranged attack damage.
-* **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, +50% melee and ranged attack damage.
-* **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +15% capture attack strength, +15% melee and ranged attack damage.
+* **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, +50% melee and ranged attack damage.
+* **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, +30% melee and ranged attack damage.
+* **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +20% capture attack strength, +15% melee and ranged attack damage.
 * **Cataphract**: +20% silver cost, +2 armour levels, −5% movement speed.
 * **Fanatic**: −3 armour levels, +15% melee attack damage, +30% movement speed.
 * **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.

@@ -6,5 +6,5 @@ CHAMPIONS
 
 • +200% silver cost, +100 training time.
 
-• +2 armour levels, +50% health, +100% capture attack strength, +100% melee and ranged attack damage.
+• +2 armour levels, +50% health, +100% capture attack strength, +50% melee and ranged attack damage.
 
