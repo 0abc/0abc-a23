@@ -14,9 +14,6 @@
     <Max>150</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
-  <Loot>
-    <wood>1</wood>
-  </Loot>
   <Obstruction>
     <Static width="1.5" depth="3.0"/>
   </Obstruction>

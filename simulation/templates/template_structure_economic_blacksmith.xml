@@ -23,10 +23,6 @@
     <Tooltip>Research economic technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Blacksmith</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>20</metal>
-    <wood>40</wood>
-  </Loot>
   <ProductionQueue>
     <Technologies datatype="tokens">
       gather_capacity_1

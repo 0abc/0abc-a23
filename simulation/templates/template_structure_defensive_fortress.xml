@@ -50,12 +50,6 @@
     <Tooltip>Territory root. Garrison units to fire additional arrows.</Tooltip>
     <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>60</food>
-    <metal>40</metal>
-    <stone>160</stone>
-    <wood>120</wood>
-  </Loot>
   <ResourceTrickle>
     <Rates>
       <food>-0.2</food>

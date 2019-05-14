@@ -38,11 +38,6 @@
     <Icon>structures/sentry_tower.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
-  <Loot>
-    <food>10</food>
-    <stone>10</stone>
-    <wood>20</wood>
-  </Loot>
   <Obstruction>
     <Static width="6" depth="6"/>
   </Obstruction>

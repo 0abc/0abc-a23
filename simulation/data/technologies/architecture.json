@@ -5,10 +5,9 @@
   "genericName": "Persian Architecture",
   "icon": "stone_blocks.png",
   "modifications": [
-    {"value": "Capturable/CapturePoints", "multiply": 1.2                     },
-    {"value": "Cost/BuildTime",           "multiply": 1.2                     },
-    {"value": "Health/Max",               "multiply": 1.2                     },
-    {"value": "Loot/xp",                  "multiply": 1.2, "affects": "Centre"}
+    {"value": "Capturable/CapturePoints", "multiply": 1.2},
+    {"value": "Cost/BuildTime",           "multiply": 1.2},
+    {"value": "Health/Max",               "multiply": 1.2}
   ],
   "requirements": {"all": [
     {"tech": "phase_village"}, 

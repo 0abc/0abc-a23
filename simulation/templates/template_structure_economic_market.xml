@@ -28,9 +28,6 @@
     <Tooltip>Barter resources. Train merchants. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Market BarterMarket</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>60</wood>
-  </Loot>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>
     <TradeType>land</TradeType>

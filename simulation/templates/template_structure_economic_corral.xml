@@ -22,9 +22,6 @@
     <Tooltip>Garrison domestic animals.</Tooltip>
     <VisibleClasses datatype="tokens">Corral</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>20</wood>
-  </Loot>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_corral.xml</constructed>

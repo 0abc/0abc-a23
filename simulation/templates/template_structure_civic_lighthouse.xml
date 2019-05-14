@@ -26,11 +26,6 @@
     <Tooltip>Very large vision range.</Tooltip>
     <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>40</metal>
-    <stone>120</stone>
-    <wood>40</wood>
-  </Loot>
   <Position>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>

@@ -17,8 +17,4 @@
   <Health>
     <Max>1500</Max>
   </Health>
-  <Loot>
-    <stone>10</stone>
-    <wood>40</wood>
-  </Loot>
 </Entity>

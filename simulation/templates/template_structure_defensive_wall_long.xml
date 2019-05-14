@@ -20,10 +20,6 @@
   <Identity>
     <Tooltip>Long wall segments can be converted to gates.</Tooltip>
   </Identity>
-  <Loot>
-    <stone>27</stone>
-    <wood>9</wood>
-  </Loot>
   <Upgrade>
     <Gate>
       <Cost>

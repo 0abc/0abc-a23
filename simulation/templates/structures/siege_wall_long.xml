@@ -37,9 +37,6 @@
   <Identity>
     <SelectionGroupName>structures/siege_wallset</SelectionGroupName>
   </Identity>
-  <Loot>
-    <wood>18</wood>
-  </Loot>
   <Obstruction>
     <Static width="37.0" depth="5.0"/>
   </Obstruction>

@@ -65,14 +65,6 @@
     <GenericName>Structure</GenericName>
     <Undeletable>false</Undeletable>
   </Identity>
-  <Loot>
-    <food>0</food>
-    <metal>0</metal>
-    <silver>0</silver>
-    <stone>0</stone>
-    <wood>0</wood>
-    <xp>0</xp>
-  </Loot>
   <Looter/>
   <Minimap>
     <Type>structure</Type>

@@ -32,9 +32,6 @@
     <Tooltip>Harvest grain for food.</Tooltip>
     <VisibleClasses datatype="tokens">Resource Field</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>20</wood>
-  </Loot>
   <Minimap>
     <Color r="119" g="82" b="46"/>
   </Minimap>

@@ -5,7 +5,6 @@
   "modifications": [
     {"value": "Cost/BuildTime",      "multiply": 2.0,  "affects": "Economic"},
     {"value": "Cost/Resources/wood", "multiply": 0.25, "affects": "Economic"},
-    {"value": "Loot/wood",           "multiply": 0.25, "affects": "Economic"},
     {"value": "Cost/BuildTime",      "multiply": 1.25, "affects": "Fortress"},
     {"value": "Health/Max",          "multiply": 1.1,  "affects": "Fortress"}
   ],

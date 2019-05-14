@@ -31,11 +31,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Theatre</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>60</metal>
-    <stone>180</stone>
-    <wood>60</wood>
-  </Loot>
   <Obstruction>
     <Static width="40" depth="46"/>
   </Obstruction>

@@ -25,9 +25,6 @@
   <Identity>
     <SelectionGroupName>structures/siege_wallset</SelectionGroupName>
   </Identity>
-  <Loot>
-    <wood>6</wood>
-  </Loot>
   <Obstruction>
     <Static width="13.0" depth="5.0"/>
   </Obstruction>

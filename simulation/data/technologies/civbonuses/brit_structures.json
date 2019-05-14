@@ -7,14 +7,9 @@
     {"value": "Health/Max",           "multiply": 0.9                          },
     {"value": "Cost/Resources/stone", "replace":  0,    "affects": "Centre"    },
     {"value": "Cost/Resources/wood",  "multiply": 2.0,  "affects": "Centre"    },
-    {"value": "Loot/stone",           "replace":  0,    "affects": "Centre"    },
-    {"value": "Loot/wood",            "multiply": 2.0,  "affects": "Centre"    },
     {"value": "Cost/Resources/stone", "replace":  0,    "affects": "SmallTower"},
-    {"value": "Loot/stone",           "replace":  0,    "affects": "SmallTower"},
     {"value": "Cost/Resources/stone", "replace":  0,    "affects": "Temple"    },
-    {"value": "Cost/Resources/wood",  "multiply": 3.0,  "affects": "Temple"    },
-    {"value": "Loot/stone",           "replace":  0,    "affects": "Temple"    },
-    {"value": "Loot/wood",            "multiply": 3.0,  "affects": "Temple"    }
+    {"value": "Cost/Resources/wood",  "multiply": 3.0,  "affects": "Temple"    }
   ],
   "requirements": {"civ": "brit"},
   "tooltip": "Briton structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; small tower 0 stone cost; temples 0 stone cost, +200% wood cost."

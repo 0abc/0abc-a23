@@ -12,10 +12,6 @@
     <SpecificName>Propylaea</SpecificName>
     <Icon>structures/tholos.png</Icon>
   </Identity>
-  <Loot>
-    <stone>75</stone>
-    <metal>75</metal>
-  </Loot>
   <Obstruction>
     <Static width="26.0" depth="30.0"/>
   </Obstruction>

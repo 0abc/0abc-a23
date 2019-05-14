@@ -14,10 +14,6 @@
     <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_short</SpawnEntityOnDeath>
   </Health>
-  <Loot>
-    <stone>9</stone>
-    <wood>3</wood>
-  </Loot>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_short.xml</FoundationActor>
   </VisualActor>

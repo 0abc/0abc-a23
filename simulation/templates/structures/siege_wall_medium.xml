@@ -32,9 +32,6 @@
     <GenericName>Siege Wall</GenericName>
     <SelectionGroupName>structures/siege_wallset</SelectionGroupName>
   </Identity>
-  <Loot>
-    <wood>12</wood>
-  </Loot>
   <Obstruction>
     <Static width="25.0" depth="5.0"/>
   </Obstruction>

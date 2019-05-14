@@ -24,10 +24,6 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>10</metal>
-    <wood>30</wood>
-  </Loot>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>

@@ -39,9 +39,6 @@
     <Tooltip>Can be built in neutral territory. Garrison a soldier to fire arrows.</Tooltip>
     <VisibleClasses datatype="tokens">Outpost</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>15</wood>
-  </Loot>
   <Obstruction>
     <Static width="5" depth="5"/>
   </Obstruction>

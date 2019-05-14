@@ -31,9 +31,6 @@
     <Tooltip>Dropsite for food.</Tooltip>
     <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>20</wood>
-  </Loot>
   <RallyPoint disable=""/>
   <ResourceDropsite>
     <Types>food</Types>

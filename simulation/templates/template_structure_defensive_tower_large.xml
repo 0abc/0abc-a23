@@ -38,11 +38,6 @@
     <Icon>structures/defense_tower.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <stone>20</stone>
-    <wood>30</wood>
-  </Loot>
   <Obstruction>
     <Static width="7" depth="7"/>
   </Obstruction>

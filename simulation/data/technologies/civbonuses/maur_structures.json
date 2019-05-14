@@ -12,13 +12,7 @@
     {"value": "Cost/Resources/wood",  "multiply": 3.0,  "affects": "StoneWall"},
     {"value": "Cost/Resources/wood",  "multiply": 3.0,  "affects": "Temple"   },
     {"value": "Health/Max",           "multiply": 0.8,  "affects": "StoneWall"},
-    {"value": "Health/Max",           "multiply": 0.8,  "affects": "Temple"   },
-    {"value": "Loot/stone",           "replace":  0,    "affects": "Centre"   },
-    {"value": "Loot/stone",           "replace":  0,    "affects": "StoneWall"},
-    {"value": "Loot/stone",           "replace":  0,    "affects": "Temple"   },
-    {"value": "Loot/wood",            "multiply": 2.0,  "affects": "Centre"   },
-    {"value": "Loot/wood",            "multiply": 3.0,  "affects": "StoneWall"},
-    {"value": "Loot/wood",            "multiply": 3.0,  "affects": "Temple"   }
+    {"value": "Health/Max",           "multiply": 0.8,  "affects": "Temple"   }
   ],
   "requirements": {"civ": "maur"},
   "tooltip": "Mauryan centres 0 stone cost, +100% wood cost; city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health."

@@ -39,12 +39,6 @@
     <Tooltip>Territory root. Construct and repair warships.</Tooltip>
     <VisibleClasses datatype="tokens">Harbour</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <metal>20</metal>
-    <stone>40</stone>
-    <wood>80</wood>
-  </Loot>
   <Obstruction>
     <Static width="42.0" depth="58.0"/>
   </Obstruction>

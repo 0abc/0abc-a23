@@ -26,11 +26,6 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>20</metal>
-    <stone>20</stone>
-    <wood>0</wood>
-  </Loot>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
   <Sound>

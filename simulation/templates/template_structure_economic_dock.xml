@@ -26,9 +26,6 @@
     <Tooltip>Dropsite for all resources. Construct fishing boats and merchant ships. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Market Dock</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>40</wood>
-  </Loot>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>
     <TradeType>land naval</TradeType>

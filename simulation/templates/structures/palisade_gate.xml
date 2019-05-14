@@ -22,9 +22,6 @@
     <Icon>structures/wooden_gate.png</Icon>
     <SelectionGroupName>structures/palisade_gate</SelectionGroupName>
   </Identity>
-  <Loot>
-    <wood>10</wood>
-  </Loot>
   <Obstruction>
     <Obstructions>
       <Door width="10" depth="2" x="0" z="0"/>

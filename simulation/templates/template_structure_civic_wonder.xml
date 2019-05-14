@@ -37,12 +37,6 @@
     <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Wonder</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>200</metal>
-    <silver>400</silver>
-    <stone>400</stone>
-    <wood>200</wood>
-  </Loot>
   <ProductionQueue>
     <Technologies datatype="tokens">
       wonder

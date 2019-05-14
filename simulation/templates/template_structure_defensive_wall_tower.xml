@@ -19,10 +19,6 @@
     <Icon>structures/tower.png</Icon>
     <Tooltip>Shoots arrows. Garrison to defend a city wall against attackers.</Tooltip>
   </Identity>
-  <Loot>
-    <stone>36</stone>
-    <wood>12</wood>
-  </Loot>
   <Obstruction>
     <ControlPersist/>
   </Obstruction>

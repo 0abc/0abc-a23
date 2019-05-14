@@ -36,10 +36,6 @@
     <Tooltip>Train war dogs.</Tooltip>
     <VisibleClasses datatype="tokens">Kennel</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>10</food>
-    <wood>10</wood>
-  </Loot>
   <Obstruction>
     <Static width="6" depth="5"/>
   </Obstruction>

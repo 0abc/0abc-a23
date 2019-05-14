@@ -31,10 +31,6 @@
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>20</metal>
-    <wood>60</wood>
-  </Loot>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_barracks.xml</constructed>

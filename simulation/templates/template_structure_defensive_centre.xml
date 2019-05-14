@@ -62,12 +62,6 @@
     <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources.</Tooltip>
     <VisibleClasses datatype="tokens">-Defensive Centre</VisibleClasses>
   </Identity>
-  <Loot>
-    <silver>60</silver>
-    <stone>60</stone>
-    <wood>60</wood>
-    <xp>250</xp>
-  </Loot>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>
     <TradeType>land</TradeType>

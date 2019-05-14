@@ -26,11 +26,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal>30</metal>
-    <stone>90</stone>
-    <wood>30</wood>
-  </Loot>
   <ResourceTrickle>
     <Rates>
       <silver>-0.5</silver>

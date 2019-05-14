@@ -20,9 +20,6 @@
   <Identity>
     <GenericName>Siege Wall Tower</GenericName>
   </Identity>
-  <Loot>
-    <wood>24</wood>
-  </Loot>
   <Obstruction>
     <Static width="7.0" depth="7.0"/>
   </Obstruction>

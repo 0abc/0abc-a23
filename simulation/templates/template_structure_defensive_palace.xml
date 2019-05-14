@@ -41,13 +41,6 @@
     <Tooltip>Territory root. Train infantry champions.</Tooltip>
     <VisibleClasses datatype="tokens">Military Palace</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>40</food>
-    <metal>40</metal>
-    <silver>240</silver>
-    <stone>120</stone>
-    <wood>40</wood>
-  </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_pikeman_champion

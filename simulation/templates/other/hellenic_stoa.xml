@@ -12,10 +12,6 @@
     <SpecificName>Stoa</SpecificName>
     <Icon>gaia/special_stoa.png</Icon>
   </Identity>
-  <Loot>
-    <stone>50</stone>
-    <metal>50</metal>
-  </Loot>
   <Obstruction>
     <Static width="26.0" depth="10.5"/>
   </Obstruction>

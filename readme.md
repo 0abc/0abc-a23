@@ -57,6 +57,7 @@ Changes include, but are not limited to:
 * introduced a new resource: silver
 * pierce damage is split into pierce (arrows) and thrust (spears)
 * most units and many structures steadily consume small amounts of resources (upkeep)
+* removed resource loot
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
 * merged Athenians and Spartans into a single faction, the Greeks
