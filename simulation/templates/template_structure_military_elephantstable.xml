@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Category>ElephantStable</Category>
   </BuildRestrictions>
-  <Cost>
-    <BuildTime>240</BuildTime>
-  </Cost>
   <Footprint>
     <Height>8</Height>
     <Square width="31" depth="29"/>
@@ -35,6 +32,9 @@
       units/{civ}/war_elephant_mercenary
       units/{civ}/war_elephant_champion
     </Entities>
+    <Technologies datatype="tokens">
+      training_elephant_stable
+    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>

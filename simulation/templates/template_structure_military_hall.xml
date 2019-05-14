@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Category>Hall</Category>
   </BuildRestrictions>
-  <Cost>
-    <BuildTime>120</BuildTime>
-  </Cost>
   <GarrisonHolder>
     <Max>5</Max>
   </GarrisonHolder>
@@ -15,30 +12,24 @@
   <Identity>
     <GenericName>Hall</GenericName>
     <Icon>structures/italian_embassy.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Train infantry champions.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Train infantry mercenaries.</Tooltip>
     <VisibleClasses datatype="tokens">Hall</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_champion
-      units/{civ}/infantry_spearman_champion
-      units/{civ}/infantry_spearman_champion_2
-      units/{civ}/infantry_spearman_champion_3
-      units/{civ}/infantry_longswordsman_champion
-      units/{civ}/infantry_swordsman_champion
-      units/{civ}/infantry_sabreman_champion
-      units/{civ}/infantry_axeman_champion
-      units/{civ}/infantry_maceman_champion
-      units/{civ}/infantry_javelinist_champion
-      units/{civ}/infantry_longbowman_champion
-      units/{civ}/infantry_archer_champion
-      units/{civ}/infantry_slinger_champion
+      units/{civ}/infantry_pikeman_mercenary
+      units/{civ}/infantry_spearman_mercenary
+      units/{civ}/infantry_longswordsman_mercenary
+      units/{civ}/infantry_swordsman_mercenary
+      units/{civ}/infantry_sabreman_mercenary
+      units/{civ}/infantry_axeman_mercenary
+      units/{civ}/infantry_maceman_mercenary
+      units/{civ}/infantry_javelinist_mercenary
+      units/{civ}/infantry_longbowman_mercenary
+      units/{civ}/infantry_archer_mercenary
+      units/{civ}/infantry_slinger_mercenary
     </Entities>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-      training_soldiers
-    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>

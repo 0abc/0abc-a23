@@ -41,8 +41,9 @@
       structures/{civ}/workshop
 
       structures/{civ}/shipyard
+      structures/{civ}/naval_base
       structures/{civ}/crannog
-      structures/{civ}/harbour
+      structures/{civ}/colony
       structures/{civ}/palace
       structures/{civ}/palace_2
       structures/{civ}/camp

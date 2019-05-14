@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Category>Barracks</Category>
   </BuildRestrictions>
-  <Cost>
-    <BuildTime>180</BuildTime>
-  </Cost>
   <Footprint>
     <Height>12.0</Height>
     <Square width="22" depth="22"/>
@@ -20,8 +17,8 @@
   <Identity>
     <GenericName>Barracks</GenericName>
     <Icon>structures/pers_barracks.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Train infantry mercenaries. Research infantry technologies.</Tooltip>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Train infantry champions. Research infantry technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
   </Identity>
   <Obstruction>
@@ -29,27 +26,22 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_mercenary
-      units/{civ}/infantry_spearman_mercenary
-      units/{civ}/infantry_longswordsman_mercenary
-      units/{civ}/infantry_swordsman_mercenary
-      units/{civ}/infantry_sabreman_mercenary
-      units/{civ}/infantry_axeman_mercenary
-      units/{civ}/infantry_maceman_mercenary
-      units/{civ}/infantry_javelinist_mercenary
-      units/{civ}/infantry_longbowman_mercenary
-      units/{civ}/infantry_archer_mercenary
-      units/{civ}/infantry_slinger_mercenary
+      units/{civ}/infantry_pikeman_champion
+      units/{civ}/infantry_spearman_champion
+      units/{civ}/infantry_spearman_champion_2
+      units/{civ}/infantry_spearman_champion_3
+      units/{civ}/infantry_longswordsman_champion
+      units/{civ}/infantry_swordsman_champion
+      units/{civ}/infantry_sabreman_champion
+      units/{civ}/infantry_axeman_champion
+      units/{civ}/infantry_maceman_champion
+      units/{civ}/infantry_javelinist_champion
+      units/{civ}/infantry_longbowman_champion
+      units/{civ}/infantry_archer_champion
+      units/{civ}/infantry_slinger_champion
     </Entities>
     <Technologies datatype="tokens">
-      armour_infantry_1
-      armour_infantry_2
-      armour_infantry_3
-      archery_tradition
-      arrowheads
-      attack_infantry_javelin
-      steel_working
-      marching
+      training_barracks
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

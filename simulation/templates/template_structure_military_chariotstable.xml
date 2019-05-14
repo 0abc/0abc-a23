@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Category>ChariotStable</Category>
   </BuildRestrictions>
-  <Cost>
-    <BuildTime>210</BuildTime>
-  </Cost>
   <GarrisonHolder>
     <List datatype="tokens">Chariot</List>
     <Max>5</Max>
@@ -32,6 +29,9 @@
       units/{civ}/quadriga_scythed_mercenary
       units/{civ}/quadriga_scythed_champion
     </Entities>
+    <Technologies datatype="tokens">
+      training_chariot_stable
+    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>

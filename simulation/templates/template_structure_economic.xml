@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
+  <AlertRaiser>
+    <EndOfAlertRange>80</EndOfAlertRange>
+    <List datatype="tokens">FemaleCitizen</List>
+    <RaiseAlertRange>60</RaiseAlertRange>
+    <SearchRange>40</SearchRange>
+  </AlertRaiser>
   <Armour>
     <Crush>1</Crush>
     <Hack>5</Hack>

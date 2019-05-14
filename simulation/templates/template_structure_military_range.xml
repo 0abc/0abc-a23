@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Category>Range</Category>
   </BuildRestrictions>
-  <Cost>
-    <BuildTime>150</BuildTime>
-  </Cost>
   <Footprint>
     <Height>10</Height>
     <Square width="25" depth="25"/>

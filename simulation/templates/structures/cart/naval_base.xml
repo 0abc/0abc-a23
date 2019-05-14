@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_base_naval">
+  <Footprint>
+    <Height>8</Height>
+    <Square width="42" depth="58"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>5</Max>
+    <List datatype="tokens">Ship</List>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Cothon</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="42" depth="58"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/carthaginians/super_dock.xml</Actor>
+    <FoundationActor>structures/fndn_dock_super.xml</FoundationActor>
+  </VisualActor>
+</Entity>

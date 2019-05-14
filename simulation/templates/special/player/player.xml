@@ -20,12 +20,12 @@
       <ElephantStable>0</ElephantStable>
       <Embassy>1</Embassy>
       <Fortress>10</Fortress>
-      <Hall>0</Hall>
-      <Harbour>1</Harbour>
+      <Hall>3</Hall>
       <Hero>1</Hero>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
       <MercenaryCamp>2</MercenaryCamp>
+      <NavalBase>1</NavalBase>
       <NavalTrader>20</NavalTrader>
       <Palace>1</Palace>
       <Pillar>5</Pillar>
@@ -46,9 +46,6 @@
       <Fortress>
         <Centre>2</Centre>
       </Fortress>
-      <Hall>
-        <Centre>1</Centre>
-      </Hall>
       <Tower>
         <Centre>5</Centre>
       </Tower>

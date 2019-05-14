@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_palace">
+<Entity parent="template_structure_base_palace">
   <Footprint>
     <Height>15</Height>
     <Square width="30" depth="30"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>cart</Civ>
   </Identity>
@@ -15,6 +12,5 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/carthaginians/palace.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

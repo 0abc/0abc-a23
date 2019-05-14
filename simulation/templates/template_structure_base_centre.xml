@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive">
+<Entity parent="template_structure_base">
   <AlertRaiser>
     <EndOfAlertRange>200</EndOfAlertRange>
     <List datatype="tokens">FemaleCitizen</List>
     <RaiseAlertRange>150</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
-  <Armour>
-    <Crush>3</Crush>
-    <Hack>25</Hack>
-    <Pierce>35</Pierce>
-    <Thrust>30</Thrust>
-    <Foundation>
-      <Crush>3</Crush>
-      <Hack>5</Hack>
-      <Pierce>15</Pierce>
-      <Thrust>10</Thrust>
-    </Foundation>
-  </Armour>
   <Attack>
     <Ranged>
       <ElevationBonus>5</ElevationBonus>
@@ -26,13 +14,10 @@
   <Auras datatype="tokens">
     structures/centre
   </Auras>
-  <BuildingAI>
-    <MaxArrowCount>12</MaxArrowCount>
-  </BuildingAI>
   <BuildRestrictions>
     <Category>Centre</Category>
     <Distance>
-      <FromClass>Centre</FromClass>
+      <FromClass>Base</FromClass>
       <MinDistance>200</MinDistance>
     </Distance>
     <Territory>own neutral</Territory>
@@ -43,29 +28,22 @@
   </Capturable>
   <Cost>
     <BuildTime>450</BuildTime>
-    <PopulationBonus>10</PopulationBonus>
     <Resources>
+      <food>300</food>
       <stone>300</stone>
       <wood>300</wood>
     </Resources>
   </Cost>
-  <GarrisonHolder>
-    <Max>20</Max>
-  </GarrisonHolder>
   <Health>
     <Max>2500</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CivCentre CivilCentre ConquestCritical</Classes>
+    <Classes datatype="tokens">CivCentre CivilCentre</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Train citizen-soldiers.</Tooltip>
-    <VisibleClasses datatype="tokens">-Defensive Centre</VisibleClasses>
+    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Train infantry citizen-soldiers.</Tooltip>
+    <VisibleClasses datatype="tokens">Centre</VisibleClasses>
   </Identity>
-  <Market>
-    <InternationalBonus>0.2</InternationalBonus>
-    <TradeType>land</TradeType>
-  </Market>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_pikeman
@@ -83,6 +61,9 @@
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
+      armour_infantry_1
+      armour_infantry_2
+      armour_infantry_3
       centre_watch_1
       centre_watch_2
       centre_watch_3
@@ -91,7 +72,13 @@
       unlock_shared_dropsites
       unlock_spies
       unlock_counterespionage
+      archery_tradition
+      arrowheads
+      attack_infantry_javelin
       colonization
+      marching
+      parade
+      steel_working
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
@@ -100,18 +87,12 @@
   </ResourceDropsite>
   <Sound>
     <SoundGroups>
-      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
-      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
       <constructed>interface/complete/building/complete_civ_center.xml</constructed>
       <select>interface/select/building/sel_civ_center.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
     <Radius>150</Radius>
-    <Root>true</Root>
     <Weight>10000</Weight>
   </TerritoryInfluence>
-  <VisualActor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
-  </VisualActor>
 </Entity>

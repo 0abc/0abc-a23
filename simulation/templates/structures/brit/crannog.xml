@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_centre">
+<Entity parent="template_structure_base_centre">
   <BuildRestrictions>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>

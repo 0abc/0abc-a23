@@ -20,6 +20,9 @@
       <select>interface/select/building/sel_tower.xml</select>
     </SoundGroups>
   </Sound>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>

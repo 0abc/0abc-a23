@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_centre">
+<Entity parent="template_structure_base_centre">
   <Footprint>
     <Height>8</Height>
-    <Square width="32" depth="32"/>
+    <Square width="34" depth="34"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>sele</Civ>
     <SpecificName>Ἀγορά</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="30" depth="30"/>
+    <Static width="32" depth="32"/>
   </Obstruction>
+  <Upgrade>
+    <Centre>
+      <Cost>
+        <stone>100</stone>
+        <wood>100</wood>
+      </Cost>
+      <Entity>structures/sele/centre_large</Entity>
+      <RequiredTechnology>phase_city</RequiredTechnology>
+      <Time>60</Time>
+      <Tooltip>Expand to accomodate more units.</Tooltip>
+    </Centre>
+  </Upgrade>
   <VisualActor>
-    <Actor>structures/seleucids/military_colony.xml</Actor>
+    <Actor>structures/seleucids/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

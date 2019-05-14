@@ -25,15 +25,15 @@ m.Config = function(difficulty, behavior)
     "numSentryTowers": 1
   };
   this.Economy = {
-    "popPhase2": 38,  // How many units we want before aging to phase2.
-    "workPhase3": 65,  // How many workers we want before aging to phase3.
-    "workPhase4": 80,  // How many workers we want before aging to phase4 or higher.
+    "popPhase2": 30,  // How many units we want before aging to phase2.
+    "workPhase3": 60,  // How many workers we want before aging to phase3.
+    "workPhase4": 90,  // How many workers we want before aging to phase4 or higher.
     "popForDock": 25,
     "targetNumWorkers": 40,  // dummy, will be changed later
     "targetNumTraders": 5,  // Target number of traders
     "targetNumFishers": 1,  // Target number of fishers per sea
     "supportRatio": 0.35,  // fraction of support workers among the workforce
-    "provisionFields": 2
+    "provisionFields": 5
   };
 
   // Note: attack settings are set directly in attack_plan.js
@@ -51,20 +51,20 @@ m.Config = function(difficulty, behavior)
   this.buildings =
   {
 		"default": [],
-		"athen": ["structures/{civ}/shipyard"],
-		"brit": ["structures/{civ}/hall", "structures/{civ}/crannog", "structures/{civ}/kennel", "structures/{civ}/rotarymill"],
-		"cart": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/harbour"],
-		"gaul": ["structures/{civ}/hall", "structures/{civ}/rotarymill"],
-		"gree": ["structures/{civ}/hall", "structures/{civ}/shipyard"],
-		"iber": ["structures/{civ}/hall", "structures/{civ}/pillar"],
-		"kush": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/blemmye_camp", "structures/nuba_camp"],
-		"mace": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/theatre"],
-		"maur": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/pillar"],
-		"pers": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/palace_2", "structures/nabatean_camp"],
-		"ptol": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre", "structures/nabatean_camp"],
-		"rome": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/camp"],
-		"sele": ["structures/{civ}/palace", "structures/{civ}/shipyard", "structures/{civ}/library", "structures/{civ}/theatre", "structures/nabatean_camp"],
-		"spart": ["structures/{civ}/shipyard"]
+		"athen": [],
+		"brit": ["structures/{civ}/crannog", "structures/{civ}/rotarymill"],
+		"cart": ["structures/{civ}/hall", "structures/{civ}/naval_base"],
+		"gaul": ["structures/{civ}/rotarymill"],
+		"gree": ["structures/{civ}/hall"],
+		"iber": ["structures/{civ}/pillar"],
+		"kush": ["structures/blemmye_camp", "structures/nuba_camp"],
+		"mace": ["structures/{civ}/hall",  "structures/{civ}/library", "structures/{civ}/theatre"],
+		"maur": ["structures/{civ}/palace", "structures/{civ}/pillar"],
+		"pers": ["structures/{civ}/hall", "structures/{civ}/palace", "structures/{civ}/palace_2", "structures/nabatean_camp"],
+		"ptol": ["structures/{civ}/colony", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre", "structures/nabatean_camp"],
+		"rome": ["structures/{civ}/camp"],
+		"sele": ["structures/{civ}/colony", "structures/{civ}/library", "structures/{civ}/theatre", "structures/nabatean_camp"],
+		"spart": []
   };
 
   this.priorities =

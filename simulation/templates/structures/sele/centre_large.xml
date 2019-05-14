@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_palace">
+<Entity parent="template_structure_base_centre_large">
   <Footprint>
-    <Height>8</Height>
-    <Square width="32" depth="32"/>
+    <Height>12</Height>
+    <Square width="34" depth="34"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>sele</Civ>
     <SpecificName>Βασίλειον</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="30" depth="30"/>
+    <Static width="32" depth="32"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/seleucids/civic_center_metropolitan.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base_centre">
+<Entity parent="template_structure_base_colony">
   <Footprint>
     <Height>8</Height>
     <Square width="32" depth="32"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_iber_cc</SpawnEntityOnDeath>
-  </Health>
   <Identity>
-    <Civ>iber</Civ>
-    <SpecificName>Oppidum</SpecificName>
+    <Civ>sele</Civ>
+    <SpecificName>Κληρουχία</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30" depth="30"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/iberians/civil_centre.xml</Actor>
+    <Actor>structures/seleucids/military_colony.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military">
+<Entity parent="template_structure_base">
+  <Auras datatype="tokens">
+    structures/cart_super_dock_repair
+  </Auras>
   <BuildRestrictions>
-    <Category>Shipyard</Category>
+    <Category>NavalBase</Category>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
-  <Footprint>
-    <Height>8</Height>
-    <Square width="26" depth="30"/>
-  </Footprint>
-  <GarrisonHolder>
-    <Max>5</Max>
-  </GarrisonHolder>
+  <Capturable>
+    <CapturePoints>2500</CapturePoints>
+    <GarrisonRegenRate>10</GarrisonRegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>500</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>100</metal>
+      <stone>200</stone>
+      <wood>400</wood>
+    </Resources>
+  </Cost>
   <Health>
-    <Max>1800</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
+    <Max>5000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical Naval</Classes>
-    <GenericName>Shipyard</GenericName>
-    <Icon>structures/uber_dock.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Construct warships. Research naval improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Shipyard</VisibleClasses>
+    <Classes datatype="tokens">Base</Classes>
+    <GenericName>Naval Base</GenericName>
+    <Icon>structures/crannog.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Territory root. Construct and repair warships.</Tooltip>
+    <VisibleClasses datatype="tokens">NavalBase</VisibleClasses>
   </Identity>
-  <Obstruction>
-    <Static width="22" depth="26"/>
-  </Obstruction>
   <Position>
     <Floating>true</Floating>
     <FloatDepth>0.0</FloatDepth>
@@ -55,9 +60,8 @@
       <select>interface/select/building/sel_dock.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay disable=""/>
-  <TerritoryInfluence disable=""/>
-  <VisualActor>
-    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
-  </VisualActor>
+  <TerritoryInfluence>
+    <Radius>200</Radius>
+    <Weight>25000</Weight>
+  </TerritoryInfluence>
 </Entity>

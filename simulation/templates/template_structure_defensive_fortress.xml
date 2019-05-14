@@ -68,6 +68,9 @@
     <Root>true</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>

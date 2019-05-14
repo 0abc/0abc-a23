@@ -9,9 +9,8 @@
     {"value": "Cost/Resources/food",          "add":      100},
     {"value": "Cost/Resources/metal",         "add":      100},
     {"value": "Health/Max",                   "multiply": 1.2},
-    {"value": "ResourceTrickle/Rates/food",   "add":     -0.1},
+    {"value": "ResourceTrickle/Rates/food",   "add":     -0.2},
     {"value": "ResourceTrickle/Rates/silver", "add":      0.2},
-    {"value": "ResourceTrickle/Rates/wood",   "add":     -0.1},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "replaces": ["phase_town"],
@@ -22,5 +21,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_village",
-  "tooltip": "Advance to Town Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase silver income."
+  "tooltip": "Advance to Town Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase food upkeep and silver income."
 }

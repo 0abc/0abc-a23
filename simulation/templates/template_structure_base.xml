@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
+  <Armour>
+    <Crush>3</Crush>
+    <Hack>25</Hack>
+    <Pierce>35</Pierce>
+    <Thrust>30</Thrust>
+    <Foundation>
+      <Crush>3</Crush>
+      <Hack>5</Hack>
+      <Pierce>15</Pierce>
+      <Thrust>10</Thrust>
+    </Foundation>
+  </Armour>
   <Attack>
     <Ranged>
       <Crush>0</Crush>
@@ -27,17 +39,35 @@
     <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>10</MaxArrowCount>
   </BuildingAI>
+  <Cost>
+    <PopulationBonus>10</PopulationBonus>
+  </Cost>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Infantry Worker Healer Dog</List>
+    <List datatype="tokens">Infantry Support+!Elephant Dog</List>
     <LoadingRange>2</LoadingRange>
-    <Max>0</Max>
+    <Max>20</Max>
   </GarrisonHolder>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
-    <GenericName>Defensive Structure</GenericName>
-    <VisibleClasses datatype="tokens">Defensive</VisibleClasses>
+    <Classes datatype="tokens">ConquestCritical</Classes>
+    <GenericName>Base Structure</GenericName>
+    <Tooltip>Territory root.</Tooltip>
+    <VisibleClasses datatype="tokens">Base</VisibleClasses>
   </Identity>
+  <TerritoryInfluence>
+    <Root>true</Root>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>

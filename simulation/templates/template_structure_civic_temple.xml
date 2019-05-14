@@ -37,6 +37,7 @@
       healer_rate_2
       heal_garrison
       health_regen_units
+      attack_soldiers_will
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -1,9 +1,0 @@
-ROMANS
-
-• Military structures −10% construction time; 
-city walls +10% health.
-
-• Stone-throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
-
-• Starts with two pigs.
-

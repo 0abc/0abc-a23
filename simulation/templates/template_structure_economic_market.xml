@@ -40,8 +40,6 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
-      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
       <constructed>interface/complete/building/complete_market.xml</constructed>
       <select>interface/select/building/sel_market.xml</select>
     </SoundGroups>

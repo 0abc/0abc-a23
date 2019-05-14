@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Category>Workshop</Category>
   </BuildRestrictions>
-  <Cost>
-    <BuildTime>180</BuildTime>
-  </Cost>
   <Footprint>
     <Height>12</Height>
     <Square width="30" depth="30"/>
@@ -42,6 +39,9 @@
       units/{civ}/quadriga_scythed_mercenary
       units/{civ}/quadriga_scythed_champion
     </Entities>
+    <Technologies datatype="tokens">
+      training_siege_workshop
+    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
