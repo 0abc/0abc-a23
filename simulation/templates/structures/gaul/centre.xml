@@ -14,11 +14,6 @@
   <Obstruction>
     <Static width="26" depth="26"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_spearman
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/gauls/civic_centre.xml</Actor>
   </VisualActor>

@@ -83,12 +83,8 @@
       "Template": "units/brit/support_healer"
     },
     {
-      "Template": "units/brit/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/brit/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/brit/infantry_slinger",

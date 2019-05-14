@@ -14,11 +14,6 @@
   <Obstruction>
     <Static width="34" depth="34"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/ptolemies/military_colony.xml</Actor>
   </VisualActor>

@@ -76,12 +76,8 @@
       "Template": "units/sele/support_healer"
     },
     {
-      "Template": "units/sele/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/sele/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/sele/infantry_javelinist",

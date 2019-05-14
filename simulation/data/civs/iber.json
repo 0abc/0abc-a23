@@ -71,12 +71,8 @@
       "Template": "units/iber/support_healer"
     },
     {
-      "Template": "units/iber/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/iber/infantry_sabreman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/iber/infantry_javelinist",

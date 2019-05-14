@@ -42,7 +42,7 @@
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>500</BuildTime>
+    <BuildTime>450</BuildTime>
     <PopulationBonus>10</PopulationBonus>
     <Resources>
       <stone>300</stone>
@@ -53,13 +53,13 @@
     <Max>20</Max>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max>2500</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CivCentre CivilCentre ConquestCritical</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources.</Tooltip>
+    <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for all resources. Train citizen-soldiers.</Tooltip>
     <VisibleClasses datatype="tokens">-Defensive Centre</VisibleClasses>
   </Identity>
   <Market>
@@ -67,6 +67,19 @@
     <TradeType>land</TradeType>
   </Market>
   <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_pikeman
+      units/{civ}/infantry_spearman
+      units/{civ}/infantry_longswordsman
+      units/{civ}/infantry_swordsman
+      units/{civ}/infantry_sabreman
+      units/{civ}/infantry_axeman
+      units/{civ}/infantry_maceman
+      units/{civ}/infantry_javelinist
+      units/{civ}/infantry_longbowman
+      units/{civ}/infantry_archer
+      units/{civ}/infantry_slinger
+    </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}

@@ -72,12 +72,8 @@
       "Template": "units/athen/support_healer"
     },
     {
-      "Template": "units/athen/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/athen/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/athen/infantry_slinger",

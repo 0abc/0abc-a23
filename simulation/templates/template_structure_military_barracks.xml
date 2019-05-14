@@ -20,8 +20,8 @@
   <Identity>
     <GenericName>Barracks</GenericName>
     <Icon>structures/pers_barracks.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
-    <Tooltip>Train infantry. Research infantry technologies.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Train infantry mercenaries. Research infantry technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
   </Identity>
   <Obstruction>
@@ -29,17 +29,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman
-      units/{civ}/infantry_spearman
-      units/{civ}/infantry_longswordsman
-      units/{civ}/infantry_swordsman
-      units/{civ}/infantry_sabreman
-      units/{civ}/infantry_axeman
-      units/{civ}/infantry_maceman
-      units/{civ}/infantry_javelinist
-      units/{civ}/infantry_longbowman
-      units/{civ}/infantry_archer
-      units/{civ}/infantry_slinger
       units/{civ}/infantry_pikeman_mercenary
       units/{civ}/infantry_spearman_mercenary
       units/{civ}/infantry_longswordsman_mercenary

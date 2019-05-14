@@ -83,12 +83,8 @@
       "Template": "units/gaul/support_healer"
     },
     {
-      "Template": "units/gaul/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/gaul/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/gaul/infantry_javelinist",

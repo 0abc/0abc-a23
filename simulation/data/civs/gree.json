@@ -198,12 +198,8 @@
       "Template": "units/gree/support_healer"
     },
     {
-      "Template": "units/gree/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/gree/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/gree/infantry_javelinist",

@@ -78,12 +78,8 @@
       "Template": "units/kush/support_healer"
     },
     {
-      "Template": "units/kush/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/kush/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/kush/infantry_archer",

@@ -72,12 +72,8 @@
       "Template": "units/spart/support_healer"
     },
     {
-      "Template": "units/spart/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/spart/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/spart/infantry_javelinist",

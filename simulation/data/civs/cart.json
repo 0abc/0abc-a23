@@ -77,12 +77,8 @@
       "Template": "units/cart/support_healer"
     },
     {
-      "Template": "units/cart/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/cart/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/cart/infantry_archer",

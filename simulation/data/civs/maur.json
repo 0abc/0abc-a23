@@ -77,12 +77,8 @@
       "Template": "units/maur/support_healer"
     },
     {
-      "Template": "units/maur/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/maur/infantry_spearman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/maur/infantry_archer",

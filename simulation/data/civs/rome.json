@@ -77,12 +77,8 @@
       "Template": "units/rome/support_healer"
     },
     {
-      "Template": "units/rome/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/rome/infantry_sabreman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/rome/infantry_javelinist",

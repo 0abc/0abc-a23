@@ -77,12 +77,8 @@
       "Template": "units/mace/support_healer"
     },
     {
-      "Template": "units/mace/support_woman",
-      "Count": 5
-    },
-    {
       "Template": "units/mace/infantry_pikeman",
-      "Count": 2
+      "Count": 4
     },
     {
       "Template": "units/mace/infantry_javelinist",
