@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_centre">
   <Footprint>
     <Height>8</Height>
-    <Square width="40" depth="40"/>
+    <Square width="37" depth="37"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_rome_cc</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Forum</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="38" depth="38"/>
+    <Static width="35" depth="35"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">

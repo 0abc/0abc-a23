@@ -3,7 +3,7 @@
   "Culture": "hele",
   "Name": "Spartans",
   "Emblem": "session/portraits/emblems/emblem_spartans.png",
-  "History": "Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco–Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
+  "History": "Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 BC. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco–Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
   "Music":[
       {"File": "Helen_Leaves_Sparta.ogg", "Type": "peace"},
       {"File": "Peaks_of_Atlas.ogg", "Type": "peace"},
@@ -25,7 +25,7 @@
           "Class": "",
           "Armament": "",
           "Emblem": "",
-          "History": "The king of Sparta, who fought and died at the battle of Thermopylae in 480 B.C. He successfully blocked the way of the huge Persian army through the narrow passage with his 7000 men, until Xerxes was made aware of a secret unobstructed path. Finding the enemy at his rear, Leonidas sent home most of his troops, choosing to stay behind with 300 hand-picked hoplites and win time for the others to withdraw."
+          "History": "The king of Sparta, who fought and died at the battle of Thermopylae in 480 BC. He successfully blocked the way of the huge Persian army through the narrow passage with his 7000 men, until Xerxes was made aware of a secret unobstructed path. Finding the enemy at his rear, Leonidas sent home most of his troops, choosing to stay behind with 300 hand-picked hoplites and win time for the others to withdraw."
         },
         {
           "Name": "Brasidas",

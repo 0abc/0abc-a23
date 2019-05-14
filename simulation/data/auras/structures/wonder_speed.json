@@ -10,8 +10,8 @@
   "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
   "radius": 100,
   "rangeOverlay" : {
-    "lineTexture": "overlays/knot.png",
-    "lineTextureMask": "overlays/knot_mask.png",
+    "lineTexture": "overlays/outwards.png",
+    "lineTextureMask": "overlays/outwards_mask.png",
     "lineThickness": 0.4
   },
   "type": "range"

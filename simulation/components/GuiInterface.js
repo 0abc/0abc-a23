@@ -1673,8 +1673,8 @@ GuiInterface.prototype.PlaySound = function(player, data)
  * Find any idle units.
  *
  * @param data.idleClasses    Array of class names to include.
- * @param data.prevUnit    The previous idle unit, if calling a second time to iterate through units.  May be left undefined.
- * @param data.limit      The number of idle units to return.  May be left undefined (will return all idle units).
+ * @param data.prevUnit    The previous idle unit, if calling a second time to iterate through units. May be left undefined.
+ * @param data.limit      The number of idle units to return. May be left undefined (will return all idle units).
  * @param data.excludeUnits  Array of units to exclude.
  *
  * Returns an array of idle units.
