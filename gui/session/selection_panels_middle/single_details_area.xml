@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Unit details for Single Unit -->
-<object size="50%-112 0 50%+112 100%" name="detailsAreaSingle">
+<object size="50%-108 0 50%+108 100%" name="detailsAreaSingle">
 
   <!-- Stats Bars -->
   <object size= "2 0 100%-2 98" type="image" tooltip_style="sessionToolTip">

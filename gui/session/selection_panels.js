@@ -211,7 +211,7 @@ g_SelectionPanels.AllyCommand = {
 g_SelectionPanels.Construction = {
   "getMaxNumberOfItems": function()
   {
-    return 30 - getNumberOfRightPanelButtons();
+    return 40 - getNumberOfRightPanelButtons();
   },
   "rowLength": 10,
   "getItems": function()
@@ -283,9 +283,9 @@ g_SelectionPanels.Construction = {
 g_SelectionPanels.Formation = {
   "getMaxNumberOfItems": function()
   {
-    return 16;
+    return 15;
   },
-  "rowLength": 4,
+  "rowLength": 5,
   "conflictsWith": ["Garrison"],
   "getItems": function(unitEntStates)
   {
@@ -401,7 +401,7 @@ g_SelectionPanels.Garrison = {
 g_SelectionPanels.Gate = {
   "getMaxNumberOfItems": function()
   {
-    return 30 - getNumberOfRightPanelButtons();
+    return 40 - getNumberOfRightPanelButtons();
   },
   "rowLength": 10,
   "getItems": function(unitEntStates)
@@ -443,7 +443,7 @@ g_SelectionPanels.Gate = {
 g_SelectionPanels.Pack = {
   "getMaxNumberOfItems": function()
   {
-    return 30 - getNumberOfRightPanelButtons();
+    return 40 - getNumberOfRightPanelButtons();
   },
   "rowLength": 10,
   "getItems": function(unitEntStates)
@@ -927,7 +927,7 @@ g_SelectionPanels.Stance = {
 g_SelectionPanels.Training = {
   "getMaxNumberOfItems": function()
   {
-    return 30 - getNumberOfRightPanelButtons();
+    return 40 - getNumberOfRightPanelButtons();
   },
   "rowLength": 10,
   "getItems": function()
@@ -1027,7 +1027,7 @@ g_SelectionPanels.Training = {
 g_SelectionPanels.Upgrade = {
   "getMaxNumberOfItems": function()
   {
-    return 30 - getNumberOfRightPanelButtons();
+    return 40 - getNumberOfRightPanelButtons();
   },
   "rowLength": 10,
   "getItems": function(unitEntStates)
