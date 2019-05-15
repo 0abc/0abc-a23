@@ -8,12 +8,6 @@
   </Armour>
   <Attack>
     <Melee>
-      <Bonuses>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.5</Multiplier>
-        </Elephantry>
-      </Bonuses>
       <Thrust>9</Thrust>
     </Melee>
   </Attack>

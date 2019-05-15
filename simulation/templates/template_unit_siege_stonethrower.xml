@@ -41,6 +41,7 @@
   <Identity>
     <GenericName>Stone Thrower</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Bonuses: 2.0× vs Ships.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
   </Identity>
   <Pack>

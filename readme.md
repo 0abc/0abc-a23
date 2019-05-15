@@ -166,19 +166,13 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Bonus attacks
-* infantry archers: 0.5× vs Elephantry
-* infantry crossbowmen: –
-* infantry javelinists: –
-* infantry longbowmen: 0.5× vs Elephantry
-* infantry slingers: –
 * melee infantry: –
-* camel archers: 0.5× vs Elephantry
-* camel javelinists: –
-* camel spearmen: 0.5× vs Elephantry
-* cavalry archers: 0.5× vs Elephantry
-* cavalry crossbowmen: –
-* cavalry javelinists: –
+* ranged infantry: –
 * melee cavalry: 0.75× vs Chariotry, 0.5× vs Elephantry
+* ranged cavalry: –
+* melee camelry: 0.5× vs Elephantry
+* ranged camelry: –
+* chariotry: –
 * war elephants: –
 * bolt shooters: 1.5× vs Elephantry
 * stone throwers: 2.0× vs Ships

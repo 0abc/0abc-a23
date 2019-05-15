@@ -8,12 +8,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.5</Multiplier>
-        </Elephantry>
-      </Bonuses>
       <MaxRange op="mul">7.0</MaxRange>
       <Pierce>5</Pierce>
       <ProjectileSpeed op="mul">0.9</ProjectileSpeed>

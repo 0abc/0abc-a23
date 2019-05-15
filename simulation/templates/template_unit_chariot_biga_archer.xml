@@ -3,12 +3,6 @@
   <Attack>
     <Melee disable=""/>
     <Ranged>
-      <Bonuses>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.5</Multiplier>
-        </Elephantry>
-      </Bonuses>
       <MaxRange op="mul">6.0</MaxRange>
       <Pierce>8</Pierce>
     </Ranged>

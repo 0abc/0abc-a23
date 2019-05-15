@@ -40,6 +40,7 @@
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Bonuses: 1.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
   </Identity>
   <Pack>
