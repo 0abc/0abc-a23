@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitQueuePanel" size="0 -56 100% 0" type="image" sprite="queuePanelShader">
+<object name="unitQueuePanel" size="0 -56 100% 6" type="image" sprite="queuePanelShader">
   <object size="-4 -52 52 4" type="image" sprite="stretched:session/icons/production.png" tooltip_style="sessionToolTipBottom">
     <translatableAttribute id="tooltip">Production queue</translatableAttribute>
     <object name="queueTimeRemaining" ghost="true" style="iconButtonProgress" type="text"/>

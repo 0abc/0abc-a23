@@ -141,7 +141,7 @@
     <object name="unitCommands"
       type="image"
       sprite="unitCommandsPanel"
-      size="50%+102 100%-170 50%+512 100%"
+      size="50%+102 100%-168 50%+512 100%"
       hidden="false"
       z="20"
     >

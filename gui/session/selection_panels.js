@@ -525,8 +525,9 @@ g_SelectionPanels.Pack = {
 g_SelectionPanels.Queue = {
   "getMaxNumberOfItems": function()
   {
-    return 16;
+    return 20;
   },
+  "rowLength": 10,
   /**
    * Returns a list of all items in the productionqueue of the selection
    * The first entry of every entity's production queue will come before
