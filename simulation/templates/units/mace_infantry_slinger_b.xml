@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/mace/infantry_slinger_mercenary"/>
+<Entity parent="units/merc/rhodian_infantry_slinger"/>

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/ptol/infantry_archer_mercenary"/>
+<Entity parent="units/merc/cretan_infantry_archer"/>
