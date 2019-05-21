@@ -5,7 +5,6 @@
   "genericName": "Metropolis Phase",
   "icon": "imperial_phase.png",
   "modifications": [
-    {"value": "Cost/BuildTime",               "multiply": 1.2},
     {"value": "Cost/Resources/food",          "add":      100},
     {"value": "Cost/Resources/metal",         "add":      100},
     {"value": "Health/Max",                   "multiply": 1.2},
@@ -24,5 +23,5 @@
   "researchTime": 180,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_city",
-  "tooltip": "Advance to Metropolis Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase food upkeep and silver income."
+  "tooltip": "Advance to Metropolis Phase, which unlocks more structures and units. Centres +20% territory influence radius and health. Also increase food upkeep and silver income."
 }

@@ -406,7 +406,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Spearman
-  * Infantry Longbowman
+  * Infantry Archer
   * Cavalry Javelinist
 * Town phase:
   * Healer
@@ -466,7 +466,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Spearman
-  * Infantry Longbowman
+  * Infantry Archer
   * Support Elephant
 * Town phase:
   * Healer
@@ -479,7 +479,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * War Barge
 * City phase:
   * Infantry Maceman Champion
-  * Biga Longbowman Champion
+  * Biga Archer Champion
   * War Elephant Champion
   * Lithobolos
   * Huge Barge

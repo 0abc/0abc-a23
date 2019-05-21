@@ -6,18 +6,6 @@
     <Pierce>10</Pierce>
     <Thrust>5</Thrust>
   </Armour>
-  <Attack>
-    <Melee>
-      <Crush>800</Crush>
-      <Hack>0</Hack>
-      <MaxRange>10</MaxRange>
-      <Pierce>0</Pierce>
-      <PrepareTime>5000</PrepareTime>
-      <RepeatTime>10000</RepeatTime>
-      <RestrictedClasses datatype="tokens">!Ship</RestrictedClasses>
-      <Thrust>0</Thrust>
-    </Melee>
-  </Attack>
   <BuildingAI>
     <DefaultArrowCount>4</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>

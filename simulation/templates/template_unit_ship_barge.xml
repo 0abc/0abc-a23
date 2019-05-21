@@ -7,7 +7,7 @@
     <Thrust>5</Thrust>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>0</DefaultArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
     <MaxArrowCount>20</MaxArrowCount>
