@@ -3,7 +3,6 @@
   <Identity>
     <Civ>maur</Civ>
     <Icon>units/maur_ship_trireme.png</Icon>
-    <SpecificName>Yudhpot</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryans/trireme.xml</Actor>

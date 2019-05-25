@@ -3,12 +3,11 @@
   <Identity>
     <Civ>gree</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Thracian</Classes>
-    <GenericName>Thracian Peltast</GenericName>
     <Icon>units/athen_infantry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_javelineer_mercenary</SelectionGroupName>
-    <SpecificName>Πελταστής Θρᾶξ</SpecificName>
+    <SpecificName>Thracian Peltast</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

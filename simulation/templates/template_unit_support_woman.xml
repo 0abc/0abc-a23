@@ -32,7 +32,7 @@
   <Identity>
     <Classes datatype="tokens">Citizen FemaleCitizen</Classes>
     <Gender>female</Gender>
-    <GenericName>Woman</GenericName>
+    <GenericName>Female Worker</GenericName>
     <VisibleClasses datatype="tokens">Woman Worker</VisibleClasses>
   </Identity>
   <ResourceGatherer>

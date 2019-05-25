@@ -7,7 +7,6 @@
   <Identity>
     <Civ>brit</Civ>
     <Icon>units/brit_support_trader.png</Icon>
-    <SpecificName>Cyfnewidiwr</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/trader.xml</Actor>

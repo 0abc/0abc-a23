@@ -4,11 +4,10 @@
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Indian</Classes>
-    <SpecificName>Warrior</SpecificName>
     <Icon>units/maur_infantry_maceman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_maceman_champion</SelectionGroupName>
-    <SpecificName>Yōddha</SpecificName>
+    <SpecificName>Warrior</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

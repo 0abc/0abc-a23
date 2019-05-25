@@ -3,12 +3,11 @@
   <Identity>
     <Civ>athen</Civ>
     <Classes datatype="tokens">Greek</Classes>
-    <GenericName>Greek Cavalry</GenericName>
     <Icon>units/athen_cavalry_swordsman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/athen/cavalry_swordsman</SelectionGroupName>
-    <SpecificName>Ἵππευς</SpecificName>
+    <SpecificName>Greek Horseman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/cavalry_swordsman_a_m.xml</Actor>

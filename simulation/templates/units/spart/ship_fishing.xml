@@ -7,7 +7,6 @@
   <Identity>
     <Civ>spart</Civ>
     <Icon>units/hele_ship_fishing.png</Icon>
-    <SpecificName>Πλοῖον Ἁλιευτικόν</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/fishing_boat.xml</Actor>

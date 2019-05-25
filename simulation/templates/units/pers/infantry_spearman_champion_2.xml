@@ -4,11 +4,10 @@
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Persian</Classes>
-    <GenericName>Immortal</GenericName>
     <Icon>units/pers_infantry_spearman_c_2.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman_champion_2</SelectionGroupName>
-    <SpecificName>Anusiya</SpecificName>
+    <SpecificName>Immortal</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

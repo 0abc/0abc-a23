@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Celt</Classes>
-    <GenericName>Gallic Mercenary Cavalry</GenericName>
     <Icon>units/celt_cavalry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_swordsman_mercenary</SelectionGroupName>
-    <SpecificName>Ḥayyāl Ḥerev Raḫūv</SpecificName>
+    <SpecificName>Gallic Mercenary Cavalry</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>

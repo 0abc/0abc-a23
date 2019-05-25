@@ -4,9 +4,8 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <Icon>units/mace_thorakites.png</Icon>
     <Lang>greek</Lang>
-    <GenericName>Greek Mercenary</GenericName>
     <SelectionGroupName>units/greek_infantry_swordsman</SelectionGroupName>
-    <SpecificName>Θωρακίτης</SpecificName>
+    <SpecificName>Thorakites</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

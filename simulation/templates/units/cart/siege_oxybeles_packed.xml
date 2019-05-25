@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_siege_oxybeles_p.png</Icon>
-    <SpecificName>Oxybelḗs</SpecificName>
+    <SpecificName>Oxybeles</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/cart/siege_oxybeles_unpacked</Entity>

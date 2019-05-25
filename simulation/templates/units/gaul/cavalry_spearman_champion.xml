@@ -3,11 +3,10 @@
   <Identity>
     <Civ>gaul</Civ>
     <Classes datatype="tokens">Celt</Classes>
-    <GenericName>Gallic Noble Cavalry</GenericName>
     <Icon>units/gaul_cavalry_spearman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gaul/cavalry_spearman_champion</SelectionGroupName>
-    <SpecificName>Brihent</SpecificName>
+    <SpecificName>>Gallic Noble</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

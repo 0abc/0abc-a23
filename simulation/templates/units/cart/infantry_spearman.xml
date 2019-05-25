@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Punic</Classes>
-    <GenericName>Libyan Spearman</GenericName>
     <Icon>units/cart_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_spearman</SelectionGroupName>
-    <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
+    <SpecificName>Libyan Hoplite</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

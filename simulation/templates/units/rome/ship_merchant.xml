@@ -7,7 +7,6 @@
   <Identity>
     <Civ>rome</Civ>
     <Icon>units/rome_ship_merchant.png</Icon>
-    <SpecificName>Navis Oneraria</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/merchantman.xml</Actor>

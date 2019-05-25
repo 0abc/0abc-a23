@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Iberian</Classes>
-    <GenericName>Iberian Mercenary Skirmisher</GenericName>
     <Icon>units/cart_infantry_javelinist_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_javelineer_mercenary</SelectionGroupName>
-    <SpecificName>Sǝḫīr Kidōn</SpecificName>
+    <SpecificName>Iberian Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

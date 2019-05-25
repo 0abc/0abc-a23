@@ -5,7 +5,7 @@
     <Gender>female</Gender>
     <Icon>units/cart_support_healer.png</Icon>
     <SelectionGroupName>units/cart/support_healer</SelectionGroupName>
-    <SpecificName>Kehinit</SpecificName>
+    <SpecificName>Priestess of Tanit</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/healer.xml</Actor>

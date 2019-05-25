@@ -2,10 +2,9 @@
 <Entity parent="template_unit_support_woman">
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Celtic Woman</GenericName>
     <Icon>units/gaul_support_female_citizen.png</Icon>
     <SelectionGroupName>units/gaul/support_woman</SelectionGroupName>
-    <SpecificName>Bodu</SpecificName>
+    <SpecificName>Gaulish Woman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/female_citizen.xml</Actor>

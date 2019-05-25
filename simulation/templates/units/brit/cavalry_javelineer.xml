@@ -6,7 +6,6 @@
     <Icon>units/celt_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Gaisaredos</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/cavalry_javelinist_b_m.xml</Actor>

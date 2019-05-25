@@ -6,7 +6,6 @@
     <Icon>units/iber_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_javelineer</SelectionGroupName>
-    <SpecificName>Lusitano Ezpatari</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

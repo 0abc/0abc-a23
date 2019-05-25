@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Libyan</Classes>
-    <GenericName>Libyan Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Ḥayyāl Raḫūv Ḥanīt</SpecificName>
+    <SpecificName>Libyan Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_javelinist_b_m.xml</Actor>

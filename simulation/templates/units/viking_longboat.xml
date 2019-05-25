@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_penteconter">
   <Identity>
-    <GenericName>Longship</GenericName>
     <Icon>units/viking_longboat.png</Icon>
-    <SpecificName>Drakkar</SpecificName>
+    <SpecificName>Longship</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/viking/longboat.xml</Actor>

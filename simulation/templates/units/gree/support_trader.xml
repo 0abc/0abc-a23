@@ -8,7 +8,6 @@
     <Civ>gree</Civ>
     <Icon>units/gree_support_trader.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/greeks/trader.xml</Actor>

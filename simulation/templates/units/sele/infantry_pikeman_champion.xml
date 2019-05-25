@@ -4,12 +4,11 @@
   <Identity>
     <Civ>sele</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Macedonian</Classes>
-    <GenericName>Silver Shield Pikeman</GenericName>
     <Icon>units/sele_infantry_pikeman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_pikeman_champion</SelectionGroupName>
-    <SpecificName>Ἀργυράσπις</SpecificName>
+    <SpecificName>Silver Shield</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

@@ -3,7 +3,6 @@
   <Identity>
     <Civ>rome</Civ>
     <Classes datatype="tokens">Roman</Classes>
-    <GenericName>Young Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman_b_2.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>

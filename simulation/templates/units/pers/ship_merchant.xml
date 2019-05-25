@@ -7,7 +7,6 @@
   <Identity>
     <Civ>pers</Civ>
     <Icon>units/pers_ship_merchant.png</Icon>
-    <SpecificName>Yaunash Nav</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/merchant.xml</Actor>

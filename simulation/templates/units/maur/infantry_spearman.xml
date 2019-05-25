@@ -3,11 +3,10 @@
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
-    <GenericName>Bamboo Spearman</GenericName>
     <Icon>units/maur_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_spearman</SelectionGroupName>
-    <SpecificName>Kauntika</SpecificName>
+    <SpecificName>Bamboo Spearman</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

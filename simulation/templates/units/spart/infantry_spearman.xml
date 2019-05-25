@@ -3,12 +3,11 @@
   <Identity>
     <Civ>spart</Civ>
     <Classes datatype="tokens">Greek</Classes>
-    <GenericName>Perioikoi Hoplite</GenericName>
     <Icon>units/spart_infantry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_spearman</SelectionGroupName>
-    <SpecificName>Ὁπλιτής Περίοικος</SpecificName>
+    <SpecificName>Perioikoi Hoplite</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

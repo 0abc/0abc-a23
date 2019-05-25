@@ -5,7 +5,7 @@
     <Icon>units/rome_support_healer.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>units/rome/support_healer</SelectionGroupName>
-    <SpecificName>Medicus</SpecificName>
+    <SpecificName>Haruspex</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/healer.xml</Actor>

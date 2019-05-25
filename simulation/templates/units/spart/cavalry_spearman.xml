@@ -4,11 +4,10 @@
     <Civ>spart</Civ>
     <Classes datatype="tokens">Greek</Classes>
     <Lang>greek</Lang>
-    <GenericName>Greek Allied Cavalry</GenericName>
     <Icon>units/spart_cavalry_spearman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart/cavalry_spearman</SelectionGroupName>
-    <SpecificName>Ἱππεύς Συμμαχικός</SpecificName>
+    <SpecificName>Allied Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/cavalry_spearman_a_m.xml</Actor>

@@ -7,7 +7,6 @@
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/hele_ship_fishing.png</Icon>
-    <SpecificName>Noon-Mašōt</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/fishing_boat.xml</Actor>

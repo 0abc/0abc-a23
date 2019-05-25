@@ -3,7 +3,6 @@
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_ship_quinquereme.png</Icon>
-    <SpecificName>Ḥameš-Mašōt</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/carthaginians/quinquereme.xml</Actor>

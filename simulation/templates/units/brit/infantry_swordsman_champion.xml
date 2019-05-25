@@ -7,7 +7,6 @@
     <Icon>units/brit_infantry_swordsman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_swordsman_champion</SelectionGroupName>
-    <SpecificName>Delamokludda</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

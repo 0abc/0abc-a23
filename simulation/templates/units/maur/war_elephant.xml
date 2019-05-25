@@ -2,11 +2,10 @@
 <Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Indian War Elephant</GenericName>
     <Icon>units/pers_elephant_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/war_elephant</SelectionGroupName>
-    <SpecificName>Vachii Gaja</SpecificName>
+    <SpecificName>Indian Elephant</SpecificName>
     <VisibleClasses datatype="tokens">Indian</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -8,12 +8,11 @@
   <Identity>
     <Civ>gree</Civ>
     <Classes datatype="tokens">Greek</Classes>
-    <GenericName>Peltast</GenericName>
     <Icon>units/athen_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_javelineer</SelectionGroupName>
-    <SpecificName>Ἀκοντιστής</SpecificName>
+    <SpecificName>Peltast</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

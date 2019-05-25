@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <Icon>units/ptol_siege_polybolos_p.png</Icon>
-    <SpecificName>Πολυβόλος καταπάλτες</SpecificName>
+    <SpecificName>Polybolos</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/ptol/siege_polybolos_unpacked</Entity>

@@ -3,11 +3,10 @@
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
-    <GenericName>Indian Swordsman</GenericName>
     <Icon>units/maur_infantry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_sabreman</SelectionGroupName>
-    <SpecificName>Khadagdhari</SpecificName>
+    <SpecificName>Indian Swordsman</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <Icon>units/mace_siege_tower.png</Icon>
-    <SpecificName>Ἑλέπολις</SpecificName>
+    <SpecificName>Helepolis</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/siege_tower.xml</Actor>

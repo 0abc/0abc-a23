@@ -2,10 +2,9 @@
 <Entity parent="template_unit_infantry_melee_maceman">
   <Identity>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Nuba</Classes>
-    <GenericName>Nuba Clubman</GenericName>
     <Icon>units/kush_infantry_clubman_a.png</Icon>
     <SelectionGroupName>units/nuba_infantry_maceman</SelectionGroupName>
-    <SpecificName>nhw Noba</SpecificName>
+    <SpecificName>Nuba Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

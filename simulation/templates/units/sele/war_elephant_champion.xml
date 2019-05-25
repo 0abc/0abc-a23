@@ -2,12 +2,11 @@
 <Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>sele</Civ>
-    <GenericName>Syrian War Elephant</GenericName>
     <Icon>units/sele_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/war_elephant_champion</SelectionGroupName>
-    <SpecificName>Σύριος Ἐλέφας</SpecificName>
+    <SpecificName>Indian Elephant Cataphract</SpecificName>
     <VisibleClasses datatype="tokens">Cataphract Syrian Champion</VisibleClasses>
   </Identity>
   <VisualActor>

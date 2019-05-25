@@ -7,7 +7,6 @@
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/iber_ship_merchant.png</Icon>
-    <SpecificName>Merkataritza Itsasontzi</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/iberians/merchant.xml</Actor>

@@ -7,7 +7,6 @@
   <Identity>
     <Civ>pers</Civ>
     <Icon>units/pers_ship_fishing.png</Icon>
-    <SpecificName>Masiyakara</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/fishship.xml</Actor>

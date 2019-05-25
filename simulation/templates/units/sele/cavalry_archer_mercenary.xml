@@ -3,12 +3,11 @@
   <Identity>
     <Civ>sele</Civ>
     <Classes datatype="tokens">Dahae</Classes>
-    <GenericName>Dahae Horse Archer</GenericName>
     <Icon>units/sele_cavalry_archer_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_archer</SelectionGroupName>
-    <SpecificName>Ἱπποτοξότης</SpecificName>
+    <SpecificName>Dahae Horse Archer</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -6,7 +6,6 @@
     <Icon>units/celt_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_javelineer</SelectionGroupName>
-    <SpecificName>Baguada</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

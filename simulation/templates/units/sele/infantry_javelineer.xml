@@ -9,11 +9,10 @@
     <Civ>sele</Civ>
     <Classes datatype="tokens">Arab</Classes>
     <Lang>greek</Lang>
-    <GenericName>Arab Javelineer</GenericName>
     <Icon>units/pers_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_javelineer</SelectionGroupName>
-    <SpecificName>Πεζακοντιστής Ἀραβικός</SpecificName>
+    <SpecificName>Auxiliary</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

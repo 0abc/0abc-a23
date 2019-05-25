@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <Icon>units/ptol_siege_lithobolos_p.png</Icon>
-    <SpecificName>Λιθοβόλος</SpecificName>
+    <SpecificName>Lithobolos</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/ptol/siege_lithobolos_unpacked</Entity>

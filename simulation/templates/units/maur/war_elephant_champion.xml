@@ -2,11 +2,10 @@
 <Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Indian War Elephant</GenericName>
     <Icon>units/maur_elephant_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/war_elephant_champion</SelectionGroupName>
-    <SpecificName>Gajendra</SpecificName>
+    <SpecificName>Armoured Indian Elephant</SpecificName>
     <VisibleClasses datatype="tokens">Indian Champion</VisibleClasses>
   </Identity>
   <VisualActor>

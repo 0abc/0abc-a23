@@ -6,7 +6,6 @@
     <Icon>units/celt_infantry_slinger_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_slinger</SelectionGroupName>
-    <SpecificName>Iaosae</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

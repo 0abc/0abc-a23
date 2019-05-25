@@ -7,7 +7,6 @@
   <Identity>
     <Civ>maur</Civ>
     <Icon>units/maur_support_trader.png</Icon>
-    <SpecificName>Vaishya</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/trader.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>brit</Civ>
     <Icon>units/brit_war_dog_b.png</Icon>
-    <SpecificName>Coun</SpecificName>
+    <SpecificName>Mastiff</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/britons/war_dog_mastiff_a.xml</Actor>

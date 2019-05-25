@@ -3,11 +3,10 @@
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
-    <GenericName>Indian Raiding Cavalry</GenericName>
     <Icon>units/maur_cavalry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/cavalry_swordsman</SelectionGroupName>
-    <SpecificName>Aśvārohagaṇaḥ</SpecificName>
+    <SpecificName>Indian Raiding Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/cavalry_swordsman_a_m.xml</Actor>

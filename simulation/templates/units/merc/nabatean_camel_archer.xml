@@ -2,10 +2,9 @@
 <Entity parent="template_unit_camel_ranged_archer">
   <Identity>
     <Classes datatype="tokens">Arab</Classes>
-    <GenericName>Nabataean Camel Archer</GenericName>
     <Icon>units/ptol_camel_archer_a.png</Icon>
     <SelectionGroupName>units/nabatean_camel_archer</SelectionGroupName>
-    <SpecificName>Mutsābiq Gamal Nabatu</SpecificName>
+    <SpecificName>Arab Dromedary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>

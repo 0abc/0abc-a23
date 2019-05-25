@@ -3,12 +3,11 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
-    <GenericName>Royal Guard Cavalry</GenericName>
     <Icon>units/ptol_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/cavalry_spearman_champion</SelectionGroupName>
-    <SpecificName>Ἄγημα Βασιλέως</SpecificName>
+    <SpecificName>Royal Guard</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -6,9 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Aramaean Merchant</GenericName>
     <Icon>units/pers_support_trader.png</Icon>
-    <SpecificName>Tamkarum Arami</SpecificName>
+    <SpecificName>Aramaean Merchant</SpecificName>
   </Identity>
   <Sound>
     <SoundGroups>

@@ -6,7 +6,6 @@
     <Icon>units/iber_cavalry_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelineer_champion</SelectionGroupName>
-    <SpecificName>Leial Zalduneria</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

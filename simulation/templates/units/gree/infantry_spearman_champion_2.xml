@@ -6,10 +6,9 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek Spartan</Classes>
     <Icon>units/spart_infantry_spearman_c.png</Icon>
     <Lang>greek</Lang>
-    <GenericName>Spartan Hoplite</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion_2</SelectionGroupName>
-    <SpecificName>Σπαρτιάτης</SpecificName>
+    <SpecificName>Spartan Hoplite</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

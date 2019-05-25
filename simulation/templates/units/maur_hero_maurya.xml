@@ -2,7 +2,6 @@
 <Entity parent="template_unit_hero_elephant_melee">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Chandragupta Maurya</GenericName>
     <Icon>units/maur_hero_chandragupta.png</Icon>
     <SpecificName>Chandragupta Maurya</SpecificName>
   </Identity>

@@ -2,11 +2,10 @@
 <Entity parent="template_unit_support_woman">
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Macedonian Woman</GenericName>
     <Icon>units/mace_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mace/support_woman</SelectionGroupName>
-    <SpecificName>Γύνη Μακεδονική</SpecificName>
+    <SpecificName>Macedonian Woman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/female_citizen.xml</Actor>

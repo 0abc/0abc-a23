@@ -8,7 +8,6 @@
     <Civ>rome</Civ>
     <Icon>units/rome_support_trader.png</Icon>
     <Lang>latin</Lang>
-    <SpecificName>Mercator</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/trader.xml</Actor>

@@ -7,7 +7,6 @@
   <Identity>
     <Civ>pers</Civ>
     <Icon>units/pers_ship_trireme.png</Icon>
-    <SpecificName>Vazarka Hamaraniyanava</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/trireme.xml</Actor>

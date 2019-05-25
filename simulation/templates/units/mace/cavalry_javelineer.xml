@@ -3,12 +3,11 @@
   <Identity>
     <Civ>mace</Civ>
     <Classes datatype="tokens">Odrysian</Classes>
-    <GenericName>Odrysian Skirmish Cavalry</GenericName>
     <Icon>units/mace_cavalry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Ἱππακοντιστὴς Ὀδρυσός</SpecificName>
+    <SpecificName>Odrysian Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_a_m.xml</Actor>

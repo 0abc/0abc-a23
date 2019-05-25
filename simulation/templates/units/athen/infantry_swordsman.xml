@@ -3,12 +3,11 @@
   <Identity>
     <Civ>athen</Civ>
     <Classes datatype="tokens">Greek</Classes>
-    <GenericName>Athenian Marine</GenericName>
     <Icon>units/athen_infantry_swordsman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_swordsman</SelectionGroupName>
-    <SpecificName>Ἐπιβατής Ἀθηναῖος</SpecificName>
+    <SpecificName>Athenian Marine</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

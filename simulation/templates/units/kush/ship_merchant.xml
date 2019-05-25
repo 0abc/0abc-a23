@@ -7,7 +7,6 @@
   <Identity>
     <Civ>kush</Civ>
     <Icon>units/pers_ship_merchant.png</Icon>
-    <SpecificName>D3y sbt</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/merchant.xml</Actor>

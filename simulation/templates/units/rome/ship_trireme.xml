@@ -6,7 +6,6 @@
   <Identity>
     <Civ>rome</Civ>
     <Icon>units/rome_ship_bireme.png</Icon>
-    <SpecificName>Triremis Romana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/bireme.xml</Actor>

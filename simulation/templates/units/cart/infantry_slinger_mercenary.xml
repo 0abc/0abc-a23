@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Balearic</Classes>
-    <GenericName>Balearic Slinger</GenericName>
     <Icon>units/cart_infantry_slinger_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_slinger_mercenary</SelectionGroupName>
-    <SpecificName>Qallāʿ Ibušimi</SpecificName>
+    <SpecificName>Balearic Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

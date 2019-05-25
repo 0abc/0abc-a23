@@ -8,11 +8,10 @@
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Persian</Classes>
-    <GenericName>Shield Bearer</GenericName>
     <Icon>units/pers_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman</SelectionGroupName>
-    <SpecificName>Sparabara</SpecificName>
+    <SpecificName>Shield Bearer</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -2,10 +2,9 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>kush</Civ>
-    <GenericName>Priest</GenericName>
     <Icon>units/kush_support_healer.png</Icon>
     <SelectionGroupName>units/kush/support_healer</SelectionGroupName>
-    <SpecificName>w’b nsw</SpecificName>
+    <SpecificName>Priest of Amun</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/healer.xml</Actor>

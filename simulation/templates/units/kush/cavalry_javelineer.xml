@@ -3,11 +3,10 @@
   <Identity>
     <Civ>kush</Civ>
     <Classes datatype="tokens">Kushite</Classes>
-    <GenericName>Napatan Light Cavalry</GenericName>
     <Icon>units/kush_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>iry hr ssmwtt</SpecificName>
+    <SpecificName>Napatan Light Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/cavalry_javelinist_a_m.xml</Actor>

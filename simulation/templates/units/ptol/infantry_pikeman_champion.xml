@@ -4,12 +4,11 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
-    <GenericName>Royal Guard Pikeman</GenericName>
     <Icon>units/ptol_infantry_pikeman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman_champion</SelectionGroupName>
-    <SpecificName>Ἄγημα</SpecificName>
+    <SpecificName>Royal Guard</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

@@ -3,12 +3,11 @@
   <Identity>
     <Civ>sele</Civ>
     <Classes datatype="tokens">Syrian</Classes>
-    <GenericName>Scythed Chariot</GenericName>
     <Icon>units/sele_chariot_scythed_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/quadriga_scythed_champion</SelectionGroupName>
-    <SpecificName>Ἅρμα Δρεπανηφόρον</SpecificName>
+    <SpecificName>Scythed Chariot</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

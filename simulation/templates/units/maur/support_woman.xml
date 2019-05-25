@@ -2,10 +2,9 @@
 <Entity parent="template_unit_support_woman">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Indian Woman</GenericName>
     <Icon>units/maur_support_female_citizen.png</Icon>
     <SelectionGroupName>units/maur/support_woman</SelectionGroupName>
-    <SpecificName>Naari</SpecificName>
+    <SpecificName>Indian Woman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/female_citizen.xml</Actor>

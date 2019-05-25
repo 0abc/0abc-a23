@@ -3,11 +3,10 @@
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Babylonian</Classes>
-    <GenericName>Babylonian Scythed Chariot</GenericName>
     <Icon>units/pers_chariot_scythed_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/quadriga_scythed_champion</SelectionGroupName>
-    <SpecificName>Babiruviya Ratha</SpecificName>
+    <SpecificName>Babylonian Scythed Chariot</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -3,11 +3,10 @@
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Dahae</Classes>
-    <GenericName>Dahae Horse Archer</GenericName>
     <Icon>units/sele_cavalry_archer_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/cavalry_archer</SelectionGroupName>
-    <SpecificName>Dahan Asabara</SpecificName>
+    <SpecificName>Dahae Horse Archer</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/cavalry_archer_b_m.xml</Actor>

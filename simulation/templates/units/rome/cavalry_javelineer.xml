@@ -3,12 +3,11 @@
   <Identity>
     <Civ>rome</Civ>
     <Classes datatype="tokens">Italic</Classes>
-    <GenericName>Italian Allied Cavalry</GenericName>
     <Lang>latin</Lang>
     <Icon>units/rome_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Eques Socius</SpecificName>
+    <SpecificName>Allied Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/cavalry_javelinist_b_m.xml</Actor>

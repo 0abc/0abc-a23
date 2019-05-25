@@ -4,7 +4,7 @@
     <Civ>gaul</Civ>
     <Icon>units/gaul_support_healer.png</Icon>
     <SelectionGroupName>units/gaul/support_healer</SelectionGroupName>
-    <SpecificName>Druides</SpecificName>
+    <SpecificName>Druid</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/healer.xml</Actor>

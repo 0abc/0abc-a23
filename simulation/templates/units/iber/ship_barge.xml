@@ -3,7 +3,6 @@
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/celt_ship_trireme.png</Icon>
-    <SpecificName>Ponti</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/iberians/warship.xml</Actor>

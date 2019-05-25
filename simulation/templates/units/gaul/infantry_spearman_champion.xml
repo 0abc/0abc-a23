@@ -4,11 +4,10 @@
   <Identity>
     <Civ>gaul</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Celt</Classes>
-    <GenericName>Naked Fanatic</GenericName>
     <Icon>units/gaul_infantry_spearman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_spearman_champion</SelectionGroupName>
-    <SpecificName>Gaesata</SpecificName>
+    <SpecificName>Naked Fanatic</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

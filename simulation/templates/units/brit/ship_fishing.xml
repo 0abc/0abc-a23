@@ -7,7 +7,6 @@
   <Identity>
     <Civ>brit</Civ>
     <Icon>units/celt_ship_fishing.png</Icon>
-    <SpecificName>Manea</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/fishing_boat.xml</Actor>

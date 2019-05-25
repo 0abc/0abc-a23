@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <Icon>units/athen_siege_lithobolos_p.png</Icon>
-    <SpecificName>Λιθοβόλος</SpecificName>
+    <SpecificName>Lithobolos</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/mace/siege_lithobolos_unpacked</Entity>

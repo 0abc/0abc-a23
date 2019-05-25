@@ -6,7 +6,6 @@
     <Icon>units/iber_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Kantabriako Zaldun</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/cavalry_javelinist_b_m.xml</Actor>

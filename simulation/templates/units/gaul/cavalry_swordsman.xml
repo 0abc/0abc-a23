@@ -6,7 +6,6 @@
     <Icon>units/celt_cavalry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul_cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Epos</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_b_m.xml</Actor>

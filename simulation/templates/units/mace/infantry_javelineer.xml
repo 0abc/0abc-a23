@@ -8,12 +8,11 @@
   <Identity>
     <Civ>mace</Civ>
     <Classes datatype="tokens">Agrianian</Classes>
-    <GenericName>Agrianian Peltast</GenericName>
     <Icon>units/mace_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_javelineer</SelectionGroupName>
-    <SpecificName>Pελταστής Ἀγρίας</SpecificName>
+    <SpecificName>Agrianian Peltast</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

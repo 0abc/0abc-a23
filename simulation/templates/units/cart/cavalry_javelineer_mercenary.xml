@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Numidian</Classes>
-    <GenericName>Numidian Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelineer_mercenary</SelectionGroupName>
-    <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
+    <SpecificName>Numidian Cavalry</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>

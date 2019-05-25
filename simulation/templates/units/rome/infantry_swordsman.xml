@@ -3,7 +3,6 @@
   <Identity>
     <Civ>rome</Civ>
     <Classes datatype="tokens">Roman</Classes>
-    <GenericName>Experienced Swordsman</GenericName>
     <Icon>units/rome_infantry_swordsman_b.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>

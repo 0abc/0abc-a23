@@ -6,10 +6,9 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek Athenian</Classes>
     <Icon>units/athen_infantry_spearman_c.png</Icon>
     <Lang>greek</Lang>
-    <GenericName>Athenian Chosen Guard</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion</SelectionGroupName>
-    <SpecificName>Ἐπίλεκτος</SpecificName>
+    <SpecificName>Athenian Chosen Guard</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

@@ -3,14 +3,13 @@
   <Identity>
     <Civ>sele</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
-    <GenericName>Militia Cavalry</GenericName>
-    <Icon>units/athen_cavalry_javelinist_b.png</Icon>
+    <Icon>units/mace_cavalry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Ἱππακοντίστης</SpecificName>
+    <SpecificName>Tarentine</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/macedonians/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

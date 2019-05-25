@@ -4,12 +4,11 @@
   <Identity>
     <Civ>rome</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Roman</Classes>
-    <GenericName>Imperial Legionary</GenericName>
     <Icon>units/rome_infantry_swordsman_c_3.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_swordsman_champion_3</SelectionGroupName>
-    <SpecificName>Legionarius</SpecificName>
+    <SpecificName>Legionary</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

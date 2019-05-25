@@ -8,7 +8,6 @@
     <Civ>athen</Civ>
     <Icon>units/athen_support_trader.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/trader.xml</Actor>

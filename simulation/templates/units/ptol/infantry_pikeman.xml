@@ -9,12 +9,11 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
-    <GenericName>Phalangite</GenericName>
     <Icon>units/ptol_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman</SelectionGroupName>
-    <SpecificName>Φαλαγγομάχιμος</SpecificName>
+    <SpecificName>Macedonian Phalangite</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

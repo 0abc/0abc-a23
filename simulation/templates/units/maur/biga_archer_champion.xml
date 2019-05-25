@@ -6,7 +6,7 @@
     <Icon>units/maur_chariot_archer_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/chariot_archer</SelectionGroupName>
-    <SpecificName>Rath</SpecificName>
+    <SpecificName>Indian Chariot</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

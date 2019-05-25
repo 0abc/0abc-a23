@@ -3,7 +3,6 @@
   <Identity>
     <Civ>rome</Civ>
     <Icon>units/rome_ship_quinquereme.png</Icon>
-    <SpecificName>Quinqueremis Romana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/quinquereme.xml</Actor>

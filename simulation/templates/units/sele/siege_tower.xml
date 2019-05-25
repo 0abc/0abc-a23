@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <Icon>units/mace_siege_tower.png</Icon>
-    <SpecificName>Ἑλέπολις</SpecificName>
+    <SpecificName>Helepolis</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/seleucids/siege_tower.xml</Actor>

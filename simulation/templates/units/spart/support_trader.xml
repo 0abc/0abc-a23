@@ -8,7 +8,6 @@
     <Civ>spart</Civ>
     <Icon>units/spart_support_trader.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Ἔμπορος</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/trader.xml</Actor>

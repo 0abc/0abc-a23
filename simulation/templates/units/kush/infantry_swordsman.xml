@@ -9,11 +9,10 @@
   <Identity>
     <Civ>kush</Civ>
     <Classes datatype="tokens">Kushite</Classes>
-    <GenericName>Meroitic Swordsman</GenericName>
     <Icon>units/kush_infantry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_swordsman</SelectionGroupName>
-    <SpecificName>knw hps</SpecificName>
+    <SpecificName>Meroitic Swordsman</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

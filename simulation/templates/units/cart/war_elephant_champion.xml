@@ -2,11 +2,10 @@
 <Entity parent="template_unit_elephant_northafrican">
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>North African War Elephant</GenericName>
     <Icon>units/cart_elephant_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/cart/war_elephant_champion</SelectionGroupName>
-    <SpecificName>Pil Malḥamit</SpecificName>
+    <SpecificName>Libyan Elephant</SpecificName>
     <VisibleClasses datatype="tokens">Punic Champion</VisibleClasses>
   </Identity>
   <VisualActor>

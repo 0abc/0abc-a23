@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <Icon>units/athen_siege_lithobolos_p.png</Icon>
-    <SpecificName>Λιθοβόλος</SpecificName>
+    <SpecificName>Lithobolos</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/sele/siege_lithobolos_unpacked</Entity>

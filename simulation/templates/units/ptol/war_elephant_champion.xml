@@ -2,12 +2,11 @@
 <Entity parent="template_unit_elephant_northafrican">
   <Identity>
     <Civ>ptol</Civ>
-    <GenericName>Ethiopian War Elephant</GenericName>
     <Icon>units/ptol_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/war_elephant_champion</SelectionGroupName>
-    <SpecificName>Αἰθιοπικός Ἐλέφας</SpecificName>
+    <SpecificName>Libyan Elephant</SpecificName>
     <VisibleClasses datatype="tokens">Ethiopian Champion</VisibleClasses>
   </Identity>
   <VisualActor>

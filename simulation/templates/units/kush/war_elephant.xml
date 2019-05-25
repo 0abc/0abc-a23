@@ -2,11 +2,10 @@
 <Entity parent="template_unit_elephant_northafrican">
   <Identity>
     <Civ>kush</Civ>
-    <GenericName>Meroitic War Elephant</GenericName>
     <Icon>units/kush_elephant_b.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/war_elephant</SelectionGroupName>
-    <SpecificName>Abore ‘h3</SpecificName>
+    <SpecificName>Ethiopian Elephant</SpecificName>
     <VisibleClasses datatype="tokens">Kushite</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -3,7 +3,6 @@
   <Identity>
     <Civ>gaul</Civ>
     <Icon>units/celt_ship_trireme.png</Icon>
-    <SpecificName>Venetic Ponti</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/warship.xml</Actor>

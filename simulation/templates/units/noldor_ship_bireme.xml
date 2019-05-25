@@ -5,9 +5,8 @@
     <Square width="8.0" depth="28.0"/>
   </Footprint>
   <Identity>
-    <GenericName>Noldor Ship</GenericName>
     <Icon>units/noldor_ship_bireme.png</Icon>
-    <SpecificName>Mankar Cirya</SpecificName>
+    <SpecificName>Noldor Ship</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/elven_bireme.xml</Actor>

@@ -6,10 +6,9 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek Theban</Classes>
     <Icon>units/theb_infantry_spearman_c.png</Icon>
     <Lang>greek</Lang>
-    <GenericName>Theban Sacred Band</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion_3</SelectionGroupName>
-    <SpecificName>Ἱερὸς Λόχος</SpecificName>
+    <SpecificName>Theban Sacred Band</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

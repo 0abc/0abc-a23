@@ -6,9 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>kush</Civ>
-    <GenericName>Nilotic Merchant</GenericName>
     <Icon>units/kush_support_trader.png</Icon>
-    <SpecificName>rmt sbt</SpecificName>
+    <SpecificName>Nilotic Merchant</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/trader.xml</Actor>

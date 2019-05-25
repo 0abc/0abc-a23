@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <Icon>units/mace_siege_tower.png</Icon>
-    <SpecificName>Ἑλέπολις</SpecificName>
+    <SpecificName>Helepolis</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/siege_tower.xml</Actor>

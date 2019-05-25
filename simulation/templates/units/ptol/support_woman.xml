@@ -2,11 +2,10 @@
 <Entity parent="template_unit_support_woman">
   <Identity>
     <Civ>ptol</Civ>
-    <GenericName>Egyptian Woman</GenericName>
     <Icon>units/ptol_support_female_citizen.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/ptol/support_woman</SelectionGroupName>
-    <SpecificName>Γύνη Αἰγύπτια</SpecificName>
+    <SpecificName>Egyptian Woman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/female_citizen.xml</Actor>

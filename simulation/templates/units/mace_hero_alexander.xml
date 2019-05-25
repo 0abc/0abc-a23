@@ -6,10 +6,9 @@
   </Auras>
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Alexander The Great</GenericName>
     <Icon>units/hele_hero_alexander.png</Icon>
     <Lang>greek</Lang>
-    <SpecificName>Mégās Aléxandros</SpecificName>
+    <SpecificName>Alexander the Great</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/hero_cavalry_swordsman_alexander_m.xml</Actor>

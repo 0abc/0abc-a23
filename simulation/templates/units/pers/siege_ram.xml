@@ -5,9 +5,8 @@
   </Footprint>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Assyrian Siege Ram</GenericName>
     <Icon>units/pers_siege_ram.png</Icon>
-    <SpecificName>Athuriya Hamaranakuba</SpecificName>
+    <SpecificName>Assyrian Siege Ram</SpecificName>
     <VisibleClasses datatype="tokens">Assyrian Champion</VisibleClasses>
   </Identity>
   <VisualActor>

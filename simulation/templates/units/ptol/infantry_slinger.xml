@@ -9,12 +9,11 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Jew</Classes>
-    <GenericName>Judean Slinger</GenericName>
     <Icon>units/athen_infantry_slinger_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_slinger</SelectionGroupName>
-    <SpecificName>Ἑβραικός Σφενδονήτης</SpecificName>
+    <SpecificName>Judean Slinger</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

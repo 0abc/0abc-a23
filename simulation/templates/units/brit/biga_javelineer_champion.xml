@@ -6,7 +6,7 @@
     <Icon>units/brit_chariot_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit/biga_javelineer_champion</SelectionGroupName>
-    <SpecificName>Carbanto</SpecificName>
+    <SpecificName>Briton Chariot</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>

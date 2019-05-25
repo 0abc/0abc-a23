@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Italic</Classes>
-    <GenericName>Campanian Mercenary Cavalry</GenericName>
     <Icon>units/cart_cavalry_spearman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_spearman_mercenary</SelectionGroupName>
-    <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>
+    <SpecificName>Campanian Mercenary Cavalry</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>

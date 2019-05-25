@@ -7,7 +7,6 @@
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_support_trader.png</Icon>
-    <SpecificName>Mekir</SpecificName>
   </Identity>
   <Sound>
     <SoundGroups>

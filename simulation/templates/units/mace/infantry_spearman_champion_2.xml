@@ -4,12 +4,11 @@
   <Identity>
     <Civ>mace</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Macedonian</Classes>
-    <GenericName>Silver Shield</GenericName>
     <Icon>units/mace_infantry_spearman_c_2.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_spearman_champion_2</SelectionGroupName>
-    <SpecificName>Ἀργυράσπις</SpecificName>
+    <SpecificName>Silver Shield</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

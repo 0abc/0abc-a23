@@ -3,12 +3,11 @@
   <Identity>
     <Civ>rome</Civ>
     <Classes datatype="tokens">Roman</Classes>
-    <GenericName>Roman Cavalry</GenericName>
     <Icon>units/rome_cavalry_spearman_b.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_spearman</SelectionGroupName>
-    <SpecificName>Eques Romanus</SpecificName>
+    <SpecificName>Eques</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/cavalry_spearman_b_m.xml</Actor>

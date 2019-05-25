@@ -4,9 +4,8 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <Icon>units/mace_thureophoros.png</Icon>
     <Lang>greek</Lang>
-    <GenericName>Greek Mercenary</GenericName>
     <SelectionGroupName>units/greek_infantry_javelineer</SelectionGroupName>
-    <SpecificName>Θυρεοφόρος</SpecificName>
+    <SpecificName>Thureophoros</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

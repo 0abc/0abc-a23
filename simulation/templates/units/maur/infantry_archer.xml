@@ -6,7 +6,7 @@
     <Icon>units/maur_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_archer</SelectionGroupName>
-    <SpecificName>Dhanurdhar</SpecificName>
+    <SpecificName>Bamboo Longbowman</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

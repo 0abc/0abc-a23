@@ -3,7 +3,6 @@
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_ship_trireme.png</Icon>
-    <SpecificName>Arba-Mašōt</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/carthaginians/trireme.xml</Actor>

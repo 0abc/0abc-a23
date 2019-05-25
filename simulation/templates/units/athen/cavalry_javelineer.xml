@@ -7,7 +7,7 @@
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/athen/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Πρόδρομος</SpecificName>
+    <SpecificName>Prodromos</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>

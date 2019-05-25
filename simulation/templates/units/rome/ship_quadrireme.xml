@@ -6,7 +6,6 @@
   <Identity>
     <Civ>rome</Civ>
     <Icon>units/rome_ship_trireme.png</Icon>
-    <SpecificName>Quadriremis Romana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/trireme.xml</Actor>

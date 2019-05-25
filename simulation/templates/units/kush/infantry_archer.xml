@@ -9,11 +9,10 @@
   <Identity>
     <Civ>kush</Civ>
     <Classes datatype="tokens">Kushite</Classes>
-    <GenericName>Nubian Archer</GenericName>
     <Icon>units/kush_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_archer</SelectionGroupName>
-    <SpecificName>Pdty Nhsyw</SpecificName>
+    <SpecificName>Nubian Archer</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

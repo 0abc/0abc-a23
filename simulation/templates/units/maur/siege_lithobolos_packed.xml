@@ -3,6 +3,7 @@
   <Identity>
     <Civ>maur</Civ>
     <Icon>units/athen_siege_lithobolos_p.png</Icon>
+    <SpecificName>Lithobolos</SpecificName>
   </Identity>
   <Pack>
     <Entity>units/maur/siege_lithobolos_unpacked</Entity>

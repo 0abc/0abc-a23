@@ -3,11 +3,10 @@
   <Identity>
     <Civ>kush</Civ>
     <Classes datatype="tokens">Kushite</Classes>
-    <GenericName>Meroitic Heavy Cavalry</GenericName>
     <Icon>units/kush_cavalry_spearman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_spearman</SelectionGroupName>
-    <SpecificName>Htr</SpecificName>
+    <SpecificName>Meroitic Heavy Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/cavalry_spearman_a_m.xml</Actor>

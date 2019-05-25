@@ -7,7 +7,6 @@
   <Identity>
     <Civ>gaul</Civ>
     <Icon>units/gaul_support_trader.png</Icon>
-    <SpecificName>Cyfnewidiwr</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/trader.xml</Actor>

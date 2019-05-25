@@ -7,7 +7,6 @@
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/iber_ship_fishing.png</Icon>
-    <SpecificName>Arrantza Ontzi</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/iberians/fishing_ship.xml</Actor>

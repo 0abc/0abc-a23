@@ -8,11 +8,10 @@
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Anatolian</Classes>
-    <GenericName>Anatolian Auxiliary</GenericName>
     <Icon>units/pers_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_javelineer</SelectionGroupName>
-    <SpecificName>Spardiya Takabara</SpecificName>
+    <SpecificName>Anatolian Auxiliary</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>

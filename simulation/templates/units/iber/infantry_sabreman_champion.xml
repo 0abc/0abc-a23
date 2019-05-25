@@ -7,7 +7,6 @@
     <Icon>units/iber_infantry_swordsman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_sabreman_champion</SelectionGroupName>
-    <SpecificName>Leial Ezpatari</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

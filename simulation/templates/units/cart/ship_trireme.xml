@@ -3,7 +3,6 @@
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_ship_bireme.png</Icon>
-    <SpecificName>Tlat-Mašōt</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/carthaginians/bireme.xml</Actor>

@@ -3,11 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Celt</Classes>
-    <GenericName>Gallic Mercenary Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_swordsman_mercenary</SelectionGroupName>
-    <SpecificName>Seḫīr Ḥerev</SpecificName>
+    <SpecificName>Gallic Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

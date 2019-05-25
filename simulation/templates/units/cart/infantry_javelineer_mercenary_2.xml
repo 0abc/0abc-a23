@@ -3,10 +3,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Samnite</Classes>
-    <GenericName>Samnite Skirmisher</GenericName>
     <Icon>units/cart_infantry_javelinist_c.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_javelineer_mercenary_2</SelectionGroupName>
+    <SpecificName>Samnite Skirmisher</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
