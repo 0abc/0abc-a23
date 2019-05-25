@@ -3,15 +3,14 @@
   <Formation>
     <Icon>formations/syntagma.png</Icon>
     <RequiredMemberCount>16</RequiredMemberCount>
-    <DisabledTooltip>Requires at least 32 infantry pikemen.</DisabledTooltip>
+    <DisabledTooltip>Requires at least 16 infantry pikemen.</DisabledTooltip>
     <SortingClasses>Hero Champion Elite Advanced Basic</SortingClasses>
     <FormationName>Syntagma</FormationName>
     <UnitSeparationWidthMultiplier>0.65</UnitSeparationWidthMultiplier>
     <UnitSeparationDepthMultiplier>0.75</UnitSeparationDepthMultiplier>
     <WidthDepthRatio>1</WidthDepthRatio>
     <MinColumns>4</MinColumns>
-    <MaxColumns>32</MaxColumns>
-    <MinRows>8</MinRows>
+    <MaxColumns>8</MaxColumns>
     <MaxRows>8</MaxRows>
     <Animations>
       <idle>
