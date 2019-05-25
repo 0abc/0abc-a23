@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_camel_ranged_javelineer">
+  <Identity>
+    <Classes datatype="tokens">Blemmye</Classes>
+    <GenericName>Blemmye Desert Raider</GenericName>
+    <Icon>units/kush_camel_javelinist_a.png</Icon>
+    <SelectionGroupName>units/blemmye_camel_javelineer</SelectionGroupName>
+    <SpecificName>nhw Bulahau gml</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/camelry_javelinist_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

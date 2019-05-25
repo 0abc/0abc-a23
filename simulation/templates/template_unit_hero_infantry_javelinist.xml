@@ -13,7 +13,7 @@
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
-    <GenericName>Infantry Javelinist Hero</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Javelinist</VisibleClasses>
+    <GenericName>Infantry Javelineer Hero</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
   </Identity>
 </Entity>

@@ -75,11 +75,11 @@
       "Count": 4
     },
     {
-      "Template": "units/iber/infantry_javelinist",
+      "Template": "units/iber/infantry_javelineer",
       "Count": 2
     },
     {
-      "Template": "units/iber/cavalry_javelinist"
+      "Template": "units/iber/cavalry_javelineer"
     },
     {
       "Template": "gaia/fauna_sheep",
@@ -112,9 +112,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/iber/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/iber/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/iber/infantry_sabreman",
-    "skirmish/units/default_infantry_ranged_b": "units/iber/infantry_javelinist",
+    "skirmish/units/default_infantry_ranged_b": "units/iber/infantry_javelineer",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

@@ -15,7 +15,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/merc/blemmye_camel_javelinist
+      units/merc/blemmye_camel_javelineer
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/nabatean_camp
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>pers</Civ>
+    <Classes datatype="tokens">Anatolian</Classes>
+    <GenericName>Anatolian Auxiliary</GenericName>
+    <Icon>units/pers_infantry_javelinist_b.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/pers/infantry_javelineer</SelectionGroupName>
+    <SpecificName>Spardiya Takabara</SpecificName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

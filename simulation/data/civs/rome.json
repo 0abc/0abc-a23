@@ -81,7 +81,7 @@
       "Count": 4
     },
     {
-      "Template": "units/rome/infantry_javelinist",
+      "Template": "units/rome/infantry_javelineer",
       "Count": 2
     },
     {
@@ -128,7 +128,7 @@
   {
     "skirmish/units/default_cavalry": "units/rome/cavalry_spearman",
     "skirmish/units/default_infantry_melee_b": "units/rome/infantry_sabreman",
-    "skirmish/units/default_infantry_ranged_b": "units/rome/infantry_javelinist",
+    "skirmish/units/default_infantry_ranged_b": "units/rome/infantry_javelineer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

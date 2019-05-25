@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>spart</Civ>
+    <Classes datatype="tokens">Greek</Classes>
+    <GenericName>Perioikoi Cavalryman</GenericName>
+    <Icon>units/spart_cavalry_javelinist_b.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/spart/cavalry_javelineer</SelectionGroupName>
+    <SpecificName>Πρόδρομος Περίοικος</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/cavalry_javelinist_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

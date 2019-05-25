@@ -19,9 +19,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/biga_javelinist
-      units/{civ}/biga_javelinist_mercenary
-      units/{civ}/biga_javelinist_champion
+      units/{civ}/biga_javelineer
+      units/{civ}/biga_javelineer_mercenary
+      units/{civ}/biga_javelineer_champion
       units/{civ}/biga_archer
       units/{civ}/biga_archer_mercenary
       units/{civ}/biga_archer_champion

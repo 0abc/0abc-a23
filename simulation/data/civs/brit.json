@@ -91,7 +91,7 @@
       "Count": 2
     },
     {
-      "Template": "units/brit/cavalry_javelinist"
+      "Template": "units/brit/cavalry_javelineer"
     },
     {
       "Template": "units/brit/war_dog"
@@ -131,7 +131,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/brit/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/brit/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/brit/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/brit/infantry_slinger",
     "skirmish/units/special_starting_unit": "units/brit/war_dog",

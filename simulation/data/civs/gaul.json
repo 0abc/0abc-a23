@@ -87,11 +87,11 @@
       "Count": 4
     },
     {
-      "Template": "units/gaul/infantry_javelinist",
+      "Template": "units/gaul/infantry_javelineer",
       "Count": 2
     },
     {
-      "Template": "units/gaul/cavalry_javelinist"
+      "Template": "units/gaul/cavalry_javelineer"
     },
     {
       "Template": "gaia/fauna_pig",
@@ -127,9 +127,9 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/gaul/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/gaul/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/gaul/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/gaul/infantry_javelinist",
+    "skirmish/units/default_infantry_ranged_b": "units/gaul/infantry_javelineer",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

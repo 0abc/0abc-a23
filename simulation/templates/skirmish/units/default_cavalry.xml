@@ -5,7 +5,7 @@
   </Identity>
   <Promotion disable=""/>
   <SkirmishReplacer>
-    <general>units/{civ}/cavalry_javelinist</general>
+    <general>units/{civ}/cavalry_javelineer</general>
   </SkirmishReplacer>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_b_m.xml</Actor>

@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Javelinist"],
+  "affects": ["Infantry Javelineer"],
   "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
   "description": "Training increases ranged attack.",
   "genericName": "Javelin Thong",
@@ -19,5 +19,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Infantry javelinists +10% ranged attack damage and −10% spread."
+  "tooltip": "Infantry javelineers +10% ranged attack damage and −10% spread."
 }

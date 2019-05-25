@@ -17,7 +17,7 @@
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
-    <GenericName>Cavalry Javelinist Hero</GenericName>
-    <VisibleClasses datatype="tokens">Javelinist Ranged</VisibleClasses>
+    <GenericName>Cavalry Javelineer Hero</GenericName>
+    <VisibleClasses datatype="tokens">Javelineer Ranged</VisibleClasses>
   </Identity>
 </Entity>

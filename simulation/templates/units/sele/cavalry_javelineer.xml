@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>sele</Civ>
+    <Classes datatype="tokens">Macedonian</Classes>
+    <GenericName>Militia Cavalry</GenericName>
+    <Icon>units/athen_cavalry_javelinist_b.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/sele/cavalry_javelineer</SelectionGroupName>
+    <SpecificName>Ἱππακοντίστης</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

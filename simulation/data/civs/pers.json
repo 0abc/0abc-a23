@@ -90,7 +90,7 @@
       "Count": 2
     },
     {
-      "Template": "units/pers/cavalry_javelinist"
+      "Template": "units/pers/cavalry_javelineer"
     },
     {
       "Template": "gaia/fauna_sheep",
@@ -128,7 +128,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/pers/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/pers/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/pers/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/pers/infantry_archer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged">
+  <Attack>
+    <Ranged>
+      <MaxRange op="mul">3.0</MaxRange>
+      <Pierce>15</Pierce>
+      <ProjectileSpeed op="mul">0.8</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <GenericName>Cavalry Javelineer</GenericName>
+    <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
+  </Identity>
+</Entity>

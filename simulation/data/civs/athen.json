@@ -80,7 +80,7 @@
       "Count": 2
     },
     {
-      "Template": "units/athen/cavalry_javelinist"
+      "Template": "units/athen/cavalry_javelineer"
     },
     {
       "Template": "gaia/fauna_goat",
@@ -121,7 +121,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/athen/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/athen/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/athen/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/athen/infantry_slinger",
     "skirmish/structures/default_house_10": "structures/{civ}/house"

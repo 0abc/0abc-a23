@@ -276,19 +276,19 @@ There are four damage types (crush, hack, pierce, thrust)
   * Fishing Boat
   * Infantry Swordsman
   * Infantry Stone-slinger
-  * Cavalry Javelinist
+  * Cavalry Javelineer
   * War Dog
 * Town phase:
   * Healer
   * Merchant Ship
   * Infantry Spearman
-  * Infantry Javelinist
+  * Infantry Javelineer
   * Cavalry Swordsman
   * Small Battering Ram
   * War Barge
 * City phase:
   * Infantry Swordsman Champion
-  * Biga Javelinist Champion
+  * Biga Javelineer Champion
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -300,15 +300,15 @@ There are four damage types (crush, hack, pierce, thrust)
   * Fishing Boat
   * Infantry Spearman
   * Infantry Archer
-  * Cavalry Javelinist
+  * Cavalry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship
   * Infantry Spearman Mercenary
   * Infantry Swordsman Mercenary
-  * Infantry Javelinist Mercenary
+  * Infantry Javelineer Mercenary
   * Infantry Lead-slinger Mercenary
-  * Cavalry Javelinist Mercenary
+  * Cavalry Javelineer Mercenary
   * Cavalry Sabreman Mercenary
   * Cavalry Swordsman Mercenary
   * Cavalry Spearman Mercenary
@@ -332,14 +332,14 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Spearman
-  * Infantry Javelinist
+  * Infantry Javelineer
   * Cavalry Swordsman
 * Town phase:
   * Healer
   * Merchant Ship
   * Infantry Swordsman
   * Infantry Slinger
-  * Cavalry Javelinist
+  * Cavalry Javelineer
   * Small Battering Ram
   * War Barge
 * City phase:
@@ -356,14 +356,14 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Spearman
-  * Infantry Javelinist
+  * Infantry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship
   * *Greek Infantry Spearman*
   * *Cretan Infantry Archer*
   * *Rhodian Infantry Slinger*
-  * Cavalry Javelinist
+  * Cavalry Javelineer
   * Cavalry Sabreman
   * Small Battering Ram
   * Penteconter
@@ -382,8 +382,8 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Sabreman
-  * Infantry Javelinist
-  * Cavalry Javelinist
+  * Infantry Javelineer
+  * Cavalry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship
@@ -395,7 +395,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Fire Ship
 * City phase:
   * Infantry Sabreman Champion
-  * Cavalry Javelinist Champion
+  * Cavalry Javelineer Champion
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -407,16 +407,16 @@ There are four damage types (crush, hack, pierce, thrust)
   * Fishing Boat
   * Infantry Spearman
   * Infantry Archer
-  * Cavalry Javelinist
+  * Cavalry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship
   * Infantry Pikeman
   * Infantry Swordsman
   * *Nuba Infantry Maceman*
-  * *Nuba Infantry Javelinist*
+  * *Nuba Infantry Javelineer*
   * Cavalry Spearman
-  * *Blemmye Camel Javelinist*
+  * *Blemmye Camel Javelineer*
   * Large Battering Ram
   * Trireme
 * City phase:
@@ -435,7 +435,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Pikeman
-  * Infantry Javelinist
+  * Infantry Javelineer
   * Cavalry Lancer
 * Town phase:
   * Healer
@@ -443,7 +443,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * *Greek Infantry Spearman*
   * *Cretan Infantry Archer*
   * *Rhodian Infantry Slinger*
-  * Cavalry Javelinist
+  * Cavalry Javelineer
   * Large Battering Ram
   * Penteconter
   * Trireme
@@ -473,7 +473,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Merchant Ship
   * Infantry Sabreman
   * Cavalry Swordsman
-  * Cavalry Javelinist
+  * Cavalry Javelineer
   * Small Battering Ram
   * War Elephant
   * War Barge
@@ -494,11 +494,11 @@ There are four damage types (crush, hack, pierce, thrust)
   * Fishing Boat
   * Infantry Spearman
   * Infantry Archer
-  * Cavalry Javelinist
+  * Cavalry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship
-  * Infantry Javelinist
+  * Infantry Javelineer
   * Cavalry Axeman
   * Cavalry Spearman
   * Cavalry Archer
@@ -529,12 +529,12 @@ There are four damage types (crush, hack, pierce, thrust)
   * Merchant Ship
   * Infantry Spearman Mercenary
   * Infantry Swordsman Mercenary
-  * Infantry Javelinist Mercenary
+  * Infantry Javelineer Mercenary
   * *Greek Infantry Spearman*
   * *Cretan Infantry Archer*
   * *Rhodian Infantry Slinger*
   * Cavalry Spearman
-  * Cavalry Javelinist Mercenary
+  * Cavalry Javelineer Mercenary
   * *Nabatean Camel Archer*
   * Large Battering Ram
   * Trireme
@@ -557,14 +557,14 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Sabreman
-  * Infantry Javelinist
+  * Infantry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship
   * Infantry Swordsman
   * Infantry Spearman
   * Cavalry Spearman
-  * Cavalry Javelinist
+  * Cavalry Javelineer
   * Large Battering Ram
   * Penteconter
   * Trireme
@@ -584,8 +584,8 @@ There are four damage types (crush, hack, pierce, thrust)
   * Trader
   * Fishing Boat
   * Infantry Spearman
-  * Infantry Javelinist
-  * Cavalry Javelinist
+  * Infantry Javelineer
+  * Cavalry Javelineer
 * Town phase:
   * Healer
   * Merchant Ship

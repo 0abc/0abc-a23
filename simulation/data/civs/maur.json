@@ -85,7 +85,7 @@
       "Count": 2
     },
     {
-      "Template": "units/maur/cavalry_javelinist"
+      "Template": "units/maur/cavalry_javelineer"
     },
     {
       "Template": "units/maur/support_elephant"
@@ -123,7 +123,7 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/units/default_cavalry": "units/maur/cavalry_javelinist",
+    "skirmish/units/default_cavalry": "units/maur/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/maur/infantry_spearman",
     "skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer",
     "skirmish/units/special_starting_unit": "units/maur/support_elephant",

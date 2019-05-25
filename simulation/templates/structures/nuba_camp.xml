@@ -16,7 +16,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/merc/nuba_infantry_maceman
-      units/merc/nuba_infantry_javelinist
+      units/merc/nuba_infantry_javelineer
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -78,10 +78,10 @@
     },
     {
       "Template": "units/mace/infantry_pikeman",
-      "Count": 4
+      "Count": 24
     },
     {
-      "Template": "units/mace/infantry_javelinist",
+      "Template": "units/mace/infantry_javelineer",
       "Count": 2
     },
     {
@@ -127,7 +127,7 @@
   {
     "skirmish/units/default_cavalry": "units/mace/cavalry_lancer",
     "skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman",
-    "skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelinist",
+    "skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelineer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/nabatean_camp
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sele</Civ>
+    <Classes datatype="tokens">Arab</Classes>
+    <Lang>greek</Lang>
+    <GenericName>Arab Javelineer</GenericName>
+    <Icon>units/pers_infantry_javelinist_b.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/sele/infantry_javelineer</SelectionGroupName>
+    <SpecificName>Πεζακοντιστής Ἀραβικός</SpecificName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>
