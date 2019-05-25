@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Κληρουχία</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30" depth="30"/>

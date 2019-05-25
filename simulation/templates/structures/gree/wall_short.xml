@@ -14,7 +14,6 @@
   <Identity>
     <Civ>gree</Civ>
     <SelectionGroupName>structures/gree/wallset</SelectionGroupName>
-    <SpecificName>Τεῖχος</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="6.0"/>

@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <SpecificName>Ἀποθήκη</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="14.0"/>

@@ -9,8 +9,7 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <GenericName>Mess Hall</GenericName>
-    <SpecificName>Συσσίτον</SpecificName>
+    <SpecificName>Mess Hall</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="18" depth="28"/>

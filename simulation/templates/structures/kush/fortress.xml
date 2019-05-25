@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Htm</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>

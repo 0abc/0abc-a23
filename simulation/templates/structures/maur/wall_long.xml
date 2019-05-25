@@ -26,7 +26,6 @@
   <Identity>
     <Civ>maur</Civ>
     <SelectionGroupName>structures/maur/wallset</SelectionGroupName>
-    <SpecificName>Shilabanda</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="35.0" depth="7.5"/>

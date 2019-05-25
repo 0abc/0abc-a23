@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Dorre</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10" depth="10"/>

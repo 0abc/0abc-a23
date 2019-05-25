@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Φρούριον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>

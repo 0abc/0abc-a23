@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Puratta</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="9.5" depth="9.5"/>

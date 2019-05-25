@@ -12,7 +12,6 @@
   </Health>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Winter Palace</GenericName>
     <Icon>structures/palace.png</Icon>
     <SpecificName>Taçara</SpecificName>
   </Identity>

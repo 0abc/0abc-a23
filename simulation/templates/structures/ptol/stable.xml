@@ -3,7 +3,6 @@
   <Identity>
     <Civ>ptol</Civ>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SpecificName>Ἱππών</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/stable.xml</Actor>

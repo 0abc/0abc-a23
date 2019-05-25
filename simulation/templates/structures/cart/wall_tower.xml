@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Mijdil</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="11.0" depth="11.0"/>

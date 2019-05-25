@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>Ἀποθήκη</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.0" depth="16.0"/>

@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Arruga</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="20.0"/>

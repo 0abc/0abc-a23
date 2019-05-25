@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_cavalrystable">
   <Identity>
     <Civ>spart</Civ>
-    <SpecificName>Ἱππών</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/spartans/stable.xml</Actor>

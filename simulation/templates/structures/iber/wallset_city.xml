@@ -2,7 +2,6 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Zabal Horma</SpecificName>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>

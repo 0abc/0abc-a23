@@ -26,7 +26,6 @@
   <Identity>
     <Civ>mace</Civ>
     <SelectionGroupName>structures/mace/wallset</SelectionGroupName>
-    <SpecificName>Τεῖχος</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="37.0" depth="6.0"/>

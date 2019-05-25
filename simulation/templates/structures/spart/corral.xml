@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <SpecificName>Ἔπαυλος</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="15.0"/>

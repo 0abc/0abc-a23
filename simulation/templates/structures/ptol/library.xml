@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>Βιβλιοθήκη</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="30.0"/>

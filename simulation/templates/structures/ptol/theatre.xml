@@ -2,7 +2,6 @@
 <Entity parent="template_structure_civic_theatre">
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>Θέατρον</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/theatron.xml</Actor>

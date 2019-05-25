@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Ἀγορά</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="32" depth="32"/>

@@ -26,7 +26,6 @@
   <Identity>
     <Civ>iber</Civ>
     <SelectionGroupName>structures/iber/wallset</SelectionGroupName>
-    <SpecificName>Zabal Horma</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="36.0" depth="8"/>

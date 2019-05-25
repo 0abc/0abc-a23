@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_range">
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Budinadon</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/gauls/range.xml</Actor>

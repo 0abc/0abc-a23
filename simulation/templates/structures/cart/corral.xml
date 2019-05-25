@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Rēfet</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="14.5"/>

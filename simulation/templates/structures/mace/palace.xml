@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Βασίλειον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28" depth="28"/>

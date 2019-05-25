@@ -26,7 +26,6 @@
   <Identity>
     <Civ>kush</Civ>
     <SelectionGroupName>structures/kush/wallset</SelectionGroupName>
-    <SpecificName>Sbty</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="38.0" depth="8.0"/>

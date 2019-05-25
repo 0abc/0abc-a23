@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Receptaculum</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="13.0"/>

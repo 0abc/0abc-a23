@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Brauon</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_large">
   <Identity>
     <Civ>pers</Civ>
-    <SpecificName>Pāyaud</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/scout_tower.xml</Actor>

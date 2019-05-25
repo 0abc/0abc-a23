@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>Πύργος</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10" depth="10"/>

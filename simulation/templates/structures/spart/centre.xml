@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <SpecificName>Ἀγορά</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30" depth="30"/>

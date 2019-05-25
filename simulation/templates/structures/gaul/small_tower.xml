@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_small">
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Uxelon</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/gauls/wooden_tower.xml</Actor>

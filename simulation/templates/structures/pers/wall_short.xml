@@ -14,7 +14,6 @@
   <Identity>
     <Civ>pers</Civ>
     <SelectionGroupName>structures/pers/wallset</SelectionGroupName>
-    <SpecificName>Para</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.0"/>

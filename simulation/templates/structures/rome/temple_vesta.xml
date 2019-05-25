@@ -14,9 +14,8 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Temple of Vesta</GenericName>
     <Icon>structures/temple_vesta.png</Icon>
-    <SpecificName>Aedes Vestae</SpecificName>
+    <SpecificName>Temple of Vesta</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="19.0" depth="19.0"/>

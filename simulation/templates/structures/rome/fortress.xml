@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Castellum</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>

@@ -8,7 +8,6 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Villa</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="16.0"/>

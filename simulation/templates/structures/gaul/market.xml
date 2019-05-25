@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Magos</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="23.0"/>

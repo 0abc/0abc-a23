@@ -12,9 +12,8 @@
   </Health>
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Edict Pillar of Ashoka</GenericName>
     <Icon>structures/ashoka_pillar.png</Icon>
-    <SpecificName>Śāsana Stambha Aśokā</SpecificName>
+    <SpecificName>Edict Pillar of Ashoka</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="4" depth="4"/>

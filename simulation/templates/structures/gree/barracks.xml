@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>gree</Civ>
-    <SpecificName>Στρατόπεδον</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/spartans/barracks.xml</Actor>

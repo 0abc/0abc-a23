@@ -14,7 +14,6 @@
   <Identity>
     <Civ>rome</Civ>
     <SelectionGroupName>structures/rome/wallset</SelectionGroupName>
-    <SpecificName>Moenia</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.5"/>

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Pr-ms’yw</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/kushites/barracks.xml</Actor>

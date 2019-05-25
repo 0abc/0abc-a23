@@ -2,7 +2,6 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Sbty</SpecificName>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>

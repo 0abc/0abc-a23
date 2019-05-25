@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Tegia</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="11.0" depth="11.0"/>

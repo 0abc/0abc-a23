@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_workshop">
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Pr-ỉwn n ms</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/kushites/workshop.xml</Actor>

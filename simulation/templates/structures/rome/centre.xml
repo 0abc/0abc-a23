@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Forum</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="35" depth="35"/>

@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Ἐμπόριον</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="26.0"/>

@@ -2,6 +2,5 @@
 <Entity parent="structures/siege_fort">
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Castrum Vallum</SpecificName>
   </Identity>
 </Entity>

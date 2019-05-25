@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Oppidum</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30" depth="30"/>

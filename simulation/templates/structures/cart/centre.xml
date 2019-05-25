@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Merkāz</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30" depth="30"/>

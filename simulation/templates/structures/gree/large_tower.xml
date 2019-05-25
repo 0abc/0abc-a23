@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_large">
   <Identity>
     <Civ>gree</Civ>
-    <SpecificName>Πυργίον</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/spartans/defense_tower.xml</Actor>

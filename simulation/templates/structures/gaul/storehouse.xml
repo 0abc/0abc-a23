@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Capanon</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="15.0"/>

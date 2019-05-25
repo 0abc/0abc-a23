@@ -8,7 +8,6 @@
   </Health>
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Baserri</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="11.0"/>

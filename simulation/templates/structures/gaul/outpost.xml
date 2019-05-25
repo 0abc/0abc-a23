@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_outpost">
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Antosolicon</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/outpost.xml</Actor>

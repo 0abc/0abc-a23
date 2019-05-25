@@ -9,8 +9,7 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>Apartment Building</GenericName>
-    <SpecificName>Bet</SpecificName>
+    <SpecificName>Apartment Building</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="13.0"/>

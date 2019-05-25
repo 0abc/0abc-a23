@@ -26,7 +26,6 @@
   <Identity>
     <Civ>sele</Civ>
     <SelectionGroupName>structures/sele/wallset</SelectionGroupName>
-    <SpecificName>Τεῖχος</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="34.0" depth="6.0"/>

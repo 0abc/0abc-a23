@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Pr-nsw</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30" depth="30"/>

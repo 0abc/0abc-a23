@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Ḥamet</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="28.0"/>

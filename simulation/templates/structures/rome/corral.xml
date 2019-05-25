@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Saeptum</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="20.0"/>

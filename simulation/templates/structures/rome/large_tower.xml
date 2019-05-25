@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_large">
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Turris</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/scout_tower.xml</Actor>

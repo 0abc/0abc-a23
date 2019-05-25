@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_small">
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Πυργίδιον</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/wooden_tower.xml</Actor>

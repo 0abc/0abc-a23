@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Bet</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="13.0"/>

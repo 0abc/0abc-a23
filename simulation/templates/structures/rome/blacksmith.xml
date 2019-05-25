@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Armamentarium</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

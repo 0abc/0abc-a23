@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_outpost">
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Uparaksana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryans/outpost.xml</Actor>

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_elephantstable">
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Ỉḥ Ssmt</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/kushites/elephant_stable.xml</Actor>

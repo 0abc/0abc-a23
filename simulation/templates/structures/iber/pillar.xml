@@ -12,9 +12,8 @@
   </Health>
   <Identity>
     <Civ>iber</Civ>
-    <GenericName>Revered Monument</GenericName>
     <Icon>structures/iberian_bull.png</Icon>
-    <SpecificName>Gur Oroigarri</SpecificName>
+    <SpecificName>Revered Monument</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="6" depth="6"/>

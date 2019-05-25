@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Castro</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="27.0" depth="27.0"/>

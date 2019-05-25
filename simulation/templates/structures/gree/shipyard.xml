@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_shipyard">
   <Identity>
     <Civ>gree</Civ>
-    <SpecificName>Ναυπηγεῖον</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/dock.xml</Actor>

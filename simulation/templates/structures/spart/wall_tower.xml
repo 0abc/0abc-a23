@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>spart</Civ>
-    <SpecificName>Πύργος</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>

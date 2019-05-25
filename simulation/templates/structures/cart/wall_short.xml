@@ -14,7 +14,6 @@
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>structures/cart/wallset</SelectionGroupName>
-    <SpecificName>Homah</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="9.0"/>

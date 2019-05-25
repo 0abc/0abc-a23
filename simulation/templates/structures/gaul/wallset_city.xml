@@ -2,7 +2,6 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Rate</SpecificName>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>

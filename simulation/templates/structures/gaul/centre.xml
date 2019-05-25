@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Lissos</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26" depth="26"/>
