@@ -3,14 +3,14 @@
   <Builder disable=""/>
   <Identity>
     <Civ>mace</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <GenericName>Crossbowman</GenericName>
     <Icon>units/mace_infantry_crossbowman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_crossbowman</SelectionGroupName>
     <SpecificName>Τοξότης Γαστρφέτης</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

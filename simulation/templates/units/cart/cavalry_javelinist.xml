@@ -2,12 +2,12 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>cart</Civ>
+    <Classes datatype="tokens">Libyan</Classes>
     <GenericName>Libyan Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Ḥayyāl Raḫūv Ḥanīt</SpecificName>
-    <VisibleClasses datatype="tokens">Libyan</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_javelinist_b_m.xml</Actor>

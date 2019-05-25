@@ -2,14 +2,14 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>athen</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Cretan</Classes>
     <GenericName>Cretan Archer</GenericName>
     <Icon>units/athen_infantry_archer_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_archer</SelectionGroupName>
     <SpecificName>Τοξότης Κρητικός</SpecificName>
-    <VisibleClasses datatype="tokens">Cretan Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

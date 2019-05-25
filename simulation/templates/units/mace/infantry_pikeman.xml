@@ -7,6 +7,7 @@
   </Builder>
   <Identity>
     <Civ>mace</Civ>
+    <Classes datatype="tokens">Macedonian</Classes>
     <GenericName>Foot Companion</GenericName>
     <Icon>units/mace_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>

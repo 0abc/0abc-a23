@@ -2,12 +2,13 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>maur</Civ>
+    <Classes datatype="tokens">Indian</Classes>
     <GenericName>Bamboo Spearman</GenericName>
     <Icon>units/maur_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_spearman</SelectionGroupName>
     <SpecificName>Kauntika</SpecificName>
-    <VisibleClasses datatype="tokens">Indian Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/infantry_spearman_a.xml</Actor>

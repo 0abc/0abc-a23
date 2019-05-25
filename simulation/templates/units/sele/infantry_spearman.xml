@@ -7,13 +7,14 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Greek</Classes>
     <GenericName>Militia Thureos Spearman</GenericName>
     <Icon>units/sele_infantry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_spearman</SelectionGroupName>
     <SpecificName>Θυρεοφόρος</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_spearman_a.xml</Actor>

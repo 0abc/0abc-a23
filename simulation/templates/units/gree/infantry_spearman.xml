@@ -7,13 +7,14 @@
   </Builder>
   <Identity>
     <Civ>gree</Civ>
+    <Classes datatype="tokens">Greek</Classes>
     <GenericName>Militia Hoplite</GenericName>
     <Icon>units/athen_infantry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman</SelectionGroupName>
     <SpecificName>Ὁπλίτης</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_spearman_b.xml</Actor>

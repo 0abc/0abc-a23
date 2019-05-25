@@ -2,13 +2,14 @@
 <Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Macedonian</Classes>
     <GenericName>Seleucid Cataphract</GenericName>
     <Icon>units/sele_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_lancer_champion</SelectionGroupName>
     <SpecificName>Σελευκιδόν Καταφρακτος</SpecificName>
-    <VisibleClasses datatype="tokens">Macedonian Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/cavalry_spearman_c_m.xml</Actor>

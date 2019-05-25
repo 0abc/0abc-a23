@@ -2,13 +2,13 @@
 <Entity parent="template_unit_cavalry_melee_sabreman">
   <Identity>
     <Civ>gree</Civ>
+    <Classes datatype="tokens">Greek</Classes>
     <GenericName>Greek Cavalry</GenericName>
     <Icon>units/athen_cavalry_swordsman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gree/cavalry_swordsman</SelectionGroupName>
     <SpecificName>Ἵππευς</SpecificName>
-    <VisibleClasses datatype="tokens">Greek</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/cavalry_swordsman_a_m.xml</Actor>

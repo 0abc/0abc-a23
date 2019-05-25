@@ -7,13 +7,14 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Macedonian</Classes>
     <GenericName>Bronze Shield Pikeman</GenericName>
     <Icon>units/sele_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_pikeman</SelectionGroupName>
     <SpecificName>Χαλκάσπις</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_pikeman_a.xml</Actor>

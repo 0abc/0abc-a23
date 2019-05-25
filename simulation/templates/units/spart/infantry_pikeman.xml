@@ -2,13 +2,14 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>spart</Civ>
+    <Classes datatype="tokens">Greek</Classes>
     <GenericName>Spartan Pikeman</GenericName>
     <Icon>units/spart_infantry_pikeman_c.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_pikeman</SelectionGroupName>
     <SpecificName>Φαλαγγίτης Σπαρτιατικός</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/infantry_pikeman_c.xml</Actor>

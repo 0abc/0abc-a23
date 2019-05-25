@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>brit</Civ>
+    <Classes datatype="tokens">Celt</Classes>
     <Icon>units/celt_cavalry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/brit/cavalry_swordsman</SelectionGroupName>
     <SpecificName>Epos</SpecificName>
-    <VisibleClasses datatype="tokens">Celt</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_b_m.xml</Actor>

@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Samnite</Classes>
     <GenericName>Samnite Skirmisher</GenericName>
     <Icon>units/cart_infantry_javelinist_c.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_javelinist_mercenary_2</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Samnite Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

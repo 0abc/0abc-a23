@@ -2,11 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>gaul</Civ>
+    <Classes datatype="tokens">Celt</Classes>
     <Icon>units/celt_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul_infantry_javelinist</SelectionGroupName>
     <SpecificName>Baguada</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/infantry_javelinist_a.xml</Actor>

@@ -2,11 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>cart</Civ>
+    <Classes datatype="tokens">Punic</Classes>
     <GenericName>Punic Heavy Cavalry</GenericName>
     <Icon>units/cart_cavalry_spearman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_lancer_champion</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Punic Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_spearman_c_m.xml</Actor>

@@ -2,11 +2,12 @@
 <Entity parent="template_unit_chariot_biga_javelinist">
   <Identity>
     <Civ>brit</Civ>
+    <Classes datatype="tokens">Celt</Classes>
     <Icon>units/brit_chariot_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit_champion_chariot</SelectionGroupName>
     <SpecificName>Carbanto</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/britons/chariot_javelinist_c_m.xml</Actor>

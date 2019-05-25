@@ -106,23 +106,20 @@
     "special/formations/flank",
     "special/formations/skirmish",
     "special/formations/wedge",
-    "special/formations/phalanx",
-    "special/formations/syntagma",
-    "special/formations/testudo"
+    "special/formations/phalanx"
   ],
   "AINames":
   [
-    "Chandragupta Maurya",
-    "Ashoka the Great",
-    "Ashokavardhan Maurya",
     "Acharya Bhadrabahu",
-    "Bindusara Maurya",
-    "Dasaratha Maurya",
-    "Samprati Maurya",
-    "Salisuka Maurya",
-    "Devavarman Maurya",
-    "Satadhanvan Maurya",
-    "Brihadratha Maurya"
+    "Chandragupta Maurya",
+    "Bindusara",
+    "Ashoka the Great",
+    "Dasharatha",
+    "Samprati",
+    "Shalishuka",
+    "Devavarman",
+    "Shatadhanvan",
+    "Brihadratha"
   ],
   "SkirmishReplacements":
   {

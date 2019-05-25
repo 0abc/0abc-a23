@@ -6,13 +6,13 @@
     </Ranged>
   </Attack>
   <Identity>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Rhodian</Classes>
     <GenericName>Rhodian Slinger</GenericName>
     <Icon>units/mace_infantry_slinger_a.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/rhodian_infantry_slinger</SelectionGroupName>
     <SpecificName>Σφενδονήτης Ρόδιος</SpecificName>
-    <VisibleClasses datatype="tokens">Rhodian Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

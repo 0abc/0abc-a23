@@ -7,13 +7,14 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Syrian</Classes>
     <GenericName>Syrian Archer</GenericName>
     <Icon>units/sele_infantry_archer_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_archer</SelectionGroupName>
     <SpecificName>Τοξότης Συρίας</SpecificName>
-    <VisibleClasses datatype="tokens">Syrian Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_archer_a.xml</Actor>

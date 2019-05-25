@@ -2,10 +2,11 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>brit</Civ>
+    <Classes datatype="tokens">Celt</Classes>
     <Icon>units/cart_infantry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_swordsman</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Celt Town</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_b.xml</Actor>

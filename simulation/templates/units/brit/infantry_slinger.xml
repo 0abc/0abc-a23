@@ -2,11 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_stoneslinger">
   <Identity>
     <Civ>brit</Civ>
+    <Classes datatype="tokens">Celt</Classes>
     <Icon>units/celt_infantry_slinger_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/brit/infantry_slinger</SelectionGroupName>
     <SpecificName>Iaosae</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/infantry_slinger_b.xml</Actor>

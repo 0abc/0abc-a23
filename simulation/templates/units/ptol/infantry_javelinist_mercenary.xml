@@ -2,14 +2,14 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <GenericName>Mercenary Thureos Skirmisher</GenericName>
     <Icon>units/ptol_infantry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Ἀκροβολιστής</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

@@ -3,13 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>pers</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Persian</Classes>
     <GenericName>Hoplite</GenericName>
     <Icon>units/pers_infantry_spearman_c_3.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman_champion_3</SelectionGroupName>
     <SpecificName>Kardakes</SpecificName>
-    <VisibleClasses datatype="tokens">Persian Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Celt</Classes>
     <GenericName>Gallic Mercenary Swordsman</GenericName>
     <Icon>units/ptol_infantry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_swordsman_mercenary</SelectionGroupName>
     <SpecificName>Γαλλικός Μιστοφορός</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

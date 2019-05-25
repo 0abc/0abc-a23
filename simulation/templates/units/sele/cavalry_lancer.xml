@@ -2,13 +2,13 @@
 <Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Macedonian</Classes>
     <GenericName>Companion Cavalry</GenericName>
     <Icon>units/mace_cavalry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_lancer</SelectionGroupName>
     <SpecificName>Ἵππευς Ἑταῖρος</SpecificName>
-    <VisibleClasses datatype="tokens">Macedonian</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_a_m.xml</Actor>

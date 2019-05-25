@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <GenericName>Mercenary Hoplite</GenericName>
     <Icon>units/athen_infantry_spearman_a.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/greek_infantry_spearman</SelectionGroupName>
     <SpecificName>Ὁπλίτης</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

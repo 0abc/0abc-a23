@@ -2,12 +2,13 @@
 <Entity parent="template_unit_infantry_melee_sabreman">
   <Identity>
     <Civ>maur</Civ>
+    <Classes datatype="tokens">Indian</Classes>
     <GenericName>Indian Swordsman</GenericName>
     <Icon>units/maur_infantry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_sabreman</SelectionGroupName>
     <SpecificName>Khadagdhari</SpecificName>
-    <VisibleClasses datatype="tokens">Indian Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/infantry_swordsman_a.xml</Actor>

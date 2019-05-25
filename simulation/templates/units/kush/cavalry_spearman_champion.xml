@@ -2,12 +2,13 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>kush</Civ>
+    <Classes datatype="tokens">Kushite</Classes>
     <GenericName>Noble Cavalry</GenericName>
     <Icon>units/kush_cavalry_spearman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/cavalry_spearman_champion</SelectionGroupName>
     <SpecificName>Htr Ms’ n mh-ib</SpecificName>
-    <VisibleClasses datatype="tokens">Kushite Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/cavalry_spearman_c_m.xml</Actor>

@@ -2,12 +2,13 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>cart</Civ>
+    <Classes datatype="tokens">Numidian</Classes>
     <GenericName>Numidian Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
-    <VisibleClasses datatype="tokens">Numidian Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_javelinist_a_m.xml</Actor>

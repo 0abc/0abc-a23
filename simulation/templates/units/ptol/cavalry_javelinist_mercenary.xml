@@ -2,13 +2,14 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>ptol</Civ>
+    <Classes datatype="tokens">Macedonian</Classes>
     <GenericName>Tarantine Settler Cavalry</GenericName>
     <Icon>units/mace_cavalry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/ptol/cavalry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Ἱππεύς Ταραντῖνος</SpecificName>
-    <VisibleClasses datatype="tokens">Tarentine Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_e_m.xml</Actor>

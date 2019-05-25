@@ -3,12 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Thracian</Classes>
     <GenericName>Thracian Mercenary Swordsman</GenericName>
     <Icon>units/sele_infantry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_longswordsman_mercenary</SelectionGroupName>
     <SpecificName>Ῥομφαιαφόρος Θρᾴκικος</SpecificName>
-    <VisibleClasses datatype="tokens">Thracian Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/infantry_swordsman_a.xml</Actor>

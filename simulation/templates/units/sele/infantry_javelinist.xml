@@ -7,13 +7,14 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Arab</Classes>
     <Lang>greek</Lang>
     <GenericName>Arab Javelineer</GenericName>
     <Icon>units/pers_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_javelinist</SelectionGroupName>
     <SpecificName>Πεζακοντιστής Ἀραβικός</SpecificName>
-    <VisibleClasses datatype="tokens">Arab Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/infantry_javelinist_b.xml</Actor>

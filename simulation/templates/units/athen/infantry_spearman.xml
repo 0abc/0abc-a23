@@ -2,13 +2,14 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>athen</Civ>
+    <Classes datatype="tokens">Greek</Classes>
     <GenericName>Athenian Hoplite</GenericName>
     <Icon>units/athen_infantry_spearman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_spearman</SelectionGroupName>
     <SpecificName>Ὁπλίτης Ἀθηναῖος</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_spearman_a.xml</Actor>

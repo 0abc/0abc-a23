@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Samnite</Classes>
     <GenericName>Samnite Spearman</GenericName>
     <Icon>units/cart_infantry_spearman_c_2.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_spearman_mercenary_2</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Samnite Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

@@ -2,13 +2,14 @@
 <Entity parent="template_unit_chariot_quadriga_archer">
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Syrian</Classes>
     <GenericName>Scythed Chariot</GenericName>
     <Icon>units/sele_chariot_scythed_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/quadriga_scythed_champion</SelectionGroupName>
     <SpecificName>Ἅρμα Δρεπανηφόρον</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/chariot_archer_c_m.xml</Actor>

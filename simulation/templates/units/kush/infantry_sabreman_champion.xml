@@ -3,13 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Kushite</Classes>
     <GenericName>Napatan Temple Guard</GenericName>
     <Icon>units/kush_infantry_swordsman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_sabreman_champion</SelectionGroupName>
     <SpecificName>rs ‘Imn</SpecificName>
-    <VisibleClasses datatype="tokens">Kushite Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

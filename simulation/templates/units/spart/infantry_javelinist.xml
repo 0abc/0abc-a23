@@ -2,13 +2,14 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>spart</Civ>
+    <Classes datatype="tokens">Greek</Classes>
     <GenericName>Helot Skirmisher</GenericName>
     <Icon>units/spart_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_javelinist</SelectionGroupName>
     <SpecificName>Ἀκοντιστής Εἵλως</SpecificName>
-    <VisibleClasses datatype="tokens">Greek Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/infantry_javelinist_b.xml</Actor>

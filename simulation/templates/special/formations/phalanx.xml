@@ -10,8 +10,8 @@
     <UnitSeparationDepthMultiplier>0.6</UnitSeparationDepthMultiplier>
     <WidthDepthRatio>4</WidthDepthRatio>
     <MinColumns>5</MinColumns>
-    <MaxColumns>20</MaxColumns>
-    <MaxRows>8</MaxRows>
+    <MaxColumns>30</MaxColumns>
+    <MaxRows>10</MaxRows>
     <Animations>
       <idle>
         1..2,1..-1: phalanx_idle;

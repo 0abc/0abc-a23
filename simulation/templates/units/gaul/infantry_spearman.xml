@@ -2,11 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>gaul</Civ>
+    <Classes datatype="tokens">Celt</Classes>
     <Icon>units/celt_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_spearman</SelectionGroupName>
     <SpecificName>Gaeroa</SpecificName>
-    <VisibleClasses datatype="tokens">Celt Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/infantry_spearman_b.xml</Actor>

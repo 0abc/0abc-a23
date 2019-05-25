@@ -2,15 +2,16 @@
 <Entity parent="template_unit_infantry_melee_sabreman">
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">Roman</Classes>
     <GenericName>Young Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman_b_2.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_sabreman</SelectionGroupName>
     <SpecificName>Hastatus</SpecificName>
-    <VisibleClasses datatype="tokens">Roman Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_swordsman_2_b.xml</Actor>
+    <Actor>units/romans/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

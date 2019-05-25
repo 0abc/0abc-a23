@@ -7,12 +7,13 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">Sogdian</Classes>
     <GenericName>Sogdian Archer</GenericName>
     <Icon>units/pers_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_archer</SelectionGroupName>
     <SpecificName>Sugda Vaçabara</SpecificName>
-    <VisibleClasses datatype="tokens">Sogdian Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/infantry_archer_a.xml</Actor>
