@@ -15,28 +15,29 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
+      <Arsenal>0</Arsenal>
       <Centre>1</Centre>
       <Elephant>0</Elephant>
       <ElephantStable>0</ElephantStable>
-      <Embassy>1</Embassy>
       <Fortress>10</Fortress>
       <Hall>3</Hall>
       <Hero>1</Hero>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
       <MercenaryCamp>2</MercenaryCamp>
+      <MerchantShip>20</MerchantShip>
       <NavalBase>1</NavalBase>
-      <NavalTrader>20</NavalTrader>
       <Palace>1</Palace>
       <Pillar>5</Pillar>
-      <Tachara>1</Tachara>
       <Theatre>1</Theatre>
       <Tower>20</Tower>
       <WarDog>30</WarDog>
       <Wonder>1</Wonder>
-      <Workshop>0</Workshop>
     </Limits>
     <LimitChangers>
+      <Arsenal>
+        <Centre>1</Centre>
+      </Arsenal>
       <Elephant>
         <ElephantStable>5</ElephantStable>
       </Elephant>
@@ -49,9 +50,6 @@
       <Tower>
         <Centre>5</Centre>
       </Tower>
-      <Workshop>
-        <Centre>1</Centre>
-      </Workshop>
     </LimitChangers>
     <LimitRemovers>
       <Centre>

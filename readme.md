@@ -6,6 +6,11 @@
 * [Overview](https://github.com/0abc/0abc-a23#overview)
   * [AI](https://github.com/0abc/0abc-a23#ai)
   * [Structures](https://github.com/0abc/0abc-a23#structures)
+    * [Base](https://github.com/0abc/0abc-a23#base)
+    * [Civic](https://github.com/0abc/0abc-a23#civic)
+    * [Defensive](https://github.com/0abc/0abc-a23#defensive)
+    * [Economic](https://github.com/0abc/0abc-a23#economic)
+    * [Military](https://github.com/0abc/0abc-a23#military)
   * [Units](https://github.com/0abc/0abc-a23#units)
     * [Population costs](https://github.com/0abc/0abc-a23#population-costs)
     * [Damage types](https://github.com/0abc/0abc-a23#damage-types)
@@ -19,18 +24,17 @@
     * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
     * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
 * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
-  * [Britons](https://github.com/0abc/0abc-a23#britons)
-  * [Carthaginians](https://github.com/0abc/0abc-a23#carthaginians)
+  * [Carthage](https://github.com/0abc/0abc-a23#carthage)
   * [Gauls](https://github.com/0abc/0abc-a23#gauls)
-  * [Greeks](https://github.com/0abc/0abc-a23#greeks)
-  * [Iberians](https://github.com/0abc/0abc-a23#iberians)
-  * [Kushites](https://github.com/0abc/0abc-a23#kushites)
-  * [Macedonians](https://github.com/0abc/0abc-a23#macedonians)
-  * [Mauryas](https://github.com/0abc/0abc-a23#mauryas)
-  * [Persians](https://github.com/0abc/0abc-a23#persians)
-  * [Ptolemies](https://github.com/0abc/0abc-a23#ptolemies)
-  * [Romans](https://github.com/0abc/0abc-a23#romans)
-  * [Seleucids](https://github.com/0abc/0abc-a23#seleucids)
+  * [Kush](https://github.com/0abc/0abc-a23#kush)
+  * [Macedon](https://github.com/0abc/0abc-a23#macedon)
+  * [Mauryan India](https://github.com/0abc/0abc-a23#mauryas)
+  * [Ptolemaic Egypt](https://github.com/0abc/0abc-a23#ptolemies)
+  * [Rome](https://github.com/0abc/0abc-a23#rome)
+  * [Seleucid Empire](https://github.com/0abc/0abc-a23#seleucids)
+* [Requests](https://github.com/0abc/0abc-a23#requests)
+  * [Art](https://github.com/0abc/0abc-a23#art)
+  * [Features](https://github.com/0abc/0abc-a23#features)
 
 
 
@@ -86,6 +90,62 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
 * fortresses have a territory root, are purely defensive structures, have somewhat more health, but no longer train any units
 * all factions have cavalry stables (village) and siege workshops (town); most have separate economic docks (village) and military shipyards (town); many have elephant stables (city)
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Base
+*(can be both captured and destroyed)*
+* centre *(village; neutral and own territory; conquest critical)*: territory root; increase population limit; food, wood, stone dropsite; train worker-infantry 
+* house *(village; own territory; conquest critical)*: increase population limit; train women
+* palace *(city; own territory)*: territory root
+* fortress *(city; own territory)*: territory root; shoots arrows
+* naval base *(city; allied, neutral, own territory)*: quickly construct and repair galleys
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Civic
+*(can only be captured)*
+* temple *(town; own territory)*: heal nearby units; heal garrisoned units; train healers; research healing technologies
+* pillar *(town; own territory)*: improve nearby units; not garrisonable
+* theatre *(city; own territory)*: reduce unit training times
+* library *(city; own territory)*: reduce technology research costs
+* lighthouse *(city; own territory)*: very high vision, improve movement speed of nearby ships
+* wonder *(city; own territory; conquest critical)*: many bonuses
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Defensive
+*(can only be destroyed)*
+* outpost *(village; neutral and own territory)*
+* small tower *(village; own territory)*: shoots arrows
+* large tower *(town; own territory)*: shoots arrows
+* palisade *(village; allied, enemy, neutral, own territory)*: not garrisonable
+* siege walls *(town; enemy, neutral, own territory)*
+* city walls *(city; neutral, own territory)*
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Economic
+*(can only be captured)*
+* farm *(village; neutral and own territory)*: harvest grain
+* farmstead *(village; neutral and own territory)*: food dropsite
+* storehouse *(village; neutral and own territory)*: wood and stone dropsite
+* forge *(village; neutral and own territory)*: iron dropsite; research economic technologies
+* market *(village; neutral and own territory)*: barter resources; train slaves and traders; establish trade routes
+* dock *(village; neutral and own territory)*: food, wood, stone dropsite; construct fishing boats, merchant ships, barges; establish trade routes
+* rotary mill *(village; neutral and own territory)*: nearby workers improved grain gather rate
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Military
+*(can be both captured and destroyed)*
+* stable *(village; own territory; conquest critical)*: cavalry
+* hall *(town; own territory; conquest critical)*: infantry mercenaries
+* arsenal *(town; own territory; conquest critical)*: chariotry, crossbowmen, siege engines
+* mercenary camp *(town; neutral and own territory; conquest critical)*: civ-independent mercenaries
+* shipyard *(town; neutral and own territory; conquest critical)*: galleys
+* barracks *(town; own territory; conquest critical)*: infantry champions
+* elephant stable *(town; own territory; conquest critical)*: elephantry
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -182,6 +242,8 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Recruitment costs
+* Women: 30 food
+* Slaves: 30 silver
 * Infantry: 30 food, 30 silver
 * Camelry: 70 food, 35 silver
 * Cavalry: 80 food, 40 silver
@@ -223,7 +285,7 @@ There are four damage types (crush, hack, pierce, thrust)
 #### Class bonuses
 * **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, +50% melee and ranged attack damage.
 * **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, +30% melee and ranged attack damage.
-* **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +20% capture attack strength, +15% melee and ranged attack damage.
+* **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +25% capture attack strength, +15% melee and ranged attack damage.
 * **Cataphract**: +20% silver cost, +2 armour levels, −5% movement speed.
 * **Fanatic**: −3 armour levels, +15% melee attack damage, +30% movement speed.
 * **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
@@ -269,31 +331,7 @@ There are four damage types (crush, hack, pierce, thrust)
 
 
 ## Unit rosters
-### Britons
-* Village phase:
-  * Woman
-  * Trader
-  * Fishing Boat
-  * Infantry Swordsman
-  * Infantry Stone-slinger
-  * Cavalry Javelineer
-  * War Dog
-* Town phase:
-  * Healer
-  * Merchant Ship
-  * Infantry Spearman
-  * Infantry Javelineer
-  * Cavalry Swordsman
-  * Small Battering Ram
-  * War Barge
-* City phase:
-  * Infantry Swordsman Champion
-  * Biga Javelineer Champion
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
-
-### Carthaginians
+### Carthage
 * Village phase:
   * Woman
   * Trader
@@ -350,57 +388,7 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Greeks
-* Village phase:
-  * Woman
-  * Trader
-  * Fishing Boat
-  * Infantry Spearman
-  * Infantry Javelineer
-* Town phase:
-  * Healer
-  * Merchant Ship
-  * *Greek Infantry Spearman*
-  * *Cretan Infantry Archer*
-  * *Rhodian Infantry Slinger*
-  * Cavalry Javelineer
-  * Cavalry Sabreman
-  * Small Battering Ram
-  * Penteconter
-  * Trireme
-* City phase:
-  * Infantry Spearman Champion
-  * Oxybeles
-  * Quadrireme
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
-
-### Iberians
-* Village phase:
-  * Woman
-  * Trader
-  * Fishing Boat
-  * Infantry Sabreman
-  * Infantry Javelineer
-  * Cavalry Javelineer
-* Town phase:
-  * Healer
-  * Merchant Ship
-  * Infantry Spearman
-  * Infantry Slinger
-  * Cavalry Spearman
-  * Small Battering Ram
-  * War Barge
-  * Fire Ship
-* City phase:
-  * Infantry Sabreman Champion
-  * Cavalry Javelineer Champion
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
-
-### Kushites
+### Kush
 * Village phase:
   * Woman
   * Trader
@@ -429,7 +417,7 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Macedonians
+### Macedon
 * Village phase:
   * Woman
   * Trader
@@ -460,7 +448,7 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Mauryas
+### Mauryan India
 * Village phase:
   * Woman
   * Trader
@@ -487,37 +475,7 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Persians
-* Village phase:
-  * Woman
-  * Trader
-  * Fishing Boat
-  * Infantry Spearman
-  * Infantry Archer
-  * Cavalry Javelineer
-* Town phase:
-  * Healer
-  * Merchant Ship
-  * Infantry Javelineer
-  * Cavalry Axeman
-  * Cavalry Spearman
-  * Cavalry Archer
-  * *Nabatean Camel Archer*
-  * Large Battering Ram
-  * Penteconter
-  * Trireme
-* City phase:
-  * Infantry Spearman Mercenary
-  * Infantry Spearman Champion
-  * Cavalry Lancer Champion
-  * Cavalry Archer Champion
-  * Quadriga Scythed Champion
-  * War Elephant Mercenary
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
-
-### Ptolemies
+### Ptolemaic Egypt
 * Village phase:
   * Woman
   * Trader
@@ -534,8 +492,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * *Cretan Infantry Archer*
   * *Rhodian Infantry Slinger*
   * Cavalry Spearman
-  * Cavalry Javelineer Mercenary
-  * *Nabatean Camel Archer*
+  * Cavalry Javelineer
   * Large Battering Ram
   * Trireme
 * City phase:
@@ -551,7 +508,7 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Romans
+### Rome
 * Village phase:
   * Woman
   * Trader
@@ -578,7 +535,7 @@ There are four damage types (crush, hack, pierce, thrust)
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
-### Seleucids
+### Seleucid Empire
 * Village phase:
   * Woman
   * Trader
@@ -592,19 +549,35 @@ There are four damage types (crush, hack, pierce, thrust)
   * Infantry Pikeman
   * Infantry Archer
   * Cavalry Lancer
-  * Cavalry Archer Mercenary
-  * *Nabatean Camel Archer*
+  * *Dahae Horse Archer*
+  * *Arab Camel Archer*
   * Large Battering Ram
   * Penteconter
   * Trireme
 * City phase:
   * Infantry Pikeman Champion
-  * Infantry Swordsman Champion
   * Cavalry Lancer Champion
   * Quadriga Scythed Champion
   * War Elephant Champion
   * Lithobolos
-  * Siege Tower
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+## Requests
+### Art
+* melee attack for scythed chariots (pers b/a/e, sele c)
+* ranged attack for slaves and women (crouch down to pick up stones, then throw them)
+* swimming animations for crocodile
+* kid (young goat), lamb (young sheep), piglet (young pig), calf (young cow), foal (young horse)
+
+### Features
+* AI: replace all hard-coded template file name paths with classes
+* attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
+* `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
+* capturable foundations
+* damage variance: instead of a fixed amount of damage, attack damage now varies from 50% to 150% of the defined value
+* resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
+* elevation bonus is taken into account for attack range visualization
+* elevation bonus applies to vision range as well
+* different ranged attacks for different garrisoned units (e.g. archers, javelineers, and stone-throwers on quinqueremes)
 
