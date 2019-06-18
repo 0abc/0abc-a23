@@ -2,7 +2,7 @@
 <Entity parent="template_structure">
   <AlertRaiser>
     <EndOfAlertRange>80</EndOfAlertRange>
-    <List datatype="tokens">FemaleCitizen</List>
+    <List datatype="tokens">FemaleCitizen Slave</List>
     <RaiseAlertRange>60</RaiseAlertRange>
     <SearchRange>40</SearchRange>
   </AlertRaiser>

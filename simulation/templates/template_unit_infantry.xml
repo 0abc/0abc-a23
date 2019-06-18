@@ -19,41 +19,40 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/centre
+      structures/{civ}/fortress
       structures/{civ}/house
       structures/{civ}/field
       structures/{civ}/farmstead
       structures/{civ}/storehouse
+      structures/{civ}/forge
       structures/{civ}/dock
       structures/{civ}/market
-      structures/{civ}/blacksmith
       structures/{civ}/temple
-      structures/{civ}/wonder
 
+      structures/{civ}/wonder
       structures/{civ}/outpost
       structures/{civ}/small_tower
       structures/{civ}/large_tower
-      structures/{civ}/fortress
       structures/wallset_palisade
       structures/wallset_siege
       structures/{civ}/wallset_city
-      structures/{civ}/barracks
       structures/{civ}/stable
-      structures/{civ}/workshop
+      structures/{civ}/arsenal
+      structures/{civ}/barracks
 
-      structures/{civ}/shipyard
       structures/{civ}/naval_base
-      structures/{civ}/crannog
-      structures/{civ}/colony
-      structures/{civ}/palace
-      structures/{civ}/palace_2
-      structures/{civ}/army_camp
-      structures/{civ}/chariot_stable
+      structures/{civ}/shipyard
       structures/{civ}/elephant_stable
       structures/{civ}/hall
-      structures/{civ}/pillar
-      structures/{civ}/rotarymill
+      structures/{civ}/mercenary_camp_1
+      structures/{civ}/mercenary_camp_2
+      structures/{civ}/mercenary_camp_3
+      structures/{civ}/army_camp
       structures/{civ}/library
       structures/{civ}/lighthouse
+      structures/{civ}/palace
+      structures/{civ}/pillar
+      structures/{civ}/rotarymill
       structures/{civ}/theatre
     </Entities>
   </Builder>
@@ -96,6 +95,7 @@
       <food.grain>0.25</food.grain>
       <food.meat>1</food.meat>
       <metal.ore>0.5</metal.ore>
+      <metal.ruins>3</metal.ruins>
       <stone.rock>0.5</stone.rock>
       <stone.ruins>2</stone.ruins>
       <wood.ruins>5</wood.ruins>

@@ -26,11 +26,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_javelineer
-      units/{civ}/infantry_longbowman
+      units/{civ}/infantry_slinger
       units/{civ}/infantry_archer
       units/{civ}/infantry_crossbowman
-      units/{civ}/infantry_slinger
+      units/{civ}/infantry_javelineer
     </Entities>
     <Technologies datatype="tokens">
       archery_tradition

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_mercenarycamp">
+  <Footprint>
+    <Height>8</Height>
+    <Square width="29" depth="29"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <SpecificName>Arab Camp</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="27" depth="27"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/mercenary/arab_camel_archer
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

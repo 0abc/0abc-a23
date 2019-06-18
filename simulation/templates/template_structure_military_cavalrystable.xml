@@ -36,6 +36,7 @@
       units/{civ}/cavalry_swordsman
       units/{civ}/cavalry_spearman
       units/{civ}/cavalry_lancer
+
       units/{civ}/cavalry_archer_mercenary
       units/{civ}/cavalry_crossbowman_mercenary
       units/{civ}/cavalry_javelineer_mercenary
@@ -45,6 +46,7 @@
       units/{civ}/cavalry_swordsman_mercenary
       units/{civ}/cavalry_spearman_mercenary
       units/{civ}/cavalry_lancer_mercenary
+
       units/{civ}/cavalry_archer_champion
       units/{civ}/cavalry_crossbowman_champion
       units/{civ}/cavalry_javelineer_champion
@@ -54,12 +56,6 @@
       units/{civ}/cavalry_swordsman_champion
       units/{civ}/cavalry_spearman_champion
       units/{civ}/cavalry_lancer_champion
-      units/{civ}/biga_javelineer
-      units/{civ}/biga_archer
-      units/{civ}/biga_javelineer_mercenary
-      units/{civ}/biga_archer_mercenary
-      units/{civ}/biga_javelineer_champion
-      units/{civ}/biga_archer_champion
     </Entities>
     <Technologies datatype="tokens">
       training_cavalry_stable

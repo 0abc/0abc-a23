@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic_house_normal">
+<Entity parent="template_structure_base_house_normal">
   <Footprint>
-    <Height>5.0</Height>
-    <Square width="16.0" depth="16.0"/>
+    <Height>5</Height>
+    <Square width="16" depth="16"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>gree</Civ>
   </Identity>
   <Obstruction>
-    <Static width="14.0" depth="14.0"/>
+    <Static width="14" depth="14"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/spartans/house.xml</Actor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_cavalrystable">
   <Identity>
     <Civ>ptol</Civ>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/stable.xml</Actor>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_base_house">
+  <Attack disable=""/>
+  <BuildingAI disable=""/>
+  <Capturable>
+    <CapturePoints>200</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <PopulationBonus>4</PopulationBonus>
+    <Resources>
+      <wood>80</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>400</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <ResourceTrickle>
+    <Rates>
+      <wood>-0.02</wood>
+    </Rates>
+  </ResourceTrickle>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic_house_small">
+<Entity parent="template_structure_base_house_wood">
   <Footprint>
-    <Height>5.0</Height>
-    <Square width="13.0" depth="13.0"/>
+    <Height>5</Height>
+    <Square width="13" depth="13"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>gaul</Civ>
   </Identity>
   <Obstruction>
-    <Static width="11.0" depth="11.0"/>
+    <Static width="11" depth="11"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/gauls/house.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_base_palace">
+  <Footprint>
+    <Height>10</Height>
+    <Square width="26" depth="26"/>
+  </Footprint>
+  <Identity>
+    <Civ>pers</Civ>
+    <Icon>structures/pers_hall.png</Icon>
+    <SpecificName>Duvarthi Visadahyu</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="24" depth="24"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/persians/hall.xml</Actor>
+  </VisualActor>
+</Entity>

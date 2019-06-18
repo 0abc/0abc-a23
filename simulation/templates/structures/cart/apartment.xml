@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic_house_large">
+<Entity parent="template_structure_base_house_apartment">
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="15.0" depth="15.0"/>
+    <Height>8</Height>
+    <Square width="15" depth="15"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Apartment Building</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="13.0" depth="13.0"/>
+    <Static width="13" depth="13"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/carthaginians/apartment.xml</Actor>

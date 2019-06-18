@@ -23,7 +23,7 @@
     <Classes datatype="tokens">Naval NavalMarket</Classes>
     <GenericName>Dock</GenericName>
     <Icon>structures/dock.png</Icon>
-    <Tooltip>Dropsite for all resources. Construct fishing boats and merchant ships. Establish trade routes.</Tooltip>
+    <Tooltip>Dropsite for food, wood, stone. Construct fishing boats and merchant ships. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Market Dock</VisibleClasses>
   </Identity>
   <Market>
@@ -51,7 +51,7 @@
   </RallyPointRenderer>
   <ResourceDropsite>
     <Sharable>true</Sharable>
-    <Types>food wood stone metal</Types>
+    <Types>food wood stone</Types>
   </ResourceDropsite>
   <Sound>
     <SoundGroups>

@@ -7,7 +7,7 @@
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1000</Max>
+    <Max>2000</Max>
   </Health>
   <Identity>
     <GenericName>Hall</GenericName>
@@ -18,17 +18,16 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_mercenary
-      units/{civ}/infantry_spearman_mercenary
-      units/{civ}/infantry_longswordsman_mercenary
-      units/{civ}/infantry_swordsman_mercenary
-      units/{civ}/infantry_sabreman_mercenary
-      units/{civ}/infantry_axeman_mercenary
-      units/{civ}/infantry_maceman_mercenary
-      units/{civ}/infantry_javelineer_mercenary
-      units/{civ}/infantry_longbowman_mercenary
-      units/{civ}/infantry_archer_mercenary
       units/{civ}/infantry_slinger_mercenary
+      units/{civ}/infantry_archer_mercenary
+      units/{civ}/infantry_javelineer_mercenary
+      units/{civ}/infantry_maceman_mercenary
+      units/{civ}/infantry_axeman_mercenary
+      units/{civ}/infantry_sabreman_mercenary
+      units/{civ}/infantry_swordsman_mercenary
+      units/{civ}/infantry_longswordsman_mercenary
+      units/{civ}/infantry_spearman_mercenary
+      units/{civ}/infantry_pikeman_mercenary
     </Entities>
   </ProductionQueue>
   <ResourceTrickle>

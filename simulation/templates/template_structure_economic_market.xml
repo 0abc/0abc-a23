@@ -25,7 +25,7 @@
     <Classes datatype="tokens">LandMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
-    <Tooltip>Barter resources. Train merchants. Establish trade routes.</Tooltip>
+    <Tooltip>Barter resources. Train slaves and traders. Establish trade routes.</Tooltip>
     <VisibleClasses datatype="tokens">Market BarterMarket</VisibleClasses>
   </Identity>
   <Market>
@@ -35,8 +35,13 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/support_trader
-      units/{civ}/support_slave
+      units/slave
     </Entities>
+    <Technologies datatype="tokens">
+      trade_gain_1
+      trade_gain_2
+      trade_gain_3
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

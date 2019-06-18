@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_base">
+  <BuildRestrictions>
+    <Distance>
+      <FromClass>Centre</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+    <Territory>own</Territory>
+  </BuildRestrictions>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>House</GenericName>
+    <Icon>structures/house.png</Icon>
+    <Tooltip>Increase the population limit.</Tooltip>
+    <VisibleClasses datatype="tokens">House</VisibleClasses>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/support_woman
+    </Entities>
+    <Technologies datatype="tokens">
+      armour_woman
+      training_woman
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_house.xml</constructed>
+      <select>interface/select/building/sel_house.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Root>false</Root>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
+  <AlertRaiser>
+    <EndOfAlertRange>200</EndOfAlertRange>
+    <List datatype="tokens">FemaleCitizen Slave</List>
+    <RaiseAlertRange>150</RaiseAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
   <Armour>
     <Crush>3</Crush>
     <Hack>25</Hack>
@@ -41,9 +47,6 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>10</MaxArrowCount>
   </BuildingAI>
-  <Cost>
-    <PopulationBonus>10</PopulationBonus>
-  </Cost>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>

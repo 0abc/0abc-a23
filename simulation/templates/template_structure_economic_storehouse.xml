@@ -22,16 +22,16 @@
     <Max>700</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone</Classes>
+    <Classes datatype="tokens">DropsiteWood DropsiteStone</Classes>
     <GenericName>Storehouse</GenericName>
     <Icon>structures/storehouse.png</Icon>
-    <Tooltip>Dropsite for wood, metal, and stone.</Tooltip>
+    <Tooltip>Dropsite for wood and stone.</Tooltip>
     <VisibleClasses datatype="tokens">Storehouse</VisibleClasses>
   </Identity>
   <RallyPoint disable=""/>
   <ResourceDropsite>
     <Sharable>true</Sharable>
-    <Types>metal stone wood</Types>
+    <Types>stone wood</Types>
   </ResourceDropsite>
   <Sound>
     <SoundGroups>

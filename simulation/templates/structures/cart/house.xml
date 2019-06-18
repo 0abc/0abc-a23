@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic_house_normal">
+<Entity parent="template_structure_base_house_normal">
   <Footprint>
-    <Height>5.0</Height>
-    <Square width="15.0" depth="15.0"/>
+    <Height>5</Height>
+    <Square width="15" depth="15"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>cart</Civ>
   </Identity>
   <Obstruction>
-    <Static width="13.0" depth="13.0"/>
+    <Static width="13" depth="13"/>
   </Obstruction>
   <Upgrade>
     <Apartment>
       <Cost>
-        <stone>50</stone>
-        <wood>50</wood>
+        <stone>40</stone>
+        <wood>40</wood>
       </Cost>
       <Entity>structures/{civ}/apartment</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>
