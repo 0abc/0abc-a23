@@ -137,5 +137,5 @@
     "skirmish/units/special_starting_unit": "units/brit/war_dog",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
-  "SelectableInGameSetup": true
+  "SelectableInGameSetup": false
 }

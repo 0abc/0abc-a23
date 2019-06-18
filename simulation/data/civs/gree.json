@@ -275,5 +275,5 @@
     "skirmish/units/default_infantry_ranged_b": "units/gree/infantry_javelineer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
-  "SelectableInGameSetup": true
+  "SelectableInGameSetup": false
 }
