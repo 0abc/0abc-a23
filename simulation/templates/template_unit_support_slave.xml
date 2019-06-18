@@ -21,23 +21,24 @@
   <Identity>
     <GenericName>Slave</GenericName>
     <Icon>units/global_slave.png</Icon>
-    <Tooltip>Gatherer bonused at mining and quarrying.</Tooltip>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Gather resources.</Tooltip>
     <VisibleClasses datatype="tokens">Slave Worker</VisibleClasses>
   </Identity>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
-      <food.fish>0.5</food.fish>
-      <food.fruit>0.5</food.fruit>
-      <food.grain>0.35</food.grain>
+      <food.fruit>1</food.fruit>
+      <food.grain>0.5</food.grain>
       <food.meat>1</food.meat>
-      <metal.ore>1.0</metal.ore>
-      <stone.rock>1.0</stone.rock>
-      <stone.ruins>5</stone.ruins>
+      <metal.ore>0.3</metal.ore>
+      <metal.ruins>3</metal.ruins>
+      <stone.rock>0.4</stone.rock>
+      <stone.ruins>4</stone.ruins>
       <treasure disable=""/>
-      <wood.ruins>5</wood.ruins>
-      <wood.tree>1.0</wood.tree>
+      <wood.ruins>6</wood.ruins>
+      <wood.tree>0.6</wood.tree>
     </Rates>
   </ResourceGatherer>
   <Selectable>

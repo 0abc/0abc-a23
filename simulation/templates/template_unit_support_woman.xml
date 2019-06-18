@@ -33,6 +33,7 @@
     <Classes datatype="tokens">Citizen FemaleCitizen</Classes>
     <Gender>female</Gender>
     <GenericName>Female Worker</GenericName>
+    <Tooltip>Gather resources.</Tooltip>
     <VisibleClasses datatype="tokens">Woman Worker</VisibleClasses>
   </Identity>
   <ResourceGatherer>
@@ -42,11 +43,12 @@
       <food.fruit>1</food.fruit>
       <food.grain>0.5</food.grain>
       <food.meat>1</food.meat>
-      <metal.ore>0.35</metal.ore>
-      <stone.rock>0.35</stone.rock>
-      <stone.ruins>2</stone.ruins>
-      <wood.ruins>5</wood.ruins>
-      <wood.tree>0.7</wood.tree>
+      <metal.ore>0.3</metal.ore>
+      <metal.ruins>3</metal.ruins>
+      <stone.rock>0.4</stone.rock>
+      <stone.ruins>4</stone.ruins>
+      <wood.ruins>6</wood.ruins>
+      <wood.tree>0.6</wood.tree>
     </Rates>
   </ResourceGatherer>
   <Selectable>

@@ -3,12 +3,13 @@
   "code": "metal",
   "description": "Gather from mineral mines.",
   "name": "Iron",
-  "order": 4,
+  "order": 3,
   "subtypes": {
     "meteorite": "meteorite iron",
     "ore": "iron ore",
     "pig": "pig iron",
+    "ruins": "metal objects",
     "steel": "steel"
   },
-  "truePrice": 100
+  "truePrice": 80
 }
