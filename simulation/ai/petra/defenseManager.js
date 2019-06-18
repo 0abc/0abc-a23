@@ -433,7 +433,7 @@ m.DefenseManager.prototype.assignDefenders = function(gameState)
       return;
     if (ent.hasClass("StoneThrower"))
       return;
-    if (ent.hasClass("FishingBoat") || ent.hasClass("Trader"))
+    if (ent.hasClass("FishingBoat") || ent.hasClass("Merchant"))
       return;
     if (ent.getMetadata(PlayerID, "transport") !== undefined ||
         ent.getMetadata(PlayerID, "transporter") !== undefined)

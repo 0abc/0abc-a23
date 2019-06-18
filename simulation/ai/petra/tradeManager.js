@@ -69,7 +69,7 @@ m.TradeManager.prototype.trainMoreTraders = function(gameState, queues)
     let already = false;
     let shipToSwitch;
     gameState.ai.HQ.navalManager.seaTransportShips[this.tradeRoute.sea].forEach(function(ship) {
-      if (already || !ship.hasClass("Trader"))
+      if (already || !ship.hasClass("Merchant"))
         return;
       if (ship.getMetadata(PlayerID, "role") == "switchToTrader")
       {

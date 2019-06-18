@@ -67,7 +67,7 @@ m.HQ.prototype.assignStartingEntities = function(gameState)
   for (let ent of gameState.getOwnEntities().values())
   {
     // do not affect merchant ship immediately to trade as they may-be useful for transport
-    if (ent.hasClass("Trader") && !ent.hasClass("Ship"))
+    if (ent.hasClass("Trader"))
       this.tradeManager.assignTrader(ent);
 
     let pos = ent.position();
