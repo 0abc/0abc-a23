@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_trireme">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="9.0" depth="42.0"/>
+  </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <Icon>units/hele_ship_trireme.png</Icon>
+    <Icon>units/pers_ship_trireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/athenians/trireme.xml</Actor>
+    <Actor>structures/persians/trireme.xml</Actor>
   </VisualActor>
 </Entity>

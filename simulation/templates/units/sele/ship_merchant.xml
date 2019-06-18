@@ -2,13 +2,13 @@
 <Entity parent="template_unit_ship_merchant">
   <Footprint>
     <Height>8.0</Height>
-    <Square width="8.0" depth="24.0"/>
+    <Square width="6.0" depth="25.0"/>
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <Icon>units/hele_ship_merchant.png</Icon>
+    <Icon>units/pers_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/merchant.xml</Actor>
+    <Actor>structures/persians/merchant.xml</Actor>
   </VisualActor>
 </Entity>
