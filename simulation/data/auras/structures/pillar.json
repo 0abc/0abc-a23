@@ -1,5 +1,5 @@
 {
-  "affects": ["Trader"],
+  "affects": [ "Trader" ],
   "auraName": "Edicts of Ashoka",
   "auraDescription": "Traders +20% movement speed.",
   "modifications": [

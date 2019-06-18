@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Traders +10% Walk Speed, which quickly increases trade income."
+  "tooltip": "Traders +10% movement speed."
 }

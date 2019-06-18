@@ -1,5 +1,5 @@
 {
-  "affects": ["Trader"],
+  "affects": [ "Merchant", "Trader" ],
   "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
   "description": "The progress in handicraft improves the trading profit.",
   "genericName": "Improved Handicraft",
@@ -12,5 +12,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "trade_gain_1",
-  "tooltip": "Traders +10% gain."
+  "tooltip": "Merchant ships and traders +10% gain."
 }

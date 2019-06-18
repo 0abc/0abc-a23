@@ -1,5 +1,5 @@
 {
-  "affects": ["Trader"],
+  "affects": [ "Merchant", "Trader" ],
   "cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
   "description": "The progress in handicraft improves the trading profit.",
   "genericName": "Handicraft",
@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Traders +10% gain."
+  "tooltip": "Merchant ships and traders +10% gain."
 }

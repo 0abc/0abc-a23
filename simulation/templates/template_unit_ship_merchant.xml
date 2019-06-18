@@ -28,11 +28,11 @@
     <Max>600</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical NavalTrader</Classes>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Merchant Ship</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Trade between docks. Garrison a Trader aboard for additional profit (+20% for each garrisoned). Gather profitable aquatic treasures.</Tooltip>
-    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
+    <Tooltip>Trade between docks. Garrison and transport units. Gather profitable aquatic treasures.</Tooltip>
+    <VisibleClasses datatype="tokens">Merchant</VisibleClasses>
   </Identity>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
@@ -52,7 +52,7 @@
     <GainMultiplier>0.75</GainMultiplier>
   </Trader>
   <TrainingRestrictions>
-    <Category>NavalTrader</Category>
+    <Category>MerchantShip</Category>
   </TrainingRestrictions>
   <UnitAI>
     <CanGuard>false</CanGuard>

@@ -1,10 +1,10 @@
 {
-  "affects": ["Trader"],
+  "affects": ["Merchant", "Trader"],
   "autoResearch": true,
   "genericName": "Punic Merchants",
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.85}
   ],
   "requirements": {"civ": "cart"},
-  "tooltip": "Carthaginian land and sea traders −15% training time."
+  "tooltip": "Carthaginian merchant ships and traders −15% training time."
 }

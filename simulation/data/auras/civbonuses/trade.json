@@ -1,9 +1,9 @@
 {
-  "affects": ["Trader"],
+  "affects": [ "Trader" ],
   "auraDescription": "Multiplies the trade gain multiplier by 1.",
   "auraName": "Trade Gain",
   "modifications": [
-    {"value": "Trader/GainMultiplier", "multiply": 1.0}
+    { "value": "Trader/GainMultiplier", "multiply": 1.0 }
   ],
   "type": "global"
 }

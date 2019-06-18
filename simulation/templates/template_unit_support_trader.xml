@@ -16,7 +16,6 @@
     <Max>100</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">LandTrader</Classes>
     <GenericName>Trader</GenericName>
     <Tooltip>Gain resources via trade between centres or docks.</Tooltip>
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
