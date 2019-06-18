@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_camel_ranged_archer">
+  <Identity>
+    <Classes datatype="tokens">Arab</Classes>
+    <Icon>units/ptol_camel_archer_a.png</Icon>
+    <SelectionGroupName>units/arab_camel_archer</SelectionGroupName>
+    <SpecificName>Arab Dromedary</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/camelry_archer_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

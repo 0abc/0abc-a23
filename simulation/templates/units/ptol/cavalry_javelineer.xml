@@ -6,9 +6,8 @@
     <Icon>units/mace_cavalry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SelectionGroupName>units/ptol/cavalry_javelineer_mercenary</SelectionGroupName>
+    <SelectionGroupName>units/ptol/cavalry_javelineer</SelectionGroupName>
     <SpecificName>Tarantine</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_e_m.xml</Actor>

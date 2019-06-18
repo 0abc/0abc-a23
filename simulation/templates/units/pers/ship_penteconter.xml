@@ -7,7 +7,6 @@
   <Identity>
     <Civ>pers</Civ>
     <Icon>units/pers_ship_bireme.png</Icon>
-    <SpecificName>Hamaraniyanava</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/bireme.xml</Actor>
