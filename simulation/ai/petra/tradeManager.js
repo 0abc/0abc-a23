@@ -285,7 +285,7 @@ m.TradeManager.prototype.performBarter = function(gameState)
       let amount = available[bestToSell] > 5000 ? 500 : 100;
       barterers[0].barter(buy, bestToSell, amount);
       if (this.Config.debug > 2)
-        API3.warn("Necessity bartering: sold " + bestToSell +" for " + buy +
+        API3.warn("Necessity bartering: sold " + bestToSell + " for " + buy +
                   " >> need sell " + needs[bestToSell] + " need buy " + needs[buy] +
                   " rate buy " + rates[buy] + " available sell " + available[bestToSell] +
                   " available buy " + available[buy] + " barterRate " + bestRate +

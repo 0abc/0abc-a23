@@ -1451,11 +1451,11 @@ m.AttackPlan.prototype.update = function(gameState, events)
     else
       targetClassesSiege = { "attack": ["Unit", "Structure"], "avoid": [], "vetoEntities": veto };
 
-    // do not loose time destroying buildings which do not help enemy's defense and can be easily captured later
+    // do not lose time destroying buildings which do not help enemy's defense and can be easily captured later
     if (this.target.hasDefensiveFire())
     {
-      targetClassesUnit.avoid = targetClassesUnit.avoid.concat("House", "Storehouse", "Farmstead", "Field", "Forge");
-      targetClassesSiege.avoid = targetClassesSiege.avoid.concat("House", "Storehouse", "Farmstead", "Field", "Forge");
+      targetClassesUnit.avoid = targetClassesUnit.avoid.concat("House", "Civic", "Economic", "Field");
+      targetClassesSiege.avoid = targetClassesSiege.avoid.concat("House", "Civic", "Economic", "Field");
     }
 
     if (this.unitCollUpdateArray === undefined || !this.unitCollUpdateArray.length)

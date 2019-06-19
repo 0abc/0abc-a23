@@ -567,18 +567,18 @@ m.HQ.prototype.checkPhaseRequirements = function(gameState, queues)
           queue = "economicBuilding";
           break;
         }
+        if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities() &&
+            this.canBuild(gameState, "structures/{civ}/forge"))
+        {
+          plan = new m.ConstructionPlan(gameState, "structures/{civ}/forge", { "phaseUp": true });
+          queue = "economicBuilding";
+          break;
+        }
         if (!gameState.getOwnEntitiesByClass("Temple", true).hasEntities() &&
             this.canBuild(gameState, "structures/{civ}/temple"))
         {
           plan = new m.ConstructionPlan(gameState, "structures/{civ}/temple", { "phaseUp": true });
           queue = "economicBuilding";
-          break;
-        }
-        if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities() &&
-            this.canBuild(gameState, "structures/{civ}/forge"))
-        {
-          plan = new m.ConstructionPlan(gameState, "structures/{civ}/forge", { "phaseUp": true });
-          queue = "militaryBuilding";
           break;
         }
         if (this.canBuild(gameState, "structures/{civ}/large_tower"))
@@ -1895,7 +1895,7 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
 
 m.HQ.prototype.buildForge = function(gameState, queues)
 {
-  if (this.getAccountedPopulation(gameState) < this.Config.Military.popForForge ||
+  if (this.getAccountedPopulation(gameState) < this.Config.Economy.popForForge ||
     queues.militaryBuilding.hasQueuedUnits() || gameState.getOwnEntitiesByClass("Forge", true).length)
     return;
   // build a market before the forge
@@ -1983,15 +1983,27 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
   if (this.currentPhase < 2)
     return;
 
-  if (this.canBuild(gameState, "structures/{civ}/elephant_stable") && !gameState.getOwnEntitiesByClass("ElephantStable", true).hasEntities())
-  {
-    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/elephant_stable", { "militaryBase": true }));
-    return;
-  }
-
   if (this.canBuild(gameState, "structures/{civ}/arsenal") && !gameState.getOwnEntitiesByClass("Arsenal", true).hasEntities())
   {
     queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/arsenal", { "militaryBase": true }));
+    return;
+  }
+
+  if (this.canBuild(gameState, "structures/{civ}/barracks") && !gameState.getOwnEntitiesByClass("Barracks", true).hasEntities())
+  {
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/barracks", { "militaryBase": true }));
+    return;
+  }
+
+  if (this.canBuild(gameState, "structures/{civ}/hall") && !gameState.getOwnEntitiesByClass("Hall", true).hasEntities())
+  {
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/hall", { "militaryBase": true }));
+    return;
+  }
+
+  if (this.canBuild(gameState, "structures/{civ}/elephant_stable") && !gameState.getOwnEntitiesByClass("ElephantStable", true).hasEntities())
+  {
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/elephant_stable", { "militaryBase": true }));
     return;
   }
 
