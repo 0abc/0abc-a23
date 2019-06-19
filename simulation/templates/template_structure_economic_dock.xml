@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
   <BuildRestrictions>
+    <Distance>
+      <FromClass>Dock</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>

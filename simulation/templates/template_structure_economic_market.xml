@@ -6,6 +6,12 @@
     <RaiseAlertRange>-1</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
+  <BuildRestrictions>
+    <Distance>
+      <FromClass>Market</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>600</CapturePoints>
   </Capturable>

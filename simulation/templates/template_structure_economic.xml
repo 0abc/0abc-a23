@@ -13,10 +13,6 @@
     <Thrust>10</Thrust>
   </Armour>
   <BuildRestrictions>
-    <Distance>
-      <FromClass>Economic</FromClass>
-      <MinDistance>20</MinDistance>
-    </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <GarrisonHolder>

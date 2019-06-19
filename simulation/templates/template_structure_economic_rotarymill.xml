@@ -3,6 +3,12 @@
   <Auras datatype="tokens">
     structures/rotary_mill
   </Auras>
+  <BuildRestrictions>
+    <Distance>
+      <FromClass>RotaryMill</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>300</CapturePoints>
   </Capturable>

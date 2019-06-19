@@ -6,6 +6,12 @@
     <RaiseAlertRange>60</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
+  <BuildRestrictions>
+    <Distance>
+      <FromClass>Farmstead</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>300</CapturePoints>
   </Capturable>
