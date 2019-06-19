@@ -195,7 +195,8 @@ m.BaseManager.prototype.assignResourceToDropsite = function(gameState, dropsite)
     medium.sort((r1, r2) => r1.dist - r2.dist);
     faraway.sort((r1, r2) => r1.dist - r2.dist);
 
-/*    let debug = false;
+/*
+    let debug = false;
     if (debug)
     {
       faraway.forEach(function(res){
@@ -207,7 +208,8 @@ m.BaseManager.prototype.assignResourceToDropsite = function(gameState, dropsite)
       nearby.forEach(function(res){
         Engine.PostCommand(PlayerID,{"type": "set-shading-color", "entities": [res.ent.id()], "rgb": [0,0,2]});
       });
-    } */
+    }
+*/
   }
 
   // Allows all allies to use this dropsite except if base anchor to be sure to keep

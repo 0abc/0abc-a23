@@ -1092,7 +1092,7 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
         val += gameState.sharedScript.ccResourceMaps[res].map[j];
     val *= norm;
 
-    // If oversea, be just above threshold to be accepted if nothing else 
+    // If oversea, be just above threshold to be accepted if nothing else
     if (oversea)
       val = Math.max(val, cut + 0.1);
 
@@ -2695,14 +2695,16 @@ m.HQ.prototype.update = function(gameState, queues, events)
       this.phasing = 0;
   }
 
-/*  if (this.Config.debug > 1)
+/*
+  if (this.Config.debug > 1)
   {
     gameState.getOwnUnits().forEach (function (ent) {
       if (!ent.position())
         return;
       m.dumpEntity(ent);
     });
-  } */
+  }
+*/
 
   this.checkEvents(gameState, events);
   this.navalManager.checkEvents(gameState, queues, events);

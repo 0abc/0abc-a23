@@ -743,8 +743,8 @@ m.ConstructionPlan.prototype.checkDockPlacement = function(gameState, x, z, half
  * if the (object) wantedLand is given, this nearest land should have one of these accessibility
  * if wantedSea is given, this tile should be inside this sea
  */
-const around = [[ 1.0, 0.0], [ 0.87, 0.50], [ 0.50, 0.87], [ 0.0, 1.0], [-0.50, 0.87], [-0.87, 0.50],
-          [-1.0, 0.0], [-0.87,-0.50], [-0.50,-0.87], [ 0.0,-1.0], [ 0.50,-0.87], [ 0.87,-0.50]];
+const around = [ [ 1.0, 0.0 ], [ 0.87, 0.5 ], [ 0.50, 0.87 ], [ 0.0, 1.0 ], [ -0.50, 0.87 ], [ -0.87, 0.5 ],
+                 [ -1.0, 0.0 ], [ -0.87, -0.5 ], [-0.50, -0.87 ], [ 0.0, -1.0 ], [ 0.50, -0.87 ], [ 0.87, -0.5 ] ];
 
 m.ConstructionPlan.prototype.isDockLocation = function(gameState, j, dimension, wantedLand, wantedSea)
 {

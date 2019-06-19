@@ -1,6 +1,13 @@
 # 0 A.D. is Actually Before Christ
 **0abc**, a modification of “0 A.D. Empires Ascendant”, version 0.0.23 “Alpha XXIII: Ken Wood”
 
+<!-- 
+TODO: get the AI to:
+* build a forge next to metal mines
+* establish markets earlier to acquire silver
+* take into account Barracks is a city structure
+-->
+
 ## Table of Contents
 * [Instructions](https://github.com/0abc/0abc-a23#instructions)
 * [Overview](https://github.com/0abc/0abc-a23#overview)

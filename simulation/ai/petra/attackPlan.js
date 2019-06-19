@@ -139,23 +139,23 @@ m.AttackPlan = function(gameState, Config, uniqueID, type, data)
   {
     priority = 90;
     // basically we want a mix of citizen soldiers so our barracks have a purpose, and champion units.
-    this.unitStat.RangedInfantry    = { "priority": 0.7, "minSize": 5, "targetSize": 20, "batchSize": 5, "classes": ["Infantry", "Ranged", "!Champion"],
+    this.unitStat.RangedInfantry = { "priority": 0.7, "minSize": 5, "targetSize": 20, "batchSize": 5, "classes": ["Infantry", "Ranged", "!Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.MeleeInfantry     = { "priority": 0.7, "minSize": 5, "targetSize": 20, "batchSize": 5, "classes": ["Infantry", "Melee", "!Champion"],
+    this.unitStat.MeleeInfantry = { "priority": 0.7, "minSize": 5, "targetSize": 20, "batchSize": 5, "classes": ["Infantry", "Melee", "!Champion"],
       "interests": [["strength", 3]] };
     this.unitStat.ChampRangedInfantry = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 4, "classes": ["Infantry", "Ranged", "Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.ChampMeleeInfantry  = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 4, "classes": ["Infantry", "Melee", "Champion"],
+    this.unitStat.ChampMeleeInfantry = { "priority": 1, "minSize": 3, "targetSize": 18, "batchSize": 4, "classes": ["Infantry", "Melee", "Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.RangedMounted     = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 3, "classes": ["Mounted", "Ranged", "!Champion"],
+    this.unitStat.RangedMounted = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 3, "classes": ["Mounted", "Ranged", "!Champion"],
       "interests": [["strength", 2]] };
-    this.unitStat.MeleeMounted      = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 3, "classes": ["Mounted", "Melee", "!Champion"],
+    this.unitStat.MeleeMounted = { "priority": 0.7, "minSize": 4, "targetSize": 20, "batchSize": 3, "classes": ["Mounted", "Melee", "!Champion"],
       "interests": [["strength", 2]] };
-    this.unitStat.ChampRangedMounted  = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 2, "classes": ["Mounted", "Ranged", "Champion"],
+    this.unitStat.ChampRangedMounted = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 2, "classes": ["Mounted", "Ranged", "Champion"],
       "interests": [["strength", 3]] };
-    this.unitStat.ChampMeleeMounted   = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 2, "classes": ["Mounted", "Melee", "Champion"],
+    this.unitStat.ChampMeleeMounted = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 2, "classes": ["Mounted", "Melee", "Champion"],
       "interests": [["strength", 2]] };
-    this.unitStat.Hero                = { "priority": 1, "minSize": 0, "targetSize":  1, "batchSize": 1, "classes": ["Hero"],
+    this.unitStat.Hero = { "priority": 1, "minSize": 0, "targetSize":  1, "batchSize": 1, "classes": ["Hero"],
       "interests": [["strength", 2]] };
     this.neededShips = 5;
   }
@@ -164,7 +164,7 @@ m.AttackPlan = function(gameState, Config, uniqueID, type, data)
     priority = 70;
     this.unitStat.RangedInfantry = { "priority": 1, "minSize": 6, "targetSize": 16, "batchSize": 3, "classes": ["Infantry", "Ranged"],
       "interests": [["canGather", 1], ["strength", 1.6], ["costsResource", 0.3, "stone"], ["costsResource", 0.3, "metal"]] };
-    this.unitStat.MeleeInfantry  = { "priority": 1, "minSize": 6, "targetSize": 16, "batchSize": 3, "classes": ["Infantry", "Melee"],
+    this.unitStat.MeleeInfantry = { "priority": 1, "minSize": 6, "targetSize": 16, "batchSize": 3, "classes": ["Infantry", "Melee"],
       "interests": [["canGather", 1], ["strength", 1.6], ["costsResource", 0.3, "stone"], ["costsResource", 0.3, "metal"]] };
     this.unitStat.Mounted = { "priority": 1, "minSize": 2, "targetSize": 6, "batchSize": 2, "classes": ["Mounted"],
       "interests": [["strength", 1]] };
@@ -1143,12 +1143,8 @@ m.AttackPlan.prototype.checkTargetObstruction = function(gameState, target, posi
 
   if (blocker && blocker.hasClass("StoneWall"))
   {
-/*    if (this.hasSiegeUnits())
-    { */
-      this.isBlocked = true;
-      return blocker;
-/*    }
-    return undefined; */
+    this.isBlocked = true;
+    return blocker;
   }
   else if (blocker)
   {
