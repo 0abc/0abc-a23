@@ -36,7 +36,4 @@
   <StatusBars>
     <HeightOffset>9.0</HeightOffset>
   </StatusBars>
-  <Vision>
-    <Range>10</Range>
-  </Vision>
 </Entity>

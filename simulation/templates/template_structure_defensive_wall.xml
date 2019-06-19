@@ -30,7 +30,4 @@
     <Root>false</Root>
     <Weight>65535</Weight>
   </TerritoryInfluence>
-  <Vision>
-    <Range>30</Range>
-  </Vision>
 </Entity>
