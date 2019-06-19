@@ -4,7 +4,6 @@
 <!-- 
 TODO: get the AI to:
 * build a forge next to metal mines
-* establish markets earlier to acquire silver
 * take into account Barracks is a city structure
 -->
 
@@ -632,6 +631,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * damage variance: instead of a fixed amount of damage, attack damage now varies from 50% to 150% of the defined value
 * units should be able to have a garrison size greater than 1 (similar to population); e.g. cavalry occupies two garrison slots, elephants six
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
+* resource consumption for attacks; e.g. everytime a stone-thrower shoots, you pay 1 stone
 * elevation bonus is taken into account for attack range visualization
 * elevation bonus applies to vision range as well
 * different ranged attacks for different garrisoned units (e.g. archers, javelineers, and stone-throwers on quinqueremes)

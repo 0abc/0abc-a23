@@ -4,7 +4,7 @@
   "description": "Collect silver through trade or from taxation.",
   "name": "Silver",
   "order": 1,
-  "properties": [ "barterable", "currency", "tradable", "tributable" ],
+  "properties": [ "barterable", "tradable", "tributable" ],
   "subtypes": {
     "electrum": "Electrum",
     "gold": "Gold",
