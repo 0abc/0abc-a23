@@ -14,11 +14,11 @@
   ],
   "requirements": { "all": 
     [
-      { "entity": { "class": "House",   "number": 15 } },
-      { "entity": { "class": "Forge",   "number":  1 } },
-      { "entity": { "class": "Market",  "number":  1 } },
-      { "entity": { "class": "Temple",  "number":  1 } },
-      { "entity": { "class": "Theatre", "number":  1 } },
+      { "entity": { "class": "House",         "number": 20 } },
+      { "entity": { "class": "Forge",         "number":  1 } },
+      { "entity": { "class": "BarterMarket",  "number":  1 } },
+      { "entity": { "class": "Temple",        "number":  1 } },
+      { "entity": { "class": "Theatre",       "number":  1 } },
       { "any": 
         [
           {"civ": "mace"},

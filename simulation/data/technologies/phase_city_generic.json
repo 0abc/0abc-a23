@@ -15,10 +15,10 @@
   "replaces": [ "phase_city" ],
   "requirements": { "all": 
     [
-      { "entity": { "class": "House",  "number": 10 } },
-      { "entity": { "class": "Forge",  "number":  1 } },
-      { "entity": { "class": "Market", "number":  1 } },
-      { "entity": { "class": "Temple", "number":  1 } }
+      { "entity": { "class": "House",         "number": 12 } },
+      { "entity": { "class": "Forge",         "number":  1 } },
+      { "entity": { "class": "BarterMarket",  "number":  1 } },
+      { "entity": { "class": "Temple",        "number":  1 } }
     ] 
   },
   "researchTime": 120,
