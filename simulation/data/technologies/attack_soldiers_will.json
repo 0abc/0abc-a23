@@ -1,25 +1,17 @@
 {
-  "cost": {"silver": 3000, "food": 0, "wood": 0, "stone": 0, "metal": 0},
+  "cost": { "silver": 3000, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "The will to fight is crucial to victory. Inspire your troops with higher pay.",
   "genericName": "Will to fight",
   "icon": "coinage.png",
   "modifications": [
-    {"value": "Attack/Capture/RepeatTime", "multiply": 0.9, "affects": "Soldier"  },
-    {"value": "Attack/Melee/RepeatTime",   "multiply": 0.9, "affects": "Melee"    },
-    {"value": "Attack/Ranged/RepeatTime",  "multiply": 0.9, "affects": "Ranged"   },
-    {"value": "Attack/Ranged/RepeatTime",  "multiply": 0.9, "affects": "Structure"}
+    { "value": "Attack/Capture/RepeatTime", "multiply": 0.9, "affects": "Soldier"   },
+    { "value": "Attack/Melee/RepeatTime",   "multiply": 0.9, "affects": "Melee"     },
+    { "value": "Attack/Ranged/RepeatTime",  "multiply": 0.9, "affects": "Ranged"    },
+    { "value": "Attack/Ranged/RepeatTime",  "multiply": 0.9, "affects": "Structure" }
   ],
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "specificName": {
-    "athen": "Dýnamis",
-    "mace":  "Dýnamis",
-    "gree":  "Dýnamis",
-    "ptol":  "Dýnamis",
-    "sele":  "Dýnamis",
-    "spart": "Dýnamis"
-  },
   "tooltip": "Soldiers and structures −10% attack repeat time."
 }

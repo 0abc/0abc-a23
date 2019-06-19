@@ -1,16 +1,24 @@
 {
-  "affects": ["Archer", "Longbowman"],
-  "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 200},
+  "affects": [ "Archer" ],
+  "cost": { "silver": 0, "food": 400, "wood": 400, "stone": 0, "metal": 200 },
   "description": "The Indians, Iranians, Kushites, and Syrians had a tradition of fine archery and a penchant for using massed archers in battle.",
   "genericName": "Archery Tradition",
   "icon": "archery_tradition.png",
   "modifications": [
-    {"value": "Attack/Ranged/RepeatTime", "multiply": 0.9}
+    { "value": "Attack/Ranged/RepeatTime", "multiply": 0.9 }
   ],
-  "requirements": {"all": [
-    {"tech": "phase_village"},
-    {"any": [{"civ": "kush"}, {"civ": "maur"}, {"civ": "pers"}, {"civ": "sele"}]}
-  ]},
+  "requirements": { "all":
+    [
+      { "tech": "phase_village" },
+      { "any":
+        [
+          { "civ": "kush" },
+          { "civ": "maur" },
+          { "civ": "pers" }
+        ]
+      }
+    ]
+  },
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

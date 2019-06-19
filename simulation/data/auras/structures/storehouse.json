@@ -1,9 +1,9 @@
 {
-  "affects": ["Worker"],
+  "affects": [ "Worker" ],
   "auraDescription": "Workers +5% wood gather rate.",
   "auraName": "Lumbering bonus",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.05}
+    { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.05 }
   ],
   "overlayIcon": "art/textures/ui/session/icons/resources/wood.png",
   "radius": 40,

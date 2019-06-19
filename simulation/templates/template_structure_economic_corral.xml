@@ -17,10 +17,10 @@
     <Max>500</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Corral</Classes>
     <GenericName>Corral</GenericName>
     <Icon>structures/corral.png</Icon>
     <Tooltip>Garrison domestic animals.</Tooltip>
-    <VisibleClasses datatype="tokens">Corral</VisibleClasses>
   </Identity>
   <Sound>
     <SoundGroups>

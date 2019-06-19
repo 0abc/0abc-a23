@@ -1,16 +1,27 @@
 {
-  "affects": ["BoltShooter"],
-  "cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+  "affects": [ "BoltShooter" ],
+  "cost": { "silver": 0, "food": 0, "wood": 250, "stone": 0, "metal": 250 },
   "description": "Improvement to projectile accuracy",
   "genericName": "Bolt Accuracy",
   "icon": "accuracy_bolt.png",
   "modifications": [
-    {"value": "Attack/Ranged/Spread", "multiply": 0.8}
+    { "value": "Attack/Ranged/Spread", "multiply": 0.8 }
   ],
-  "requirements": {"all": [
-    {"tech": "phase_city"}, 
-    {"any": [{"civ": "athen"}, {"civ": "cart"}, {"civ": "mace"}, {"civ": "ptol"}, {"civ": "rome"}, {"civ": "spart"}]}
-  ]},
+  "requirements": { "all":
+    [
+      { "tech": "phase_city" }, 
+      { "any":
+        [
+          { "civ": "athen" },
+          { "civ": "cart" },
+          { "civ": "mace" },
+          { "civ": "ptol" },
+          { "civ": "rome" },
+          { "civ": "spart" }
+        ]
+      }
+    ]
+  },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

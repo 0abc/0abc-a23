@@ -1,13 +1,13 @@
 {
-  "affects": ["Worker"],
-  "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
+  "affects": [ "Worker" ],
+  "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
   "description": "Extra nutrients for farms.",
   "genericName": "Fertilizer",
   "icon": "farming_training.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}
+    { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15 }
   ],
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "tech": "phase_town" },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

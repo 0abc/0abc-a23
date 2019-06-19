@@ -1,5 +1,5 @@
 {
-  "cost": {"silver": 1000, "food": 0, "wood": 0, "stone": 0, "metal": 0},
+  "cost": { "silver": 1000, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Merchants' first goal was trading, but they also gathered information about the countries they crossed.",
   "genericName": "Espionage",
   "icon": "spy_trader.png",

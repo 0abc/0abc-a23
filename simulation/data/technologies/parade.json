@@ -1,16 +1,18 @@
 {
-  "affects": ["Champion"],
-  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+  "affects": [ "Champion" ],
+  "cost": { "silver": 0, "food": 500, "wood": 0, "stone": 0, "metal": 500 },
   "description": "Increase training speed of all champions.",
   "genericName": "Parade of Daphne",
   "icon": "parade_of_daphne.png",
   "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 0.8}
+    { "value": "Cost/BuildTime", "multiply": 0.8 }
   ],
-  "requirements": {"all": [
-    {"tech": "phase_metropolis"}, 
-    {"civ": "sele"}
-  ]},
+  "requirements": { "all": 
+    [
+      { "tech": "phase_metropolis" }, 
+      { "civ": "sele" }
+    ]
+  },
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

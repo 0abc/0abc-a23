@@ -11,12 +11,13 @@
     * [Defensive](https://github.com/0abc/0abc-a23#defensive)
     * [Economic](https://github.com/0abc/0abc-a23#economic)
     * [Military](https://github.com/0abc/0abc-a23#military)
-    * [Resource](https://github.com/0abc/0abc-a23#military)
+    * [Resource](https://github.com/0abc/0abc-a23#resource)
   * [Units](https://github.com/0abc/0abc-a23#units)
+    * [Walk speed](https://github.com/0abc/0abc-a23#population-costs)
     * [Population costs](https://github.com/0abc/0abc-a23#population-costs)
+    * [Recruitment costs](https://github.com/0abc/0abc-a23#recruitment-costs)
     * [Damage types](https://github.com/0abc/0abc-a23#damage-types)
     * [Bonus attacks](https://github.com/0abc/0abc-a23#bonus-attacks)
-    * [Recruitment costs](https://github.com/0abc/0abc-a23#recruitment-costs)
   * [Upkeep and income](https://github.com/0abc/0abc-a23#upkeep-and-income)
   * [Auras and technologies](https://github.com/0abc/0abc-a23#auras-and-technologies)
     * [Structure auras](https://github.com/0abc/0abc-a23#structure-auras)
@@ -57,6 +58,7 @@
 
 ## Overview
 *Parts of this readme might be outdated. For more accurate information, please have a look at* **0abc-readme.pdf**
+* three phases: village, town, city
 * four damage types: crush, hack, pierce, thrust
 * five resources: silver, food, wood, stone, iron
 * six structure categories: base, civic, defensive, economic, military, resource
@@ -163,7 +165,7 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 
 ### Units
 * all units are bribable (vision sharing), except for fauna
-* fauna is no longer visible in fog
+* animals are no longer visible in fog
 * female citizens renamed to women; they can no longer build or repair
 * cavalry can no longer gather resources
 * camelry, chariotry, and elephantry are no longer considered cavalry
@@ -171,17 +173,73 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * siege weapons are no longer capturable
 * battering rams can no longer attack organic units
 * all factions can construct rams (town)
+* all factions can train slaves (city)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Population costs
-* 0: fauna, catafalques, heroes, ships
+* 0: animals, catafalques, heroes, ships
 * 1: infantry, women, healers, traders
-* 2: camelry, cavalry
+* 2: camelry, cavalry, scorpio
 * 3: worker elephants
-* 4: bigae, battering rams, bolt shooters, stone throwers
+* 4: bigae, battering rams, polybolos, oxybeles, stone throwers
 * 5: –
 * 6: quadrigae, war elephants, siege towers
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Recruitment costs
+*Default values (can be changed by auras, technologies, etc.)*:
+* Support:
+  * healer (town; temple): 30 food, 60 silver; 60 seconds
+  * woman (village; house): 30 food; 60 seconds
+  * slave (city; market): 30 silver; 30 seconds
+  * trader (village; market): 50 food, 50 wood, 50 iron; 30 seconds
+  * worker elephant (village; elephant stable): 150 food; 60 seconds
+* Soldier:
+  * infantry: 30 food, 30 silver; 30 seconds
+  * camelry: 70 food, 35 silver; 45 seconds
+  * cavalry: 80 food, 40 silver; 60 seconds
+  * bigae: 160 food, 90 silver; 75 seconds
+  * quadrigae: 240 food, 120 silver; 75 seconds
+  * North African war elephants: 270 food, 270 silver; 81 seconds
+  * Indian war elephants: 330 food, 330 silver; 99 seconds
+**NB**: champions cost +200% silver, mercenaries 0 other resources but +100% silver
+* Siege:
+  * ram: 100 food, 250 wood, 50 iron; 40 seconds
+  * large ram: 100 food, 350 wood, 50 iron; 50 seconds
+  * scorpio: 50 food, 50 wood, 100 iron; 60 seconds
+  * oxybeles: 100 food, 150 wood, 150 iron; 80 seconds
+  * polybolos: 100 food, 150 wood, 150 iron; 90 seconds
+  * stone-thrower: 100 food, 200 wood, 100 iron; 100 seconds
+  * siege tower: 200 food, 500 wood, 300 iron; 150 seconds
+* Ship:
+  * fishing boat: 15 food, 60 wood; 20 seconds
+  * merchant ship: 30 food, 120 wood, 60 iron; 40 seconds
+  * fireship: 150 wood; 15 seconds
+  * barge: 50 food, 250 wood, 100 iron; 50 seconds
+  * large barge: 100 food, 400 wood, 150 iron; 80 seconds
+  * triaconter: 60 food, 60 wood, 30 iron; 30 seconds
+  * penteconter: 100 food, 100 wood, 50 iron; 45 seconds
+  * trireme: 300 food, 300 wood, 150 iron; 60 seconds
+  * quadrireme: 400 food, 400 wood, 200 iron; 75 seconds
+  * quinquereme: 500 food, 500 wood, 250 iron; 90 seconds
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Walk speed
+*Default values (can be changed by auras, technologies, etc.)*:
+* 4: siege towers
+* 6: battering rams
+* 7: packed stone-throwers
+* 8: packed bolt-shooters
+* 9: support
+* 10: infantry
+* 12: elephantry
+* 15: cavalry
+* 16: bigae
+* 17: quadrigae
+* 18: camelry
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -252,21 +310,6 @@ There are four damage types (crush, hack, pierce, thrust)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Recruitment costs
-* Women: 30 food
-* Slaves: 30 silver
-* Infantry: 30 food, 30 silver
-* Camelry: 70 food, 35 silver
-* Cavalry: 80 food, 40 silver
-* Bigae: 160 food, 90 silver
-* Quadrigae: 240 food, 120 silver
-* North African War Elephants: 270 food, 270 silver
-* Indian War Elephants: 330 food, 330 silver
-
-**NB**: champions cost +200% silver, mercenaries 0 other resources but +100% silver
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
 
 ### Auras and technologies
 #### Structure auras
@@ -307,24 +350,16 @@ There are four damage types (crush, hack, pierce, thrust)
 
 #### Civilization bonuses
 *All bonuses and penalties from the default distribution have been removed.*
-* **Briton Architecture** (Britons): structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; small towers 0 stone cost; temples 0 stone cost, +200% wood cost.
-* **Briton Chariots** (Britons): chariots −15% training time.
-* **Druidism** (Britons, Gauls): healers +2 armour levels.
+* **Druidism** (Gauls): healers +2 armour levels.
 * **Gallic Cavalry** (Gauls): melee cavalry −15% training time.
 * **Gauls Architecture** (Gauls): structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; fortresses −50% stone cost, +50% wood cost; temples 0 stone cost, +200% wood cost.
-* **Greek Architecture** (Greeks): temples +25% health.
-* **Greek Galleys** (Greeks): warships +5% movement speed.
 * **Egyptian Architecture** (Ptolemies): economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health.
 * **Egyptian Medicine** (Ptolemies): healers −20% healing time.
 * **Indian Architecture** (Mauryas): centres 0 stone cost, +100% wood cost; city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
 * **Indian Elephants** (Mauryas): elephants −15% training time.
-* **Iberian Architecture** (Iberians): large towers +20% stone and wood costs, +10% build time, +100% garrison capacity, +30% health.
 * **Kushite Architecture** (Kushites): economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health.
 * **Macedonian Architecture** (Macedonians): temples +25% health.
 * **Macedonian Engineers** (Macedonians): siege engines −15% construction time.
-* **Near Eastern Archers** (Persians, Seleucids): archers +20% ranged attack range.
-* **Persian Architecture** (Persians): economic structures +20% health.
-* **Persian Archers** (Persians): archers −15% training time.
 * **Priesthood of Amun** (Kuhites): healers +3 healing range.
 * **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
 * **Punic Merchants** (Carthaginians): traders −15% training time.

@@ -1,23 +1,25 @@
 {
-  "affects": ["Centre"],
-  "cost": {"silver": 0, "food": 0, "wood": 800, "stone": 800, "metal": 800},
+  "affects": [ "Centre" ],
+  "cost": { "silver": 0, "food": 0, "wood": 800, "stone": 800, "metal": 800 },
   "description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
   "genericName": "City Phase",
   "icon": "city_phase.png",
   "modifications": [
-    {"value": "Cost/Resources/food",          "add":      100},
-    {"value": "Cost/Resources/metal",         "add":      100},
-    {"value": "Health/Max",                   "multiply": 1.2},
-    {"value": "ResourceTrickle/Rates/food",   "add":     -0.2},
-    {"value": "ResourceTrickle/Rates/silver", "add":      0.2},
-    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
+    { "value": "Cost/Resources/food",          "add":      100 },
+    { "value": "Cost/Resources/metal",         "add":      100 },
+    { "value": "Health/Max",                   "multiply": 1.2 },
+    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2 },
+    { "value": "ResourceTrickle/Rates/silver", "add":      0.2 },
+    { "value": "TerritoryInfluence/Radius",    "multiply": 1.2 }
   ],
-  "requirements": {"all": [
-    {"entity": {"class": "House",             "number":   10}},
-    {"entity": {"class": "Blacksmith",        "number":    1}},
-    {"entity": {"class": "Market",            "number":    1}},
-    {"entity": {"class": "Temple",            "number":    1}}
-  ]},
+  "requirements": { "all": 
+    [
+      { "entity": { "class": "House",  "number": 10 } },
+      { "entity": { "class": "Forge",  "number":  1 } },
+      { "entity": { "class": "Market", "number":  1 } },
+      { "entity": { "class": "Temple", "number":  1 } }
+    ] 
+  },
   "researchTime": 120,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_town",

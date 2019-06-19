@@ -16,11 +16,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Stable</Classes>
     <GenericName>Stable</GenericName>
     <Icon>technologies/horseshoe_metal.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train cavalry. Research cavalry technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Stable</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="20" depth="20"/>

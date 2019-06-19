@@ -64,6 +64,10 @@
     <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Base</VisibleClasses>
   </Identity>
+  <ResourceDropsite>
+    <Sharable>false</Sharable>
+    <Types>silver</Types>
+  </ResourceDropsite>
   <TerritoryInfluence>
     <Root>true</Root>
   </TerritoryInfluence>

@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_persians.png",
   "History": "The Persian Empire, when ruled by the Achaemenid dynasty, was one of the greatest empires of antiquity, stretching at its zenith from the Indus Valley in the east to Greece in the west. The Persians were the pioneers of empire-building of the ancient world, successfully imposing a centralized rule over various peoples with different customs, laws, religions and languages, and building a cosmopolitan army made up of contingents from each of these nations.",
   "Music":[
-      {"File": "Eastern_Dreams.ogg", "Type": "peace"},
-      {"File": "Valley_of_the_Nile.ogg", "Type": "peace"},
-      {"File": "Land_between_the_two_Seas.ogg", "Type": "peace"},
-      {"File": "Sands_of_Time.ogg", "Type": "peace"}
+      { "File": "Eastern_Dreams.ogg", "Type": "peace" },
+      { "File": "Valley_of_the_Nile.ogg", "Type": "peace" },
+      { "File": "Land_between_the_two_Seas.ogg", "Type": "peace" },
+      { "File": "Sands_of_Time.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -75,27 +75,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/pers/centre"
-    },
-    {
-      "Template": "units/pers/support_healer"
-    },
-    {
-      "Template": "units/pers/infantry_spearman",
-      "Count": 4
-    },
-    {
-      "Template": "units/pers/infantry_archer",
-      "Count": 2
-    },
-    {
-      "Template": "units/pers/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_sheep",
-      "Count": 3
-    }
+    { "Template": "structures/pers/centre" },
+    { "Template": "units/pers/support_healer" },
+    { "Template": "units/pers/infantry_spearman", "Count": 4 },
+    { "Template": "units/pers/infantry_archer", "Count": 2 },
+    { "Template": "units/pers/cavalry_javelineer" },
+    { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":
   [

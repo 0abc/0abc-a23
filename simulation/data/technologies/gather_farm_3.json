@@ -1,13 +1,13 @@
 {
-  "affects": ["Worker"],
-  "cost": {"food": 0, "wood": 900, "stone": 0, "metal": 600},
+  "affects": [ "Worker" ],
+  "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
   "description": "Training for workers to increase farm gathering speed.",
   "genericName": "Gather Training",
   "icon": "farming_training.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10}
+    { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10 }
   ],
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

@@ -1,21 +1,23 @@
 {
-  "affects": ["Centre"],
-  "cost": {"silver": 0, "food": 0, "wood": 400, "stone": 400, "metal": 400},
+  "affects": [ "Centre" ],
+  "cost": { "silver": 0, "food": 0, "wood": 400, "stone": 400, "metal": 400 },
   "description": "Advances from a small village to a bustling town, ready to expand rapidly.",
   "genericName": "Town Phase",
   "icon": "town_phase.png",
   "modifications": [
-    {"value": "Cost/Resources/food",          "add":      100},
-    {"value": "Cost/Resources/metal",         "add":      100},
-    {"value": "Health/Max",                   "multiply": 1.2},
-    {"value": "ResourceTrickle/Rates/food",   "add":     -0.2},
-    {"value": "ResourceTrickle/Rates/silver", "add":      0.2},
-    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
+    { "value": "Cost/Resources/food",          "add":      100 },
+    { "value": "Cost/Resources/metal",         "add":      100 },
+    { "value": "Health/Max",                   "multiply": 1.2 },
+    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2 },
+    { "value": "ResourceTrickle/Rates/silver", "add":      0.2 },
+    { "value": "TerritoryInfluence/Radius",    "multiply": 1.2 }
   ],
-  "requirements": {"all": [
-    {"entity": {"class": "House",             "number":    5}},
-    {"entity": {"class": "BarterMarket",      "number":    1}}
-  ]},
+  "requirements": { "all": 
+    [
+      { "entity": { "class": "House",  "number": 10 } },
+      { "entity": { "class": "Market", "number":  1 } }
+    ] 
+  },
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_village",

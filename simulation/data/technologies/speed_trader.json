@@ -1,13 +1,13 @@
 {
-  "affects": ["Trader"],
-  "cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+  "affects": [ "Trader" ],
+  "cost": { "silver": 0, "food": 200, "wood": 0, "stone": 0, "metal": 200 },
   "description": "Increases movement rate of traders, which in turn increases trade income.",
   "genericName": "Trade Convoys",
   "icon": "upgrade_advanced.png",
   "modifications": [
-    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
+    { "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
   ],
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "tech": "phase_town" },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

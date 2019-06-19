@@ -1,0 +1,10 @@
+{
+  "affects": [ "Structure" ],
+  "autoResearch": true,
+  "genericName": "Greek Architecture",
+  "modifications": [
+    { "value": "Health/Max", "multiply": 1.25,  "affects": "Temple" }
+  ],
+  "requirements": { "civ": "mace" },
+  "tooltip": "Macedonian temples +25% health."
+}

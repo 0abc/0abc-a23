@@ -26,10 +26,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Theatre</Classes>
     <GenericName>Theatre</GenericName>
     <Icon>structures/theatron.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Theatre</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="40" depth="46"/>

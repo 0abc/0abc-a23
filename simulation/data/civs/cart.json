@@ -5,9 +5,9 @@
   "Emblem": "session/portraits/emblems/emblem_carthaginians.png",
   "History": "Carthage, a city-state in modern-day Tunisia, was a formidable force in the western Mediterranean, eventually taking over much of North Africa and modern-day Spain in the third century BC. The sailors of Carthage were among the fiercest contenders on the high seas, and masters of naval trade. They deployed towered War Elephants on the battlefield to fearsome effect, and had defensive walls so strong, they were never breached.",
   "Music":[
-      {"File": "Mediterranean_Waves.ogg", "Type": "peace"},
-      {"File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace"},
-      {"File": "Peaks_of_Atlas.ogg", "Type": "peace"}
+      { "File": "Mediterranean_Waves.ogg", "Type": "peace" },
+      { "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" },
+      { "File": "Peaks_of_Atlas.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -70,27 +70,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/cart/centre"
-    },
-    {
-      "Template": "units/cart/support_healer"
-    },
-    {
-      "Template": "units/cart/infantry_spearman",
-      "Count": 4
-    },
-    {
-      "Template": "units/cart/infantry_archer",
-      "Count": 2
-    },
-    {
-      "Template": "units/cart/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_sheep",
-      "Count": 3
-    }
+    { "Template": "structures/cart/centre" },
+    { "Template": "units/cart/support_healer" },
+    { "Template": "units/cart/infantry_spearman", "Count": 4 },
+    { "Template": "units/cart/infantry_archer", "Count": 2 },
+    { "Template": "units/cart/cavalry_javelineer" },
+    { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":
   [

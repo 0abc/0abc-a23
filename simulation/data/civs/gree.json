@@ -5,12 +5,12 @@
   "Emblem": "session/portraits/emblems/emblem_hellenes.png",
   "History": "Although politically divided into a great number of city states, the Greeks did consider themselves a single people with a shared culture. There were pan-Hellenic institutions, sanctuaries, festivals, and games. Usually the major city states fought each other for hegemony, but occassionally they formed brief military alliances to counter 'barbarian' (i.e. non-Greek) invasions.",
   "Music":[
-      {"File": "Forging_a_City-State.ogg", "Type": "peace"},
-      {"File": "Harvest_Festival.ogg", "Type": "peace"},
-      {"File": "Helen_Leaves_Sparta.ogg", "Type": "peace"},
-      {"File": "Highland_Mist.ogg", "Type": "peace"},
-      {"File": "Peaks_of_Atlas.ogg", "Type": "peace"},
-      {"File": "The_Hellespont.ogg", "Type": "peace"}
+      { "File": "Forging_a_City-State.ogg", "Type": "peace" },
+      { "File": "Harvest_Festival.ogg", "Type": "peace" },
+      { "File": "Helen_Leaves_Sparta.ogg", "Type": "peace" },
+      { "File": "Highland_Mist.ogg", "Type": "peace" },
+      { "File": "Peaks_of_Atlas.ogg", "Type": "peace" },
+      { "File": "The_Hellespont.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -191,27 +191,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/gree/centre"
-    },
-    {
-      "Template": "units/gree/support_healer"
-    },
-    {
-      "Template": "units/gree/infantry_spearman",
-      "Count": 4
-    },
-    {
-      "Template": "units/gree/infantry_javelineer",
-      "Count": 2
-    },
-    {
-      "Template": "units/gree/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_goat",
-      "Count": 4
-    }
+    { "Template": "structures/gree/centre" },
+    { "Template": "units/gree/support_healer" },
+    { "Template": "units/gree/infantry_spearman", "Count": 4 },
+    { "Template": "units/gree/infantry_javelineer", "Count": 2 },
+    { "Template": "units/gree/cavalry_javelineer" },
+    { "Template": "gaia/fauna_goat", "Count": 4 }
   ],
   "Formations":
   [

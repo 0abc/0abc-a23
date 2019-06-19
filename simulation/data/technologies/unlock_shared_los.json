@@ -1,12 +1,12 @@
 {
-  "cost": {"silver": 250, "food": 0, "wood": 0, "stone": 0, "metal": 0},
+  "cost": { "silver": 250, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "By means of trading and travelling people explored beyond the boundaries of their lands and drew maps of it in order to share and memorize their discoveries.",
   "genericName": "Cartography",
   "icon": "dove.png",
   "modifications": [
-    {"value": "Player/sharedLos", "replace": true}
+    { "value": "Player/sharedLos", "replace": true }
   ],
-  "requirements": {"tech": "phase_village"},
+  "requirements": { "tech": "phase_village" },
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "See what your allies see, browse their summary and check their resources and population count in the top panel."

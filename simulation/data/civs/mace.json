@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_macedonians.png",
   "History": "Macedonia was an ancient Greek kingdom, centered in the northeastern part of the Greek peninsula. Under the leadership of Alexander the Great, Macedonian forces and allies took over most of the world they knew, including Egypt, Persia and parts of the Indian subcontinent, allowing a diffusion of Hellenic and eastern cultures for years to come.",
   "Music":[
-      {"File": "Rise_of_Macedon.ogg", "Type": "peace"},
-      {"File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace"},
-      {"File": "Elysian_Fields.ogg", "Type": "peace"},
-      {"File": "The_Hellespont.ogg", "Type": "peace"}
+      { "File": "Rise_of_Macedon.ogg", "Type": "peace" },
+      { "File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace" },
+      { "File": "Elysian_Fields.ogg", "Type": "peace" },
+      { "File": "The_Hellespont.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -70,27 +70,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/mace/centre"
-    },
-    {
-      "Template": "units/mace/support_healer"
-    },
-    {
-      "Template": "units/mace/infantry_pikeman",
-      "Count": 4
-    },
-    {
-      "Template": "units/mace/infantry_javelineer",
-      "Count": 2
-    },
-    {
-      "Template": "units/mace/cavalry_lancer"
-    },
-    {
-      "Template": "gaia/fauna_sheep",
-      "Count": 3
-    }
+    { "Template": "structures/mace/centre" },
+    { "Template": "units/mace/support_healer" },
+    { "Template": "units/mace/infantry_pikeman", "Count": 4 },
+    { "Template": "units/mace/infantry_javelineer", "Count": 2 },
+    { "Template": "units/mace/cavalry_lancer" },
+    { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":
   [

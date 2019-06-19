@@ -1,21 +1,23 @@
 {
-  "affects": ["Infantry Javelineer"],
-  "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
+  "affects": [ "Infantry Javelineer" ],
+  "cost": { "silver": 0, "food": 400, "wood": 400, "stone": 0, "metal": 400 },
   "description": "Training increases ranged attack.",
   "genericName": "Javelin Thong",
   "icon": "javelin_thong.png",
   "modifications": [
-    {"value": "Attack/Ranged/Crush",  "multiply": 1.1},
-    {"value": "Attack/Ranged/Hack",   "multiply": 1.1},
-    {"value": "Attack/Ranged/Pierce", "multiply": 1.1},
-    {"value": "Attack/Ranged/Thrust", "multiply": 1.1},
-    {"value": "Attack/Ranged/Spread", "multiply": 0.9}
+    { "value": "Attack/Ranged/Crush",  "multiply": 1.1 },
+    { "value": "Attack/Ranged/Hack",   "multiply": 1.1 },
+    { "value": "Attack/Ranged/Pierce", "multiply": 1.1 },
+    { "value": "Attack/Ranged/Thrust", "multiply": 1.1 },
+    { "value": "Attack/Ranged/Spread", "multiply": 0.9 }
   ],
-  "requirements": {"all": [
-    {"tech": "phase_village"},
-    {"notciv": "kush"},
-    {"notciv": "maur"}
-  ]},
+  "requirements": { "all":
+    [
+      { "tech": "phase_village" },
+      { "notciv": "kush" },
+      { "notciv": "maur" }
+    ]
+  },
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

@@ -1,20 +1,28 @@
 {
-  "affects": ["Champion !Fanatic"],
-  "cost": {"food": 0, "wood": 750, "stone": 0, "metal": 750},
+  "affects": [ "Champion !Fanatic" ],
+  "cost": { "silver": 0, "food": 0, "wood": 750, "stone": 0, "metal": 750 },
   "description": "Equip champions with chain mail body armour.",
   "genericName": "Chain Mail Body Armour",
   "icon": "armor_chain.png",
   "modifications": [
-    {"value": "Armour/Crush",         "add":      1.0 },
-    {"value": "Armour/Hack",          "add":      1.0 },
-    {"value": "Armour/Pierce",        "add":      1.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
+    { "value": "Armour/Crush",         "add":      1.0  },
+    { "value": "Armour/Hack",          "add":      1.0  },
+    { "value": "Armour/Pierce",        "add":      1.0  },
+    { "value": "UnitMotion/Run/Speed", "multiply": 0.98 },
+    { "value": "UnitMotion/WalkSpeed", "multiply": 0.98 }
   ],
-  "requirements": {"all": [
-    {"tech": "phase_city"},
-    {"any": [{"civ": "brit"}, {"civ": "gaul"}, {"civ": "rome"}]}
-  ]},
+  "requirements": { "all":
+    [
+      { "tech": "phase_city" },
+      { "any":
+        [ 
+          {"civ": "brit"},
+          {"civ": "gaul"},
+          {"civ": "rome"}
+        ]
+      }
+    ]
+  },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

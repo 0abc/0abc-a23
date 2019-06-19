@@ -574,10 +574,10 @@ m.HQ.prototype.checkPhaseRequirements = function(gameState, queues)
           queue = "economicBuilding";
           break;
         }
-        if (!gameState.getOwnEntitiesByClass("Blacksmith", true).hasEntities() &&
-            this.canBuild(gameState, "structures/{civ}/blacksmith"))
+        if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities() &&
+            this.canBuild(gameState, "structures/{civ}/forge"))
         {
-          plan = new m.ConstructionPlan(gameState, "structures/{civ}/blacksmith", { "phaseUp": true });
+          plan = new m.ConstructionPlan(gameState, "structures/{civ}/forge", { "phaseUp": true });
           queue = "militaryBuilding";
           break;
         }
@@ -1893,17 +1893,17 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
   }
 };
 
-m.HQ.prototype.buildBlacksmith = function(gameState, queues)
+m.HQ.prototype.buildForge = function(gameState, queues)
 {
-  if (this.getAccountedPopulation(gameState) < this.Config.Military.popForBlacksmith ||
-    queues.militaryBuilding.hasQueuedUnits() || gameState.getOwnEntitiesByClass("Blacksmith", true).length)
+  if (this.getAccountedPopulation(gameState) < this.Config.Military.popForForge ||
+    queues.militaryBuilding.hasQueuedUnits() || gameState.getOwnEntitiesByClass("Forge", true).length)
     return;
-  // build a market before the blacksmith
+  // build a market before the forge
   if (!gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities())
     return;
 
-  if (this.canBuild(gameState, "structures/{civ}/blacksmith"))
-    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/blacksmith"));
+  if (this.canBuild(gameState, "structures/{civ}/forge"))
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/forge"));
 };
 
 /**
@@ -1989,9 +1989,9 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
     return;
   }
 
-  if (this.canBuild(gameState, "structures/{civ}/workshop") && !gameState.getOwnEntitiesByClass("Workshop", true).hasEntities())
+  if (this.canBuild(gameState, "structures/{civ}/arsenal") && !gameState.getOwnEntitiesByClass("Arsenal", true).hasEntities())
   {
-    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/workshop", { "militaryBase": true }));
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/arsenal", { "militaryBase": true }));
     return;
   }
 
@@ -2729,7 +2729,7 @@ m.HQ.prototype.update = function(gameState, queues, events)
 
     if (!this.saveResources)
     {
-      this.buildBlacksmith(gameState, queues);
+      this.buildForge(gameState, queues);
       this.buildTemple(gameState, queues);
     }
 

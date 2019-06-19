@@ -1,18 +1,18 @@
 {
-  "affects": ["Ship"],
-  "cost": {"food": 0, "wood": 400, "stone": 0, "metal": 800},
+  "affects": [ "Ship" ],
+  "cost": { "silver": 0, "food": 0, "wood": 400, "stone": 0, "metal": 800 },
   "description": "Lead sheathing protects ship hulls.",
   "genericName": "Lead hull sheathing",
   "icon": "armor_ship_gold.png",
   "modifications": [
-    {"value": "Armour/Crush",         "add":      2.0 },
-    {"value": "Armour/Hack",          "add":      2.0 },
-    {"value": "Armour/Pierce",        "add":      2.0 },
-    {"value": "Armour/Thrust",        "add":      2.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.98},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
+    { "value": "Armour/Crush",         "add":      2    },
+    { "value": "Armour/Hack",          "add":      2    },
+    { "value": "Armour/Pierce",        "add":      2    },
+    { "value": "Armour/Thrust",        "add":      2    },
+    { "value": "UnitMotion/Run/Speed", "multiply": 0.98 },
+    { "value": "UnitMotion/WalkSpeed", "multiply": 0.98 }
   ],
-  "requirements": {"tech": "phase_metropolis"},
+  "requirements": { "tech": "phase_metropolis" },
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

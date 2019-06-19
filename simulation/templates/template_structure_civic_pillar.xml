@@ -21,10 +21,10 @@
     <Max>500</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Pillar</Classes>
     <GenericName>Monumental Pillar</GenericName>
     <Icon>structures/tholos.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
   </Identity>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>

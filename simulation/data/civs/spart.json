@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_spartans.png",
   "History": "Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 BC. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco–Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
   "Music":[
-      {"File": "Helen_Leaves_Sparta.ogg", "Type": "peace"},
-      {"File": "Peaks_of_Atlas.ogg", "Type": "peace"},
-      {"File": "Forging_a_City-State.ogg", "Type": "peace"},
-      {"File": "The_Hellespont.ogg", "Type": "peace"}
+      { "File": "Helen_Leaves_Sparta.ogg", "Type": "peace" },
+      { "File": "Peaks_of_Atlas.ogg", "Type": "peace" },
+      { "File": "Forging_a_City-State.ogg", "Type": "peace" },
+      { "File": "The_Hellespont.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -65,27 +65,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/spart/centre"
-    },
-    {
-      "Template": "units/spart/support_healer"
-    },
-    {
-      "Template": "units/spart/infantry_spearman",
-      "Count": 4
-    },
-    {
-      "Template": "units/spart/infantry_javelineer",
-      "Count": 2
-    },
-    {
-      "Template": "units/spart/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_goat",
-      "Count": 4
-    }
+    { "Template": "structures/spart/centre" },
+    { "Template": "units/spart/support_healer" },
+    { "Template": "units/spart/infantry_spearman", "Count": 4 },
+    { "Template": "units/spart/infantry_javelineer", "Count": 2 },
+    { "Template": "units/spart/cavalry_javelineer" },
+    { "Template": "gaia/fauna_goat", "Count": 4 }
   ],
   "Formations":
   [

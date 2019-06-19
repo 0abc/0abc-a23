@@ -15,11 +15,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Range</Classes>
     <GenericName>Practice Range</GenericName>
     <Icon>structures/range.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train ranged infantry. Research training improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Range</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="23" depth="23"/>

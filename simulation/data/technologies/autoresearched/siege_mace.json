@@ -1,0 +1,10 @@
+{
+  "affects": [ "Siege" ],
+  "autoResearch": true,
+  "genericName": "Macedonian Engineers",
+  "modifications": [
+    { "value": "Cost/BuildTime", "multiply": 0.85 }
+  ],
+  "requirements": { "civ": "mace" },
+  "tooltip": "Macedonian siege engines −15% construction time."
+}

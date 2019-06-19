@@ -10,11 +10,11 @@
     <Max>2000</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Hall</Classes>
     <GenericName>Hall</GenericName>
     <Icon>structures/italian_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train infantry mercenaries.</Tooltip>
-    <VisibleClasses datatype="tokens">Hall</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

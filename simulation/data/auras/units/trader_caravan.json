@@ -3,7 +3,7 @@
   "auraDescription": "Traders in a caravan +2 pierce armour.",
   "auraName": "Caravan",
   "modifications": [
-    {"value": "Armour/Thrust", "add": 2}
+    { "value": "Armour/Thrust", "add": 2 }
   ],
   "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
   "radius": 10,

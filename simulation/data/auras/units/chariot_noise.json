@@ -1,18 +1,18 @@
 {
-  "affectedPlayers": ["Enemy"],
-  "affects": ["Infantry"],
+  "affectedPlayers": [ "Enemy" ],
+  "affects": [ "Infantry" ],
   "auraDescription": "Enemy infantry −15% attack damage and capture strength.",
   "auraName": "Noise",
   "modifications": [
-    {"value": "Attack/Capture/Value", "multiply": 0.85                     },
-    {"value": "Attack/Melee/Crush",   "multiply": 0.85, "affects": "Melee" },
-    {"value": "Attack/Melee/Hack",    "multiply": 0.85, "affects": "Melee" },
-    {"value": "Attack/Melee/Pierce",  "multiply": 0.85, "affects": "Melee" },
-    {"value": "Attack/Melee/Thrust",  "multiply": 0.85, "affects": "Melee" },
-    {"value": "Attack/Ranged/Crush",  "multiply": 0.85, "affects": "Ranged"},
-    {"value": "Attack/Ranged/Hack",   "multiply": 0.85, "affects": "Ranged"},
-    {"value": "Attack/Ranged/Pierce", "multiply": 0.85, "affects": "Ranged"},
-    {"value": "Attack/Ranged/Thrust", "multiply": 0.85, "affects": "Ranged"}
+    { "value": "Attack/Capture/Value", "multiply": 0.85                      },
+    { "value": "Attack/Melee/Crush",   "multiply": 0.85, "affects": "Melee"  },
+    { "value": "Attack/Melee/Hack",    "multiply": 0.85, "affects": "Melee"  },
+    { "value": "Attack/Melee/Pierce",  "multiply": 0.85, "affects": "Melee"  },
+    { "value": "Attack/Melee/Thrust",  "multiply": 0.85, "affects": "Melee"  },
+    { "value": "Attack/Ranged/Crush",  "multiply": 0.85, "affects": "Ranged" },
+    { "value": "Attack/Ranged/Hack",   "multiply": 0.85, "affects": "Ranged" },
+    { "value": "Attack/Ranged/Pierce", "multiply": 0.85, "affects": "Ranged" },
+    { "value": "Attack/Ranged/Thrust", "multiply": 0.85, "affects": "Ranged" }
   ],
   "overlayIcon": "art/textures/ui/session/auras/attack_penalty.png",
   "rangeOverlay" : {

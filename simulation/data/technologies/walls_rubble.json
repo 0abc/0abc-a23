@@ -1,12 +1,12 @@
 {
   "affects": ["StoneWall"],
-  "cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0},
+  "cost": { "silver": 0, "food": 0, "wood": 250, "stone": 0, "metal": 0 },
   "description": "Using rubble materials reduces the costs and build times of walls.",
   "genericName": "Rubble Materials",
   "icon": "stone_blocks_brown.png",
   "modifications": [
-    {"value": "Armour/Crush",   "add":      -1.0},
-    {"value": "Cost/BuildTime", "multiply":  0.8}
+    { "value": "Armour/Crush",   "add":      -1.0 },
+    { "value": "Cost/BuildTime", "multiply":  0.8 }
   ],
   "pair": "walls_pair",
   "requirements": {"tech": "phase_city"},

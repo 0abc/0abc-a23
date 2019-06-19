@@ -40,9 +40,6 @@
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

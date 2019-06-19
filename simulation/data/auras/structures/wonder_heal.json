@@ -1,9 +1,9 @@
 {
-  "affects": ["Human"],
+  "affects": [ "Human" ],
   "auraDescription": "Heals nearby units at 2 health per second.",
   "auraName": "Blessing of the Gods",
   "modifications": [
-    {"value": "Health/RegenRate", "add": 2}
+    { "value": "Health/RegenRate", "add": 2 }
   ],
   "overlayIcon": "art/textures/ui/session/auras/heal.png",
   "radius": 50,

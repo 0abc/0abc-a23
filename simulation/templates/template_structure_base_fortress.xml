@@ -37,12 +37,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">GarrisonFortress</Classes>
+    <Classes datatype="tokens">GarrisonFortress Fortress</Classes>
     <GenericName>Fortress</GenericName>
     <Icon>structures/fortress.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Territory root. Garrison units to fire additional arrows.</Tooltip>
-    <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Rates>

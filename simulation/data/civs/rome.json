@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_romans.png",
   "History": "The Romans controlled one of the largest empires of the ancient world, stretching at its peak from southern Scotland to the Sahara Desert, and containing between 60 million and 80 million inhabitants, one quarter of the Earth's population at that time. Rome also remained one of the strongest nations on earth for almost 800 years. The Romans were the supreme builders of the ancient world, excelled at siege warfare and had an exquisite infantry and navy.",
   "Music":[
-      {"File": "Juno_Protect_You.ogg", "Type": "peace"},
-      {"File": "Mediterranean_Waves.ogg", "Type": "peace"},
-      {"File": "Elysian_Fields.ogg", "Type": "peace"},
-      {"File": "The_Governor.ogg", "Type": "peace"}
+      { "File": "Juno_Protect_You.ogg", "Type": "peace" },
+      { "File": "Mediterranean_Waves.ogg", "Type": "peace" },
+      { "File": "Elysian_Fields.ogg", "Type": "peace" },
+      { "File": "The_Governor.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -70,27 +70,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/rome/centre"
-    },
-    {
-      "Template": "units/rome/support_healer"
-    },
-    {
-      "Template": "units/rome/infantry_sabreman",
-      "Count": 4
-    },
-    {
-      "Template": "units/rome/infantry_javelineer",
-      "Count": 2
-    },
-    {
-      "Template": "units/rome/cavalry_spearman"
-    },
-    {
-      "Template": "gaia/fauna_pig",
-      "Count": 2
-    }
+    { "Template": "structures/rome/centre" },
+    { "Template": "units/rome/support_healer" },
+    { "Template": "units/rome/infantry_sabreman", "Count": 4 },
+    { "Template": "units/rome/infantry_javelineer", "Count": 2 },
+    { "Template": "units/rome/cavalry_spearman" },
+    { "Template": "gaia/fauna_pig", "Count": 2 }
   ],
   "Formations":
   [

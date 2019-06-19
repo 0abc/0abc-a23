@@ -1,13 +1,13 @@
 {
-  "affects": ["FishingBoat"],
-  "cost": {"food": 200, "wood": 100, "stone": 0, "metal": 0},
+  "affects": [ "FishingBoat" ],
+  "cost": { "silver": 0, "food": 200, "wood": 100, "stone": 0, "metal": 0 },
   "description": "Salting allows to preserve fish longer.",
   "genericName": "Salting Fish",
   "icon": "fish.png",
   "modifications": [
-    {"value": "ResourceGatherer/Capacities/food", "add": 25}
+    { "value": "ResourceGatherer/Capacities/food", "add": 25 }
   ],
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "tech": "phase_town" },
   "requirementsTooltip": "Unlocked in Town Phase. Requires Fishing Net.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

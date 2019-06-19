@@ -27,10 +27,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Field</Classes>
     <GenericName>Field</GenericName>
     <Icon>structures/field.png</Icon>
     <Tooltip>Harvest grain for food.</Tooltip>
-    <VisibleClasses datatype="tokens">Resource Field</VisibleClasses>
+    <VisibleClasses datatype="tokens">Resource</VisibleClasses>
   </Identity>
   <Minimap>
     <Color r="119" g="82" b="46"/>

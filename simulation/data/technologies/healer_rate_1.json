@@ -1,20 +1,15 @@
 {
-  "affects": ["Healer"],
-  "cost": {"silver": 300, "food": 0, "wood": 0, "stone": 0, "metal": 0},
+  "affects": [ "Healer" ],
+  "cost": { "silver": 300, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Increases the healing rate of all healers.",
   "genericName": "Improved Healing Rate",
   "icon": "healing_rate.png",
   "modifications": [
-    {"value": "Heal/Rate", "multiply": 0.8}
+    { "value": "Heal/Rate", "multiply": 0.8 }
   ],
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "tech": "phase_town" },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "specificName": {
-    "athen": "Sphágia",
-    "mace": "Sphágia",
-    "spart": "Sphágia"
-  },
   "tooltip": "Healers −20% healing time."
 }

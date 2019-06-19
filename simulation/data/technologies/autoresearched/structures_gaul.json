@@ -1,0 +1,17 @@
+{
+  "affects": [ "Structure !Field !Outpost !Palisade !SiegeWall !Wonder" ],
+  "autoResearch": true,
+  "genericName": "Gaulish Architecture",
+  "modifications": [
+    { "value": "Cost/BuildTime",       "multiply": 0.8                         },
+    { "value": "Health/Max",           "multiply": 0.9                         },
+    { "value": "Cost/Resources/stone", "replace":  0,    "affects": "Centre"   },
+    { "value": "Cost/Resources/wood",  "multiply": 2.0,  "affects": "Centre"   },
+    { "value": "Cost/Resources/stone", "multiply": 0.5,  "affects": "Fortress" },
+    { "value": "Cost/Resources/wood",  "multiply": 1.5,  "affects": "Fortress" },
+    { "value": "Cost/Resources/stone", "replace":  0,    "affects": "Temple"   },
+    { "value": "Cost/Resources/wood",  "multiply": 3.0,  "affects": "Temple"   }
+  ],
+  "requirements": { "civ": "gaul" },
+  "tooltip": "Gaulish structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; fortresses −50% stone cost, +50% wood cost; temples 0 stone cost, +200% wood cost."
+}

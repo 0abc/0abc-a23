@@ -1,13 +1,13 @@
 {
-  "affects": ["Worker"],
-  "cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
+  "affects": [ "Worker" ],
+  "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
   "description": "Increases wood gathering rates for trees.",
   "genericName": "Stronger Axes",
   "icon": "wood_axe.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.25}
+    { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.25 }
   ],
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "tech": "phase_town" },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

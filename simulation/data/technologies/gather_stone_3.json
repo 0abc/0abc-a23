@@ -1,23 +1,16 @@
 {
-  "affects": ["Worker"],
-  "cost": {"food": 0, "wood": 900, "stone": 0, "metal": 600},
+  "affects": [ "Worker" ],
+  "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
   "description": "Buy slaves to help your workers quarry stone. Increases stone gathering rates.",
   "genericName": "Slaves",
   "icon": "mining_stone.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.30}
+    { "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.30 }
   ],
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "specificName": {
-    "athen": "Andrápoda",
-    "mace": "Andrápoda",
-    "ptol": "Andrápoda",
-    "sele": "Andrápoda",
-    "spart": "Andrápoda"
-  },
   "supersedes": "gather_stone_2",
   "tooltip": "Workers +30% stone gathering rate."
 }

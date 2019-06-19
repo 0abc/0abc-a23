@@ -5,10 +5,10 @@
   "Emblem": "session/portraits/emblems/emblem_athenians.png",
   "History": "As the cradle of Western civilization and the birthplace of democracy, Athens was famed as a centre for the arts, learning and philosophy. The Athenians were also powerful warriors, particularly at sea. At its peak, Athens dominated a large part of the Aegean for several decades.",
   "Music":[
-      {"File": "Harvest_Festival.ogg", "Type": "peace"},
-      {"File": "Forging_a_City-State.ogg", "Type": "peace"},
-      {"File": "Highland_Mist.ogg", "Type": "peace"},
-      {"File": "The_Hellespont.ogg", "Type": "peace"}
+      { "File": "Harvest_Festival.ogg", "Type": "peace" },
+      { "File": "Forging_a_City-State.ogg", "Type": "peace" },
+      { "File": "Highland_Mist.ogg", "Type": "peace" },
+      { "File": "The_Hellespont.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -65,27 +65,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/athen/centre"
-    },
-    {
-      "Template": "units/athen/support_healer"
-    },
-    {
-      "Template": "units/athen/infantry_spearman",
-      "Count": 4
-    },
-    {
-      "Template": "units/athen/infantry_slinger",
-      "Count": 2
-    },
-    {
-      "Template": "units/athen/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_goat",
-      "Count": 4
-    }
+    { "Template": "structures/athen/centre" },
+    { "Template": "units/athen/support_healer" },
+    { "Template": "units/athen/infantry_spearman", "Count": 4 },
+    { "Template": "units/athen/infantry_slinger", "Count": 2 },
+    { "Template": "units/athen/cavalry_javelineer" },
+    { "Template": "gaia/fauna_goat", "Count": 4 }
   ],
   "Formations":
   [

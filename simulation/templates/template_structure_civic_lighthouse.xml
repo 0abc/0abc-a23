@@ -20,11 +20,11 @@
     <Max>3000</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Lighthouse</Classes>
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Very large vision range.</Tooltip>
-    <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
   </Identity>
   <Position>
     <Floating>true</Floating>

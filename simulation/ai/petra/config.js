@@ -20,7 +20,7 @@ m.Config = function(difficulty, behavior)
     "towerLapseTime": 90,  // Time to wait between building 2 towers
     "fortressLapseTime": 360,  // Time to wait between building 2 fortresses
     "popForBarracks1": 30,
-    "popForBlacksmith": 60,
+    "popForForge": 60,
     "popForBarracks2": 90,
     "popForBarracks3": 120,
     "numSentryTowers": 1
@@ -53,18 +53,18 @@ m.Config = function(difficulty, behavior)
   {
 		"default": [],
 		"athen": [],
-		"brit": ["structures/{civ}/crannog", "structures/{civ}/rotarymill"],
+		"brit": [],
 		"cart": ["structures/{civ}/hall", "structures/{civ}/naval_base"],
 		"gaul": ["structures/{civ}/rotarymill"],
-		"gree": ["structures/greek_camp"],
-		"iber": ["structures/{civ}/pillar"],
-		"kush": ["structures/blemmye_camp", "structures/nuba_camp"],
-		"mace": ["structures/{civ}/library", "structures/{civ}/theatre", "structures/greek_camp"],
+		"gree": [],
+		"iber": [],
+		"kush": ["structures/mercenary_camp_1", "structures/mercenary_camp_2"],
+		"mace": ["structures/{civ}/hall", "structures/{civ}/library", "structures/{civ}/theatre"],
 		"maur": ["structures/{civ}/palace", "structures/{civ}/pillar"],
-		"pers": ["structures/{civ}/palace_1", "structures/{civ}/palace_2", "structures/{civ}/palace_3", "structures/nabatean_camp"],
-		"ptol": ["structures/{civ}/palace", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre", "structures/greek_camp", "structures/nabatean_camp"],
+		"pers": [],
+		"ptol": ["structures/{civ}/hall", "structures/{civ}/library", "structures/{civ}/lighthouse", "structures/{civ}/theatre"],
 		"rome": ["structures/{civ}/army_camp"],
-		"sele": ["structures/{civ}/colony", "structures/{civ}/library", "structures/{civ}/theatre", "structures/nabatean_camp"],
+		"sele": ["structures/{civ}/hall", "structures/{civ}/library", "structures/{civ}/theatre", "structures/mercenary_camp_1", "structures/mercenary_camp_2"],
 		"spart": []
   };
 
@@ -219,7 +219,7 @@ m.Config.prototype.setConfig = function(gameState)
     this.popScaling = Math.sqrt(maxPop / 300);
     this.Military.popForBarracks1 = Math.min(Math.max(Math.floor(this.Military.popForBarracks1 * this.popScaling), 12), Math.floor(maxPop/5));
     this.Military.popForBarracks2 = Math.min(Math.max(Math.floor(this.Military.popForBarracks2 * this.popScaling), 45), Math.floor(maxPop*2/3));
-    this.Military.popForBlacksmith = Math.min(Math.max(Math.floor(this.Military.popForBlacksmith * this.popScaling), 30), Math.floor(maxPop/2));
+    this.Military.popForForge = Math.min(Math.max(Math.floor(this.Military.popForForge * this.popScaling), 30), Math.floor(maxPop/2));
     this.Economy.popPhase2 = Math.min(Math.max(Math.floor(this.Economy.popPhase2 * this.popScaling), 20), Math.floor(maxPop/2));
     this.Economy.workPhase3 = Math.min(Math.max(Math.floor(this.Economy.workPhase3 * this.popScaling), 40), Math.floor(maxPop*2/3));
     this.Economy.workPhase4 = Math.min(Math.max(Math.floor(this.Economy.workPhase4 * this.popScaling), 45), Math.floor(maxPop*2/3));

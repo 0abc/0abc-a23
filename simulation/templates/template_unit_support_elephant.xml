@@ -7,12 +7,8 @@
     <Thrust>4</Thrust>
   </Armour>
   <Attack disable=""/>
-  <Builder>
-    <Entities datatype="tokens"/>
-    <Rate>2.0</Rate>
-  </Builder>
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>60</BuildTime>
     <Population>3</Population>
     <Resources>
       <food>150</food>
@@ -27,15 +23,12 @@
   </Health>
   <Identity>
     <GenericName>Worker Elephant</GenericName>
-    <Tooltip>Mobile dropsite. Can also assist in constructing buildings.</Tooltip>
+    <Tooltip>Mobile dropsite.</Tooltip>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <ResourceDropsite>
     <Sharable>false</Sharable>
-    <Types>food wood stone metal</Types>
+    <Types>food wood stone</Types>
   </ResourceDropsite>
   <ResourceTrickle>
     <Interval>1000</Interval>

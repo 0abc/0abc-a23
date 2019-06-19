@@ -1,20 +1,14 @@
 {
-  "affects": ["FemaleCitizen"],
-  "cost": {"food": 300, "wood": 100, "stone": 0, "metal": 100},
+  "affects": [ "House" ],
+  "cost": { "silver": 0, "food": 300, "wood": 100, "stone": 0, "metal": 100 },
   "description": "A festival attended by women-only, to celebrate female fertility.",
   "genericName": "Fertility Festival",
   "icon": "wives_festival.png",
   "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 0.80}
+    { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1}
   ],
   "requirements": { "tech": "phase_village" },
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "specificName": {
-    "athen": "Thesmophória",
-    "mace": "Thesmophória",
-    "rome": "Bona Dea",
-    "spart": "Thesmophória"
-  },
-  "tooltip": "Women −20% training time."
+  "tooltip": "Houses have increased batch training speed."
 }

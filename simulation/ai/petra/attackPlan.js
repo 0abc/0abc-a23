@@ -1444,7 +1444,7 @@ m.AttackPlan.prototype.update = function(gameState, events)
       else if (this.target.hasClass("Palisade") || this.target.hasClass("StoneWall"))
         targetClassesUnit = { "attack": ["Unit", "Structure"], "avoid": ["Fortress"], "vetoEntities": veto };
       else
-        targetClassesUnit = { "attack": ["Unit", "Structure"], "avoid": ["Palisade", "StoneWall", "Fortress"], "vetoEntities": veto };
+        targetClassesUnit = { "attack": ["Unit", "Structure"], "avoid": ["Palisade", "SiegeWall", "StoneWall", "Fortress"], "vetoEntities": veto };
     }
     if (this.target.hasClass("Structure"))
       targetClassesSiege = { "attack": ["Structure"], "avoid": [], "vetoEntities": veto };
@@ -1454,8 +1454,8 @@ m.AttackPlan.prototype.update = function(gameState, events)
     // do not loose time destroying buildings which do not help enemy's defense and can be easily captured later
     if (this.target.hasDefensiveFire())
     {
-      targetClassesUnit.avoid = targetClassesUnit.avoid.concat("House", "Storehouse", "Farmstead", "Field", "Blacksmith");
-      targetClassesSiege.avoid = targetClassesSiege.avoid.concat("House", "Storehouse", "Farmstead", "Field", "Blacksmith");
+      targetClassesUnit.avoid = targetClassesUnit.avoid.concat("House", "Storehouse", "Farmstead", "Field", "Forge");
+      targetClassesSiege.avoid = targetClassesSiege.avoid.concat("House", "Storehouse", "Farmstead", "Field", "Forge");
     }
 
     if (this.unitCollUpdateArray === undefined || !this.unitCollUpdateArray.length)

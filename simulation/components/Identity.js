@@ -67,7 +67,7 @@ Identity.prototype.Schema =
     "</element>" +
   "</optional>" +
   "<optional>" +
-    "<element name='Classes' a:help='Optional list of space-separated classes applying to this entity. Choices include: Apadana, ArmyCamp, Ashoka, BarterMarket, CitizenSoldier, Colony, ConquestCritical, Domestic, DropsiteFood, DropsiteMetal, DropsiteStone, DropsiteWood, FemaleCitizen, FishingBoat, ForestPlant, Fortress, GarrisonFortress, GarrisonTower, Gates, Human, Immortal, Juggernaut, LandTrader, LargeTower, LongWall, Mechanical, MercenaryCamp, Mounted, Naval, NavalMarket, NavalTrader, Organic, Palace, Palisade, Player, SeaCreature, SiegeWall, SmallTower, SpecialBuilding, StoneWall, Structure, Syssiton, Unit.'>" +
+    "<element name='Classes' a:help='Optional list of space-separated classes applying to this entity. Choices include: Apadana, ArmyCamp, Ashoka, Barracks, BarterMarket, CitizenSoldier, Colony, Corral, ConquestCritical,  Dock, Domestic, DropsiteFood, DropsiteMetal, DropsiteStone, DropsiteWood, ElephantStable, Embassy, Farmstead, Field, FemaleCitizen, FishingBoat, ForestPlant, Fortress, GarrisonFortress, GarrisonTower, Gates, Human, Immortal, Juggernaut, Kennel, LandTrader, LargeTower, Lighthouse, LongWall, Market, Mechanical, MercenaryCamp, Monument, Mounted, NavalMarket, NavalTrader, Outpost, Palace, Palisade, Player, Range, SeaCreature, Shipyard, SiegeWall, SmallTower, SpecialBuilding, StoneWall, Stable, Storehouse, Structure, Syssiton, Temple, Theatre, Tower, Unit.'>" +
       "<attribute name='datatype'>" +
         "<value>tokens</value>" +
       "</attribute>" +
@@ -75,7 +75,7 @@ Identity.prototype.Schema =
     "</element>" +
   "</optional>" +
   "<optional>" +
-    "<element name='VisibleClasses' a:help='Optional list of space-separated classes applying to this entity. These classes will also be visible in various GUI elements. If the classes need spaces, underscores will be replaced with spaces. Choices include: Animal, Archer, Axeman, Barracks, Barge, Biga, Blacksmith, BoltShooter, Builder, Camel, Cavalry, Centre, Champion, Chariot, Citizen, City, Civic, Corral, Crossbowman, Defensive, Dock, Dog, Economic, Elephant, ElephantStable, Embassy, Farmstead, Field, Fireship, Galley, Gatherer, Healer, Hero, House, Infantry, Javelineer, Kennel, Lancer, Lighthouse, Maceman, Market, Melee, Mercenary, Metropolis, Military, Monument, Outpost, Palace, Pikeman, Quadriga, Ram, Range, Ranged, Relic, Resource, Sabreman, Ship, Shipyard, Siege, SiegeTower, Slave, Slinger, Soldier, Spearman, Stable, StoneThrower, Storehouse, Support, Swordsman, Temple, Theatre, Tower, Town, Trader, Village, Warship, Wonder, Worker, Workshop.'>" +
+    "<element name='VisibleClasses' a:help='Optional list of space-separated classes applying to this entity. These classes will also be visible in various GUI elements. If the classes need spaces, underscores will be replaced with spaces. Choices include: Animal, Archer, Axeman, Barge, Biga, Blacksmith, BoltShooter, Builder, Camel, Cavalry, Centre, Champion, Chariot, Citizen, City, Civic, Crossbowman, Defensive, Dog, Economic, Elephant, Fireship, Galley, Gatherer, Healer, Hero, House, Infantry, Javelineer, Lancer, Maceman, Melee, Mercenary, Metropolis, Military, Naval, Organic, Pikeman, Quadriga, Ram, Ranged, Relic, Resource, Sabreman, Ship, Siege, SiegeTower, Slave, Slinger, Soldier, Spearman, StoneThrower, Support, Swordsman, Town, Trader, Village, Warship, Wonder, Worker.'>" +
       "<attribute name='datatype'>" +
         "<value>tokens</value>" +
       "</attribute>" +

@@ -21,10 +21,10 @@
     <Max>2500</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Library</Classes>
     <GenericName>Library</GenericName>
     <Icon>structures/library_scroll.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Library</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Rates>

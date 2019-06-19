@@ -1,18 +1,18 @@
 {
-  "affects": ["Cavalry !Fanatic"],
-  "cost": {"food": 0, "wood": 1200, "stone": 0, "metal": 800},
+  "affects": [ "Cavalry !Fanatic" ],
+  "cost": { "silver": 0, "food": 0, "wood": 1200, "stone": 0, "metal": 800 },
   "description": "Leather armour for cavalry.",
   "genericName": "Barding",
   "icon": "armor_plates_cavalry.png",
   "modifications": [
-    {"value": "Armour/Crush",         "add":      1.0 },
-    {"value": "Armour/Hack",          "add":      1.0 },
-    {"value": "Armour/Pierce",        "add":      3.0 },
-    {"value": "Armour/Thrust",        "add":      1.0 },
-    {"value": "UnitMotion/Run/Speed", "multiply": 0.97},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 0.97}
+    { "value": "Armour/Crush",         "add":      1    },
+    { "value": "Armour/Hack",          "add":      1    },
+    { "value": "Armour/Pierce",        "add":      3    },
+    { "value": "Armour/Thrust",        "add":      1    },
+    { "value": "UnitMotion/Run/Speed", "multiply": 0.97 },
+    { "value": "UnitMotion/WalkSpeed", "multiply": 0.97 }
   ],
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

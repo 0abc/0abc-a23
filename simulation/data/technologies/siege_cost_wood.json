@@ -1,11 +1,11 @@
 {
-  "affects": ["Siege"],
-  "cost": {"food": 500, "wood": 0, "stone": 250, "metal": 500},
+  "affects": [ "Siege" ],
+  "cost": { "silver": 0, "food": 500, "wood": 0, "stone": 250, "metal": 500 },
   "description": "Siege weapons cost less wood.",
   "genericName": "Artillery Instructors",
   "icon": "anvil.png",
   "modifications": [
-    {"value": "Cost/Resources/wood", "multiply": 0.8}
+    { "value": "Cost/Resources/wood", "multiply": 0.8 }
   ],
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",

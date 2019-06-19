@@ -16,11 +16,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Siege Workshop</GenericName>
+    <Classes datatype="tokens">Arsenal</Classes>
+    <GenericName>Arsenal</GenericName>
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct siege engines and chariots.</Tooltip>
-    <VisibleClasses datatype="tokens">Workshop</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="28" depth="28"/>
@@ -45,7 +45,7 @@
       units/{civ}/quadriga_scythed_champion
     </Entities>
     <Technologies datatype="tokens">
-      training_siege_workshop
+      training_arsenal
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

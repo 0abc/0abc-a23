@@ -5,9 +5,9 @@
   "Emblem": "session/portraits/emblems/emblem_seleucids.png",
   "History": "The Macedonian-Greek dynasty that ruled most of Alexander's former empire.",
   "Music":[
-      {"File": "Rise_of_Macedon.ogg", "Type": "peace"},
-      {"File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace"},
-      {"File": "The_Hellespont.ogg", "Type": "peace"}
+      { "File": "Rise_of_Macedon.ogg", "Type": "peace" },
+      { "File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace" },
+      { "File": "The_Hellespont.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -69,27 +69,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/sele/centre"
-    },
-    {
-      "Template": "units/sele/support_healer"
-    },
-    {
-      "Template": "units/sele/infantry_spearman",
-      "Count": 4
-    },
-    {
-      "Template": "units/sele/infantry_javelineer",
-      "Count": 2
-    },
-    {
-      "Template": "units/sele/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_sheep",
-      "Count": 3
-    }
+    { "Template": "structures/sele/centre" },
+    { "Template": "units/sele/support_healer" },
+    { "Template": "units/sele/infantry_spearman", "Count": 4 },
+    { "Template": "units/sele/infantry_javelineer", "Count": 2 },
+    { "Template": "units/sele/cavalry_javelineer" },
+    { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":
   [

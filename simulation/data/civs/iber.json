@@ -5,9 +5,9 @@
   "Emblem": "session/portraits/emblems/emblem_iberians.png",
   "History": "The Iberians were a people of mysterious origins and language, with a strong tradition of horsemanship and metalworking. A relatively peaceful culture, they usually fought in other's battles only as mercenaries. However, they proved tenacious when Rome sought to take their land and freedom from them, and employed pioneering guerrilla tactics and flaming javelins as they fought back.",
   "Music":[
-      {"File": "An_old_Warhorse_goes_to_Pasture.ogg", "Type": "peace"},
-      {"File": "Celtica.ogg", "Type": "peace"},
-      {"File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace"}
+      { "File": "An_old_Warhorse_goes_to_Pasture.ogg", "Type": "peace" },
+      { "File": "Celtica.ogg", "Type": "peace" },
+      { "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" }
     ],
   "Factions":
   [
@@ -64,27 +64,12 @@
   ],
   "StartEntities":
   [
-    {
-      "Template": "structures/iber/centre"
-    },
-    {
-      "Template": "units/iber/support_healer"
-    },
-    {
-      "Template": "units/iber/infantry_sabreman",
-      "Count": 4
-    },
-    {
-      "Template": "units/iber/infantry_javelineer",
-      "Count": 2
-    },
-    {
-      "Template": "units/iber/cavalry_javelineer"
-    },
-    {
-      "Template": "gaia/fauna_sheep",
-      "Count": 3
-    }
+    { "Template": "structures/iber/centre" },
+    { "Template": "units/iber/support_healer" },
+    { "Template": "units/iber/infantry_sabreman", "Count": 4 },
+    { "Template": "units/iber/infantry_javelineer", "Count": 2 },
+    { "Template": "units/iber/cavalry_javelineer" },
+    { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":
   [

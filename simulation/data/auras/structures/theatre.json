@@ -1,9 +1,9 @@
 {
-  "affects": ["Unit"],
+  "affects": [ "Unit" ],
   "auraDescription": "Units −5% training time per wonder owned.",
   "auraName": "Hellenization",
   "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 0.95}
+    { "value": "Cost/BuildTime", "multiply": 0.95 }
   ],
   "stackable": true,
   "type": "global"

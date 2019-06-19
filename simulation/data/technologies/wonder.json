@@ -1,6 +1,6 @@
 {
-  "affects": ["Structure"],
-  "cost": {"food": 2000, "wood": 2000, "stone": 2000, "metal": 2000},
+  "affects": [ "Structure" ],
+  "cost": { "silver": 0, "food": 2000, "wood": 2000, "stone": 2000, "metal": 2000 },
   "description": "The wonder attracts many more people to your civilization.",
   "genericName": "Glorious Expansion",
   "icon": "special_treasure.png",
@@ -10,15 +10,6 @@
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 150,
-  "specificName": {
-    "athen": "Peristyle",
-    "mace": "Peristyle",
-    "pers": "Paradise",
-    "ptol": "Peristyle",
-    "rome": "Peristyle",
-    "sele": "Peristyle",
-    "spart": "Peristyle"
-  },
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Enable Glorious Expansion. Further increase the population limit by +10% per Wonder owned."
 }

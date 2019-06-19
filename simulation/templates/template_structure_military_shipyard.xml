@@ -17,12 +17,12 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical Naval</Classes>
+    <Classes datatype="tokens">-ConquestCritical Shipyard</Classes>
     <GenericName>Shipyard</GenericName>
     <Icon>structures/uber_dock.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct warships. Research naval improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Shipyard</VisibleClasses>
+    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="22" depth="26"/>

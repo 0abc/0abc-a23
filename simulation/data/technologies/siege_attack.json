@@ -1,6 +1,6 @@
 {
-  "affects": ["Ram"],
-  "cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 500},
+  "affects": [ "Ram" ],
+  "cost": { "silver": 0, "food": 0, "wood": 1000, "stone": 0, "metal": 500 },
   "description": "Advanced technologies improve siege efficiency",
   "genericName": "Advanced Siege",
   "icon": "siege_ram.png",
@@ -8,7 +8,7 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "modifications": [
-    {"value": "Attack/Melee/Crush",  "multiply": 1.25}
+    { "value": "Attack/Melee/Crush",  "multiply": 1.25 }
   ],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Battering rams +25% crush damage."

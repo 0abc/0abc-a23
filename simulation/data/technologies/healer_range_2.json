@@ -1,21 +1,16 @@
 {
-  "affects": ["Healer"],
-  "cost": {"silver": 400, "food": 0, "wood": 0, "stone": 0, "metal": 0},
+  "affects": [ "Healer" ],
+  "cost": { "silver": 400, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Increases the healing range of all healers.",
   "genericName": "Advanced Healing Range",
   "icon": "healing_range.png",
   "modifications": [
-    {"value": "Heal/Range", "add": 3}
+    { "value": "Heal/Range", "add": 3 }
   ],
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "specificName": {
-    "athen": "Akadḗmeia",
-    "mace": "Akadḗmeia",
-    "spart": "Akadḗmeia"
-  },
   "supersedes": "healer_range_1",
   "tooltip": "Healers +3 healing range."
 }

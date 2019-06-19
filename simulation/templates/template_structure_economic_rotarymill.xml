@@ -20,10 +20,10 @@
     <Max>1500</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">RotaryMill</Classes>
     <GenericName>Rotary Mill</GenericName>
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">RotaryMill</VisibleClasses>
   </Identity>
   <RallyPoint disable=""/>
   <Sound>

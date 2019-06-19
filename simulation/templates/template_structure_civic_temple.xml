@@ -20,11 +20,11 @@
     <Max>2000</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Temple</Classes>
     <GenericName>Temple</GenericName>
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train healers. Garrison units to heal them at a quick rate. Research healing technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Temple</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -40,6 +40,10 @@
       attack_soldiers_will
     </Technologies>
   </ProductionQueue>
+  <ResourceDropsite>
+    <Sharable>false</Sharable>
+    <Types>silver</Types>
+  </ResourceDropsite>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_temple.xml</constructed>

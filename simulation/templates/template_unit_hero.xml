@@ -41,9 +41,6 @@
   <Minimap>
     <Type>hero</Type>
   </Minimap>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <Selectable>
     <Overlay>
       <AlwaysVisible/>

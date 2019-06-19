@@ -14,9 +14,9 @@
     <SinkRate>0.5</SinkRate>
   </Decay>
   <Footprint replace="">
-    <Height>8.0</Height>
+    <Height>8</Height>
     <MaxSpawnDistance>10</MaxSpawnDistance>
-    <Square width="6.0" depth="30.0"/>
+    <Square width="6" depth="30"/>
   </Footprint>
   <Health>
     <Unhealable>true</Unhealable>
@@ -27,7 +27,7 @@
     <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
   <Position>
-    <FloatDepth>0.0</FloatDepth>
+    <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <TurnRate>3.0</TurnRate>
   </Position>

@@ -1,14 +1,14 @@
 {
-  "affects": ["Worker"],
-  "cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
+  "affects": [ "Worker" ],
+  "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
   "description": "Equip your workers with helpful tools.",
   "genericName": "Wedge and Mallet",
   "icon": "mining_metal.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.20}
+    { "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.20 }
   ],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "requirements": {"tech": "phase_village"},
+  "requirements": { "tech": "phase_village" },
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "tooltip": "Workers +20% iron gathering rate."

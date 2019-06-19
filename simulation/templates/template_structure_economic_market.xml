@@ -22,11 +22,11 @@
     <Max>1500</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">LandMarket</Classes>
+    <Classes datatype="tokens">BarterMarket LandMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
-    <Tooltip>Barter resources. Train slaves and traders. Establish trade routes.</Tooltip>
-    <VisibleClasses datatype="tokens">Market BarterMarket</VisibleClasses>
+    <Tooltip>Barter resources. Train slaves and traders. Research traid gain technologies. Establish trade routes.</Tooltip>
+    <VisibleClasses datatype="tokens">Market</VisibleClasses>
   </Identity>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>

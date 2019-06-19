@@ -1,13 +1,13 @@
 {
-  "affects": ["Structure"],
-  "cost": {"silver": 0, "food": 500, "wood": 500, "stone": 0, "metal": 500},
+  "affects": [ "Structure" ],
+  "cost": { "silver": 0, "food": 500, "wood": 500, "stone": 0, "metal": 500 },
   "description": "Units garrisoned in structures heal over time.",
   "genericName": "Living Conditions",
   "icon": "bandage.png",
   "modifications": [
-    {"value": "GarrisonHolder/BuffHeal", "add": 1}
+    { "value": "GarrisonHolder/BuffHeal", "add": 1 }
   ],
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "tech": "phase_town" },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

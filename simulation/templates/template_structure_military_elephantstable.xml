@@ -16,11 +16,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">ElephantStable</Classes>
     <GenericName>Elephant Stable</GenericName>
     <Icon>structures/elephant_stables.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Train elephantry. Research elephant technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">ElephantStable</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="29" depth="27"/>

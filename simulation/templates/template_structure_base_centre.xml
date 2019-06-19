@@ -55,12 +55,6 @@
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
-      armour_infantry_1
-      armour_infantry_2
-      armour_infantry_3
-      centre_watch_1
-      centre_watch_2
-      centre_watch_3
       trade_international
       unlock_shared_los
       unlock_shared_dropsites

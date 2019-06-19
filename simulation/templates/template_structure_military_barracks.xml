@@ -15,11 +15,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Barracks</Classes>
     <GenericName>Barracks</GenericName>
     <Icon>structures/pers_barracks.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Train infantry champions. Research infantry technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="20" depth="20"/>

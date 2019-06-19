@@ -11,10 +11,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">House</Classes>
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
     <Tooltip>Increase the population limit.</Tooltip>
-    <VisibleClasses datatype="tokens">House</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -25,6 +25,7 @@
       training_woman
     </Technologies>
   </ProductionQueue>
+  <ResourceDropsite disable=""/>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_house.xml</constructed>
@@ -35,7 +36,9 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
+    <Radius>20</Radius>
     <Root>false</Root>
+    <Weight>20000</Weight>
   </TerritoryInfluence>
   <Vision>
     <Range>30</Range>

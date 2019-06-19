@@ -1,13 +1,13 @@
 {
   "affects": [ "Merchant", "Trader" ],
-  "cost": {"food": 0, "wood": 1200, "stone": 0, "metal": 800},
+  "cost": { "silver": 0, "food": 0, "wood": 1200, "stone": 0, "metal": 800 },
   "description": "The progress in handicraft improves the trading profit.",
   "genericName": "Advanced Handicraft",
   "icon": "vestals.png",
   "modifications": [
-    {"value": "Trader/GainMultiplier", "multiply": 1.10}
+    { "value": "Trader/GainMultiplier", "multiply": 1.1 }
   ],
-  "requirements": {"tech": "phase_metropolis"},
+  "requirements": { "tech": "phase_metropolis" },
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

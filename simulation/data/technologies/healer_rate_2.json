@@ -1,21 +1,16 @@
 {
-  "affects": ["Healer"],
-  "cost": {"silver": 600, "food": 0, "wood": 0, "stone": 0, "metal": 0},
+  "affects": [ "Healer" ],
+  "cost": { "silver": 600, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Increases the healing rate of all healers.",
   "genericName": "Advanced Healing Rate",
   "icon": "healing_rate.png",
   "modifications": [
-    {"value": "Heal/Rate", "multiply": 0.8}
+    { "value": "Heal/Rate", "multiply": 0.8 }
   ],
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "specificName": {
-    "athen": "Hippocratic Oath",
-    "mace": "Hippocratic Oath",
-    "spart": "Hippocratic Oath"
-  },
   "supersedes": "healer_rate_1",
   "tooltip": "Healers −20% healing time."
 }

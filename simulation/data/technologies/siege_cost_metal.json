@@ -1,11 +1,11 @@
 {
-  "affects": ["Siege"],
-  "cost": {"food": 500, "wood": 500, "stone": 250, "metal": 0},
+  "affects": [ "Siege" ],
+  "cost": { "silver": 0, "food": 500, "wood": 500, "stone": 250, "metal": 0 },
   "description": "Siege weapons require less iron.",
   "genericName": "Metalworker",
   "icon": "metalworker.png",
   "modifications": [
-    {"value": "Cost/Resources/metal", "multiply": 0.8}
+    { "value": "Cost/Resources/metal", "multiply": 0.8 }
   ],
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",

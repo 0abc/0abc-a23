@@ -25,12 +25,12 @@
     <Max>5000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Base</Classes>
+    <Classes datatype="tokens">NavalBase</Classes>
     <GenericName>Naval Base</GenericName>
     <Icon>structures/crannog.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Territory root. Construct and repair warships.</Tooltip>
-    <VisibleClasses datatype="tokens">NavalBase</VisibleClasses>
+    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
   </Identity>
   <Position>
     <Floating>true</Floating>

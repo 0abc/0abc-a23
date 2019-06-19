@@ -9,9 +9,6 @@
     <Icon>units/dragon.png</Icon>
     <SpecificName>Draco</SpecificName>
   </Identity>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
   <VisualActor>
     <Actor>fauna/dragon.xml</Actor>
   </VisualActor>
