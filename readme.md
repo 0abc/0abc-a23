@@ -248,39 +248,36 @@ There are four damage types (crush, hack, pierce, thrust)
 * support:
   * woman (15 range): 100% crush
 * infantry:
-  * lead sling (80+1 range): 100% pierce
-  * longbow (70+1 range): 100% pierce
-  * composite bow (60+1 range): 100% pierce
-  * crossbow (50+1 range): 67% pierce, 33% thrust
-  * stone sling (40+1 range): 100% crush
-  * javelin (30+1 range): 100% pierce
-  * throwing axe (20+1 range): 33% crush, 67% hack
-  * mace (melee): 100% crush
-  * axe (melee): 33% crush, 67% hack
-  * sabre (melee): 100% hack
-  * longsword (melee): 75% hack, 25% thrust
-  * sword (melee): 50% hack, 50% thrust
-  * spear (melee): 100% thrust
-  * pike (melee): 50% pierce, 50% thrust
+  * lead slinger (80+1 range): 100% pierce
+  * archer (60+1 range): 100% pierce
+  * crossbowman (50+1 range): 67% pierce, 33% thrust
+  * stone slinger (40+1 range): 100% crush
+  * javelineer (30+1 range): 100% pierce
+  * throwing axeman (20+1 range): 33% crush, 67% hack
+  * maceman (melee): 100% crush
+  * axeman (melee): 33% crush, 67% hack
+  * sabreman (melee): 100% hack
+  * longswordsman (melee): 75% hack, 25% thrust
+  * swordsman (melee): 50% hack, 50% thrust
+  * spearman (melee): 100% thrust
+  * pikeman (melee): 50% pierce, 50% thrust
 * camelry:
-  * composite bow (60+3 range): 100% pierce
-  * javelin (30+3 range): 100% pierce
-  * spear (melee): 100% thrust
+  * archer (60+3 range): 100% pierce
+  * javelineer (30+3 range): 100% pierce
+  * spearman (melee): 100% thrust
 * cavalry:
-  * longbow (70+2 range): 100% pierce
-  * composite bow (60+2 range): 100% pierce
-  * crossbow (50+2 range): 67% pierce, 33% thrust
-  * javelin (30+2 range): 100% pierce
-  * mace (melee): 100% crush
-  * axe (melee): 33% crush, 67% hack
-  * sabre (melee): 100% hack
-  * sword (melee): 50% hack, 50% thrust
-  * spear (melee): 100% thrust
-  * lance (melee): 20% crush, 80% thrust
+  * archer (60+2 range): 100% pierce
+  * crossbowman (50+2 range): 67% pierce, 33% thrust
+  * javelineer (30+2 range): 100% pierce
+  * maceman (melee): 100% crush
+  * axeman (melee): 33% crush, 67% hack
+  * sabreman (melee): 100% hack
+  * swordsman (melee): 50% hack, 50% thrust
+  * spearman (melee): 100% thrust
+  * lancer (melee): 20% crush, 80% thrust
 * chariotry:
-  * longbow (70+2 range): 100% pierce
-  * composite bow (60+2 range): 100% pierce
-  * javelin (30+2 range): 100% pierce
+  * archer (60+2 range): 100% pierce
+  * javelineer (30+2 range): 100% pierce
   * scythed (melee): 20% crush, 40% hack, 40% thrust
 * elephantry (melee): 100% crush
 * siege:
