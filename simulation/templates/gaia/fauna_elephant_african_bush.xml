@@ -17,9 +17,6 @@
     <Icon>gaia/fauna_elephant_african_bush.png</Icon>
     <SpecificName>Loxodonta africana</SpecificName>
   </Identity>
-  <Loot>
-    <xp>70</xp>
-  </Loot>
   <ResourceSupply>
     <Amount>700</Amount>
     <MaxGatherers>11</MaxGatherers>

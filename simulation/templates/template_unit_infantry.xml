@@ -84,9 +84,6 @@
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Infantry</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>60</xp>
-  </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>

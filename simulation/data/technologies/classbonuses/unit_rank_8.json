@@ -15,13 +15,6 @@
     {"value": "Cost/BuildTime",             "multiply": 1.05                                },
     {"value": "Health/Max",                 "multiply": 1.05                                },
     {"value": "ResourceGatherer/BaseSpeed", "multiply": 0.9                                 },
-    {"value": "Loot/xp",                    "add":      20,   "affects": "Biga"             },
-    {"value": "Loot/xp",                    "add":       8,   "affects": "Camel"            },
-    {"value": "Loot/xp",                    "add":      10,   "affects": "Cavalry"          },
-    {"value": "Loot/xp",                    "add":       3,   "affects": "Dog"              },
-    {"value": "Loot/xp",                    "add":      30,   "affects": "Elephant"         },
-    {"value": "Loot/xp",                    "add":       5,   "affects": "Infantry"         },
-    {"value": "Loot/xp",                    "add":      25,   "affects": "Quadriga"         },
     {"value": "UnitMotion/Run/Speed",       "multiply": 1.01, "affects": "Melee"            },
     {"value": "UnitMotion/WalkSpeed",       "multiply": 1.01, "affects": "Melee"            }
   ],

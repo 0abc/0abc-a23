@@ -11,6 +11,7 @@
     * [Defensive](https://github.com/0abc/0abc-a23#defensive)
     * [Economic](https://github.com/0abc/0abc-a23#economic)
     * [Military](https://github.com/0abc/0abc-a23#military)
+    * [Resource](https://github.com/0abc/0abc-a23#military)
   * [Units](https://github.com/0abc/0abc-a23#units)
     * [Population costs](https://github.com/0abc/0abc-a23#population-costs)
     * [Damage types](https://github.com/0abc/0abc-a23#damage-types)
@@ -56,12 +57,16 @@
 
 ## Overview
 *Parts of this readme might be outdated. For more accurate information, please have a look at* **0abc-readme.pdf**
+* four damage types: crush, hack, pierce, thrust
+* five resources: silver, food, wood, stone, iron
+* six structure categories: base, civic, defensive, economic, military, resource
+* eight civilizations: Carthage, Gauls, Kush, Macedon, Mauryan India, Ptolemaic Egypt, Rome, Seleucid Empire
 
 Changes include, but are not limited to:
 * introduced a new resource: silver
 * pierce damage is split into pierce (arrows) and thrust (spears)
 * most units and many structures steadily consume small amounts of resources (upkeep)
-* removed resource loot
+* removed loot and looter, because they favour the victors, who are already at an advantage
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
 * merged Athenians and Spartans into a single faction, the Greeks
@@ -146,6 +151,12 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 * shipyard *(town; neutral and own territory; conquest critical)*: galleys
 * barracks *(town; own territory; conquest critical)*: infantry champions
 * elephant stable *(town; own territory; conquest critical)*: elephantry
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Resource
+*(can only be captured)*
+* farm *(village; neutral and own territory)*: harvest grain
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

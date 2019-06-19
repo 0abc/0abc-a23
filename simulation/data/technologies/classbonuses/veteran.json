@@ -18,8 +18,6 @@
     {"value": "Attack/Ranged/Thrust",         "multiply": 1.3, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",               "multiply": 1.5                                },
     {"value": "Cost/Resources/silver",        "multiply": 1.5                                },
-    {"value": "Health/Max",                   "multiply": 1.2                                },
-    {"value": "Loot/xp",                      "multiply": 2.0                                }
   ],
   "tooltip": "Veteran units have +50% silver cost, +50% training time, +20% health, +1 armour levels, +50% capture attack strength, +30% melee and ranged attack damage."
 }

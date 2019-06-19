@@ -48,9 +48,6 @@
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Elephant Melee</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>360</xp>
-  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

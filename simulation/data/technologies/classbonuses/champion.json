@@ -18,8 +18,7 @@
     {"value": "Attack/Ranged/Thrust",         "multiply": 1.5, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",               "multiply": 2.0                                },
     {"value": "Cost/Resources/silver",        "multiply": 3.0                                },
-    {"value": "Health/Max",                   "multiply": 1.5                                },
-    {"value": "Loot/xp",                      "multiply": 3.0                                }
+    {"value": "Health/Max",                   "multiply": 1.5                                }
   ],
   "tooltip": "Champions have +200% silver cost, +100% training time, +50% health, +2 armour levels, +100% capture attack strength, +50% melee and ranged attack damage."
 }

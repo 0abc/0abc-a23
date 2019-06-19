@@ -17,9 +17,6 @@
     <Icon>gaia/fauna_elephant_african_forest.png</Icon>
     <SpecificName>Loxodonta cyclotis</SpecificName>
   </Identity>
-  <Loot>
-    <xp>50</xp>
-  </Loot>
   <ResourceSupply>
     <Amount>500</Amount>
     <MaxGatherers>9</MaxGatherers>

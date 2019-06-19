@@ -24,9 +24,6 @@
     <GenericName>Quadriga</GenericName>
     <VisibleClasses datatype="tokens">Quadriga</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>240</xp>
-  </Loot>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

@@ -24,9 +24,6 @@
     <GenericName>Biga</GenericName>
     <VisibleClasses datatype="tokens">Biga</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>180</xp>
-  </Loot>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

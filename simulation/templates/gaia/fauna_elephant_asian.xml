@@ -17,9 +17,6 @@
     <Icon>gaia/fauna_elephant_asian.png</Icon>
     <SpecificName>Elephas maximus</SpecificName>
   </Identity>
-  <Loot>
-    <xp>60</xp>
-  </Loot>
   <ResourceSupply>
     <Amount>600</Amount>
     <MaxGatherers>10</MaxGatherers>

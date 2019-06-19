@@ -40,9 +40,6 @@
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>90</xp>
-  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

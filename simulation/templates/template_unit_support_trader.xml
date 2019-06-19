@@ -20,9 +20,6 @@
     <Tooltip>Gain resources via trade between centres or docks.</Tooltip>
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
-  <Loot>
-    <silver>25</silver>
-  </Loot>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
