@@ -236,10 +236,6 @@ m.TradeManager.prototype.performBarter = function(gameState)
     if (needs[buy] == 0 || needs[buy] < rates[buy] * 30)
       continue;
 
-      // Do not sell non-currency for non-currency
-      if (!GetCodes("currency").some(x => x == sell || x == buy))
-        continue;
-
     // Pick the best resource to barter.
     let bestToSell;
     let bestRate = 0;

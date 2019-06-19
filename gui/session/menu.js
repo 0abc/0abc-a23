@@ -859,9 +859,7 @@ function barterUpdateCommon(resourceCode, idx, prefix, player)
     });
   };
 
-  // Cannot sell non-currency for non-currency
-  let currencyCodes = g_ResourceData.GetCodes("currency");
-  barterButton.Buy.hidden = isSelected || !currencyCodes.some(x => x == g_BarterSell || x == resourceCode);
+  barterButton.Buy.hidden = isSelected;
   barterButton.Buy.enabled = controlsPlayer(player);
   barterButton.Sell.hidden = false;
   selectionIcon.hidden = !isSelected;
