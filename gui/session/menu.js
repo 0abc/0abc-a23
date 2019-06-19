@@ -638,7 +638,8 @@ function resizeTradeDialog()
   let width = size.right - size.left;
 
   let tradeSize = Engine.GetGUIObjectByName("tradeResource[0]").size;
-  width += g_ResourceData.GetCodes("tradable").length * (tradeSize.right - tradeSize.left);
+  width += g_ResourceData.GetCodes().length * (tradeSize.right - tradeSize.left);
+//  width += g_ResourceData.GetCodes("tradable").length * (tradeSize.right - tradeSize.left);
 
   size.left = -width / 2;
   size.right = width / 2;

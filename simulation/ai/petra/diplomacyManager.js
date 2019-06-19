@@ -409,7 +409,7 @@ m.DiplomacyManager.prototype.handleDiplomacyRequest = function(gameState, player
     // If a resource is not tributable, do not request it.
     // If no resources are tributable, decline.
     let tributableResources = Resources.GetCodes("tributable");
-    requiredTribute = gameState.ai.HQ.pickMostNeededResources(gameState).find(res => tributableResources.indexOf(res.type) != -1));
+    requiredTribute = gameState.ai.HQ.pickMostNeededResources(gameState).find(res => tributableResources.indexOf(res.type) != -1);
     if (requiredTribute)
     {
       response = "acceptWithTribute";

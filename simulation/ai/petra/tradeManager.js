@@ -243,7 +243,7 @@ m.TradeManager.prototype.performBarter = function(gameState)
     // Pick the best resource to barter.
     let bestToSell;
     let bestRate = 0;
-    for (let sell of Resources.GetCodes("barterable")
+    for (let sell of Resources.GetCodes("barterable"))
     {
       if (sell == buy)
         continue;
