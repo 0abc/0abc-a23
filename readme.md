@@ -25,6 +25,7 @@
     * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
     * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
     * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
+<!--
 * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
   * [Carthage](https://github.com/0abc/0abc-a23#carthage)
   * [Gauls](https://github.com/0abc/0abc-a23#gauls)
@@ -34,6 +35,7 @@
   * [Ptolemaic Egypt](https://github.com/0abc/0abc-a23#ptolemies)
   * [Rome](https://github.com/0abc/0abc-a23#rome)
   * [Seleucid Empire](https://github.com/0abc/0abc-a23#seleucids)
+-->
 * [Requests](https://github.com/0abc/0abc-a23#requests)
   * [Art](https://github.com/0abc/0abc-a23#art)
   * [Features](https://github.com/0abc/0abc-a23#features)
@@ -373,6 +375,7 @@ There are four damage types (crush, hack, pierce, thrust)
 
 
 
+<!--
 ## Unit rosters
 ### Carthage
 * Village phase:
@@ -605,6 +608,7 @@ There are four damage types (crush, hack, pierce, thrust)
   * Lithobolos
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+-->
 
 ## Requests
 ### Art
@@ -619,6 +623,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * capturable foundations
 * damage variance: instead of a fixed amount of damage, attack damage now varies from 50% to 150% of the defined value
+* units should be able to have a garrison size greater than 1 (similar to population); e.g. cavalry occupies two garrison slots, elephants six
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
 * elevation bonus is taken into account for attack range visualization
 * elevation bonus applies to vision range as well
