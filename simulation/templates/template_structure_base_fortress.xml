@@ -58,6 +58,7 @@
   </Sound>
   <TerritoryInfluence>
     <Radius>100</Radius>
+    <Root>true</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <VisualActor>

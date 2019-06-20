@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
+  <Armour disable=""/>
   <BuildRestrictions>
     <Category>Lighthouse</Category>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>2000</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
-      <metal>200</metal>
-      <stone>600</stone>
-      <wood>200</wood>
+      <metal>250</metal>
+      <stone>750</stone>
+      <wood>250</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>25</Max>
+    <Max>30</Max>
   </GarrisonHolder>
-  <Health>
-    <Max>3000</Max>
-  </Health>
+  <Health disable=""/>
   <Identity>
     <Classes datatype="tokens">Lighthouse</Classes>
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Very large vision range.</Tooltip>
   </Identity>
   <Position>

@@ -30,6 +30,14 @@
     </Obstructions>
     <Static disable=""/>
   </Obstruction>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.02</food>
+    </Rates>
+  </ResourceTrickle>
+  <Vision>
+    <Range>10</Range>
+  </Vision>
   <VisualActor>
     <Actor>props/special/palisade_rocks_gate.xml</Actor>
     <FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>

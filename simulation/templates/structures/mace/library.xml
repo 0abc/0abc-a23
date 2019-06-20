@@ -4,9 +4,6 @@
     <Height>9.0</Height>
     <Square width="29.0" depth="34.0"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>mace</Civ>
   </Identity>

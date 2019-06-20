@@ -35,6 +35,11 @@
     <Icon>technologies/laurel_wreath.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
   <ResourceTrickle>
     <Rates>
       <food>-1.0</food>
@@ -50,6 +55,7 @@
   </Sound>
   <TerritoryInfluence>
     <Radius>60</Radius>
+    <Root>true</Root>
     <Weight>60000</Weight>
   </TerritoryInfluence>
 </Entity>

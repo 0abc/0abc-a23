@@ -31,6 +31,14 @@
     </Obstructions>
     <Static disable=""/>
   </Obstruction>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.04</food>
+    </Rates>
+  </ResourceTrickle>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
   <VisualActor>
     <Actor>structures/romans/siege_wall_gate.xml</Actor>
     <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>

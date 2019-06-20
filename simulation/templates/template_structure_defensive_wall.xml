@@ -5,9 +5,7 @@
     <PlacementType>land-shore</PlacementType>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>1500</CapturePoints>
-  </Capturable>
+  <Capturable disable=""/>
   <Identity>
     <Classes datatype="tokens">StoneWall</Classes>
     <GenericName>City Wall</GenericName>
@@ -25,9 +23,4 @@
       <select>interface/select/building/sel_wall.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>20</Radius>
-    <Root>false</Root>
-    <Weight>65535</Weight>
-  </TerritoryInfluence>
 </Entity>

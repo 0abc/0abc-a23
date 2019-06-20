@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
+  <Armour>
+    <Crush>10</Crush>
+    <Hack>20</Hack>
+    <Pierce>40</Pierce>
+    <Thrust>30</Thrust>
+  </Armour>
   <Auras datatype="tokens">
     structures/wonder_heal
     structures/wonder_speed
@@ -11,13 +17,12 @@
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
-    <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>1200</BuildTime>
     <Resources>
       <metal>1000</metal>
-      <stone>2000</stone>
+      <stone>3000</stone>
       <wood>1000</wood>
     </Resources>
   </Cost>
@@ -27,19 +32,19 @@
     <Max>50</Max>
   </GarrisonHolder>
   <Health>
-    <Max>6000</Max>
+    <Max>5000</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Wonder</GenericName>
     <Icon>structures/wonder.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Territory root.</Tooltip>
+    <Tooltip>Territory root. Many bonuses.</Tooltip>
     <VisibleClasses datatype="tokens">Wonder</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
       wonder
+      attack_soldiers_will
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

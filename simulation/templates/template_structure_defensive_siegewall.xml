@@ -18,9 +18,7 @@
     <PlacementType>land-shore</PlacementType>
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>1500</CapturePoints>
-  </Capturable>
+  <Capturable disable=""/>
   <Identity>
     <Classes datatype="tokens">SiegeWall</Classes>
     <GenericName>Siege Wall</GenericName>
@@ -38,9 +36,4 @@
       <select>interface/select/building/sel_wall.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>65535</Weight>
-  </TerritoryInfluence>
 </Entity>

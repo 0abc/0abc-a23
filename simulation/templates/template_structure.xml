@@ -21,7 +21,7 @@
   <Capturable>
     <CapturePoints>1000</CapturePoints>
     <GarrisonRegenRate>5.0</GarrisonRegenRate>
-    <RegenRate>1.0</RegenRate>
+    <RegenRate>0.0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>10</BuildTime>

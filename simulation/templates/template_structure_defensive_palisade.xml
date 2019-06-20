@@ -11,9 +11,7 @@
     <PlacementType>land-shore</PlacementType>
     <Territory>own neutral enemy ally</Territory>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>500</CapturePoints>
-  </Capturable>
+  <Capturable disable=""/>
   <GarrisonHolder disable=""/>
   <Identity>
     <Classes datatype="tokens">Palisade</Classes>

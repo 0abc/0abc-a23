@@ -29,6 +29,11 @@
   <Repairable>
     <RepairTimeRatio op="mul">0.85</RepairTimeRatio>
   </Repairable>
+  <ResourceTrickle>
+    <Rates>
+      <food>-0.06</food>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_gate.xml</constructed>
@@ -39,6 +44,9 @@
       <select>interface/select/building/sel_gate.xml</select>
     </SoundGroups>
   </Sound>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
   </VisualActor>

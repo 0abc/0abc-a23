@@ -68,9 +68,6 @@
     <Sharable>false</Sharable>
     <Types>silver</Types>
   </ResourceDropsite>
-  <TerritoryInfluence>
-    <Root>true</Root>
-  </TerritoryInfluence>
   <Vision>
     <Range>100</Range>
   </Vision>
