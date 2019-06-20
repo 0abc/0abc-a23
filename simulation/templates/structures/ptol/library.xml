@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_library">
   <Footprint>
-    <Height>9.0</Height>
-    <Square width="29.0" depth="34.0"/>
+    <Height>9</Height>
+    <Square width="29" depth="34"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>ptol</Civ>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="30.0"/>
+    <Static width="25" depth="30"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/ptolemies/library.xml</Actor>

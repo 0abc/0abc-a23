@@ -18,9 +18,11 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>30</Max>
+    <Max>40</Max>
   </GarrisonHolder>
-  <Health disable=""/>
+  <Health>
+    <Max>4000</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Lighthouse</Classes>
     <GenericName>Lighthouse</GenericName>

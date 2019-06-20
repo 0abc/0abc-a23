@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
-  <Armour>
-    <Crush>10</Crush>
-    <Hack>20</Hack>
-    <Pierce>40</Pierce>
-    <Thrust>30</Thrust>
-  </Armour>
   <Auras datatype="tokens">
     structures/wonder_heal
     structures/wonder_speed
@@ -29,10 +23,10 @@
   <GarrisonHolder>
     <BuffHeal>5</BuffHeal>
     <List datatype="tokens">Soldier</List>
-    <Max>50</Max>
+    <Max>60</Max>
   </GarrisonHolder>
   <Health>
-    <Max>5000</Max>
+    <Max>6000</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>

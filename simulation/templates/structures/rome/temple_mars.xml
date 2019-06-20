@@ -4,6 +4,9 @@
     <Height>30</Height>
     <Square width="20" depth="40"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>rome</Civ>
     <SpecificName>Temple of Mars</SpecificName>

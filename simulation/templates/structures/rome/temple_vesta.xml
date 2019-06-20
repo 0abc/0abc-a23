@@ -7,15 +7,18 @@
     <Category>UniqueBuilding</Category>
   </BuildRestrictions>
   <Footprint replace="">
-    <Circle radius="11.0"/>
-    <Height>12.0</Height>
+    <Circle radius="11"/>
+    <Height>12</Height>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Icon>structures/temple_vesta.png</Icon>
     <SpecificName>Temple of Vesta</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="19.0" depth="19.0"/>
+    <Static width="19" depth="19"/>
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">

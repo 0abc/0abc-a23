@@ -20,7 +20,9 @@
     <List datatype="tokens">Camel Cavalry</List>
     <Max>20</Max>
   </GarrisonHolder>
-  <Health disable=""/>
+  <Health>
+    <Max>2000</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Temple</Classes>
     <GenericName>Temple</GenericName>

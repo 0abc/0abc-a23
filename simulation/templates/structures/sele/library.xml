@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_library">
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="26.0" depth="26.0"/>
+    <Height>8</Height>
+    <Square width="26" depth="26"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>sele</Civ>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static width="24" depth="24"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/seleucids/library.xml</Actor>

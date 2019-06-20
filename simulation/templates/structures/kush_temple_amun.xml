@@ -7,19 +7,21 @@
     <Category>TempleOfAmun</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>300</BuildTime>
+    <BuildTime op="mul">2.5</BuildTime>
     <Resources>
-      <stone>500</stone>
+      <metal op="mul">2.5</metal>
+      <stone op="mul">2.5</stone>
+      <wood op="mul">2.5</wood>
     </Resources>
   </Cost>
   <Footprint>
     <Square width="32" depth="62"/>
   </Footprint>
   <GarrisonHolder>
-    <Max>30</Max>
+    <Max op="mul">2.0</Max>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max op="mul">2.0</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

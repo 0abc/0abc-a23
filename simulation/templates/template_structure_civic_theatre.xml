@@ -23,9 +23,12 @@
     <Height>15</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>40</Max>
+    <Max>50</Max>
   </GarrisonHolder>
-  <Health disable=""/>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Theatre</Classes>
     <GenericName>Theatre</GenericName>

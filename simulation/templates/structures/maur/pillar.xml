@@ -7,9 +7,6 @@
     <Height>6</Height>
     <Square width="6" depth="6"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>maur</Civ>
     <Icon>structures/ashoka_pillar.png</Icon>
@@ -20,6 +17,5 @@
   </Obstruction>
   <VisualActor>
     <Actor>props/structures/mauryans/ashoka_pillar.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

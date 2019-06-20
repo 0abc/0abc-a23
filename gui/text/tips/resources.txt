@@ -1,19 +1,19 @@
 RESOURCE USAGE
 
 • Upkeep of structures and units:
-silver, food, wood, —, —.
+silver, food, —, wood, —.
 
 • Training soldiers:
 silver, food, —, —, —.
 
 • Constructing siege engines and ships:
-—, food, wood, iron, —.
+—, food, iron, wood, —.
 
 • Building structures:
-—, food, wood, iron, stone.
+—, food, iron, wood, stone.
 
 • Researching technologies:
-silver, food, wood, iron, stone.
+silver, food, iron, wood, stone.
 
 • Espionage:
 silver, —, —, —, —.

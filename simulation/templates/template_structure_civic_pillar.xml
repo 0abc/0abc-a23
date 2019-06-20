@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
-  <Armour>
-    <Crush>10</Crush>
-    <Hack>20</Hack>
-    <Pierce>40</Pierce>
-    <Thrust>30</Thrust>
-  </Armour>
   <BuildRestrictions>
     <Category>Pillar</Category>
     <Distance>
@@ -25,6 +19,7 @@
   <GarrisonHolder disable=""/>
   <Health>
     <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">Pillar</Classes>
@@ -43,4 +38,7 @@
   <Vision>
     <Range>1</Range>
   </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
 </Entity>

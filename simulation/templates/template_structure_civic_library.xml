@@ -19,9 +19,11 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>25</Max>
+    <Max>30</Max>
   </GarrisonHolder>
-  <Health disable=""/>
+  <Health>
+    <Max>3000</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Library</Classes>
     <GenericName>Library</GenericName>
