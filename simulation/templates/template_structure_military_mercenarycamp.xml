@@ -11,12 +11,17 @@
       <wood>150</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>8</Height>
+    <Square width="29" depth="29"/>
+  </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">Camel Cavalry</List>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Mercenary Camp</GenericName>
@@ -24,6 +29,9 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
   </Identity>
+  <Obstruction>
+    <Static width="27" depth="27"/>
+  </Obstruction>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
@@ -32,4 +40,7 @@
   </Sound>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>

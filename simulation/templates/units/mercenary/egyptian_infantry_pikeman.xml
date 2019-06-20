@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Identity>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Egyptian</Classes>
-    <Icon>units/ptol_infantry_pikeman_b.png</Icon>
-    <SelectionGroupName>units/egyptian_infantry_pikeman</SelectionGroupName>
+    <Icon>units/ptol_infantry_pikeman_a.png</Icon>
+    <SelectionGroupName>units/mercenary/egyptian_infantry_pikeman</SelectionGroupName>
     <SpecificName>Egyptian Phalangite</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>

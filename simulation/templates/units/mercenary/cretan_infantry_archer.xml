@@ -7,14 +7,14 @@
   </Attack>
   <Identity>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Cretan</Classes>
-    <Icon>units/mace_infantry_archer_a.png</Icon>
+    <Icon>units/athen_infantry_archer_a.png</Icon>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/cretan_infantry_archer</SelectionGroupName>
+    <SelectionGroupName>units/mercenary/cretan_infantry_archer</SelectionGroupName>
     <SpecificName>Cretan Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/infantry_archer_a.xml</Actor>
+    <Actor>units/athenians/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

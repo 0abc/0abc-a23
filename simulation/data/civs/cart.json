@@ -73,7 +73,7 @@
     { "Template": "structures/cart/centre" },
     { "Template": "units/cart/support_healer" },
     { "Template": "units/cart/infantry_spearman", "Count": 4 },
-    { "Template": "units/cart/infantry_archer", "Count": 2 },
+    { "Template": "units/cart/infantry_archer_mercenary", "Count": 2 },
     { "Template": "units/cart/cavalry_javelineer" },
     { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
@@ -114,7 +114,7 @@
   {
     "skirmish/units/default_cavalry": "units/cart/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/cart/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/cart/infantry_archer",
+    "skirmish/units/default_infantry_ranged_b": "units/cart/infantry_archer_mercenary",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

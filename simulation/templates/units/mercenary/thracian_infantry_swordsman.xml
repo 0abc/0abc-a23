@@ -3,6 +3,7 @@
   <Identity>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Thracian</Classes>
     <Icon>units/sele_infantry_swordsman.png</Icon>
+    <SelectionGroupName>units/mercenary/thracian_infantry_swordsman</SelectionGroupName>
     <SpecificName>Thracian Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>

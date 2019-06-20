@@ -3,7 +3,7 @@
   <Identity>
     <Classes datatype="tokens">Blemmye</Classes>
     <Icon>units/kush_camel_javelinist_a.png</Icon>
-    <SelectionGroupName>units/blemmye_camel_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/mercenary/blemmye_camel_javelineer</SelectionGroupName>
     <SpecificName>Blemmye Desert Raider</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>

@@ -3,7 +3,7 @@
   <Identity>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Nuba</Classes>
     <Icon>units/kush_infantry_javelinist_a.png</Icon>
-    <SelectionGroupName>units/nuba_infantry_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/mercenary/nuba_infantry_javelineer</SelectionGroupName>
     <SpecificName>Nuba Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>

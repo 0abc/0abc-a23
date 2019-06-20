@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Mauritanian</Classes>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Mauritanian</Classes>
     <Icon>units/cart_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_archer</SelectionGroupName>
     <SpecificName>Mauritanian Archer</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/infantry_archer_a.xml</Actor>

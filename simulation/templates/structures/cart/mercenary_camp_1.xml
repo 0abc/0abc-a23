@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_mercenarycamp">
   <Identity>
-    <SpecificName>Blemmye Camp</SpecificName>
+    <SpecificName>Iberian Settlement</SpecificName>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mercenary/blemmye_camel_javelineer
+      units/mercenary/iberian_infantry_javelineer
+      units/mercenary/iberian_infantry_sabreman
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
+    <Actor>structures/iberians/civil_centre.xml</Actor>
   </VisualActor>
 </Entity>

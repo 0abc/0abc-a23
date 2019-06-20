@@ -2,15 +2,15 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Iberian</Classes>
-    <Icon>units/cart_infantry_javelinist_a.png</Icon>
+    <Classes datatype="tokens">-Citizen -CitizenSoldier Sicanian</Classes>
+    <Icon>units/cart_infantry_javelinist_c.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_javelineer_mercenary</SelectionGroupName>
-    <SpecificName>Iberian Mercenary</SpecificName>
+    <SpecificName>Sicanian Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>
-    <Actor>units/iberians/infantry_javelinist_a.xml</Actor>
+    <Actor>units/carthaginians/infantry_javelinist_c_samnite.xml</Actor>
   </VisualActor>
 </Entity>

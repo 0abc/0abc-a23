@@ -3,7 +3,7 @@
   <Identity>
     <Classes datatype="tokens">Arab</Classes>
     <Icon>units/ptol_camel_archer_a.png</Icon>
-    <SelectionGroupName>units/arab_camel_archer</SelectionGroupName>
+    <SelectionGroupName>units/mercenary/arab_camel_archer</SelectionGroupName>
     <SpecificName>Arab Dromedary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>

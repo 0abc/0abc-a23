@@ -4,9 +4,6 @@
     <Height>8</Height>
     <Square width="35" depth="35"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <SpecificName>Nuba Village</SpecificName>
   </Identity>
@@ -15,12 +12,11 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mercenary/nuba_infantry_maceman
       units/mercenary/nuba_infantry_javelineer
+      units/mercenary/nuba_infantry_maceman
     </Entities>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mercenaries/camp_nuba.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

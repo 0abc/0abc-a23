@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_mercenarycamp">
   <Identity>
-    <SpecificName>Blemmye Camp</SpecificName>
+    <SpecificName>Numidian Camp</SpecificName>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mercenary/blemmye_camel_javelineer
+      units/mercenary/numidian_cavalry_javelineer
     </Entities>
   </ProductionQueue>
   <VisualActor>

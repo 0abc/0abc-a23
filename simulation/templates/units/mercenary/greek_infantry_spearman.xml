@@ -4,7 +4,7 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <Icon>units/athen_infantry_spearman_a.png</Icon>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/greek_infantry_spearman</SelectionGroupName>
+    <SelectionGroupName>units/mercenary/greek_infantry_spearman</SelectionGroupName>
     <SpecificName>Mercenary Hoplite</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
