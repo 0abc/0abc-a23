@@ -6,6 +6,7 @@
     <Pierce>25</Pierce>
     <Thrust>10</Thrust>
   </Armour>
+  <Attack disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>

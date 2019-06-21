@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base">
+<Entity parent="template_structure_defensive">
+  <Armour>
+    <Crush>3</Crush>
+    <Hack>25</Hack>
+    <Pierce>35</Pierce>
+    <Thrust>30</Thrust>
+    <Foundation>
+      <Crush>3</Crush>
+      <Hack>5</Hack>
+      <Pierce>15</Pierce>
+      <Thrust>10</Thrust>
+    </Foundation>
+  </Armour>
   <Attack>
     <Ranged>
       <ElevationBonus>20</ElevationBonus>
@@ -7,6 +19,7 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>5</DefaultArrowCount>
+    <MaxArrowCount>15</MaxArrowCount>
   </BuildingAI>
   <BuildRestrictions>
     <Category>Fortress</Category>
@@ -16,7 +29,7 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>4000</CapturePoints>
+    <CapturePoints>3000</CapturePoints>
     <RegenRate>10.0</RegenRate>
   </Capturable>
   <Cost>
@@ -61,6 +74,9 @@
     <Root>true</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>

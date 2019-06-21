@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base_fortress">
+<Entity parent="template_structure_defensive_fortress">
   <Footprint replace="">
-    <Circle radius="17.0"/>
-    <Height>18.0</Height>
+    <Circle radius="17"/>
+    <Height>18</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
@@ -11,7 +11,7 @@
     <Civ>brit</Civ>
   </Identity>
   <Obstruction>
-    <Static width="29.0" depth="29.0"/>
+    <Static width="29" depth="29"/>
   </Obstruction>
   <Sound>
     <SoundGroups>

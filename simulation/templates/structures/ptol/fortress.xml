@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base_fortress">
+<Entity parent="template_structure_defensive_fortress">
   <Footprint>
-    <Height>8.0</Height>
-    <Square width="26.0" depth="28.0"/>
+    <Height>8</Height>
+    <Square width="26" depth="28"/>
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="26.0"/>
+    <Static width="24" depth="26"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/ptolemies/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>24.0</Length>
+    <Length>24</Length>
     <Indent>8.7</Indent>
   </WallPiece>
 </Entity>
