@@ -72,8 +72,7 @@
   [
     { "Template": "structures/maur/centre" },
     { "Template": "units/maur/support_healer" },
-    { "Template": "units/maur/infantry_spearman", "Count": 4 },
-    { "Template": "units/maur/infantry_archer", "Count": 2 },
+    { "Template": "units/maur/infantry_spearman", "Count": 5 },
     { "Template": "units/maur/cavalry_javelineer" },
     { "Template": "units/maur/support_elephant" },
     { "Template": "gaia/fauna_zebu" }

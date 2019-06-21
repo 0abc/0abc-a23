@@ -193,8 +193,7 @@
   [
     { "Template": "structures/gree/centre" },
     { "Template": "units/gree/support_healer" },
-    { "Template": "units/gree/infantry_spearman", "Count": 4 },
-    { "Template": "units/gree/infantry_javelineer", "Count": 2 },
+    { "Template": "units/gree/infantry_spearman", "Count": 5 },
     { "Template": "units/gree/cavalry_javelineer" },
     { "Template": "gaia/fauna_goat", "Count": 4 }
   ],

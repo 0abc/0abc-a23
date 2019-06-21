@@ -73,8 +73,7 @@
   [
     { "Template": "structures/kush/centre" },
     { "Template": "units/kush/support_healer" },
-    { "Template": "units/kush/infantry_spearman", "Count": 4 },
-    { "Template": "units/kush/infantry_archer", "Count": 2 },
+    { "Template": "units/kush/infantry_spearman", "Count": 5 },
     { "Template": "units/kush/cavalry_javelineer" },
     { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],

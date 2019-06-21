@@ -67,8 +67,7 @@
   [
     { "Template": "structures/athen/centre" },
     { "Template": "units/athen/support_healer" },
-    { "Template": "units/athen/infantry_spearman", "Count": 4 },
-    { "Template": "units/athen/infantry_slinger", "Count": 2 },
+    { "Template": "units/athen/infantry_spearman", "Count": 5 },
     { "Template": "units/athen/cavalry_javelineer" },
     { "Template": "gaia/fauna_goat", "Count": 4 }
   ],

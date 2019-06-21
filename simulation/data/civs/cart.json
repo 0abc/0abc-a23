@@ -72,8 +72,7 @@
   [
     { "Template": "structures/cart/centre" },
     { "Template": "units/cart/support_healer" },
-    { "Template": "units/cart/infantry_spearman", "Count": 4 },
-    { "Template": "units/cart/infantry_archer_mercenary", "Count": 2 },
+    { "Template": "units/cart/infantry_spearman", "Count": 5 },
     { "Template": "units/cart/cavalry_javelineer" },
     { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],

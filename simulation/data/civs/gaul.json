@@ -78,8 +78,7 @@
   [
     { "Template": "structures/gaul/centre" },
     { "Template": "units/gaul/support_healer" },
-    { "Template": "units/gaul/infantry_spearman", "Count": 4 },
-    { "Template": "units/gaul/infantry_javelineer", "Count": 2 },
+    { "Template": "units/gaul/infantry_spearman", "Count": 5 },
     { "Template": "units/gaul/cavalry_javelineer" },
     { "Template": "gaia/fauna_pig", "Count": 2 }
   ],
