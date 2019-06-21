@@ -4,7 +4,7 @@
     <Melee disable=""/>
     <Ranged>
       <MaxRange op="mul">6.0</MaxRange>
-      <Pierce>8</Pierce>
+      <Pierce>15</Pierce>
     </Ranged>
   </Attack>
   <BuildingAI>

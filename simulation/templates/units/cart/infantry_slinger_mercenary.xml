@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_leadslinger">
+<Entity parent="template_unit_infantry_ranged_stoneslinger">
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Balearic</Classes>

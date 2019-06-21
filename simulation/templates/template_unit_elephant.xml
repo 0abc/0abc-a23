@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>60</Crush>
+      <Crush>100</Crush>
       <MaxRange>6</MaxRange>
       <PreferredClasses datatype="tokens">Unit</PreferredClasses>
     </Melee>

@@ -9,8 +9,8 @@
   <Attack>
     <Melee>
       <MaxRange>6</MaxRange>
-      <Pierce>3</Pierce>
-      <Thrust>3</Thrust>
+      <Pierce>6</Pierce>
+      <Thrust>6</Thrust>
     </Melee>
   </Attack>
   <Identity>

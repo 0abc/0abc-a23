@@ -8,8 +8,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>6</Hack>
-      <Thrust>2</Thrust>
+      <Hack>12</Hack>
+      <Thrust>4</Thrust>
     </Melee>
   </Attack>
   <Identity>

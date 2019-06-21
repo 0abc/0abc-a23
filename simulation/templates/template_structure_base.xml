@@ -27,7 +27,7 @@
       <Hack>0</Hack>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
-      <Pierce>8</Pierce>
+      <Pierce>10</Pierce>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <PrepareTime>1000</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>

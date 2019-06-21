@@ -9,7 +9,7 @@
     </Capture>
     <Slaughter>
       <Crush>0</Crush>
-      <Hack>50</Hack>
+      <Hack>100</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
       <Thrust>0</Thrust>
@@ -19,7 +19,6 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/centre
-      structures/{civ}/fortress
       structures/{civ}/house
       structures/{civ}/field
       structures/{civ}/farmstead
@@ -28,11 +27,12 @@
       structures/{civ}/dock
       structures/{civ}/market
       structures/{civ}/temple
-
       structures/{civ}/wonder
+
       structures/{civ}/outpost
       structures/{civ}/small_tower
       structures/{civ}/large_tower
+      structures/{civ}/fortress
       structures/wallset_palisade
       structures/wallset_siege
       structures/{civ}/wallset_city

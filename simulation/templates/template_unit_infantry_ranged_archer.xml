@@ -9,7 +9,7 @@
   <Attack>
     <Ranged>
       <MaxRange op="mul">6.0</MaxRange>
-      <Pierce>6</Pierce>
+      <Pierce>12</Pierce>
     </Ranged>
   </Attack>
   <Identity>

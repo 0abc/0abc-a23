@@ -4,7 +4,7 @@
     <Melee disable=""/>
     <Ranged>
       <MaxRange op="mul">3.0</MaxRange>
-      <Pierce>21</Pierce>
+      <Pierce>25</Pierce>
       <ProjectileSpeed op="mul">0.8</ProjectileSpeed>
     </Ranged>
   </Attack>

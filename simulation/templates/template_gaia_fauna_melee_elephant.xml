@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>90</Crush>
+      <Crush>80</Crush>
       <MaxRange>6</MaxRange>
     </Melee>
   </Attack>

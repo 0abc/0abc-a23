@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Crush>8</Crush>
+      <Crush>10</Crush>
       <MaxRange op="mul">4.0</MaxRange>
       <ProjectileSpeed op="mul">0.6</ProjectileSpeed>
     </Ranged>

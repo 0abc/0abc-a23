@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <MaxRange>60</MaxRange>
-      <Pierce>6</Pierce>
+      <Pierce>12</Pierce>
       <PreferredClasses datatype="tokens">Ship Organic</PreferredClasses>
     </Ranged>
   </Attack>

@@ -8,15 +8,10 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
       <MaxRange>5</MaxRange>
-      <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">SeaCreature</PreferredClasses>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">!Fauna</RestrictedClasses>
-      <Thrust>10</Thrust>
+      <Thrust>15</Thrust>
     </Melee>
     <Ranged disable=""/>
   </Attack>

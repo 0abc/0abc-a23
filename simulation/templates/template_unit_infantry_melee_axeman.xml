@@ -8,8 +8,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>2.5</Crush>
-      <Hack>5</Hack>
+      <Crush>5</Crush>
+      <Hack>10</Hack>
     </Melee>
   </Attack>
   <Identity>
