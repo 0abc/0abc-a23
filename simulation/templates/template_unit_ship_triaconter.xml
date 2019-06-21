@@ -39,7 +39,6 @@
   <Identity>
     <GenericName>Triaconter</GenericName>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SpecificName>Τριακόντορος</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship Galley</VisibleClasses>
   </Identity>

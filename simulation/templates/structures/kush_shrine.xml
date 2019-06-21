@@ -9,8 +9,7 @@
   </Health>
   <Identity>
     <Civ>kush</Civ>
-    <GenericName>Shrine</GenericName>
-    <SpecificName>ḥwt-nṯr</SpecificName>
+    <SpecificName>Shrine</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20" depth="21"/>

@@ -3,7 +3,6 @@
   <Identity>
     <Civ>maur</Civ>
     <Icon>units/maur_support_elephant.png</Icon>
-    <SpecificName>Karmākara Gaja</SpecificName>
     <VisibleClasses datatype="tokens">IndianElephant</VisibleClasses>
   </Identity>
   <VisualActor>

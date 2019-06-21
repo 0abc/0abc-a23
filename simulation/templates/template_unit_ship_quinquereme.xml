@@ -39,7 +39,6 @@
   <Identity>
     <GenericName>Quinquereme</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Πεντήρης</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship Galley</VisibleClasses>
   </Identity>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
     <Icon>units/hele_ship_bireme.png</Icon>
-    <SpecificName>Λέμβος</SpecificName>
+    <SpecificName>Lembus</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/pentekonter.xml</Actor>
