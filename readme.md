@@ -79,7 +79,6 @@ Changes include, but are not limited to:
 * removed loot and looter, because they favour the victors, who are already at an advantage
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
-* merged Athenians and Spartans into a single faction, the Greeks
 * disabled unit promotion, champions, heroes, team bonuses; they might be reintroduced at a later stage
 * all civilization bonuses and penalties are replaced with new ones
 * numerous minor tweaks and balances, most of which will probably go unnoticed

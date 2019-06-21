@@ -1,0 +1,16 @@
+{
+  "affects": [ "Worker" ],
+  "auraDescription": "Workers +20% build rate.",
+  "auraName": "Elephant Workers",
+  "modifications": [
+    { "value": "Builder/Rate", "multiply": 1.2 }
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+  "rangeOverlay" : {
+    "lineTexture": "overlays/zigzag.png",
+    "lineTextureMask": "overlays/zigzag_mask.png",
+    "lineThickness": 0.5
+  },
+  "radius": 15,
+  "type": "range"
+}

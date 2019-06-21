@@ -7,6 +7,9 @@
     <Thrust>4</Thrust>
   </Armour>
   <Attack disable=""/>
+  <Auras datatype="tokens">
+    units/elephant_worker
+  </Auras>
   <Cost>
     <BuildTime>60</BuildTime>
     <Population>3</Population>
@@ -23,7 +26,7 @@
   </Health>
   <Identity>
     <GenericName>Worker Elephant</GenericName>
-    <Tooltip>Mobile dropsite.</Tooltip>
+    <Tooltip>Mobile dropsite for food, wood, stone.</Tooltip>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
   <ResourceDropsite>
