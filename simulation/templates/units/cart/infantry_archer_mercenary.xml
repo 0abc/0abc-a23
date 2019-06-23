@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Mauritanian</Classes>
-    <Icon>units/cart_infantry_archer_b.png</Icon>
+    <Icon>units/cart_infantry_archer_a.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_archer</SelectionGroupName>
     <SpecificName>Mauritanian Archer</SpecificName>
