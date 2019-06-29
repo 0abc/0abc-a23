@@ -6,5 +6,5 @@ OUTPOSTS
 
 • Cheap and quick to build, but also weak.
 
-• Garrison a soldier in it to fire arrows and to prevent from decaying when outside your territory.
+• Garrison a soldier in it for increased ranged attack and vision range.
 

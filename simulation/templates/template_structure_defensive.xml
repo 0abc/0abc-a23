@@ -32,7 +32,7 @@
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Infantry Worker Healer Dog</List>
+    <List datatype="tokens">Infantry Healer Woman</List>
     <LoadingRange>2</LoadingRange>
     <Max>0</Max>
   </GarrisonHolder>
@@ -40,4 +40,5 @@
     <GenericName>Defensive Structure</GenericName>
     <VisibleClasses datatype="tokens">Defensive</VisibleClasses>
   </Identity>
+  <ProductionQueue disable=""/>
 </Entity>

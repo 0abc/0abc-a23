@@ -21,7 +21,6 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>structures/palisade_wallset</SelectionGroupName>
   </Identity>
-  <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
   <Repairable>
     <RepairTimeRatio>6</RepairTimeRatio>

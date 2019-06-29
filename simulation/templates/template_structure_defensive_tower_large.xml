@@ -56,4 +56,7 @@
     <Radius>32</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
 </Entity>

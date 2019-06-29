@@ -69,4 +69,7 @@
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
     </Tower>
   </Upgrade>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
 </Entity>

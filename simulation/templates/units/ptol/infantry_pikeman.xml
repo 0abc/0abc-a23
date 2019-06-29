@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
-    <Icon>units/ptol_infantry_pikeman_b.png</Icon>
+    <Icon>units/sele_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman</SelectionGroupName>

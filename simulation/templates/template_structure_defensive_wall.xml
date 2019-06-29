@@ -14,7 +14,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Wall off your city for a stout defence.</Tooltip>
   </Identity>
-  <ProductionQueue disable=""/>
   <Repairable>
     <RepairTimeRatio>4</RepairTimeRatio>
   </Repairable>

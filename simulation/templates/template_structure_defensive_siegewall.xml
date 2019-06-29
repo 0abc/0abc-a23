@@ -26,7 +26,6 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>A wooden and turf palisade buildable in own, neutral, and enemy territories.</Tooltip>
   </Identity>
-  <ProductionQueue disable=""/>
   <Repairable>
     <RepairTimeRatio>5</RepairTimeRatio>
   </Repairable>
