@@ -3,7 +3,7 @@
   "code": "wood",
   "description": "Gather lumber from trees, groves, or ruins.",
   "name": "Wood",
-  "order": 3,
+  "order": 4,
   "properties": [ "barterable", "tributable" ],
   "subtypes": {
     "tree": "Tree",

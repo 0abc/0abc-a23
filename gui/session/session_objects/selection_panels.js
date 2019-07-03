@@ -77,16 +77,16 @@ g_SelectionPanels.Alert = {
 g_SelectionPanels.Barter = {
   "getMaxNumberOfItems": function()
   {
-    return 5;
+    return 4;
   },
-  "rowLength": 5,
+  "rowLength": 4,
   "conflictsWith": ["Garrison"],
   "getItems": function(unitEntStates)
   {
     // If more than `rowLength` resources, don't display icons.
-    if (unitEntStates.every(state => !state.isBarterMarket) || g_ResourceData.GetCodes("barterable").length > this.rowLength)
+    if (unitEntStates.every(state => !state.isBarterMarket) || g_ResourceData.GetCodes().length > this.rowLength)
       return [];
-    return g_ResourceData.GetCodes("barterable");
+    return g_ResourceData.GetCodes();
   },
   "setupButton": function(data)
   {
@@ -211,9 +211,8 @@ g_SelectionPanels.AllyCommand = {
 g_SelectionPanels.Construction = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 24 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 10,
   "getItems": function()
   {
     return getAllBuildableEntitiesFromSelection();
@@ -283,9 +282,9 @@ g_SelectionPanels.Construction = {
 g_SelectionPanels.Formation = {
   "getMaxNumberOfItems": function()
   {
-    return 15;
+    return 16;
   },
-  "rowLength": 5,
+  "rowLength": 4,
   "conflictsWith": ["Garrison"],
   "getItems": function(unitEntStates)
   {
@@ -401,9 +400,8 @@ g_SelectionPanels.Garrison = {
 g_SelectionPanels.Gate = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 24 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let hideLocked = unitEntStates.every(state => !state.gate || !state.gate.locked);
@@ -443,9 +441,8 @@ g_SelectionPanels.Gate = {
 g_SelectionPanels.Pack = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 24 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let checks = {};
@@ -525,9 +522,8 @@ g_SelectionPanels.Pack = {
 g_SelectionPanels.Queue = {
   "getMaxNumberOfItems": function()
   {
-    return 20;
+    return 16;
   },
-  "rowLength": 10,
   /**
    * Returns a list of all items in the productionqueue of the selection
    * The first entry of every entity's production queue will come before
@@ -619,7 +615,7 @@ g_SelectionPanels.Queue = {
 g_SelectionPanels.Research = {
   "getMaxNumberOfItems": function()
   {
-    return 10;
+    return 8;
   },
   "getItems": function(unitEntStates)
   {
@@ -928,9 +924,8 @@ g_SelectionPanels.Stance = {
 g_SelectionPanels.Training = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 24 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 10,
   "getItems": function()
   {
     return getAllTrainableEntitiesFromSelection();
@@ -946,7 +941,7 @@ g_SelectionPanels.Training = {
       "player": data.player
     });
 
-    let unitIds = data.unitEntStates.map(status => status.id)
+    let unitIds = data.unitEntStates.map(status => status.id);
     let [buildingsCountToTrainFullBatch, fullBatchSize, remainderBatch] =
       getTrainingStatus(unitIds, data.item, data.playerState);
 
@@ -1028,9 +1023,8 @@ g_SelectionPanels.Training = {
 g_SelectionPanels.Upgrade = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 24 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     // Interface becomes complicated with multiple different units and this is meant per-entity, so prevent it if the selection has multiple different units.

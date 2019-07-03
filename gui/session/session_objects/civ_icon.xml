@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="civIcon" size="100%-96 32 100% 128" tooltip_style="sessionToolTipBold" type="button">
+<object name="civIcon" size="100%-96 36 100% 132" tooltip_style="sessionToolTipBold" type="button">
   <object name="civIconOverlay" style="CivIconOverlay" size="0 0 100% 100%" type="button">
     <action on="Press">openStrucTree()</action>
   </object>

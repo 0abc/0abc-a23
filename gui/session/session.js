@@ -824,7 +824,7 @@ function onTick()
 
   updateMenuPosition(tickLength);
 
-  // When training is blocked, flash population (alternates color every 500msec)
+  // When training is blocked, flash population (alternates colour every 500 ms)
   Engine.GetGUIObjectByName("resourcePop").textcolor = g_IsTrainingBlocked && now % 1000 < 500 ? g_PopulationAlertColor : g_DefaultPopulationColor;
 
   Engine.GuiInterfaceCall("ClearRenamedEntities");
