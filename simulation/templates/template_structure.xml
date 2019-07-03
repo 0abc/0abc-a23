@@ -2,16 +2,16 @@
 <Entity>
   <AIProxy/>
   <Armour>
-    <Crush>1</Crush>
+    <Crush>4</Crush>
     <Foundation>
       <Crush>1</Crush>
-      <Hack>1</Hack>
-      <Pierce>10</Pierce>
-      <Thrust>1</Thrust>
+      <Hack>2</Hack>
+      <Pierce>16</Pierce>
+      <Thrust>4</Thrust>
     </Foundation>
-    <Hack>1</Hack>
-    <Pierce>10</Pierce>
-    <Thrust>1</Thrust>
+    <Hack>9</Hack>
+    <Pierce>36</Pierce>
+    <Thrust>16</Thrust>
   </Armour>
   <BuildRestrictions>
     <Category>Structure</Category>

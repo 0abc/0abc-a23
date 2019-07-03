@@ -5,18 +5,19 @@
   "genericName": "City Phase",
   "icon": "city_phase.png",
   "modifications": [
-    { "value": "Cost/Resources/food",          "add":      100 },
-    { "value": "Cost/Resources/metal",         "add":      100 },
-    { "value": "Health/Max",                   "multiply": 1.2 },
-    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2 },
-    { "value": "ResourceTrickle/Rates/silver", "add":      0.2 },
-    { "value": "TerritoryInfluence/Radius",    "multiply": 1.2 }
+    { "value": "Cost/Resources/food",          "add":      100  },
+    { "value": "Cost/Resources/metal",         "add":      100  },
+    { "value": "Health/Max",                   "multiply": 1.15 },
+    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
+    { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
+    { "value": "TerritoryInfluence/Radius",    "multiply": 1.25 }
   ],
   "replaces": [ "phase_city" ],
   "requirements": { "all": 
     [
-      { "entity": { "class": "House",         "number": 12 } },
+      { "entity": { "class": "Farmstead",     "number":  3 } },
       { "entity": { "class": "Forge",         "number":  1 } },
+      { "entity": { "class": "House",         "number": 12 } },
       { "entity": { "class": "BarterMarket",  "number":  1 } },
       { "entity": { "class": "Temple",        "number":  1 } }
     ] 
@@ -24,5 +25,5 @@
   "researchTime": 120,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_town_generic",
-  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +20% territory influence radius and health. Also increase food upkeep and silver income."
+  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +25% territory influence radius and +15% health. Also increase food upkeep and silver income."
 }
