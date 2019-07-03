@@ -102,8 +102,8 @@
   <include file="gui/session/trade_window.xml"/>
   <include file="gui/session/tutorial_panel.xml"/>
 
-  <!-- Contains miscellanious objects s.a.: the technology research -->
-  <!-- progress, group selection icons, and the hero selection icon -->
+  <!-- Contains miscellanious objects, e.g. hero and catalfalque panels,
+       technology research progress, and group selection icons. -->
   <include directory="gui/session/session_objects/"/>
 
   <!-- Information tooltip -->

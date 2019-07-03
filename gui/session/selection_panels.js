@@ -619,7 +619,7 @@ g_SelectionPanels.Queue = {
 g_SelectionPanels.Research = {
   "getMaxNumberOfItems": function()
   {
-    return 8;
+    return 10;
   },
   "getItems": function(unitEntStates)
   {

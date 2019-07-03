@@ -183,7 +183,7 @@ var g_PanelEntities = [];
 /**
  * Order in which the panel entities are shown.
  */
-var g_PanelEntityOrder = ["Hero", "Relic"];
+var g_PanelEntityOrder = ["Hero", "Relic", "Wonder"];
 
 /**
  * Unit classes to be checked for the idle-worker-hotkey.
@@ -686,8 +686,8 @@ function updateTopPanel()
 
   let resPop = Engine.GetGUIObjectByName("population");
   let resPopSize = resPop.size;
-  resPopSize.left = Engine.GetGUIObjectByName("resource[" + (r - 1) + "]").size.right;
-  resPop.size = resPopSize;
+//  resPopSize.left = Engine.GetGUIObjectByName("resource[" + (r - 1) + "]").size.right;
+//  resPop.size = resPopSize;
 
   Engine.GetGUIObjectByName("population").hidden = !isPlayer;
   Engine.GetGUIObjectByName("diplomacyButton").hidden = !isPlayer;
@@ -1298,7 +1298,8 @@ function updateResearchDisplay()
   {
     let button = Engine.GetGUIObjectByName("researchStartedButton[" + i + "]");
     let size = button.size;
-    size.top = g_ResearchListTop + (4 + buttonSideLength) * i;
+//    size.top = g_ResearchListTop + (4 + buttonSideLength) * i;
+    size.top = (4 + buttonSideLength) * i;
     size.bottom = size.top + buttonSideLength;
     button.size = size;
   }
@@ -1327,7 +1328,7 @@ function updateResearchDisplay()
     Engine.GetGUIObjectByName("researchStartedProgressSlider[" + numButtons + "]").size = size;
 
     Engine.GetGUIObjectByName("researchStartedTimeRemaining[" + numButtons + "]").caption =
-      Engine.FormatMillisecondsIntoDateStringGMT(researchStarted[tech].timeRemaining, translateWithContext("countdown format", "m:ss"));
+      Engine.FormatMillisecondsIntoDateStringGMT(researchStarted[tech].timeRemaining, translateWithContext("countdown format", "m′ss″"));
 
     ++numButtons;
   }
@@ -1614,10 +1615,11 @@ function reportGame()
   ];
 
   let resourcesTypes = [
-    "wood",
+    "silver",
     "food",
-    "stone",
-    "metal"
+    "metal",
+    "wood",
+    "stone"
   ];
 
   let resourcesCounterTypes = [

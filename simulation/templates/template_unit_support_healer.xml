@@ -9,7 +9,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="1"/>
+    <Circle radius="1.5"/>
     <Height>3</Height>
   </Footprint>
   <Heal>
@@ -34,6 +34,7 @@
   </Identity>
   <Selectable>
     <Overlay>
+      <AlwaysVisible/>
       <Texture>
         <MainTexture>plus/128x128.png</MainTexture>
         <MainTextureMask>plus/128x128_mask.png</MainTextureMask>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack disable=""/>
+  <Capturable>
+    <CapturePoints>250</CapturePoints>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+    <RegenRate>10</RegenRate>
+  </Capturable>
+  <Cost disable=""/>
+  <Footprint>
+    <Height>9</Height>
+    <Square width="6" depth="12"/>
+  </Footprint>
+  <Identity>
+    <Classes datatype="tokens">-ConquestCritical Relic</Classes>
+    <Formations disable=""/>
+    <GenericName>Catafalque</GenericName>
+    <Icon>units/catafalque.png</Icon>
+    <SelectionGroupName>template_unit_catafalque</SelectionGroupName>
+    <Tooltip>A catafalque that holds the remains of a great leader.</Tooltip>
+    <Undeletable>true</Undeletable>
+    <VisibleClasses datatype="tokens">Catafalque</VisibleClasses>
+  </Identity>
+  <Minimap>
+    <Color r="148" g="0" b="211"/>
+  </Minimap>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>square/256x256.png</MainTexture>
+        <MainTextureMask>square/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <order_walk>actor/singlesteps/steps_grass_order.xml</order_walk>
+      <run>actor/singlesteps/steps_grass.xml</run>
+      <select>attack/siege/siege_select.xml</select>
+      <walk>actor/singlesteps/steps_grass.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <WalkSpeed op="mul">0.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/global/catafalque.xml</Actor>
+  </VisualActor>
+</Entity>
