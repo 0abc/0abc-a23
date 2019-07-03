@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_siegewall">
   <Cost>
-    <BuildTime>60</BuildTime>
+    <BuildTime>28</BuildTime>
     <Resources>
       <metal>30</metal>
       <wood>120</wood>
@@ -16,7 +16,7 @@
     <PassRange>20</PassRange>
   </Gate>
   <Health>
-    <Max>1700</Max>
+    <Max>1250</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>

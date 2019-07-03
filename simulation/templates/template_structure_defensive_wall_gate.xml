@@ -2,10 +2,11 @@
 <Entity parent="template_structure_defensive_wall">
   <Auras disable=""/>
   <Cost>
+    <BuildTime>50</BuildTime>
     <Resources>
-      <metal>30</metal>
-      <stone>180</stone>
-      <wood>90</wood>
+      <metal>40</metal>
+      <stone>80</stone>
+      <wood>80</wood>
     </Resources>
   </Cost>
   <GarrisonHolder disable=""/>
@@ -13,7 +14,7 @@
     <PassRange>20</PassRange>
   </Gate>
   <Health>
-    <Max>3400</Max>
+    <Max>2250</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -27,7 +28,7 @@
   </Obstruction>
   <RallyPoint disable=""/>
   <Repairable>
-    <RepairTimeRatio op="mul">0.85</RepairTimeRatio>
+    <RepairTimeRatio op="mul">0.675</RepairTimeRatio>
   </Repairable>
   <ResourceTrickle>
     <Rates>

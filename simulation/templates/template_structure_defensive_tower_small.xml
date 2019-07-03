@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower">
-  <Armour>
-    <Crush>2</Crush>
-    <Hack>8</Hack>
-    <Pierce>25</Pierce>
-    <Thrust>15</Thrust>
-  </Armour>
   <Attack>
     <Ranged>
       <ElevationBonus>12</ElevationBonus>

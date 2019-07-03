@@ -4,7 +4,7 @@
     structures/wall_garrisoned
   </Auras>
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
       <stone>90</stone>
       <wood>30</wood>
@@ -14,7 +14,7 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max>2700</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_medium</SpawnEntityOnDeath>
   </Health>
   <VisualActor>

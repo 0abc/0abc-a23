@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
+  <Armour>
+    <Crush>9</Crush>
+    <Hack>25</Hack>
+    <Pierce>49</Pierce>
+    <Thrust>36</Thrust>
+  </Armour>
   <Attack disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>

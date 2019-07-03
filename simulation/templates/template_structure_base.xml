@@ -6,18 +6,6 @@
     <RaiseAlertRange>150</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
-  <Armour>
-    <Crush>3</Crush>
-    <Hack>25</Hack>
-    <Pierce>35</Pierce>
-    <Thrust>30</Thrust>
-    <Foundation>
-      <Crush>3</Crush>
-      <Hack>5</Hack>
-      <Pierce>15</Pierce>
-      <Thrust>10</Thrust>
-    </Foundation>
-  </Armour>
   <Attack>
     <Ranged>
       <Crush>0</Crush>

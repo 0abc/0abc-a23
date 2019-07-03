@@ -8,9 +8,8 @@
   </AlertRaiser>
   <Armour>
     <Crush>1</Crush>
-    <Hack>5</Hack>
-    <Pierce>20</Pierce>
-    <Thrust>10</Thrust>
+    <Hack>4</Hack>
+    <Thrust>9</Thrust>
   </Armour>
   <BuildRestrictions>
     <Territory>own neutral</Territory>

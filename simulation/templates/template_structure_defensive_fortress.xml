@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
   <Armour>
-    <Crush>3</Crush>
+    <Crush>9</Crush>
     <Hack>25</Hack>
-    <Pierce>35</Pierce>
-    <Thrust>30</Thrust>
-    <Foundation>
-      <Crush>3</Crush>
-      <Hack>5</Hack>
-      <Pierce>15</Pierce>
-      <Thrust>10</Thrust>
-    </Foundation>
+    <Thrust>36</Thrust>
   </Armour>
   <Attack>
     <Ranged>
