@@ -71,7 +71,7 @@
   [
     { "Template": "structures/sele/centre" },
     { "Template": "units/sele/support_healer" },
-    { "Template": "units/sele/infantry_spearman", "Count": 5 },
+    { "Template": "units/sele/infantry_pikeman", "Count": 5 },
     { "Template": "units/sele/cavalry_javelineer" },
     { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],

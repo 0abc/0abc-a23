@@ -10,6 +10,6 @@
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/mauryans/infantry_archer_b.xml</Actor>
+    <Actor>units/mauryans/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

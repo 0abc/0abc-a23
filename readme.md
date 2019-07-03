@@ -31,6 +31,7 @@ TODO: get the AI to:
     * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
     * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
     * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
+  * [Starting units](https://github.com/0abc/0abc-a23#starting-units)
 <!--
 * [Unit rosters](https://github.com/0abc/0abc-a23#unit-rosters)
   * [Carthage](https://github.com/0abc/0abc-a23#carthage)
@@ -378,6 +379,32 @@ There are four damage types (crush, hack, pierce, thrust)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
+
+### Starting units
+On random maps, all factions start with:
+* a centre
+* infantry:
+  * 5 archers: Kush, Mauryas <!-- kush, maur, pers -->
+  * 5 javelineers: — <!-- brit, iber, spart, thra -->
+  * 5 sabremen: Rome <!-- rome -->
+  * 5 swordsmen: Gauls <!-- gaul -->
+  * 5 spearmen: Carthage <!-- athen, cart, gree -->
+  * 5 pikemen: Macedon, Ptolemies, Seleucids <!-- mace, ptol, sele -->
+* cavalry:
+  * 1 javelineer: Carthage, Gauls, Kush, Mauryas, Seleucids <!-- athen, brit, cart, gaul, gree, iber, kush, maur, pers, sele, spart, thra -->
+  * 1 spearman: Ptolemies, Rome <!-- ptol, rome -->
+  * 1 lancer: Macedon <!-- mace -->
+* an healer
+* animals worth 300 food:
+  * 4 goats: Ptolemies <!-- athen, gree, ptol, spart --> 
+  * 3 sheep: Carthage, Kush, Macedon, Seleucids <!-- cart, iber, kush, mace, pers, sele, thra -->
+  * 2 pigs: Gauls, Rome <!-- brit, gaul, rome -->
+  * 1 cow: Mauryas <!-- maur -->
+* extra:
+<!--  * 1 war dog: Britons-->
+  * 1 worker elephant: Mauryas <!-- maur -->
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 
 <!--

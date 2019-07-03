@@ -72,7 +72,7 @@
   [
     { "Template": "structures/maur/centre" },
     { "Template": "units/maur/support_healer" },
-    { "Template": "units/maur/infantry_spearman", "Count": 5 },
+    { "Template": "units/maur/infantry_archer", "Count": 5 },
     { "Template": "units/maur/cavalry_javelineer" },
     { "Template": "units/maur/support_elephant" },
     { "Template": "gaia/fauna_zebu" }
@@ -107,7 +107,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/maur/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/maur/infantry_spearman",
+    "skirmish/units/default_infantry_melee_b": "units/maur/infantry_sabreman",
     "skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer",
     "skirmish/units/special_starting_unit": "units/maur/support_elephant",
     "skirmish/structures/default_house_5": "structures/{civ}/house"

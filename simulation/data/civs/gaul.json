@@ -78,7 +78,7 @@
   [
     { "Template": "structures/gaul/centre" },
     { "Template": "units/gaul/support_healer" },
-    { "Template": "units/gaul/infantry_spearman", "Count": 5 },
+    { "Template": "units/gaul/infantry_swordsman", "Count": 5 },
     { "Template": "units/gaul/cavalry_javelineer" },
     { "Template": "gaia/fauna_pig", "Count": 2 }
   ],
@@ -112,7 +112,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/gaul/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/gaul/infantry_spearman",
+    "skirmish/units/default_infantry_melee_b": "units/gaul/infantry_swordsman",
     "skirmish/units/default_infantry_ranged_b": "units/gaul/infantry_javelineer",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },

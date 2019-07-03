@@ -113,7 +113,7 @@
   {
     "skirmish/units/default_cavalry": "units/cart/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/cart/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/cart/infantry_archer_mercenary",
+    "skirmish/units/default_infantry_ranged_b": "units/cart/infantry_javelineer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },
   "SelectableInGameSetup": true

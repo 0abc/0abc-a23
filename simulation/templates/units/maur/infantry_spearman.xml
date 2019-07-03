@@ -4,7 +4,7 @@
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
     <Icon>units/maur_infantry_spearman_b.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_spearman</SelectionGroupName>
     <SpecificName>Bamboo Spearman</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>

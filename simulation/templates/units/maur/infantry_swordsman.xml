@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_sabreman">
+<Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
     <Icon>units/maur_infantry_swordsman_b.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <SelectionGroupName>units/maur/infantry_sabreman</SelectionGroupName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/maur/infantry_swordsman</SelectionGroupName>
     <SpecificName>Indian Swordsman</SpecificName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>

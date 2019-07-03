@@ -78,7 +78,7 @@
   [
     { "Template": "structures/brit/centre" },
     { "Template": "units/brit/support_healer" },
-    { "Template": "units/brit/infantry_spearman", "Count": 5 },
+    { "Template": "units/brit/infantry_javelineer", "Count": 5 },
     { "Template": "units/brit/cavalry_javelineer" },
     { "Template": "units/brit/war_dog" },
     { "Template": "gaia/fauna_pig", "Count": 2 }
@@ -115,7 +115,7 @@
   {
     "skirmish/units/default_cavalry": "units/brit/cavalry_javelineer",
     "skirmish/units/default_infantry_melee_b": "units/brit/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/brit/infantry_slinger",
+    "skirmish/units/default_infantry_ranged_b": "units/brit/infantry_javelineer",
     "skirmish/units/special_starting_unit": "units/brit/war_dog",
     "skirmish/structures/default_house_5": "structures/{civ}/house"
   },
