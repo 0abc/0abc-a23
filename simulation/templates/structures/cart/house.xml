@@ -13,11 +13,12 @@
   <Upgrade>
     <Apartment>
       <Cost>
-        <stone>40</stone>
+        <metal>10</metal>
+        <stone>50</stone>
         <wood>40</wood>
       </Cost>
       <Entity>structures/{civ}/apartment</Entity>
-      <RequiredTechnology>phase_town</RequiredTechnology>
+      <RequiredTechnology>phase_city_cart</RequiredTechnology>
       <Time>60</Time>
       <Tooltip>Expand to accomodate more units.</Tooltip>
     </Apartment>

@@ -1173,8 +1173,8 @@ let g_PanelsOrder = [
   // RIGHT PANE
   "Gate", // Must always be shown on gates
   "Pack", // Must always be shown on packable entities
-  "Upgrade", // Must always be shown on upgradable entities
   "Training",
+  "Upgrade", // Must always be shown on upgradable entities
   "Construction",
   "Research", // Normal together with training
 

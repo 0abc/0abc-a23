@@ -7,6 +7,9 @@
       <ProjectileSpeed>25</ProjectileSpeed>
     </Ranged>
   </Attack>
+  <Capturable>
+    <CapturePoints>600</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>60</BuildTime>
     <PopulationBonus>12</PopulationBonus>
@@ -23,6 +26,7 @@
   </Health>
   <Identity>
     <GenericName>Apartment Block</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <ResourceTrickle>
     <Rates>

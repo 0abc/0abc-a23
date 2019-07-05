@@ -17,6 +17,9 @@
   <BuildRestrictions>
     <Category>Palace</Category>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>2000</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>

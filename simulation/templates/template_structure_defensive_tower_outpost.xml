@@ -9,13 +9,13 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>250</CapturePoints>
+    <CapturePoints>300</CapturePoints>
     <GarrisonRegenRate>10</GarrisonRegenRate>
   </Capturable>
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>75</wood>
+      <wood>60</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -31,7 +31,7 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>480</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Outpost</Classes>

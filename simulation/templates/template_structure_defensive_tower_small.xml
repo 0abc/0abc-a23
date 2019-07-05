@@ -2,18 +2,22 @@
 <Entity parent="template_structure_defensive_tower">
   <Attack>
     <Ranged>
-      <ElevationBonus>12</ElevationBonus>
+      <ElevationBonus>10</ElevationBonus>
     </Ranged>
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
   </BuildingAI>
+  <Capturable>
+    <CapturePoints>500</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>90</BuildTime>
     <Resources>
-      <food>50</food>
+      <food>30</food>
+      <metal>20</metal>
       <stone>50</stone>
-      <wood>100</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -21,10 +25,10 @@
     <Square width="8" depth="8"/>
   </Footprint>
   <GarrisonHolder>
-    <Max>3</Max>
+    <Max>2</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1000</Max>
+    <Max>750</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">GarrisonTower SmallTower</Classes>
@@ -37,9 +41,9 @@
   </Obstruction>
   <ResourceTrickle>
     <Rates>
-      <food>-0.040</food>
-      <silver>-0.010</silver>
-      <wood>-0.010</wood>
+      <food>-0.02</food>
+      <silver>-0.005</silver>
+      <wood>-0.005</wood>
     </Rates>
   </ResourceTrickle>
   <StatusBars>
@@ -47,19 +51,19 @@
   </StatusBars>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>16</Radius>
+    <Radius>15</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <Upgrade>
     <Tower>
       <Cost>
-        <food>75</food>
-        <stone>75</stone>
-        <wood>75</wood>
+        <food>40</food>
+        <stone>80</stone>
+        <wood>80</wood>
       </Cost>
       <Entity>structures/{civ}/large_tower</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>
-      <Time>100</Time>
+      <Time>90</Time>
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
     </Tower>
   </Upgrade>

@@ -3,9 +3,8 @@
   "autoResearch": true,
   "genericName": "Greek Architecture",
   "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 1.2,  "affects": "Temple" },
-    { "value": "Health/Max",     "multiply": 1.2,  "affects": "Temple" }
+    { "value": "Cost/BuildTime", "multiply": 0.9,  "affects": "Military" }
   ],
   "requirements": { "civ": "mace" },
-  "tooltip": "Temples +20% build time, +20% health."
+  "tooltip": "Military structures −10% build time."
 }

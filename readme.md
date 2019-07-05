@@ -354,7 +354,7 @@ There are four damage types (crush, hack, pierce, thrust)
 * **Carthage**:
   * *Punic Architecture*:
     * markets −50% wood cost;
-    * city walls +20% stone cost, +30% build time, +30% health.
+    * city walls +25% stone cost, −25% wood cost, +20% build time, +20% health.
   * *Punic Merchants*:
     * merchant ships and traders −15% training time.
 * **Gauls**:
@@ -371,13 +371,12 @@ There are four damage types (crush, hack, pierce, thrust)
     * melee cavalry −15% training time.
 * **Kush**:
   * *Kushite Architecture*:
-    * economic structures −70% wood cost, +100% build time;
-    * temples +25% build time, +25% health.
+    * economic structures −70% wood cost, +100% build time.
   * *Priesthood of Amun*:
     * healers +3 healing range.
 * **Macedon**:
   * *Greek Architecture*:
-    * temples +20% build time, +20% health.
+    * military structures −10% build time;
   * *Macedonian Engineers*:
     * siege engines −15% construction time.
 * **Mauryas**:
@@ -395,13 +394,13 @@ There are four damage types (crush, hack, pierce, thrust)
     * healers −20% healing time.
 * **Rome**:
   * *Roman Architecture*:
-    * city walls +10% build time, +10% health;
-    * temples +10% build time, +10% health.
+    * siege walls −10% build time;
+    * city walls +10% stone cost, +10% wood cost, +10% build time, +10% health.
   * *Roman Engineers*:
     * stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
 * **Seleucids**:
   * *Syrian Architecture*:
-    * temples +15% build time, +15% health.
+    * starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -679,6 +678,8 @@ On random maps, all factions start with:
 ### Art
 * melee attack for scythed chariots (pers b/a/e, sele c)
 * ranged attack for slaves and women (crouch down to pick up stones, then throw them)
+* ranged attack for fishermen (hurl harpoon)
+* gather meat animation for fishermen (chop at carcass)
 * swimming animations for crocodile
 * kid (young goat), lamb (young sheep), piglet (young pig), calf (young cow), foal (young horse)
 

@@ -8,12 +8,16 @@
   <BuildingAI>
     <DefaultArrowCount>2</DefaultArrowCount>
   </BuildingAI>
+  <Capturable>
+    <CapturePoints>750</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>60</food>
+      <metal>40</metal>
       <stone>100</stone>
-      <wood>150</wood>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -21,7 +25,7 @@
     <Square width="9" depth="9"/>
   </Footprint>
   <GarrisonHolder>
-    <Max>5</Max>
+    <Max>4</Max>
   </GarrisonHolder>
   <Health>
     <Max>1500</Max>
@@ -37,9 +41,9 @@
   </Obstruction>
   <ResourceTrickle>
     <Rates>
-      <food>-0.060</food>
-      <silver>-0.015</silver>
-      <wood>-0.015</wood>
+      <food>-0.04</food>
+      <silver>-0.01</silver>
+      <wood>-0.01</wood>
     </Rates>
   </ResourceTrickle>
   <StatusBars>
@@ -47,7 +51,7 @@
   </StatusBars>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>32</Radius>
+    <Radius>30</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <Vision>

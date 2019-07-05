@@ -3,19 +3,19 @@
   "autoResearch": true,
   "genericName": "Syrian Architecture",
   "modifications": [
-    { "value": "Capturable/CapturePoints",     "multiply":   1.25, "affects": "LargeCentre" },
-    { "value": "Cost/BuildTime",               "multiply":   1.25, "affects": "LargeCentre" },
+    { "value": "Capturable/CapturePoints",     "multiply":   1.3,  "affects": "LargeCentre" },
+    { "value": "Cost/BuildTime",               "multiply":   1.3,  "affects": "LargeCentre" },
     { "value": "Cost/PopulationBonus",         "add":        5,    "affects": "LargeCentre" },
-    { "value": "Cost/Resources/food",          "multiply":   1.25, "affects": "LargeCentre" },
-    { "value": "Cost/Resources/metal",         "multiply":   1.25, "affects": "LargeCentre" },
-    { "value": "Cost/Resources/stone",         "multiply":   1.25, "affects": "LargeCentre" },
-    { "value": "Cost/Resources/wood",          "multiply":   1.25, "affects": "LargeCentre" },
+    { "value": "Cost/Resources/food",          "multiply":   1.3,  "affects": "LargeCentre" },
+    { "value": "Cost/Resources/metal",         "multiply":   1.3,  "affects": "LargeCentre" },
+    { "value": "Cost/Resources/stone",         "multiply":   1.3,  "affects": "LargeCentre" },
+    { "value": "Cost/Resources/wood",          "multiply":   1.3,  "affects": "LargeCentre" },
     { "value": "GarrisonHolder/Max",           "add":       10,    "affects": "LargeCentre" },
-    { "value": "Health/Max",                   "multiply":   1.25, "affects": "LargeCentre" },
+    { "value": "Health/Max",                   "multiply":   1.3,  "affects": "LargeCentre" },
     { "value": "TerritoryInfluence/Radius",    "multiply":   1.11, "affects": "LargeCentre" },
     { "value": "Cost/BuildTime",               "multiply":   1.15, "affects": "Temple"      },
     { "value": "Health/Max",                   "multiply":   1.15, "affects": "Temple"      }
   ],
   "requirements": { "civ": "sele" },
-  "tooltip": "Temples +15% build time, +15% health."
+  "tooltip": "Starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence. Temples +15% build time, +15% health."
 }

@@ -13,6 +13,19 @@
   <Obstruction>
     <Static width="30" depth="30"/>
   </Obstruction>
+  <Upgrade>
+    <FortifiedCentre>
+      <Cost>
+        <metal>120</metal>
+        <stone>600</stone>
+        <wood>480</wood>
+      </Cost>
+      <Entity>structures/{civ}/centre_fortified</Entity>
+      <RequiredTechnology>phase_city_cart</RequiredTechnology>
+      <Time>180</Time>
+      <Tooltip>Expand to accomodate more units.</Tooltip>
+    </FortifiedCentre>
+  </Upgrade>
   <VisualActor>
     <Actor>structures/carthaginians/civil_centre.xml</Actor>
   </VisualActor>

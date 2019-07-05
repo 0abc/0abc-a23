@@ -47,8 +47,8 @@
   [
 		{
 			"Name": "Syrian Architecture",
-			"History": "Greek structures were made out of wood, fired bricks, or stone.",
-			"Description": "Temples +15% build time, +15% health."
+			"History": "",
+			"Description": "Starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence."
 		}
   ],
   "TeamBonuses":

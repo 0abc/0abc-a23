@@ -17,7 +17,7 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>2000</CapturePoints>
+    <CapturePoints>2500</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>400</BuildTime>
@@ -30,7 +30,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>3000</Max>
+    <Max>2500</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CivCentre CivilCentre</Classes>

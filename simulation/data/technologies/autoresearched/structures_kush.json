@@ -4,10 +4,8 @@
   "genericName": "Kushite Architecture",
   "modifications": [
     { "value": "Cost/BuildTime",      "multiply": 2.0,  "affects": "Economic" },
-    { "value": "Cost/Resources/wood", "multiply": 0.3,  "affects": "Economic" },
-    { "value": "Cost/BuildTime",      "multiply": 1.25, "affects": "Temple"   },
-    { "value": "Health/Max",          "multiply": 1.25, "affects": "Temple"   }
+    { "value": "Cost/Resources/wood", "multiply": 0.3,  "affects": "Economic" }
   ],
   "requirements": { "civ": "kush" },
-  "tooltip": "Economic structures −70% wood cost, +100% build time. Temples +20% build time, +20% health."
+  "tooltip": "Economic structures −70% wood cost, +100% build time."
 }

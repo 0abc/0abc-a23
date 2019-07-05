@@ -1,0 +1,5 @@
+{
+  "autoResearch": true,
+  "genericName": "Fortify Base",
+  "requirements": { "all": [ { "tech": "phase_city" }, { "civ": "cart" } ] }
+}

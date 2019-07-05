@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base_palace">
+<Entity parent="template_structure_base_centre_fortified">
   <Footprint>
     <Height>15</Height>
     <Square width="30" depth="30"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>cart</Civ>
   </Identity>

@@ -20,9 +20,9 @@
       { "entity": { "class": "Theatre",       "number":  1 } },
       { "any": 
         [
-          {"civ": "mace"},
-          {"civ": "ptol"},
-          {"civ": "sele"}
+          { "civ": "mace" },
+          { "civ": "ptol" },
+          { "civ": "sele" }
         ]
       }
     ] 

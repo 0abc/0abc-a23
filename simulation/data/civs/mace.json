@@ -48,8 +48,8 @@
   [
 		{
 			"Name": "Greek Architecture",
-			"History": "Greek structures were made out of wood, fired bricks, or stone.",
-			"Description": "Temples +20% build time, +20% health."
+			"History": "",
+			"Description": "Military structures −10% build time."
 		},
 		{
 			"Name": "Macedonian Engineers",
