@@ -49,7 +49,7 @@
 		{
 			"Name": "Roman Architecture",
 			"History": "Roman structures were originally made out of wood, but later also out of stone, fired bricks, and concrete.",
-			"Description": "Military structures −10% build time; city walls +10% health."
+			"Description": "City walls +10% build time, +10% health. Temples +10% build time, +10% health."
 		},
 		{
 			"Name": "Roman Engineers",

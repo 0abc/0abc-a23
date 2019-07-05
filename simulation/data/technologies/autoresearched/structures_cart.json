@@ -4,13 +4,10 @@
   "genericName": "Punic Architecture",
   "modifications": [
     { "value": "Cost/Resources/wood",  "multiply": 0.5,  "affects": "BarterMarket" },
-    { "value": "Cost/BuildTime",       "multiply": 1.1,  "affects": "Fortress"     },
-    { "value": "Cost/Resources/stone", "multiply": 1.1,  "affects": "Fortress"     },
-    { "value": "Health/Max",           "multiply": 1.2,  "affects": "Fortress"     },
-    { "value": "Cost/BuildTime",       "multiply": 1.2,  "affects": "StoneWall"    },
+    { "value": "Cost/BuildTime",       "multiply": 1.3,  "affects": "StoneWall"    },
     { "value": "Cost/Resources/stone", "multiply": 1.2,  "affects": "StoneWall"    },
     { "value": "Health/Max",           "multiply": 1.3,  "affects": "StoneWall"    }
   ],
   "requirements": { "civ": "cart" },
-  "tooltip": "Carthaginian city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost."
+  "tooltip": "Markets −50% wood cost. City walls +20% stone cost, +30% build time, +30% health."
 }

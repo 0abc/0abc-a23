@@ -49,7 +49,7 @@
 		{
 			"Name": "Egyptian Architecture",
 			"History": "Egyptian structures were often made of sun-dried mud bricks; wood and stone were scarce and expensive.",
-			"Description": "Economic structures −75% wood cost, +100% build time; military structures −50% wood cost, +50% build time; fortresses +25% build time, +10% health."
+			"Description": "Economic structures −70% wood cost, +100% build time."
 		},
 		{
 			"Name": "Egyptian Medicine",

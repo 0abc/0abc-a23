@@ -10,18 +10,6 @@
   <Obstruction>
     <Static width="32" depth="32"/>
   </Obstruction>
-  <Upgrade>
-    <Centre>
-      <Cost>
-        <stone>100</stone>
-        <wood>100</wood>
-      </Cost>
-      <Entity>structures/sele/centre_large</Entity>
-      <RequiredTechnology>phase_city</RequiredTechnology>
-      <Time>60</Time>
-      <Tooltip>Expand to accomodate more units.</Tooltip>
-    </Centre>
-  </Upgrade>
   <VisualActor>
     <Actor>structures/seleucids/civic_center.xml</Actor>
   </VisualActor>

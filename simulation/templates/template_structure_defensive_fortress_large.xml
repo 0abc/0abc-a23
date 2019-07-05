@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_fortress">
+  <Attack>
+    <Ranged>
+      <ElevationBonus>20</ElevationBonus>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <stone>1000</stone>
+      <wood>500</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>50</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>6000</Max>
+  </Health>
+</Entity>

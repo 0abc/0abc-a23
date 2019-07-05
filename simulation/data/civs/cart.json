@@ -48,7 +48,7 @@
 		{
 			"Name": "Punic Architecture",
 			"History": "Carthaginian structures were often made out of stone.",
-			"Description": "City walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost."
+			"Description": "Markets −50% wood cost. City walls +20% stone cost, +30% build time, +30% health."
 		},
 		{
 			"Name": "Punic Merchants",

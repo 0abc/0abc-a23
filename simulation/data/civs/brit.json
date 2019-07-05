@@ -47,21 +47,6 @@
   ],
   "CivBonuses":
   [
-		{
-			"Name": "Briton Architecture",
-			"History": "Celtic structures  were mostly made of wood, walls had rubble foundations.",
-			"Description": "Briton structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; small towers 0 stone cost; temples 0 stone cost, +200% wood cost."
-		},
-		{
-			"Name": "Briton Chariots",
-			"History": "",
-			"Description": "Chariots −15% training time."
-		},
-		{
-			"Name": "Druidism",
-			"History": "",
-			"Description": "Healers +2 armour levels."
-		}
   ],
   "TeamBonuses":
   [

@@ -3,9 +3,11 @@
   "autoResearch": true,
   "genericName": "Roman Architecture",
   "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.9,  "affects": "Military"  },
-    { "value": "Health/Max",     "multiply": 1.1,  "affects": "StoneWall" }
+    { "value": "Cost/BuildTime", "multiply": 1.1,  "affects": "StoneWall" },
+    { "value": "Health/Max",     "multiply": 1.1,  "affects": "StoneWall" },
+    { "value": "Cost/BuildTime", "multiply": 1.1,  "affects": "Temple"    },
+    { "value": "Health/Max",     "multiply": 1.1,  "affects": "Temple"    }
   ],
   "requirements": { "civ": "rome" },
-  "tooltip": "Roman military structures −10% build time; city walls +10% health."
+  "tooltip": "City walls +10% build time, +10% health. Temples +10% build time, +10% health."
 }

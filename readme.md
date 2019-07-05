@@ -346,31 +346,62 @@ There are four damage types (crush, hack, pierce, thrust)
 * **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, +30% melee and ranged attack damage.
 * **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +25% capture attack strength, +15% melee and ranged attack damage.
 * **Cataphract**: +20% silver cost, +2 armour levels, −5% movement speed.
-* **Fanatic**: −3 armour levels, +15% melee attack damage, +30% movement speed.
-* **Balearic**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
-* **Libyan**: −5% health, +5% ranged attack damage, −5% reload time, +5% movement speed.
-* **Numidian**: −10% health, +5% ranged attack damage, −10% reload time, −10% spread, +5% movement speed.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Civilization bonuses
 *All bonuses and penalties from the default distribution have been removed.*
-* **Druidism** (Gauls): healers +2 armour levels.
-* **Gallic Cavalry** (Gauls): melee cavalry −15% training time.
-* **Gauls Architecture** (Gauls): structures −20% build time, −10% health; centres 0 stone cost, +100% wood cost; fortresses −50% stone cost, +50% wood cost; temples 0 stone cost, +200% wood cost.
-* **Egyptian Architecture** (Ptolemies): economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health.
-* **Egyptian Medicine** (Ptolemies): healers −20% healing time.
-* **Indian Architecture** (Mauryas): centres 0 stone cost, +100% wood cost; city walls and temples 0 stone cost, +200% wood cost, −30% build time, −20% health.
-* **Indian Elephants** (Mauryas): elephants −15% training time.
-* **Kushite Architecture** (Kushites): economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health.
-* **Macedonian Architecture** (Macedonians): temples +25% health.
-* **Macedonian Engineers** (Macedonians): siege engines −15% construction time.
-* **Priesthood of Amun** (Kuhites): healers +3 healing range.
-* **Punic Architecture** (Carthaginians): city walls +20% stone cost, +20% build time, +30% health; fortresses +10% stone cost, +10% build time, +20% health; markets −50% wood cost.
-* **Punic Merchants** (Carthaginians): traders −15% training time.
-* **Roman Architecture** (Romans): military structures −10% build time; city walls +10% health.
-* **Roman Engineers** (Romans): stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
-* **Syrian Architecture** (Seleucids): temples +25% health.
+* **Carthage**:
+  * *Punic Architecture*:
+    * markets −50% wood cost;
+    * city walls +20% stone cost, +30% build time, +30% health.
+  * *Punic Merchants*:
+    * merchant ships and traders −15% training time.
+* **Gauls**:
+  * *Celtic Architecture*:
+    * centres 0 stone cost, +100% wood cost, −20% build time, −20% health;
+    * economic structures −15% build time, −15% health;
+    * fortresses −50% stone cost, +100% wood cost;
+    * military structures −20% build time, −20% health;
+    * city walls −10% build time, −10% health;
+    * temples 0 stone cost, +200% wood cost, −40% build time, −40% health.
+  * *Druidism*:
+    * healers +2 armour levels.
+  * *Gallic Cavalry*:
+    * melee cavalry −15% training time.
+* **Kush**:
+  * *Kushite Architecture*:
+    * economic structures −70% wood cost, +100% build time;
+    * temples +25% build time, +25% health.
+  * *Priesthood of Amun*:
+    * healers +3 healing range.
+* **Macedon**:
+  * *Greek Architecture*:
+    * temples +20% build time, +20% health.
+  * *Macedonian Engineers*:
+    * siege engines −15% construction time.
+* **Mauryas**:
+  * *Indian Architecture*:
+    * centres 0 stone cost, +100% wood cost, +5 population bonus, +10 garrison capacity;
+    * economic structures −10% wood cost, −10% build time, −10% health;
+    * city walls 0 stone cost, +200% wood cost, −25% build time, −25% health;
+    * temples 0 stone cost, +300% wood cost, −20% build time, −20% health.
+  * *Indian Elephants*:
+    * elephants −15% training time.
+* **Ptolemies**:
+  * *Egyptian Architecture*:
+    * economic structures −70% wood cost, +100% build time.
+  * *Egyptian Medicine*:
+    * healers −20% healing time.
+* **Rome**:
+  * *Roman Architecture*:
+    * city walls +10% build time, +10% health;
+    * temples +10% build time, +10% health.
+  * *Roman Engineers*:
+    * stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
+* **Seleucids**:
+  * *Syrian Architecture*:
+    * temples +15% build time, +15% health.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -383,6 +414,7 @@ There are four damage types (crush, hack, pierce, thrust)
 ### Starting units
 On random maps, all factions start with:
 * a centre
+  * Seleucids start with a (unbuildable) larger centre
 * infantry:
   * 5 archers: Kush, Mauryas <!-- kush, maur, pers -->
   * 5 javelineers: — <!-- brit, iber, spart, thra -->
@@ -391,9 +423,10 @@ On random maps, all factions start with:
   * 5 spearmen: Carthage <!-- athen, cart, gree -->
   * 5 pikemen: Macedon, Ptolemies, Seleucids <!-- mace, ptol, sele -->
 * cavalry:
-  * 1 javelineer: Carthage, Gauls, Kush, Mauryas, Seleucids <!-- athen, brit, cart, gaul, gree, iber, kush, maur, pers, sele, spart, thra -->
-  * 1 spearman: Ptolemies, Rome <!-- ptol, rome -->
-  * 1 lancer: Macedon <!-- mace -->
+  * 1 javelineer: Mauryas <!-- athen, brit, gree, iber, maur, pers, spart, thra -->
+  * 1 spearman: Rome <!-- rome -->
+  * 1 spearman champion: Gauls, Kushites, Ptolemies <!-- gaul, kush, ptol -->
+  * 1 lancer champion: Carthage, Macedon, Seleucids <!-- cart, mace, sele -->
 * an healer
 * animals worth 300 food:
   * 4 goats: Ptolemies <!-- athen, gree, ptol, spart --> 

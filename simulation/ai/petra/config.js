@@ -54,7 +54,7 @@ m.Config = function(difficulty, behavior)
 		"default": [],
 		"athen": [],
 		"brit": [],
-		"cart": ["structures/{civ}/hall", "structures/{civ}/naval_base", "structures/mercenary_camp_1", "structures/mercenary_camp_2"],
+		"cart": ["structures/{civ}/hall", "structures/mercenary_camp_1", "structures/mercenary_camp_2"],
 		"gaul": ["structures/{civ}/rotarymill"],
 		"gree": [],
 		"iber": [],

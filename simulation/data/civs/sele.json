@@ -48,12 +48,7 @@
 		{
 			"Name": "Syrian Architecture",
 			"History": "Greek structures were made out of wood, fired bricks, or stone.",
-			"Description": "Temples +20% health and build time."
-		},
-		{
-			"Name": "Near Eastern Archers",
-			"History": "",
-			"Description": "Archers +20% ranged attack range."
+			"Description": "Temples +15% build time, +15% health."
 		}
   ],
   "TeamBonuses":

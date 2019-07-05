@@ -4,10 +4,8 @@
   "genericName": "Egyptian Architecture",
   "modifications": [
     { "value": "Cost/BuildTime",      "multiply": 2.0,  "affects": "Economic" },
-    { "value": "Cost/Resources/wood", "multiply": 0.25, "affects": "Economic" },
-    { "value": "Cost/BuildTime",      "multiply": 1.25, "affects": "Fortress" },
-    { "value": "Health/Max",          "multiply": 1.1,  "affects": "Fortress" }
+    { "value": "Cost/Resources/wood", "multiply": 0.3, "affects": "Economic" }
   ],
   "requirements": { "civ": "ptol" },
-  "tooltip": "Ptolemaic economic structures −75% wood cost, +100% build time; fortresses +25% build time, +10% health."
+  "tooltip": "Economic structures −70% wood cost, +100% build time."
 }

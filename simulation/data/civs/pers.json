@@ -46,21 +46,6 @@
   ],
   "CivBonuses":
   [
-		{
-			"Name": "Persian Architecture",
-			"History": "Persian structures were often made out of mud bricks or stone.",
-			"Description": "Economic structures +20% health."
-		},
-		{
-			"Name": "Persian Archers",
-			"History": "",
-			"Description": "Archers −15% training time."
-		},
-		{
-			"Name": "Near Eastern Archers",
-			"History": "",
-			"Description": "Archers +20% ranged attack range."
-		}
   ],
   "TeamBonuses":
   [

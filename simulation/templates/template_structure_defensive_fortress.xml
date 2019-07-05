@@ -5,14 +5,9 @@
     <Hack>25</Hack>
     <Thrust>36</Thrust>
   </Armour>
-  <Attack>
-    <Ranged>
-      <ElevationBonus>20</ElevationBonus>
-    </Ranged>
-  </Attack>
   <BuildingAI>
     <DefaultArrowCount>5</DefaultArrowCount>
-    <MaxArrowCount>15</MaxArrowCount>
+    <MaxArrowCount>20</MaxArrowCount>
   </BuildingAI>
   <BuildRestrictions>
     <Category>Fortress</Category>
@@ -26,20 +21,15 @@
     <RegenRate>10.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>600</BuildTime>
     <Resources>
-      <food>400</food>
+      <food>300</food>
       <metal>200</metal>
-      <stone>800</stone>
-      <wood>600</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
     <List datatype="tokens">Soldier Support</List>
-    <Max>30</Max>
   </GarrisonHolder>
   <Health>
-    <Max>6000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

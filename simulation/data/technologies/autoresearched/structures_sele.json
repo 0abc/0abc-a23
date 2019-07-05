@@ -3,8 +3,17 @@
   "autoResearch": true,
   "genericName": "Syrian Architecture",
   "modifications": [
-    { "value": "Health/Max", "multiply": 1.25,  "affects": "Temple" }
+    { "value": "Capturable/CapturePoints",     "multiply":   1.2,  "affects": "LargeCentre" },
+    { "value": "Cost/BuildTime",               "multiply":   1.2,  "affects": "LargeCentre" },
+    { "value": "Cost/PopulationBonus",         "add":        5,    "affects": "LargeCentre" },
+    { "value": "Cost/Resources/wood",          "add":      100,    "affects": "LargeCentre" },
+    { "value": "Cost/Resources/stone",         "add":      100,    "affects": "LargeCentre" },
+    { "value": "GarrisonHolder/Max",           "add":       10,    "affects": "LargeCentre" },
+    { "value": "Health/Max",                   "multiply":   1.2,  "affects": "LargeCentre" },
+    { "value": "TerritoryInfluence/Radius",    "multiply":   1.2,  "affects": "LargeCentre" },
+    { "value": "Cost/BuildTime",               "multiply":   1.15, "affects": "Temple"      },
+    { "value": "Health/Max",                   "multiply":   1.15, "affects": "Temple"      }
   ],
   "requirements": { "civ": "sele" },
-  "tooltip": "Seleucid temples +25% health."
+  "tooltip": "Temples +15% build time, +15% health."
 }
