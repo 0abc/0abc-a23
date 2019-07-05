@@ -359,7 +359,7 @@ There are four damage types (crush, hack, pierce, thrust)
     * merchant ships and traders −15% training time.
 * **Gauls**:
   * *Celtic Architecture*:
-    * centres 0 stone cost, +100% wood cost, −20% build time, −20% health;
+    * centres 0 stone cost, +150% wood cost, −20% build time, −20% health, −10% territory influence radius;
     * economic structures −15% build time, −15% health;
     * fortresses −50% stone cost, +100% wood cost;
     * military structures −20% build time, −20% health;
@@ -382,7 +382,7 @@ There are four damage types (crush, hack, pierce, thrust)
     * siege engines −15% construction time.
 * **Mauryas**:
   * *Indian Architecture*:
-    * centres 0 stone cost, +100% wood cost, +5 population bonus, +10 garrison capacity;
+    * centres 0 stone cost, +200% wood cost, +5 population bonus, +10 garrison capacity;
     * economic structures −10% wood cost, −10% build time, −10% health;
     * city walls 0 stone cost, +200% wood cost, −25% build time, −25% health;
     * temples 0 stone cost, +300% wood cost, −20% build time, −20% health.

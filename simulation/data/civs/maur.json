@@ -49,7 +49,7 @@
 		{
 			"Name": "Indian Architecture",
 			"History": "Mauryan structures were typically made out of bamboo or wood.",
-			"Description": "Centres 0 stone cost, +100% wood cost, +5 population bonus, +10 garrison capacity. Economic structures −10% wood cost, build time, and health. City walls 0 stone cost, +200% wood cost, −25% build time, −25% health. Temples 0 stone cost, +300% wood cost, −20% build time, −20% health."
+			"Description": "Centres 0 stone cost, +200% wood cost, +5 population bonus, +10 garrison capacity. Economic structures −10% wood cost, build time, and health. City walls 0 stone cost, +200% wood cost, −25% build time, −25% health. Temples 0 stone cost, +300% wood cost, −20% build time, −20% health."
 		},
 		{
 			"Name": "Indian Elephants",

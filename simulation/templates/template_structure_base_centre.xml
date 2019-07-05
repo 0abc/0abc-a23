@@ -21,12 +21,13 @@
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>450</BuildTime>
+    <BuildTime>400</BuildTime>
     <PopulationBonus>10</PopulationBonus>
     <Resources>
-      <food>300</food>
-      <stone>300</stone>
-      <wood>300</wood>
+      <food>200</food>
+      <metal>200</metal>
+      <stone>400</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Health>

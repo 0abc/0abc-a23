@@ -4,8 +4,6 @@
   "genericName": "Village Phase",
   "icon": "village_phase.png",
   "modifications": [
-    { "value": "Cost/Resources/food",          "add":      100  },
-    { "value": "Cost/Resources/metal",         "add":      100  },
     { "value": "Health/Max",                   "multiply": 1.15 },
     { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
     { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
