@@ -4,11 +4,11 @@
   "genericName": "Village Phase",
   "icon": "village_phase.png",
   "modifications": [
-    { "value": "Health/Max",                   "multiply": 1.15 },
+    { "value": "Capturable/RegenRate",         "add":      5    },
     { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
     { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
     { "value": "TerritoryInfluence/Radius",    "multiply": 1.25 }
   ],
   "soundComplete": "interface/alarm/alarm_phase.xml",
-  "tooltip": "Advance to Village Phase, which unlocks more structures and units. Centres +25% territory influence radius and +15% health. Also increase food upkeep and silver income."
+  "tooltip": "Advance to Village Phase, which unlocks more structures and units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +25% territory influence radius."
 }

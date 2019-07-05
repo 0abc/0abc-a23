@@ -3,7 +3,7 @@
   "autoResearch": true,
   "genericName": "Syrian Architecture",
   "modifications": [
-    { "value": "Capturable/CapturePoints",     "multiply":   1.2,  "affects": "LargeCentre" },
+    { "value": "Capturable/CapturePoints",     "multiply":   1.25, "affects": "LargeCentre" },
     { "value": "Cost/BuildTime",               "multiply":   1.25, "affects": "LargeCentre" },
     { "value": "Cost/PopulationBonus",         "add":        5,    "affects": "LargeCentre" },
     { "value": "Cost/Resources/food",          "multiply":   1.25, "affects": "LargeCentre" },
