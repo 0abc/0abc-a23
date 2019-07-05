@@ -46,9 +46,9 @@
   "CivBonuses":
   [
 		{
-			"Name": "Greek Architecture",
+			"Name": "Syrian Architecture",
 			"History": "Greek structures were made out of wood, fired bricks, or stone.",
-			"Description": "Civic structures +20% health."
+			"Description": "Temples +20% health and build time."
 		},
 		{
 			"Name": "Near Eastern Archers",
@@ -69,10 +69,10 @@
   ],
   "StartEntities":
   [
-    { "Template": "structures/sele/centre" },
+    { "Template": "structures/sele/centre_large" },
     { "Template": "units/sele/support_healer" },
     { "Template": "units/sele/infantry_pikeman", "Count": 5 },
-    { "Template": "units/sele/cavalry_javelineer" },
+    { "Template": "units/sele/cavalry_lancer_champion" },
     { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":

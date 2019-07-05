@@ -73,7 +73,7 @@
     { "Template": "structures/ptol/centre" },
     { "Template": "units/ptol/support_healer" },
     { "Template": "units/ptol/infantry_pikeman", "Count": 5 },
-    { "Template": "units/ptol/cavalry_spearman" },
+    { "Template": "units/ptol/cavalry_spearman_champion" },
     { "Template": "gaia/fauna_goat", "Count": 4 }
   ],
   "Formations":

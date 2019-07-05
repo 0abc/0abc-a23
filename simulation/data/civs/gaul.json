@@ -79,7 +79,7 @@
     { "Template": "structures/gaul/centre" },
     { "Template": "units/gaul/support_healer" },
     { "Template": "units/gaul/infantry_swordsman", "Count": 5 },
-    { "Template": "units/gaul/cavalry_javelineer" },
+    { "Template": "units/gaul/cavalry_spearman_champion" },
     { "Template": "gaia/fauna_pig", "Count": 2 }
   ],
   "Formations":

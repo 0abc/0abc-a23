@@ -49,7 +49,7 @@
 		{
 			"Name": "Greek Architecture",
 			"History": "Greek structures were made out of wood, fired bricks, or stone.",
-			"Description": "Civic structures +20% health."
+			"Description": "Temples +25% health and build time."
 		},
 		{
 			"Name": "Macedonian Engineers",
@@ -73,7 +73,7 @@
     { "Template": "structures/mace/centre" },
     { "Template": "units/mace/support_healer" },
     { "Template": "units/mace/infantry_pikeman", "Count": 5 },
-    { "Template": "units/mace/cavalry_lancer" },
+    { "Template": "units/mace/cavalry_lancer_champion" },
     { "Template": "gaia/fauna_sheep", "Count": 3 }
   ],
   "Formations":
