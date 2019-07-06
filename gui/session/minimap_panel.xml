@@ -6,7 +6,7 @@
   sprite="mapPanel"
 >
   <!-- Minimap -->
-  <object size="8 8 100%-8 100%-8" type="minimap" z="20">
+  <object size="4 4 100%-4 100%-4" type="minimap" z="20">
     <action on="WorldClick">handleMinimapEvent(arguments[0]);</action>
   </object>
   <object

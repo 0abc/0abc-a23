@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Displays buttons for the most important units, e.g. catafalques and heroes. -->
-<object name="panelEntityPanel" size="0 36 50 93">
-  <repeat count="16" var="n">
-    <object name="panelEntityButton[n]" size="0 0 50 50" type="button" hidden="true" style="iconButton" tooltip_style="sessionToolTip">
-      <object name="panelEntityImage[n]" size="5 5 100%-5 100%-5" type="image" ghost="true"/>
-      <object name="panelEntityHitOverlay[n]" hidden="true" type="image" ghost="true" size="5 5 100%-5 100%-5"/>
+<object name="panelEntityPanel" size="0 36 50 84">
+  <repeat count="20" var="n">
+    <object name="panelEntityButton[n]" size="0 0 48 48" type="button" hidden="true" style="iconButton" tooltip_style="sessionToolTip">
+      <object name="panelEntityImage[n]" size="4 4 100%-4 100%-4" type="image" ghost="true"/>
+      <object name="panelEntityHitOverlay[n]" hidden="true" type="image" ghost="true" size="4 4 100%-4 100%-4"/>
       <!-- Health bar -->
       <object size="3 100%-7 100%-3 100%-2" name="panelEntityHealthSection[n]" ghost="true">
         <object size="0 0 100% 5" name="panelEntityHealth[n]" type="image" ghost="true">
