@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_gaia_fauna">
   <Footprint>
-    <Height>2.0</Height>
-    <Square width="1.9" depth="3.8"/>
+    <Height>2</Height>
+    <Square width="2" depth="6"/>
   </Footprint>
   <Health>
     <Max>60</Max>

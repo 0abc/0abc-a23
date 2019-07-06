@@ -39,7 +39,7 @@ Player.prototype.Serialize = function()
 /**
  * Which units will be shown with special icons at the top.
  */
-var panelEntityClasses = "Hero Relic";
+var panelEntityClasses = "Hero Relic Wonder";
 
 Player.prototype.Init = function()
 {
