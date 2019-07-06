@@ -29,7 +29,7 @@
       structures/{civ}/temple
       structures/{civ}/wonder
 
-      structures/{civ}/outpost
+      structures/outpost
       structures/{civ}/small_tower
       structures/{civ}/large_tower
       structures/{civ}/fortress
