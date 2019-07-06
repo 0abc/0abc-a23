@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Ptolemaic Fortress">
+    <variant frequency="1" name="Ptolemaic Fortress">
       <mesh>structural/ptol_civic_centre.dae</mesh>
       <props>
         <prop actor="props/structures/ptolemies/civic_centre_paintings.xml" attachpoint="root"/>

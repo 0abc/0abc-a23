@@ -2,37 +2,34 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="House A">
-      <mesh>structural/kart_apt_1.dae</mesh>
+    <variant frequency="10" name="House A">
+      <mesh>structural/kart_house_a.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/carthaginians/house_a.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/ao/kart_apt_1_AO.png" name="aoTex"/>
+        <texture file="structural/ao/kart_house_a_AO.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="House B">
-      <mesh>structural/kart_apt_2.dae</mesh>
+    <variant frequency="10" name="House B">
+      <mesh>structural/kart_house_b.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/carthaginians/house_b.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/ao/kart_apt_2_AO.png" name="aoTex"/>
+        <texture file="structural/ao/kart_house_b_AO.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="House C">
-      <mesh>structural/kart_apt_3.dae</mesh>
+    <variant frequency="10" name="House C">
+      <mesh>structural/kart_house_c.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/carthaginians/house_c.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/ao/kart_apt_3_AO.png" name="aoTex"/>
+        <texture file="structural/ao/kart_house_c_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -67,9 +64,9 @@
     </variant>
     <variant name="death">
       <props>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="dust"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="dust"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="dust"/>
       </props>
       <textures>
         <texture file="structural/kart_struct_damaged_heavy.png" name="baseTex"/>

@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Settlement">
+    <variant frequency="1" name="Settlement">
       <animations>
         <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
       </animations>
@@ -34,7 +34,6 @@
         <prop actor="props/special/common/garrison_flag_ptol.xml" attachpoint="garrisoned2"/>
         <prop actor="props/special/common/garrison_flag_ptol.xml" attachpoint="garrisoned3"/>
         <prop actor="props/special/common/garrison_flag_ptol.xml" attachpoint="garrisoned4"/>
-		
       </props>
     </variant>
   </group>

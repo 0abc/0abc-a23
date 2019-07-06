@@ -107,7 +107,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/maur/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/maur/infantry_sabreman",
+    "skirmish/units/default_infantry_melee_b": "units/maur/infantry_swordsman",
     "skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer",
     "skirmish/units/special_starting_unit": "units/maur/support_elephant",
     "skirmish/structures/default_house_5": "structures/{civ}/house"

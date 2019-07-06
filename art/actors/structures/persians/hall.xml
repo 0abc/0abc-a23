@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="sb2">
+    <variant frequency="1" name="Hall">
       <mesh>structural/pers_sb2.dae</mesh>
       <textures>
         <texture file="structural/pers_struct.png" name="baseTex"/>
