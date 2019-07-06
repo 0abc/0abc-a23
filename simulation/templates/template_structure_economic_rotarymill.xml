@@ -13,17 +13,18 @@
     <CapturePoints>300</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>100</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
+      <food>100</food>
       <stone>100</stone>
-      <wood>200</wood>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1500</Max>
+    <Max>900</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">RotaryMill</Classes>

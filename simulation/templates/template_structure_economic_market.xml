@@ -13,12 +13,12 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>600</CapturePoints>
+    <CapturePoints>500</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>100</BuildTime>
     <Resources>
-      <wood>300</wood>
+      <wood>250</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>

@@ -28,6 +28,7 @@
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <Tooltip>Very large vision range.</Tooltip>
+    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
   </Identity>
   <Position>
     <Floating>true</Floating>
@@ -35,7 +36,8 @@
   </Position>
   <ResourceTrickle>
     <Rates>
-      <wood>-0.25</wood>
+      <food>-0.04</food>
+      <wood>-0.20</wood>
     </Rates>
   </ResourceTrickle>
   <Sound>

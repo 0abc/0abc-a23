@@ -13,7 +13,7 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>300</CapturePoints>
+    <CapturePoints>200</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>40</BuildTime>
@@ -25,7 +25,7 @@
     <Max>4</Max>
   </GarrisonHolder>
   <Health>
-    <Max>700</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">DropsiteWood DropsiteStone Storehouse</Classes>

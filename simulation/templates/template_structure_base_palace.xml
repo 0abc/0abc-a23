@@ -12,13 +12,14 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
+    <DefaultArrowCount>3</DefaultArrowCount>
   </BuildingAI>
   <BuildRestrictions>
     <Category>Palace</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>2000</CapturePoints>
+    <CapturePoints>1800</CapturePoints>
+    <RegenRate>15.0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>

@@ -12,16 +12,16 @@
     <CapturePoints>600</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
       <wood>200</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>5</Max>
+    <Max>12</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1800</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Dock NavalMarket</Classes>

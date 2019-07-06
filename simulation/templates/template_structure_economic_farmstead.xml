@@ -13,7 +13,7 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>300</CapturePoints>
+    <CapturePoints>250</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>50</BuildTime>
@@ -28,7 +28,7 @@
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
-    <Max>900</Max>
+    <Max>750</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">DropsiteFood Farmstead</Classes>

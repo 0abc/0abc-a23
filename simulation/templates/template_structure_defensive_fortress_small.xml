@@ -6,7 +6,7 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>450</BuildTime>
+    <BuildTime>420</BuildTime>
     <Resources>
       <stone>600</stone>
       <wood>300</wood>
@@ -16,6 +16,6 @@
     <Max>30</Max>
   </GarrisonHolder>
   <Health>
-    <Max>4500</Max>
+    <Max>4200</Max>
   </Health>
 </Entity>

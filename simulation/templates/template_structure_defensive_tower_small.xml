@@ -10,14 +10,15 @@
   </BuildingAI>
   <Capturable>
     <CapturePoints>500</CapturePoints>
+    <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>90</BuildTime>
     <Resources>
       <food>30</food>
       <metal>20</metal>
-      <stone>50</stone>
-      <wood>50</wood>
+      <stone>0</stone>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -57,9 +58,10 @@
   <Upgrade>
     <Tower>
       <Cost>
-        <food>40</food>
-        <stone>80</stone>
-        <wood>80</wood>
+        <food>45</food>
+        <metal>30</metal>
+        <stone>100</stone>
+        <wood>25</wood>
       </Cost>
       <Entity>structures/{civ}/large_tower</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>

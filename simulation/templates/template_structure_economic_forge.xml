@@ -7,10 +7,10 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>500</CapturePoints>
+    <CapturePoints>400</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>80</BuildTime>
     <Resources>
       <stone>100</stone>
       <wood>200</wood>
