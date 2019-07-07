@@ -1131,7 +1131,27 @@ function displayPanelEntities()
     if (panelEnt.capture)
     {
       Engine.GetGUIObjectByName("panelEntityCaptureSection[" + slot + "]").hidden = false;
-      updateGUIStatusBar("panelEntityCaptureBar[" + slot + "]", panelEnt.capture.currentCapturePoints[panelEnt.player], panelEnt.capture.maxCapturePoints);
+
+      let setCaptureBarPart = function(playerID, startSize) {
+        let unitCaptureBar = Engine.GetGUIObjectByName("panelEntity[" + slot + "].CaptureBar[" + playerID + "]");
+        let sizeObj = unitCaptureBar.size;
+        sizeObj.rleft = startSize;
+
+        let size = 100 * Math.max(0, Math.min(1, panelEnt.capture.currentCapturePoints[playerID] / panelEnt.capture.maxCapturePoints));
+        sizeObj.rright = startSize + size;
+        unitCaptureBar.size = sizeObj;
+        unitCaptureBar.sprite = "color:" + rgbToGuiColor(g_DisplayedPlayerColors[playerID], 128);
+        unitCaptureBar.hidden = false;
+        return startSize + size;
+      };
+
+      // first handle the owner's points, to keep those points on the left for clarity
+      let size = setCaptureBarPart(panelEnt.player, 0);
+
+      for (let i in panelEnt.capture.currentCapturePoints)
+        if (i != panelEnt.player)
+          size = setCaptureBarPart(i, size);
+
     }
 
     if (panelEnt.slot === undefined)
