@@ -224,15 +224,14 @@ function GetEntityState(entId)
   return g_EntityStates[entId];
 }
 
-function GetTemplateData(templateName)
+function GetTemplateData(templateName, templatePlayer = undefined)
 {
   if (!(templateName in g_TemplateData))
   {
-    let template = Engine.GuiInterfaceCall("GetTemplateData", templateName);
+    let template = Engine.GuiInterfaceCall("GetTemplateData", {"templateName": templateName, "templatePlayer": templatePlayer});
     translateObjectKeys(template, ["specific", "generic", "tooltip"]);
     g_TemplateData[templateName] = deepfreeze(template);
   }
-
   return g_TemplateData[templateName];
 }
 
