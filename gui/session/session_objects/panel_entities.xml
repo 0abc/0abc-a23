@@ -6,11 +6,23 @@
       <object name="panelEntityImage[n]" size="4 4 100%-4 100%-4" type="image" ghost="true"/>
       <object name="panelEntityHitOverlay[n]" hidden="true" type="image" ghost="true" size="4 4 100%-4 100%-4"/>
       <!-- Health bar -->
-      <object size="3 100%-7 100%-3 100%-2" name="panelEntityHealthSection[n]" ghost="true">
+      <object size="3 100%-7 100%-3 100%-2" name="panelEntityHealthSection[n]" hidden="true" ghost="true">
         <object size="0 0 100% 5" name="panelEntityHealth[n]" type="image" ghost="true">
           <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
           <object type="image" sprite="healthBackground" ghost="true"/>
           <object type="image" sprite="healthForeground" ghost="true" name="panelEntityHealthBar[n]"/>
+          <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+        </object>
+      </object>
+      <!-- Capture bar -->
+      <object size="3 100% 100%-3 100%+5" name="panelEntityCaptureSection[n]" hidden="true" ghost="true">
+        <object size="0 0 100% 5" name="panelEntityCapture[n]" type="image" ghost="true">
+          <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+          <!-- <repeat count="9"> -->
+          <!--   <object type="image" sprite="playerColorBackground" ghost="true" name="panelEntityCaptureBar[n][p]" hidden="true"/> -->
+          <!-- </repeat> -->
+          <object type="image" sprite="captureBackground" ghost="true"/>
+          <object type="image" sprite="captureForeground" ghost="true" name="panelEntityCaptureBar[n]"/>
           <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
         </object>
       </object>

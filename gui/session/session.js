@@ -1041,19 +1041,38 @@ function updatePanelEntities()
     {
       panelEnt = {
         "ent": ent,
+        "player": panelEntState.player,
         "tooltip": undefined,
-        "sprite": "stretched:session/portraits/" + template.icon,
-        "maxHitpoints": undefined,
-        "currentHitpoints": panelEntState.hitpoints,
-        "previousHitpoints": undefined
+        "sprite": "stretched:session/portraits/" + template.icon
       };
+      if (panelEntState.hitpoints)
+        panelEnt.health = {
+          "maxHitpoints": undefined,
+          "currentHitpoints": panelEntState.hitpoints,
+          "previousHitpoints": undefined
+        };
+      if (panelEntState.capturePoints)
+        panelEnt.capture = {
+          "maxCapturePoints": undefined,
+          "currentCapturePoints": panelEntState.capturePoints,
+          "previousCapturePoints": undefined
+        };
       g_PanelEntities.push(panelEnt);
     }
 
     panelEnt.tooltip = createPanelEntityTooltip(panelEntState, template);
-    panelEnt.previousHitpoints = panelEnt.currentHitpoints;
-    panelEnt.currentHitpoints = panelEntState.hitpoints;
-    panelEnt.maxHitpoints = panelEntState.maxHitpoints;
+    if (panelEnt.health)
+      panelEnt.health = {
+        "previousHitpoints": panelEnt.health.currentHitpoints,
+        "currentHitpoints": panelEntState.hitpoints,
+        "maxHitpoints": panelEntState.maxHitpoints
+      };
+    if (panelEnt.capture)
+      panelEnt.capture = {
+        "previousCapturePoints": panelEnt.capture.currentCapturePoints,
+        "currentCapturePoints": panelEntState.capturePoints,
+        "maxCapturePoints": panelEntState.maxCapturePoints
+      };
   }
 
   let panelEntIndex = ent => g_PanelEntityOrder.findIndex(entClass =>
@@ -1069,6 +1088,7 @@ function createPanelEntityTooltip(panelEntState, template)
   return [
     getPanelEntNameTooltip,
     getCurrentHealthTooltip,
+    getCurrentCaptureTooltip,
     getAttackTooltip,
     getArmorTooltip,
     getEntityTooltip,
@@ -1102,7 +1122,17 @@ function displayPanelEntities()
     let panelEntButton = Engine.GetGUIObjectByName("panelEntityButton[" + slot + "]");
     panelEntButton.tooltip = panelEnt.tooltip;
 
-    updateGUIStatusBar("panelEntityHealthBar[" + slot + "]", panelEnt.currentHitpoints, panelEnt.maxHitpoints);
+    if (panelEnt.health)
+    {
+      Engine.GetGUIObjectByName("panelEntityHealthSection[" + slot + "]").hidden = false;
+      updateGUIStatusBar("panelEntityHealthBar[" + slot + "]", panelEnt.health.currentHitpoints, panelEnt.health.maxHitpoints);
+    }
+
+    if (panelEnt.capture)
+    {
+      Engine.GetGUIObjectByName("panelEntityCaptureSection[" + slot + "]").hidden = false;
+      updateGUIStatusBar("panelEntityCaptureBar[" + slot + "]", panelEnt.capture.currentCapturePoints[panelEnt.player], panelEnt.capture.maxCapturePoints);
+    }
 
     if (panelEnt.slot === undefined)
     {
@@ -1114,7 +1144,12 @@ function displayPanelEntities()
     }
 
     // If the health of the panelEnt changed since the last update, trigger the animation.
-    if (panelEnt.previousHitpoints > panelEnt.currentHitpoints)
+    if (panelEnt.health && panelEnt.health.previousHitpoints > panelEnt.health.currentHitpoints)
+      startColorFade("panelEntityHitOverlay[" + slot + "]", 100, 0,
+        colorFade_attackUnit, true, smoothColorFadeRestart_attackUnit);
+
+    // If the capture points of the panelEnt changed since the last update, trigger the animation.
+    if (panelEnt.capture && panelEnt.capture.previousCapturePoints[panelEnt.player] > panelEnt.capture.currentCapturePoints[panelEnt.player])
       startColorFade("panelEntityHitOverlay[" + slot + "]", 100, 0,
         colorFade_attackUnit, true, smoothColorFadeRestart_attackUnit);
 
