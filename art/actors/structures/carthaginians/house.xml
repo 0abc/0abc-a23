@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="10" name="House A">
+    <variant frequency="1" name="House A">
       <mesh>structural/kart_house_a.dae</mesh>
       <props>
         <prop actor="props/structures/carthaginians/house_a.xml" attachpoint="root"/>
@@ -12,7 +12,7 @@
         <texture file="structural/ao/kart_house_a_AO.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="10" name="House B">
+    <variant frequency="1" name="House B">
       <mesh>structural/kart_house_b.dae</mesh>
       <props>
         <prop actor="props/structures/carthaginians/house_b.xml" attachpoint="root"/>
@@ -22,7 +22,7 @@
         <texture file="structural/ao/kart_house_b_AO.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="10" name="House C">
+    <variant frequency="1" name="House C">
       <mesh>structural/kart_house_c.dae</mesh>
       <props>
         <prop actor="props/structures/carthaginians/house_c.xml" attachpoint="root"/>

@@ -58,7 +58,7 @@
         <texture file="structural/ao/hele_house_d.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hellenes House E">
+    <variant frequency="1" name="House E">
       <mesh>structural/hele_house_e.dae</mesh>
       <props>
         <prop actor="props/structures/hellenes/house_e_shields.xml" attachpoint="root"/>

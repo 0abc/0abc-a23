@@ -80,7 +80,7 @@ Changes include, but are not limited to:
 * removed loot and looter, because they favour the victors, who are already at an advantage
 * increased unit training and technology research times
 * a greater variety of aura range visualization markers
-* disabled unit promotion, champions, heroes, team bonuses; they might be reintroduced at a later stage
+* disabled unit promotion, heroes, team bonuses; they might be reintroduced at a later stage
 * all civilization bonuses and penalties are replaced with new ones
 * numerous minor tweaks and balances, most of which will probably go unnoticed
 
@@ -99,27 +99,21 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 
 ### Structures
 * economic structures can be constructed in neutral territory
-* dropsites are just that: dropsites; all economic technologies are moved to the market, which is now available in the village phase
-* town phase requires a market and five houses, city phase a temple and ten houses
-* centres can be part of trade routes
+* dropsites are just that: dropsites; all gather technologies are moved to the forge, which is now available in the village phase
 * walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
 * fortresses have a territory root, are purely defensive structures, have somewhat more health, but no longer train any units
-* all factions have cavalry stables (village) and siege workshops (town); most have separate economic docks (village) and military shipyards (town); many have elephant stables (city)
+* all factions have cavalry stables (village) and arsenals (town); most have separate economic docks (village) and military shipyards (town); many have elephant stables (city)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Base
-*(can be both captured and destroyed)*
 * centre *(village; neutral and own territory; conquest critical)*: territory root; increase population limit; food, wood, stone dropsite; train worker-infantry 
 * house *(village; own territory; conquest critical)*: increase population limit; train women
 * palace *(city; own territory)*: territory root
-* fortress *(city; own territory)*: territory root; shoots arrows
-* naval base *(city; allied, neutral, own territory)*: quickly construct and repair galleys
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Civic
-*(can only be captured)*
 * temple *(town; own territory)*: heal nearby units; heal garrisoned units; train healers; research healing technologies
 * pillar *(town; own territory)*: improve nearby units; not garrisonable
 * theatre *(city; own territory)*: reduce unit training times
@@ -130,10 +124,10 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Defensive
-*(can only be destroyed)*
 * outpost *(village; neutral and own territory)*
 * small tower *(village; own territory)*: shoots arrows
 * large tower *(town; own territory)*: shoots arrows
+* fortress *(city; own territory)*: territory root; shoots arrows
 * palisade *(village; allied, enemy, neutral, own territory)*: not garrisonable
 * siege walls *(town; enemy, neutral, own territory)*
 * city walls *(city; neutral, own territory)*
@@ -141,7 +135,6 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Economic
-*(can only be captured)*
 * farm *(village; neutral and own territory)*: harvest grain
 * farmstead *(village; neutral and own territory)*: food dropsite
 * storehouse *(village; neutral and own territory)*: wood and stone dropsite
@@ -153,7 +146,6 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Military
-*(can be both captured and destroyed)*
 * stable *(village; own territory; conquest critical)*: cavalry
 * hall *(town; own territory; conquest critical)*: infantry mercenaries
 * arsenal *(town; own territory; conquest critical)*: chariotry, crossbowmen, siege engines
@@ -165,7 +157,6 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 #### Resource
-*(can only be captured)*
 * farm *(village; neutral and own territory)*: harvest grain
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
@@ -433,8 +424,8 @@ On random maps, all factions start with:
   * 2 pigs: Gauls, Rome <!-- brit, gaul, rome -->
   * 1 cow: Mauryas <!-- maur -->
 * extra:
-<!--  * 1 war dog: Britons-->
   * 1 worker elephant: Mauryas <!-- maur -->
+<!--  * 1 war dog: Britons-->
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

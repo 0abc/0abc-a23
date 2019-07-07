@@ -121,7 +121,7 @@
   "SkirmishReplacements":
   {
     "skirmish/units/default_cavalry": "units/sele/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/sele/infantry_spearman",
+    "skirmish/units/default_infantry_melee_b": "units/sele/infantry_pikeman",
     "skirmish/units/default_infantry_ranged_b": "units/sele/infantry_javelineer",
     "skirmish/structures/default_house_10": "structures/{civ}/house"
   },

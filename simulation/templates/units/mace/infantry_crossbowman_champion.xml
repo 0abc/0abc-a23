@@ -4,7 +4,7 @@
   <Identity>
     <Civ>mace</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
-    <Icon>units/mace_infantry_crossbowman_c.png</Icon>
+    <Icon>units/athen_infantry_crossbowman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_crossbowman</SelectionGroupName>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Classes datatype="tokens">Celt</Classes>
+    <Icon>units/gaul_infantry_archer_b.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/gaul_infantry_archer</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/infantry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

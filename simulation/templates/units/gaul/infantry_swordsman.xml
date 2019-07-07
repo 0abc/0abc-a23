@@ -3,12 +3,12 @@
   <Identity>
     <Civ>gaul</Civ>
     <Classes datatype="tokens">Celt</Classes>
-    <Icon>units/ptol_infantry_swordsman_b.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/cart_infantry_swordsman_b.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_swordsman</SelectionGroupName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_swordsman_b.xml</Actor>
+    <Actor>units/carthaginians/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

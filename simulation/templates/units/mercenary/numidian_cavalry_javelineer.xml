@@ -8,6 +8,6 @@
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/carthaginians/cavalry_javelinist_e_m.xml</Actor>
   </VisualActor>
 </Entity>

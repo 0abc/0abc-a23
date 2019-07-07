@@ -4,7 +4,7 @@
     <Civ>gaul</Civ>
     <Classes datatype="tokens">Celt</Classes>
     <Icon>units/celt_infantry_slinger_b.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gaul/infantry_slinger</SelectionGroupName>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>

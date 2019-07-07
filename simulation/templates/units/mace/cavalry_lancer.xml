@@ -7,7 +7,7 @@
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_lancer</SelectionGroupName>
-    <SpecificName>Thessalian Lancer</SpecificName>
+    <SpecificName>Prodromos</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_a_m.xml</Actor>

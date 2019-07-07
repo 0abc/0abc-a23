@@ -12,5 +12,6 @@
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_javelinist_a.xml</Actor>
+    <Actor>units/athenians/infantry_archer_c.xml</Actor>
   </VisualActor>
 </Entity>

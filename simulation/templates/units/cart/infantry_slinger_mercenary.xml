@@ -11,6 +11,6 @@
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_slinger_e.xml</Actor>
+    <Actor>units/carthaginians/infantry_slinger_a.xml</Actor>
   </VisualActor>
 </Entity>

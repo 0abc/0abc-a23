@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
-    <Icon>units/sele_infantry_pikeman_b.png</Icon>
+    <Icon>units/ptol_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman</SelectionGroupName>
@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/seleucids/infantry_pikeman_b.xml</Actor>
+    <Actor>units/ptolemies/infantry_pikeman_e.xml</Actor>
   </VisualActor>
 </Entity>

@@ -11,6 +11,6 @@
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/seleucids/infantry_pikeman_a.xml</Actor>
+    <Actor>units/seleucids/infantry_pikeman_b.xml</Actor>
   </VisualActor>
 </Entity>

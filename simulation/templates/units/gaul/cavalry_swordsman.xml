@@ -4,7 +4,7 @@
     <Civ>gaul</Civ>
     <Classes datatype="tokens">Celt</Classes>
     <Icon>units/celt_cavalry_swordsman_b.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gaul_cavalry_swordsman_b</SelectionGroupName>
   </Identity>
   <VisualActor>

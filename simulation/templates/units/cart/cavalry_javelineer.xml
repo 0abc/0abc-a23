@@ -6,7 +6,7 @@
     <Icon>units/cart_cavalry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_javelineer</SelectionGroupName>
-    <SpecificName>Libyan Cavalry</SpecificName>
+    <SpecificName>Libyan Horseman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_javelinist_b_m.xml</Actor>

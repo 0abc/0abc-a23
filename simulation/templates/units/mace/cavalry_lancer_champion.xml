@@ -10,7 +10,6 @@
     <SpecificName>Companion Cavalry</SpecificName>
     <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
-  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_c_m.xml</Actor>
   </VisualActor>

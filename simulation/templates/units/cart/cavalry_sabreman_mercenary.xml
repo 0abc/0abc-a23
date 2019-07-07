@@ -6,7 +6,7 @@
     <Icon>units/cart_cavalry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/cavalry_sabreman_mercenary</SelectionGroupName>
-    <SpecificName>Iberian Mercenary Cavalry</SpecificName>
+    <SpecificName>Iberian Horseman</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
