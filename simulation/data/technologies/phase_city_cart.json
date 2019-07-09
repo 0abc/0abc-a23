@@ -5,15 +5,14 @@
   "genericName": "City Phase (Carthage)",
   "icon": "city_phase.png",
   "modifications": [
-    { "value": "Capturable/RegenRate",         "add":      5    },
-    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
-    { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
-    { "value": "TerritoryInfluence/Radius",    "multiply": 1.25 }
+    { "value": "Capturable/RegenRate",         "add":      5   },
+    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2 },
+    { "value": "ResourceTrickle/Rates/silver", "add":      0.2 },
+    { "value": "TerritoryInfluence/Radius",    "multiply": 1.2 }
   ],
   "replaces": [ "phase_city" ],
   "requirements": { "all": 
     [
-      { "entity": { "class": "Farmstead",     "number":  3 } },
       { "entity": { "class": "Forge",         "number":  1 } },
       { "entity": { "class": "House",         "number": 10 } },
       { "entity": { "class": "BarterMarket",  "number":  1 } },
@@ -24,5 +23,5 @@
   "researchTime": 120,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_town_generic",
-  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +25% territory influence radius. Also allows fortifying Carthaginian centres and houses."
+  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +20% territory influence radius. Also allows fortifying Carthaginian centres and houses."
 }

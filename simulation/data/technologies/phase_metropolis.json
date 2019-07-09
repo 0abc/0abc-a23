@@ -5,14 +5,13 @@
   "genericName": "Metropolis Phase",
   "icon": "imperial_phase.png",
   "modifications": [
-    { "value": "Capturable/RegenRate",         "add":      5    },
-    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
-    { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
-    { "value": "TerritoryInfluence/Radius",    "multiply": 1.25 }
+    { "value": "Capturable/RegenRate",         "add":      5   },
+    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2 },
+    { "value": "ResourceTrickle/Rates/silver", "add":      0.2 },
+    { "value": "TerritoryInfluence/Radius",    "multiply": 1.2 }
   ],
   "requirements": { "all": 
     [
-      { "entity": { "class": "Farmstead",     "number":  6 } },
       { "entity": { "class": "Forge",         "number":  1 } },
       { "entity": { "class": "House",         "number": 20 } },
       { "entity": { "class": "BarterMarket",  "number":  1 } },
@@ -30,5 +29,5 @@
   "researchTime": 180,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_city",
-  "tooltip": "Advance to Metropolis Phase, which unlocks more structures and units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +25% territory influence radius."
+  "tooltip": "Advance to Metropolis Phase, which unlocks more structures and units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +20% territory influence radius."
 }
