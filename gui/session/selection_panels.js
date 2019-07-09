@@ -243,8 +243,7 @@ g_SelectionPanels.Construction = {
       getEntityNamesFormatted,
       getVisibleEntityClassesFormatted,
       getAurasTooltip,
-      getEntityTooltip,
-      getEntityCostTooltip
+      getEntityTooltip
     ].map(func => func(template));
     tooltips.push(
 			getEntityCostTooltip(template, undefined, undefined, undefined, undefined, data.player),
