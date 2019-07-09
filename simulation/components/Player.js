@@ -84,7 +84,7 @@ Player.prototype.Init = function()
   let resCodes = Resources.GetCodes();
   for (let res of resCodes)
   {
-    this.resourceCount[res] = 300;
+    this.resourceCount[res] = 200;
     this.resourceNames[res] = Resources.GetResource(res).name;
   }
   // Trading goods probability in steps of 5
@@ -92,13 +92,10 @@ Player.prototype.Init = function()
   let quotient = Math.floor(20 / resTradeCodes.length);
   let remainder = 20 % resTradeCodes.length;
   for (let i in resTradeCodes)
-  {
-    let res = resTradeCodes[i];
     this.tradingGoods.push({
-      "goods": res,
+      "goods": resTradeCodes[i],
       "proba": 5 * (quotient + (+i < remainder ? 1 : 0))
     });
-  }
 };
 
 Player.prototype.SetPlayerID = function(id)
@@ -425,11 +422,11 @@ Player.prototype.GetTradingGoods = function()
 
 Player.prototype.SetTradingGoods = function(tradingGoods)
 {
-  let resCodes = Resources.GetCodes("tradable");
+  let resTradeCodes = Resources.GetCodes("tradable");
   let sumProba = 0;
   for (let resource in tradingGoods)
   {
-    if (resCodes.indexOf(resource) == -1 || tradingGoods[resource] < 0)
+    if (resTradeCodes.indexOf(resource) == -1 || tradingGoods[resource] < 0)
     {
       error("Invalid trading goods: " + uneval(tradingGoods));
       return;
@@ -863,17 +860,16 @@ Player.prototype.GetCheatTimeMultiplier = function()
 
 Player.prototype.TributeResource = function(player, amounts)
 {
-  var cmpPlayer = QueryPlayerIDInterface(player);
+  let cmpPlayer = QueryPlayerIDInterface(player);
   if (!cmpPlayer)
     return;
 
   if (this.state != "active" || cmpPlayer.state != "active")
     return;
 
+  let resTribCodes = Resources.GetCodes("tributable");
   for (let resCode in amounts)
-    if (Resources.GetCodes("tributable").indexOf(resCode) == -1 ||
-        !Number.isInteger(amounts[resCode]) ||
-        amounts[resCode] < 0)
+    if (resTribCodes.indexOf(resCode) == -1 || !Number.isInteger(amounts[resCode]) || amounts[resCode] < 0)
     {
       warn("Invalid tribute amounts: " + uneval(amounts));
       return;

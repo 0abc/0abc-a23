@@ -162,15 +162,16 @@ m.TradeManager.prototype.updateTrader = function(gameState, ent)
 m.TradeManager.prototype.setTradingGoods = function(gameState)
 {
   let tradingGoods = {};
-  for (let res of Resources.GetCodes("tradable"))
+  let resTradeCodes = Resources.GetCodes("tradable");
+  for (let res of resTradeCodes)
     tradingGoods[res] = 0;
   // first, try to anticipate future needs
   let stocks = gameState.ai.HQ.getTotalResourceLevel(gameState);
-  let mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState);
+  let mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState, "tradable");
   let wantedRates = gameState.ai.HQ.GetWantedGatherRates(gameState);
   let remaining = 100;
   let targetNum = this.Config.Economy.targetNumTraders;
-  for (let res in stocks)
+  for (let res in resTradeCodes)
   {
     if (res == "food")
       continue;
@@ -230,7 +231,8 @@ m.TradeManager.prototype.performBarter = function(gameState)
   let getBarterRate = (prices, buy, sell) => Math.round(100 * prices.sell[sell] / prices.buy[buy]);
 
   // loop through each missing resource checking if we could barter and help finishing a queue quickly.
-  for (let buy of Resources.GetCodes("barterable"))
+  let resBarterCodes = Resources.GetCodes("barterable");
+  for (let buy of resBarterCodes)
   {
     // Check if our rate allows to gather it fast enough
     if (needs[buy] == 0 || needs[buy] < rates[buy] * 30)
@@ -239,7 +241,7 @@ m.TradeManager.prototype.performBarter = function(gameState)
     // Pick the best resource to barter.
     let bestToSell;
     let bestRate = 0;
-    for (let sell of Resources.GetCodes("barterable"))
+    for (let sell of resBarterCodes)
     {
       if (sell == buy)
         continue;
@@ -291,11 +293,11 @@ m.TradeManager.prototype.performBarter = function(gameState)
   }
 
   // now do contingency bartering, selling food to buy finite resources (and annoy our ennemies by increasing prices)
-  if (available.food < 1000 || needs.food > 0)
+  if (available.food < 1000 || needs.food > 0 || resBarterCodes.indexOf("food") == -1)
     return false;
   let bestToBuy;
   let bestChoice = 0;
-  for (let buy of Resources.GetCodes("barterable"))
+  for (let buy of resBarterCodes)
   {
     if (buy == "food")
       continue;

@@ -36,7 +36,7 @@ Barter.prototype.Init = function()
 
 Barter.prototype.GetPrices = function(playerID)
 {
-  var prices = { "buy": {}, "sell": {} };
+  let prices = { "buy": {}, "sell": {} };
   let multiplier = QueryPlayerIDInterface(playerID).GetBarterMultiplier();
   for (let resource of Resources.GetCodes("barterable"))
   {
@@ -135,11 +135,11 @@ Barter.prototype.ExchangeResources = function(playerID, resourceToSell, resource
 
 Barter.prototype.ProgressTimeout = function(data)
 {
-  var needRestore = false;
+  let needRestore = false;
   for (let resource of Resources.GetCodes("barterable"))
   {
     // Calculate value to restore, it should be limited to [-DIFFERENCE_RESTORE; DIFFERENCE_RESTORE] interval
-    var differenceRestore = Math.min(this.DIFFERENCE_RESTORE, Math.max(-this.DIFFERENCE_RESTORE, this.priceDifferences[resource]));
+    let differenceRestore = Math.min(this.DIFFERENCE_RESTORE, Math.max(-this.DIFFERENCE_RESTORE, this.priceDifferences[resource]));
     differenceRestore = -differenceRestore;
     this.priceDifferences[resource] += differenceRestore;
     // If price difference still exists then set flag to run timer again
@@ -149,7 +149,7 @@ Barter.prototype.ProgressTimeout = function(data)
 
   if (!needRestore)
   {
-    var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+    let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
     cmpTimer.CancelTimer(this.restoreTimer);
     this.restoreTimer = undefined;
   }

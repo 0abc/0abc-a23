@@ -68,6 +68,7 @@ m.DiplomacyManager.prototype.tributes = function(gameState)
   this.nextTributeUpdate = gameState.ai.elapsedTime + 30;
   let totalResources = gameState.getResources();
   let availableResources = gameState.ai.queueManager.getAvailableResources(gameState);
+  let resTribCodes = Resources.GetCodes("tributable");
   let mostNeeded;
   for (let i = 1; i < gameState.sharedScript.playersData.length; ++i)
   {
@@ -78,7 +79,7 @@ m.DiplomacyManager.prototype.tributes = function(gameState)
     let allyPop = gameState.sharedScript.playersData[i].popCount;
     let tribute = {};
     let toSend = false;
-    for (let res in allyResources)
+    for (let res in resTribCodes)
     {
     // Do not send resources which are untributable
       if (Resources.GetCodes("tributable").indexOf(res) == -1)
@@ -100,7 +101,7 @@ m.DiplomacyManager.prototype.tributes = function(gameState)
         if (this.nextTributeRequest.has(res) && gameState.ai.elapsedTime < this.nextTributeRequest.get(res))
           continue;
         if (!mostNeeded)
-          mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState);
+          mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState, "tributable");
         for (let k = 0; k < 2; ++k)
         {
           if (mostNeeded[k].type == res && mostNeeded[k].wanted > 0)
