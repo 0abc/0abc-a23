@@ -1192,7 +1192,7 @@ GuiInterface.prototype.SetWallPlacementPreview = function(player, cmd)
       this.placementWallEntities[tpl] = {
         "numUsed": 0,
         "entities": [],
-        "templateData": this.GetTemplateData(player, tpl),
+        "templateData": this.GetTemplateData(player, {"templateName": tpl}),
       };
 
       // ensure that the loaded template data contains a wallPiece component

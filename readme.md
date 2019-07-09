@@ -680,7 +680,6 @@ On random maps, all factions start with:
 * AI: replace all hard-coded template file name paths with classes
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
-* capturable foundations
 * units should be able to have a garrison size greater than 1 (similar to population); e.g. cavalry occupies two garrison slots, elephants six
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
 * resource consumption for attacks; e.g. everytime a stone-thrower shoots, you pay 1 stone
