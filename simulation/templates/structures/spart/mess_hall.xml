@@ -5,7 +5,7 @@
     <Square width="20" depth="30"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4χ6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>spart</Civ>

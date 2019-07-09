@@ -674,16 +674,19 @@ On random maps, all factions start with:
 * swimming animations for crocodile
 * kid (young goat), lamb (young sheep), piglet (young pig), calf (young cow), foal (young horse)
 
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
 ### Features
 * AI: replace all hard-coded template file name paths with classes
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * capturable foundations
-* damage variance: instead of a fixed amount of damage, attack damage now varies from 50% to 150% of the defined value
 * units should be able to have a garrison size greater than 1 (similar to population); e.g. cavalry occupies two garrison slots, elephants six
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
 * resource consumption for attacks; e.g. everytime a stone-thrower shoots, you pay 1 stone
 * elevation bonus is taken into account for attack range visualization
 * elevation bonus applies to vision range as well
 * different ranged attacks for different garrisoned units (e.g. archers, javelineers, and stone-throwers on quinqueremes)
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

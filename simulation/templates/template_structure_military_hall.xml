@@ -8,6 +8,7 @@
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">Hall</Classes>
@@ -43,7 +44,7 @@
       <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>20</Radius>
-  </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>
