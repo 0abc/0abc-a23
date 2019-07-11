@@ -161,13 +161,15 @@ m.TradeManager.prototype.updateTrader = function(gameState, ent)
 
 m.TradeManager.prototype.setTradingGoods = function(gameState)
 {
-  let tradingGoods = {};
   let resTradeCodes = Resources.GetCodes("tradable");
+  if (!resTradeCodes.length)
+    return;
+  let tradingGoods = {};
   for (let res of resTradeCodes)
     tradingGoods[res] = 0;
   // first, try to anticipate future needs
   let stocks = gameState.ai.HQ.getTotalResourceLevel(gameState);
-  let mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState, "tradable");
+  let mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState, resTradeCodes);
   let wantedRates = gameState.ai.HQ.GetWantedGatherRates(gameState);
   let remaining = 100;
   let targetNum = this.Config.Economy.targetNumTraders;
@@ -201,7 +203,7 @@ m.TradeManager.prototype.setTradingGoods = function(gameState)
   let nextNeed = remaining - mainNeed;
 
   tradingGoods[mostNeeded[0].type] += mainNeed;
-  if (mostNeeded[1].wanted > 0)
+  if (mostNeeded[1] && mostNeeded[1].wanted > 0)
     tradingGoods[mostNeeded[1].type] += nextNeed;
   else
     tradingGoods[mostNeeded[0].type] += nextNeed;
@@ -219,6 +221,9 @@ m.TradeManager.prototype.performBarter = function(gameState)
   let barterers = gameState.getOwnEntitiesByClass("BarterMarket", true).filter(API3.Filters.isBuilt()).toEntityArray();
   if (barterers.length == 0)
     return false;
+  let resBarterCodes = Resources.GetCodes("barterable");
+  if (!resBarterCodes.length)
+    return false;
 
   // Available resources after account substraction
   let available = gameState.ai.queueManager.getAvailableResources(gameState);
@@ -231,7 +236,6 @@ m.TradeManager.prototype.performBarter = function(gameState)
   let getBarterRate = (prices, buy, sell) => Math.round(100 * prices.sell[sell] / prices.buy[buy]);
 
   // loop through each missing resource checking if we could barter and help finishing a queue quickly.
-  let resBarterCodes = Resources.GetCodes("barterable");
   for (let buy of resBarterCodes)
   {
     // Check if our rate allows to gather it fast enough

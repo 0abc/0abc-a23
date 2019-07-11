@@ -45,7 +45,7 @@ m.DiplomacyManager.prototype.init = function(gameState)
 {
   this.lastManStandingCheck(gameState);
 
-  for (let i = 1; i < gameState.sharedScript.playersData.length; ++i)
+  for (let i = 1; i < gameState.sharedScript.playersData.length;0 ++i)
   {
     if (i === PlayerID)
       continue;
@@ -69,6 +69,8 @@ m.DiplomacyManager.prototype.tributes = function(gameState)
   let totalResources = gameState.getResources();
   let availableResources = gameState.ai.queueManager.getAvailableResources(gameState);
   let resTribCodes = Resources.GetCodes("tributable");
+  if (!resTribCodes.length)
+    return;
   let mostNeeded;
   for (let i = 1; i < gameState.sharedScript.playersData.length; ++i)
   {
@@ -86,10 +88,10 @@ m.DiplomacyManager.prototype.tributes = function(gameState)
         continue;
       if (donor && availableResources[res] > 200 && allyResources[res] < 0.2 * availableResources[res])
       {
-        tribute[res] = Math.floor(0.3*availableResources[res] - allyResources[res]);
+        tribute[res] = Math.floor(0.3 * availableResources[res] - allyResources[res]);
         toSend = true;
       }
-      else if (donor && allyPop < Math.min(30, 0.5*gameState.getPopulation()) && totalResources[res] > 500 && allyResources[res] < 100)
+      else if (donor && allyPop < Math.min(30, 0.5 * gameState.getPopulation()) && totalResources[res] > 500 && allyResources[res] < 100)
       {
         tribute[res] = 100;
         toSend = true;
@@ -102,7 +104,7 @@ m.DiplomacyManager.prototype.tributes = function(gameState)
           continue;
         if (!mostNeeded)
           mostNeeded = gameState.ai.HQ.pickMostNeededResources(gameState, "tributable");
-        for (let k = 0; k < 2; ++k)
+        for (let k = 0; k < mostNeeded.length; ++k)
         {
           if (mostNeeded[k].type == res && mostNeeded[k].wanted > 0)
           {
@@ -410,7 +412,7 @@ m.DiplomacyManager.prototype.handleDiplomacyRequest = function(gameState, player
     // If a resource is not tributable, do not request it.
     // If no resources are tributable, decline.
     let tributableResources = Resources.GetCodes("tributable");
-    requiredTribute = gameState.ai.HQ.pickMostNeededResources(gameState).find(res => tributableResources.indexOf(res.type) != -1);
+    requiredTribute = gameState.ai.HQ.pickMostNeededResources(gameState, resTribCodes)[0];
     if (requiredTribute)
     {
       response = "acceptWithTribute";

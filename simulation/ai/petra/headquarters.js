@@ -902,14 +902,15 @@ m.HQ.prototype.GetWantedGatherRates = function(gameState)
  * We compare; we pick the one where the discrepancy is highest.
  * Need to balance long-term needs and possible short-term needs.
  */
-m.HQ.prototype.pickMostNeededResources = function(gameState, property = undefined)
+m.HQ.prototype.pickMostNeededResources = function(gameState, allowedResources = [])
 {
   let wantedRates = this.GetWantedGatherRates(gameState);
   let currentRates = this.GetCurrentGatherRates(gameState);
-  let resCodes = Resources.GetCodes(property);
+  if (!allowedResources.length)
+    allowedResources = Resources.GetCodes();
 
   let needed = [];
-  for (let res of resCodes)
+  for (let res of allowedResources)
     needed.push({ "type": res, "wanted": wantedRates[res], "current": currentRates[res] });
 
   needed.sort((a, b) => {
