@@ -1291,6 +1291,10 @@ m.HQ.prototype.findMarketLocation = function(gameState, template)
   if (!markets.length)  // this is the first market. For the time being, place it arbitrarily by the ConstructionPlan
     return [-1, -1, -1, 0];
 
+  // No need for more than one market when we cannot trade.
+  if (!Resources.GetCodes("tradable").length)
+    return false;
+
   // obstruction map
   let obstructions = m.createObstructionMap(gameState, 0, template);
   let halfSize = 0;

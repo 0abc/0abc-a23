@@ -171,7 +171,7 @@ m.TradeManager.prototype.setTradingGoods = function(gameState)
   let wantedRates = gameState.ai.HQ.GetWantedGatherRates(gameState);
   let remaining = 100;
   let targetNum = this.Config.Economy.targetNumTraders;
-  for (let res in resTradeCodes)
+  for (let res of resTradeCodes)
   {
     if (res == "food")
       continue;
@@ -411,6 +411,14 @@ m.TradeManager.prototype.activateProspection = function(gameState)
  */
 m.TradeManager.prototype.checkRoutes = function(gameState, accessIndex)
 {
+  // If we cannot trade, do not bother checking routes.
+  if (!Resources.GetCodes("tradable").length)
+  {
+    this.tradeRoute = undefined;
+    this.potentialTradeRoute = undefined;
+    return false;
+  }
+
   let market1 = gameState.updatingCollection("OwnMarkets", API3.Filters.byClass("Market"), gameState.getOwnStructures());
   let market2 = gameState.updatingCollection("diplo-ExclusiveAllyMarkets", API3.Filters.byClass("Market"), gameState.getExclusiveAllyEntities());
   if (market1.length + market2.length < 2)  // We have to wait  ... markets will be built soon
@@ -622,6 +630,8 @@ m.TradeManager.prototype.prospectForNewMarket = function(gameState, queues)
 
 m.TradeManager.prototype.isNewMarketWorth = function(expectedGain)
 {
+  if (!Resources.GetCodes("tradable").length)
+    return false;
   if (expectedGain < this.minimalGain)
     return false;
   if (this.potentialTradeRoute && expectedGain < 2*this.potentialTradeRoute.gain &&
@@ -632,7 +642,7 @@ m.TradeManager.prototype.isNewMarketWorth = function(expectedGain)
 
 m.TradeManager.prototype.update = function(gameState, events, queues)
 {
-  if (gameState.ai.HQ.canBarter)
+  if (gameState.ai.HQ.canBarter && Resources.GetCodes("barterable").length)
     this.performBarter(gameState);
 
   if (this.Config.difficulty <= 1)

@@ -686,6 +686,7 @@ On random maps, all factions start with:
 * elevation bonus is taken into account for attack range visualization
 * elevation bonus applies to vision range as well
 * different ranged attacks for different garrisoned units (e.g. archers, javelineers, and stone-throwers on quinqueremes)
+* new victory condition: win by centre count (e.g. control at least 10 centres for 10 minutes)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

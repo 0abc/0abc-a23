@@ -527,7 +527,7 @@ m.DiplomacyManager.prototype.update = function(gameState, events)
 {
   this.checkEvents(gameState, events);
 
-  if (!gameState.ai.HQ.saveResources && gameState.ai.elapsedTime > this.nextTributeUpdate)
+  if (Resources.GetCodes("tributable").length && !gameState.ai.HQ.saveResources && gameState.ai.elapsedTime > this.nextTributeUpdate)
     this.tributes(gameState);
 
   if (this.waitingToBetray && gameState.ai.elapsedTime > this.betrayLapseTime)
