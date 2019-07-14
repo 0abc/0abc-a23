@@ -1,5 +1,5 @@
 {
-  "affects": [ "Healer" ],
+  "affects": ["Healer"],
   "cost": { "silver": 600, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Increases the healing rate of all healers.",
   "genericName": "Advanced Healing Rate",

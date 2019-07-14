@@ -1,5 +1,5 @@
 {
-  "affects": [ "Worker" ],
+  "affects": ["Worker"],
   "auraDescription": "Workers +20% farming gather rate.",
   "auraName": "Farming Bonus",
   "modifications": [

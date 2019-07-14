@@ -9,7 +9,7 @@
     { "value": "Cost/BuildTime", "multiply":  0.8 }
   ],
   "pair": "walls_pair",
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

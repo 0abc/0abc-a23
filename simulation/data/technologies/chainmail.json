@@ -1,5 +1,5 @@
 {
-  "affects": [ "Champion !Fanatic" ],
+  "affects": ["Champion !Fanatic"],
   "cost": { "silver": 0, "food": 0, "wood": 750, "stone": 0, "metal": 750 },
   "description": "Equip champions with chain mail body armour.",
   "genericName": "Chain Mail Body Armour",
@@ -15,7 +15,7 @@
     [
       { "tech": "phase_city" },
       { "any":
-        [ 
+        [
           {"civ": "brit"},
           {"civ": "gaul"},
           {"civ": "rome"}

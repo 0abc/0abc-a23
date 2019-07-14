@@ -1,5 +1,5 @@
 {
-  "affects": [ "Mercenary" ],
+  "affects": ["Mercenary"],
   "autoResearch": true,
   "genericName": "Mercenary Units",
   "modifications": [

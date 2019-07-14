@@ -1,5 +1,5 @@
 {
-  "affects": [ "Structure" ],
+  "affects": ["Structure"],
   "cost": { "silver": 0, "food": 500, "wood": 500, "stone": 0, "metal": 500 },
   "description": "Units garrisoned in structures heal over time.",
   "genericName": "Living Conditions",

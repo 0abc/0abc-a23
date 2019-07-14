@@ -1,5 +1,5 @@
 {
-  "affects": [ "Ship" ],
+  "affects": ["Ship"],
   "cost": { "silver": 0, "food": 0, "wood": 400, "stone": 0, "metal": 0 },
   "description": "Wooden reinforcement beams for ship hulls.",
   "genericName": "Reinforced hull",

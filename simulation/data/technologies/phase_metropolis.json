@@ -1,5 +1,5 @@
 {
-  "affects": [ "Centre" ],
+  "affects": ["Centre"],
   "cost": { "silver": 0, "food": 0, "wood": 1200, "stone": 1200, "metal": 1200 },
   "description": "Advances from a veritable city to a true metropolis, larger and more influential than any other settlement.",
   "genericName": "Metropolis Phase",

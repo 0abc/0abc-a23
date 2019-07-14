@@ -1,5 +1,5 @@
 {
-  "affects": [ "Siege" ],
+  "affects": ["Siege"],
   "cost": { "silver": 0, "food": 0, "wood": 500, "stone": 0, "metal": 250 },
   "description": "Increased armour on siege weapons",
   "genericName": "Armour plating",

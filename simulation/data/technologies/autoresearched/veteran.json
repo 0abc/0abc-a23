@@ -1,5 +1,5 @@
 {
-  "affects": [ "Veteran" ],
+  "affects": ["Veteran"],
   "autoResearch": true,
   "genericName": "Veteran Units",
   "modifications": [

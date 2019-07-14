@@ -1,5 +1,5 @@
 {
-  "affects": [ "FishingBoat", "Worker" ],
+  "affects": ["FishingBoat", "Worker"],
   "cost": { "silver": 0, "food": 0, "wood": 100, "stone": 0, "metal": 0 },
   "description": "Using net improves the fishing productivity.",
   "genericName": "Fishing Net",

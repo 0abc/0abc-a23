@@ -1,5 +1,5 @@
 {
-  "affects": [ "Ship" ],
+  "affects": ["Ship"],
   "cost": { "silver": 0, "food": 0, "wood": 400, "stone": 0, "metal": 400 },
   "description": "The hypozomata braces the structure of a ship.",
   "genericName": "Hypozomata undergirding",

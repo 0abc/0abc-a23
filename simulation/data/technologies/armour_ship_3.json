@@ -1,5 +1,5 @@
 {
-  "affects": [ "Ship" ],
+  "affects": ["Ship"],
   "cost": { "silver": 0, "food": 0, "wood": 400, "stone": 0, "metal": 800 },
   "description": "Lead sheathing protects ship hulls.",
   "genericName": "Lead hull sheathing",

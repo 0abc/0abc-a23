@@ -1,5 +1,5 @@
 {
-  "affects": [ "Champion" ],
+  "affects": ["Champion"],
   "autoResearch": true,
   "genericName": "Champion Units",
   "modifications": [

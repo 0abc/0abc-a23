@@ -1,5 +1,5 @@
 {
-  "affects": [ "Siege" ],
+  "affects": ["Siege"],
   "autoResearch": true,
   "genericName": "Macedonian Engineers",
   "modifications": [

@@ -1,5 +1,5 @@
 {
-  "affects": [ "Human" ],
+  "affects": ["Human"],
   "auraDescription": "Heals nearby units at 2 health per second.",
   "auraName": "Blessing of the Gods",
   "modifications": [

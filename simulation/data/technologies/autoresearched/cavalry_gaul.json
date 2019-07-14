@@ -1,5 +1,5 @@
 {
-  "affects": [ "Cavalry Melee" ],
+  "affects": ["Cavalry Melee"],
   "autoResearch": true,
   "genericName": "Gallic Cavalry",
   "modifications": [

@@ -1,5 +1,5 @@
 {
-  "affects": [ "Worker" ],
+  "affects": ["Worker"],
   "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
   "description": "Equip your workers with iron plows, a tool to turn the sod.",
   "genericName": "Iron Plow",

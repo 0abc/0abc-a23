@@ -1,5 +1,5 @@
 {
-  "affects": [ "Structure" ],
+  "affects": ["Structure"],
   "auraDescription": "Reduce the cost and research time of technologies by 10% per library owned.",
   "auraName": "Power of Knowledge",
   "modifications": [

@@ -1,5 +1,5 @@
 {
-  "affects": [ "Longswordsman", "Sabreman", "Swordsman" ],
+  "affects": ["Longswordsman", "Sabreman", "Swordsman"],
   "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 300 },
   "description": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
   "genericName": "Steel Working",

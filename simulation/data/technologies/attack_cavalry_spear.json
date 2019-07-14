@@ -1,5 +1,5 @@
 {
-  "affects": [ "Cavalry Spearman", "Cavalry Lancer" ],
+  "affects": ["Cavalry Spearman", "Cavalry Lancer"],
   "cost": { "silver": 0, "food": 400, "wood": 400, "stone": 0, "metal": 400 },
   "description": "Training increases ranged attack.",
   "genericName": "Cavalry Spear Training",

@@ -1,5 +1,5 @@
 {
-  "affects": [ "Cataphract" ],
+  "affects": ["Cataphract"],
   "autoResearch": true,
   "genericName": "Cataphracts",
   "modifications": [

@@ -1,5 +1,5 @@
 {
-  "affects": [ "Unit" ],
+  "affects": ["Unit"],
   "auraDescription": "Units −5% training time per wonder owned.",
   "auraName": "Hellenization",
   "modifications": [

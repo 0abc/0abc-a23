@@ -1,5 +1,5 @@
 {
-  "affects": [ "Fanatic" ],
+  "affects": ["Fanatic"],
   "autoResearch": true,
   "description": "Believing themselves to be invulnerable, naked fanatics did not wear any clothes or armour in combat, increasing their speed and the ferocity of their attacks.",
   "genericName": "Naked Fanatics",
@@ -12,8 +12,8 @@
     { "value": "Attack/Melee/Hack",    "multiply": 1.15 },
     { "value": "Attack/Melee/Pierce",  "multiply": 1.15 },
     { "value": "Attack/Melee/Thrust",  "multiply": 1.15 },
-    { "value": "UnitMotion/Run/Speed", "multiply": 1.30 },
-    { "value": "UnitMotion/WalkSpeed", "multiply": 1.30 }
+    { "value": "UnitMotion/Run/Speed", "multiply": 1.3  },
+    { "value": "UnitMotion/WalkSpeed", "multiply": 1.3  }
   ],
   "tooltip": "Naked Fanatics have −3 armour levels, +15% melee attack damage, +30% movement speed."
 }

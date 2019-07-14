@@ -1,5 +1,5 @@
 {
-  "affects": [ "Siege" ],
+  "affects": ["Siege"],
   "cost": { "silver": 0, "food": 500, "wood": 500, "stone": 250, "metal": 0 },
   "description": "Siege weapons require less iron.",
   "genericName": "Metalworker",

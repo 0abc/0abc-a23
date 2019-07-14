@@ -1,5 +1,5 @@
 {
-  "affects": [ "Merchant", "Trader" ],
+  "affects": ["Merchant", "Trader"],
   "autoResearch": true,
   "genericName": "Punic Merchants",
   "modifications": [

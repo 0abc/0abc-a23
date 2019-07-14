@@ -1,5 +1,5 @@
 {
-  "affects": [ "Healer" ],
+  "affects": ["Healer"],
   "autoResearch": true,
   "genericName": "Druidism",
   "modifications": [

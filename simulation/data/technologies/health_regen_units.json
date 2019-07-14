@@ -1,5 +1,5 @@
 {
-  "affects": [ "Unit Organic" ],
+  "affects": ["Unit Organic"],
   "cost": { "silver": 1500, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Unlock health regeneration for your units.",
   "genericName": "Battlefield Medicine",

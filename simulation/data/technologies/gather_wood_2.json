@@ -1,5 +1,5 @@
 {
-  "affects": [ "Worker" ],
+  "affects": ["Worker"],
   "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
   "description": "Increases wood gathering rates for trees.",
   "genericName": "Stronger Axes",

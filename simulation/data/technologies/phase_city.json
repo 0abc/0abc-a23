@@ -1,5 +1,5 @@
 {
-  "affects": [ "Centre" ],
+  "affects": ["Centre"],
   "cost": { "silver": 0, "food": 0, "wood": 800, "stone": 800, "metal": 800 },
   "description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
   "genericName": "City Phase",

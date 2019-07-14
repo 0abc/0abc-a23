@@ -1,5 +1,5 @@
 {
-  "affects": [ "Worker" ],
+  "affects": ["Worker"],
   "auraDescription": "Workers +5% wood gather rate.",
   "auraName": "Lumbering bonus",
   "modifications": [

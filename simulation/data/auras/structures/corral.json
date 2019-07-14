@@ -1,5 +1,5 @@
 {
-  "affects": [ "Worker" ],
+  "affects": ["Worker"],
   "auraDescription": "Workers +15% meat gather rate.",
   "auraName": "Herding bonus",
   "modifications": [

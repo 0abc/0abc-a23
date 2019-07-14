@@ -1,5 +1,5 @@
 {
-  "affects": [ "Trader" ],
+  "affects": ["Trader"],
   "auraDescription": "Traders in a caravan +2 pierce armour.",
   "auraName": "Caravan",
   "modifications": [

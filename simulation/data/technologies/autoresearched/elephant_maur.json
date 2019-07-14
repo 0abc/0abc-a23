@@ -1,5 +1,5 @@
 {
-  "affects": [ "Elephant" ],
+  "affects": ["Elephant"],
   "autoResearch": true,
   "genericName": "Indian Elephants",
   "modifications": [

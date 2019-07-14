@@ -1,5 +1,5 @@
 {
-  "affects": [ "House" ],
+  "affects": ["House"],
   "cost": { "silver": 0, "food": 300, "wood": 100, "stone": 0, "metal": 100 },
   "description": "A festival attended by women-only, to celebrate female fertility.",
   "genericName": "Fertility Festival",

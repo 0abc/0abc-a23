@@ -1,5 +1,5 @@
 {
-  "affects": [ "Infantry Melee !Fanatic" ],
+  "affects": ["Infantry Melee !Fanatic"],
   "cost": { "silver": 0, "food": 0, "wood": 1200, "stone": 0, "metal": 600 },
   "description": "Equip infantrymen with body armour reinforced with metal scales.",
   "genericName": "Scaled Metal Body Armour",

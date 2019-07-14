@@ -1,5 +1,5 @@
 {
-  "affects": [ "FishingBoat" ],
+  "affects": ["FishingBoat"],
   "cost": { "silver": 0, "food": 200, "wood": 100, "stone": 0, "metal": 0 },
   "description": "Salting allows to preserve fish longer.",
   "genericName": "Salting Fish",

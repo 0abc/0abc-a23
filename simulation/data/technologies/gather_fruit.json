@@ -1,5 +1,5 @@
 {
-  "affects": [ "FemaleCitizen" ],
+  "affects": ["Worker"],
   "cost": { "silver": 0, "food": 0, "wood": 100, "stone": 0, "metal": 0 },
   "description": "Equip your foragers with wicker baskets to carry foraged food.",
   "genericName": "Wicker Baskets",
@@ -12,5 +12,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 30,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Women +50% fruit foraging rate and +5 food carry capacity."
+  "tooltip": "Workers +50% fruit foraging rate and +5 food carry capacity."
 }

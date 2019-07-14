@@ -1,5 +1,5 @@
 {
-  "affects": [ "Merchant" ],
+  "affects": ["Merchant"],
   "auraDescription": "Merchant ships in a convoy +2 pierce armour.",
   "auraName": "Convoy",
   "modifications": [

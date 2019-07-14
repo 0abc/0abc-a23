@@ -1,5 +1,5 @@
 {
-  "affects": [ "Player" ],
+  "affects": ["Player"],
   "auraDescription": "+10% maximum population limit per wonder owned (requires “Glorious Expansion” technology).",
   "auraName": "Glorious Expansion",
   "modifications": [

@@ -1,5 +1,5 @@
 {
-  "affects": [ "Structure", "Worker" ],
+  "affects": ["Structure", "Worker"],
   "auraDescription": "Workers +20% build rate, –20% resource gather base speed; structures +100% base capture points regeneration.",
   "auraName": "Settlement Core",
   "modifications": [

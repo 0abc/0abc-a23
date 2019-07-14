@@ -1,5 +1,5 @@
 {
-  "affects": [ "Human" ],
+  "affects": ["Human"],
   "auraDescription": "Heals nearby units at 1 health per second.",
   "auraName": "Medical Treatment",
   "modifications": [

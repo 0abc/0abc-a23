@@ -1,5 +1,5 @@
 {
-  "affects": [ "Structure" ],
+  "affects": ["Structure"],
   "auraDescription": "Structures +10% territory influence radius per wonder owned.",
   "auraName": "Symbol of Greatness",
   "modifications": [

@@ -5,11 +5,11 @@
   "genericName": "Geometric Masonry",
   "icon": "stone_blocks.png",
   "modifications": [
-    { "value": "Armour/Crush",   "add":      2.0},
-    { "value": "Cost/BuildTime", "multiply": 1.2}
+    { "value": "Armour/Crush",   "add":      2.0 },
+    { "value": "Cost/BuildTime", "multiply": 1.2 }
   ],
   "pair": "walls_pair",
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

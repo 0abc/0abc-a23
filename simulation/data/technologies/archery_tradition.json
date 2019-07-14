@@ -1,5 +1,5 @@
 {
-  "affects": [ "Archer" ],
+  "affects": ["Archer"],
   "cost": { "silver": 0, "food": 400, "wood": 400, "stone": 0, "metal": 200 },
   "description": "The Indians, Iranians, Kushites, and Syrians had a tradition of fine archery and a penchant for using massed archers in battle.",
   "genericName": "Archery Tradition",

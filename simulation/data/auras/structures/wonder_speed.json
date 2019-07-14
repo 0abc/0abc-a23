@@ -1,6 +1,6 @@
 {
-  "affects": [ "Unit" ],
-  "affectedPlayers": [ "Enemy" ],
+  "affects": ["Unit"],
+  "affectedPlayers": ["Enemy"],
   "auraDescription": "Enemy units −5% movement speed.",
   "auraName": "Monumental Awe",
   "modifications": [

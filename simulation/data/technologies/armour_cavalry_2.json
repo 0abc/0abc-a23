@@ -1,5 +1,5 @@
 {
-  "affects": [ "Cavalry !Fanatic" ],
+  "affects": ["Cavalry !Fanatic"],
   "cost": { "silver": 0, "food": 0, "wood": 1000, "stone": 0, "metal": 500 },
   "description": "Linen armour for cavalry.",
   "genericName": "Improved Chamfron",
