@@ -15,7 +15,7 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <BuffHeal>3</BuffHeal>
+    <BuffHeal>2</BuffHeal>
     <List datatype="tokens">Camel Cavalry</List>
     <Max>20</Max>
   </GarrisonHolder>

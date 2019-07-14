@@ -45,7 +45,7 @@ m.DiplomacyManager.prototype.init = function(gameState)
 {
   this.lastManStandingCheck(gameState);
 
-  for (let i = 1; i < gameState.sharedScript.playersData.length;0 ++i)
+  for (let i = 1; i < gameState.sharedScript.playersData.length; ++i)
   {
     if (i === PlayerID)
       continue;

@@ -21,7 +21,7 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <BuffHeal>5</BuffHeal>
+    <BuffHeal>3</BuffHeal>
     <List datatype="tokens">Soldier</List>
     <Max>60</Max>
   </GarrisonHolder>
