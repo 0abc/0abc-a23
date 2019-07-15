@@ -23,6 +23,7 @@
   </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
+    <PopulationBonus>10</PopulationBonus>
     <Resources>
       <food>200</food>
       <metal>200</metal>
@@ -44,6 +45,10 @@
       attack_soldiers_will
     </Technologies>
   </ProductionQueue>
+  <ResourceDropsite>
+    <Sharable>false</Sharable>
+    <Types>silver</Types>
+  </ResourceDropsite>
   <ResourceTrickle>
     <Rates>
       <food>-1.0</food>
@@ -62,4 +67,7 @@
     <Root>true</Root>
     <Weight>60000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
 </Entity>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
   <Auras datatype="tokens">
-    structures/wonder_heal
     structures/wonder_speed
     structures/wonder_territory
     structures/wonder_population

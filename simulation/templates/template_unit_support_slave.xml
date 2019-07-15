@@ -15,9 +15,6 @@
     <Circle radius="1"/>
     <Height>3</Height>
   </Footprint>
-  <Health>
-    <Max>45</Max>
-  </Health>
   <Identity>
     <GenericName>Slave</GenericName>
     <Icon>units/global_slave.png</Icon>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
-  <AlertRaiser>
-    <EndOfAlertRange>200</EndOfAlertRange>
-    <List datatype="tokens">FemaleCitizen Slave</List>
-    <RaiseAlertRange>150</RaiseAlertRange>
-    <SearchRange>100</SearchRange>
-  </AlertRaiser>
   <Attack>
     <Ranged>
       <Crush>0</Crush>
@@ -53,13 +47,6 @@
     <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Base</VisibleClasses>
   </Identity>
-  <ResourceDropsite>
-    <Sharable>false</Sharable>
-    <Types>silver</Types>
-  </ResourceDropsite>
-  <Vision>
-    <Range>100</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>

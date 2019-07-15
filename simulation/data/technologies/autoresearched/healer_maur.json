@@ -1,0 +1,10 @@
+{
+  "affects": ["Healer"],
+  "autoResearch": true,
+  "genericName": "Subsidized Missionaries",
+  "modifications": [
+    { "value": "Cost/Resources/silver",  "multiply": 0.5 }
+  ],
+  "requirements": { "civ": "maur" },
+  "tooltip": "Mauryan healers −50% silver cost."
+}

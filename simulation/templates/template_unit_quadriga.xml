@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <Attack>
-    <Ranged>
-      <ElevationBonus>2</ElevationBonus>
-      <PreferredClasses datatype="tokens">Infantry Organic</PreferredClasses>
-    </Ranged>
-  </Attack>
-  <Auras datatype="tokens">
-    units/chariot_noise
-  </Auras>
+  <Armour>
+    <Crush>6</Crush>
+    <Hack>6</Hack>
+    <Pierce>6</Pierce>
+    <Thrust>6</Thrust>
+  </Armour>
   <Cost>
-    <BuildTime>75</BuildTime>
+    <BuildTime>80</BuildTime>
+    <Population>6</Population>
+    <Resources>
+      <food>240</food>
+      <silver>120</silver>
+    </Resources>
   </Cost>
+  <Footprint replace="">
+    <Height>5</Height>
+    <Square width="10" depth="15"/>
+  </Footprint>
+  <Health>
+    <Max op="mul">3.6</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>
-    <GenericName>Chariot</GenericName>
+    <GenericName>Quadriga</GenericName>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -27,8 +36,14 @@
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Chariot</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Chariot Quadriga</VisibleClasses>
   </Identity>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.16</food>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
@@ -48,6 +63,12 @@
   <StatusBars>
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.7</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.7</WalkSpeed>
+  </UnitMotion>
   <Vision>
     <Range>85</Range>
   </Vision>

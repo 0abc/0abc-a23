@@ -24,9 +24,6 @@
     <Rate>500</Rate>
     <UnhealableClasses datatype="tokens"/>
   </Heal>
-  <Health>
-    <Max>75</Max>
-  </Health>
   <Identity>
     <GenericName>Healer</GenericName>
     <Tooltip>Heal units.</Tooltip>

@@ -244,15 +244,14 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 
 #### Damage types
 There are four damage types (crush, hack, pierce, thrust)
-* support:
-  * woman (15 range): 100% crush
-* infantry:
-  * lead slinger (80+1 range): 100% pierce
-  * archer (60+1 range): 100% pierce
-  * crossbowman (50+1 range): 67% pierce, 33% thrust
-  * stone slinger (40+1 range): 100% crush
-  * javelineer (30+1 range): 100% pierce
-  * throwing axeman (20+1 range): 33% crush, 67% hack
+* woman (15 range): 100% crush
+* soldiers (infantry, cavalry, camelry, chariotry):
+  * lead slinger (80 range): 100% pierce
+  * archer (60 range): 100% pierce
+  * crossbowman (50 range): 67% pierce, 33% thrust
+  * stone slinger (40 range): 100% crush
+  * javelineer (30 range): 100% pierce
+  * throwing axeman (20 range): 33% crush, 67% hack
   * maceman (melee): 100% crush
   * axeman (melee): 33% crush, 67% hack
   * sabreman (melee): 100% hack
@@ -260,25 +259,9 @@ There are four damage types (crush, hack, pierce, thrust)
   * swordsman (melee): 50% hack, 50% thrust
   * spearman (melee): 100% thrust
   * pikeman (melee): 50% pierce, 50% thrust
-* camelry:
-  * archer (60+3 range): 100% pierce
-  * javelineer (30+3 range): 100% pierce
-  * spearman (melee): 100% thrust
-* cavalry:
-  * archer (60+2 range): 100% pierce
-  * crossbowman (50+2 range): 67% pierce, 33% thrust
-  * javelineer (30+2 range): 100% pierce
-  * maceman (melee): 100% crush
-  * axeman (melee): 33% crush, 67% hack
-  * sabreman (melee): 100% hack
-  * swordsman (melee): 50% hack, 50% thrust
-  * spearman (melee): 100% thrust
-  * lancer (melee): 20% crush, 80% thrust
-* chariotry:
-  * archer (60+2 range): 100% pierce
-  * javelineer (30+2 range): 100% pierce
-  * scythed (melee): 20% crush, 40% hack, 40% thrust
-* elephantry (melee): 100% crush
+  * cavalry lancer (melee): 20% crush, 80% thrust
+  * scythed chariot (melee): 20% crush, 40% hack, 40% thrust
+  * elephant (melee): 100% crush
 * siege:
   * ram (melee): 100% crush
   * bolt shooter (15–90 range): 67% pierce, 33% thrust
@@ -309,14 +292,12 @@ There are four damage types (crush, hack, pierce, thrust)
 
 ### Auras and technologies
 #### Structure auras
-* {Centre} **Settlement Core** (75 m): workers +20% build rate, −20% resource gather base speed; structures +100% ungarrisoned base capture points regeneration.
-* {Library} **Power of Knowledge** (global): technologies −10% resource costs and research time per library owned.
+* {Centre} **Settlement Core** (75 m): workers +20% build rate, −20% resource gather base speed.
+* {Library} **Power of Knowledge** (global): technologies −20% research time per library owned.
 * {Iberian Pillar} **Religious Fervour** (50 m): soldiers +20% melee and ranged attack damage.
 * {Mauryan Pillar} **Edicts of Ashoka** (75 m): traders +20% movement speed.
 * {Rotary Mill} **Farming Bonus** (60 m): workers +20% farming gather rate.
-* {Temple} **Medical Treatment** (40 m): humans +1.0 health regeneration rate.
 * {Theatre} **Hellenization** (global): units −5% training time per theatre owned.
-* {Wonder} **Blessing of the Gods** (50 m): humans +2.0 health regeneration rate.
 * {Wonder} **Monumental Awe** (100 m): enemy units −5% movement speed.
 * {Wonder} **Symbol of Greatness** (global): structures +10% territory influence radius per wonder owned.
 * {Wonder} **Glorious Expansion** (global): +10% maximum population limit per wonder owned (requires “Glorious Expansion” technology).
@@ -378,6 +359,8 @@ There are four damage types (crush, hack, pierce, thrust)
     * temples 0 stone cost, +300% wood cost, −20% build time, −20% health.
   * *Indian Elephants*:
     * elephants −15% training time.
+  * *Subsidized Missionaries*:
+    * healers −50% silver cost.
 * **Ptolemies**:
   * *Egyptian Architecture*:
     * economic structures −70% wood cost, +100% build time.
@@ -391,7 +374,7 @@ There are four damage types (crush, hack, pierce, thrust)
     * stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
 * **Seleucids**:
   * *Syrian Architecture*:
-    * starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence.
+    * starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence and weight, +10 vision range.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

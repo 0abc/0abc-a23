@@ -14,9 +14,6 @@
     </Melee>
     <Ranged disable=""/>
   </Attack>
-  <Auras datatype="tokens">
-    units/elephant_intimidation
-  </Auras>
   <Cost>
     <Population>6</Population>
     <BuildTime>90</BuildTime>
@@ -30,7 +27,7 @@
     <Square width="6" depth="10"/>
   </Footprint>
   <Health>
-    <Max op="mul">6.0</Max>
+    <Max op="mul">4.5</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>

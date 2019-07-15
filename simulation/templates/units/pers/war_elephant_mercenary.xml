@@ -2,11 +2,12 @@
 <Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">Indian</Classes>
     <Icon>units/pers_elephant_a.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/war_elephant_mercenary</SelectionGroupName>
     <SpecificName>Indian Elephant</SpecificName>
-    <VisibleClasses datatype="tokens">Indian Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/war_elephant.xml</Actor>

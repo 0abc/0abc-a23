@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_biga">
+<Entity parent="template_unit_biga_ranged">
   <Attack>
-    <Melee disable=""/>
     <Ranged>
       <MaxRange op="mul">3.0</MaxRange>
       <Pierce>25</Pierce>
@@ -16,14 +15,6 @@
   </BuildingAI>
   <Identity>
     <GenericName>Biga Javelineer</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
   </Identity>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
 </Entity>

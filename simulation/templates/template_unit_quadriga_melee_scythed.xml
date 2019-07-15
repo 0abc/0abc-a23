@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_quadriga">
+<Entity parent="template_unit_quadriga_melee">
   <Attack>
     <Melee>
       <Bonuses>
@@ -18,8 +18,10 @@
       <Thrust>10</Thrust>
     </Melee>
     <Ranged>
+      <ElevationBonus>2</ElevationBonus>
       <MaxRange op="mul">6.0</MaxRange>
       <Pierce>8</Pierce>
+      <PreferredClasses datatype="tokens">Infantry Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -31,14 +33,6 @@
   <Identity>
     <GenericName>Scythed Quadriga</GenericName>
     <Tooltip>Penalties: 0.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee Scythed</VisibleClasses>
+    <VisibleClasses datatype="tokens">Scythed</VisibleClasses>
   </Identity>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/256x256.png</MainTexture>
-        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
 </Entity>

@@ -13,6 +13,7 @@
       <Hack>25</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
+      <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
       <Thrust>0</Thrust>
     </Slaughter>
   </Attack>
@@ -26,9 +27,6 @@
     <Circle radius="1"/>
     <Height>3</Height>
   </Footprint>
-  <Health>
-    <Max>45</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">Citizen FemaleCitizen</Classes>
     <Gender>female</Gender>

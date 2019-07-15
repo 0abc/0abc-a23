@@ -22,7 +22,7 @@
     <Height>8</Height>
   </Footprint>
   <Health>
-    <Max>300</Max>
+    <Max op="mul">8.0</Max>
   </Health>
   <Identity>
     <GenericName>Worker Elephant</GenericName>

@@ -55,6 +55,11 @@
 			"Name": "Indian Elephants",
 			"History": "",
 			"Description": "Elephants −15% training time."
+		},
+		{
+			"Name": "Subsidized Missionaries",
+			"History": "",
+			"Description": "Healers −50% silver cost"
 		}
   ],
   "TeamBonuses":

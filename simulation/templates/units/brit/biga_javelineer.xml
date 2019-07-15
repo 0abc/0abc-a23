@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_biga_javelineer">
+<Entity parent="template_unit_biga_ranged_javelineer">
   <Identity>
     <Civ>brit</Civ>
     <Classes datatype="tokens">Celt</Classes>
@@ -7,7 +7,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/brit/biga_javelineer_champion</SelectionGroupName>
     <SpecificName>Briton Chariot</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/britons/chariot_javelinist_c_m.xml</Actor>

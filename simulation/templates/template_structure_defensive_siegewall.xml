@@ -5,6 +5,9 @@
     <Thrust>25</Thrust>
   </Armour>
   <Attack disable=""/>
+  <Auras datatype="tokens">
+    structures/wall_garrisoned
+  </Auras>
   <BuildingAI disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>

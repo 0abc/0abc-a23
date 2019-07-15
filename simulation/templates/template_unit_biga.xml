@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <Attack>
-    <Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
-      <Value>2</Value>
-    </Capture>
-  </Attack>
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+    <Thrust>5</Thrust>
+  </Armour>
   <Cost>
-    <BuildTime>50</BuildTime>
-    <Population>2</Population>
+    <BuildTime>70</BuildTime>
+    <Population>4</Population>
     <Resources>
-      <food>80</food>
-      <silver>40</silver>
+      <food>160</food>
+      <silver>90</silver>
     </Resources>
   </Cost>
   <Footprint>
-    <Height>6</Height>
-    <Square width="4" depth="6"/>
+    <Height>5</Height>
+    <Square width="8" depth="12"/>
   </Footprint>
+  <Health>
+    <Max op="mul">2.4</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>
-    <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -35,12 +35,13 @@
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>
+    <GenericName>Biga</GenericName>
+    <VisibleClasses datatype="tokens">Soldier Chariot Biga</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>-0.05</food>
+      <food>-0.10</food>
     </Rates>
   </ResourceTrickle>
   <Sound>
@@ -64,9 +65,9 @@
   </StatusBars>
   <UnitMotion>
     <Run>
-      <Speed op="mul">1.5</Speed>
+      <Speed op="mul">1.6</Speed>
     </Run>
-    <WalkSpeed op="mul">1.5</WalkSpeed>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>85</Range>

@@ -14,7 +14,7 @@
     <Ranged disable=""/>
   </Attack>
   <Health>
-    <Max op="mul">1.35</Max>
+    <Max op="mul">1.8</Max>
   </Health>
   <Identity>
     <GenericName>Melee Camel</GenericName>

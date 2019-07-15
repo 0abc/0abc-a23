@@ -3,6 +3,9 @@
   <Cost>
     <Population>1</Population>
   </Cost>
+  <Health>
+    <Max op="mul">0.5</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
     <GenericName>Support</GenericName>

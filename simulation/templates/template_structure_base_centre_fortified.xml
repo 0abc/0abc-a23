@@ -36,4 +36,7 @@
   <TerritoryInfluence>
     <Weight op="mul">2.0</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range op="add">10</Range>
+  </Vision>
 </Entity>

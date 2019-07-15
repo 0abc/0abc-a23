@@ -3,10 +3,12 @@
   <Armour>
     <Crush>9</Crush>
     <Hack>25</Hack>
-    <Pierce>49</Pierce>
     <Thrust>36</Thrust>
   </Armour>
   <Attack disable=""/>
+  <Auras datatype="tokens">
+    structures/wall_garrisoned
+  </Auras>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>

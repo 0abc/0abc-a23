@@ -1,14 +1,9 @@
 {
   "affects": ["Structure"],
-  "auraDescription": "Reduce the cost and research time of technologies by 10% per library owned.",
+  "auraDescription": "Technologies −20% research time per library owned.",
   "auraName": "Power of Knowledge",
   "modifications": [
-    { "value": "ProductionQueue/TechCostMultiplier/food",   "multiply": 0.9 },
-    { "value": "ProductionQueue/TechCostMultiplier/metal",  "multiply": 0.9 },
-    { "value": "ProductionQueue/TechCostMultiplier/silver", "multiply": 0.9 },
-    { "value": "ProductionQueue/TechCostMultiplier/stone",  "multiply": 0.9 },
-    { "value": "ProductionQueue/TechCostMultiplier/time",   "multiply": 0.9 },
-    { "value": "ProductionQueue/TechCostMultiplier/wood",   "multiply": 0.9 }
+    { "value": "ProductionQueue/TechCostMultiplier/time",   "multiply": 0.8 }
   ],
   "stackable": true,
   "type": "global"

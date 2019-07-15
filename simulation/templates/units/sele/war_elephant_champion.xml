@@ -2,12 +2,13 @@
 <Entity parent="template_unit_elephant_indian">
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">Syrian</Classes>
     <Icon>units/sele_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/war_elephant_champion</SelectionGroupName>
     <SpecificName>Indian Elephant Cataphract</SpecificName>
-    <VisibleClasses datatype="tokens">Cataphract Syrian Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/elephantry_c_m.xml</Actor>

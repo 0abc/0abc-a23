@@ -12,6 +12,7 @@
       <Hack>100</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
+      <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
       <Thrust>0</Thrust>
     </Slaughter>
   </Attack>

@@ -42,7 +42,7 @@
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>

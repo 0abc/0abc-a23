@@ -5,12 +5,12 @@
     <Crush>4</Crush>
     <Foundation>
       <Crush>1</Crush>
-      <Hack>2</Hack>
-      <Pierce>16</Pierce>
-      <Thrust>4</Thrust>
+      <Hack>4</Hack>
+      <Pierce>25</Pierce>
+      <Thrust>9</Thrust>
     </Foundation>
     <Hack>9</Hack>
-    <Pierce>36</Pierce>
+    <Pierce>100</Pierce>
     <Thrust>16</Thrust>
   </Armour>
   <BuildRestrictions>

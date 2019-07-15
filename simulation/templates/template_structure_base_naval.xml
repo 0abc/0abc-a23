@@ -65,4 +65,7 @@
     <Root>true</Root>
     <Weight>25000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
 </Entity>

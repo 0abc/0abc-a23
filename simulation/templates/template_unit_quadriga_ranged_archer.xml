@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_quadriga">
+<Entity parent="template_unit_quadriga_ranged">
   <Attack>
     <Ranged>
       <MaxRange op="mul">6.0</MaxRange>
@@ -14,14 +14,6 @@
   </BuildingAI>
   <Identity>
     <GenericName>Quadriga Archer</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
 </Entity>

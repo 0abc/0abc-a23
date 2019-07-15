@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_biga_archer">
+<Entity parent="template_unit_biga_ranged_archer">
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
@@ -7,7 +7,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/chariot_archer</SelectionGroupName>
     <SpecificName>Indian Chariot</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/chariot_archer_c_m.xml</Actor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_quadriga">
+  <Attack>
+    <Melee disable=""/>
+    <Ranged>
+      <ElevationBonus>2</ElevationBonus>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <GenericName>Ranged Quadriga</GenericName>
+    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>
