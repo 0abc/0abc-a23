@@ -30,7 +30,7 @@
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Human Siege</List>
     <LoadingRange>10</LoadingRange>
-    <Max>40</Max>
+    <Max>20</Max>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>

@@ -4,6 +4,9 @@
     <Circle radius="1.5"/>
     <Height>2.5</Height>
   </Footprint>
+  <Garrisonable>
+    <Size>1</Size>
+  </Garrisonable>
   <Identity>
     <GenericName>Infantry Hero</GenericName>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>

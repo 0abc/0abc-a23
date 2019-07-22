@@ -335,10 +335,14 @@ GuiInterface.prototype.GetEntityState = function(player, ent)
       "buffHeal": cmpGarrisonHolder.GetHealRate(),
       "allowedClasses": cmpGarrisonHolder.GetAllowedClasses(),
       "capacity": cmpGarrisonHolder.GetCapacity(),
-      "garrisonedEntitiesCount": cmpGarrisonHolder.GetGarrisonedEntitiesCount()
+      "garrisonedSlots": cmpGarrisonHolder.GetGarrisonedSlots()
     };
 
-  ret.canGarrison = !!Engine.QueryInterface(ent, IID_Garrisonable);
+  let cmpGarrisonable = Engine.QueryInterface(ent, IID_Garrisonable);
+  if (cmpGarrisonable)
+    ret.canGarrison = {
+      "size": cmpGarrisonable.GetSize()
+    }
 
   let cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
   if (cmpUnitAI)

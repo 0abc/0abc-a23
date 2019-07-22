@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
   <Attack disable=""/>
+  <Garrisonable>
+    <Size>1</Size>
+  </Garrisonable>
   <Heal>
     <HealableClasses datatype="tokens">Human</HealableClasses>
     <HP>1</HP>

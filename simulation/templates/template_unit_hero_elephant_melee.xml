@@ -10,6 +10,9 @@
     <Circle radius="3.0"/>
     <Height>9.0</Height>
   </Footprint>
+  <Garrisonable>
+    <Size>10</Size>
+  </Garrisonable>
   <Health>
     <Max>2000</Max>
   </Health>

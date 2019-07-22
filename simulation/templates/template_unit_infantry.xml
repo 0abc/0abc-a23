@@ -68,6 +68,9 @@
     <Circle radius="1"/>
     <Height>4</Height>
   </Footprint>
+  <Garrisonable>
+    <Size>1</Size>
+  </Garrisonable>
   <Identity>
     <Classes datatype="tokens">Human Organic Citizen CitizenSoldier</Classes>
     <Formations datatype="tokens">

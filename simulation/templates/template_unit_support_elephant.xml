@@ -18,9 +18,12 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="4"/>
     <Height>8</Height>
+    <Square width="5" depth="10"/>
   </Footprint>
+  <Garrisonable>
+    <Size>10</Size>
+  </Garrisonable>
   <Health>
     <Max op="mul">8.0</Max>
   </Health>

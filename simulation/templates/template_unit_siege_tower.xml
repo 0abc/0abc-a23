@@ -39,6 +39,9 @@
     <Height>30</Height>
     <Square width="15" depth="15"/>
   </Footprint>
+  <Garrisonable>
+    <Size>20</Size>
+  </Garrisonable>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>

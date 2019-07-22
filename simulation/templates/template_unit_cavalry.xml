@@ -20,6 +20,9 @@
     <Height>6</Height>
     <Square width="3" depth="6"/>
   </Footprint>
+  <Garrisonable>
+    <Size>3</Size>
+  </Garrisonable>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>
     <GenericName>Cavalry</GenericName>

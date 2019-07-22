@@ -176,17 +176,6 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Population costs
-* 0: animals, catafalques, heroes, ships
-* 1: infantry, women, healers, traders
-* 2: camelry, cavalry, scorpio
-* 3: worker elephants
-* 4: bigae, battering rams, polybolos, oxybeles, stone throwers
-* 5: –
-* 6: quadrigae, war elephants, siege towers
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
 #### Recruitment costs
 *Default values (can be changed by auras, technologies, etc.)*:
 * Support:
@@ -223,6 +212,29 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
   * trireme: 300 food, 300 wood, 150 iron; 60 seconds
   * quadrireme: 400 food, 400 wood, 200 iron; 75 seconds
   * quinquereme: 500 food, 500 wood, 250 iron; 90 seconds
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Population costs
+* 0: animals, catafalques, heroes, ships
+* 1: infantry, women, healers, traders
+* 2: camelry, cavalry, scorpio
+* 3: worker elephants
+* 4: bigae, battering rams, polybolos, oxybeles, stone throwers
+* 5: –
+* 6: quadrigae, war elephants, siege towers
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+#### Garrisonable size
+Entities can have a size greater than 1 when garrisoned inside another entity:
+* 1: infantry, women, healers, slaves
+* 3: cavalry
+* 4: camelry, traders, scorpio
+* 8: bigae, polybolos, oxybeles
+* 10: war elephants, battering rams
+* 12: quadrigae, stone throwers
+* 20: siege towers
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -663,7 +675,6 @@ On random maps, all factions start with:
 * AI: replace all hard-coded template file name paths with classes
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
-* units should be able to have a garrison size greater than 1 (similar to population); e.g. cavalry occupies two garrison slots, elephants six
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
 * resource consumption for attacks; e.g. everytime a stone-thrower shoots, you pay 1 stone
 * elevation bonus is taken into account for attack range visualization

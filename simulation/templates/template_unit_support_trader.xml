@@ -9,6 +9,9 @@
       <wood>50</wood>
     </Resources>
   </Cost>
+  <Garrisonable>
+    <Size>4</Size>
+  </Garrisonable>
   <Health>
     <Max op="mul">2.0</Max>
   </Health>

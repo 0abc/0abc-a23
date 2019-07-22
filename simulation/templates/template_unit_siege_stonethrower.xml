@@ -35,6 +35,9 @@
     <Height>5</Height>
     <Square width="10" depth="16"/>
   </Footprint>
+  <Garrisonable>
+    <Size>12</Size>
+  </Garrisonable>
   <Health>
     <Max>250</Max>
   </Health>

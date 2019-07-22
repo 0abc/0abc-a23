@@ -20,6 +20,9 @@
     <Height>8</Height>
     <Square width="3" depth="9"/>
   </Footprint>
+  <Garrisonable>
+    <Size>4</Size>
+  </Garrisonable>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>
     <GenericName>Camel</GenericName>

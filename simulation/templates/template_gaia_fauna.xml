@@ -13,7 +13,6 @@
     <SinkingAnim>false</SinkingAnim>
     <SinkRate>0.01</SinkRate>
   </Decay>
-  <Garrisonable/>
   <Health>
     <DeathType>remain</DeathType>
     <IdleRegenRate>0</IdleRegenRate>

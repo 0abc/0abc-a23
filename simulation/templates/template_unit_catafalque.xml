@@ -11,6 +11,9 @@
     <Height>9</Height>
     <Square width="6" depth="12"/>
   </Footprint>
+  <Garrisonable>
+    <Size>9</Size>
+  </Garrisonable>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Relic</Classes>
     <Formations disable=""/>

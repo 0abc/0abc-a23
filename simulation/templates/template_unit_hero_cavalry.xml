@@ -4,6 +4,9 @@
     <Circle radius="2.5"/>
     <Height>5.0</Height>
   </Footprint>
+  <Garrisonable>
+    <Size>3</Size>
+  </Garrisonable>
   <Identity>
     <Classes datatype="tokens">Mounted</Classes>
     <Formations datatype="tokens">

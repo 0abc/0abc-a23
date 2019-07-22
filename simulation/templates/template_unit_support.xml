@@ -3,6 +3,9 @@
   <Cost>
     <Population>1</Population>
   </Cost>
+  <Garrisonable>
+    <Size>1</Size>
+  </Garrisonable>
   <Health>
     <Max op="mul">0.5</Max>
   </Health>
