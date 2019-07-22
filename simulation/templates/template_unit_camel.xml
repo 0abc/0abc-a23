@@ -18,7 +18,7 @@
   </Cost>
   <Footprint>
     <Height>8</Height>
-    <Square width="4" depth="8"/>
+    <Square width="3" depth="9"/>
   </Footprint>
   <Identity>
     <Classes datatype="tokens">Human Organic Mounted</Classes>
