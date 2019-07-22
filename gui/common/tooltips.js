@@ -337,44 +337,44 @@ function getSplashDamageTooltip(template)
 
 function getGarrisonTooltip(template)
 {
-  let tooltips = [];
-  if (template.garrisonHolder)
-  {
-    tooltips.push (
-      sprintf(translate("%(label)s: %(garrisonLimit)s"), {
-        "label": headerFont(translate("Garrison Capacity")),
-        "garrisonLimit": template.garrisonHolder.capacity
-      })
-    );
+	let tooltips = [];
+	if (template.garrisonHolder)
+	{
+		tooltips.push (
+			sprintf(translate("%(label)s: %(garrisonLimit)s"), {
+				"label": headerFont(translate("Garrison Capacity")),
+				"garrisonLimit": template.garrisonHolder.capacity
+			})
+		);
 
-    if (template.garrisonHolder.buffHeal)
-      tooltips.push(
-        sprintf(translate("%(healRateLabel)s %(value)s %(health)s / %(second)s"), {
-          "healRateLabel": headerFont(translate("Heal:")),
-          "value": Math.round(template.garrisonHolder.buffHeal),
-          "health": unitFont(translate("Health")),
-          "second": unitFont(translate("second")),
-        })
-      );
+		if (template.garrisonHolder.buffHeal)
+			tooltips.push(
+				sprintf(translate("%(healRateLabel)s %(value)s %(health)s / %(second)s"), {
+					"healRateLabel": headerFont(translate("Heal:")),
+					"value": Math.round(template.garrisonHolder.buffHeal),
+					"health": unitFont(translate("Health")),
+					"second": unitFont(translate("second")),
+				})
+			);
 
-    tooltips.join(", ");
-  }
-  if (template.canGarrison)
-  {
-    let extraSize;
-    if (template.garrisonHolder)
-      extraSize = template.garrisonHolder.garrisonedSlots;
-    if (template.canGarrison.size > 1 || extraSize)
-      tooltips.push (
-        sprintf(translate("%(label)s: %(garrisonSize)s + %(extraSize)s"), {
-          "label": headerFont(translate("Garrison Size")),
-          "garrisonSize": template.canGarrison.size,
-          "extraSize": extraSize || ""
-        })
-      );
-  }
+		tooltips.join(", ");
+	}
+	if (template.canGarrison)
+	{
+		let extraSize;
+		if (template.garrisonHolder)
+			extraSize = template.garrisonHolder.garrisonedSlots;
+		if (template.canGarrison.size || extraSize)
+			tooltips.push (
+				sprintf(translate("%(label)s: %(garrisonSize)s %(extraSize)s"), {
+					"label": headerFont(translate("Garrison Size")),
+					"garrisonSize": template.canGarrison.size,
+					"extraSize": extraSize ? "+ " + extraSize : ""
+				})
+			);
+	}
 
-  return tooltips.join("\n");
+	return tooltips.join("\n");
 }
 
 function getProjectilesTooltip(template)
