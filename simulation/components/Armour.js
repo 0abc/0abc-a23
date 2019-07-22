@@ -35,7 +35,7 @@ Armour.prototype.SetInvulnerability = function(invulnerability)
 
 /**
  * Take damage according to the entity's armour.
- * @param {Object} strengths - { "hack": number, "pierce": number, "crush": number } or something like that.
+ * @param {Object} strengths - { "crush": number, "hack": number, "pierce": number, "thrust": number } or something like that.
  * @param {number} multiplier - the damage multiplier.
  * Returns object of the form { "killed": false, "change": -12 }.
  */
@@ -48,7 +48,7 @@ Armour.prototype.TakeDamage = function(strengths, multiplier = 1)
   var armourStrengths = this.GetArmourStrengths();
 
   // Total is sum of individual damages
-  // Don't bother rounding, since HP is no longer integral.
+  // Don't bother rounding, since health is no longer integral.
   var total = 0;
   for (let type in strengths)
     total += strengths[type] * multiplier * randFloat(0.5, 1.5) * Math.pow(0.9, armourStrengths[type] || 0);

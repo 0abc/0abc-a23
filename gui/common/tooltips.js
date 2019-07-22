@@ -2,16 +2,15 @@ var g_TooltipTextFormats = {
   "unit": { "font": "sans-10", "color": "orange" },
   "header": { "font": "sans-bold-13" },
   "body": { "font": "sans-13" },
-  "comma": { "font": "sans-12" },
   "nameSpecificBig": { "font": "sans-bold-16" },
   "nameSpecificSmall": { "font": "sans-bold-12" },
   "nameGeneric": { "font": "sans-bold-16" }
 };
 
 var g_AttackTypes = {
+  "Capture": translate("Capture Attack:"),
   "Melee": translate("Melee Attack:"),
-  "Ranged": translate("Ranged Attack:"),
-  "Capture": translate("Capture Attack:")
+  "Ranged": translate("Ranged Attack:")
 };
 
 var g_DamageTypes = new DamageTypes();
@@ -98,11 +97,6 @@ function headerFont(text)
 function unitFont(text)
 {
   return setStringTags(text, g_TooltipTextFormats.unit);
-}
-
-function commaFont(text)
-{
-  return setStringTags(text, g_TooltipTextFormats.comma);
 }
 
 function getSecondsString(seconds)
@@ -232,16 +226,13 @@ function getArmorTooltip(template)
     "label": headerFont(translate("Armor:")),
     "details":
       Object.keys(template.armour).map(
-        dmgType => sprintf(translate("%(damage)s %(damageType)s %(armorPercentage)s"), {
-          "damage": template.armour[dmgType].toFixed(1),
-          "damageType": unitFont(translateWithContext("damage type", g_DamageTypes.GetNames()[dmgType])),
-          "armorPercentage":
-            '[font="sans-10"]' +
-            sprintf(translate("(%(armorPercentage)s)"), {
+        dmgType => sprintf(translate("%(armorPercentage)s %(damageType)s"), {
+          "armorPercentage": sprintf(translate("%(armorPercentage)s"), {
               "armorPercentage": armorLevelToPercentageString(template.armour[dmgType])
-            }) + '[/font]'
+            }),
+          "damageType": unitFont(translateWithContext("damage type", g_DamageTypes.GetNames()[dmgType]))
         })
-      ).join(commaFont(translate(", ")))
+      ).join(", ")
   });
 }
 
@@ -255,7 +246,7 @@ function damageTypesToText(dmg)
     dmgType => sprintf(translate("%(damage)s %(damageType)s"), {
       "damage": dmg[dmgType].toFixed(1),
       "damageType": unitFont(translateWithContext("damage type", g_DamageTypes.GetNames()[dmgType]))
-    })).join(commaFont(translate(", ")));
+    })).join(", ");
 }
 
 function getAttackTooltip(template)
@@ -333,7 +324,7 @@ function getSplashDamageTooltip(template)
     });
 
     if (g_AlwaysDisplayFriendlyFire || splash.friendlyFire)
-      splashDamageTooltip += commaFont(translate(", ")) + sprintf(translate("Friendly Fire: %(enabled)s"), {
+      splashDamageTooltip += ", " + sprintf(translate("Friendly Fire: %(enabled)s"), {
         "enabled": splash.friendlyFire ? translate("Yes") : translate("No")
       });
 
@@ -351,7 +342,7 @@ function getGarrisonTooltip(template)
 
   let tooltips = [
     sprintf(translate("%(label)s: %(garrisonLimit)s"), {
-      "label": headerFont(translate("Garrison Limit")),
+      "label": headerFont(translate("Garrison Capacity")),
       "garrisonLimit": template.garrisonHolder.capacity
     })
   ];
@@ -366,7 +357,7 @@ function getGarrisonTooltip(template)
       })
     );
 
-  return tooltips.join(commaFont(translate(", ")));
+  return tooltips.join(", ");
 }
 
 function getProjectilesTooltip(template)
@@ -399,7 +390,7 @@ function getProjectilesTooltip(template)
       "label": headerFont(translateWithContext("projectiles", "Per Unit")),
       "value": +template.buildingAI.garrisonArrowMultiplier.toFixed(2)
     })
-  ].join(commaFont(translate(", ")));
+  ].join(", ");
 }
 
 function getRepairTimeTooltip(entState)
@@ -475,9 +466,9 @@ function getEntityCostComponentsTooltipString(template, entity, buildingsCountTo
   for (let type of getCostTypes())
     // Population bonus is shown in the tooltip
     if (type != "populationBonus" && totalCosts[type])
-      costs.push(sprintf(translate("%(component)s %(cost)s"), {
-        "component": resourceIcon(type),
-        "cost": totalCosts[type]
+      costs.push(sprintf(translate("%(cost)s %(component)s"), {
+        "cost": totalCosts[type],
+        "component": resourceIcon(type)
       }));
 
   return costs;
@@ -514,11 +505,11 @@ function getGatherTooltip(template)
     "label": headerFont(translate("Gather Rates:")),
     "details":
       Object.keys(rates).map(
-        type => sprintf(translate("%(resourceIcon)s %(rate)s"), {
-          "resourceIcon": resourceIcon(type),
-          "rate": rates[type]
+        type => sprintf(translate("%(rate)s %(resourceIcon)s"), {
+          "rate": rates[type],
+          "resourceIcon": resourceIcon(type)
         })
-      ).join("  ")
+      ).join(", ")
   });
 }
 
@@ -536,11 +527,11 @@ function getResourceTrickleTooltip(template)
     "details": sprintf(translate("%(resources)s / %(time)s"), {
       "resources":
         resCodes.map(
-          res => sprintf(translate("%(resourceIcon)s %(rate)s"), {
-            "resourceIcon": resourceIcon(res),
-            "rate": template.resourceTrickle.rates[res]
+          res => sprintf(translate("%(rate)s %(resourceIcon)s"), {
+            "rate": template.resourceTrickle.rates[res],
+            "resourceIcon": resourceIcon(res)
           })
-        ).join("  "),
+        ).join(", "),
       "time": getSecondsString(template.resourceTrickle.interval / 1000)
     })
   });
@@ -585,10 +576,10 @@ function getWallPieceTooltip(wallTypes)
     for (let resource in resourceCount)
       // Translation: This string is part of the resources cost string on
       // the tooltip for wall structures.
-      out.push(sprintf(translate("%(resourceIcon)s %(minimum)s to %(resourceIcon)s %(maximum)s"), {
-        "resourceIcon": resourceIcon(resource),
+      out.push(sprintf(translate("%(minimum)s %(resourceIcon)s to %(maximum)s %(resourceIcon)s"), {
         "minimum": Math.min.apply(Math, resourceCount[resource]),
-        "maximum": Math.max.apply(Math, resourceCount[resource])
+        "maximum": Math.max.apply(Math, resourceCount[resource]),
+        "resourceIcon": resourceIcon(resource)
       }));
   else
     for (let i = 0; i < wallTypes.length; ++i)
@@ -614,13 +605,13 @@ function getEntityCostTooltip(template, entity, buildingsCountToTrainFullBatch, 
     let wallCosts = getWallPieceTooltip([templateShort, templateMedium, templateLong]);
     let towerCosts = getEntityCostComponentsTooltipString(templateTower);
 
-    return sprintf(translate("Walls:  %(costs)s"), { "costs": wallCosts.join("  ") }) + "\n" +
-           sprintf(translate("Towers:  %(costs)s"), { "costs": towerCosts.join("  ") });
+    return sprintf(translate("Walls:  %(costs)s"), { "costs": wallCosts.join(", ") }) + "\n" +
+           sprintf(translate("Towers:  %(costs)s"), { "costs": towerCosts.join(", ") });
   }
 
   if (template.cost)
   {
-    let costs = getEntityCostComponentsTooltipString(template, entity, buildingsCountToTrainFullBatch, fullBatchSize, remainderBatch).join("  ");
+    let costs = getEntityCostComponentsTooltipString(template, entity, buildingsCountToTrainFullBatch, fullBatchSize, remainderBatch).join(", ");
     if (costs)
       // Translation: Label in tooltip showing cost of a unit, structure or technology.
       return sprintf(translate("%(label)s %(costs)s"), {
@@ -666,14 +657,14 @@ function getNeededResourcesTooltip(resources)
 
   let formatted = [];
   for (let resource in resources)
-    formatted.push(sprintf(translate("%(component)s %(cost)s"), {
-      "component": '[font="sans-12"]' + resourceIcon(resource) + '[/font]',
-      "cost": resources[resource]
+    formatted.push(sprintf(translate("%(cost)s %(component)s"), {
+      "cost": resources[resource],
+      "component": resourceIcon(resource)
     }));
   return coloredText(
     '[font="sans-bold-13"]' + translate("Insufficient resources:") + '[/font]',
     "red") + " " +
-    formatted.join("  ");
+    formatted.join(", ");
 }
 
 function getSpeedTooltip(template)
@@ -693,8 +684,7 @@ function getSpeedTooltip(template)
       sprintf(translate("%(speed)s %(movementType)s"), {
         "speed": walk,
         "movementType": unitFont(translate("Walk"))
-      }) +
-      commaFont(translate(", ")) +
+      }) + translate(", ") +
       sprintf(translate("%(speed)s %(movementType)s"), {
         "speed": run,
         "movementType": unitFont(translate("Run"))
@@ -716,7 +706,7 @@ function getHealerTooltip(template)
       "label": headerFont(translate("Heal:")),
       "val": hp,
       // Translation: Short for hit points (or health points) that are healed in one healing action
-      "unit": unitFont(translatePlural("HP", "HP", hp))
+      "unit": unitFont(translatePlural("health", "health", hp))
     }),
     sprintf(translatePlural("%(label)s %(val)s %(unit)s", "%(label)s %(val)s %(unit)s", range), {
       "label": headerFont(translate("Range:")),
@@ -820,9 +810,9 @@ function getLootTooltip(template)
       continue;
 
     // Translation: %(component) will be the icon for the loot type and %(loot) will be the value.
-    lootLabels.push(sprintf(translate("%(component)s %(loot)s"), {
-      "component": resourceIcon(type),
-      "loot": loot
+    lootLabels.push(sprintf(translate("%(loot)s %(component)s"), {
+      "loot": loot,
+      "component": resourceIcon(type)
     }));
   }
 
