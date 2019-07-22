@@ -19,6 +19,9 @@
       </Projectile>
       <ProjectileSpeed>50</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>
+      <ResourceCost>
+        <stone>4</stone>
+      </ResourceCost>
       <Spread>3.0</Spread>
     </Ranged>
   </Attack>

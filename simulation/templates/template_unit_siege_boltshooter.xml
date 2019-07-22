@@ -15,6 +15,9 @@
       <PrepareTime>3000</PrepareTime>
       <ProjectileSpeed>100</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>
+      <ResourceCost>
+        <metal>3</metal>
+      </ResourceCost>
       <Spread>1.0</Spread>
       <Thrust>50</Thrust>
     </Ranged>

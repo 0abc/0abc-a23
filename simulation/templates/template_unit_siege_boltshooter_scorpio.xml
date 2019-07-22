@@ -7,6 +7,9 @@
       <Pierce op="mul">0.4</Pierce>
       <PrepareTime>3000</PrepareTime>
       <RepeatTime>4000</RepeatTime>
+      <ResourceCost>
+        <metal>1</metal>
+      </ResourceCost>
       <Thrust op="mul">0.4</Thrust>
     </Ranged>
   </Attack>

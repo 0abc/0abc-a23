@@ -3,10 +3,11 @@
   "autoResearch": true,
   "genericName": "Roman Engineers",
   "modifications": [
-    { "value": "Attack/Ranged/Crush", "multiply": 1.25, "affects": "StoneThrower" },
-    { "value": "Cost/Resources/wood", "multiply": 1.25, "affects": "StoneThrower" },
-    { "value": "Health/Max",          "multiply": 1.2,  "affects": "StoneThrower" }
+    { "value": "Attack/Ranged/Crush",              "multiply": 1.25, "affects": "StoneThrower" },
+    { "value": "Attack/Ranged/ResourceCost/stone", "add":      1   , "affects": "StoneThrower" },
+    { "value": "Cost/Resources/wood",              "multiply": 1.25, "affects": "StoneThrower" },
+    { "value": "Health/Max",                       "multiply": 1.2,  "affects": "StoneThrower" }
   ],
   "requirements": { "civ": "rome" },
-  "tooltip": "Roman stone-throwers +25% wood cost, +20% health, +25% ranged attack crush damage."
+  "tooltip": "Roman stone-throwers +25% wood cost, +20% health, +25% ranged attack crush damage, and +1 stone per shot cost."
 }
