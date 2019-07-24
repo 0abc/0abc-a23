@@ -428,6 +428,8 @@ GuiInterface.prototype.GetEntityState = function(player, ent)
         // not in world, set a default?
         ret.attack[type].elevationAdaptedRange = ret.attack.maxRange;
       }
+      if (Object.keys(cmpAttack.GetResourceCost(type)).length)
+        ret.attack[type].cost = cmpAttack.GetResourceCost(type);
     }
   }
 

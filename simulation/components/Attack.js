@@ -143,6 +143,11 @@ Attack.prototype.Schema =
         "<element name='RepeatTime' a:help='Time between attacks (in milliseconds). The attack animation will be stretched to match this time'>" + // TODO: it shouldn't be stretched
           "<data type='positiveInteger'/>" +
         "</element>" +
+        "<optional>" +
+          "<element name='ResourceCost' a:help='Let an attack cost resources.'>" +
+            Resources.BuildSchema("nonNegativeDecimal") +
+          "</element>" +
+        "</optional>" +
         Attack.prototype.bonusesSchema +
         Attack.prototype.preferredClassesSchema +
         Attack.prototype.restrictedClassesSchema +
@@ -173,11 +178,6 @@ Attack.prototype.Schema =
         "<element name='RepeatTime' a:help='Time between attacks (in milliseconds). The attack animation will be stretched to match this time'>" +
           "<data type='positiveInteger'/>" +
         "</element>" +
-        "<optional>" +
-          "<element name='ResourceCost' a:help='Let an attack cost resources.'>" +
-            Resources.BuildSchema("nonNegativeDecimal") +
-          "</element>" +
-        "</optional>" +
         "<element name='ProjectileSpeed' a:help='Speed of projectiles (in metres per second)'>" +
           "<ref name='positiveDecimal'/>" +
         "</element>" +
@@ -189,6 +189,11 @@ Attack.prototype.Schema =
         Attack.prototype.bonusesSchema +
         Attack.prototype.preferredClassesSchema +
         Attack.prototype.restrictedClassesSchema +
+        "<optional>" +
+          "<element name='ResourceCost' a:help='Let an attack cost resources.'>" +
+            Resources.BuildSchema("nonNegativeDecimal") +
+          "</element>" +
+        "</optional>" +
         "<optional>" +
           "<element name='Projectile'>" +
             "<interleave>" +
@@ -265,8 +270,11 @@ Attack.prototype.GetResourceCost = function(attackType)
   let amounts = {};
   if (this.template[attackType].ResourceCost)
     for (let resType in this.template[attackType].ResourceCost)
-      amounts[resType] = this.template[attackType].ResourceCost[resType];
-
+    {
+      let amount = this.template[attackType].ResourceCost[resType];
+      amount = ApplyValueModificationsToEntity("Attack/" + attackType + "/ResourceCost" + resType, amount, this.entity);
+      amounts[resType] = amount;
+    }
   return amounts;
 };
 
@@ -314,7 +322,7 @@ Attack.prototype.CanAttack = function(target, wantedTypes)
     if (type != "Capture" && (!cmpEntityPlayer.IsEnemy(targetOwner) || !cmpHealth || !cmpHealth.GetHitpoints()))
       continue;
 
-    if (cmpEntityPlayer.GetNeededResources(this.GetResourceCost(type))) 
+    if (cmpEntityPlayer.GetNeededResources(this.GetResourceCost(type)))
       continue;
 
     if (heightDiff > this.GetRange(type).max)
@@ -635,12 +643,6 @@ Attack.prototype.PerformAttack = function(type, target)
       data.splashBonus = this.GetBonusTemplate(type + ".Splash");
     }
     cmpTimer.SetTimeout(SYSTEM_ENTITY, IID_Damage, "MissileHit", timeToTarget * 1000 + +this.template.Ranged.Delay, data);
-    // Subtract resources after a successful attack.
-    if (this.template[type].ResourceCost)
-    {
-      let cmpPlayer = QueryOwnerInterface(this.entity);
-      cmpPlayer.TrySubtractResources(this.GetResourceCost(type));
-    }
   }
   else
   {
@@ -653,6 +655,13 @@ Attack.prototype.PerformAttack = function(type, target)
       "type": type,
       "attackerOwner": attackerOwner
     });
+  }
+
+  // Subtract resources after a succesfull attack.
+  if (this.template[type].ResourceCost)
+  {
+    let cmpPlayer = QueryOwnerInterface(this.entity);
+    cmpPlayer.TrySubtractResources(this.GetResourceCost(type));
   }
 };
 

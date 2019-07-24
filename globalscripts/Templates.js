@@ -207,6 +207,12 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
         for (let damageType of damageTypes.GetTypes())
           ret.attack[type].splash[damageType] = getAttackStat("Splash/" + damageType);
       }
+      if (template.Attack[type].ResourceCost)
+      {
+        ret.attack[type].cost = {};
+        for (let resType in template.Attack[type].ResourceCost)
+          ret.attack[type].cost[resType] = getAttackStat("ResourceCost/" + resType);
+      }
     }
   }
 

@@ -23,15 +23,15 @@ var g_SplashDamageTypes = {
 var g_RangeTooltipString = {
   "relative": {
     // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 2 to 10 (+2) meters, Interval: 3 arrows / 2 seconds
-    "minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(minRange)s to %(maxRange)s (%(relativeRange)s) %(rangeUnit)s, %(rate)s"),
+    "minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(minRange)s to %(maxRange)s (%(relativeRange)s) %(rangeUnit)s, %(rate)s, %(cost)s"),
     // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 10 (+2) meters, Interval: 3 arrows / 2 seconds
-    "no-minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(maxRange)s (%(relativeRange)s) %(rangeUnit)s, %(rate)s"),
+    "no-minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(maxRange)s (%(relativeRange)s) %(rangeUnit)s, %(rate)s, %(cost)s"),
   },
   "non-relative": {
     // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 2 to 10 meters, Interval: 3 arrows / 2 seconds
-    "minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(minRange)s to %(maxRange)s %(rangeUnit)s, %(rate)s"),
+    "minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(minRange)s to %(maxRange)s %(rangeUnit)s, %(rate)s, %(cost)s"),
     // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 10 meters, Interval: 3 arrows / 2 seconds
-    "no-minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(maxRange)s %(rangeUnit)s, %(rate)s"),
+    "no-minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(maxRange)s %(rangeUnit)s, %(rate)s, %(cost)s"),
   }
 };
 
@@ -207,6 +207,26 @@ function attackRateDetails(template, type)
   });
 }
 
+function attackCostDetails(template, attackType)
+{
+  if (!template.attack[attackType].cost)
+    return "";
+
+  let resCodes = g_ResourceData.GetCodes().filter(res => !!template.attack[attackType].cost[res]);
+  if (!resCodes.length)
+    return "";
+
+  return sprintf(translate("%(label)s %(costs)s"), {
+    "label": headerFont(translate("Cost:")),
+    "costs": resCodes.map(
+          res => sprintf(translate("%(amount)s %(resourceIcon)s"), {
+            "amount": template.attack[attackType].cost[res],
+            "resourceIcon": resourceIcon(res),
+          })
+        ).join(", ")
+  });
+}
+
 /**
  * Converts an armor level into the actual reduction percentage
  */
@@ -272,13 +292,14 @@ function getAttackTooltip(template)
     let attackLabel = headerFont(g_AttackTypes[type]);
     if (type == "Capture" || type != "Ranged")
     {
-      tooltips.push(sprintf(translate("%(attackLabel)s %(details)s, %(rate)s"), {
+      tooltips.push(sprintf(translate("%(attackLabel)s %(details)s, %(rate)s, %(costs)s"), {
         "attackLabel": attackLabel,
         "details":
           type == "Capture" ?
             template.attack.Capture.value :
             damageTypesToText(template.attack[type]),
-        "rate": rate
+        "rate": rate,
+        "costs": attackCostDetails(template, type)
       }));
       continue;
     }
@@ -301,6 +322,7 @@ function getAttackTooltip(template)
           translate("meters") :
           translatePlural("meter", "meters", maxRange)),
       "rate": rate,
+      "cost": attackCostDetails(template, type)
     }));
   }
   return tooltips.join("\n");
@@ -337,44 +359,44 @@ function getSplashDamageTooltip(template)
 
 function getGarrisonTooltip(template)
 {
-	let tooltips = [];
-	if (template.garrisonHolder)
-	{
-		tooltips.push (
-			sprintf(translate("%(label)s: %(garrisonLimit)s"), {
-				"label": headerFont(translate("Garrison Capacity")),
-				"garrisonLimit": template.garrisonHolder.capacity
-			})
-		);
+  let tooltips = [];
+  if (template.garrisonHolder)
+  {
+    tooltips.push (
+      sprintf(translate("%(label)s: %(garrisonLimit)s"), {
+        "label": headerFont(translate("Garrison Capacity")),
+        "garrisonLimit": template.garrisonHolder.capacity
+      })
+    );
 
-		if (template.garrisonHolder.buffHeal)
-			tooltips.push(
-				sprintf(translate("%(healRateLabel)s %(value)s %(health)s / %(second)s"), {
-					"healRateLabel": headerFont(translate("Heal:")),
-					"value": Math.round(template.garrisonHolder.buffHeal),
-					"health": unitFont(translate("Health")),
-					"second": unitFont(translate("second")),
-				})
-			);
+    if (template.garrisonHolder.buffHeal)
+      tooltips.push(
+        sprintf(translate("%(healRateLabel)s %(value)s %(health)s / %(second)s"), {
+          "healRateLabel": headerFont(translate("Heal:")),
+          "value": Math.round(template.garrisonHolder.buffHeal),
+          "health": unitFont(translate("Health")),
+          "second": unitFont(translate("second")),
+        })
+      );
 
-		tooltips.join(", ");
-	}
-	if (template.canGarrison)
-	{
-		let extraSize;
-		if (template.garrisonHolder)
-			extraSize = template.garrisonHolder.garrisonedSlots;
-		if (template.canGarrison.size || extraSize)
-			tooltips.push (
-				sprintf(translate("%(label)s: %(garrisonSize)s %(extraSize)s"), {
-					"label": headerFont(translate("Garrison Size")),
-					"garrisonSize": template.canGarrison.size,
-					"extraSize": extraSize ? "+ " + extraSize : ""
-				})
-			);
-	}
+    tooltips.join(", ");
+  }
+  if (template.canGarrison)
+  {
+    let extraSize;
+    if (template.garrisonHolder)
+      extraSize = template.garrisonHolder.garrisonedSlots;
+    if (template.canGarrison.size || extraSize)
+      tooltips.push (
+        sprintf(translate("%(label)s: %(garrisonSize)s %(extraSize)s"), {
+          "label": headerFont(translate("Garrison Size")),
+          "garrisonSize": template.canGarrison.size,
+          "extraSize": extraSize ? "+ " + extraSize : ""
+        })
+      );
+  }
 
-	return tooltips.join("\n");
+  return tooltips.join("\n");
 }
 
 function getProjectilesTooltip(template)
