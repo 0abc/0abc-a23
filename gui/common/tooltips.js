@@ -216,14 +216,14 @@ function attackCostDetails(template, attackType)
   if (!resCodes.length)
     return "";
 
-  return sprintf(translate("%(label)s %(costs)s"), {
+  return sprintf(translate("%(label)s %(cost)s"), {
     "label": headerFont(translate("Cost:")),
-    "costs": resCodes.map(
+    "cost": resCodes.map(
           res => sprintf(translate("%(amount)s %(resourceIcon)s"), {
             "amount": template.attack[attackType].cost[res],
-            "resourceIcon": resourceIcon(res),
+            "resourceIcon": resourceIcon(res)
           })
-        ).join(", ")
+        ).join("  ")
   });
 }
 
@@ -292,14 +292,14 @@ function getAttackTooltip(template)
     let attackLabel = headerFont(g_AttackTypes[type]);
     if (type == "Capture" || type != "Ranged")
     {
-      tooltips.push(sprintf(translate("%(attackLabel)s %(details)s, %(rate)s, %(costs)s"), {
+      tooltips.push(sprintf(translate("%(attackLabel)s %(details)s, %(rate)s, %(cost)s"), {
         "attackLabel": attackLabel,
         "details":
           type == "Capture" ?
             template.attack.Capture.value :
             damageTypesToText(template.attack[type]),
         "rate": rate,
-        "costs": attackCostDetails(template, type)
+        "cost": attackCostDetails(template, type)
       }));
       continue;
     }

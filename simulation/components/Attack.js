@@ -186,14 +186,14 @@ Attack.prototype.Schema =
         "</element>" +
         "<element name='Spread' a:help='Standard deviation of the bivariate normal distribution of hits at 100 meters. A disk at 100 meters from the attacker with this radius (2x this radius, 3x this radius) is expected to include the landing points of 39.3% (86.5%, 98.9%) of the rounds.'><ref name='nonNegativeDecimal'/></element>" +
         "<element name='Delay' a:help='Delay of the damage in milliseconds'><ref name='nonNegativeDecimal'/></element>" +
-        Attack.prototype.bonusesSchema +
-        Attack.prototype.preferredClassesSchema +
-        Attack.prototype.restrictedClassesSchema +
         "<optional>" +
           "<element name='ResourceCost' a:help='Let an attack cost resources.'>" +
             Resources.BuildSchema("nonNegativeDecimal") +
           "</element>" +
         "</optional>" +
+        Attack.prototype.bonusesSchema +
+        Attack.prototype.preferredClassesSchema +
+        Attack.prototype.restrictedClassesSchema +
         "<optional>" +
           "<element name='Projectile'>" +
             "<interleave>" +
@@ -272,7 +272,7 @@ Attack.prototype.GetResourceCost = function(attackType)
     for (let resType in this.template[attackType].ResourceCost)
     {
       let amount = this.template[attackType].ResourceCost[resType];
-      amount = ApplyValueModificationsToEntity("Attack/" + attackType + "/ResourceCost" + resType, amount, this.entity);
+      amount = ApplyValueModificationsToEntity("Attack/" + attackType + "/ResourceCost/" + resType, amount, this.entity);
       amounts[resType] = amount;
     }
   return amounts;
@@ -657,7 +657,7 @@ Attack.prototype.PerformAttack = function(type, target)
     });
   }
 
-  // Subtract resources after a succesfull attack.
+  // Subtract resources after a successful attack.
   if (this.template[type].ResourceCost)
   {
     let cmpPlayer = QueryOwnerInterface(this.entity);

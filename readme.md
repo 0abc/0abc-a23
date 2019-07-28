@@ -27,7 +27,6 @@ TODO: get the AI to:
   * [Upkeep and income](https://github.com/0abc/0abc-a23#upkeep-and-income)
   * [Auras and technologies](https://github.com/0abc/0abc-a23#auras-and-technologies)
     * [Structure auras](https://github.com/0abc/0abc-a23#structure-auras)
-    * [Unit auras](https://github.com/0abc/0abc-a23#unit-auras)
     * [Class bonuses](https://github.com/0abc/0abc-a23#class-bonuses)
     * [Civilization bonuses](https://github.com/0abc/0abc-a23#civilization-bonuses)
     * [Team bonuses](https://github.com/0abc/0abc-a23#team-bonuses)
@@ -316,18 +315,9 @@ There are four damage types (crush, hack, pierce, thrust)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
-#### Unit auras
-* {Camel} **Stench** (15 m): enemy cavalry −20% attack damage and capture strength.
-* {Chariot} **Noise** (12 m): enemy infantry −15% attack damage and capture strength.
-* {Elephant} **Intimidation** (10 m): enemy soldiers −10% attack damage and capture strength.
-* {Merchant} **Convoy** (20 m): own naval traders +2.0 pierce armour.
-* {Trader} **Caravan** (10 m): own land traders +2.0 pierce armour.
-
-[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
-
 #### Class bonuses
-* **Champion**: +200% silver cost, +100% training time, +50% health, +2.0 armour levels, +100% capture attack strength, +50% melee and ranged attack damage.
-* **Veteran**: +50% silver cost, +50% training time, +20% health, +1.0 armour levels, +50% capture attack strength, +30% melee and ranged attack damage.
+* **Champion**: +200% silver cost, +100% training time, +50% health, +2 armour levels, +100% capture attack strength, +50% melee and ranged attack damage.
+* **Veteran**: +50% silver cost, +50% training time, +20% health, +1 armour levels, +50% capture attack strength, +30% melee and ranged attack damage.
 * **Mercenary**: +100% silver cost, 0 other resource costs, −50% training time, +10% health, +25% capture attack strength, +15% melee and ranged attack damage.
 * **Cataphract**: +20% silver cost, +2 armour levels, −5% movement speed.
 
@@ -666,6 +656,7 @@ On random maps, all factions start with:
 * ranged attack for slaves and women (crouch down to pick up stones, then throw them)
 * ranged attack for fishermen (hurl harpoon)
 * gather meat animation for fishermen (chop at carcass)
+* animations for animals that are present in game but don't have any yet (at the very least: bear, dragon, African baby elephant, fox, muskox, pig, walrus, wildebeest)
 * swimming animations for crocodile
 * kid (young goat), lamb (young sheep), piglet (young pig), calf (young cow), foal (young horse)
 
@@ -673,6 +664,7 @@ On random maps, all factions start with:
 
 ### Features
 * AI: replace all hard-coded template file name paths with classes
+* AI: build forges near metal mines
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
