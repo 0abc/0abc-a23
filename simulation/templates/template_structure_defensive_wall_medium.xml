@@ -8,7 +8,7 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>3</Max>
+    <Max>4</Max>
   </GarrisonHolder>
   <Health>
     <Max>2700</Max>
