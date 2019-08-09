@@ -35,6 +35,9 @@
       <walk>actor/mounted/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <StatusBars>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>

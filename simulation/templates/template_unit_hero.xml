@@ -68,6 +68,11 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <StatusBars>
+    <BarHeight>0.5</BarHeight>
+    <BarWidth>5.0</BarWidth>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
   <TrainingRestrictions>
     <Category>Hero</Category>
   </TrainingRestrictions>
