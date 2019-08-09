@@ -12,5 +12,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 30,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +50% fruit foraging rate and +5 food carry capacity."
+  "tooltip": "Workers +5 food capacity and +50% fruit gather rate."
 }

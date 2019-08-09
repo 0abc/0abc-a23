@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Domestic animals (goats, sheep, pigs, cattle, etc.) −25% breed time."
+  "tooltip": "Domestic animals −25% breeding time."
 }

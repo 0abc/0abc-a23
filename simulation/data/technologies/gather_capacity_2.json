@@ -15,5 +15,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_capacity_1",
-  "tooltip": "Workers +5 shuttle capacity for all resources."
+  "tooltip": "Workers +5 resource capacity."
 }

@@ -12,5 +12,5 @@
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_metal_2",
-  "tooltip": "Workers +30% iron gathering rate."
+  "tooltip": "Workers +30% iron gather rate."
 }

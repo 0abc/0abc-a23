@@ -12,5 +12,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_wood_1",
-  "tooltip": "Workers +25% lumbering rate for trees."
+  "tooltip": "Workers +25% wood gather rate."
 }

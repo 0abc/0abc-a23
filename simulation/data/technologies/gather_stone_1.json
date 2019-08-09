@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +20% stone gathering rate."
+  "tooltip": "Workers +20% stone gather rate."
 }

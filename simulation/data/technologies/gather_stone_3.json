@@ -12,5 +12,5 @@
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_stone_2",
-  "tooltip": "Workers +30% stone gathering rate."
+  "tooltip": "Workers +30% stone gather rate."
 }

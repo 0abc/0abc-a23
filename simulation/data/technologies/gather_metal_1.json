@@ -11,5 +11,5 @@
   "requirements": { "tech": "phase_village" },
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
-  "tooltip": "Workers +20% iron gathering rate."
+  "tooltip": "Workers +20% iron gather rate."
 }

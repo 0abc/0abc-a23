@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Fishing boats and workers +30% fishing rate. Unlocks Salting Fish."
+  "tooltip": "Fishing boats and workers +30% fish gather rate."
 }

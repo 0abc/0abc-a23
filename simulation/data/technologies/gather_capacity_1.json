@@ -14,5 +14,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +5 shuttle capacity for all resources."
+  "tooltip": "Workers +5 resource capacity."
 }

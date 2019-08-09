@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +20% lumbering rate for trees."
+  "tooltip": "Workers +20% wood gather rate."
 }

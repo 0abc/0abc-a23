@@ -12,5 +12,5 @@
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_farm_3",
-  "tooltip": "Workers +5% farming rate."
+  "tooltip": "Workers +5% grain gather rate."
 }
