@@ -10,8 +10,8 @@
   <Obstruction>
     <Obstructions>
       <Door width="13" depth="6.5" x="0" z="0"/>
-      <Left width="13" depth="6.5" x="-12.5" z="0"/>
-      <Right width="13" depth="6.5" x="12.5" z="0"/>
+      <Left width="12" depth="6.5" x="-12.5" z="0"/>
+      <Right width="12" depth="6.5" x="12.5" z="0"/>
     </Obstructions>
   </Obstruction>
   <VisualActor>
