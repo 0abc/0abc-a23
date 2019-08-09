@@ -11,7 +11,7 @@
   </Cost>
   <GarrisonHolder disable=""/>
   <Gate>
-    <PassRange>20</PassRange>
+    <PassRange>18</PassRange>
   </Gate>
   <Health>
     <Max>2250</Max>

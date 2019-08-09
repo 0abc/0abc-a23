@@ -11,7 +11,7 @@
     <Square width="16" depth="3.0"/>
   </Footprint>
   <Gate>
-    <PassRange>20</PassRange>
+    <PassRange>12</PassRange>
   </Gate>
   <Health>
     <Max>1200</Max>

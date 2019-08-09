@@ -14,7 +14,7 @@
   </Footprint>
   <GarrisonHolder disable=""/>
   <Gate>
-    <PassRange>20</PassRange>
+    <PassRange>15</PassRange>
   </Gate>
   <Health>
     <Max>1250</Max>
