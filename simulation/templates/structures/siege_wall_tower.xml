@@ -7,11 +7,19 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>14.0</Height>
-    <Square width="10.0" depth="10.0"/>
+    <Height>12.0</Height>
+    <Square width="8.0" depth="8.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>0</X><Y>7.5</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>0</X><Y>11.5</Y><Z>0</Z>
+      </Second>
+    </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
     <Max>2500</Max>
@@ -21,7 +29,7 @@
     <GenericName>Siege Wall Tower</GenericName>
   </Identity>
   <Obstruction>
-    <Static width="7.0" depth="7.0"/>
+    <Static width="6.0" depth="6.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/siege_wall_tower.xml</Actor>

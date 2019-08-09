@@ -8,14 +8,14 @@
   </Cost>
   <Footprint>
     <Height>7.0</Height>
-    <Square width="16.0" depth="8.0"/>
+    <Square width="14.0" depth="6.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>1</Max>
     <VisibleGarrisonPoints>
-      <Archer1>
+      <First>
         <X>0</X><Y>5.7</Y><Z>0</Z>
-      </Archer1>
+      </First>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
@@ -26,7 +26,7 @@
     <SelectionGroupName>structures/siege_wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="13.0" depth="5.0"/>
+    <Static width="12.0" depth="4.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/siege_wall_short.xml</Actor>
