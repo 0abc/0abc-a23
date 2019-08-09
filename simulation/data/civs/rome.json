@@ -49,7 +49,7 @@
 		{
 			"Name": "Roman Architecture",
 			"History": "",
-			"Description": "Siege walls −10% build time. City walls +10% stone cost, +10% wood cost, +10% build time, +10% health."
+			"Description": "Wooden walls −10% build time. City walls +10% stone cost, +10% wood cost, +10% build time, +10% health."
 		},
 		{
 			"Name": "Roman Engineers",

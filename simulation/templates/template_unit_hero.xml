@@ -10,7 +10,7 @@
     <Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Field Palisade StoneWall WoodenWall</RestrictedClasses>
       <Value>20</Value>
     </Capture>
   </Attack>

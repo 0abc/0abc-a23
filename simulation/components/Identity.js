@@ -67,7 +67,7 @@ Identity.prototype.Schema =
     "</element>" +
   "</optional>" +
   "<optional>" +
-    "<element name='Classes' a:help='Optional list of space-separated classes applying to this entity. Choices include: Apadana, ArmyCamp, Ashoka, Barracks, BarterMarket, CitizenSoldier, Colony, Corral, ConquestCritical,  Dock, Domestic, DropsiteFood, DropsiteMetal, DropsiteStone, DropsiteWood, ElephantStable, Embassy, Farmstead, Field, FemaleCitizen, FishingBoat, ForestPlant, Fortress, GarrisonFortress, GarrisonTower, Gates, Human, Immortal, Juggernaut, Kennel, LandTrader, LargeTower, Lighthouse, LongWall, Market, Mechanical, MercenaryCamp, Monument, Mounted, NavalMarket, NavalTrader, Outpost, Palace, Palisade, Player, Range, SeaCreature, Shipyard, SiegeWall, SmallTower, SpecialBuilding, StoneWall, Stable, Storehouse, Structure, Syssiton, Temple, Theatre, Tower, Unit.'>" +
+    "<element name='Classes' a:help='Optional list of space-separated classes applying to this entity. Choices include: Apadana, ArmyCamp, Ashoka, Barracks, BarterMarket, CitizenSoldier, Colony, Corral, ConquestCritical,  Dock, Domestic, DropsiteFood, DropsiteMetal, DropsiteStone, DropsiteWood, ElephantStable, Embassy, Farmstead, Field, FemaleCitizen, FishingBoat, ForestPlant, Fortress, GarrisonFortress, GarrisonTower, Gates, Human, Immortal, Juggernaut, Kennel, LandTrader, LargeTower, Lighthouse, LongWall, Market, Mechanical, MercenaryCamp, Monument, Mounted, NavalMarket, NavalTrader, Outpost, Palace, Palisade, Player, Range, SeaCreature, Shipyard, SmallTower, SpecialBuilding, StoneWall, Stable, Storehouse, Structure, Syssiton, Temple, Theatre, Tower, Unit, WoodenWall.'>" +
       "<attribute name='datatype'>" +
         "<value>tokens</value>" +
       "</attribute>" +

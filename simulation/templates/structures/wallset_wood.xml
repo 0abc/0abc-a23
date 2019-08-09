@@ -2,8 +2,8 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>gaia</Civ>
-    <Classes datatype="tokens">-StoneWall SiegeWall</Classes>
-    <GenericName>Siege Wall</GenericName>
+    <Classes datatype="tokens">-StoneWall WoodenWall</Classes>
+    <GenericName>Wooden Wall</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -12,11 +12,11 @@
     <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
       <Fort>structures/siege_fort</Fort>
-      <Gate>structures/siege_wall_gate</Gate>
-      <Tower>structures/siege_wall_tower</Tower>
-      <WallLong>structures/siege_wall_long</WallLong>
-      <WallMedium>structures/siege_wall_medium</WallMedium>
-      <WallShort>structures/siege_wall_short</WallShort>
+      <Gate>structures/wooden_wall_gate</Gate>
+      <Tower>structures/wooden_wall_tower</Tower>
+      <WallLong>structures/wooden_wall_long</WallLong>
+      <WallMedium>structures/wooden_wall_medium</WallMedium>
+      <WallShort>structures/wooden_wall_short</WallShort>
     </Templates>
   </WallSet>
 </Entity>

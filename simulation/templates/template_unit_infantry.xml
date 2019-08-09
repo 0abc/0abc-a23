@@ -4,7 +4,7 @@
     <Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Field Palisade StoneWall WoodenWall</RestrictedClasses>
       <Value>2</Value>
     </Capture>
     <Slaughter>
@@ -35,7 +35,7 @@
       structures/{civ}/large_tower
       structures/{civ}/fortress
       structures/wallset_palisade
-      structures/wallset_siege
+      structures/wallset_wood
       structures/{civ}/wallset_city
       structures/{civ}/stable
       structures/{civ}/arsenal

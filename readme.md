@@ -370,7 +370,7 @@ There are four damage types (crush, hack, pierce, thrust)
     * healers −20% healing time.
 * **Rome**:
   * *Roman Architecture*:
-    * siege walls −10% build time;
+    * wooden walls −10% build time;
     * city walls +10% stone cost, +10% wood cost, +10% build time, +10% health.
   * *Roman Engineers*:
     * stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.

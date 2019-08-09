@@ -1440,7 +1440,7 @@ m.AttackPlan.prototype.update = function(gameState, events)
       else if (this.target.hasClass("Palisade") || this.target.hasClass("StoneWall"))
         targetClassesUnit = { "attack": ["Unit", "Structure"], "avoid": ["Fortress"], "vetoEntities": veto };
       else
-        targetClassesUnit = { "attack": ["Unit", "Structure"], "avoid": ["Palisade", "SiegeWall", "StoneWall", "Fortress"], "vetoEntities": veto };
+        targetClassesUnit = { "attack": ["Unit", "Structure"], "avoid": ["Palisade", "WoodenWall", "StoneWall", "Fortress"], "vetoEntities": veto };
     }
     if (this.target.hasClass("Structure"))
       targetClassesSiege = { "attack": ["Structure"], "avoid": [], "vetoEntities": veto };

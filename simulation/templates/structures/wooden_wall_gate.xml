@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_siegewall">
+<Entity parent="template_structure_defensive_wall_wood">
   <Auras disable=""/>
   <Cost>
     <BuildTime>28</BuildTime>
@@ -21,7 +21,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Siege Wall Gate</GenericName>
+    <GenericName>Wooden Wall Gate</GenericName>
     <Icon>structures/wooden_gate.png</Icon>
   </Identity>
   <Obstruction>
