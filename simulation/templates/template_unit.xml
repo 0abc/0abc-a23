@@ -140,7 +140,7 @@
   <StatusBars>
     <BarHeight>0.333</BarHeight>
     <BarWidth>2.0</BarWidth>
-    <HeightOffset>4.0</HeightOffset>
+    <HeightOffset>5.0</HeightOffset>
   </StatusBars>
   <UnitAI>
     <CanGuard>true</CanGuard>
