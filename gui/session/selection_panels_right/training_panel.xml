@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitTrainingPanel" size="6 8 100% 100%">
+<object name="unitTrainingPanel" size="6 6 100% 100%">
   <object size="0 0 100% 100%">
     <repeat count="40">
-      <object name="unitTrainingButton[n]" hidden="true" style="iconButton" type="button" size="0 0 38 38" tooltip_style="sessionToolTipBottom">
-        <object name="unitTrainingIcon[n]" type="image" ghost="true" size="3 3 35 35"/>
+      <object name="unitTrainingButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
+        <object name="unitTrainingIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
         <object name="unitTrainingCount[n]" ghost="true" style="groupIconsText" type="text" z="20"/>
         <action on="MouseWheelUp">
           OnTrainMouseWheel(1);

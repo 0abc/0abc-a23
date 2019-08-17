@@ -340,9 +340,9 @@ g_SelectionPanels.Formation = {
 g_SelectionPanels.Garrison = {
   "getMaxNumberOfItems": function()
   {
-    return 12;
+    return 15;
   },
-  "rowLength": 4,
+  "rowLength": 5,
   "conflictsWith": ["Barter"],
   "getItems": function(unitEntStates)
   {

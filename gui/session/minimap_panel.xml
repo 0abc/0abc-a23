@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object
   name="minimapPanel"
-  size="50%-106 100%-212 50%+106 100%"
+  size="50%-100 100%-200 50%+100 100%"
   type="image"
   sprite="mapPanel"
 >
@@ -20,7 +20,7 @@
   <object
     name="idleWorkerButton"
     type="button"
-    size="100%-120 100%-120 100%-5 100%-5"
+    size="100%-110 100%-110 100%-5 100%-5"
     tooltip_style="sessionToolTip"
     hotkey="selection.idleworker"
     sprite="stretched:session/minimap-idle.png"
@@ -34,7 +34,7 @@
   <object
     name="diplomacyColorsButton"
     type="button"
-    size="4 100%-120 119 100%-5"
+    size="5 100%-110 110 100%-5"
     tooltip_style="sessionToolTip"
     hotkey="session.diplomacycolors"
     sprite="stretched:session/minimap-diplomacy-off.png"
