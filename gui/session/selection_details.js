@@ -324,6 +324,7 @@ function displayMultiple(entStates)
   let playerID = 0;
   let totalCarrying = {};
   let totalLoot = {};
+  let garrisonSize = 0;
 
   for (let entState of entStates)
   {
@@ -353,6 +354,12 @@ function displayMultiple(entStates)
       totalCarrying[type] = (totalCarrying[type] || 0) + carrying[type];
       totalLoot[type] = (totalLoot[type] || 0) + carrying[type];
     }
+
+    if (entState.garrisonHolder)
+      garrisonSize += entState.garrisonHolder.garrisonedSlots;
+
+    if (entState.canGarrison)
+      garrisonSize += entState.canGarrison.size;
   }
 
   Engine.GetGUIObjectByName("healthMultiple").hidden = averageHealth <= 0;
@@ -405,6 +412,12 @@ function displayMultiple(entStates)
   let numberOfUnits = Engine.GetGUIObjectByName("numberOfUnits");
   numberOfUnits.caption = entStates.length;
   numberOfUnits.tooltip = "";
+
+  if (garrisonSize)
+    numberOfUnits.tooltip = sprintf(translate("%(label)s: %(details)s\n"), {
+      "label": headerFont(translate("Garrison Size")),
+      "details": bodyFont(garrisonSize)
+    });
 
   if (Object.keys(totalCarrying).length)
     numberOfUnits.tooltip = sprintf(translate("%(label)s %(details)s\n"), {
