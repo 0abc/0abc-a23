@@ -118,7 +118,7 @@
 
     <!-- Supplemental Details Panel (Left of Selection Details) -->
     <object
-      size="50%-480 100%-160 50%-284 100%"
+      size="50%-480 100%-156 50%-284 100%"
       name="supplementalSelectionDetails"
       type="image"
       sprite="supplementalDetailsPanel"
@@ -141,7 +141,7 @@
     <object name="unitCommands"
       type="image"
       sprite="unitCommandsPanel"
-      size="50%+96 100%-160 50%+480 100%"
+      size="50%+96 100%-156 50%+480 100%"
       hidden="false"
       z="20"
     >
