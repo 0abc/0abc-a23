@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<!DOCTYPE setup SYSTEM "..\gui.dtd">
+
+<setup>
+  <!-- setup colours -->
+  <color name="transparent">0 0 0 0</color>
+
+  <color name="black">0 0 0</color>
+  <color name="white">255 255 255</color>
+  <color name="red">255 0 0</color>
+  <color name="green">0 255 0</color>
+  <color name="blue">0 0 255</color>
+  <color name="cyan">0 255 255</color>
+  <color name="magenta">255 0 255</color>
+  <color name="yellow">255 255 0</color>
+
+  <color name="orange">205 127 50</color> <!-- bronze -->
+  <color name="gold">255 215 0</color>
+  <color name="gray">143 142 140</color>
+  <color name="darkbrown">30 20 10</color>
+
+  <!-- setup icons -->
+  <icon name="iconInfo"
+    sprite="iconInfoWhite"
+    size="16 16"
+  />
+
+  <!-- setup tooltips -->
+  <tooltip name="pgToolTip"
+    use_object="pgToolTip"
+    delay="0"
+    hide_object="true"
+  />
+  <tooltip name="snToolTip"
+    anchor="top"
+    buffer_zone="4"
+    delay="500"
+    font="sans-14"
+    maxwidth="300"
+    offset="16 32"
+    sprite="BackgroundWhiteBorderBlack"
+    textcolor="0 0 0"
+  />
+  <tooltip name="snToolTipBottom"
+    anchor="bottom"
+    buffer_zone="4"
+    delay="500"
+    font="sans-14"
+    maxwidth="300"
+    offset="-4 -4"
+    sprite="BackgroundWhiteBorderBlack"
+    textcolor="0 0 0"
+  />
+  <tooltip name="sessionToolTip"
+    anchor="top"
+    buffer_zone="4"
+    delay="100"
+    font="sans-14"
+    maxwidth="300"
+    offset="16 32"
+    sprite="BackgroundSessionTooltip"
+    textcolor="255 255 255"
+  />
+  <tooltip name="sessionToolTipInstantly"
+    anchor="top"
+    buffer_zone="4"
+    delay="0"
+    font="sans-14"
+    maxwidth="300"
+    offset="16 32"
+    sprite="BackgroundSessionTooltip"
+    textcolor="255 255 255"
+  />
+  <tooltip name="sessionToolTipBottom"
+    anchor="bottom"
+    buffer_zone="4"
+    delay="100"
+    font="sans-14"
+    maxwidth="400"
+    offset="-4 -4"
+    sprite="BackgroundSessionTooltip"
+    textcolor="255 255 255"
+  />
+  <tooltip name="sessionToolTipBold"
+    anchor="top"
+    buffer_zone="4"
+    delay="100"
+    font="sans-bold-14"
+    maxwidth="300"
+    offset="16 32"
+    sprite="BackgroundSessionTooltip"
+    textcolor="255 255 255"
+  />
+  <tooltip name="sessionToolTipBottomBold"
+    anchor="bottom"
+    buffer_zone="4"
+    delay="100"
+    font="sans-bold-14"
+    maxwidth="400"
+    offset="-4 -4"
+    sprite="BackgroundSessionTooltip"
+    textcolor="255 255 255"
+  />
+</setup>

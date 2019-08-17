@@ -55,14 +55,13 @@
     </object>
 
     <object size="4 63 100%-4 99" type="image" sprite="edgedPanelShader">
-      <!-- Attack and Armour -->
-      <object size="90 -2 126 34" name="attackAndArmorStats" type="image" sprite="stretched:session/icons/stances/defensive.png" tooltip_style="sessionToolTipInstantly">
+      <!-- Armour etc. tooltip -->
+      <object size="90 0 122 32" name="attackAndArmorStats" type="image" sprite="stretched:session/icons/stances/defensive.png" tooltip_style="sessionToolTipInstantly">
         <translatableAttribute id="tooltip">Attack and Armour</translatableAttribute>
       </object>
-      <!-- Resource carrying icon/counter -->
-      <!-- Used also for number of gatherers/builders -->
-      <object size="100%-98 -2 100%-36 34" type="text" name="resourceCarryingText" style="CarryingTextRight"/>
-      <object size="100%-36 -2 100% 34" type="image" name="resourceCarryingIcon" tooltip_style="sessionToolTip"/>
+      <!-- Resource carrying counter and icon, also used for number of gatherers and build time -->
+      <object size="100%-96 0 100%-32 32" type="text" name="resourceCarryingText" style="CarryingTextRight"/>
+      <object size="100%-32 0 100% 32" type="image" name="resourceCarryingIcon" tooltip_style="sessionToolTip"/>
     </object>
 
     <!-- Big unit icon -->
@@ -84,7 +83,7 @@
     </object>
   </object>
 
-  <!-- Names (this must come before the attack and armour icon to avoid clipping issues) -->
+  <!-- Names -->
   <object size="4 96 100%-4 100%-36" name="statsArea" type="image" sprite="edgedPanelShader">
 
     <!-- These images are used to clip off the top and bottom of the civ icon -->
@@ -94,12 +93,11 @@
     <object z="30" size="0 2 100% 45" ghost="true">
       <!-- Specific Name -->
       <object size="0 0 100% 20" name="specific" ghost="true" type="text" style="SpecificNameCentered"/>
-
       <!-- Generic Name -->
       <object size="0 15 100% 36" name="generic" ghost="true" type="text" style="GenericNameCentered"/>
     </object>
 
-    <!-- Player Name and Civ -->
+    <!-- Player name and civilization emblem -->
     <object size="0 40 100% 100%">
       <object size="50%-48 50%-48 50%+48 50%+48" name="playerCivIcon" type="image" ghost="true"/>
       <object size="0 0 100% 100%" name="playerColorBackground" type="image" sprite="playerColorBackground" ghost="true"/>

@@ -8,7 +8,7 @@
     <repeat count="20">
       <object name="unitQueueButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
         <object name="unitQueueIcon[n]" ghost="true" type="image" size="2 2 100%-2 100%-2"/>
-        <object name="unitQueueProgressSlider[n]" type="image" sprite="queueProgressSlider" ghost="true" size="2 2 100%-2 100%-2" z="20"/>
+        <object name="unitQueueProgressSlider[n]" type="image" sprite="queueProgressSlider" ghost="true" size="2 2 34 34" z="20"/>
         <object name="unitQueueCount[n]" ghost="true" style="groupIconsText" type="text" z="20"/>
       </object>
     </repeat>
