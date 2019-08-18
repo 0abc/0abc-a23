@@ -1,5 +1,5 @@
 var g_TooltipTextFormats = {
-  "unit": { "font": "sans-10", "color": "orange" },
+  "unit": { "font": "sans-10", "color": "255 215 0" },
   "header": { "font": "sans-bold-13" },
   "body": { "font": "sans-13" },
   "nameSpecificBig": { "font": "sans-bold-16" },

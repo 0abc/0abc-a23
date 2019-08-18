@@ -8,14 +8,29 @@
 
   <color name="black">0 0 0</color>
   <color name="white">255 255 255</color>
-  <color name="red">255 0 0</color>
-  <color name="green">0 255 0</color>
-  <color name="blue">0 0 255</color>
-  <color name="cyan">0 255 255</color>
-  <color name="magenta">255 0 255</color>
-  <color name="yellow">255 255 0</color>
 
-  <color name="orange">205 127 50</color> <!-- bronze -->
+  <color name="red">255 0 0</color>
+  <color name="yellow">255 255 0</color>
+  <color name="green">0 255 0</color>
+  <color name="cyan">0 255 255</color>
+  <color name="blue">0 0 255</color>
+  <color name="magenta">255 0 255</color>
+
+  <color name="maroon">128 0 0</color>
+  <color name="olive">128 128 0</color>
+  <color name="officegreen">0 128 0</color>
+  <color name="teal">0 128 128</color>
+  <color name="navy">0 0 128</color>
+  <color name="purple">128 0 128</color>
+
+  <color name="orange">255 127 0</color>
+  <color name="chartreusegreen">127 255 0</color>
+  <color name="springgreen">0 255 127</color>
+  <color name="azure">0 127 255</color>
+  <color name="violet">127 0 255</color>
+  <color name="rose">255 0 127</color>
+
+  <color name="bronze">205 127 50</color>
   <color name="gold">255 215 0</color>
   <color name="gray">143 142 140</color>
   <color name="darkbrown">30 20 10</color>
