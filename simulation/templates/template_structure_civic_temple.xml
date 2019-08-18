@@ -31,8 +31,6 @@
       units/{civ}/support_healer
     </Entities>
     <Technologies datatype="tokens">
-      healer_range_1
-      healer_range_2
       healer_rate_1
       healer_rate_2
       heal_garrison

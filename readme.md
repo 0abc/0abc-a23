@@ -346,8 +346,6 @@ There are four damage types (crush, hack, pierce, thrust)
 * **Kush**:
   * *Kushite Architecture*:
     * economic structures −70% wood cost, +100% build time.
-  * *Priesthood of Amun*:
-    * healers +3 healing range.
 * **Macedon**:
   * *Greek Architecture*:
     * military structures −10% build time;

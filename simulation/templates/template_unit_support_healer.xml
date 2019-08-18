@@ -15,12 +15,7 @@
   <Heal>
     <HealableClasses datatype="tokens">Human</HealableClasses>
     <HP>1</HP>
-    <Range>12</Range>
-    <RangeOverlay>
-      <LineTexture>overlays/cross.png</LineTexture>
-      <LineTextureMask>overlays/cross_mask.png</LineTextureMask>
-      <LineThickness>0.5</LineThickness>
-    </RangeOverlay>
+    <Range>3</Range>
     <Rate>500</Rate>
     <UnhealableClasses datatype="tokens"/>
   </Heal>
