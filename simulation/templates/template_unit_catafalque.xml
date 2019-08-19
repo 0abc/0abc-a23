@@ -32,8 +32,8 @@
     <Overlay>
       <AlwaysVisible/>
       <Texture>
-        <MainTexture>square/256x256.png</MainTexture>
-        <MainTextureMask>square/256x256_mask.png</MainTextureMask>
+        <MainTexture>roundedrectangle/128x256.png</MainTexture>
+        <MainTextureMask>roundedrectangle/128x256_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

@@ -49,6 +49,14 @@
       <food.fish>1.8</food.fish>
     </Rates>
   </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>hexagon/128x128.png</MainTexture>
+        <MainTextureMask>hexagon/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <order_attack>actor/ship/boat_move.xml</order_attack>

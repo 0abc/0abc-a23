@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="256" height="256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<!-- {5} regular pentagon
+  c = 128, r = 108, θ = {90°, 162°, 234°, 306°, 18°}
+  x = c + r * cos(θ), y = c - r * sin(θ)
+-->
+  <polygon points="128.000,20.0000 25.2859,94.6262 64.5192,215.374 191.481,215.374 230.714,94.6262" stroke="white" stroke-width="16" fill="none"/>
+  <polygon points="128.000,20.0000 25.2859,94.6262 64.5192,215.374 191.481,215.374 230.714,94.6262" stroke="black" stroke-width="10" fill="none"/>
+<!-- mask
+  <rect x="0" y="0" width="256" height="256" fill="black"/>
+  <polygon points="128.000,20.0000 25.2859,94.6262 64.5192,215.374 191.481,215.374 230.714,94.6262" stroke="white" stroke-width="10" fill="none"/>
+-->
+</svg>

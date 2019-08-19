@@ -48,6 +48,14 @@
       <treasure>1</treasure>
     </Rates>
   </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Trader>
     <GainMultiplier>0.75</GainMultiplier>
   </Trader>

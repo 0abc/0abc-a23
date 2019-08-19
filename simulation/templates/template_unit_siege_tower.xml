@@ -63,8 +63,8 @@ Bonuses: 1.5× vs Towers.</Tooltip>
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+        <MainTexture>pentagon/256x256.png</MainTexture>
+        <MainTextureMask>pentagon/256x256_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

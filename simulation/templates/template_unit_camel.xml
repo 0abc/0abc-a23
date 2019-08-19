@@ -18,7 +18,7 @@
   </Cost>
   <Footprint>
     <Height>8</Height>
-    <Square width="3" depth="9"/>
+    <Square width="4" depth="8"/>
   </Footprint>
   <Garrisonable>
     <Size>4</Size>
