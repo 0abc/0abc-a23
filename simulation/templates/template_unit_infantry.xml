@@ -44,9 +44,7 @@
       structures/{civ}/shipyard
       structures/{civ}/elephant_stable
       structures/{civ}/hall
-      structures/{civ}/mercenary_camp_1
-      structures/{civ}/mercenary_camp_2
-      structures/{civ}/mercenary_camp_3
+      structures/{civ}/nuba_village
       structures/{civ}/army_camp
       structures/{civ}/library
       structures/{civ}/lighthouse

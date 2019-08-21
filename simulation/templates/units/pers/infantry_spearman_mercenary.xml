@@ -5,7 +5,6 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
     <Icon>units/athen_infantry_spearman_a.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_spearman_mercenary</SelectionGroupName>
     <SpecificName>Greek Mercenary Hoplite</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>

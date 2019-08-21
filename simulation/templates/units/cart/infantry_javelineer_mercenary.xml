@@ -4,7 +4,6 @@
     <Civ>cart</Civ>
     <Classes datatype="tokens">-Citizen -CitizenSoldier Sicanian</Classes>
     <Icon>units/cart_infantry_javelinist_ca.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_javelineer_mercenary</SelectionGroupName>
     <SpecificName>Sicanian Mercenary</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>

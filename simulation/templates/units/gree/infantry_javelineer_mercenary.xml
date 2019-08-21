@@ -5,7 +5,6 @@
     <Classes datatype="tokens">-Citizen -CitizenSoldier Thracian</Classes>
     <Icon>units/athen_infantry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_javelineer_mercenary</SelectionGroupName>
     <SpecificName>Thracian Peltast</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
