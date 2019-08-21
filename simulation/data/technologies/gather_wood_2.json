@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
   "description": "Increases wood gathering rates for trees.",
   "genericName": "Stronger Axes",
-  "icon": "wood_axe.png",
+  "icon": "gather_wood_ii.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.25 }
   ],

@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
   "description": "Equip your workers with iron plows, a tool to turn the sod.",
   "genericName": "Iron Plow",
-  "icon": "farming_training.png",
+  "icon": "gather_grain_i.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.20 }
   ],

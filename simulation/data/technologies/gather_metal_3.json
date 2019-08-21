@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
   "description": "Strike a vein of precious silver.",
   "genericName": "Silver Mining",
-  "icon": "mining_metal.png",
+  "icon": "gather_metal_iii.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.30 }
   ],

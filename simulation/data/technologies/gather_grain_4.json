@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 1200, "stone": 0, "metal": 800 },
   "description": "Large settlements relied heavily on grain from elsewhere, allowing their local farmers to grow different crops.",
   "genericName": "Grain imports",
-  "icon": "farming_training.png",
+  "icon": "gather_grain_iv.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.05 }
   ],
@@ -11,6 +11,6 @@
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "gather_farm_3",
+  "supersedes": "gather_grain_3",
   "tooltip": "Workers +5% grain gather rate."
 }

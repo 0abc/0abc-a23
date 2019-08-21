@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
   "description": "Increases wood gathering rates for trees.",
   "genericName": "Iron Axe Heads",
-  "icon": "wood_axe.png",
+  "icon": "gather_wood_i.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.20 }
   ],

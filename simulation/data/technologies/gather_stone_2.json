@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
   "description": "Compel serfs to help your workers quarry stone. Increases stone gathering rates.",
   "genericName": "Serfs",
-  "icon": "mining_stone.png",
+  "icon": "gather_stone_ii.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25 }
   ],

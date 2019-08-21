@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 800, "stone": 800, "metal": 800 },
   "description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
   "genericName": "City Phase",
-  "icon": "city_phase.png",
+  "icon": "phase_iii.png",
   "modifications": [
     { "value": "Capturable/RegenRate",         "add":      5    },
     { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },

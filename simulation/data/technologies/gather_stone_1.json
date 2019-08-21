@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
   "description": "Hire servants to help quarry stone. Increases stone gathering rates.",
   "genericName": "Servants",
-  "icon": "mining_stone.png",
+  "icon": "gather_stone_i.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.20 }
   ],

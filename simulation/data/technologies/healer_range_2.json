@@ -3,7 +3,7 @@
   "cost": { "silver": 400, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
   "description": "Increases the healing range of all healers.",
   "genericName": "Advanced Healing Range",
-  "icon": "healing_range.png",
+  "icon": "healing_range_ii.png",
   "modifications": [
     { "value": "Heal/Range", "add": 3 }
   ],

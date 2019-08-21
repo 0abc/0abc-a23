@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
   "description": "Buy slaves to help your workers quarry stone. Increases stone gathering rates.",
   "genericName": "Slaves",
-  "icon": "mining_stone.png",
+  "icon": "gather_stone_iii.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.30 }
   ],

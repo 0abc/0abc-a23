@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
   "description": "Increases wood gathering rates for trees.",
   "genericName": "Sharp Axe Heads",
-  "icon": "wood_axe.png",
+  "icon": "gather_wood_iii.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.30 }
   ],

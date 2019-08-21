@@ -3,7 +3,7 @@
   "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
   "description": "Equip your workers with helpful tools.",
   "genericName": "Wedge and Mallet",
-  "icon": "mining_metal.png",
+  "icon": "gather_metal_i.png",
   "modifications": [
     { "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.20 }
   ],

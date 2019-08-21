@@ -2,7 +2,7 @@
   "affects": ["Centre"],
   "autoResearch": true,
   "genericName": "Village Phase",
-  "icon": "village_phase.png",
+  "icon": "phase_i.png",
   "modifications": [
     { "value": "Capturable/RegenRate",         "add":      5    },
     { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
