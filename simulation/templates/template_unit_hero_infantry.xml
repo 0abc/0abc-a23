@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
   <Footprint>
-    <Circle radius="1.5"/>
-    <Height>2.5</Height>
+    <Circle radius="2"/>
+    <Height>4</Height>
   </Footprint>
   <Garrisonable>
     <Size>1</Size>

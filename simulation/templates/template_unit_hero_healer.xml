@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
   <Attack disable=""/>
+  <Footprint>
+    <Circle radius="2"/>
+    <Height>4</Height>
+  </Footprint>
   <Garrisonable>
     <Size>1</Size>
   </Garrisonable>

@@ -24,7 +24,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="1"/>
+    <Circle radius="1.5"/>
     <Height>3</Height>
   </Footprint>
   <Identity>
