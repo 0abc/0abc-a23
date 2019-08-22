@@ -51,18 +51,15 @@ Identity.prototype.Schema =
         "<value>Advanced</value>" +
         "<value>Elite</value>" +
         "<value>Champion</value>" +
-        "<value>Hero</value>" +
         "<value>0</value>" +
-        "<value>Archer</value>" +
-        "<value>Axeman</value>" +
-        "<value>Crossbowman</value>" +
-        "<value>Javelinist</value>" +
-        "<value>Maceman</value>" +
-        "<value>Pikeman</value>" +
-        "<value>Sabreman</value>" +
-        "<value>Slinger</value>" +
-        "<value>Spearman</value>" +
-        "<value>Swordsman</value>" +
+        "<value>support</value>" +
+        "<value>infantry</value>" +
+        "<value>cavalry</value>" +
+        "<value>elephant</value>" +
+        "<value>siege</value>" +
+        "<value>ship</value>" +
+        "<value>hero</value>" +
+        "<value>catafalque</value>" +
       "</choice>" +
     "</element>" +
   "</optional>" +

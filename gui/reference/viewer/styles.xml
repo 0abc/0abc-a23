@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <styles>
   <style ghost="true" name="IconFrame" size="0 0 100% 100%" sprite="IconFrame_Gold"/>
-  <style ghost="true" name="RankGlyph" size="0 50% 50% 100%"/>
+  <style ghost="true" name="RankGlyph" size="0 0 50% 50%"/>
 </styles>
