@@ -1,6 +1,6 @@
 {
   "affects": ["Human"],
-  "auraDescription": "Heals nearby Humans at 1.5 health per second.",
+  "auraDescription": "Humans +1.5 health regeneration rate.",
   "auraName": "Blessing of the Gods",
   "modifications": [
     { "value": "Health/RegenRate", "add": 1.5 }

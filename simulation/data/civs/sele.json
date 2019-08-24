@@ -46,6 +46,11 @@
   "CivBonuses":
   [
 		{
+			"Name": "Royal Cavalry",
+			"History": "",
+			"Description": "Stable technologies −20% resource costs and research time."
+		},
+		{
 			"Name": "Syrian Architecture",
 			"History": "",
 			"Description": "Starting Centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence, +10 vision range."
@@ -56,6 +61,42 @@
   ],
   "Structures":
   [
+		{
+			"Name": "Hall",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Recruit Mercenary Infantry."
+		},
+		{
+			"Name": "Elephant Stable",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Recruit Elephants."
+		},
+		{
+			"Name": "Library",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Structures −10% build time."
+		},
+		{
+			"Name": "Theatre",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Structures −5% training time."
+		}
   ],
   "WallSets":
   [

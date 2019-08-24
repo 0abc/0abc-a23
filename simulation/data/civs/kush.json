@@ -47,6 +47,16 @@
   ],
   "CivBonuses":
   [
+		{
+			"Name": "Priesthood of Amun",
+			"History": "",
+			"Description": "Temple technologies −10% resource costs and research time."
+		},
+		{
+			"Name": "Kushite Architecture",
+			"History": "",
+			"Description": "Economic Structures −70% wood cost, +100% build time."
+		}
   ],
   "TeamBonuses":
   [
@@ -54,9 +64,22 @@
   "Structures":
   [
 		{
-			"Name": "Kushite Architecture",
+			"Name": "Nuba Village",
+			"Class": "Military",
+			"Emblem": "",
 			"History": "",
-			"Description": "Economic Structures −70% wood cost, +100% build time."
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Can be built in neutral territory. Recruit Nuba Mercenary Infantry."
+		},
+		{
+			"Name": "Elephant Stable",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Recruit Elephants."
 		}
   ],
   "WallSets":

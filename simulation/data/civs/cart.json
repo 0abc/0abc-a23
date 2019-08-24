@@ -46,6 +46,11 @@
   "CivBonuses":
   [
 		{
+			"Name": "Punic Industry",
+			"History": "",
+			"Description": "Market technologies −30% resource costs and research time."
+		},
+		{
 			"Name": "Punic Architecture",
 			"History": "",
 			"Description": "Markets −50% wood cost. City Walls +25% stone cost, −25% wood cost, +20% build time, +20% health."
@@ -61,6 +66,24 @@
   ],
   "Structures":
   [
+		{
+			"Name": "Hall",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Recruit Mercenary Infantry."
+		},
+		{
+			"Name": "Elephant Stable",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Recruit Elephants."
+		}
   ],
   "WallSets":
   [

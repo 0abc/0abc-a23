@@ -6,13 +6,11 @@
   "icon": "loom.png",
   "modifications": [
     { "value": "Armour/Crush",  "add": 1 },
-    { "value": "Armour/Hack",   "add": 1 },
-    { "value": "Armour/Pierce", "add": 1 },
-    { "value": "Armour/Thrust", "add": 1 }
+    { "value": "Armour/Pierce", "add": 1 }
   ],
   "requirements": { "tech": "phase_village" },
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Women +1 armour level."
+  "tooltip": "Women +1 crush and pierce armour level."
 }

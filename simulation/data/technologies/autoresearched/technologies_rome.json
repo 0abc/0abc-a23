@@ -1,0 +1,15 @@
+{
+  "affects": ["Arsenal"],
+  "autoResearch": true,
+  "genericName": "Roman Arsenals",
+  "modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/silver", "multiply": 0.5 },
+		{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.5 },
+		{ "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.5 },
+		{ "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.5 },
+		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.5 },
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.5 }
+  ],
+  "requirements": { "civ": "rome" },
+  "tooltip": "Arsenal technologies −50% resource costs and research time."
+}

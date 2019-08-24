@@ -1,9 +1,9 @@
 {
   "affects": ["Structure"],
-  "auraDescription": "Technologies −20% research time per Library owned.",
+  "auraDescription": "Structures −10% build time per Library owned.",
   "auraName": "Power of Knowledge",
   "modifications": [
-    { "value": "ProductionQueue/TechCostMultiplier/time",   "multiply": 0.8 }
+    { "value": "Cost/BuildTime", "multiply": 0.9 }
   ],
   "stackable": true,
   "type": "global"

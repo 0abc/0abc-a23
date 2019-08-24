@@ -1,0 +1,15 @@
+{
+  "affects": ["Stable"],
+  "autoResearch": true,
+  "genericName": "Royal Cavalry",
+  "modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/silver", "multiply": 0.8 },
+		{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.8 },
+		{ "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.8 },
+		{ "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.8 },
+		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.8 },
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.8 }
+  ],
+  "requirements": { "civ": "sele" },
+  "tooltip": "Stable technologies −20% resource costs and research time."
+}

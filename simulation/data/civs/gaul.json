@@ -48,6 +48,11 @@
   "CivBonuses":
   [
 		{
+			"Name": "Celtic Population",
+			"History": "",
+			"Description": "House technologies −40% resource costs and research time."
+		},
+		{
 			"Name": "Gaulish Architecture",
 			"History": "",
 			"Description": "Centres 0 stone cost, +150% wood cost, −20% build time, −20% health, −10% territory influence radius. Economic Structures −15% build time, −15% health. Fortresses −50% stone cost, +100% wood cost. Military Structures −20% build time, −20% health. City Walls −10% build time, −10% health. Temples 0 stone cost, +200% wood cost, −40% build time, −40% health."
@@ -68,6 +73,15 @@
   ],
   "Structures":
   [
+		{
+			"Name": "Rotary Mill",
+			"Class": "Economic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Nearby Workers +20% grain gather rate."
+		}
   ],
   "WallSets":
   [

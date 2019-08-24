@@ -47,6 +47,11 @@
   "CivBonuses":
   [
 		{
+			"Name": "Indian Gold",
+			"History": "",
+			"Description": "Palace technologies −10% resource costs and research time."
+		},
+		{
 			"Name": "Indian Architecture",
 			"History": "",
 			"Description": "Centres 0 stone cost, +200% wood cost, +5 population bonus, +10 garrison capacity. Economic Structures −10% wood cost, build time, and health. City Walls 0 stone cost, +200% wood cost, −25% build time, −25% health. Temples 0 stone cost, +300% wood cost, −20% build time, −20% health."
@@ -67,6 +72,33 @@
   ],
   "Structures":
   [
+		{
+			"Name": "Elephant Stable",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Village",
+			"Special": "Recruit Elephants."
+		},
+		{
+			"Name": "Edict Pillar",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Nearby Traders +20% movement speed."
+		},
+		{
+			"Name": "Palace",
+			"Class": "Base",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Territory root."
+		}
   ],
   "WallSets":
   [

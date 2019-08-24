@@ -47,6 +47,11 @@
   "CivBonuses":
   [
 		{
+			"Name": "Royal Woods and Mines",
+			"History": "",
+			"Description": "Forge technologies −10% resource costs and research time."
+		},
+		{
 			"Name": "Greek Architecture",
 			"History": "",
 			"Description": "Military Structures −10% build time."
@@ -62,6 +67,33 @@
   ],
   "Structures":
   [
+		{
+			"Name": "Hall",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Recruit Mercenary Infantry."
+		},
+		{
+			"Name": "Library",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Structures −10% build time."
+		},
+		{
+			"Name": "Theatre",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Structures −5% training time."
+		}
   ],
   "WallSets":
   [

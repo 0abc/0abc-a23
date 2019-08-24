@@ -326,55 +326,71 @@ There are four damage types (crush, hack, pierce, thrust)
 #### Civilization bonuses
 *All bonuses and penalties from the default distribution have been removed.*
 * **Carthage**:
+  * *Punic Industry*:
+    * Market technologies −30% resource costs and research time.
   * *Punic Architecture*:
-    * markets −50% wood cost;
-    * city walls +25% stone cost, −25% wood cost, +20% build time, +20% health.
+    * Markets −50% wood cost;
+    * City Walls +25% stone cost, −25% wood cost, +20% build time, +20% health.
   * *Punic Merchants*:
-    * merchant ships and traders −15% training time.
+    * Traders and Merchant Ships −15% training time.
 * **Gauls**:
+  * *Celtic Population*:
+    * House technologies −40% resource costs and research time.
   * *Celtic Architecture*:
-    * centres 0 stone cost, +150% wood cost, −20% build time, −20% health, −10% territory influence radius;
-    * economic structures −15% build time, −15% health;
-    * fortresses −50% stone cost, +100% wood cost;
-    * military structures −20% build time, −20% health;
-    * city walls −10% build time, −10% health;
-    * temples 0 stone cost, +200% wood cost, −40% build time, −40% health.
+    * Centres 0 stone cost, +150% wood cost, −20% build time, −20% health, −10% territory influence radius;
+    * Economic Structures −15% build time, −15% health;
+    * Fortresses −50% stone cost, +100% wood cost;
+    * Military Structures −20% build time, −20% health;
+    * City Walls −10% build time, −10% health;
+    * Temples 0 stone cost, +200% wood cost, −40% build time, −40% health.
   * *Druidism*:
-    * healers +2 armour levels.
+    * Healers +2 armour levels.
   * *Gallic Cavalry*:
-    * melee cavalry −15% training time.
+    * Melee Cavalry −15% training time.
 * **Kush**:
+  * *Priesthood of Amun*:
+    * Temple technologies −10% resource costs and research time.
   * *Kushite Architecture*:
-    * economic structures −70% wood cost, +100% build time.
+    * Economic Structures −70% wood cost, +100% build time.
 * **Macedon**:
+  * *Royal Woods and Mines*:
+    * Forge technologies −10% resource costs and research time.
   * *Greek Architecture*:
-    * military structures −10% build time;
+    * Military Structures −10% build time;
   * *Macedonian Engineers*:
-    * siege engines −15% construction time.
+    * Siege Engines −15% construction time.
 * **Mauryas**:
+  * *Indian Gold*:
+    * Palace technologies −10% resource costs and research time.
   * *Indian Architecture*:
-    * centres 0 stone cost, +200% wood cost, +5 population bonus, +10 garrison capacity;
-    * economic structures −10% wood cost, −10% build time, −10% health;
-    * city walls 0 stone cost, +200% wood cost, −25% build time, −25% health;
-    * temples 0 stone cost, +300% wood cost, −20% build time, −20% health.
+    * Centres 0 stone cost, +200% wood cost, +5 population bonus, +10 garrison capacity;
+    * Economic Structures −10% wood cost, −10% build time, −10% health;
+    * City Walls 0 stone cost, +200% wood cost, −25% build time, −25% health;
+    * Temples 0 stone cost, +300% wood cost, −20% build time, −20% health.
   * *Indian Elephants*:
-    * elephants −15% training time.
+    * Elephants −15% training time.
   * *Subsidized Missionaries*:
-    * healers −50% silver cost.
+    * Healers −50% silver cost.
 * **Ptolemies**:
+  * *Egyptian Navy*:
+    * Naval technologies −25% resource costs and research time.
   * *Egyptian Architecture*:
-    * economic structures −70% wood cost, +100% build time.
+    * Economic Structures −70% wood cost, +100% build time.
   * *Egyptian Medicine*:
-    * healers −20% healing time.
+    * Healers −20% healing time.
 * **Rome**:
+  * *Roman Arsenals*:
+    * Arsenal technologies −50% resource costs and research time.
   * *Roman Architecture*:
-    * wooden walls −10% build time;
-    * city walls +10% stone cost, +10% wood cost, +10% build time, +10% health.
+    * Wooden Walls −10% build time;
+    * City Walls +10% stone cost, +10% wood cost, +10% build time, +10% health.
   * *Roman Engineers*:
-    * stone throwers +25% wood cost, +20% health, +25% ranged attack crush damage.
+    * Catapults +25% wood cost, +20% health, +25% ranged attack crush damage.
 * **Seleucids**:
+  * *Royal Cavalry*:
+    * Stable technologies −20% resource costs and research time.
   * *Syrian Architecture*:
-    * starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence and weight, +10 vision range.
+    * Starting Centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence and weight, +10 vision range.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

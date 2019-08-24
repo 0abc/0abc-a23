@@ -47,6 +47,11 @@
   "CivBonuses":
   [
 		{
+			"Name": "Egyptian Navy",
+			"History": "",
+			"Description": "Naval technologies −25% resource costs and research time."
+		},
+		{
 			"Name": "Egyptian Architecture",
 			"History": "",
 			"Description": "Economic Structures −70% wood cost, +100% build time."
@@ -62,6 +67,51 @@
   ],
   "Structures":
   [
+		{
+			"Name": "Hall",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Recruit Mercenary Infantry."
+		},
+		{
+			"Name": "Elephant Stable",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Recruit Elephants."
+		},
+		{
+			"Name": "Library",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Structures −10% build time."
+		},
+		{
+			"Name": "Lighthouse",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Very large vision range."
+		},
+		{
+			"Name": "Theatre",
+			"Class": "Civic",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Structures −5% training time."
+		}
   ],
   "WallSets":
   [
