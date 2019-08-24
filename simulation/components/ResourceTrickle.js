@@ -41,6 +41,14 @@ ResourceTrickle.prototype.Trickle = function(data, lateness)
   if (!cmpPlayer)
     return;
 
+/*
+	// Prevent resources to go negative, except for silver
+	let currentResources = cmpPlayer.GetResourceCounts();
+	for (var type in this.rates)
+		if (this.rates[type] < 0 && Math.abs(this.rates[type]) > currentResources[type] && type != "silver")
+			return;
+*/
+
   cmpPlayer.AddResources(this.rates);
 };
 
