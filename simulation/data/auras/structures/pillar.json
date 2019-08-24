@@ -9,8 +9,8 @@
   "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
   "radius": 75,
   "rangeOverlay" : {
-    "lineTexture": "overlays/zigzag.png",
-    "lineTextureMask": "overlays/zigzag_mask.png",
+    "lineTexture": "auras/zigzag.png",
+    "lineTextureMask": "auras/zigzag_mask.png",
     "lineThickness": 0.4
   },
   "type": "range"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_trader">
-  <Footprint replace="">
-    <Height>3.0</Height>
-    <Square width="4.0" depth="8.0"/>
+  <Footprint>
+    <Height>4</Height>
+    <Square width="6" depth="12"/>
   </Footprint>
   <Identity>
     <Civ>maur</Civ>

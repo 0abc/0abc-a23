@@ -1,13 +1,23 @@
-<?xml version="1.0" standalone="no"?>
-<svg width="256" height="256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<!-- {8} regular octagon
-  c = 128, r = 108, θ = {90°, 135°, 180°, 225°, 270°, 315°, 0°, 45°}
-  x = c + r * cos(θ), y = c - r * sin(θ)
--->
-  <polygon points="128.000,20.0000 51.6325,51.6325 20.0000,128.000 51.6325,204.368 128.000,236.000 204.368,204.368 236.000,128.000 204.368,51.6325" stroke="white" stroke-width="16" fill="none"/>
-  <polygon points="128.000,20.0000 51.6325,51.6325 20.0000,128.000 51.6325,204.368 128.000,236.000 204.368,204.368 236.000,128.000 204.368,51.6325" stroke="black" stroke-width="10" fill="none"/>
-<!-- mask
-  <rect x="0" y="0" width="256" height="256" fill="black"/>
-  <polygon points="128.000,20.0000 51.6325,51.6325 20.0000,128.000 51.6325,204.368 128.000,236.000 204.368,204.368 236.000,128.000 204.368,51.6325" stroke="white" stroke-width="10" fill="none"/>
--->
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <!-- {8} regular octagon
+    θ    , cos(θ) , sin(θ) 
+      0° ,  1     ,  0     
+     45° ,  0.707 ,  0.707 
+     90° ,  0     ,  1     
+    135° , -0.707 ,  0.707 
+    180° , -1     ,  0     
+    225° , -0.707 , -0.707 
+    270° ,  0     , -1     
+    315° ,  0.707 , -0.707 
+  -->
+  <g transform="translate(128 128) scale(0.1 0.1)">
+    <polygon fill="none" stroke="white" stroke-width="150" points="1000,0 707,707 0,1000 -707,707 -1000,0 -707,-707 0,-1000 707,-707"/>
+    <polygon fill="none" stroke="black" stroke-width="100" points="1000,0 707,707 0,1000 -707,707 -1000,0 -707,-707 0,-1000 707,-707"/>
+  </g>
+  <!-- mask
+  <rect x="0" y="0" width="100%" height="100%" fill="black"/>
+  <g transform="translate(128 128) scale(0.1 0.1)">
+    <polygon fill="none" stroke="white" stroke-width="100" points="1000,0 707,707 0,1000 -707,707 -1000,0 -707,-707 0,-1000 707,-707"/>
+  </g> -->
 </svg>

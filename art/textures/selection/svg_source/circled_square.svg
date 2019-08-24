@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    θ    , cos(θ) , sin(θ) 
+     45° ,  0.707 ,  0.707 
+    135° , -0.707 ,  0.707 
+    225° , -0.707 , -0.707 
+    315° ,  0.707 , -0.707 
+  -->
+  <g transform="translate(128 128) scale(0.11 0.11)">
+    <g stroke="white" stroke-width="150">
+      <circle cx="0" cy="0" r="1000" fill="none"/>
+      <g>
+        <line x1="707" y1="707" x2="-707" y2="707"/>
+        <line x1="-707" y1="707" x2="-707" y2="-707"/>
+        <line x1="-707" y1="-707" x2="707" y2="-707"/>
+        <line x1="707" y1="-707" x2="707" y2="707"/>
+      </g>
+    </g>
+    <g stroke="black" stroke-width="100">
+      <circle cx="0" cy="0" r="1000" fill="none"/>
+      <g>
+        <line x1="707" y1="707" x2="-707" y2="707"/>
+        <line x1="-707" y1="707" x2="-707" y2="-707"/>
+        <line x1="-707" y1="-707" x2="707" y2="-707"/>
+        <line x1="707" y1="-707" x2="707" y2="707"/>
+      </g>
+    </g>
+  </g>
+  <!-- mask
+  <rect x="0" y="0" width="100%" height="100%" fill="black"/>
+  <g transform="translate(128 128) scale(0.11 0.11)">
+    <g stroke="white" stroke-width="100">
+      <circle cx="0" cy="0" r="1000" fill="none"/>
+      <g>
+        <line x1="707" y1="707" x2="-707" y2="707"/>
+        <line x1="-707" y1="707" x2="-707" y2="-707"/>
+        <line x1="-707" y1="-707" x2="707" y2="-707"/>
+        <line x1="707" y1="-707" x2="707" y2="707"/>
+      </g>
+    </g>
+  </g> -->
+</svg>

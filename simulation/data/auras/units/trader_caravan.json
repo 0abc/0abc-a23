@@ -8,8 +8,8 @@
   "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
   "radius": 10,
   "rangeOverlay" : {
-    "lineTexture": "overlays/inwards.png",
-    "lineTextureMask": "overlays/inwards_mask.png",
+    "lineTexture": "auras/inwards.png",
+    "lineTextureMask": "auras/inwards_mask.png",
     "lineThickness": 0.5
   },
   "type": "range"

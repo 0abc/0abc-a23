@@ -16,8 +16,8 @@
   ],
   "overlayIcon": "art/textures/ui/session/auras/attack_penalty.png",
   "rangeOverlay" : {
-    "lineTexture": "overlays/outwards.png",
-    "lineTextureMask": "overlays/outwards_mask.png",
+    "lineTexture": "auras/outwards.png",
+    "lineTextureMask": "auras/outwards_mask.png",
     "lineThickness": 0.5
   },
   "radius": 10,

@@ -1519,7 +1519,7 @@ function playAmbient()
 
 function getBuildString()
 {
-  return sprintf(translate("%(revision)s (%(buildDate)s)"), {
+  return sprintf(translate("%(buildDate)s (%(revision)s)"), {
     "buildDate": Engine.GetBuildTimestamp(0),
     "revision": Engine.GetBuildTimestamp(2)
   });
