@@ -16,6 +16,11 @@
       "Description": "",
       "Technologies":
       [
+				{
+					"Name": "Colonization",
+					"History": "",
+					"Description": "Centres and Docks −30% build time."
+				}
       ],
       "Heroes":
       [

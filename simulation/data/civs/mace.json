@@ -17,6 +17,11 @@
       "Description": "A Hellenistic kingdom bordering the Greek city-states.",
       "Technologies":
       [
+				{
+					"Name": "Marching",
+					"History": "",
+					"Description": "Melee Infantry +10% movement speed."
+				}
       ],
       "Heroes":
       [
@@ -28,14 +33,14 @@
           "History": "The king of Macedonia (359-336 BC), he carried out vast monetary and military reforms in order to make his kingdom the most powerful force in the Greek world. Greatly enlarged the size of Macedonia by conquering much of Thrace and subduing the Greeks. Murdered in Aegae while planning a campaign against Persia."
         },
         {
-          "Name": "Alexander the Great",
+          "Name": "Alexander III the Great",
           "Class": "",
           "Armament": "",
           "Emblem": "",
           "History": "The most powerful hero of them all - son of Philip II, king of Macedonia (336-323 BC). After conquering the rest of the Thracians and quelling the unrest of the Greeks, Alexander embarked on a world-conquest march. Defeating the Persian forces at Granicus (334 BC), Issus (333 BC) and Gaugamela (331 BC), he became master of the Persian Empire. Entering India, he defeated king Porus at Hydaspes (326 BC), but his weary troops made him halt. Died in Babylon at the age of 33 while planning a campaign against Arabia."
         },
         {
-          "Name": "Demetrius the Besieger",
+          "Name": "Demetrius I the Besieger",
           "Class": "",
           "Armament": "",
           "Emblem": "",

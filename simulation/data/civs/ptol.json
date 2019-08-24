@@ -21,25 +21,25 @@
       "Heroes":
       [
         {
-          "Name": "Ptolemaios A' Soter",
+          "Name": "Ptolemy I Soter",
           "Class": "",
           "Armament": "",
           "Emblem": "",
-          "History": "."
+          "History": ""
         },
         {
-          "Name": "Ptolemaios D' Philopater",
+          "Name": "Ptolemy IV Philopator",
           "Class": "",
           "Armament": "",
           "Emblem": "",
-          "History": "."
+          "History": ""
         },
         {
-          "Name": "Kleopatra H' Philopater",
+          "Name": "Cleopatra VII Philopator",
           "Class": "",
           "Armament": "",
           "Emblem": "",
-          "History": "."
+          "History": ""
         }
       ]
     }

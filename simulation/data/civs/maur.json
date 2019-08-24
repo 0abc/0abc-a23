@@ -17,6 +17,16 @@
       "Description": "",
       "Technologies":
       [
+				{
+					"Name": "Archery Tradition",
+					"History": "",
+					"Description": "Archers −10% ranged attack repeat time."
+				},
+				{
+					"Name": "Steel Working",
+					"History": "",
+					"Description": "Swordsmen and Sabremen +20% melee attack damage."
+				}
       ],
       "Heroes":
       [
@@ -35,7 +45,7 @@
           "History": "Last great emperor of the Mauryan dynasty."
         },
         {
-          "Name": "Acharya Chāṇakya",
+          "Name": "Chanakya",
           "Class": "",
           "Armament": "",
           "Emblem": "",

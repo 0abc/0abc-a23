@@ -16,25 +16,35 @@
       "Description": "The Macedonian-Greek dynasty that ruled the Eastern part of Alexander's former empire.",
       "Technologies":
       [
+				{
+					"Name": "Nisean War Horses",
+					"History": "",
+					"Description": "Melee Cavalry +20% health."
+				},
+				{
+					"Name": "Parade of Daphne",
+					"History": "",
+					"Description": "Champions −20% training time."
+				}
       ],
       "Heroes":
       [
         {
-          "Name": "Seleukos A' Nikator",
+          "Name": "Seleucus I Nicator",
           "Class": "",
           "Armament": "",
           "Emblem": "",
           "History": "Always lying in wait for the neighboring nations, strong in arms and persuasive in council, he (Seleucus) acquired Mesopotamia, Armenia, 'Seleucid' Cappadocia, Persis, Parthia, Bactria, Arabia, Tapouria, Sogdia, Arachosia, Hyrcania, and other adjacent peoples that had been subdued by Alexander, as far as the river Indus, so that the boundaries of his empire were the most extensive in Asia after that of Alexander. The whole region from Phrygia to the Indus was subject to Seleucus. — Appian, 'The Syrian Wars'."
         },
         {
-          "Name": "Antiokhos G' Megas",
+          "Name": "Antiochus III the Great",
           "Class": "",
           "Armament": "",
           "Emblem": "",
           "History": "Antiochus inherited a troubled kingdom upon the beginning of his reign. From the verge of collapse he managed to weld back together the empire Seleucus I fought so hard to found. The rebellious eastern satraps of Bactria and Parthia were brought to heel , temporarily securing his eastern borders. He then turned his attention to mother Greece, attempting to fulfill the dreams of his fathers by invading Greece under the pretext of liberation. The Achaean League and the Kingdom of Pergamon banded together with the Romans to defeat him at the Battle of Magnesia, forever burying the dream of reuniting Alexander's empire."
         },
         {
-          "Name": "Antiokhos D' Epiphanes",
+          "Name": "Antiochus IV Epiphanes",
           "Class": "",
           "Armament": "",
           "Emblem": "",

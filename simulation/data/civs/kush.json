@@ -18,6 +18,11 @@
       "Description": "The great African kingdom that straddled the Nile River in Nubia, to the South of Egypt.",
       "Technologies":
       [
+				{
+					"Name": "Archery Tradition",
+					"History": "",
+					"Description": "Archers −10% ranged attack repeat time."
+				}
       ],
       "Heroes":
       [
@@ -25,21 +30,21 @@
           "Name": "Nastasen",
           "Class": "",
           "Armament": "",
-          "Emblem": "emblem.png",
+          "Emblem": "",
           "History": ""
         },
         {
           "Name": "Arakamani",
           "Class": "",
           "Armament": "",
-          "Emblem": "emblem.png",
+          "Emblem": "",
           "History": ""
         },
         {
           "Name": "Amanirenas",
           "Class": "",
           "Armament": "",
-          "Emblem": "emblem.png",
+          "Emblem": "",
           "History": ""
         }
       ]
