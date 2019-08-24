@@ -42,6 +42,10 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
+      unlock_shared_los
+      unlock_shared_dropsites
+      unlock_spies
+      unlock_counterespionage
       attack_soldiers_will
     </Technologies>
   </ProductionQueue>

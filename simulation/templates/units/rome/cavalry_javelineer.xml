@@ -5,7 +5,7 @@
     <Classes datatype="tokens">Italic</Classes>
     <Lang>latin</Lang>
     <Icon>units/rome_cavalry_javelinist_b.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_javelineer</SelectionGroupName>
     <SpecificName>Allied Cavalry</SpecificName>
   </Identity>

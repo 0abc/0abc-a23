@@ -5,9 +5,9 @@
     <Classes datatype="tokens">Thessalian</Classes>
     <Icon>units/mace_cavalry_spearman_b.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_lancer</SelectionGroupName>
-    <SpecificName>Prodromos</SpecificName>
+    <SpecificName>Thessalian Cavalry</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_a_m.xml</Actor>

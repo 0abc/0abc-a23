@@ -5,7 +5,7 @@
     <Classes datatype="tokens">Roman</Classes>
     <Icon>units/rome_cavalry_spearman_b.png</Icon>
     <Lang>latin</Lang>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome/cavalry_spearman</SelectionGroupName>
     <SpecificName>Eques</SpecificName>
   </Identity>

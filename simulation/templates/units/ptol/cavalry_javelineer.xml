@@ -5,7 +5,7 @@
     <Classes datatype="tokens">Macedonian</Classes>
     <Icon>units/mace_cavalry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/cavalry_javelineer</SelectionGroupName>
     <SpecificName>Tarantine</SpecificName>
   </Identity>
