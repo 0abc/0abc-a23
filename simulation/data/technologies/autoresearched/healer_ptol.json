@@ -6,5 +6,5 @@
     { "value": "Heal/Rate", "multiply": 0.8 }
   ],
   "requirements": { "civ": "ptol" },
-  "tooltip": "Ptolemaic healers −20% healing time."
+  "tooltip": "Ptolemaic Healers −20% healing time."
 }

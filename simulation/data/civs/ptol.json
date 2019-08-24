@@ -14,7 +14,7 @@
   [
     {
       "Name": "Ptolemaic Egyptians",
-      "Description": "The great Greek-Macedonian dynastic rule over Ancient Egypt.",
+      "Description": "The great Graeco-Macedonian dynastic rule over Ancient Egypt.",
       "Technologies":
       [
       ],
@@ -49,7 +49,7 @@
 		{
 			"Name": "Egyptian Architecture",
 			"History": "",
-			"Description": "Economic structures −70% wood cost, +100% build time."
+			"Description": "Economic Structures −70% wood cost, +100% build time."
 		},
 		{
 			"Name": "Egyptian Medicine",

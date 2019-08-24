@@ -22,5 +22,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Cavalry axemen, sabremen, and swordsmen +20% melee attack damage."
+  "tooltip": "Cavalry Axemen, Sabremen, and Swordsmen +20% melee attack damage."
 }

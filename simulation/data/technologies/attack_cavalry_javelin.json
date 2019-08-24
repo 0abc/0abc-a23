@@ -15,5 +15,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Cavalry javelineers +10% ranged attack damage and −10% spread."
+  "tooltip": "Cavalry Javelineers +10% ranged attack damage and −10% spread."
 }

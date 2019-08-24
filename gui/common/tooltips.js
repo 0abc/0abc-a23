@@ -228,7 +228,7 @@ function attackCostDetails(template, attackType)
 }
 
 /**
- * Converts an armor level into the actual reduction percentage
+ * Converts an armour level into the actual reduction percentage
  */
 function armorLevelToPercentageString(level)
 {
@@ -243,12 +243,12 @@ function getArmorTooltip(template)
     return "";
 
   return sprintf(translate("%(label)s %(details)s"), {
-    "label": headerFont(translate("Armor:")),
+    "label": headerFont(translate("Armour:")),
     "details":
       Object.keys(template.armour).map(
-        dmgType => sprintf(translate("%(armorPercentage)s %(damageType)s"), {
-          "armorPercentage": sprintf(translate("%(armorPercentage)s"), {
-              "armorPercentage": armorLevelToPercentageString(template.armour[dmgType])
+        dmgType => sprintf(translate("%(armourPercentage)s %(damageType)s"), {
+          "armourPercentage": sprintf(translate("%(armourPercentage)s"), {
+              "armourPercentage": armorLevelToPercentageString(template.armour[dmgType])
             }),
           "damageType": unitFont(translateWithContext("damage type", g_DamageTypes.GetNames()[dmgType]))
         })

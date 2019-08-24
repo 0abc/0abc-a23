@@ -6,5 +6,5 @@
     { "value": "Cost/BuildTime", "multiply": 0.85 }
   ],
   "requirements": { "civ": "mace" },
-  "tooltip": "Macedonian siege engines −15% construction time."
+  "tooltip": "Macedonian Siege Engines −15% construction time."
 }

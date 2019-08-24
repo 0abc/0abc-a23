@@ -1,7 +1,7 @@
 {
   "affectedPlayers": ["Enemy"],
   "affects": ["Infantry"],
-  "auraDescription": "Enemy infantry −15% attack damage and capture strength.",
+  "auraDescription": "Enemy Infantry −15% attack damage and capture strength.",
   "auraName": "Noise",
   "modifications": [
     { "value": "Attack/Capture/Value", "multiply": 0.85                      },

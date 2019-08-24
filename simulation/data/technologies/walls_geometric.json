@@ -13,5 +13,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "City walls +2 crush armour levels, but +20% build time."
+  "tooltip": "City Walls +2 crush armour levels, but +20% build time."
 }

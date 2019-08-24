@@ -16,5 +16,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Centres and docks −30% build time."
+  "tooltip": "Centres and Docks −30% build time."
 }

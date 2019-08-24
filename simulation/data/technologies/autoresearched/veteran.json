@@ -19,5 +19,5 @@
     { "value": "Cost/BuildTime",               "multiply": 1.5                                },
     { "value": "Cost/Resources/silver",        "multiply": 1.5                                }
   ],
-  "tooltip": "Veteran units have +50% silver cost, +50% training time, +20% health, +1 armour levels, +50% capture attack strength, +30% melee and ranged attack damage."
+  "tooltip": "Veterans have +50% silver cost, +50% training time, +20% health, +1 armour levels, +50% capture attack strength, +30% melee and ranged attack damage."
 }

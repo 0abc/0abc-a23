@@ -9,5 +9,5 @@
     { "value": "Armour/Thrust", "add": 2 }
   ],
   "requirements": { "civ": "gaul" },
-  "tooltip": "Gaulish healers +2 armour levels."
+  "tooltip": "Gaulish Healers +2 armour levels."
 }

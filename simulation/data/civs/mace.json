@@ -49,12 +49,12 @@
 		{
 			"Name": "Greek Architecture",
 			"History": "",
-			"Description": "Military structures −10% build time."
+			"Description": "Military Structures −10% build time."
 		},
 		{
 			"Name": "Macedonian Engineers",
 			"History": "",
-			"Description": "Siege engines −15% construction time."
+			"Description": "Siege Engines −15% construction time."
 		}
   ],
   "TeamBonuses":

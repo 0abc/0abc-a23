@@ -19,5 +19,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Cavalry spearmen and lancers +20% melee attack damage."
+  "tooltip": "Cavalry Spearmen and Lancers +20% melee attack damage."
 }

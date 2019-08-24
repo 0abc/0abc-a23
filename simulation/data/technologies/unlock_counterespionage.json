@@ -10,5 +10,5 @@
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "unlock_spies",
-  "tooltip": "Make your units twice as expensive to bribe."
+  "tooltip": "Make your Units twice as expensive to bribe."
 }

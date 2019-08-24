@@ -1,7 +1,7 @@
 {
   "affects": ["Soldier"],
   "auraName": "Outpost",
-  "auraDescription": "Soldiers on outposts have +2 armour, +10% ranged attack damage, and +20 vision range.",
+  "auraDescription": "Soldiers on Outposts have +2 armour, +10% ranged attack damage, and +20 vision range.",
   "modifications": [
     { "value": "Armour/Crush",         "add":      2   },
     { "value": "Armour/Hack",          "add":      2   },

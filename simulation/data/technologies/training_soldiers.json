@@ -11,6 +11,6 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Military structures have increased batch training bonus."
+  "tooltip": "Military Structures have increased batch training bonus."
 }
 

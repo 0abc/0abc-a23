@@ -1,6 +1,6 @@
 {
   "affects": ["Player"],
-  "auraDescription": "+10% maximum population limit per wonder owned (requires “Glorious Expansion” technology).",
+  "auraDescription": "+10% maximum population limit per Wonder owned (requires the “Glorious Expansion” technology).",
   "auraName": "Glorious Expansion",
   "modifications": [
     { "value": "Player/MaxPopulation", "multiply": 1.1 }

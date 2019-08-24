@@ -6,5 +6,5 @@
     { "value": "Cost/BuildTime", "multiply": 0.9,  "affects": "Military" }
   ],
   "requirements": { "civ": "mace" },
-  "tooltip": "Military structures −10% build time."
+  "tooltip": "Military Structures −10% build time."
 }

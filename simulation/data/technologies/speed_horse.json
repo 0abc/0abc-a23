@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "+10% cavalry and chariot movement speed."
+  "tooltip": "Cavalry and Chariots +10% movement speed."
 }

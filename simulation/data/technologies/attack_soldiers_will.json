@@ -13,5 +13,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Soldiers and structures −10% attack repeat time."
+  "tooltip": "Soldiers and Structures −10% attack repeat time."
 }

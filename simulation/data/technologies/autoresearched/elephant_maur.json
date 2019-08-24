@@ -6,5 +6,5 @@
     { "value": "Cost/BuildTime", "multiply": 0.85 }
   ],
   "requirements": { "civ": "maur" },
-  "tooltip": "Mauryan elephants −15% training time."
+  "tooltip": "Mauryan Elephants −15% training time."
 }

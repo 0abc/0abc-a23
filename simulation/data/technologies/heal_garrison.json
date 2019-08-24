@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Units gain health over time while garrisoned in structures."
+  "tooltip": "Units gain health over time while garrisoned in Structures."
 }

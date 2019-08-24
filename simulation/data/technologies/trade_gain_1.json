@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Merchant ships and traders +10% gain."
+  "tooltip": "Traders and Merchant Ships +10% gain."
 }

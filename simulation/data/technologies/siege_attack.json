@@ -11,5 +11,5 @@
     { "value": "Attack/Melee/Crush",  "multiply": 1.25 }
   ],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Battering rams +25% crush damage."
+  "tooltip": "Battering Rams +25% crush damage."
 }

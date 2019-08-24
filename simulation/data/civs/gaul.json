@@ -50,12 +50,12 @@
 		{
 			"Name": "Gaulish Architecture",
 			"History": "",
-			"Description": "Centres 0 stone cost, +150% wood cost, −20% build time, −20% health, −10% territory influence radius. Economic structures −15% build time, −15% health. Fortresses −50% stone cost, +100% wood cost. Military structures −20% build time, −20% health. City walls −10% build time, −10% health. Temples 0 stone cost, +200% wood cost, −40% build time, −40% health."
+			"Description": "Centres 0 stone cost, +150% wood cost, −20% build time, −20% health, −10% territory influence radius. Economic Structures −15% build time, −15% health. Fortresses −50% stone cost, +100% wood cost. Military Structures −20% build time, −20% health. City Walls −10% build time, −10% health. Temples 0 stone cost, +200% wood cost, −40% build time, −40% health."
 		},
 		{
 			"Name": "Gallic Cavalry",
 			"History": "",
-			"Description": "Melee cavalry −15% training time."
+			"Description": "Melee Cavalry −15% training time."
 		},
 		{
 			"Name": "Druidism",

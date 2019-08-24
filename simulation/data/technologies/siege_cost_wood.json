@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Siege weapons −20% wood cost."
+  "tooltip": "Siege Engines −20% wood cost."
 }

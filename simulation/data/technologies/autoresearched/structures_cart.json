@@ -10,5 +10,5 @@
     { "value": "Health/Max",           "multiply": 1.2,  "affects": "StoneWall"    }
   ],
   "requirements": { "civ": "cart" },
-  "tooltip": "Markets −50% wood cost. City walls +25% stone cost, −25% wood cost, +20% build time, +20% health."
+  "tooltip": "Markets −50% wood cost. City Walls +25% stone cost, −25% wood cost, +20% build time, +20% health."
 }

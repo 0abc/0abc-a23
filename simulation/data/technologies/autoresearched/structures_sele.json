@@ -17,5 +17,5 @@
     { "value": "Vision/Range",                 "add":       10,    "affects": "LargeCentre" }
   ],
   "requirements": { "civ": "sele" },
-  "tooltip": "Starting centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence and weight, +15% health, +10 vision range."
+  "tooltip": "Starting Centre +30% resource costs, +30% build time, +5 population bonus, +10 garrison capacity, +30% health, +30% capture points, +11% territory influence and weight, +15% health, +10 vision range."
 }

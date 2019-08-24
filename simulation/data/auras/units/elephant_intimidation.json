@@ -1,7 +1,7 @@
 {
   "affectedPlayers": ["Enemy"],
   "affects": ["Soldier"],
-  "auraDescription": "Enemy soldiers −10% attack damage and capture strength.",
+  "auraDescription": "Enemy Soldiers −10% attack damage and capture strength.",
   "auraName": "Intimidation",
   "modifications": [
     { "value": "Attack/Capture/Value", "multiply": 0.9                      },

@@ -22,5 +22,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Archers and longbowmen −10% ranged attack repeat time."
+  "tooltip": "Archers −10% ranged attack repeat time."
 }

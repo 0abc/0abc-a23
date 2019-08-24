@@ -12,5 +12,5 @@
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "trade_gain_2",
-  "tooltip": "Merchant ships and traders +10% gain."
+  "tooltip": "Traders and Merchant Ships +10% gain."
 }

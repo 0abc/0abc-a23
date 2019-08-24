@@ -25,5 +25,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Bolt shooter accuracy increased 25%."
+  "tooltip": "Bolt Shooter accuracy increased 25%."
 }

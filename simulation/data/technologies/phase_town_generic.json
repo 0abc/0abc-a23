@@ -22,5 +22,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_village",
-  "tooltip": "Advance to Town Phase, which unlocks more structures and units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
+  "tooltip": "Advance to Town Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
 }

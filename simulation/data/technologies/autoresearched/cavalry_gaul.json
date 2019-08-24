@@ -6,5 +6,5 @@
     { "value": "Cost/BuildTime", "multiply": 0.85 }
   ],
   "requirements": { "civ": "gaul" },
-  "tooltip": "Gaulish melee cavalry −15% training time."
+  "tooltip": "Gaulish Melee Cavalry −15% training time."
 }

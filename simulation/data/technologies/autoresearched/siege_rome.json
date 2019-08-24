@@ -9,5 +9,5 @@
     { "value": "Health/Max",                       "multiply": 1.2,  "affects": "StoneThrower" }
   ],
   "requirements": { "civ": "rome" },
-  "tooltip": "Roman stone-throwers +25% wood cost, +20% health, +25% ranged attack crush damage, and +1 stone per shot cost."
+  "tooltip": "Roman Catapults +25% wood cost, +20% health, +25% ranged attack crush damage, and +1 stone per shot cost."
 }

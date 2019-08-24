@@ -7,5 +7,5 @@
     { "value": "Cost/Resources/wood", "multiply": 0.3, "affects": "Economic" }
   ],
   "requirements": { "civ": "ptol" },
-  "tooltip": "Economic structures −70% wood cost, +100% build time."
+  "tooltip": "Economic Structures −70% wood cost, +100% build time."
 }

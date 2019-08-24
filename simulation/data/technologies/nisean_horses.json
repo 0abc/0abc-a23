@@ -16,5 +16,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "All cavalry +20% health."
+  "tooltip": "Cavalry +20% health."
 }

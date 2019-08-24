@@ -1,6 +1,6 @@
 {
   "affects": ["Unit"],
-  "auraDescription": "Units −5% training time per wonder owned.",
+  "auraDescription": "Units −5% training time per Theatre owned.",
   "auraName": "Hellenization",
   "modifications": [
     { "value": "Cost/BuildTime", "multiply": 0.95 }

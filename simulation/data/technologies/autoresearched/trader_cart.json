@@ -6,5 +6,5 @@
     { "value": "Cost/BuildTime", "multiply": 0.85 }
   ],
   "requirements": { "civ": "cart" },
-  "tooltip": "Carthaginian merchant ships and traders −15% training time."
+  "tooltip": "Carthaginian Traders and Merchant Ships −15% training time."
 }
