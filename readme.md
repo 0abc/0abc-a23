@@ -666,27 +666,47 @@ On random maps, all factions start with:
 
 ## Requests
 ### Art
-* melee attack for scythed chariots (pers b/a/e, sele c)
-* ranged attack for slaves and women (crouch down to pick up stones, then throw them)
-* ranged attack for fishermen (hurl harpoon)
-* gather meat animation for fishermen (chop at carcass)
-* animations for animals that are present in game but don't have any yet (at the very least: bear, dragon, African baby elephant, fox, muskox, pig, walrus, wildebeest)
-* swimming animations for crocodile
-* kid (young goat), lamb (young sheep), piglet (young pig), calf (young cow), foal (young horse)
+* actors:
+  * a new, much lower Roman centre
+  * military shipyards for all civilizations (as opposed to economic docks)
+  * kid (young goat), lamb (young sheep), piglet (young pig), calf (young cow), foal (young horse)
+  * mule (mare × jack), Bactrian camel, wild camel, hybrid camel (Bactrian × dromedary)
+  * duck, goose, swan, guineafowl, pheasant, turkey
+  * more chariots: Kushite biga archer, Libyan biga javelineer, Carthaginian heavy quadriga
+* animations:
+  * melee attack for scythed chariots (pers b/a/e, sele c)
+  * ranged attack for slaves and women (crouch down to pick up stones, then throw them)
+  * ranged attack for fishermen (hurl harpoon)
+  * gather meat animation for fishermen (chop at carcass)
+  * animations for animals that are present in game but don't have any yet (at the very least: bear, dragon, African baby elephant, fox, muskox, pig, walrus, wildebeest)
+  * swimming animations for crocodile
+* icons (transparent background, 128×128, PNG):
+  * twelve Roman numerals: i, ii, iii, iv, v, vi, vii, viii, ix, x, xi, xii
+  * six melee weapons: pike, spear, gladius/xiphos/sword, falcata/kopis/sabre, sagaris/axe, mace
+  * six ranged weapons: javelin, bow-and-arrow, crossbow, sling, staff sling, throwing axe
+  * six unit categories: infantry, cavalry, camelry, chariotry, elephantry, artillery (maybe chess-like?)
+  * six resources: bricks, charcoal, cheese, fish, fruit, time (clock)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 ### Features
-* AI: replace all hard-coded template file name paths with classes
-* AI: build forges near metal mines
+* AI (Petra):
+  * build forges near metal mines 
+  * replace all hard-coded template file name paths with classes
+  * be able to build and maintain walls
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
-* resource consumption for attacks; e.g. everytime a stone-thrower shoots, you pay 1 stone
 * elevation bonus is taken into account for attack range visualization
 * elevation bonus applies to vision range as well
 * different ranged attacks for different garrisoned units (e.g. archers, javelineers, and stone-throwers on quinqueremes)
+* pressing `Home` hotkey would cycle you through your centres
+* if using shared dropsites, the structure owner gets a 10% fee
+* increase entity costs depending on the number of entities of a certain class (e.g. first barracks cost 250 wood, second 300, third 350, etc.)
+* increase technology costs depending on the number of entities of a certain class (e.g. 200 food base + 10 metal for each soldier)
+* instead of a player population setting, have a world population setting; each surviving player is then entitled to a 1/n share. E.g. a four player game with a world population of 600: all players have a maximum population limit of 150 at start; one player is defeated, the others can now have up to 200; then another is defeated, both survivors up to 300. Methinks this would provide an interesting dynamic (do you keep weak players alive to prevent stronger opponents from training more units?) while avoiding performance issues and improving realism.
 * new victory condition: win by centre count (e.g. control at least 10 centres for 10 minutes)
+* new map wall setting: start with only a centre (default); start with a centre and palisades; start with a centre and wooden town walls; start with centre and stone city walls.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
