@@ -15,7 +15,7 @@
     { "value": "UnitMotion/Run/Speed", "multiply": 1.1                      },
     { "value": "UnitMotion/WalkSpeed", "multiply": 1.1                      }
   ],
-  "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
+  "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
   "radius": 50,
   "rangeOverlay" : {
     "lineTexture": "auras/inwards.png",
