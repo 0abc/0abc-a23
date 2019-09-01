@@ -24,7 +24,8 @@
     <Max>1000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic Human</Classes>
+    <Classes datatype="tokens">Human</Classes>
+    <VisibleClasses datatype="tokens">Soldier Hero</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -36,7 +37,6 @@
       special/formations/line_open
     </Formations>
     <GenericName>Hero</GenericName>
-    <VisibleClasses datatype="tokens">Hero Soldier</VisibleClasses>
   </Identity>
   <Minimap>
     <Type>hero</Type>

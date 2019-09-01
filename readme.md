@@ -678,22 +678,24 @@ On random maps, all factions start with:
   * ranged attack for slaves and women (crouch down to pick up stones, then throw them)
   * ranged attack for fishermen (hurl harpoon)
   * gather meat animation for fishermen (chop at carcass)
+  * gather fish animation for infantry, slaves, and women (spearfishing)
   * animations for animals that are present in game but don't have any yet (at the very least: bear, dragon, African baby elephant, fox, muskox, pig, walrus, wildebeest)
   * swimming animations for crocodile
 * icons (transparent background, 128×128, PNG):
-  * twelve Roman numerals: i, ii, iii, iv, v, vi, vii, viii, ix, x, xi, xii
-  * six melee weapons: pike, spear, gladius/xiphos/sword, falcata/kopis/sabre, sagaris/axe, mace
-  * six ranged weapons: javelin, bow-and-arrow, crossbow, sling, staff sling, throwing axe
-  * six unit categories: infantry, cavalry, camelry, chariotry, elephantry, artillery (maybe chess-like?)
-  * six resources: bricks, charcoal, cheese, fish, fruit, time (clock)
+  * twelve Roman numerals (golden interior): i, ii, iii, iv, v, vi, vii, viii, ix, x, xi, xii
+  * six melee weapons (black border, white interior): pike, spear, gladius/xiphos/sword, falcata/kopis/sabre, sagaris/axe, mace
+  * six ranged weapons (black border, white interior): javelin, bow-and-arrow, crossbow, sling, staff sling, throwing axe
+  * six unit categories (black border, white interior): infantry, cavalry, camelry, chariotry, elephantry, artillery (maybe chess-like?)
+  * six resources (realistically coloured): bricks, charcoal, cheese, fish, fruit, time (clock)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 ### Features
 * AI (Petra):
-  * build forges near metal mines 
-  * replace all hard-coded template file name paths with classes
+  * build forges near metal mines
+  * be capable of upgrading individual entities (e.g. small tower → large tower or Roman worker → ''hastatus'' → ''princeps'' → ''triarius'')
   * be able to build and maintain walls
+  * replace all hard-coded template file name paths with classes
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
 * `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.

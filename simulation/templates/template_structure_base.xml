@@ -43,9 +43,9 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Base</VisibleClasses>
     <GenericName>Base Structure</GenericName>
     <Tooltip>Territory root.</Tooltip>
-    <VisibleClasses datatype="tokens">Base</VisibleClasses>
   </Identity>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

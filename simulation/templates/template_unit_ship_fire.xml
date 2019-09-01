@@ -44,10 +44,10 @@
     <RegenRate>-5</RegenRate>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Melee Warship Fireship</VisibleClasses>
     <GenericName>Fire Ship</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Rapidly drain the health of enemy ships. Slowly loses health due to being on fire, so use the Fire Ship quickly.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee Warship Fireship</VisibleClasses>
   </Identity>
   <Repairable disable=""/>
   <UnitMotion>

@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Classes datatype="tokens">Italic</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_cavalry_spearman_a.png</Icon>
     <SelectionGroupName>units/mercenary/campanian_cavalry_spearman</SelectionGroupName>
     <SpecificName>Campanian Horseman</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_spearman_a_m.xml</Actor>

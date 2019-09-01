@@ -24,10 +24,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Lighthouse</Classes>
+    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <Tooltip>Very large vision range.</Tooltip>
-    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
   </Identity>
   <Position>
     <Floating>true</Floating>

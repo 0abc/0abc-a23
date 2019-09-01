@@ -7,7 +7,7 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Cavalry Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <GenericName>Cavalry Archer</GenericName>
   </Identity>
 </Entity>

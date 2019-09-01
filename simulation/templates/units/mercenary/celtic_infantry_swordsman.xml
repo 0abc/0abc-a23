@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Celt</Classes>
+    <Classes datatype="tokens">Celt</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_infantry_swordsman_a.png</Icon>
     <SelectionGroupName>units/mercenary/celtic_infantry_swordsman</SelectionGroupName>
     <SpecificName>Celtic Mercenary</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

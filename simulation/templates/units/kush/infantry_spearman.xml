@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">Kushite</Classes>
+    <Classes datatype="tokens">CitizenSoldier Kushite</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/kush_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_spearman</SelectionGroupName>
     <SpecificName>Nubian Spearman</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_spearman_a.xml</Actor>

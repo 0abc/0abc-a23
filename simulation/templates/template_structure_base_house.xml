@@ -21,8 +21,8 @@
       units/{civ}/support_woman
     </Entities>
     <Technologies datatype="tokens">
-      armour_woman
-      training_woman
+      armour_gatherer
+      training_house
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite disable=""/>

@@ -13,7 +13,7 @@
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
   <Identity>
-    <GenericName>Quadriga Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <GenericName>Quadriga Archer</GenericName>
   </Identity>
 </Entity>

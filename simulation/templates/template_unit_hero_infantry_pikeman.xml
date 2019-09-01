@@ -9,10 +9,10 @@
     <Ranged disable=""/>
   </Attack>
   <Identity>
+    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/syntagma
     </Formations>
     <GenericName>Infantry Pikeman Hero</GenericName>
-    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
   </Identity>
 </Entity>

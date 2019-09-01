@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>mace</Civ>
-    <Classes datatype="tokens">Agrianian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Agrianian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/mace_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_javelineer</SelectionGroupName>
     <SpecificName>Agrianian Peltast</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/infantry_javelinist_a.xml</Actor>

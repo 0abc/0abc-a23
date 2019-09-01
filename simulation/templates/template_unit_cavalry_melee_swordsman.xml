@@ -7,7 +7,7 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Cavalry Swordsman</GenericName>
     <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
+    <GenericName>Cavalry Swordsman</GenericName>
   </Identity>
 </Entity>

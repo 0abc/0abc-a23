@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">Kushite</Classes>
+    <Classes datatype="tokens">CitizenSoldier Kushite</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/kush_infantry_pikeman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_pikeman</SelectionGroupName>
     <SpecificName>Meroitic Pikeman</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_pikeman_a.xml</Actor>

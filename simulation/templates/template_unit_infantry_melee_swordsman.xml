@@ -13,11 +13,11 @@
     </Melee>
   </Attack>
   <Identity>
+    <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/testudo
     </Formations>
     <GenericName>Swordsman</GenericName>
-    <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
   </Identity>
   <UnitMotion>
     <Run>

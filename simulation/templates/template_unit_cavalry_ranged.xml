@@ -17,11 +17,11 @@
     <Max op="mul">1.2</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
     <GenericName>Ranged Cavalry</GenericName>
-    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

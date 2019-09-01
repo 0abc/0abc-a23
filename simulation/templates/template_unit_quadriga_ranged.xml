@@ -8,8 +8,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Ranged Quadriga</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
+    <GenericName>Ranged Quadriga</GenericName>
   </Identity>
   <Selectable>
     <Overlay>

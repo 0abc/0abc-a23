@@ -25,7 +25,8 @@
     <Max op="mul">2.4</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Human Organic Mounted</Classes>
+    <Classes datatype="tokens">Human Mounted</Classes>
+    <VisibleClasses datatype="tokens">Soldier Chariot Biga</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -39,7 +40,6 @@
     </Formations>
     <Rank>0</Rank>
     <GenericName>Biga</GenericName>
-    <VisibleClasses datatype="tokens">Soldier Chariot Biga</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Interval>1000</Interval>

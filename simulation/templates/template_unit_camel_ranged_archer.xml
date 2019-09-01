@@ -13,7 +13,7 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Camel Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <GenericName>Camel Archer</GenericName>
   </Identity>
 </Entity>

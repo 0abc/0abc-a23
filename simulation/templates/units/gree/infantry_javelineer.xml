@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>gree</Civ>
-    <Classes datatype="tokens">Greek</Classes>
+    <Classes datatype="tokens">CitizenSoldier Greek</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/athen_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_javelineer</SelectionGroupName>
     <SpecificName>Peltast</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_javelinist_a.xml</Actor>

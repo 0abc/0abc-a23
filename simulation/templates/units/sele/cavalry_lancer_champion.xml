@@ -3,12 +3,12 @@
   <Identity>
     <Civ>sele</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
     <Icon>units/sele_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele/cavalry_lancer_champion</SelectionGroupName>
     <SpecificName>Cataphract</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/cavalry_spearman_c_m.xml</Actor>

@@ -9,11 +9,11 @@
   </Garrisonable>
   <Identity>
     <Classes datatype="tokens">Mounted</Classes>
+    <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/wedge
     </Formations>
     <GenericName>Cavalry Hero</GenericName>
-    <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
   </Identity>
   <Sound>
     <SoundGroups>

@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Identity>
     <Civ>mace</Civ>
-    <Classes datatype="tokens">Macedonian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Macedonian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/mace_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_pikeman</SelectionGroupName>
     <SpecificName>Foot Companion</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/infantry_pikeman_a.xml</Actor>

@@ -22,9 +22,9 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Unit Organic</Classes>
+    <VisibleClasses datatype="tokens">Animal</VisibleClasses>
     <GenericName>Fauna</GenericName>
     <Undeletable>false</Undeletable>
-    <VisibleClasses datatype="tokens">Animal</VisibleClasses>
   </Identity>
   <Minimap>
     <Color r="227" g="130" b="141"/>

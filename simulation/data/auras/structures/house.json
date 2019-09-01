@@ -1,5 +1,5 @@
 {
-  "affects": ["FemaleCitizen"],
+  "affects": ["Woman"],
   "auraDescription": "Women +1 crush, hack, pierce, and thrust armour.",
   "auraName": "Shelter",
   "modifications": [

@@ -26,7 +26,7 @@
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Dog Gatherer Healer Infantry</EjectClassesOnDestroy>
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Human Siege</List>
     <LoadingRange>10</LoadingRange>
@@ -37,10 +37,10 @@
     <Max>1500</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged Warship Galley Trireme</VisibleClasses>
     <GenericName>Trireme</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged Warship Galley</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Rates>

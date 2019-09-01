@@ -14,7 +14,7 @@
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
   <Identity>
-    <GenericName>Biga Javelineer</GenericName>
     <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
+    <GenericName>Biga Javelineer</GenericName>
   </Identity>
 </Entity>

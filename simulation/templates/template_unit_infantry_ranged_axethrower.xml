@@ -15,8 +15,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Axe Thrower</GenericName>
     <VisibleClasses datatype="tokens">AxeThrower</VisibleClasses>
+    <GenericName>Axe Thrower</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

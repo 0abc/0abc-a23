@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Libyan</Classes>
+    <Classes datatype="tokens">CitizenSoldier Libyan</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/cart_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart/infantry_javelineer</SelectionGroupName>
     <SpecificName>Libyan Skirmisher</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/infantry_javelinist_b.xml</Actor>

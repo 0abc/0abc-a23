@@ -18,9 +18,9 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Mechanical</Classes>
-    <GenericName>Siege Engine</GenericName>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Siege</VisibleClasses>
+    <GenericName>Siege Engine</GenericName>
   </Identity>
   <Position>
     <Anchor>pitch-roll</Anchor>

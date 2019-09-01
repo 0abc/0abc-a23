@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_leadslinger">
   <Identity>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Rhodian</Classes>
+    <Classes datatype="tokens">Rhodian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/mace_infantry_slinger_a.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mercenary/rhodian_infantry_slinger</SelectionGroupName>
     <SpecificName>Rhodian Mercenary</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

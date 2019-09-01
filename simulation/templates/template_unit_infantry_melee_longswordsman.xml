@@ -13,8 +13,8 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Longswordsman</GenericName>
     <VisibleClasses datatype="tokens">Longswordsman</VisibleClasses>
+    <GenericName>Longswordsman</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

@@ -29,10 +29,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">BarterMarket LandMarket</Classes>
+    <VisibleClasses datatype="tokens">Market</VisibleClasses>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
     <Tooltip>Barter resources. Train slaves and traders. Research traid gain technologies. Establish trade routes.</Tooltip>
-    <VisibleClasses datatype="tokens">Market</VisibleClasses>
   </Identity>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>

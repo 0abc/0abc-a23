@@ -10,10 +10,10 @@
     </Ranged>
   </Attack>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
     <GenericName>Infantry Javelineer Hero</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
   </Identity>
 </Entity>

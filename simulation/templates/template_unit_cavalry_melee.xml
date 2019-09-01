@@ -27,9 +27,9 @@
     <Max op="mul">1.5</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Melee Cavalry</GenericName>
     <Tooltip>Penalties: 0.5× vs Elephants, 0.75× vs Chariots.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

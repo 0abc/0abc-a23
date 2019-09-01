@@ -19,9 +19,9 @@
     <Max>0</Max>
   </GarrisonHolder>
   <Identity>
+    <VisibleClasses datatype="tokens">Civic</VisibleClasses>
     <GenericName>Civic Structure</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Civic</VisibleClasses>
   </Identity>
   <Vision>
     <Range>50</Range>

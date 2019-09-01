@@ -2,7 +2,7 @@
 <Entity parent="template_structure_base">
   <AlertRaiser>
     <EndOfAlertRange>200</EndOfAlertRange>
-    <List datatype="tokens">FemaleCitizen Slave</List>
+    <List datatype="tokens">Gatherer</List>
     <RaiseAlertRange>150</RaiseAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
@@ -40,10 +40,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">CivCentre CivilCentre</Classes>
+    <VisibleClasses datatype="tokens">Centre</VisibleClasses>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
     <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for food, wood, stone. Train infantry citizen-soldiers.</Tooltip>
-    <VisibleClasses datatype="tokens">Centre</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

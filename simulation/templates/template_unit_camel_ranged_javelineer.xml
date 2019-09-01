@@ -14,7 +14,7 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Camel Javelineer</GenericName>
     <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
+    <GenericName>Camel Javelineer</GenericName>
   </Identity>
 </Entity>

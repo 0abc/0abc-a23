@@ -24,10 +24,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
     <GenericName>Mercenary Camp</GenericName>
     <Icon>structures/mercenary_camp.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="27" depth="27"/>

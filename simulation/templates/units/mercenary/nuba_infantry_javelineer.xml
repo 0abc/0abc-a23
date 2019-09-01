@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Nuba</Classes>
+    <Classes datatype="tokens">Nuba</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/kush_infantry_javelinist_a.png</Icon>
     <SelectionGroupName>units/mercenary/nuba_infantry_javelineer</SelectionGroupName>
     <SpecificName>Nuba Mercenary</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

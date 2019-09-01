@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_sabreman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Iberian</Classes>
+    <Classes datatype="tokens">Iberian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/iber_infantry_swordsman_a.png</Icon>
     <SelectionGroupName>units/cart/infantry_sabreman_mercenary</SelectionGroupName>
     <SpecificName>Iberian Mercenary</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

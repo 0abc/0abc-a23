@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">Kushite</Classes>
+    <Classes datatype="tokens">CitizenSoldier Kushite</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/kush_infantry_swordsman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_swordsman</SelectionGroupName>
     <SpecificName>Meroitic Swordsman</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_swordsman_a.xml</Actor>

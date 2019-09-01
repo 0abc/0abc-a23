@@ -2,7 +2,7 @@
 <Entity parent="template_structure">
   <AlertRaiser>
     <EndOfAlertRange>80</EndOfAlertRange>
-    <List datatype="tokens">FemaleCitizen Slave</List>
+    <List datatype="tokens">Gatherer</List>
     <RaiseAlertRange>60</RaiseAlertRange>
     <SearchRange>40</SearchRange>
   </AlertRaiser>
@@ -23,9 +23,9 @@
     <Max>0</Max>
   </GarrisonHolder>
   <Identity>
+    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
     <GenericName>Economic Structure</GenericName>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
   </Identity>
   <Vision>
     <Range>30</Range>

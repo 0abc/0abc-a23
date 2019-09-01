@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>athen</Civ>
-    <Classes datatype="tokens">Thracian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Thracian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/hele_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_javelineer</SelectionGroupName>
     <SpecificName>Thracian Peltast</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_javelinist_a.xml</Actor>

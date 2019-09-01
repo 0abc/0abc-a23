@@ -3,13 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>gree</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Greek Theban</Classes>
+    <Classes datatype="tokens">Greek Theban</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/theb_infantry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/gree/infantry_spearman_champion_3</SelectionGroupName>
     <SpecificName>Theban Sacred Band</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

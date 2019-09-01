@@ -38,8 +38,8 @@
     <Max>0</Max>
   </GarrisonHolder>
   <Identity>
-    <GenericName>Defensive Structure</GenericName>
     <VisibleClasses datatype="tokens">Defensive</VisibleClasses>
+    <GenericName>Defensive Structure</GenericName>
   </Identity>
   <ProductionQueue disable=""/>
 </Entity>

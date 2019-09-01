@@ -29,10 +29,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Wonder</VisibleClasses>
     <GenericName>Wonder</GenericName>
     <Icon>structures/wonder.png</Icon>
     <Tooltip>Territory root. Many bonuses.</Tooltip>
-    <VisibleClasses datatype="tokens">Wonder</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">

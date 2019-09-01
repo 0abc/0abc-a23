@@ -14,8 +14,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Stone Slinger</GenericName>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
+    <GenericName>Stone Slinger</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

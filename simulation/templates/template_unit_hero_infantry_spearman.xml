@@ -7,10 +7,10 @@
     <Ranged disable=""/>
   </Attack>
   <Identity>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/phalanx
     </Formations>
     <GenericName>Infantry Spearman Hero</GenericName>
-    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
   </Identity>
 </Entity>

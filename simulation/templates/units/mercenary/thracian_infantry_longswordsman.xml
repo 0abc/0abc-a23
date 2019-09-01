@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_longswordsman">
   <Identity>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Thracian</Classes>
+    <Classes datatype="tokens">Thracian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/thra_infantry_rhomphaia_a.png</Icon>
     <SelectionGroupName>units/mercenary/thracian_infantry_longswordsman</SelectionGroupName>
     <SpecificName>Thracian Mercenary</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

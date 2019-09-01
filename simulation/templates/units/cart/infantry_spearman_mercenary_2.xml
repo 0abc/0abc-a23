@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Samnite</Classes>
+    <Classes datatype="tokens">Samnite</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_infantry_spearman_c_2.png</Icon>
     <SelectionGroupName>units/cart/infantry_spearman_mercenary_2</SelectionGroupName>
     <SpecificName>Samnite Hoplite</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

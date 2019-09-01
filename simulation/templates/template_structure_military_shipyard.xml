@@ -18,11 +18,11 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Shipyard</Classes>
+    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
     <GenericName>Shipyard</GenericName>
     <Icon>structures/uber_dock.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct warships. Research naval improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="22" depth="26"/>

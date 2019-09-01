@@ -12,7 +12,7 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Camel Spearman</GenericName>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
+    <GenericName>Camel Spearman</GenericName>
   </Identity>
 </Entity>

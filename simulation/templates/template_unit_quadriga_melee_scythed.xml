@@ -31,8 +31,8 @@
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
   <Identity>
+    <VisibleClasses datatype="tokens">Scythed</VisibleClasses>
     <GenericName>Scythed Quadriga</GenericName>
     <Tooltip>Penalties: 0.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Scythed</VisibleClasses>
   </Identity>
 </Entity>

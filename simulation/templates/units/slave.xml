@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_slave">
+<Entity parent="template_unit_support_gatherer_slave">
   <VisualActor>
     <Actor>units/global/slave.xml</Actor>
   </VisualActor>

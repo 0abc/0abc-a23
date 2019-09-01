@@ -25,10 +25,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Field</Classes>
+    <VisibleClasses datatype="tokens">Resource</VisibleClasses>
     <GenericName>Field</GenericName>
     <Icon>structures/field.png</Icon>
     <Tooltip>Harvest grain for food.</Tooltip>
-    <VisibleClasses datatype="tokens">Resource</VisibleClasses>
   </Identity>
   <Minimap>
     <Color r="119" g="82" b="46"/>

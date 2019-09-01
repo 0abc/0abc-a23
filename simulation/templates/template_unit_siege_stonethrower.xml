@@ -45,10 +45,10 @@
     <Max>250</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
     <GenericName>Stone Thrower</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Bonuses: 2.0× vs Ships.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
   </Identity>
   <Pack>
     <Time>12000</Time>

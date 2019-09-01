@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>iber</Civ>
-    <Classes datatype="tokens">Iberian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Iberian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/iber_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_javelineer</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/infantry_javelinist_b.xml</Actor>

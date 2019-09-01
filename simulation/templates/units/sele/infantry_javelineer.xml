@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>sele</Civ>
-    <Classes datatype="tokens">Arab</Classes>
+    <Classes datatype="tokens">CitizenSoldier Arab</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Lang>greek</Lang>
     <Icon>units/pers_infantry_javelinist_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele/infantry_javelineer</SelectionGroupName>
     <SpecificName>Auxiliary</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/infantry_javelinist_b.xml</Actor>

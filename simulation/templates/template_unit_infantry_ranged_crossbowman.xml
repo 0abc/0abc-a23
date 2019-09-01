@@ -15,8 +15,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Crossbowman</GenericName>
     <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
+    <GenericName>Crossbowman</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

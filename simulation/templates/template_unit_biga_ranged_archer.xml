@@ -13,7 +13,7 @@
     <MaxArrowCount>2</MaxArrowCount>
   </BuildingAI>
   <Identity>
-    <GenericName>Biga Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <GenericName>Biga Archer</GenericName>
   </Identity>
 </Entity>

@@ -23,8 +23,8 @@
   </GarrisonHolder>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
-    <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
+    <GenericName>Military Structure</GenericName>
   </Identity>
   <Sound>
     <SoundGroups>

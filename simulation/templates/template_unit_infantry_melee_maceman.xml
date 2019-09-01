@@ -12,8 +12,8 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Maceman</GenericName>
     <VisibleClasses datatype="tokens">Maceman</VisibleClasses>
+    <GenericName>Maceman</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

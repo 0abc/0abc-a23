@@ -28,9 +28,9 @@
     <Max op="mul">8.0</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
     <GenericName>Worker Elephant</GenericName>
     <Tooltip>Mobile dropsite for food, wood, stone.</Tooltip>
-    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
   <ResourceDropsite>
     <Sharable>false</Sharable>

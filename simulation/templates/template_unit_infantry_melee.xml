@@ -11,8 +11,8 @@
     <Max op="mul">0.9</Max>
   </Health>
   <Identity>
-    <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+    <GenericName>Melee Infantry</GenericName>
   </Identity>
   <Selectable>
     <Overlay>

@@ -33,7 +33,8 @@
     <Max op="mul">4.5</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Human Organic Mounted</Classes>
+    <Classes datatype="tokens">Human Mounted</Classes>
+    <VisibleClasses datatype="tokens">Soldier Elephant Melee</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -46,7 +47,6 @@
     </Formations>
     <GenericName>War Elephant</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Elephant Melee</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

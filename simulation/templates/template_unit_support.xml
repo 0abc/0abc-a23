@@ -10,9 +10,9 @@
     <Max op="mul">0.5</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
-    <GenericName>Support</GenericName>
+    <Classes datatype="tokens">-ConquestCritical Human</Classes>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
+    <GenericName>Support</GenericName>
   </Identity>
   <Minimap>
     <Type>support</Type>

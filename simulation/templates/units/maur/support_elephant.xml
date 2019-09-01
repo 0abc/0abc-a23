@@ -2,8 +2,8 @@
 <Entity parent="template_unit_support_elephant">
   <Identity>
     <Civ>maur</Civ>
-    <Icon>units/maur_support_elephant.png</Icon>
     <VisibleClasses datatype="tokens">IndianElephant</VisibleClasses>
+    <Icon>units/maur_support_elephant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/support_elephant.xml</Actor>

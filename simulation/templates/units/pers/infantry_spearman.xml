@@ -7,12 +7,12 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
-    <Classes datatype="tokens">Persian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Persian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/pers_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman</SelectionGroupName>
     <SpecificName>Shield Bearer</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/infantry_spearman_b.xml</Actor>

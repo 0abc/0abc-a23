@@ -44,10 +44,10 @@
     <Max>200</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
     <GenericName>Bolt Shooter</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Bonuses: 1.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
   </Identity>
   <Pack>
     <Time>8000</Time>

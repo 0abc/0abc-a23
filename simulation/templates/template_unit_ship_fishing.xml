@@ -24,7 +24,7 @@
   </Cost>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Healer Infantry</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Dog Gatherer Healer Infantry</EjectClassesOnDestroy>
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Human</List>
     <LoadingRange>10</LoadingRange>
@@ -35,7 +35,8 @@
     <Max>150</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical FishingBoat</Classes>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
     <GenericName>Fishing Boat</GenericName>
     <Tooltip>Fish the waters for food.</Tooltip>
   </Identity>

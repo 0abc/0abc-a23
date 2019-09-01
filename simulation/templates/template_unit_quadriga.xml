@@ -25,7 +25,8 @@
     <Max op="mul">3.6</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Human Organic Mounted</Classes>
+    <Classes datatype="tokens">Human Mounted</Classes>
+    <VisibleClasses datatype="tokens">Soldier Chariot Quadriga</VisibleClasses>
     <GenericName>Quadriga</GenericName>
     <Formations datatype="tokens">
       special/formations/null
@@ -39,7 +40,6 @@
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Chariot Quadriga</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Interval>1000</Interval>

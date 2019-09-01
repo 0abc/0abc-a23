@@ -13,8 +13,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <GenericName>Archer</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

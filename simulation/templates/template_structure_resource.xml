@@ -4,7 +4,7 @@
     <Category>Resource</Category>
   </BuildRestrictions>
   <Identity>
-    <GenericName>Resource Structure</GenericName>
     <VisibleClasses datatype="tokens">Resource</VisibleClasses>
+    <GenericName>Resource Structure</GenericName>
   </Identity>
 </Entity>

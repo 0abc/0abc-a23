@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_ranged_stoneslinger">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Balearic</Classes>
+    <Classes datatype="tokens">Balearic</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_infantry_slinger_a.png</Icon>
     <SelectionGroupName>units/cart/infantry_slinger_mercenary</SelectionGroupName>
     <SpecificName>Balearic Mercenary</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

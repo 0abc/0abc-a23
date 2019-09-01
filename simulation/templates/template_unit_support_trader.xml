@@ -16,9 +16,9 @@
     <Max op="mul">2.0</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
     <GenericName>Trader</GenericName>
     <Tooltip>Gain resources via trade between centres or docks.</Tooltip>
-    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Interval>1000</Interval>

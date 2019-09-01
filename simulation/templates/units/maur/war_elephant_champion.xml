@@ -3,11 +3,11 @@
   <Identity>
     <Civ>maur</Civ>
     <Classes datatype="tokens">Indian</Classes>
+    <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
     <Icon>units/maur_elephant_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/war_elephant_champion</SelectionGroupName>
     <SpecificName>Armoured Indian Elephant</SpecificName>
-    <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/elephantry_c_m.xml</Actor>

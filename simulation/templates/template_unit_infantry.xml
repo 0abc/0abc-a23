@@ -70,7 +70,8 @@
     <Size>1</Size>
   </Garrisonable>
   <Identity>
-    <Classes datatype="tokens">Human Organic Citizen CitizenSoldier</Classes>
+    <Classes datatype="tokens">Human</Classes>
+    <VisibleClasses datatype="tokens">Builder Soldier Infantry</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/battle_line
@@ -83,7 +84,6 @@
     </Formations>
     <GenericName>Infantry</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Infantry</VisibleClasses>
   </Identity>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

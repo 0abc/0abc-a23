@@ -13,8 +13,8 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Axeman</GenericName>
     <VisibleClasses datatype="tokens">Axeman</VisibleClasses>
+    <GenericName>Axeman</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

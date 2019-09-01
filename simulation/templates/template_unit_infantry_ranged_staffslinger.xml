@@ -14,8 +14,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Staff Slinger</GenericName>
     <VisibleClasses datatype="tokens">StaffSlinger</VisibleClasses>
+    <GenericName>Staff Slinger</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

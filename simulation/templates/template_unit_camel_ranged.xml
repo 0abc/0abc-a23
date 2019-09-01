@@ -11,11 +11,11 @@
     <Max op="mul">1.44</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
     <GenericName>Ranged Camel</GenericName>
-    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

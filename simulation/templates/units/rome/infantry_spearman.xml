@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>rome</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Roman</Classes>
+    <Classes datatype="tokens">Roman</Classes>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
     <Icon>units/rome_infantry_spearman_e.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Triarius</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

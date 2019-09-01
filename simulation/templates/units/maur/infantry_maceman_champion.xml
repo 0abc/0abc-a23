@@ -3,12 +3,12 @@
   <Builder disable=""/>
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Indian</Classes>
+    <Classes datatype="tokens">Indian</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/maur_infantry_maceman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/maur/infantry_maceman_champion</SelectionGroupName>
     <SpecificName>Warrior</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

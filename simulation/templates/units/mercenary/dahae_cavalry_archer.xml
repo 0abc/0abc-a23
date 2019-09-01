@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Classes datatype="tokens">Dahae</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/sele_cavalry_archer_a.png</Icon>
     <SelectionGroupName>units/mercenary/dahae_cavalry_archer</SelectionGroupName>
     <SpecificName>Dahae Horse Archer</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/cavalry_archer_a_m.xml</Actor>

@@ -3,12 +3,12 @@
   <Identity>
     <Civ>mace</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
     <Icon>units/mace_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/cavalry_lancer_champion</SelectionGroupName>
     <SpecificName>Companion Cavalry</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_c_m.xml</Actor>

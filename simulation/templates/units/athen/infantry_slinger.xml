@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_leadslinger">
   <Identity>
     <Civ>athen</Civ>
-    <Classes datatype="tokens">Greek</Classes>
+    <Classes datatype="tokens">CitizenSoldier Greek</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Lang>greek</Lang>
     <Icon>units/athen_infantry_slinger_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/athen/infantry_slinger</SelectionGroupName>
     <SpecificName>Athenian Slinger</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_slinger_a.xml</Actor>

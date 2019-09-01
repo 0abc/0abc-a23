@@ -54,11 +54,11 @@
     <Max>750</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
     <GenericName>Siege Tower</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Garrison infantry for transport and to increase firepower.
 Bonuses: 1.5× vs Towers.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

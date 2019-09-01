@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>spart</Civ>
-    <Classes datatype="tokens">Greek</Classes>
+    <Classes datatype="tokens">CitizenSoldier Greek</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/spart_infantry_javelinist_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_javelineer</SelectionGroupName>
     <SpecificName>Helot</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/infantry_javelinist_b.xml</Actor>

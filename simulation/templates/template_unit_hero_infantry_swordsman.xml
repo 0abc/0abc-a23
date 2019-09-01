@@ -7,10 +7,10 @@
     <Ranged disable=""/>
   </Attack>
   <Identity>
+    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/testudo
     </Formations>
     <GenericName>Hero Swordsman</GenericName>
-    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
   </Identity>
 </Entity>

@@ -24,7 +24,8 @@
     <Size>3</Size>
   </Garrisonable>
   <Identity>
-    <Classes datatype="tokens">Human Organic Mounted</Classes>
+    <Classes datatype="tokens">Human Mounted</Classes>
+    <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>
     <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
       special/formations/null
@@ -38,7 +39,6 @@
       special/formations/wedge
     </Formations>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>
   </Identity>
   <ResourceTrickle>
     <Interval>1000</Interval>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_gatherer">
+  <Attack disable=""/>
+  <Builder>
+    <Entities datatype="tokens"/>
+    <Rate>0.5</Rate>
+  </Builder>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <silver>30</silver>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Slave</VisibleClasses>
+    <GenericName>Slave</GenericName>
+    <Icon>units/global_slave.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <trained>actor/singlesteps/steps_gravel_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+</Entity>

@@ -17,7 +17,7 @@
   </Cost>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Dog Gatherer Healer Infantry</EjectClassesOnDestroy>
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Support Infantry Cavalry Dog</List>
     <LoadingRange>10</LoadingRange>
@@ -29,10 +29,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Merchant</VisibleClasses>
     <GenericName>Merchant Ship</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Trade between docks. Garrison and transport units. Gather profitable aquatic treasures.</Tooltip>
-    <VisibleClasses datatype="tokens">Merchant</VisibleClasses>
   </Identity>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

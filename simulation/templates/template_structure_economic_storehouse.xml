@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
-  <AlertRaiser>
-    <EndOfAlertRange>100</EndOfAlertRange>
-    <List datatype="tokens">FemaleCitizen</List>
-    <RaiseAlertRange>60</RaiseAlertRange>
-    <SearchRange>100</SearchRange>
-  </AlertRaiser>
   <BuildRestrictions>
     <Distance>
       <FromClass>Storehouse</FromClass>

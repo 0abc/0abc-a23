@@ -188,7 +188,7 @@ var g_PanelEntityOrder = ["Hero", "Relic", "Wonder"];
 /**
  * Unit classes to be checked for the idle-worker-hotkey.
  */
-var g_WorkerTypes = ["Worker", "Trader", "Merchant", "FishingBoat"];
+var g_WorkerTypes = ["Gatherer", "Trader", "Merchant", "FishingBoat", "Worker"];
 
 /**
  * Unit classes to be checked for the military-only-selection modifier and for the idle-warrior-hotkey.
@@ -1640,8 +1640,8 @@ function reportGame()
     "Cavalry",
     "Champion",
     "Hero",
-    "Siege",
     "Ship",
+    "Siege",
     "Trader"
   ];
 

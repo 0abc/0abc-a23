@@ -8,7 +8,7 @@
     <Size>1</Size>
   </Garrisonable>
   <Identity>
-    <GenericName>Infantry Hero</GenericName>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
+    <GenericName>Infantry Hero</GenericName>
   </Identity>
 </Entity>

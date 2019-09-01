@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>spart</Civ>
-    <Classes datatype="tokens">Greek</Classes>
+    <Classes datatype="tokens">CitizenSoldier Greek</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/spart_infantry_swordsman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart/infantry_swordsman</SelectionGroupName>
     <SpecificName>Skiritas</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/infantry_swordsman_c.xml</Actor>

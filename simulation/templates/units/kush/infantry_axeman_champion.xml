@@ -3,12 +3,12 @@
   <Builder disable=""/>
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Kushite</Classes>
+    <Classes datatype="tokens">Kushite</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/kush_infantry_axeman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_axeman_champion</SelectionGroupName>
     <SpecificName>Meroitic Temple Guard</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

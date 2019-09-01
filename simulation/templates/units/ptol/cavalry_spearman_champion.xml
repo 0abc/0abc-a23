@@ -3,12 +3,12 @@
   <Identity>
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Macedonian</Classes>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
     <Icon>units/ptol_cavalry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/ptol/cavalry_spearman_champion</SelectionGroupName>
     <SpecificName>Royal Guard</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_spearman_c_m.xml</Actor>

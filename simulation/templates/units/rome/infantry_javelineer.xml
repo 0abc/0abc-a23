@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>rome</Civ>
-    <Classes datatype="tokens">Roman</Classes>
+    <Classes datatype="tokens">CitizenSoldier Roman</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/rome_infantry_javelinist_b.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_javelineer</SelectionGroupName>
     <SpecificName>Veles</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/romans/infantry_javelinist_b.xml</Actor>

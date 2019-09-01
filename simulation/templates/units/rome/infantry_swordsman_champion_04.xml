@@ -3,13 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>rome</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Roman</Classes>
+    <Classes datatype="tokens">Roman</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/rome_infantry_swordsman_c_4.png</Icon>
     <Lang>latin</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/rome/infantry_swordsman_champion_4</SelectionGroupName>
     <SpecificName>Centurion</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

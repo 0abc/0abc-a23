@@ -9,10 +9,10 @@
     </Ranged>
   </Attack>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
     <GenericName>Cavalry Archer Hero</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>
 </Entity>

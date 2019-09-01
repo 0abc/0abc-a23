@@ -3,11 +3,11 @@
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Bactrian</Classes>
+    <VisibleClasses datatype="tokens">Cataphract Champion</VisibleClasses>
     <Icon>units/pers_cavalry_archer_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/cavalry_archer_champion</SelectionGroupName>
     <SpecificName>Bactrian Cataphract Archer</SpecificName>
-    <VisibleClasses datatype="tokens">Cataphract Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/cavalry_archer_c_m.xml</Actor>

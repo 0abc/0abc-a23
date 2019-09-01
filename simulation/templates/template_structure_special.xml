@@ -29,11 +29,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">SpecialBuilding ConquestCritical</Classes>
-    <GenericName>Special Building</GenericName>
+    <Classes datatype="tokens">ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Special City</VisibleClasses>
+    <GenericName>Special Structure</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>This is a special building unique to a particular civilization.</Tooltip>
-    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

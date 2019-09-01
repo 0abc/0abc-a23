@@ -3,11 +3,11 @@
   <Builder disable=""/>
   <Identity>
     <Civ>iber</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Iberian</Classes>
+    <Classes datatype="tokens">Iberian</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/iber_infantry_swordsman_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_sabreman_champion</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

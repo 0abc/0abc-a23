@@ -14,8 +14,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Lead Slinger</GenericName>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
+    <GenericName>Lead Slinger</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

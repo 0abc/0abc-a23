@@ -1,5 +1,5 @@
 {
-  "affects": ["Market"],
+  "affects": ["Market !Dock"],
   "autoResearch": true,
   "genericName": "Punic Industry",
   "modifications": [

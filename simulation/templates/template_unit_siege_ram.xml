@@ -48,12 +48,12 @@
     <Max>300</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
     <GenericName>Battering Ram</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Garrison infantry for transport.
 Can not attack organic units.
 Bonuses: 2.0× vs Defensive Structures.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

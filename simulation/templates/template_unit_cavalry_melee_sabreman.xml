@@ -6,7 +6,7 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Cavalry Sabreman</GenericName>
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
+    <GenericName>Cavalry Sabreman</GenericName>
   </Identity>
 </Entity>

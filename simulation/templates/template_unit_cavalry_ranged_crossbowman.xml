@@ -9,7 +9,7 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Cavalry Crossbowman</GenericName>
     <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
+    <GenericName>Cavalry Crossbowman</GenericName>
   </Identity>
 </Entity>

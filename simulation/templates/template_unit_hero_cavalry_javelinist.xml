@@ -14,10 +14,10 @@
     <Height>3.0</Height>
   </Footprint>
   <Identity>
+    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
     <GenericName>Cavalry Javelineer Hero</GenericName>
-    <VisibleClasses datatype="tokens">Javelineer Ranged</VisibleClasses>
   </Identity>
 </Entity>

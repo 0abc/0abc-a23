@@ -14,8 +14,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Javelineer</GenericName>
     <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
+    <GenericName>Javelineer</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

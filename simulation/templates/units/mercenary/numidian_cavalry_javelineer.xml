@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Classes datatype="tokens">Numidian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_cavalry_javelinist_a.png</Icon>
     <SelectionGroupName>units/mercenary/numidian_cavalry_javelineer</SelectionGroupName>
     <SpecificName>Numidian Cavalry</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_javelinist_e_m.xml</Actor>

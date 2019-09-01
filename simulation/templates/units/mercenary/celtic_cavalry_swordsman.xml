@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Classes datatype="tokens">Celt</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/celt_cavalry_swordsman_a.png</Icon>
     <SelectionGroupName>units/mercenary/celtic_cavalry_swordsman</SelectionGroupName>
     <SpecificName>Celtic Horseman</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_e_m.xml</Actor>

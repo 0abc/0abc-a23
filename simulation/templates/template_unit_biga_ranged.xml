@@ -8,8 +8,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Ranged Biga</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
+    <GenericName>Ranged Biga</GenericName>
   </Identity>
   <Selectable>
     <Overlay>

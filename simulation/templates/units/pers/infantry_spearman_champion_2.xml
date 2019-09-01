@@ -3,12 +3,12 @@
   <Builder disable=""/>
   <Identity>
     <Civ>pers</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Persian</Classes>
+    <Classes datatype="tokens">Persian</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/pers_infantry_spearman_c_2.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/pers/infantry_spearman_champion_2</SelectionGroupName>
     <SpecificName>Immortal</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

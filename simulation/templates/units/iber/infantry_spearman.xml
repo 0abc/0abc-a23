@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>iber</Civ>
-    <Classes datatype="tokens">Iberian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Iberian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/iber_infantry_spearman_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/iber/infantry_spearman</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/infantry_spearman_a.xml</Actor>

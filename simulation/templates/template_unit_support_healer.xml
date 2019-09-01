@@ -20,9 +20,9 @@
     <UnhealableClasses datatype="tokens"/>
   </Heal>
   <Identity>
+    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
     <GenericName>Healer</GenericName>
     <Tooltip>Heal units.</Tooltip>
-    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
   </Identity>
   <Selectable>
     <Overlay>

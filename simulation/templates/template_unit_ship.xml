@@ -22,9 +22,9 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Mechanical</Classes>
-    <GenericName>Ship</GenericName>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Ship</VisibleClasses>
+    <GenericName>Ship</GenericName>
   </Identity>
   <Position>
     <Anchor>upright</Anchor>

@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Classes datatype="tokens">Thracian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/thra_cavalry_javelinist_a.png</Icon>
     <SelectionGroupName>units/mercenary/thracian_cavalry_javelineer</SelectionGroupName>
     <SpecificName>Thracian Horseman</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/cavalry_javelinist_a_m.xml</Actor>

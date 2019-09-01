@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">Macedonian</Classes>
+    <Classes datatype="tokens">CitizenSoldier Macedonian</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/ptol_infantry_pikeman_b.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/ptol/infantry_pikeman</SelectionGroupName>
     <SpecificName>Macedonian Phalangite</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/infantry_pikeman_e.xml</Actor>

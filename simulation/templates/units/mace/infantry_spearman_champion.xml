@@ -3,13 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>mace</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Macedonian</Classes>
+    <Classes datatype="tokens">Macedonian</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/mace_infantry_spearman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Hypaspist</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

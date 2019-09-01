@@ -8,7 +8,7 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Cavalry Javelineer</GenericName>
     <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
+    <GenericName>Cavalry Javelineer</GenericName>
   </Identity>
 </Entity>

@@ -3,11 +3,11 @@
   <Identity>
     <Civ>mace</Civ>
     <Classes datatype="tokens">Indian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/pers_elephant_a.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/war_elephant_mercenary</SelectionGroupName>
     <SpecificName>Indian Elephant</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/persians/war_elephant.xml</Actor>

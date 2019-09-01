@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">Kushite</Classes>
+    <Classes datatype="tokens">CitizenSoldier Kushite</Classes>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <Icon>units/kush_infantry_archer_b.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/kush/infantry_archer</SelectionGroupName>
     <SpecificName>Nubian Archer</SpecificName>
-    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/kushites/infantry_archer_a.xml</Actor>

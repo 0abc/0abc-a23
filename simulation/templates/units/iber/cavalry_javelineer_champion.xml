@@ -3,10 +3,10 @@
   <Identity>
     <Civ>iber</Civ>
     <Classes datatype="tokens">Iberian</Classes>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
     <Icon>units/iber_cavalry_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/iber/cavalry_javelineer_champion</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/cavalry_javelinist_c_m.xml</Actor>

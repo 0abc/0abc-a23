@@ -12,8 +12,8 @@
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Sabreman</GenericName>
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
+    <GenericName>Sabreman</GenericName>
   </Identity>
   <UnitMotion>
     <Run>

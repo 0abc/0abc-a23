@@ -21,6 +21,6 @@
     <UnhealableClasses datatype="tokens"/>
   </Heal>
   <Identity>
-    <VisibleClasses datatype="tokens">-Soldier Healer Support</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Soldier Support Healer</VisibleClasses>
   </Identity>
 </Entity>

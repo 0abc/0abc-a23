@@ -18,8 +18,8 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Mounted</Classes>
-    <GenericName>War Elephant Hero</GenericName>
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
+    <GenericName>War Elephant Hero</GenericName>
   </Identity>
   <Sound>
     <SoundGroups>

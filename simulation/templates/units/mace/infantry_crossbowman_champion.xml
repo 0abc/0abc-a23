@@ -3,13 +3,13 @@
   <Builder disable=""/>
   <Identity>
     <Civ>mace</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Greek</Classes>
+    <Classes datatype="tokens">Greek</Classes>
+    <VisibleClasses datatype="tokens">-Builder Champion</VisibleClasses>
     <Icon>units/athen_infantry_crossbowman_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/mace/infantry_crossbowman</SelectionGroupName>
     <SpecificName>Gastraphetes</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

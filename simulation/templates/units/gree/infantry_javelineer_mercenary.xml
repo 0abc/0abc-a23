@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>gree</Civ>
-    <Classes datatype="tokens">-Citizen -CitizenSoldier Thracian</Classes>
+    <Classes datatype="tokens">Thracian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/athen_infantry_javelinist_a.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/gree/infantry_javelineer_mercenary</SelectionGroupName>
     <SpecificName>Thracian Peltast</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <VisualActor>

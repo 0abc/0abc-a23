@@ -7,7 +7,7 @@
     <Ranged disable=""/>
   </Attack>
   <Identity>
-    <GenericName>Cavalry Swordsman Hero</GenericName>
     <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
+    <GenericName>Cavalry Swordsman Hero</GenericName>
   </Identity>
 </Entity>
