@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Identity>
+    <Civ>sele</Civ>
+    <Icon>units/sele_hero_antiochus_the_righteous.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Antiochus IV Epiphanes</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/hero_cavalry_swordsman_ptolemy_IV_m.xml</Actor>
+  </VisualActor>
+</Entity>

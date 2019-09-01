@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Identity>
+    <Civ>kush</Civ>
+    <Icon>units/kush_hero_nastasen.png</Icon>
+    <SpecificName>Nastasen</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/hero_cavalry_spearman_nastasen_m.xml</Actor>
+  </VisualActor>
+</Entity>

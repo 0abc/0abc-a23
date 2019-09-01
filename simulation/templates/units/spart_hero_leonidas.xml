@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>spart</Civ>
+    <Icon>units/spart_hero_leonidas.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Leonidas I</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/hero_infantry_spearman_leonidas.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_cavalry">
+<Entity parent="template_unit_hero_chariot">
   <Attack>
     <Melee disable=""/>
     <Ranged>
@@ -9,15 +9,11 @@
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
-  <Footprint>
-    <Circle radius="3.0"/>
-    <Height>3.0</Height>
-  </Footprint>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
-    <GenericName>Cavalry Javelineer Hero</GenericName>
+    <GenericName>Chariot Javelineer Hero</GenericName>
   </Identity>
 </Entity>

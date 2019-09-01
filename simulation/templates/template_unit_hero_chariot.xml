@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Footprint>
+    <Circle radius="6"/>
+    <Height>6</Height>
+  </Footprint>
+  <Garrisonable>
+    <Size>8</Size>
+  </Garrisonable>
+  <Identity>
+    <Classes datatype="tokens">Mounted</Classes>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/wedge
+    </Formations>
+    <GenericName>Chariot Hero</GenericName>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <run>actor/mounted/movement/walk.xml</run>
+      <death>actor/fauna/death/death_horse.xml</death>
+      <trained>interface/alarm/alarm_create_cav.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>7</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <Run>
+      <Speed op="mul">1.5</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+</Entity>

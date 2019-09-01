@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Identity>
+    <Civ>cart</Civ>
+    <Icon>units/cart_hero_hannibal.png</Icon>
+    <SpecificName>Hannibal Barca</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/hero_elephantry_hannibal_m.xml</Actor>
+  </VisualActor>
+</Entity>

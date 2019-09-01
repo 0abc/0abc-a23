@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>athen</Civ>
+    <Icon>units/athen_hero_pericles.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Pericles</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/hero_infantry_spearman_pericles.xml</Actor>
+  </VisualActor>
+</Entity>

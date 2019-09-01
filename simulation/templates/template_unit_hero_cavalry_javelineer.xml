@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry">
+  <Attack>
+    <Melee disable=""/>
+    <Ranged>
+      <MaxRange>40</MaxRange>
+      <Pierce>40</Pierce>
+      <ProjectileSpeed op="mul">0.8</ProjectileSpeed>
+      <Spread>1.0</Spread>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+    <GenericName>Cavalry Javelineer Hero</GenericName>
+  </Identity>
+</Entity>

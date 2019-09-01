@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Identity>
+    <Civ>maur</Civ>
+    <Icon>units/maur_hero_ashoka.png</Icon>
+    <SpecificName>Ashoka the Great</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/hero_infantry_archer_ashoka.xml</Actor>
+  </VisualActor>
+</Entity>

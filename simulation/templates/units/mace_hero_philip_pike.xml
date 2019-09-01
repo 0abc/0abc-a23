@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_pikeman">
+  <Identity>
+    <Civ>mace</Civ>
+    <Icon>units/mace_hero_philip.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Philip II of Macedon</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/hero_infantry_pikeman_philip.xml</Actor>
+  </VisualActor>
+</Entity>

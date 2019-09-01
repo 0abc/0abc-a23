@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>mace</Civ>
+    <Icon>units/hele_hero_demetrius.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Demetrius I Poliorcetes</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/hero_infantry_swordsman_demetrius.xml</Actor>
+  </VisualActor>
+</Entity>

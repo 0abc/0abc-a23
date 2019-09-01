@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Identity>
+    <Civ>kush</Civ>
+    <Icon>units/kush_hero_arakamani.png</Icon>
+    <SpecificName>Arakamani</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/hero_elephantry_arakamani_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_chariot_archer">
+  <Identity>
+    <Civ>pers</Civ>
+    <Icon>units/pers_hero_darius.png</Icon>
+    <SpecificName>Darius I the Great</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/hero_chariot_archer_darius_m.xml</Actor>
+  </VisualActor>
+</Entity>

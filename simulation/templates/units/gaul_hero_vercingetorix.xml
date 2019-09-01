@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/gaul_hero_vercingetorix.png</Icon>
+    <SpecificName>Vercingetorix</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/hero_cavalry_swordsman_vercingetorix_m.xml</Actor>
+  </VisualActor>
+</Entity>

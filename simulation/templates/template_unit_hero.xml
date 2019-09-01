@@ -15,7 +15,8 @@
     </Capture>
   </Attack>
   <Auras datatype="tokens">
-    units/heroes/hero_garrison
+    units/hero_combat
+    units/hero_garrison
   </Auras>
   <Cost>
     <BuildTime>60</BuildTime>

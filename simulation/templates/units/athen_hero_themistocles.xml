@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>athen</Civ>
+    <Icon>units/athen_hero_themistocles.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Themistocles</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/hero_infantry_swordsman_themistocles.xml</Actor>
+  </VisualActor>
+</Entity>

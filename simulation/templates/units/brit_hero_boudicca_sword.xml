@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>brit</Civ>
+    <Gender>female</Gender>
+    <Icon>units/brit_hero_boudicca.png</Icon>
+    <SpecificName>Boudicca</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/britons/hero_infantry_swordsman_boudicca.xml</Actor>
+  </VisualActor>
+</Entity>

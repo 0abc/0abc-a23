@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Identity>
+    <Civ>ptol</Civ>
+    <Icon>units/mace_hero_philip.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Ptolemy IV Philopator</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/hero_cavalry_swordsman_ptolemy_IV_m.xml</Actor>
+  </VisualActor>
+</Entity>

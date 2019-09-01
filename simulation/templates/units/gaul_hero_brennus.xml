@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/gaul_hero_brennus.png</Icon>
+    <SpecificName>Brennus</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/hero_infantry_swordsman_brennus.xml</Actor>
+  </VisualActor>
+</Entity>

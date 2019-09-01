@@ -13,9 +13,6 @@
   <Garrisonable>
     <Size>10</Size>
   </Garrisonable>
-  <Health>
-    <Max>2000</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">Mounted</Classes>
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>

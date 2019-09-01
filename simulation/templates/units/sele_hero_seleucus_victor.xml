@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Identity>
+    <Civ>sele</Civ>
+    <Icon>units/sele_hero_seleucus.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Seleucus I Victor</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/seleucids/hero_elephantry_seleucus_victor_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_chariot_javelineer">
+  <Identity>
+    <Civ>brit</Civ>
+    <Gender>female</Gender>
+    <Icon>units/brit_hero_boudicca.png</Icon>
+    <SpecificName>Boudicca</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/britons/hero_chariot_javelinist_boudicca_m.xml</Actor>
+  </VisualActor>
+</Entity>

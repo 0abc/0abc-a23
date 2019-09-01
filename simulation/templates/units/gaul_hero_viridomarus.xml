@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/gaul_hero_viridomarus.png</Icon>
+    <SpecificName>Britomartus</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/hero_infantry_spearman_viridomarus.xml</Actor>
+  </VisualActor>
+</Entity>
