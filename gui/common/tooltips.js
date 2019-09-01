@@ -22,15 +22,15 @@ var g_SplashDamageTypes = {
 
 var g_RangeTooltipString = {
   "relative": {
-    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 2 to 10 (+2) meters, Interval: 3 arrows / 2 seconds
+    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 2 to 10 (+2) meters, Rate: 3 arrows / 2 seconds
     "minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(minRange)s to %(maxRange)s (%(relativeRange)s) %(rangeUnit)s, %(rate)s, %(cost)s"),
-    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 10 (+2) meters, Interval: 3 arrows / 2 seconds
+    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 10 (+2) meters, Rate: 3 arrows / 2 seconds
     "no-minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(maxRange)s (%(relativeRange)s) %(rangeUnit)s, %(rate)s, %(cost)s"),
   },
   "non-relative": {
-    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 2 to 10 meters, Interval: 3 arrows / 2 seconds
+    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 2 to 10 meters, Rate: 3 arrows / 2 seconds
     "minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(minRange)s to %(maxRange)s %(rangeUnit)s, %(rate)s, %(cost)s"),
-    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 10 meters, Interval: 3 arrows / 2 seconds
+    // Translation: For example: Ranged Attack: 12.0 Pierce, Range: 10 meters, Rate: 3 arrows / 2 seconds
     "no-minRange": translate("%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(maxRange)s %(rangeUnit)s, %(rate)s, %(cost)s"),
   }
 };
@@ -284,8 +284,8 @@ function getAttackTooltip(template)
       "label":
         headerFont(
           template.buildingAI && type == "Ranged" ?
-            translate("Interval:") :
-            translate("Rate:")),
+            translate("Rate:") :
+            translate("Interval:")),
       "details": attackRateDetails(template, type)
     });
 
