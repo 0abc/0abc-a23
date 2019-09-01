@@ -216,15 +216,6 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
     }
   }
 
-  if (template.DeathDamage)
-  {
-    ret.deathDamage = {
-      "friendlyFire": template.DeathDamage.FriendlyFire != "false"
-    };
-    for (let damageType of damageTypes.GetTypes())
-      ret.deathDamage[damageType] = getEntityValue("DeathDamage/" + damageType);
-  }
-
   if (template.Auras && auraTemplates)
   {
     ret.auras = {};
@@ -270,11 +261,6 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
     }
   }
 
-  if (template.TrainingRestrictions)
-    ret.trainingRestrictions = {
-      "category": template.TrainingRestrictions.Category,
-    };
-
   if (template.Cost)
   {
     ret.cost = {};
@@ -289,6 +275,15 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
 
     if (template.Cost.BuildTime)
       ret.cost.time = getEntityValue("Cost/BuildTime");
+  }
+
+  if (template.DeathDamage)
+  {
+    ret.deathDamage = {
+      "friendlyFire": template.DeathDamage.FriendlyFire != "false"
+    };
+    for (let damageType of damageTypes.GetTypes())
+      ret.deathDamage[damageType] = getEntityValue("DeathDamage/" + damageType);
   }
 
   if (template.Footprint)
@@ -330,22 +325,21 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
       "rate": getEntityValue("Heal/Rate")
     };
 
-  if (template.ResourceGatherer)
-  {
-    ret.resourceGatherRates = {};
-    let baseSpeed = getEntityValue("ResourceGatherer/BaseSpeed");
-    for (let type in template.ResourceGatherer.Rates)
-      ret.resourceGatherRates[type] = getEntityValue("ResourceGatherer/Rates/"+ type) * baseSpeed;
-  }
+  if (template.Health)
+    ret.health = Math.round(getEntityValue("Health/Max"));
 
-  if (template.ResourceTrickle)
+  if (template.Identity)
   {
-    ret.resourceTrickle = {
-      "interval": +template.ResourceTrickle.Interval,
-      "rates": {}
+    ret.selectionGroupName = template.Identity.SelectionGroupName;
+    ret.name = {
+      "specific": (template.Identity.SpecificName || template.Identity.GenericName),
+      "generic": template.Identity.GenericName
     };
-    for (let type in template.ResourceTrickle.Rates)
-      ret.resourceTrickle.rates[type] = getEntityValue("ResourceTrickle/Rates/" + type);
+    ret.icon = template.Identity.Icon;
+    ret.tooltip = template.Identity.Tooltip;
+    ret.requiredTechnology = template.Identity.RequiredTechnology;
+    ret.visibleIdentityClasses = GetVisibleIdentityClasses(template.Identity);
+    ret.nativeCiv = template.Identity.Civ;
   }
 
   if (template.Loot)
@@ -389,22 +383,43 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
       "time": getEntityValue("Pack/Time"),
     };
 
-  if (template.Health)
-    ret.health = Math.round(getEntityValue("Health/Max"));
-
-  if (template.Identity)
+  if (template.ProductionQueue)
   {
-    ret.selectionGroupName = template.Identity.SelectionGroupName;
-    ret.name = {
-      "specific": (template.Identity.SpecificName || template.Identity.GenericName),
-      "generic": template.Identity.GenericName
-    };
-    ret.icon = template.Identity.Icon;
-    ret.tooltip = template.Identity.Tooltip;
-    ret.requiredTechnology = template.Identity.RequiredTechnology;
-    ret.visibleIdentityClasses = GetVisibleIdentityClasses(template.Identity);
-    ret.nativeCiv = template.Identity.Civ;
+    ret.techCostMultiplier = {};
+    for (let res in template.ProductionQueue.TechCostMultiplier)
+      ret.techCostMultiplier[res] = getEntityValue("ProductionQueue/TechCostMultiplier/" + res);
   }
+
+  if (template.ResourceGatherer)
+  {
+    ret.resourceGatherRates = {};
+    let baseSpeed = getEntityValue("ResourceGatherer/BaseSpeed");
+    for (let type in template.ResourceGatherer.Rates)
+      ret.resourceGatherRates[type] = getEntityValue("ResourceGatherer/Rates/"+ type) * baseSpeed;
+  }
+
+  if (template.ResourceTrickle)
+  {
+    ret.resourceTrickle = {
+      "interval": +template.ResourceTrickle.Interval,
+      "rates": {}
+    };
+    for (let type in template.ResourceTrickle.Rates)
+      ret.resourceTrickle.rates[type] = getEntityValue("ResourceTrickle/Rates/" + type);
+  }
+
+  if (template.Trader)
+    ret.trader = {
+      "GainMultiplier": getEntityValue("Trader/GainMultiplier")
+    };
+
+  if (template.TrainingRestrictions)
+    ret.trainingRestrictions = {
+      "category": template.TrainingRestrictions.Category,
+    };
+
+  if (template.TerritoryInfluence)
+    ret.territoryInfluenceRoot = template.TerritoryInfluence.Root === "true";
 
   if (template.UnitMotion)
   {
@@ -438,18 +453,6 @@ function GetTemplateDataHelper(template, player, auraTemplates, resources, damag
       });
     }
   }
-
-  if (template.ProductionQueue)
-  {
-    ret.techCostMultiplier = {};
-    for (let res in template.ProductionQueue.TechCostMultiplier)
-      ret.techCostMultiplier[res] = getEntityValue("ProductionQueue/TechCostMultiplier/" + res);
-  }
-
-  if (template.Trader)
-    ret.trader = {
-      "GainMultiplier": getEntityValue("Trader/GainMultiplier")
-    };
 
   if (template.WallSet)
   {
