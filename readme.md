@@ -97,6 +97,8 @@ The AI no longer gets a resource stockpiling bonus or penalty, but the difficult
 
 
 ### Structures
+* foundations are capturable
+* `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * economic structures can be constructed in neutral territory
 * dropsites are just that: dropsites; all gather technologies are moved to the forge, which is now available in the village phase
 * walls are stronger but also more expensive and slower to construct; all factions have palisades (village), siege walls (town), and city walls (city)
@@ -697,7 +699,6 @@ On random maps, all factions start with:
   * be able to build and maintain walls
   * replace all hard-coded template file name paths with classes
 * attach points for units (e.g. chariots, elephants), to allow soldiers to fight and be killed independently from the unit that's carrying them
-* `<BuildRestrictions/Distance>` applies to other players as well, e.g. you can't build a fortress right next to one of a different player
 * resource variance: resource suppliers now start with a random amount between `<ResourceSupply/Min>` and `<ResourceSupply/Max>`.
 * elevation bonus is taken into account for attack range visualization
 * elevation bonus applies to vision range as well
@@ -709,6 +710,7 @@ On random maps, all factions start with:
 * instead of a player population setting, have a world population setting; each surviving player is then entitled to a 1/n share. E.g. a four player game with a world population of 600: all players have a maximum population limit of 150 at start; one player is defeated, the others can now have up to 200; then another is defeated, both survivors up to 300. Methinks this would provide an interesting dynamic (do you keep weak players alive to prevent stronger opponents from training more units?) while avoiding performance issues and improving realism.
 * new victory condition: win by centre count (e.g. control at least 10 centres for 10 minutes)
 * new map wall setting: start with only a centre (default); start with a centre and palisades; start with a centre and wooden town walls; start with centre and stone city walls.
+* phase advance notifications are communicated to all players (instead of only to allies)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 

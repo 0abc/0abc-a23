@@ -88,8 +88,8 @@ function subHeading(obj)
   if (obj.History)
     string += '[icon="iconInfo" tooltip="' + escapeQuotation(obj.History) + '" tooltip_style="civInfoTooltip"]';
   if (obj.Description)
-    string += '\n     ' + obj.Description;
-  return coloredText(string + "\n", "white");
+    string += '\n    ' + obj.Description;
+  return sprintf(translate("• %(string)s"), { "string": string }) + "\n";
 }
 
 function switchToStrucTreePage()
@@ -123,28 +123,28 @@ function selectCiv(code)
   // Update civ gameplay display
   Engine.GetGUIObjectByName("civGameplayHeading").caption = heading(sprintf(translate("%(civilization)s Gameplay"), { "civilization": civInfo.Name }), 16);
 
-  // Bonuses
+  // Civilization bonuses
   var bonusCaption = heading(translatePlural("Civilization Bonus", "Civilization Bonuses", civInfo.CivBonuses.length), 12) + '\n';
   for (let bonus of civInfo.CivBonuses)
-    bonusCaption += '• ' + subHeading(bonus);
+    bonusCaption += subHeading(bonus);
 
-  // Team Bonuses
+  // Team bonuses
   bonusCaption += heading(translatePlural("Team Bonus", "Team Bonuses", civInfo.TeamBonuses.length), 12) + '\n';
   for (let bonus of civInfo.TeamBonuses)
-    bonusCaption += '• ' + subHeading(bonus);
+    bonusCaption += subHeading(bonus);
 
   Engine.GetGUIObjectByName("civBonuses").caption = bonusCaption;
 
-  // Special techs
+  // Special technologies
   var techCaption = heading(translate("Special Technologies"), 12) + '\n';
   for (let faction of civInfo.Factions)
     for (let technology of faction.Technologies)
-      techCaption += '• ' + subHeading(technology);
+      techCaption += subHeading(technology);
 
-  // Special buildings
-  techCaption += heading(translatePlural("Special Building", "Special Buildings", civInfo.Structures.length), 12) + '\n';
+  // Special structures
+  techCaption += heading(translatePlural("Special Structure", "Special Structures", civInfo.Structures.length), 12) + '\n';
   for (let structure of civInfo.Structures)
-    techCaption += '• ' + subHeading(structure);
+    techCaption += subHeading(structure);
 
   Engine.GetGUIObjectByName("civTechs").caption = techCaption;
 
@@ -153,7 +153,7 @@ function selectCiv(code)
   for (let faction of civInfo.Factions)
   {
     for (let hero of faction.Heroes)
-      heroCaption += '• ' + subHeading(hero);
+      heroCaption += subHeading(hero);
     heroCaption += '\n';
   }
   Engine.GetGUIObjectByName("civHeroes").caption = heroCaption;
