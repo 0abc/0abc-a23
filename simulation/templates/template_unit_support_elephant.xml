@@ -60,9 +60,10 @@
       <trained>actor/fauna/animal/elephant_trained.xml</trained>
     </SoundGroups>
   </Sound>
-  <TrainingRestrictions>
-    <Category>Elephant</Category>
-  </TrainingRestrictions>
+  <StatusBars>
+    <BarWidth>3.0</BarWidth>
+    <HeightOffset>9.0</HeightOffset>
+  </StatusBars>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
     <Run>

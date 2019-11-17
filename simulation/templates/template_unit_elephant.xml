@@ -76,9 +76,6 @@
     <BarWidth>3.0</BarWidth>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
-  <TrainingRestrictions>
-    <Category>Elephant</Category>
-  </TrainingRestrictions>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
     <Run>

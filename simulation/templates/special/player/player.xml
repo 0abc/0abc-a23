@@ -17,7 +17,6 @@
     <Limits>
       <Arsenal>0</Arsenal>
       <Centre>1</Centre>
-      <Elephant>0</Elephant>
       <ElephantStable>0</ElephantStable>
       <Fortress>10</Fortress>
       <Hall>3</Hall>
@@ -38,9 +37,6 @@
       <Arsenal>
         <Centre>1</Centre>
       </Arsenal>
-      <Elephant>
-        <ElephantStable>5</ElephantStable>
-      </Elephant>
       <ElephantStable>
         <Centre>1</Centre>
       </ElephantStable>
