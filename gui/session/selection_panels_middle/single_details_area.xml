@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Unit details for Single Unit -->
+<!-- Unit details for single unit -->
 <object size="0 0 100% 100%" name="detailsAreaSingle">
 
   <!-- Stats Bars -->
@@ -54,7 +54,7 @@
       </object>
     </object>
 
-    <object size="4 63 100%-4 99" type="image" sprite="edgedPanelShader">
+    <object size="4 63 100%-4 99">
       <!-- Armour etc. tooltip -->
       <object size="90 0 122 32" name="attackAndArmorStats" type="image" sprite="stretched:session/icons/stances/defensive.png" tooltip_style="sessionToolTipInstantly">
         <translatableAttribute id="tooltip">Attack and Armour</translatableAttribute>

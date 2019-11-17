@@ -148,11 +148,7 @@
   <!-- Bottom Left Panel -->
   <sprite name="supplementalDetailsPanel">
     <!-- background -->
-    <image texture="session/panel_left.png"
-      real_texture_placement="0 0 189 170"
-      texture_size="0 0 100% 100%"
-      size="4 4 100%-4 100%-4"
-    />
+    <image backcolor="30 20 10"/>
     <!-- sides -->
     <image texture="global/border/line_horiz.png"
       texture_size="0 0 64 4"
@@ -192,11 +188,7 @@
   <!-- Bottom Middle Panel -->
   <sprite name="selectionDetailsPanel">
     <!-- background -->
-    <image texture="session/panel_middle.png"
-      real_texture_placement="0 0 228 205"
-      texture_size="0 0 100% 100%"
-      size="0 0 100% 100%"
-    />
+    <image backcolor="30 20 10"/>
     <!-- sides -->
     <image texture="global/border/line_horiz.png"
       texture_size="0 0 64 4"
@@ -236,11 +228,7 @@
   <!-- Bottom Right Panel -->
   <sprite name="unitCommandsPanel">
     <!-- background -->
-    <image texture="session/panel_right.png"
-      real_texture_placement="0 0 398 170"
-      texture_size="0 0 100% 100%"
-      size="4 4 100%-4 100%-4"
-    />
+    <image backcolor="30 20 10"/>
     <!-- sides -->
     <image texture="global/border/line_horiz.png"
       texture_size="0 0 64 4"
