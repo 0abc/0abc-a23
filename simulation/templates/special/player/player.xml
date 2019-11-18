@@ -24,11 +24,16 @@
       <MerchantShip>20</MerchantShip>
       <NavalBase>1</NavalBase>
       <Palace>1</Palace>
-      <Pillar>5</Pillar>
+      <Pillar>0</Pillar>
       <Theatre>1</Theatre>
       <WarDog>30</WarDog>
       <Wonder>1</Wonder>
     </Limits>
+    <LimitChangers>
+      <Pillar>
+        <Centre>1</Centre>
+      </Pillar>
+    </LimitChangers>
     <LimitRemovers>
       <Centre>
         <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
