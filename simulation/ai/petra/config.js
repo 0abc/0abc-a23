@@ -51,21 +51,21 @@ m.Config = function(difficulty, behavior)
   // and that it will try to build on phase III when enough resources.
   this.buildings =
   {
-		"default": [],
-		"athen": [],
-		"brit": [],
-		"cart": ["structures/cart/hall"],
-		"gaul": ["structures/gaul/rotarymill"],
-		"gree": [],
-		"iber": [],
-		"kush": ["structures/kush/nuba_village"],
-		"mace": ["structures/mace/hall", "structures/mace/library", "structures/mace/theatre"],
-		"maur": ["structures/maur/palace", "structures/maur/pillar"],
-		"pers": [],
-		"ptol": ["structures/ptol/hall", "structures/ptol/library", "structures/ptol/lighthouse", "structures/ptol/theatre"],
-		"rome": ["structures/rome/army_camp"],
-		"sele": ["structures/sele/hall", "structures/sele/library", "structures/sele/theatre"],
-		"spart": []
+    "default": [],
+    "athen": [],
+    "brit": [],
+    "cart": ["structures/cart/hall"],
+    "gaul": ["structures/gaul/rotarymill"],
+    "gree": [],
+    "iber": [],
+    "kush": ["structures/kush/nuba_village"],
+    "mace": ["structures/mace/hall", "structures/mace/library", "structures/mace/theatre"],
+    "maur": ["structures/maur/palace", "structures/maur/pillar"],
+    "pers": [],
+    "ptol": ["structures/ptol/hall", "structures/ptol/library", "structures/ptol/lighthouse", "structures/ptol/theatre"],
+    "rome": ["structures/rome/army_camp"],
+    "sele": ["structures/sele/hall", "structures/sele/library", "structures/sele/theatre"],
+    "spart": []
   };
 
   this.priorities =

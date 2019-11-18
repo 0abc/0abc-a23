@@ -54,7 +54,7 @@ m.HQ = function(Config)
   this.capturableTargetsTime = 0;
 };
 
-/** More initialisation for stuff that needs the gameState */
+// More initialization for stuff that needs the gameState.
 m.HQ.prototype.init = function(gameState, queues)
 {
   this.territoryMap = m.createTerritoryMap(gameState);
@@ -987,10 +987,10 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
   let reduce = (template.hasClass("Colony") ? 30 : 0) + 30 * this.Config.personality.defensive;
   let nearbyRejected = Math.square(120);      // Reject if too near from any cc
   let nearbyAllyRejected = Math.square(200);    // Reject if too near from an allied cc
-  let nearbyAllyDisfavored = Math.square(250);    // Disfavor if quite near an allied cc
+  let nearbyAllyDisfavoured = Math.square(250);    // Disfavour if quite near an allied cc
   let maxAccessRejected = Math.square(410);    // Reject if too far from an accessible ally cc
-  let maxAccessDisfavored = Math.square(360 - reduce);  // Disfavor if quite far from an accessible ally cc
-  let maxNoAccessDisfavored = Math.square(500);    // Disfavor if quite far from an inaccessible ally cc
+  let maxAccessDisfavoured = Math.square(360 - reduce);  // Disfavour if quite far from an accessible ally cc
+  let maxNoAccessDisfavoured = Math.square(500);    // Disfavour if quite far from an inaccessible ally cc
 
   let cut = 60;
   if (fromStrategic || proximity)  // be less restrictive
@@ -1039,7 +1039,7 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
           norm = 0;
           break;
         }
-        if (dist < nearbyAllyDisfavored)
+        if (dist < nearbyAllyDisfavoured)
           norm *= 0.5;
 
         if (dist < minDist)
@@ -1052,11 +1052,11 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
       if (accessible && minDist > maxAccessRejected)
         continue;
 
-      if (minDist > maxAccessDisfavored)     // Disfavor if quite far from any allied cc
+      if (minDist > maxAccessDisfavoured)     // Disfavour if quite far from any allied cc
       {
         if (!accessible)
         {
-          if (minDist > maxNoAccessDisfavored)
+          if (minDist > maxNoAccessDisfavoured)
             norm *= 0.5;
           else
             norm *= 0.8;
@@ -1085,7 +1085,7 @@ m.HQ.prototype.findEconomicCCLocation = function(gameState, template, resource, 
         continue;
     }
 
-    if (this.borderMap.map[j] & m.fullBorder_Mask)  // disfavor the borders of the map
+    if (this.borderMap.map[j] & m.fullBorder_Mask)  // disfavour the borders of the map
       norm *= 0.5;
 
     let val = 2*gameState.sharedScript.ccResourceMaps[resource].map[j];
@@ -1175,7 +1175,7 @@ m.HQ.prototype.findStrategicCCLocation = function(gameState, template)
   let cellSize = this.territoryMap.cellSize;
   let currentVal, delta;
   let distcc0, distcc1, distcc2;
-  let favoredDistance = (template.hasClass("Colony") ? 220 : 280) - 40 * this.Config.personality.defensive;
+  let favouredDistance = (template.hasClass("Colony") ? 220 : 280) - 40 * this.Config.personality.defensive;
 
   for (let j = 0; j < this.territoryMap.length; ++j)
   {
@@ -1230,16 +1230,16 @@ m.HQ.prototype.findStrategicCCLocation = function(gameState, template)
     if (minDist < 1 || minDist > 170000 && !this.navalMap)
       continue;
 
-    delta = Math.sqrt(distcc0) - favoredDistance;
+    delta = Math.sqrt(distcc0) - favouredDistance;
     currentVal = delta*delta;
-    delta = Math.sqrt(distcc1) - favoredDistance;
+    delta = Math.sqrt(distcc1) - favouredDistance;
     currentVal += delta*delta;
     if (distcc2)
     {
-      delta = Math.sqrt(distcc2) - favoredDistance;
+      delta = Math.sqrt(distcc2) - favouredDistance;
       currentVal += delta*delta;
     }
-    // disfavor border of the map
+    // disfavour border of the map
     if (this.borderMap.map[j] & m.fullBorder_Mask)
       currentVal += 10000;
 

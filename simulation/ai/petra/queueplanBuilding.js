@@ -252,7 +252,7 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
       {
         let value = placement.map[j] - gameState.sharedScript.resourceMaps.wood.map[j]/3;
         if (HQ.borderMap.map[j] & m.fullBorder_Mask)
-          value /= 2;  // we need space around farmstead, so disfavor map border
+          value /= 2;  // we need space around farmstead, so disfavour map border
         placement.set(j, value);
       }
     }
@@ -260,9 +260,9 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
 
   // Requires to be inside our territory, and inside our base territory if required
   // and if our first market, put it on border if possible to maximize distance with next market
-  let favorBorder = template.hasClass("BarterMarket");
-  let disfavorBorder = gameState.currentPhase() > 1 && !template.hasDefensiveFire();
-  let favoredBase = this.metadata && (this.metadata.favoredBase ||
+  let favourBorder = template.hasClass("BarterMarket");
+  let disfavourBorder = gameState.currentPhase() > 1 && !template.hasDefensiveFire();
+  let favouredBase = this.metadata && (this.metadata.favouredBase ||
              (this.metadata.militaryBase ? HQ.findBestBaseForMilitary(gameState) : undefined));
   if (this.metadata && this.metadata.base !== undefined)
   {
@@ -273,9 +273,9 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
         placement.map[j] = 0;
       else if (placement.map[j] > 0)
       {
-        if (favorBorder && HQ.borderMap.map[j] & m.border_Mask)
+        if (favourBorder && HQ.borderMap.map[j] & m.border_Mask)
           placement.set(j, placement.map[j] + 50);
-        else if (disfavorBorder && !(HQ.borderMap.map[j] & m.fullBorder_Mask))
+        else if (disfavourBorder && !(HQ.borderMap.map[j] & m.fullBorder_Mask))
           placement.set(j, placement.map[j] + 10);
 
         let x = (j % placement.width + 0.5) * cellSize;
@@ -293,16 +293,16 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
         placement.map[j] = 0;
       else if (placement.map[j] > 0)
       {
-        if (favorBorder && HQ.borderMap.map[j] & m.border_Mask)
+        if (favourBorder && HQ.borderMap.map[j] & m.border_Mask)
           placement.set(j, placement.map[j] + 50);
-        else if (disfavorBorder && !(HQ.borderMap.map[j] & m.fullBorder_Mask))
+        else if (disfavourBorder && !(HQ.borderMap.map[j] & m.fullBorder_Mask))
           placement.set(j, placement.map[j] + 10);
 
         let x = (j % placement.width + 0.5) * cellSize;
         let z = (Math.floor(j / placement.width) + 0.5) * cellSize;
         if (HQ.isNearInvadingArmy([x, z]))
           placement.map[j] = 0;
-        else if (favoredBase && HQ.basesMap.map[j] == favoredBase)
+        else if (favouredBase && HQ.basesMap.map[j] == favouredBase)
           placement.set(j, placement.map[j] + 100);
       }
     }
@@ -417,7 +417,7 @@ m.ConstructionPlan.prototype.findDockPosition = function(gameState)
   const maxWater = 16;
   let ccEnts = oversea ? gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("Centre")) : null;
   let docks = oversea ? gameState.getOwnStructures().filter(API3.Filters.byClass("Dock")) : null;
-  // Normalisation factors (only guessed, no attempt to optimize them)
+  // Normalization factors (only guessed, no attempt to optimize them).
   let factor = proxyAccess ? 1 : oversea ? 0.2 : 40;
   for (let j = 0; j < territoryMap.length; ++j)
   {

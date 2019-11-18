@@ -430,8 +430,8 @@ m.HQ.prototype.dispatchUnits = function(gameState)
 
 /**
  * configure our first base expansion
- *   - if on a small island, favor fishing
- *   - count the available wood resource, and allow rushes only if enough (we should otherwise favor expansion)
+ *   - if on a small island, favour fishing
+ *   - count the available wood resource, and allow rushes only if enough (we should otherwise favour expansion)
  */
 m.HQ.prototype.configFirstBase = function(gameState)
 {
@@ -502,7 +502,7 @@ m.HQ.prototype.configFirstBase = function(gameState)
     else
       this.needFarm = true;
   }
-  // - count the available wood resource, and allow rushes only if enough (we should otherwise favor expansion)
+  // - count the available wood resource, and allow rushes only if enough (we should otherwise favour expansion)
   let startingWood = gameState.getResources().wood;
   check = {};
   for (let proxim of ["nearby", "medium", "faraway"])

@@ -35,7 +35,7 @@ m.NavalManager = function(Config)
   this.landingZones = {};
 };
 
-/** More initialisation for stuff that needs the gameState */
+// More initialization for stuff that needs the gameState.
 m.NavalManager.prototype.init = function(gameState, deserializing)
 {
   // docks

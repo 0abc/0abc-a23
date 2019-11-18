@@ -21,7 +21,7 @@ m.AttackManager = function(Config)
   this.defeated = {};
 };
 
-/** More initialisation for stuff that needs the gameState */
+// More initialization for stuff that needs the gameState.
 m.AttackManager.prototype.init = function(gameState)
 {
   this.outOfPlan = gameState.getOwnUnits().filter(API3.Filters.byMetadata(PlayerID, "plan", -1));

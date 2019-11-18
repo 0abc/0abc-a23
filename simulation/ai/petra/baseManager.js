@@ -292,7 +292,7 @@ m.BaseManager.prototype.findBestDropsiteLocation = function(gameState, resource)
       if (res != "food")
         total += gameState.sharedScript.resourceMaps[res].map[j];
 
-    total *= 0.7;   // Just a normalisation factor as the locateMap is limited to 255
+    total *= 0.7;   // Just a normalization factor as the locateMap is limited to 255.
     if (total <= bestVal)
       continue;
 
@@ -390,7 +390,7 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
         {
           if (count < 600)
           {
-            queues.field.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/field", { "favoredBase": this.ID }));
+            queues.field.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/field", { "favouredBase": this.ID }));
             gameState.ai.HQ.needFarm = true;
           }
         }
@@ -401,11 +401,11 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
           if (gameState.ai.HQ.saveResources || gameState.ai.HQ.saveSpace || count > 300 || numFarms > 5)
             goal = Math.max(goal-1, 1);
           if (numFound + numQueue < goal)
-            queues.field.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/field", { "favoredBase": this.ID }));
+            queues.field.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/field", { "favouredBase": this.ID }));
         }
         else if (gameState.ai.HQ.needCorral && !gameState.getOwnEntitiesByClass("Corral", true).hasEntities() &&
                  !queues.corral.hasQueuedUnits() && gameState.ai.HQ.canBuild(gameState, "structures/{civ}/corral"))
-          queues.corral.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/corral", { "favoredBase": this.ID }));
+          queues.corral.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/corral", { "favouredBase": this.ID }));
         continue;
       }
       if (!gameState.getOwnEntitiesByClass("Corral", true).hasEntities() &&
@@ -414,7 +414,7 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
         let count = this.getResourceLevel(gameState, type, gameState.currentPhase() > 1);  // animals are not accounted
         if (count < 900)
         {
-          queues.corral.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/corral", { "favoredBase": this.ID }));
+          queues.corral.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/corral", { "favouredBase": this.ID }));
           gameState.ai.HQ.needCorral = true;
         }
       }

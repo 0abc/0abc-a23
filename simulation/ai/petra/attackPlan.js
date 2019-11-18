@@ -899,7 +899,7 @@ m.AttackPlan.prototype.getNearestTarget = function(gameState, position, sameLand
     if (!this.isValidTarget(ent))
       continue;
     let dist = API3.SquareVectorDistance(ent.position(), position);
-    // In normal attacks, disfavor fields
+    // In normal attacks, disfavour fields
     if (this.type != "Rush" && this.type != "Raid" && ent.hasClass("Field"))
       dist += 100000;
     if (dist < minDist)
@@ -2102,8 +2102,8 @@ m.AttackPlan.prototype.hasForceOrder = function(data, value)
 };
 
 /**
- * The center position of this attack may be in an inaccessible area. So we use the access
- * of the unit nearest to this center position.
+ * The centre position of this attack may be in an inaccessible area. So we use the access
+ * of the unit nearest to this centre position.
  */
 m.AttackPlan.prototype.getAttackAccess = function(gameState)
 {
