@@ -56,7 +56,8 @@ GuiInterface.prototype.GetSimulationState = function()
     "players": []
   };
 
-  let numPlayers = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager).GetNumPlayers();
+  let cmpPlayerManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager);
+  let numPlayers = cmpPlayerManager.GetNumPlayers();
   for (let i = 0; i < numPlayers; ++i)
   {
     let cmpPlayer = QueryPlayerIDInterface(i);
@@ -156,6 +157,9 @@ GuiInterface.prototype.GetSimulationState = function()
   let cmpEndGameManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_EndGameManager);
   ret.victoryConditions = cmpEndGameManager.GetVictoryConditions();
   ret.alliedVictory = cmpEndGameManager.GetAlliedVictory();
+
+  // Add the world population cap.
+  ret.maxWorldPopulation = cmpPlayerManager.GetMaxWorldPopulation();
 
   // Add basic statistics to each player
   for (let i = 0; i < numPlayers; ++i)

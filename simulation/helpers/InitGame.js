@@ -61,8 +61,18 @@ function InitGame(settings)
       cmpPlayer.SetTradeRateMultiplier(rate[AIDiff]);
       cmpPlayer.SetTimeMultiplier(time[AIDiff]);
     }
-    if (settings.PopulationCap)
+    
+    if (settings.PopulationCap && !settings.WorldPopulation)
       cmpPlayer.SetMaxPopulation(settings.PopulationCap);
+    if (settings.PopulationCapWorld && settings.WorldPopulation)
+    {
+      let popCap = settings.PopulationCapWorld;
+      let cmpPlayerManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager);
+      cmpPlayerManager.SetMaxWorldPopulation(popCap);
+      // Exclude GAIA.
+      popCap /= settings.PlayerData.length - 1;
+      cmpPlayer.SetMaxPopulation(popCap);
+    }
 
     if (settings.mapType !== "scenario" && settings.StartingResources)
     {

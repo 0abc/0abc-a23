@@ -27,7 +27,7 @@ const g_BiomesDirectory = "maps/random/rmbiome/";
 const g_Settings = loadSettingsValues();
 
 /**
- * Loads and translates all values of all settings which
+* Load and translates all values of all settings which
  * can be configured by dropdowns in the gamesetup.
  *
  * @returns {Object|undefined}
@@ -58,7 +58,7 @@ function loadSettingsValues()
 }
 
 /**
- * Returns an array of objects reflecting all possible values for a given setting.
+* Return an array of objects reflecting all possible values for a given setting.
  *
  * @param {string} filename
  * @see simulation/data/settings/
@@ -92,7 +92,7 @@ function loadSettingValuesFile(filename)
 }
 
 /**
- * Loads the descriptions as defined in simulation/ai/.../data.json and loaded by ICmpAIManager.cpp.
+* Load the descriptions as defined in simulation/ai/.../data.json and loaded by ICmpAIManager.cpp.
  *
  * @returns {Array}
  */
@@ -164,7 +164,7 @@ function loadAIBehaviors()
 }
 
 /**
- * Loads available victory times for victory conditions like Wonder and Capture the Relic.
+* Load available victory times for victory conditions like Wonder and Capture the Relic.
  */
 function loadVictoryDuration()
 {
@@ -185,7 +185,7 @@ function loadVictoryDuration()
 }
 
 /**
- * Loads available ceasefire settings.
+* Load available ceasefire settings.
  *
  * @returns {Array|undefined}
  */
@@ -248,7 +248,7 @@ function loadBiomes()
 }
 
 /**
- * Loads available victoryCondtions from json files.
+* Load available victoryCondtions from json files.
  *
  * @returns {Array|undefined}
  */
@@ -270,7 +270,7 @@ function loadVictoryConditions()
 }
 
 /**
- * Loads the default player settings (like civs and colors).
+* Load the default player settings (like civs and colors).
  *
  * @returns {Array|undefined}
  */
@@ -286,13 +286,13 @@ function loadPlayerDefaults()
 }
 
 /**
- * Loads available population capacities.
+* Load available population capacities.
  *
  * @returns {Array|undefined}
  */
 function loadPopulationCapacities()
 {
-  var json = Engine.ReadJSONFile(g_SettingsDirectory + "population_capacities.json");
+  let json = Engine.ReadJSONFile(g_SettingsDirectory + "population_capacities.json");
 
   if (!json || json.Default === undefined || !json.PopulationCapacities || !Array.isArray(json.PopulationCapacities))
   {
@@ -300,11 +300,19 @@ function loadPopulationCapacities()
     return undefined;
   }
 
-  return json.PopulationCapacities.map(population => ({
+  let result = {};
+  result.individual = json.PopulationCapacities.map(population => ({
     "Population": population,
     "Default": population == json.Default,
     "Title": population < 10000 ? population : translate("Unlimited")
   }));
+  result.world = json.WorldPopulationCapacities.map(population => ({
+    "Population": population,
+    "Default": population == json.Default,
+    "Title": population < 10000 ? population : translate("Unlimited")
+  }));
+
+  return result;
 }
 
 /**
@@ -349,7 +357,7 @@ function getGameSpeedChoices(allowFastForward)
 }
 
 /**
- * Returns title or placeholder.
+* Return title or placeholder.
  *
  * @param {string} aiName - for example "petra"
  */
@@ -360,7 +368,7 @@ function translateAIName(aiName)
 }
 
 /**
- * Returns title or placeholder.
+* Return title or placeholder.
  *
  * @param {Number} index - index of AIDifficulties
  */
@@ -371,7 +379,7 @@ function translateAIDifficulty(index)
 }
 
 /**
- * Returns title or placeholder.
+* Return title or placeholder.
  *
  * @param {string} aiBehavior - for example "defensive"
  */
@@ -382,7 +390,7 @@ function translateAIBehavior(aiBehavior)
 }
 
 /**
- * Returns title or placeholder.
+* Return title or placeholder.
  *
  * @param {string} mapType - for example "skirmish"
  * @returns {string}
@@ -394,7 +402,7 @@ function translateMapType(mapType)
 }
 
 /**
- * Returns title or placeholder "Default".
+* Return title or placeholder "Default".
  *
  * @param {Number} mapSize - tilecount
  * @returns {string}
@@ -406,19 +414,23 @@ function translateMapSize(tiles)
 }
 
 /**
- * Returns title or placeholder.
+* Return title or placeholder.
  *
  * @param {Number} population - for example 300
  * @returns {string}
  */
-function translatePopulationCapacity(population)
+function translatePopulationCapacity(population, world)
 {
-  let popCap = g_Settings.PopulationCapacities.find(p => p.Population == population);
+  let type = world ? "world" : "individual";
+  let popCap = g_Settings.PopulationCapacities[type].find(p => p.Population == population);
+
+  if (world)
+    return popCap ? popCap.Title + " " + translateWithContext("population capacity", "(world)") : translateWithContext("population capacity", "Unknown");
   return popCap ? popCap.Title : translateWithContext("population capacity", "Unknown");
 }
 
 /**
- * Returns title or placeholder.
+* Return title or placeholder.
  *
  * @param {string} victoryConditionName - For example "conquest".
  * @returns {string}

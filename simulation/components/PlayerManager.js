@@ -5,7 +5,10 @@ PlayerManager.prototype.Schema =
 
 PlayerManager.prototype.Init = function()
 {
-  this.playerEntities = []; // list of player entity IDs
+  // List of player entity IDs.
+  this.playerEntities = [];
+  // Maximum world population (if applicable will be distributed amongst living players).
+  this.maxWorldPopulation = undefined;
 };
 
 PlayerManager.prototype.AddPlayer = function(ent)
@@ -139,6 +142,16 @@ PlayerManager.prototype.RemoveLastPlayer = function()
 
   var lastId = this.playerEntities.pop();
   Engine.DestroyEntity(lastId);
+};
+
+PlayerManager.prototype.SetMaxWorldPopulation = function(max)
+{
+  this.maxWorldPopulation = max;
+};
+
+PlayerManager.prototype.GetMaxWorldPopulation = function()
+{
+  return this.maxWorldPopulation;
 };
 
 Engine.RegisterSystemComponentType(IID_PlayerManager, "PlayerManager", PlayerManager);

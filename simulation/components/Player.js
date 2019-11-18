@@ -774,6 +774,16 @@ Player.prototype.OnGlobalInitGame = function(msg)
       this.disabledTemplates[template.replace(/\{civ\}/g, this.civ)] = true;
 };
 
+Player.prototype.OnGlobalPlayerDefeated = function(msg)
+{
+	let cmpPlayerManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager);
+	let worldPopulation = cmpPlayerManager.GetMaxWorldPopulation();
+	if (worldPopulation)
+		// We need to default to "1" here because when a game is won all players
+		// become "inactive" letting an observer see a infinite population cap.
+		this.SetMaxPopulation(worldPopulation / (cmpPlayerManager.GetActivePlayers().length || 1));
+};
+
 /**
  * Keep track of population effects of all entities that
  * become owned or unowned by this player

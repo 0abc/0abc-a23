@@ -5,7 +5,8 @@ const g_Ceasefire = prepareForDropdown(g_Settings && g_Settings.Ceasefire);
 const g_MapSizes = prepareForDropdown(g_Settings && g_Settings.MapSizes);
 const g_MapTypes = prepareForDropdown(g_Settings && g_Settings.MapTypes);
 const g_TriggerDifficulties = prepareForDropdown(g_Settings && g_Settings.TriggerDifficulties);
-const g_PopulationCapacities = prepareForDropdown(g_Settings && g_Settings.PopulationCapacities);
+const g_PopulationCapacities = prepareForDropdown(g_Settings && g_Settings.PopulationCapacities.individual);
+const g_PopulationCapacitiesWorld = prepareForDropdown(g_Settings && g_Settings.PopulationCapacities.world);
 const g_StartingResources = prepareForDropdown(g_Settings && g_Settings.StartingResources);
 const g_VictoryDurations = prepareForDropdown(g_Settings && g_Settings.VictoryDurations);
 const g_VictoryConditions = g_Settings && g_Settings.VictoryConditions;
@@ -425,7 +426,9 @@ var g_SettingsTabsGUI = [
     "label": translateWithContext("Match settings tab name", "Player"),
     "settings": [
       "numPlayers",
+      "worldPopulation",
       "populationCap",
+      "populationCapWorld",
       "startingResources",
       "disableSpies",
       "enableCheats"
@@ -603,7 +606,35 @@ var g_Dropdowns = {
     "select": (itemIdx) => {
       g_GameAttributes.settings.PopulationCap = g_PopulationCapacities.Population[itemIdx];
     },
-    "enabled": () => g_GameAttributes.mapType != "scenario",
+    "hidden": () => g_GameAttributes.settings.WorldPopulation,
+    "enabled": () => g_GameAttributes.mapType != "scenario" && !g_GameAttributes.settings.WorldPopulation,
+    "initOrder": 1000
+  },
+  "populationCapWorld": {
+    "title": () => translate("Population Cap"),
+    "tooltip": (hoverIdx) => {
+
+      let popCap = g_PopulationCapacitiesWorld.Population[hoverIdx];
+
+      if (hoverIdx == -1 || popCap <= g_PopulationCapacityRecommendation)
+        return translate("Select world population limit.");
+
+      return coloredText(
+        sprintf(translate("Warning: There might be performance issues if a total of %(popCap)s population is reached."), {
+          "popCap": popCap
+        }),
+        "orange");
+    },
+    "labels": () => g_PopulationCapacitiesWorld.Title,
+    "ids": () => g_PopulationCapacitiesWorld.Population,
+    "default": () => g_PopulationCapacitiesWorld.Default,
+    "defined": () => g_GameAttributes.settings.PopulationCapWorld !== undefined,
+    "get": () => g_GameAttributes.settings.PopulationCapWorld,
+    "select": (itemIdx) => {
+      g_GameAttributes.settings.PopulationCapWorld = g_PopulationCapacitiesWorld.Population[itemIdx];
+    },
+    "hidden": () => !g_GameAttributes.settings.WorldPopulation,
+    "enabled": () => g_GameAttributes.mapType != "scenario" && g_GameAttributes.settings.WorldPopulation,
     "initOrder": 1000
   },
   "startingResources": {
@@ -858,6 +889,18 @@ var g_Checkboxes = Object.assign(
         g_GameAttributes.settings.Nomad = checked;
       },
       "hidden": () => g_GameAttributes.mapType != "random",
+      "initOrder": 1000
+    },
+    "worldPopulation": {
+      "title": () => translate("World population"),
+      "tooltip": () => translate("When checked the Population Cap will be evenly distributed over all living players."),
+      "default": () => false,
+      "defined": () => g_GameAttributes.settings.WorldPopulation !== undefined,
+      "get": () => g_GameAttributes.settings.WorldPopulation,
+      "set": checked => {
+        g_GameAttributes.settings.WorldPopulation = checked;
+      },
+      "enabled": () => g_GameAttributes.mapType != "scenario",
       "initOrder": 1000
     },
     "revealMap": {

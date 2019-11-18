@@ -411,13 +411,22 @@ function getGameDescription()
     })
   });
 
-  titles.push({
-    "label": translate("Population Limit"),
-    "value":
-      g_PopulationCapacities.Title[
-        g_PopulationCapacities.Population.indexOf(
-          g_GameAttributes.settings.PopulationCap)]
-  });
+  if (g_GameAttributes.settings.WorldPopulation)
+    titles.push({
+      "label": translate("World Population Cap"),
+      "value":
+        g_PopulationCapacitiesWorld.Title[
+          g_PopulationCapacitiesWorld.Population.indexOf(
+            g_GameAttributes.settings.PopulationCapWorld)]
+    });
+  else
+    titles.push({
+      "label": translate("Player Population Cap"),
+      "value":
+        g_PopulationCapacities.Title[
+          g_PopulationCapacities.Population.indexOf(
+            g_GameAttributes.settings.PopulationCap)]
+    });
 
   titles.push({
     "label": translate("Treasures"),
