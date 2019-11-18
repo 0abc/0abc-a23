@@ -62,7 +62,7 @@ function resourceNameWithinSentence(type)
 }
 
 /**
- * Format resource amounts to proper english and translate (for example: "200 food, 100 wood and 300 metal").
+ * Format resource amounts to proper English and translate (e.g. "200 food, 100 wood, 300 iron").
  */
 function getLocalizedResourceAmounts(resources)
 {

@@ -246,11 +246,11 @@ g_SelectionPanels.Construction = {
       getEntityTooltip
     ].map(func => func(template));
     tooltips.push(
-			getEntityCostTooltip(template, undefined, undefined, undefined, undefined, data.player),
-			getGarrisonTooltip(template),
-			getPopulationBonusTooltip(template),
-			showTemplateViewerOnRightClickTooltip(template)
-		);
+      getEntityCostTooltip(template, undefined, undefined, undefined, undefined, data.player),
+      getGarrisonTooltip(template),
+      getPopulationBonusTooltip(template),
+      showTemplateViewerOnRightClickTooltip(template)
+    );
 
     let limits = getEntityLimitAndCount(data.playerState, data.item);
     tooltips.push(
