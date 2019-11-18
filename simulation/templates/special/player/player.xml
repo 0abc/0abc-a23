@@ -15,10 +15,7 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
-      <Arsenal>0</Arsenal>
       <Centre>1</Centre>
-      <ElephantStable>0</ElephantStable>
-      <Fortress>10</Fortress>
       <Hall>3</Hall>
       <Hero>1</Hero>
       <Library>1</Library>
@@ -29,24 +26,9 @@
       <Palace>1</Palace>
       <Pillar>5</Pillar>
       <Theatre>1</Theatre>
-      <Tower>20</Tower>
       <WarDog>30</WarDog>
       <Wonder>1</Wonder>
     </Limits>
-    <LimitChangers>
-      <Arsenal>
-        <Centre>1</Centre>
-      </Arsenal>
-      <ElephantStable>
-        <Centre>1</Centre>
-      </ElephantStable>
-      <Fortress>
-        <Centre>2</Centre>
-      </Fortress>
-      <Tower>
-        <Centre>5</Centre>
-      </Tower>
-    </LimitChangers>
     <LimitRemovers>
       <Centre>
         <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
