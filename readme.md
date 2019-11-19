@@ -10,6 +10,8 @@ TODO: get the AI to:
 ## Table of Contents
 * [Instructions](https://github.com/0abc/0abc-a23#instructions)
 * [Overview](https://github.com/0abc/0abc-a23#overview)
+  * [Mechanics](https://github.com/0abc/0abc-a23#mechanics)
+  * [GUI](https://github.com/0abc/0abc-a23#gui)
   * [AI](https://github.com/0abc/0abc-a23#ai)
   * [Structures](https://github.com/0abc/0abc-a23#structures)
     * [Base](https://github.com/0abc/0abc-a23#base)
@@ -82,6 +84,28 @@ Changes include, but are not limited to:
 * disabled unit promotion, heroes, team bonuses; they might be reintroduced at a later stage
 * all civilization bonuses and penalties are replaced with new ones
 * numerous minor tweaks and balances, most of which will probably go unnoticed
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+### Mechanics
+* attacks can consume resources [(D2113)](https://code.wildfiregames.com/D2113)
+* build distance restrictions apply to all players, so you can't build a centre right next to one of another player
+* capturable foundations
+* damage inflicted is randomized (from 50% to 150%)
+* garrisoned units can occupy more than one slot [(D2056)](https://code.wildfiregames.com/D2056)
+* only silver can be obtained through traders [(D1846)](https://code.wildfiregames.com/D1846)
+* world population cap setting; each surviving player is then entitled to a 1/n share; e.g. a four player game with a world population of 600: all players have a maximum population limit of 150 at start; one player is defeated, the others can now have up to 200; then another is defeated, both survivors up to 300 [(D2426)](https://code.wildfiregames.com/D2426)
+* random maps the default (instead of skirmish maps)
+
+[(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
+
+### GUI
+* centred the minimap
+* support for displaying five resources
+* right selection panel can display up to 40 items (instead of 24)
+* apply modifications to template values based on entity owner instead watching player [(D2054)](https://code.wildfiregames.com/D2054)
+* entity panels (heroes, relics, wonders) now also show capture bar [(D2047)](https://code.wildfiregames.com/D2047)
+* minor tweaks to tooltips and other elements
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
@@ -707,10 +731,10 @@ On random maps, all factions start with:
 * if using shared dropsites, the structure owner gets a 10% fee
 * increase entity costs depending on the number of entities of a certain class (e.g. first barracks cost 250 wood, second 300, third 350, etc.)
 * increase technology costs depending on the number of entities of a certain class (e.g. 200 food base + 10 metal for each soldier)
-* instead of a player population setting, have a world population setting; each surviving player is then entitled to a 1/n share. E.g. a four player game with a world population of 600: all players have a maximum population limit of 150 at start; one player is defeated, the others can now have up to 200; then another is defeated, both survivors up to 300. Methinks this would provide an interesting dynamic (do you keep weak players alive to prevent stronger opponents from training more units?) while avoiding performance issues and improving realism.
 * new victory condition: win by centre count (e.g. control at least 10 centres for 10 minutes)
 * new map wall setting: start with only a centre (default); start with a centre and palisades; start with a centre and wooden town walls; start with centre and stone city walls.
 * phase advance notifications are communicated to all players (instead of only to allies)
+* phases of all players are displayed in diplomacy window
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
