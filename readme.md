@@ -88,13 +88,13 @@ Changes include, but are not limited to:
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
 
 ### Mechanics
-* attacks can consume resources [(D2113)](https://code.wildfiregames.com/D2113)
+* attacks can consume resources ([D2113](https://code.wildfiregames.com/D2113))
 * build distance restrictions apply to all players, so you can't build a centre right next to one of another player
 * capturable foundations
 * damage inflicted is randomized (from 50% to 150%)
-* garrisoned units can occupy more than one slot [(D2056)](https://code.wildfiregames.com/D2056)
-* only silver can be obtained through traders [(D1846)](https://code.wildfiregames.com/D1846)
-* world population cap setting; each surviving player is then entitled to a 1/n share; e.g. a four player game with a world population of 600: all players have a maximum population limit of 150 at start; one player is defeated, the others can now have up to 200; then another is defeated, both survivors up to 300 [(D2426)](https://code.wildfiregames.com/D2426)
+* garrisoned units can occupy more than one slot ([D2056](https://code.wildfiregames.com/D2056))
+* only silver can be obtained through traders ([D1846](https://code.wildfiregames.com/D1846))
+* world population cap setting; each surviving player is then entitled to a 1/n share; e.g. a four player game with a world population of 600: all players have a maximum population limit of 150 at start; one player is defeated, the others can now have up to 200; then another is defeated, both survivors up to 300 ([D2426](https://code.wildfiregames.com/D2426))
 * random maps the default (instead of skirmish maps)
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
@@ -103,8 +103,8 @@ Changes include, but are not limited to:
 * centred the minimap
 * support for displaying five resources
 * right selection panel can display up to 40 items (instead of 24)
-* apply modifications to template values based on entity owner instead watching player [(D2054)](https://code.wildfiregames.com/D2054)
-* entity panels (heroes, relics, wonders) now also show capture bar [(D2047)](https://code.wildfiregames.com/D2047)
+* apply modifications to template values based on entity owner instead watching player ([D2054](https://code.wildfiregames.com/D2054))
+* entity panels (heroes, relics, wonders) now also show capture bar ([D2047](https://code.wildfiregames.com/D2047))
 * minor tweaks to tooltips and other elements
 
 [(return to table of contents)](https://github.com/0abc/0abc-a23#table-of-contents)
