@@ -10,48 +10,23 @@
       </Bonuses>
       <MaxRange>100</MaxRange>
       <MinRange>20</MinRange>
-      <Pierce>100</Pierce>
       <PreferredClasses datatype="tokens">Soldier</PreferredClasses>
       <PrepareTime>3000</PrepareTime>
       <ProjectileSpeed>100</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>
-      <ResourceCost>
-        <metal>3</metal>
-      </ResourceCost>
       <Spread>1.0</Spread>
-      <Thrust>50</Thrust>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime>80</BuildTime>
-    <Population>4</Population>
-    <Resources>
-      <food>100</food>
-      <metal>150</metal>
-      <silver>0</silver>
-      <stone>0</stone>
-      <wood>150</wood>
-    </Resources>
-  </Cost>
   <Footprint>
     <Height>5</Height>
     <Square width="8" depth="12"/>
   </Footprint>
-  <Garrisonable>
-    <Size>8</Size>
-  </Garrisonable>
-  <Health>
-    <Max>200</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
     <GenericName>Bolt Shooter</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Bonuses: 1.5× vs Elephants.</Tooltip>
   </Identity>
-  <Pack>
-    <Time>8000</Time>
-  </Pack>
   <Selectable>
     <Overlay>
       <Texture>

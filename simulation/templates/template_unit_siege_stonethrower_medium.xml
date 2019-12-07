@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack>
+    <Ranged>
+      <Crush>120</Crush>
+      <ResourceCost>
+        <stone>4</stone>
+      </ResourceCost>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <food>100</food>
+      <metal>120</metal>
+      <wood>240</wood>
+    </Resources>
+  </Cost>
+  <Garrisonable>
+    <Size>12</Size>
+  </Garrisonable>
+  <Health>
+    <Max>240</Max>
+  </Health>
+  <Pack>
+    <Time>10000</Time>
+  </Pack>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>-0.12</food>
+      <silver>-0.08</silver>
+    </Rates>
+  </ResourceTrickle>
+</Entity>

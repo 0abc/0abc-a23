@@ -60,11 +60,6 @@
 			"Name": "Roman Architecture",
 			"History": "",
 			"Description": "Wooden Walls −10% build time. City Walls +10% stone cost, +10% wood cost, +10% build time, +10% health."
-		},
-		{
-			"Name": "Roman Engineers",
-			"History": "",
-			"Description": "Catapults +25% wood cost, +20% health, +25% ranged attack crush damage."
 		}
   ],
   "TeamBonuses":

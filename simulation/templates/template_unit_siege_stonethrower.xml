@@ -8,7 +8,6 @@
           <Multiplier>2.0</Multiplier>
         </Ship>
       </Bonuses>
-      <Crush>120</Crush>
       <MaxRange>90</MaxRange>
       <MinRange>30</MinRange>
       <PreferredClasses datatype="tokens">Defensive Ship Structure</PreferredClasses>
@@ -19,40 +18,19 @@
       </Projectile>
       <ProjectileSpeed>50</ProjectileSpeed>
       <RepeatTime>5000</RepeatTime>
-      <ResourceCost>
-        <stone>4</stone>
-      </ResourceCost>
       <Spread>3.0</Spread>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime>100</BuildTime>
-    <Population>4</Population>
-    <Resources>
-      <food>100</food>
-      <metal>100</metal>
-      <wood>200</wood>
-    </Resources>
-  </Cost>
   <Footprint>
-    <Height>5</Height>
-    <Square width="10" depth="16"/>
+    <Height>4</Height>
+    <Square width="9" depth="16"/>
   </Footprint>
-  <Garrisonable>
-    <Size>12</Size>
-  </Garrisonable>
-  <Health>
-    <Max>250</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
     <GenericName>Stone Thrower</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Bonuses: 2.0× vs Ships.</Tooltip>
   </Identity>
-  <Pack>
-    <Time>12000</Time>
-  </Pack>
   <Selectable>
     <Overlay>
       <Texture>

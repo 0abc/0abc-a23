@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_siege_boltshooter">
+<Entity parent="template_unit_siege_boltshooter_large">
   <Identity>
     <Civ>mace</Civ>
     <Icon>units/athen_siege_oxybeles_p.png</Icon>
