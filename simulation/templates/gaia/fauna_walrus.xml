@@ -30,14 +30,6 @@
     <Amount>320</Amount>
     <MaxGatherers>6</MaxGatherers>
   </ResourceSupply>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/256x256.png</MainTexture>
-        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <UnitAI>
     <NaturalBehaviour>defensive</NaturalBehaviour>
   </UnitAI>

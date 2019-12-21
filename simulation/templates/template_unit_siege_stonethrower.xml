@@ -34,8 +34,8 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>pentagon/256x256.png</MainTexture>
-        <MainTextureMask>pentagon/256x256_mask.png</MainTextureMask>
+        <MainTexture>256x256/pentagon.png</MainTexture>
+        <MainTextureMask>256x256/pentagon_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

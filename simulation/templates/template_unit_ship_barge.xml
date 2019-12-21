@@ -45,17 +45,11 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+        <MainTexture>128x384/ellipse.png</MainTexture>
+        <MainTextureMask>128x384/ellipse_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
-  <Sound>
-    <SoundGroups>
-      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
-      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-    </SoundGroups>
-  </Sound>
   <Vision>
     <Range>120</Range>
   </Vision>

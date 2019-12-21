@@ -15,14 +15,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>circle/256x256.png</MainTexture>
-        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_melee>actor/fauna/animal/elephant_attack.xml</attack_melee>

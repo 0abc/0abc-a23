@@ -15,6 +15,14 @@
     </Formations>
     <GenericName>Chariot Hero</GenericName>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>256x256/star.png</MainTexture>
+        <MainTextureMask>256x256/star_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <run>actor/mounted/movement/walk.xml</run>

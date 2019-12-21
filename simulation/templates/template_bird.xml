@@ -15,8 +15,8 @@
     <EditorOnly/>
     <Overlay>
       <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+        <MainTexture>circle/64x64.png</MainTexture>
+        <MainTextureMask>circle/64x64_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

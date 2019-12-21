@@ -18,6 +18,14 @@
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
     <GenericName>War Elephant Hero</GenericName>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>256x256/star.png</MainTexture>
+        <MainTextureMask>256x256/star_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_melee>actor/fauna/animal/elephant_attack.xml</attack_melee>

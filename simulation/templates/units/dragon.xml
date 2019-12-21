@@ -15,8 +15,8 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>octagram/256x256.png</MainTexture>
-        <MainTextureMask>octagram/256x256_mask.png</MainTextureMask>
+        <MainTexture>256x256/octagram.png</MainTexture>
+        <MainTextureMask>256x256/octagram_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

@@ -42,12 +42,6 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
   </Identity>
-  <Sound>
-    <SoundGroups>
-      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
-      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-    </SoundGroups>
-  </Sound>
   <ResourceTrickle>
     <Rates>
       <silver>-3.0</silver>
