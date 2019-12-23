@@ -5,7 +5,7 @@ Files:
   art/textures/selection/*
 Copyright: Nescio
 License: public-domain
-Comment: Own work.
+Comment: own work.
 
 
 Files:
@@ -19,7 +19,7 @@ Files:
   art/textures/ui/pregame/logo/0ad_logo.png
 Copyright: Stanislas Dolcini
 License: CC-BY-SA-4.0
-Comment: see https://wildfiregames.com/forum/index.php?/topic/22779-0abc-mod/page/17/&tab=comments#comment-390107
+Comment: see https://wildfiregames.com/forum/index.php?/topic/22779-0abc-mod/page/17/&tab=comments#comment-390206
 
 
 Files:
