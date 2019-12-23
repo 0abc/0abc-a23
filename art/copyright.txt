@@ -1,0 +1,78 @@
+# Most files are derived from 0 A.D.'s public folder, thus the same licenses, copyright, and credits apply. Exceptions are listed below.
+
+
+Files:
+  art/textures/selection/*
+Copyright: Nescio
+License: public-domain
+Comment: Own work.
+
+
+Files:
+  art/textures/ui/global/tile/stone_background.png
+Copyright: Roll-Stone
+License: public-domain
+Comment: taken from https://commons.wikimedia.org/wiki/File:BARDIGLIO.jpg ; cropped and rotated.
+
+
+Files:
+  art/textures/ui/pregame/logo/0ad_logo.png
+Copyright: Stanislas Dolcini
+License: CC-BY-SA-4.0
+Comment: see https://wildfiregames.com/forum/index.php?/topic/22779-0abc-mod/page/17/&tab=comments#comment-390107
+
+
+Files:
+  art/textures/ui/session/icons/clock.png
+Copyright: Google Noto Emoji fonts
+License: Apache-2.0
+Comment: taken from https://commons.wikimedia.org/wiki/File:Noto_Emoji_KitKat_1f55a.svg ; changed colour.
+
+Files:
+  art/textures/ui/session/icons/ranks/catafalque.png
+Copyright: Cburnett
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_klt45.svg
+
+Files:
+  art/textures/ui/session/icons/ranks/cavalry.png
+Copyright: Cburnett
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_nlt45.svg
+
+Files:
+  art/textures/ui/session/icons/ranks/elephant.png
+Copyright: SpinningSpark
+License: CC-BY-SA 3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_elg45.svg ; removed background.
+
+Files:
+  art/textures/ui/session/icons/ranks/hero.png
+Copyright: Cburnett
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_qlt45.svg
+
+Files:
+  art/textures/ui/session/icons/ranks/infantry.png
+Copyright: Cburnett
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_plt45.svg
+
+Files:
+  art/textures/ui/session/icons/ranks/ship.png
+Copyright: SpinningSpark
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_slg45.svg ; removed background.
+
+Files:
+  art/textures/ui/session/icons/ranks/siege.png
+Copyright: Cburnett
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_rlt45.svg
+
+Files:
+  art/textures/ui/session/icons/ranks/support.png
+Copyright: Cburnett
+License: CC-BY-SA-3.0
+Comment: source file located at https://commons.wikimedia.org/wiki/File:Chess_blt45.svg
+
