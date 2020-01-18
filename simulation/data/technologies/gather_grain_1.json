@@ -1,15 +1,28 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
-  "description": "Equip your workers with iron plows, a tool to turn the sod.",
-  "genericName": "Iron Plow",
-  "icon": "gather_grain_i.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.20 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +20% grain gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 300,
+		"stone": 0,
+		"metal": 200
+	},
+	"description": "Equip your workers with iron plows, a tool to turn the sod.",
+	"genericName": "Iron Plow",
+	"icon": "gather_grain_i.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/food.grain",
+			"multiply": 1.2
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 45,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Workers +20% grain gather rate."
 }

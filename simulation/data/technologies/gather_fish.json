@@ -1,15 +1,29 @@
 {
-  "affects": ["FishingBoat", "Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 100, "stone": 0, "metal": 0 },
-  "description": "Using net improves the fishing productivity.",
-  "genericName": "Fishing Net",
-  "icon": "fishing_net.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/food.fish", "multiply": 1.30 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers and Fishing Boats +30% fish gather rate."
+	"affects": [
+		"FishingBoat",
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 100,
+		"stone": 0,
+		"metal": 0
+	},
+	"description": "Using net improves the fishing productivity.",
+	"genericName": "Fishing Net",
+	"icon": "fishing_net.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/food.fish",
+			"multiply": 1.3
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 45,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Workers and Fishing Boats +30% fish gather rate."
 }

@@ -1,11 +1,23 @@
 {
-  "affects": ["Structure"],
-  "autoResearch": true,
-  "genericName": "Kushite Architecture",
-  "modifications": [
-    { "value": "Cost/BuildTime",      "multiply": 2.0,  "affects": "Economic" },
-    { "value": "Cost/Resources/wood", "multiply": 0.3,  "affects": "Economic" }
-  ],
-  "requirements": { "civ": "kush" },
-  "tooltip": "Economic Structures −70% wood cost, +100% build time."
+	"affects": [
+		"Structure"
+	],
+	"autoResearch": true,
+	"genericName": "Kushite Architecture",
+	"modifications": [
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 2.0,
+			"affects": "Economic"
+		},
+		{
+			"value": "Cost/Resources/wood",
+			"multiply": 0.3,
+			"affects": "Economic"
+		}
+	],
+	"requirements": {
+		"civ": "kush"
+	},
+	"tooltip": "Economic Structures −70% wood cost, +100% build time."
 }

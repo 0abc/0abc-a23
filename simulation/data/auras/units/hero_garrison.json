@@ -1,9 +1,15 @@
 {
-  "auraName": "Inspired Defence",
-  "auraDescription": "When garrisoned, the Structure or Siege Engine has +2 capture points garrison regeneration rate.",
-  "affects": ["Structure", "Siege"],
-  "modifications": [
-    { "value": "Capturable/GarrisonRegenRate", "add": 2 }
-  ],
-  "type": "garrison"
+	"auraName": "Inspired Defence",
+	"auraDescription": "When garrisoned, the Structure or Siege Engine has +2 capture points garrison regeneration rate.",
+	"affects": [
+		"Structure",
+		"Siege"
+	],
+	"modifications": [
+		{
+			"value": "Capturable/GarrisonRegenRate",
+			"add": 2
+		}
+	],
+	"type": "garrison"
 }

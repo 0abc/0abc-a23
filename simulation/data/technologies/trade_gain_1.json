@@ -1,15 +1,29 @@
 {
-  "affects": ["Merchant", "Trader"],
-  "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
-  "description": "The progress in handicraft improves the trading profit.",
-  "genericName": "Handicraft",
-  "icon": "olives.png",
-  "modifications": [
-    { "value": "Trader/GainMultiplier", "multiply": 1.1 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Traders and Merchant Ships +10% gain."
+	"affects": [
+		"Merchant",
+		"Trader"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 300,
+		"stone": 0,
+		"metal": 200
+	},
+	"description": "The progress in handicraft improves the trading profit.",
+	"genericName": "Handicraft",
+	"icon": "olives.png",
+	"modifications": [
+		{
+			"value": "Trader/GainMultiplier",
+			"multiply": 1.1
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 45,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Traders and Merchant Ships +10% gain."
 }

@@ -1,16 +1,21 @@
 {
-  "affects": ["Trader"],
-  "auraDescription": "Traders in a caravan +2 pierce armour.",
-  "auraName": "Caravan",
-  "modifications": [
-    { "value": "Armour/Thrust", "add": 2 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
-  "radius": 10,
-  "rangeOverlay" : {
-    "lineTexture": "auras/inwards.png",
-    "lineTextureMask": "auras/inwards_mask.png",
-    "lineThickness": 0.5
-  },
-  "type": "range"
+	"affects": [
+		"Trader"
+	],
+	"auraDescription": "Traders in a caravan +2 pierce armour.",
+	"auraName": "Caravan",
+	"modifications": [
+		{
+			"value": "Armour/Thrust",
+			"add": 2
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
+	"radius": 10,
+	"rangeOverlay": {
+		"lineTexture": "auras/inwards.png",
+		"lineTextureMask": "auras/inwards_mask.png",
+		"lineThickness": 0.5
+	},
+	"type": "range"
 }

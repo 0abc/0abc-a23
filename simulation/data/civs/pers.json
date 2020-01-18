@@ -1,106 +1,115 @@
 {
-  "Code": "pers",
-  "Culture": "pers",
-  "Name": "Persia",
-  "Emblem": "session/portraits/emblems/emblem_persians.png",
-  "History": "The Persian Empire, when ruled by the Achaemenid dynasty, was one of the greatest empires of antiquity, stretching at its zenith from the Indus Valley in the east to Greece in the west. The Persians were the pioneers of empire-building of the ancient world, successfully imposing a centralized rule over various peoples with different customs, laws, religions and languages, and building a cosmopolitan army made up of contingents from each of these nations.",
-  "Music":[
-      { "File": "Eastern_Dreams.ogg", "Type": "peace" },
-      { "File": "Valley_of_the_Nile.ogg", "Type": "peace" },
-      { "File": "Land_between_the_two_Seas.ogg", "Type": "peace" },
-      { "File": "Sands_of_Time.ogg", "Type": "peace" }
-    ],
-  "Factions":
-  [
-    {
-      "Name": "",
-      "Description": "",
-      "Technologies":
-      [
-      ],
-      "Heroes":
-      [
-        {
-          "Name": "Cyrus II the Great",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Cyrus (ruled 559-530 BC) The son of a Median princess and the ruler of Anshan; justly called the 'Father of the Empire', Cyrus the Great conquered Media, Lydia, Babylonia and Bactria, thereby establishing the Persian Empire. He was also renown as a benevolent conqueror. (OP - Kurush). Technically the second ruler of the Persians by that name, and so appears as Kurush II on his documents and coins. Kurush I was his grandfather."
-        },
-        {
-          "Name": "Darius I the Great",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Darius (ruled 522-486 BC) The son of Vishtaspa (Hystaspes), the satrap of Parthia and Hyrcania; a great administrator as well as a decent general, Darius introduced the division of the empire into satrapies and conquered NW India, Thrace and Macedonia. He was called the 'Merchant of the Empire'."
-        },
-        {
-          "Name": "Xerxes I the Great",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Xerxes (ruled 485-465 BC) The son of Darius the Great and Atoosa, a daughter of Cyrus the Great, Xerxes was an able administrator, who also extended Imperial rule into Chorasmia. Apart from his failed invasion of Greece, he was famous for his extensive building programme, especially at Persepolis."
-        }
-      ]
-    }
-  ],
-  "CivBonuses":
-  [
-  ],
-  "TeamBonuses":
-  [
-  ],
-  "Structures":
-  [
-  ],
-  "WallSets":
-  [
+	"Code": "pers",
+	"Culture": "pers",
+	"Name": "Persia",
+	"Emblem": "session/portraits/emblems/emblem_persians.png",
+	"History": "The Persian Empire, when ruled by the Achaemenid dynasty, was one of the greatest empires of antiquity, stretching at its zenith from the Indus Valley in the east to Greece in the west. The Persians were the pioneers of empire-building of the ancient world, successfully imposing a centralized rule over various peoples with different customs, laws, religions and languages, and building a cosmopolitan army made up of contingents from each of these nations.",
+	"Music": [
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Valley_of_the_Nile.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sands_of_Time.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies": [],
+			"Heroes": [
+				{
+					"Name": "Cyrus II the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Cyrus (ruled 559-530 BC) The son of a Median princess and the ruler of Anshan; justly called the 'Father of the Empire', Cyrus the Great conquered Media, Lydia, Babylonia and Bactria, thereby establishing the Persian Empire. He was also renown as a benevolent conqueror. (OP - Kurush). Technically the second ruler of the Persians by that name, and so appears as Kurush II on his documents and coins. Kurush I was his grandfather."
+				},
+				{
+					"Name": "Darius I the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Darius (ruled 522-486 BC) The son of Vishtaspa (Hystaspes), the satrap of Parthia and Hyrcania; a great administrator as well as a decent general, Darius introduced the division of the empire into satrapies and conquered NW India, Thrace and Macedonia. He was called the 'Merchant of the Empire'."
+				},
+				{
+					"Name": "Xerxes I the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Xerxes (ruled 485-465 BC) The son of Darius the Great and Atoosa, a daughter of Cyrus the Great, Xerxes was an able administrator, who also extended Imperial rule into Chorasmia. Apart from his failed invasion of Greece, he was famous for his extensive building programme, especially at Persepolis."
+				}
+			]
+		}
+	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [
 		"other/wallset_palisade",
 		"structures/pers_wallset_stone"
-  ],
-  "StartEntities":
-  [
-    { "Template": "structures/pers/centre" },
-    { "Template": "units/pers/support_healer" },
-    { "Template": "units/pers/infantry_archer", "Count": 5 },
-    { "Template": "units/pers/cavalry_javelineer" },
-    { "Template": "gaia/fauna_sheep", "Count": 3 }
-  ],
-  "Formations":
-  [
-    "special/formations/null",
-    "special/formations/column_closed",
-    "special/formations/column_open",
-    "special/formations/line_closed",
-    "special/formations/line_open",
-    "special/formations/battle_line",
-    "special/formations/box",
-    "special/formations/flank",
-    "special/formations/skirmish",
-    "special/formations/wedge",
-    "special/formations/phalanx"
-  ],
-  "AINames":
-  [
-    "Kurush II the Great",
-    "Darayavahush I",
-    "Cambyses II",
-    "Bardiya",
-    "Xsayarsa I",
-    "Artaxshacha I",
-    "Darayavahush II",
-    "Darayavahush III",
-    "Artaxshacha II",
-    "Artaxshacha III",
-    "Haxamanish",
-    "Xsayarsa II"
-  ],
-  "SkirmishReplacements":
-  {
-    "skirmish/units/default_cavalry": "units/pers/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/pers/infantry_spearman",
-    "skirmish/units/default_infantry_ranged_b": "units/pers/infantry_archer",
-    "skirmish/structures/default_house_10": "structures/{civ}/house"
-  },
-  "SelectableInGameSetup": false
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/pers/centre"
+		},
+		{
+			"Template": "units/pers/support_healer"
+		},
+		{
+			"Template": "units/pers/infantry_archer",
+			"Count": 5
+		},
+		{
+			"Template": "units/pers/cavalry_javelineer"
+		},
+		{
+			"Template": "gaia/fauna_sheep",
+			"Count": 3
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/column_closed",
+		"special/formations/column_open",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/battle_line",
+		"special/formations/box",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/phalanx"
+	],
+	"AINames": [
+		"Kurush II the Great",
+		"Darayavahush I",
+		"Cambyses II",
+		"Bardiya",
+		"Xsayarsa I",
+		"Artaxshacha I",
+		"Darayavahush II",
+		"Darayavahush III",
+		"Artaxshacha II",
+		"Artaxshacha III",
+		"Haxamanish",
+		"Xsayarsa II"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/pers/cavalry_javelineer",
+		"skirmish/units/default_infantry_melee_b": "units/pers/infantry_spearman",
+		"skirmish/units/default_infantry_ranged_b": "units/pers/infantry_archer",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": false
 }

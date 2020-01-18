@@ -1,10 +1,15 @@
 {
-  "affects": ["Structure"],
-  "auraDescription": "Structures −10% build time per Library owned.",
-  "auraName": "Power of Knowledge",
-  "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.9 }
-  ],
-  "stackable": true,
-  "type": "global"
+	"affects": [
+		"Structure"
+	],
+	"auraDescription": "Structures −10% build time per Library owned.",
+	"auraName": "Power of Knowledge",
+	"modifications": [
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 0.9
+		}
+	],
+	"stackable": true,
+	"type": "global"
 }

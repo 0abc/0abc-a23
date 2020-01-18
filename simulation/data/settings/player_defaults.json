@@ -1,77 +1,112 @@
 {
-  "PlayerData":
-  [
-    {
-      "Name": "Gaia",
-      "Civ": "gaia",
-      "Color": { "r": 255, "g": 255, "b": 255 },
-      "AI": "",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 1",
-      "Civ": "cart",
-      "Color": { "r": 255, "g": 0, "b": 0 },
-      "AI": "",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 2",
-      "Civ": "gaul",
-      "Color": { "r": 0, "g": 255, "b": 51 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 3",
-      "Civ": "kush",
-      "Color": { "r": 128, "g": 0, "b": 255 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 4",
-      "Civ": "mace",
-      "Color": { "r": 255, "g": 204, "b": 0 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 5",
-      "Civ": "maur",
-      "Color": { "r": 0, "g": 255, "b": 255 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 6",
-      "Civ": "ptol",
-      "Color": { "r": 255, "g": 0, "b": 204 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 7",
-      "Civ": "rome",
-      "Color": { "r": 128 , "g": 255, "b": 0 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    },
-    {
-      "Name": "Player 8",
-      "Civ": "sele",
-      "Color": { "r": 0, "g": 51, "b": 255 },
-      "AI": "petra",
-      "AIDiff": 3,
-      "AIBehavior": "random"
-    }
-  ]
+	"PlayerData": [
+		{
+			"Name": "Gaia",
+			"Civ": "gaia",
+			"Color": {
+				"r": 255,
+				"g": 255,
+				"b": 255
+			},
+			"AI": "",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 1",
+			"Civ": "cart",
+			"Color": {
+				"r": 255,
+				"g": 0,
+				"b": 0
+			},
+			"AI": "",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 2",
+			"Civ": "gaul",
+			"Color": {
+				"r": 0,
+				"g": 255,
+				"b": 51
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 3",
+			"Civ": "kush",
+			"Color": {
+				"r": 128,
+				"g": 0,
+				"b": 255
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 4",
+			"Civ": "mace",
+			"Color": {
+				"r": 255,
+				"g": 204,
+				"b": 0
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 5",
+			"Civ": "maur",
+			"Color": {
+				"r": 0,
+				"g": 255,
+				"b": 255
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 6",
+			"Civ": "ptol",
+			"Color": {
+				"r": 255,
+				"g": 0,
+				"b": 204
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 7",
+			"Civ": "rome",
+			"Color": {
+				"r": 128,
+				"g": 255,
+				"b": 0
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		},
+		{
+			"Name": "Player 8",
+			"Civ": "sele",
+			"Color": {
+				"r": 0,
+				"g": 51,
+				"b": 255
+			},
+			"AI": "petra",
+			"AIDiff": 3,
+			"AIBehavior": "random"
+		}
+	]
 }

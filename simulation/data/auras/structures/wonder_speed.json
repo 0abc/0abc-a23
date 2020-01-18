@@ -1,18 +1,28 @@
 {
-  "affects": ["Unit"],
-  "affectedPlayers": ["Enemy"],
-  "auraDescription": "Enemy Units −5% movement speed.",
-  "auraName": "Monumental Awe",
-  "modifications": [
-    { "value": "UnitMotion/Run/Speed", "multiply": 0.95 },
-    { "value": "UnitMotion/WalkSpeed", "multiply": 0.95 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
-  "radius": 100,
-  "rangeOverlay" : {
-    "lineTexture": "auras/outwards.png",
-    "lineTextureMask": "auras/outwards_mask.png",
-    "lineThickness": 0.4
-  },
-  "type": "range"
+	"affects": [
+		"Unit"
+	],
+	"affectedPlayers": [
+		"Enemy"
+	],
+	"auraDescription": "Enemy Units −5% movement speed.",
+	"auraName": "Monumental Awe",
+	"modifications": [
+		{
+			"value": "UnitMotion/Run/Speed",
+			"multiply": 0.95
+		},
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"multiply": 0.95
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+	"radius": 100,
+	"rangeOverlay": {
+		"lineTexture": "auras/outwards.png",
+		"lineTextureMask": "auras/outwards_mask.png",
+		"lineThickness": 0.4
+	},
+	"type": "range"
 }

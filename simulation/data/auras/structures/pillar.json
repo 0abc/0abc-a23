@@ -1,17 +1,25 @@
 {
-  "affects": ["Trader"],
-  "auraName": "Edicts of Ashoka",
-  "auraDescription": "Traders +20% movement speed.",
-  "modifications": [
-    { "value": "UnitMotion/Run/Speed", "multiply": 1.2 },
-    { "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
-  "radius": 75,
-  "rangeOverlay" : {
-    "lineTexture": "auras/zigzag.png",
-    "lineTextureMask": "auras/zigzag_mask.png",
-    "lineThickness": 0.4
-  },
-  "type": "range"
+	"affects": [
+		"Trader"
+	],
+	"auraName": "Edicts of Ashoka",
+	"auraDescription": "Traders +20% movement speed.",
+	"modifications": [
+		{
+			"value": "UnitMotion/Run/Speed",
+			"multiply": 1.2
+		},
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"multiply": 1.2
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+	"radius": 75,
+	"rangeOverlay": {
+		"lineTexture": "auras/zigzag.png",
+		"lineTextureMask": "auras/zigzag_mask.png",
+		"lineThickness": 0.4
+	},
+	"type": "range"
 }

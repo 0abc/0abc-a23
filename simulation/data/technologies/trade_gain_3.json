@@ -1,16 +1,30 @@
 {
-  "affects": ["Merchant", "Trader"],
-  "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
-  "description": "The progress in handicraft improves the trading profit.",
-  "genericName": "Advanced Handicraft",
-  "icon": "metal_pot.png",
-  "modifications": [
-    { "value": "Trader/GainMultiplier", "multiply": 1.1 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "trade_gain_2",
-  "tooltip": "Traders and Merchant Ships +10% gain."
+	"affects": [
+		"Merchant",
+		"Trader"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 900,
+		"stone": 0,
+		"metal": 600
+	},
+	"description": "The progress in handicraft improves the trading profit.",
+	"genericName": "Advanced Handicraft",
+	"icon": "metal_pot.png",
+	"modifications": [
+		{
+			"value": "Trader/GainMultiplier",
+			"multiply": 1.1
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"supersedes": "trade_gain_2",
+	"tooltip": "Traders and Merchant Ships +10% gain."
 }

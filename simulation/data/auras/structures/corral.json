@@ -1,16 +1,21 @@
 {
-  "affects": ["Worker"],
-  "auraDescription": "Workers +15% meat gather rate.",
-  "auraName": "Herding bonus",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/food.meat", "multiply": 1.15 }
-  ],
-  "overlayIcon": "art/textures/ui/session/icons/resources/food.png",
-  "radius": 20,
-  "rangeOverlay" : {
-    "lineTexture": "auras/zigzag.png",
-    "lineTextureMask": "auras/zigzag_mask.png",
-    "lineThickness": 0.4
-  },
-  "type": "range"
+	"affects": [
+		"Worker"
+	],
+	"auraDescription": "Workers +15% meat gather rate.",
+	"auraName": "Herding bonus",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/food.meat",
+			"multiply": 1.15
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/icons/resources/food.png",
+	"radius": 20,
+	"rangeOverlay": {
+		"lineTexture": "auras/zigzag.png",
+		"lineTextureMask": "auras/zigzag_mask.png",
+		"lineThickness": 0.4
+	},
+	"type": "range"
 }

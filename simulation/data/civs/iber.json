@@ -1,100 +1,106 @@
 {
-  "Code": "iber",
-  "Culture": "iber",
-  "Name": "Iberians",
-  "Emblem": "session/portraits/emblems/emblem_iberians.png",
-  "History": "The Iberians were a people of mysterious origins and language, with a strong tradition of horsemanship and metalworking. A relatively peaceful culture, they usually fought in other's battles only as mercenaries. However, they proved tenacious when Rome sought to take their land and freedom from them, and employed pioneering guerrilla tactics and flaming javelins as they fought back.",
-  "Music":[
-      { "File": "An_old_Warhorse_goes_to_Pasture.ogg", "Type": "peace" },
-      { "File": "Celtica.ogg", "Type": "peace" },
-      { "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" }
-    ],
-  "Factions":
-  [
-    {
-      "Name": "",
-      "Description": "",
-      "Technologies":
-      [
-      ],
-      "Heroes":
-      [
-        {
-          "Name": "Viriato",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Viriato, like Vercingetorix amongst the Gauls, was the most famous of the Iberian tribal war leaders, having conducted at least seven campaigns against the Romans in the southern half of the peninsula during the 'Lusitani Wars' from 147-139 BC. He surfaced as a survivor of the treacherous massacre of 9,000 men and the selling into slavery of 21,000 elderly, women, and children of the Lusitani. They had signed a treaty of peace with the Romans, conducted by Servius Sulpicius Galba, governor of Hispania Ulterior, as the 'final solution' to the Lusitani problem. He emerged from humble beginnings in 151 BC to become war chief of the Lusitani. He was intelligent and a superior tactician, never really defeated in any encounter (though suffered losses in some requiring retreat). He succumbed instead to another treachery arranged by a later Roman commander, Q. Servilius Caepio, to have him assassinated by three comrades that were close to him."
-        },
-        {
-          "Name": "Karos",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Karos was a chief of the Belli tribe located just east of the Celtiberi (Numantines at the center). Leading the confederated tribes of the meseta central (central upland plain) he concealed 20,000 foot and 5,000 mounted troops along a densely wooded track. Q. Fulvius Nobilior neglected proper reconnaissance and lead his army into the trap strung out in a long column. Some 10,000 of 15,000 Roman legionaries fell in the massive ambush that was sprung upon them. The date was 23 August of 153 BC, the day when Rome celebrated the feast of Vulcan. By later Senatorial Decree it was ever thereafter known as dies ater, a 'sinister day', and Rome never again fought a battle on the 23rd of August. Karos was wounded in an after battle small cavalry action the same evening and soon died thereafter, but he had carried off one of the most humiliating defeats that Rome ever suffered."
-        },
-        {
-          "Name": "Indibil",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Indibil was king of the Ilergetes, a large federation ranged principally along the Ebro River in the northwest of the Iberian Peninsula. During the Barcid expansion, from 212 BC he had initially been talked into allying himself with the Carthaginians who had taken control of a lot of territory to the south and west, however after loss and his capture in a major battle he was convinced, some say tricked, to switch to the Roman side by Scipio Africanus. But that alliance didn't last long, as Roman promises were hollow and the Romans acted more like conquerors than allies. So, while the Romans and their allies had ended Carthaginian presence in 'Hispania' in 206 BC, Indibil and another tribal prince by the name of Mandonio, who may have been his brother, rose up in rebellion against the Romans. They were defeated in battle, but rose up in a second even larger rebellion that had unified all the Ilergetes again in 205 BC. Outnumbered and outarmed they were again defeated, Indibil losing his life in the final battle and Mandonio being captured then later put to death. From that date onward the Ilergetes remained a pacified tribe under Roman rule."
-        }
-      ]
-    }
-  ],
-  "CivBonuses":
-  [
-  ],
-  "TeamBonuses":
-  [
-  ],
-  "Structures":
-  [
-  ],
-  "WallSets":
-  [
+	"Code": "iber",
+	"Culture": "iber",
+	"Name": "Iberians",
+	"Emblem": "session/portraits/emblems/emblem_iberians.png",
+	"History": "The Iberians were a people of mysterious origins and language, with a strong tradition of horsemanship and metalworking. A relatively peaceful culture, they usually fought in other's battles only as mercenaries. However, they proved tenacious when Rome sought to take their land and freedom from them, and employed pioneering guerrilla tactics and flaming javelins as they fought back.",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtica.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies": [],
+			"Heroes": [
+				{
+					"Name": "Viriato",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Viriato, like Vercingetorix amongst the Gauls, was the most famous of the Iberian tribal war leaders, having conducted at least seven campaigns against the Romans in the southern half of the peninsula during the 'Lusitani Wars' from 147-139 BC. He surfaced as a survivor of the treacherous massacre of 9,000 men and the selling into slavery of 21,000 elderly, women, and children of the Lusitani. They had signed a treaty of peace with the Romans, conducted by Servius Sulpicius Galba, governor of Hispania Ulterior, as the 'final solution' to the Lusitani problem. He emerged from humble beginnings in 151 BC to become war chief of the Lusitani. He was intelligent and a superior tactician, never really defeated in any encounter (though suffered losses in some requiring retreat). He succumbed instead to another treachery arranged by a later Roman commander, Q. Servilius Caepio, to have him assassinated by three comrades that were close to him."
+				},
+				{
+					"Name": "Karos",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Karos was a chief of the Belli tribe located just east of the Celtiberi (Numantines at the center). Leading the confederated tribes of the meseta central (central upland plain) he concealed 20,000 foot and 5,000 mounted troops along a densely wooded track. Q. Fulvius Nobilior neglected proper reconnaissance and lead his army into the trap strung out in a long column. Some 10,000 of 15,000 Roman legionaries fell in the massive ambush that was sprung upon them. The date was 23 August of 153 BC, the day when Rome celebrated the feast of Vulcan. By later Senatorial Decree it was ever thereafter known as dies ater, a 'sinister day', and Rome never again fought a battle on the 23rd of August. Karos was wounded in an after battle small cavalry action the same evening and soon died thereafter, but he had carried off one of the most humiliating defeats that Rome ever suffered."
+				},
+				{
+					"Name": "Indibil",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Indibil was king of the Ilergetes, a large federation ranged principally along the Ebro River in the northwest of the Iberian Peninsula. During the Barcid expansion, from 212 BC he had initially been talked into allying himself with the Carthaginians who had taken control of a lot of territory to the south and west, however after loss and his capture in a major battle he was convinced, some say tricked, to switch to the Roman side by Scipio Africanus. But that alliance didn't last long, as Roman promises were hollow and the Romans acted more like conquerors than allies. So, while the Romans and their allies had ended Carthaginian presence in 'Hispania' in 206 BC, Indibil and another tribal prince by the name of Mandonio, who may have been his brother, rose up in rebellion against the Romans. They were defeated in battle, but rose up in a second even larger rebellion that had unified all the Ilergetes again in 205 BC. Outnumbered and outarmed they were again defeated, Indibil losing his life in the final battle and Mandonio being captured then later put to death. From that date onward the Ilergetes remained a pacified tribe under Roman rule."
+				}
+			]
+		}
+	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [
 		"other/wallset_palisade",
 		"structures/iber_wallset_stone"
-  ],
-  "StartEntities":
-  [
-    { "Template": "structures/iber/centre" },
-    { "Template": "units/iber/support_healer" },
-    { "Template": "units/iber/infantry_javelineer", "Count": 5 },
-    { "Template": "units/iber/cavalry_javelineer" },
-    { "Template": "gaia/fauna_sheep", "Count": 3 }
-  ],
-  "Formations":
-  [
-    "special/formations/null",
-    "special/formations/column_closed",
-    "special/formations/column_open",
-    "special/formations/line_closed",
-    "special/formations/line_open",
-    "special/formations/battle_line",
-    "special/formations/box",
-    "special/formations/flank",
-    "special/formations/skirmish",
-    "special/formations/wedge",
-    "special/formations/phalanx"
-  ],
-  "AINames":
-  [
-    "Viriato",
-    "Karos",
-    "Indibil",
-    "Audax",
-    "Ditalcus",
-    "Minurus",
-    "Tautalus"
-  ],
-  "SkirmishReplacements":
-  {
-    "skirmish/units/default_cavalry": "units/iber/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/iber/infantry_sabreman",
-    "skirmish/units/default_infantry_ranged_b": "units/iber/infantry_javelineer",
-    "skirmish/structures/default_house_5": "structures/{civ}/house"
-  },
-  "SelectableInGameSetup": false
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/iber/centre"
+		},
+		{
+			"Template": "units/iber/support_healer"
+		},
+		{
+			"Template": "units/iber/infantry_javelineer",
+			"Count": 5
+		},
+		{
+			"Template": "units/iber/cavalry_javelineer"
+		},
+		{
+			"Template": "gaia/fauna_sheep",
+			"Count": 3
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/column_closed",
+		"special/formations/column_open",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/battle_line",
+		"special/formations/box",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/phalanx"
+	],
+	"AINames": [
+		"Viriato",
+		"Karos",
+		"Indibil",
+		"Audax",
+		"Ditalcus",
+		"Minurus",
+		"Tautalus"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/iber/cavalry_javelineer",
+		"skirmish/units/default_infantry_melee_b": "units/iber/infantry_sabreman",
+		"skirmish/units/default_infantry_ranged_b": "units/iber/infantry_javelineer",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": false
 }

@@ -1,16 +1,29 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
-  "description": "Buy slaves to help your workers quarry stone. Increases stone gathering rates.",
-  "genericName": "Slaves",
-  "icon": "gather_stone_iii.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.30 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "gather_stone_2",
-  "tooltip": "Workers +30% stone gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 900,
+		"stone": 0,
+		"metal": 600
+	},
+	"description": "Buy slaves to help your workers quarry stone. Increases stone gathering rates.",
+	"genericName": "Slaves",
+	"icon": "gather_stone_iii.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/stone.rock",
+			"multiply": 1.3
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"supersedes": "gather_stone_2",
+	"tooltip": "Workers +30% stone gather rate."
 }

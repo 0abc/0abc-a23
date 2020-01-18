@@ -1,16 +1,21 @@
 {
-  "affects": ["Human"],
-  "auraDescription": "Humans +1 health regeneration rate.",
-  "auraName": "Medical Treatment",
-  "modifications": [
-    { "value": "Health/RegenRate", "add": 1 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/heal.png",
-  "radius": 40,
-  "rangeOverlay" : {
-    "lineTexture": "auras/cross.png",
-    "lineTextureMask": "auras/cross_mask.png",
-    "lineThickness": 0.5
-  },
-  "type": "range"
+	"affects": [
+		"Human"
+	],
+	"auraDescription": "Humans +1 health regeneration rate.",
+	"auraName": "Medical Treatment",
+	"modifications": [
+		{
+			"value": "Health/RegenRate",
+			"add": 1
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/heal.png",
+	"radius": 40,
+	"rangeOverlay": {
+		"lineTexture": "auras/cross.png",
+		"lineTextureMask": "auras/cross_mask.png",
+		"lineThickness": 0.5
+	},
+	"type": "range"
 }

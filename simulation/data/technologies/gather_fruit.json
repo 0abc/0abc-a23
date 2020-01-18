@@ -1,16 +1,32 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 100, "stone": 0, "metal": 0 },
-  "description": "Equip your foragers with wicker baskets to carry foraged food.",
-  "genericName": "Wicker Baskets",
-  "icon": "gather_basket.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Capacities/food",  "add":      5   },
-    { "value": "ResourceGatherer/Rates/food.fruit", "multiply": 1.5 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 30,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +5 food capacity and +50% fruit gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 100,
+		"stone": 0,
+		"metal": 0
+	},
+	"description": "Equip your foragers with wicker baskets to carry foraged food.",
+	"genericName": "Wicker Baskets",
+	"icon": "gather_basket.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Capacities/food",
+			"add": 5
+		},
+		{
+			"value": "ResourceGatherer/Rates/food.fruit",
+			"multiply": 1.5
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 30,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Workers +5 food capacity and +50% fruit gather rate."
 }

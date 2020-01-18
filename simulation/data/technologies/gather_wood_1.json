@@ -1,15 +1,28 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 300, "stone": 0, "metal": 200 },
-  "description": "Increases wood gathering rates for trees.",
-  "genericName": "Iron Axe Heads",
-  "icon": "gather_wood_i.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.20 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +20% wood gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 300,
+		"stone": 0,
+		"metal": 200
+	},
+	"description": "Increases wood gathering rates for trees.",
+	"genericName": "Iron Axe Heads",
+	"icon": "gather_wood_i.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/wood.tree",
+			"multiply": 1.2
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 45,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Workers +20% wood gather rate."
 }

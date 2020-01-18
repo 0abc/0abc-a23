@@ -1,14 +1,18 @@
 {
-  "aiAnalysisInfluenceGroup": "ignore",
-  "code": "silver",
-  "description": "Collect silver through trade or from taxation.",
-  "name": "Silver",
-  "order": 1,
-  "properties": ["barterable", "tradable", "tributable"],
-  "subtypes": {
-    "electrum": "Electrum",
-    "gold": "Gold",
-    "silver": "Silver"
-  },
-  "truePrice": 100
+	"aiAnalysisInfluenceGroup": "ignore",
+	"code": "silver",
+	"description": "Collect silver through trade or from taxation.",
+	"name": "Silver",
+	"order": 1,
+	"properties": [
+		"barterable",
+		"tradable",
+		"tributable"
+	],
+	"subtypes": {
+		"electrum": "Electrum",
+		"gold": "Gold",
+		"silver": "Silver"
+	},
+	"truePrice": 100
 }

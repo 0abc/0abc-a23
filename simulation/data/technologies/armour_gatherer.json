@@ -1,16 +1,32 @@
 {
-  "affects": ["Gatherer"],
-  "cost": { "silver": 0, "food": 0, "wood": 200, "stone": 0, "metal": 100 },
-  "description": "The loom allowed the creation of finer clothing for settlers. Women of the household were taught from a young age how to weave on the loom, and subsequently spent a large share of their lives working with it.",
-  "genericName": "The Loom",
-  "icon": "loom.png",
-  "modifications": [
-    { "value": "Armour/Crush",  "add": 1 },
-    { "value": "Armour/Pierce", "add": 1 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Gatherers +1 crush and pierce armour level."
+	"affects": [
+		"Gatherer"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 200,
+		"stone": 0,
+		"metal": 100
+	},
+	"description": "The loom allowed the creation of finer clothing for settlers. Women of the household were taught from a young age how to weave on the loom, and subsequently spent a large share of their lives working with it.",
+	"genericName": "The Loom",
+	"icon": "loom.png",
+	"modifications": [
+		{
+			"value": "Armour/Crush",
+			"add": 1
+		},
+		{
+			"value": "Armour/Pierce",
+			"add": 1
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 45,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Gatherers +1 crush and pierce armour level."
 }

@@ -1,10 +1,15 @@
 {
-  "affects": ["Unit"],
-  "auraDescription": "Units −5% training time per Theatre owned.",
-  "auraName": "Hellenization",
-  "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.95 }
-  ],
-  "stackable": true,
-  "type": "global"
+	"affects": [
+		"Unit"
+	],
+	"auraDescription": "Units −5% training time per Theatre owned.",
+	"auraName": "Hellenization",
+	"modifications": [
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 0.95
+		}
+	],
+	"stackable": true,
+	"type": "global"
 }

@@ -1,24 +1,83 @@
 {
-  "affects": ["Champion"],
-  "autoResearch": true,
-  "genericName": "Champion Units",
-  "modifications": [
-    { "value": "Armour/Crush",                 "add":      2                                  },
-    { "value": "Armour/Hack",                  "add":      2                                  },
-    { "value": "Armour/Pierce",                "add":      2                                  },
-    { "value": "Armour/Thrust",                "add":      2                                  },
-    { "value": "Attack/Capture/Value",         "multiply": 2.0, "affects": "Soldier"          },
-    { "value": "Attack/Melee/Crush",           "multiply": 2.0, "affects": "Melee !Elephant"  },
-    { "value": "Attack/Melee/Hack",            "multiply": 1.5, "affects": "Melee"            },
-    { "value": "Attack/Melee/Pierce",          "multiply": 1.5, "affects": "Melee"            },
-    { "value": "Attack/Melee/Thrust",          "multiply": 1.5, "affects": "Melee"            },
-    { "value": "Attack/Ranged/Crush",          "multiply": 1.5, "affects": "Ranged"           },
-    { "value": "Attack/Ranged/Hack",           "multiply": 1.5, "affects": "Ranged"           },
-    { "value": "Attack/Ranged/Pierce",         "multiply": 1.5, "affects": "Ranged"           },
-    { "value": "Attack/Ranged/Thrust",         "multiply": 1.5, "affects": "Ranged"           },
-    { "value": "Cost/BuildTime",               "multiply": 2.0                                },
-    { "value": "Cost/Resources/silver",        "multiply": 3.0                                },
-    { "value": "Health/Max",                   "multiply": 1.5                                }
-  ],
-  "tooltip": "Champions have +200% silver cost, +100% training time, +50% health, +2 armour levels, +100% capture attack strength, +50% melee and ranged attack damage."
+	"affects": [
+		"Champion"
+	],
+	"autoResearch": true,
+	"genericName": "Champion Units",
+	"modifications": [
+		{
+			"value": "Armour/Crush",
+			"add": 2
+		},
+		{
+			"value": "Armour/Hack",
+			"add": 2
+		},
+		{
+			"value": "Armour/Pierce",
+			"add": 2
+		},
+		{
+			"value": "Armour/Thrust",
+			"add": 2
+		},
+		{
+			"value": "Attack/Capture/Value",
+			"multiply": 2.0,
+			"affects": "Soldier"
+		},
+		{
+			"value": "Attack/Melee/Crush",
+			"multiply": 2.0,
+			"affects": "Melee !Elephant"
+		},
+		{
+			"value": "Attack/Melee/Hack",
+			"multiply": 1.5,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Melee/Pierce",
+			"multiply": 1.5,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Melee/Thrust",
+			"multiply": 1.5,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Ranged/Crush",
+			"multiply": 1.5,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Attack/Ranged/Hack",
+			"multiply": 1.5,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Attack/Ranged/Pierce",
+			"multiply": 1.5,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Attack/Ranged/Thrust",
+			"multiply": 1.5,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 2.0
+		},
+		{
+			"value": "Cost/Resources/silver",
+			"multiply": 3.0
+		},
+		{
+			"value": "Health/Max",
+			"multiply": 1.5
+		}
+	],
+	"tooltip": "Champions have +200% silver cost, +100% training time, +50% health, +2 armour levels, +100% capture attack strength, +50% melee and ranged attack damage."
 }

@@ -1,17 +1,25 @@
 {
-  "affects": ["Worker"],
-  "auraDescription": "Workers +20% build rate, –20% gather speed.",
-  "auraName": "Settlement Core",
-  "modifications": [
-    { "value": "Builder/Rate",               "multiply": 1.2 },
-    { "value": "ResourceGatherer/BaseSpeed", "multiply": 0.8 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/build.png",
-  "radius": 75,
-  "rangeOverlay" : {
-    "lineTexture": "auras/zigzag.png",
-    "lineTextureMask": "auras/zigzag_mask.png",
-    "lineThickness": 0.5
-  },
-  "type": "range"
+	"affects": [
+		"Worker"
+	],
+	"auraDescription": "Workers +20% build rate, –20% gather speed.",
+	"auraName": "Settlement Core",
+	"modifications": [
+		{
+			"value": "Builder/Rate",
+			"multiply": 1.2
+		},
+		{
+			"value": "ResourceGatherer/BaseSpeed",
+			"multiply": 0.8
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/build.png",
+	"radius": 75,
+	"rangeOverlay": {
+		"lineTexture": "auras/zigzag.png",
+		"lineTextureMask": "auras/zigzag_mask.png",
+		"lineThickness": 0.5
+	},
+	"type": "range"
 }

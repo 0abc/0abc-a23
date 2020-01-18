@@ -1,22 +1,32 @@
 {
-  "Code": "maur",
-  "Culture": "maur",
-  "Name": "Mauryas",
-  "Emblem": "session/portraits/emblems/emblem_mauryans.png",
-  "History": "Founded in 322 BC by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armoured war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
-  "Music":[
-      { "File": "An_old_Warhorse_goes_to_Pasture.ogg", "Type": "peace" },
-      { "File": "Land_between_the_two_Seas.ogg", "Type": "peace" },
-      { "File": "Eastern_Dreams.ogg", "Type": "peace" },
-      { "File": "Karmic_Confluence.ogg", "Type": "peace" }
-    ],
-  "Factions":
-  [
-    {
-      "Name": "Mauryan Indians",
-      "Description": "",
-      "Technologies":
-      [
+	"Code": "maur",
+	"Culture": "maur",
+	"Name": "Mauryas",
+	"Emblem": "session/portraits/emblems/emblem_mauryans.png",
+	"History": "Founded in 322 BC by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armoured war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Karmic_Confluence.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "Mauryan Indians",
+			"Description": "",
+			"Technologies": [
 				{
 					"Name": "Archery Tradition",
 					"History": "",
@@ -27,35 +37,33 @@
 					"History": "",
 					"Description": "Swordsmen and Sabremen +20% melee attack damage."
 				}
-      ],
-      "Heroes":
-      [
-        {
-          "Name": "Chandragupta Maurya",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Founder of the Mauryan Empire."
-        },
-        {
-          "Name": "Ashoka the Great",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Last great emperor of the Mauryan dynasty."
-        },
-        {
-          "Name": "Chanakya",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "Great teacher and advisor to Chandragupta Maurya."
-        }
-      ]
-    }
-  ],
-  "CivBonuses":
-  [
+			],
+			"Heroes": [
+				{
+					"Name": "Chandragupta Maurya",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Founder of the Mauryan Empire."
+				},
+				{
+					"Name": "Ashoka the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Last great emperor of the Mauryan dynasty."
+				},
+				{
+					"Name": "Chanakya",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Great teacher and advisor to Chandragupta Maurya."
+				}
+			]
+		}
+	],
+	"CivBonuses": [
 		{
 			"Name": "Indian Gold",
 			"History": "",
@@ -76,12 +84,9 @@
 			"History": "",
 			"Description": "Healers −50% silver cost"
 		}
-  ],
-  "TeamBonuses":
-  [
-  ],
-  "Structures":
-  [
+	],
+	"TeamBonuses": [],
+	"Structures": [
 		{
 			"Name": "Elephant Stable",
 			"Class": "Military",
@@ -109,55 +114,63 @@
 			"Phase": "City",
 			"Special": "Territory root."
 		}
-  ],
-  "WallSets":
-  [
+	],
+	"WallSets": [
 		"other/wallset_palisade",
 		"structures/maur_wallset_stone"
-  ],
-  "StartEntities":
-  [
-    { "Template": "structures/maur/centre" },
-    { "Template": "units/maur/support_healer" },
-    { "Template": "units/maur/infantry_archer", "Count": 5 },
-    { "Template": "units/maur/cavalry_javelineer" },
-    { "Template": "units/maur/support_elephant" },
-    { "Template": "gaia/fauna_zebu" }
-  ],
-  "Formations":
-  [
-    "special/formations/null",
-    "special/formations/column_closed",
-    "special/formations/column_open",
-    "special/formations/line_closed",
-    "special/formations/line_open",
-    "special/formations/battle_line",
-    "special/formations/box",
-    "special/formations/flank",
-    "special/formations/skirmish",
-    "special/formations/wedge",
-    "special/formations/phalanx"
-  ],
-  "AINames":
-  [
-    "Acharya Bhadrabahu",
-    "Chandragupta Maurya",
-    "Bindusara",
-    "Ashoka the Great",
-    "Dasharatha",
-    "Samprati",
-    "Shalishuka",
-    "Devavarman",
-    "Shatadhanvan",
-    "Brihadratha"
-  ],
-  "SkirmishReplacements":
-  {
-    "skirmish/units/default_cavalry": "units/maur/cavalry_javelineer",
-    "skirmish/units/default_infantry_melee_b": "units/maur/infantry_swordsman",
-    "skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer",
-    "skirmish/units/special_starting_unit": "units/maur/support_elephant",
-    "skirmish/structures/default_house_5": "structures/{civ}/house"
-  },
-  "SelectableInGameSetup": true
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/maur/centre"
+		},
+		{
+			"Template": "units/maur/support_healer"
+		},
+		{
+			"Template": "units/maur/infantry_archer",
+			"Count": 5
+		},
+		{
+			"Template": "units/maur/cavalry_javelineer"
+		},
+		{
+			"Template": "units/maur/support_elephant"
+		},
+		{
+			"Template": "gaia/fauna_zebu"
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/column_closed",
+		"special/formations/column_open",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/battle_line",
+		"special/formations/box",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/phalanx"
+	],
+	"AINames": [
+		"Acharya Bhadrabahu",
+		"Chandragupta Maurya",
+		"Bindusara",
+		"Ashoka the Great",
+		"Dasharatha",
+		"Samprati",
+		"Shalishuka",
+		"Devavarman",
+		"Shatadhanvan",
+		"Brihadratha"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/maur/cavalry_javelineer",
+		"skirmish/units/default_infantry_melee_b": "units/maur/infantry_swordsman",
+		"skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer",
+		"skirmish/units/special_starting_unit": "units/maur/support_elephant",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
 }

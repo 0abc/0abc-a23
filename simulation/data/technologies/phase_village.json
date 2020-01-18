@@ -1,15 +1,32 @@
 {
-  "affects": ["Centre"],
-  "autoResearch": true,
-  "genericName": "Village Phase",
-  "icon": "phase_i.png",
-  "modifications": [
-    { "value": "Capturable/RegenRate",         "add":      5    },
-    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
-    { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
-    { "value": "TerritoryInfluence/Radius",    "multiply": 1.15 },
-    { "value": "TerritoryInfluence/Weight",    "multiply": 1.15 }
-  ],
-  "soundComplete": "interface/alarm/alarm_phase.xml",
-  "tooltip": "Advance to Village Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
+	"affects": [
+		"Centre"
+	],
+	"autoResearch": true,
+	"genericName": "Village Phase",
+	"icon": "phase_i.png",
+	"modifications": [
+		{
+			"value": "Capturable/RegenRate",
+			"add": 5
+		},
+		{
+			"value": "ResourceTrickle/Rates/food",
+			"add": -0.2
+		},
+		{
+			"value": "ResourceTrickle/Rates/silver",
+			"add": 0.2
+		},
+		{
+			"value": "TerritoryInfluence/Radius",
+			"multiply": 1.15
+		},
+		{
+			"value": "TerritoryInfluence/Weight",
+			"multiply": 1.15
+		}
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml",
+	"tooltip": "Advance to Village Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
 }

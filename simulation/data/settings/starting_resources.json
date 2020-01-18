@@ -1,48 +1,49 @@
 {
-  "TranslatedKeys": ["Title"],
-  "TranslationContext": "startingResources",
-  "Data":
-  [
-    {
-      "Resources": 0,
-      "Title": "None"
-    },
-    {
-      "Resources": 100,
-      "Title": "Very Low"
-    },
-    {
-      "Resources": 200,
-      "Title": "Low",
-      "Default": true
-    },
-    {
-      "Resources": 300,
-      "Title": "Quite Low"
-    },
-    {
-      "Resources": 500,
-      "Title": "Medium"
-    },
-    {
-      "Resources": 1000,
-      "Title": "Quite High"
-    },
-    {
-      "Resources": 3000,
-      "Title": "High"
-    },
-    {
-      "Resources": 5000,
-      "Title": "Very High"
-    },
-    {
-      "Resources": 10000,
-      "Title": "Enormous"
-    },
-    {
-      "Resources": 50000,
-      "Title": "Deathmatch"
-    }
-  ]
+	"TranslatedKeys": [
+		"Title"
+	],
+	"TranslationContext": "startingResources",
+	"Data": [
+		{
+			"Resources": 0,
+			"Title": "None"
+		},
+		{
+			"Resources": 100,
+			"Title": "Very Low"
+		},
+		{
+			"Resources": 200,
+			"Title": "Low",
+			"Default": true
+		},
+		{
+			"Resources": 300,
+			"Title": "Quite Low"
+		},
+		{
+			"Resources": 500,
+			"Title": "Medium"
+		},
+		{
+			"Resources": 1000,
+			"Title": "Quite High"
+		},
+		{
+			"Resources": 3000,
+			"Title": "High"
+		},
+		{
+			"Resources": 5000,
+			"Title": "Very High"
+		},
+		{
+			"Resources": 10000,
+			"Title": "Enormous"
+		},
+		{
+			"Resources": 50000,
+			"Title": "Deathmatch"
+		}
+	]
 }

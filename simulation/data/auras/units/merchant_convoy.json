@@ -1,16 +1,21 @@
 {
-  "affects": ["Merchant"],
-  "auraDescription": "Merchant Ships in a convoy +2 pierce armour.",
-  "auraName": "Convoy",
-  "modifications": [
-    { "value": "Armour/Pierce", "add": 2 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
-  "radius": 20,
-  "rangeOverlay" : {
-    "lineTexture": "auras/inwards.png",
-    "lineTextureMask": "auras/inwards_mask.png",
-    "lineThickness": 0.5
-  },
-  "type": "range"
+	"affects": [
+		"Merchant"
+	],
+	"auraDescription": "Merchant Ships in a convoy +2 pierce armour.",
+	"auraName": "Convoy",
+	"modifications": [
+		{
+			"value": "Armour/Pierce",
+			"add": 2
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
+	"radius": 20,
+	"rangeOverlay": {
+		"lineTexture": "auras/inwards.png",
+		"lineTextureMask": "auras/inwards_mask.png",
+		"lineThickness": 0.5
+	},
+	"type": "range"
 }

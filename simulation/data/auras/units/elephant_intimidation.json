@@ -1,25 +1,64 @@
 {
-  "affectedPlayers": ["Enemy"],
-  "affects": ["Soldier"],
-  "auraDescription": "Enemy Soldiers −10% attack damage and capture strength.",
-  "auraName": "Intimidation",
-  "modifications": [
-    { "value": "Attack/Capture/Value", "multiply": 0.9                      },
-    { "value": "Attack/Melee/Crush",   "multiply": 0.9, "affects": "Melee"  },
-    { "value": "Attack/Melee/Hack",    "multiply": 0.9, "affects": "Melee"  },
-    { "value": "Attack/Melee/Pierce",  "multiply": 0.9, "affects": "Melee"  },
-    { "value": "Attack/Melee/Thrust",  "multiply": 0.9, "affects": "Melee"  },
-    { "value": "Attack/Ranged/Crush",  "multiply": 0.9, "affects": "Ranged" },
-    { "value": "Attack/Ranged/Hack",   "multiply": 0.9, "affects": "Ranged" },
-    { "value": "Attack/Ranged/Pierce", "multiply": 0.9, "affects": "Ranged" },
-    { "value": "Attack/Ranged/Thrust", "multiply": 0.9, "affects": "Ranged" }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/attack_penalty.png",
-  "rangeOverlay" : {
-    "lineTexture": "auras/outwards.png",
-    "lineTextureMask": "auras/outwards_mask.png",
-    "lineThickness": 0.5
-  },
-  "radius": 10,
-  "type": "range"
+	"affectedPlayers": [
+		"Enemy"
+	],
+	"affects": [
+		"Soldier"
+	],
+	"auraDescription": "Enemy Soldiers −10% attack damage and capture strength.",
+	"auraName": "Intimidation",
+	"modifications": [
+		{
+			"value": "Attack/Capture/Value",
+			"multiply": 0.9
+		},
+		{
+			"value": "Attack/Melee/Crush",
+			"multiply": 0.9,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Melee/Hack",
+			"multiply": 0.9,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Melee/Pierce",
+			"multiply": 0.9,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Melee/Thrust",
+			"multiply": 0.9,
+			"affects": "Melee"
+		},
+		{
+			"value": "Attack/Ranged/Crush",
+			"multiply": 0.9,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Attack/Ranged/Hack",
+			"multiply": 0.9,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Attack/Ranged/Pierce",
+			"multiply": 0.9,
+			"affects": "Ranged"
+		},
+		{
+			"value": "Attack/Ranged/Thrust",
+			"multiply": 0.9,
+			"affects": "Ranged"
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/attack_penalty.png",
+	"rangeOverlay": {
+		"lineTexture": "auras/outwards.png",
+		"lineTextureMask": "auras/outwards_mask.png",
+		"lineThickness": 0.5
+	},
+	"radius": 10,
+	"type": "range"
 }

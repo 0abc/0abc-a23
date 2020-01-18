@@ -1,13 +1,29 @@
 {
-  "affects": ["Healer"],
-  "autoResearch": true,
-  "genericName": "Druidism",
-  "modifications": [
-    { "value": "Armour/Crush",  "add": 2 },
-    { "value": "Armour/Hack",   "add": 2 },
-    { "value": "Armour/Pierce", "add": 2 },
-    { "value": "Armour/Thrust", "add": 2 }
-  ],
-  "requirements": { "civ": "gaul" },
-  "tooltip": "Gaulish Healers +2 armour levels."
+	"affects": [
+		"Healer"
+	],
+	"autoResearch": true,
+	"genericName": "Druidism",
+	"modifications": [
+		{
+			"value": "Armour/Crush",
+			"add": 2
+		},
+		{
+			"value": "Armour/Hack",
+			"add": 2
+		},
+		{
+			"value": "Armour/Pierce",
+			"add": 2
+		},
+		{
+			"value": "Armour/Thrust",
+			"add": 2
+		}
+	],
+	"requirements": {
+		"civ": "gaul"
+	},
+	"tooltip": "Gaulish Healers +2 armour levels."
 }

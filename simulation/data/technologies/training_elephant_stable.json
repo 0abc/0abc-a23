@@ -1,16 +1,28 @@
 {
-  "affects": ["ElephantStable"],
-  "cost": { "silver": 0, "food": 500, "wood": 0, "stone": 0, "metal": 0 },
-  "description": "Significantly increase training speed of soldiers at the elephant stables by training them in large batches or squadrons.",
-  "genericName": "Mass Training",
-  "icon": "armor_elephant.png",
-  "modifications": [
-    { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Elephant Stables have increased batch training speed."
+	"affects": [
+		"ElephantStable"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 500,
+		"wood": 0,
+		"stone": 0,
+		"metal": 0
+	},
+	"description": "Significantly increase training speed of soldiers at the elephant stables by training them in large batches or squadrons.",
+	"genericName": "Mass Training",
+	"icon": "armor_elephant.png",
+	"modifications": [
+		{
+			"value": "ProductionQueue/BatchTimeModifier",
+			"add": -0.1
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Elephant Stables have increased batch training speed."
 }
-

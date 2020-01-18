@@ -1,14 +1,25 @@
 {
-  "cost": { "silver": 2000, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
-  "description": "Recruit a network of informants to watch over your people.",
-  "genericName": "Counterintelligence",
-  "icon": "vial_poison.png",
-  "modifications": [
-    { "value": "Player/SpyCostMultiplier", "multiply": 2.0 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "unlock_spies",
-  "tooltip": "Make your Units twice as expensive to bribe."
+	"cost": {
+		"silver": 2000,
+		"food": 0,
+		"wood": 0,
+		"stone": 0,
+		"metal": 0
+	},
+	"description": "Recruit a network of informants to watch over your people.",
+	"genericName": "Counterintelligence",
+	"icon": "vial_poison.png",
+	"modifications": [
+		{
+			"value": "Player/SpyCostMultiplier",
+			"multiply": 2.0
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"supersedes": "unlock_spies",
+	"tooltip": "Make your Units twice as expensive to bribe."
 }

@@ -1,13 +1,16 @@
 {
-  "aiAnalysisInfluenceGroup": "sparse",
-  "code": "stone",
-  "description": "Gather from stone quarries, rocks, or ruins.",
-  "name": "Stone",
-  "order": 5,
-  "properties": ["barterable", "tributable"],
-  "subtypes": {
-    "rock": "Rock",
-    "ruins": "Ruins"
-  },
-  "truePrice": 60
+	"aiAnalysisInfluenceGroup": "sparse",
+	"code": "stone",
+	"description": "Gather from stone quarries, rocks, or ruins.",
+	"name": "Stone",
+	"order": 5,
+	"properties": [
+		"barterable",
+		"tributable"
+	],
+	"subtypes": {
+		"rock": "Rock",
+		"ruins": "Ruins"
+	},
+	"truePrice": 60
 }

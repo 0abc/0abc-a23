@@ -1,26 +1,58 @@
 {
-  "affects": ["Cavalry Axeman", "Cavalry Sabreman", "Cavalry Swordsman"],
-  "cost": { "silver": 0, "food": 400, "wood": 400, "stone": 0, "metal": 400 },
-  "description": "Training increases melee attack.",
-  "genericName": "Cavalry Sword Training",
-  "icon": "sword_cavalry.png",
-  "modifications": [
-    { "value": "Attack/Melee/Crush",   "multiply": 1.2 },
-    { "value": "Attack/Melee/Hack",    "multiply": 1.2 },
-    { "value": "Attack/Melee/Pierce",  "multiply": 1.2 },
-    { "value": "Attack/Melee/Thrust",  "multiply": 1.2 }
-  ],
-  "requirements": { "all":
-    [
-      { "tech": "phase_town" },
-      { "civ": "cart" },
-      { "civ": "gaul" },
-      { "civ": "kush" },
-      { "civ": "maur" }
-    ]
-  },
-  "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 60,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Cavalry Axemen, Sabremen, and Swordsmen +20% melee attack damage."
+	"affects": [
+		"Cavalry Axeman",
+		"Cavalry Sabreman",
+		"Cavalry Swordsman"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 400,
+		"wood": 400,
+		"stone": 0,
+		"metal": 400
+	},
+	"description": "Training increases melee attack.",
+	"genericName": "Cavalry Sword Training",
+	"icon": "sword_cavalry.png",
+	"modifications": [
+		{
+			"value": "Attack/Melee/Crush",
+			"multiply": 1.2
+		},
+		{
+			"value": "Attack/Melee/Hack",
+			"multiply": 1.2
+		},
+		{
+			"value": "Attack/Melee/Pierce",
+			"multiply": 1.2
+		},
+		{
+			"value": "Attack/Melee/Thrust",
+			"multiply": 1.2
+		}
+	],
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_town"
+			},
+			{
+				"civ": "cart"
+			},
+			{
+				"civ": "gaul"
+			},
+			{
+				"civ": "kush"
+			},
+			{
+				"civ": "maur"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"researchTime": 60,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Cavalry Axemen, Sabremen, and Swordsmen +20% melee attack damage."
 }

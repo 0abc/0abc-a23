@@ -1,16 +1,19 @@
 {
-  "aiAnalysisInfluenceGroup": "sparse",
-  "code": "metal",
-  "description": "Gather from mineral mines.",
-  "name": "Iron",
-  "order": 3,
-  "properties": ["barterable", "tributable"],
-  "subtypes": {
-    "meteorite": "meteorite iron",
-    "ore": "iron ore",
-    "pig": "pig iron",
-    "ruins": "metal objects",
-    "steel": "steel"
-  },
-  "truePrice": 80
+	"aiAnalysisInfluenceGroup": "sparse",
+	"code": "metal",
+	"description": "Gather from mineral mines.",
+	"name": "Iron",
+	"order": 3,
+	"properties": [
+		"barterable",
+		"tributable"
+	],
+	"subtypes": {
+		"meteorite": "meteorite iron",
+		"ore": "iron ore",
+		"pig": "pig iron",
+		"ruins": "metal objects",
+		"steel": "steel"
+	},
+	"truePrice": 80
 }

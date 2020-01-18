@@ -1,10 +1,17 @@
 {
-  "affects": ["Elephant"],
-  "autoResearch": true,
-  "genericName": "Indian Elephants",
-  "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.85 }
-  ],
-  "requirements": { "civ": "maur" },
-  "tooltip": "Mauryan Elephants −15% training time."
+	"affects": [
+		"Elephant"
+	],
+	"autoResearch": true,
+	"genericName": "Indian Elephants",
+	"modifications": [
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 0.85
+		}
+	],
+	"requirements": {
+		"civ": "maur"
+	},
+	"tooltip": "Mauryan Elephants −15% training time."
 }

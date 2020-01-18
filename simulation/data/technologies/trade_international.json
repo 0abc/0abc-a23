@@ -1,15 +1,28 @@
 {
-  "affects": ["Market"],
-  "cost": { "silver": 500, "food": 0, "wood": 0, "stone": 0, "metal": 0 },
-  "description": "Improve the international trading profit.",
-  "genericName": "Commercial Treaty",
-  "icon": "friendship.png",
-  "modifications": [
-    { "value": "Market/InternationalBonus", "add": 0.1 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Market +10% international bonus."
+	"affects": [
+		"Market"
+	],
+	"cost": {
+		"silver": 500,
+		"food": 0,
+		"wood": 0,
+		"stone": 0,
+		"metal": 0
+	},
+	"description": "Improve the international trading profit.",
+	"genericName": "Commercial Treaty",
+	"icon": "friendship.png",
+	"modifications": [
+		{
+			"value": "Market/InternationalBonus",
+			"add": 0.1
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Market +10% international bonus."
 }

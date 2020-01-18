@@ -1,56 +1,64 @@
 {
-  "Code": "mace",
-  "Culture": "hele",
-  "Name": "Macedon",
-  "Emblem": "session/portraits/emblems/emblem_macedonians.png",
-  "History": "Macedonia was an ancient Greek kingdom, centered in the northeastern part of the Greek peninsula. Under the leadership of Alexander the Great, Macedonian forces and allies took over most of the world they knew, including Egypt, Persia and parts of the Indian subcontinent, allowing a diffusion of Hellenic and eastern cultures for years to come.",
-  "Music":[
-      { "File": "Rise_of_Macedon.ogg", "Type": "peace" },
-      { "File": "In_the_Shadow_of_Olympus.ogg", "Type": "peace" },
-      { "File": "Elysian_Fields.ogg", "Type": "peace" },
-      { "File": "The_Hellespont.ogg", "Type": "peace" }
-    ],
-  "Factions":
-  [
-    {
-      "Name": "Macedonians",
-      "Description": "A Hellenistic kingdom bordering the Greek city-states.",
-      "Technologies":
-      [
+	"Code": "mace",
+	"Culture": "hele",
+	"Name": "Macedon",
+	"Emblem": "session/portraits/emblems/emblem_macedonians.png",
+	"History": "Macedonia was an ancient Greek kingdom, centered in the northeastern part of the Greek peninsula. Under the leadership of Alexander the Great, Macedonian forces and allies took over most of the world they knew, including Egypt, Persia and parts of the Indian subcontinent, allowing a diffusion of Hellenic and eastern cultures for years to come.",
+	"Music": [
+		{
+			"File": "Rise_of_Macedon.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "In_the_Shadow_of_Olympus.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Elysian_Fields.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "Macedonians",
+			"Description": "A Hellenistic kingdom bordering the Greek city-states.",
+			"Technologies": [
 				{
 					"Name": "Marching",
 					"History": "",
 					"Description": "Melee Infantry +10% movement speed."
 				}
-      ],
-      "Heroes":
-      [
-        {
-          "Name": "Philip II of Macedon",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "The king of Macedonia (359-336 BC), he carried out vast monetary and military reforms in order to make his kingdom the most powerful force in the Greek world. Greatly enlarged the size of Macedonia by conquering much of Thrace and subduing the Greeks. Murdered in Aegae while planning a campaign against Persia."
-        },
-        {
-          "Name": "Alexander III the Great",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "The most powerful hero of them all - son of Philip II, king of Macedonia (336-323 BC). After conquering the rest of the Thracians and quelling the unrest of the Greeks, Alexander embarked on a world-conquest march. Defeating the Persian forces at Granicus (334 BC), Issus (333 BC) and Gaugamela (331 BC), he became master of the Persian Empire. Entering India, he defeated king Porus at Hydaspes (326 BC), but his weary troops made him halt. Died in Babylon at the age of 33 while planning a campaign against Arabia."
-        },
-        {
-          "Name": "Demetrius I the Besieger",
-          "Class": "",
-          "Armament": "",
-          "Emblem": "",
-          "History": "One of the Diadochi, king of Macedonia (294-288 BC), Demetrius was renowned as one of the bravest and most able successors of Alexander. As the son of Antigonus I Monophthalmus, he fought and won many important battles early on and was proclaimed king, along with his father, in 306 BC Losing his Asian possessions after the battle of Ipsus, he later won the Macedonian throne. Fearing lest they should be overpowered by Demetrios, the other Diadochi united against him and defeated him."
-        }
-      ]
-    }
-  ],
-  "CivBonuses":
-  [
+			],
+			"Heroes": [
+				{
+					"Name": "Philip II of Macedon",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "The king of Macedonia (359-336 BC), he carried out vast monetary and military reforms in order to make his kingdom the most powerful force in the Greek world. Greatly enlarged the size of Macedonia by conquering much of Thrace and subduing the Greeks. Murdered in Aegae while planning a campaign against Persia."
+				},
+				{
+					"Name": "Alexander III the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "The most powerful hero of them all - son of Philip II, king of Macedonia (336-323 BC). After conquering the rest of the Thracians and quelling the unrest of the Greeks, Alexander embarked on a world-conquest march. Defeating the Persian forces at Granicus (334 BC), Issus (333 BC) and Gaugamela (331 BC), he became master of the Persian Empire. Entering India, he defeated king Porus at Hydaspes (326 BC), but his weary troops made him halt. Died in Babylon at the age of 33 while planning a campaign against Arabia."
+				},
+				{
+					"Name": "Demetrius I the Besieger",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "One of the Diadochi, king of Macedonia (294-288 BC), Demetrius was renowned as one of the bravest and most able successors of Alexander. As the son of Antigonus I Monophthalmus, he fought and won many important battles early on and was proclaimed king, along with his father, in 306 BC Losing his Asian possessions after the battle of Ipsus, he later won the Macedonian throne. Fearing lest they should be overpowered by Demetrios, the other Diadochi united against him and defeated him."
+				}
+			]
+		}
+	],
+	"CivBonuses": [
 		{
 			"Name": "Royal Woods and Mines",
 			"History": "",
@@ -66,12 +74,9 @@
 			"History": "",
 			"Description": "Siege Engines −15% construction time."
 		}
-  ],
-  "TeamBonuses":
-  [
-  ],
-  "Structures":
-  [
+	],
+	"TeamBonuses": [],
+	"Structures": [
 		{
 			"Name": "Hall",
 			"Class": "Military",
@@ -99,57 +104,64 @@
 			"Phase": "City",
 			"Special": "Structures −5% training time."
 		}
-  ],
-  "WallSets":
-  [
+	],
+	"WallSets": [
 		"other/wallset_palisade",
 		"structures/mace_wallset_stone"
-  ],
-  "StartEntities":
-  [
-    { "Template": "structures/mace/centre" },
-    { "Template": "units/mace/support_healer" },
-    { "Template": "units/mace/infantry_pikeman", "Count": 5 },
-    { "Template": "units/mace/cavalry_lancer_champion" },
-    { "Template": "gaia/fauna_sheep", "Count": 3 }
-  ],
-  "Formations":
-  [
-    "special/formations/null",
-    "special/formations/column_closed",
-    "special/formations/column_open",
-    "special/formations/line_closed",
-    "special/formations/line_open",
-    "special/formations/battle_line",
-    "special/formations/box",
-    "special/formations/flank",
-    "special/formations/skirmish",
-    "special/formations/wedge",
-    "special/formations/phalanx",
-    "special/formations/syntagma"
-  ],
-  "AINames":
-  [
-    "Alexander the Great",
-    "Philip II",
-    "Antipater",
-    "Philip IV",
-    "Lysander",
-    "Lysimachus",
-    "Pyrrhus of Epirus",
-    "Antigonus II Gonatas",
-    "Demetrius II Aetolicus",
-    "Philip V",
-    "Perseus",
-    "Craterus",
-    "Meleager"
-  ],
-  "SkirmishReplacements":
-  {
-    "skirmish/units/default_cavalry": "units/mace/cavalry_lancer",
-    "skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman",
-    "skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelineer",
-    "skirmish/structures/default_house_10": "structures/{civ}/house"
-  },
-  "SelectableInGameSetup": true
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/mace/centre"
+		},
+		{
+			"Template": "units/mace/support_healer"
+		},
+		{
+			"Template": "units/mace/infantry_pikeman",
+			"Count": 5
+		},
+		{
+			"Template": "units/mace/cavalry_lancer_champion"
+		},
+		{
+			"Template": "gaia/fauna_sheep",
+			"Count": 3
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/column_closed",
+		"special/formations/column_open",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/battle_line",
+		"special/formations/box",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/phalanx",
+		"special/formations/syntagma"
+	],
+	"AINames": [
+		"Alexander the Great",
+		"Philip II",
+		"Antipater",
+		"Philip IV",
+		"Lysander",
+		"Lysimachus",
+		"Pyrrhus of Epirus",
+		"Antigonus II Gonatas",
+		"Demetrius II Aetolicus",
+		"Philip V",
+		"Perseus",
+		"Craterus",
+		"Meleager"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/mace/cavalry_lancer",
+		"skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman",
+		"skirmish/units/default_infantry_ranged_b": "units/mace/infantry_javelineer",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
 }

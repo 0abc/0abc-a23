@@ -1,16 +1,21 @@
 {
-  "affects": ["Worker"],
-  "auraDescription": "Workers +20% grain gather rate.",
-  "auraName": "Farming Bonus",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/farming.png",
-  "radius": 60,
-  "rangeOverlay" : {
-    "lineTexture": "auras/zigzag.png",
-    "lineTextureMask": "auras/zigzag_mask.png",
-    "lineThickness": 0.4
-  },
-  "type": "range"
+	"affects": [
+		"Worker"
+	],
+	"auraDescription": "Workers +20% grain gather rate.",
+	"auraName": "Farming Bonus",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/food.grain",
+			"multiply": 1.2
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/farming.png",
+	"radius": 60,
+	"rangeOverlay": {
+		"lineTexture": "auras/zigzag.png",
+		"lineTextureMask": "auras/zigzag_mask.png",
+		"lineThickness": 0.4
+	},
+	"type": "range"
 }

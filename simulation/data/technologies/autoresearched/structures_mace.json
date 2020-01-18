@@ -1,10 +1,18 @@
 {
-  "affects": ["Structure"],
-  "autoResearch": true,
-  "genericName": "Greek Architecture",
-  "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.9,  "affects": "Military" }
-  ],
-  "requirements": { "civ": "mace" },
-  "tooltip": "Military Structures −10% build time."
+	"affects": [
+		"Structure"
+	],
+	"autoResearch": true,
+	"genericName": "Greek Architecture",
+	"modifications": [
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 0.9,
+			"affects": "Military"
+		}
+	],
+	"requirements": {
+		"civ": "mace"
+	},
+	"tooltip": "Military Structures −10% build time."
 }

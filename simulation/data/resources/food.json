@@ -1,16 +1,19 @@
 {
-  "aiAnalysisInfluenceGroup": "abundant",
-  "code": "food",
-  "description": "Gather from hunting animals, foraging berry bushes, fishing, or agrigulture.",
-  "name": "Food",
-  "order": 2,
-  "properties": ["barterable", "tributable"],
-  "subtypes": {
-    "cheese": "Cheese",
-    "fish": "Fish",
-    "fruit": "Fruit",
-    "grain": "Grain",
-    "meat": "Meat"
-  },
-  "truePrice": 20
+	"aiAnalysisInfluenceGroup": "abundant",
+	"code": "food",
+	"description": "Gather from hunting animals, foraging berry bushes, fishing, or agrigulture.",
+	"name": "Food",
+	"order": 2,
+	"properties": [
+		"barterable",
+		"tributable"
+	],
+	"subtypes": {
+		"cheese": "Cheese",
+		"fish": "Fish",
+		"fruit": "Fruit",
+		"grain": "Grain",
+		"meat": "Meat"
+	},
+	"truePrice": 20
 }

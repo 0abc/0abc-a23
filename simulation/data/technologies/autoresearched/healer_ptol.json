@@ -1,10 +1,17 @@
 {
-  "affects": ["Healer"],
-  "autoResearch": true,
-  "genericName": "Egyptian Medicine",
-  "modifications": [
-    { "value": "Heal/Rate", "multiply": 0.8 }
-  ],
-  "requirements": { "civ": "ptol" },
-  "tooltip": "Ptolemaic Healers −20% healing time."
+	"affects": [
+		"Healer"
+	],
+	"autoResearch": true,
+	"genericName": "Egyptian Medicine",
+	"modifications": [
+		{
+			"value": "Heal/Rate",
+			"multiply": 0.8
+		}
+	],
+	"requirements": {
+		"civ": "ptol"
+	},
+	"tooltip": "Ptolemaic Healers −20% healing time."
 }

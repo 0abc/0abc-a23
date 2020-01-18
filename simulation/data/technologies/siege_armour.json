@@ -1,15 +1,28 @@
 {
-  "affects": ["Siege"],
-  "cost": { "silver": 0, "food": 0, "wood": 500, "stone": 0, "metal": 250 },
-  "description": "Increased armour on siege weapons",
-  "genericName": "Armour plating",
-  "icon": "armor_plates_gold.png",
-  "modifications": [
-    { "value": "Armour/Hack", "add": 2.0 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Siege Engines +2 hack armour levels."
+	"affects": [
+		"Siege"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 500,
+		"stone": 0,
+		"metal": 250
+	},
+	"description": "Increased armour on siege weapons",
+	"genericName": "Armour plating",
+	"icon": "armor_plates_gold.png",
+	"modifications": [
+		{
+			"value": "Armour/Hack",
+			"add": 2.0
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Siege Engines +2 hack armour levels."
 }

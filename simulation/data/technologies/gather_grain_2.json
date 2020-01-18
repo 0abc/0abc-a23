@@ -1,16 +1,29 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
-  "description": "Extra nutrients for farms.",
-  "genericName": "Fertilizer",
-  "icon": "gather_grain_ii.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15 }
-  ],
-  "requirements": { "tech": "phase_town" },
-  "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 60,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "gather_grain_1",
-  "tooltip": "Workers +15% grain gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 600,
+		"stone": 0,
+		"metal": 400
+	},
+	"description": "Extra nutrients for farms.",
+	"genericName": "Fertilizer",
+	"icon": "gather_grain_ii.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/food.grain",
+			"multiply": 1.15
+		}
+	],
+	"requirements": {
+		"tech": "phase_town"
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"researchTime": 60,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"supersedes": "gather_grain_1",
+	"tooltip": "Workers +15% grain gather rate."
 }

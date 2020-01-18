@@ -1,16 +1,29 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 600, "stone": 0, "metal": 400 },
-  "description": "Develop shaft mining.",
-  "genericName": "Shaft Mining",
-  "icon": "gather_metal_ii.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.25 }
-  ],
-  "requirements": { "tech": "phase_town" },
-  "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 60,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "gather_metal_1",
-  "tooltip": "Workers +25% iron gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 600,
+		"stone": 0,
+		"metal": 400
+	},
+	"description": "Develop shaft mining.",
+	"genericName": "Shaft Mining",
+	"icon": "gather_metal_ii.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/metal.ore",
+			"multiply": 1.25
+		}
+	],
+	"requirements": {
+		"tech": "phase_town"
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"researchTime": 60,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"supersedes": "gather_metal_1",
+	"tooltip": "Workers +25% iron gather rate."
 }

@@ -1,16 +1,29 @@
 {
-  "affects": ["Worker"],
-  "cost": { "silver": 0, "food": 0, "wood": 900, "stone": 0, "metal": 600 },
-  "description": "Increases wood gathering rates for trees.",
-  "genericName": "Sharp Axe Heads",
-  "icon": "gather_wood_iii.png",
-  "modifications": [
-    { "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.30 }
-  ],
-  "requirements": { "tech": "phase_city" },
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 75,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "gather_wood_2",
-  "tooltip": "Workers +30% wood gather rate."
+	"affects": [
+		"Worker"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 900,
+		"stone": 0,
+		"metal": 600
+	},
+	"description": "Increases wood gathering rates for trees.",
+	"genericName": "Sharp Axe Heads",
+	"icon": "gather_wood_iii.png",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/wood.tree",
+			"multiply": 1.3
+		}
+	],
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"researchTime": 75,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"supersedes": "gather_wood_2",
+	"tooltip": "Workers +30% wood gather rate."
 }

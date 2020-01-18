@@ -1,16 +1,21 @@
 {
-  "affects": ["Human"],
-  "auraDescription": "Humans +1.5 health regeneration rate.",
-  "auraName": "Blessing of the Gods",
-  "modifications": [
-    { "value": "Health/RegenRate", "add": 1.5 }
-  ],
-  "overlayIcon": "art/textures/ui/session/auras/heal.png",
-  "radius": 50,
-  "rangeOverlay" : {
-    "lineTexture": "auras/cross.png",
-    "lineTextureMask": "auras/cross_mask.png",
-    "lineThickness": 0.5
-  },
-  "type": "range"
+	"affects": [
+		"Human"
+	],
+	"auraDescription": "Humans +1.5 health regeneration rate.",
+	"auraName": "Blessing of the Gods",
+	"modifications": [
+		{
+			"value": "Health/RegenRate",
+			"add": 1.5
+		}
+	],
+	"overlayIcon": "art/textures/ui/session/auras/heal.png",
+	"radius": 50,
+	"rangeOverlay": {
+		"lineTexture": "auras/cross.png",
+		"lineTextureMask": "auras/cross_mask.png",
+		"lineThickness": 0.5
+	},
+	"type": "range"
 }

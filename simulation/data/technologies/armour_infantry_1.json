@@ -1,20 +1,48 @@
 {
-  "affects": ["Infantry Melee !Fanatic"],
-  "cost": { "silver": 0, "food": 0, "wood": 800, "stone": 0, "metal": 400 },
-  "description": "Equip infantrymen with body armour made from quilted leather.",
-  "genericName": "Quilted Leather Body Armour",
-  "icon": "armor_leather.png",
-  "modifications": [
-    { "value": "Armour/Crush",         "add":      1    },
-    { "value": "Armour/Hack",          "add":      1    },
-    { "value": "Armour/Pierce",        "add":      1    },
-    { "value": "Armour/Thrust",        "add":      1    },
-    { "value": "UnitMotion/Run/Speed", "multiply": 0.98 },
-    { "value": "UnitMotion/WalkSpeed", "multiply": 0.98 }
-  ],
-  "requirements": { "tech": "phase_village" },
-  "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 45,
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Melee Infantry +1 armour level, but also −2% movement speed."
+	"affects": [
+		"Infantry Melee !Fanatic"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 800,
+		"stone": 0,
+		"metal": 400
+	},
+	"description": "Equip infantrymen with body armour made from quilted leather.",
+	"genericName": "Quilted Leather Body Armour",
+	"icon": "armor_leather.png",
+	"modifications": [
+		{
+			"value": "Armour/Crush",
+			"add": 1
+		},
+		{
+			"value": "Armour/Hack",
+			"add": 1
+		},
+		{
+			"value": "Armour/Pierce",
+			"add": 1
+		},
+		{
+			"value": "Armour/Thrust",
+			"add": 1
+		},
+		{
+			"value": "UnitMotion/Run/Speed",
+			"multiply": 0.98
+		},
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"multiply": 0.98
+		}
+	],
+	"requirements": {
+		"tech": "phase_village"
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"researchTime": 45,
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Melee Infantry +1 armour level, but also −2% movement speed."
 }

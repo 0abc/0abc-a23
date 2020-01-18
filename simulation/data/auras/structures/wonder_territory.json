@@ -1,10 +1,15 @@
 {
-  "affects": ["Structure"],
-  "auraDescription": "Structures +10% territory influence radius per Wonder owned.",
-  "auraName": "Symbol of Greatness",
-  "modifications": [
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.1 }
-  ],
-  "stackable": true,
-  "type": "global"
+	"affects": [
+		"Structure"
+	],
+	"auraDescription": "Structures +10% territory influence radius per Wonder owned.",
+	"auraName": "Symbol of Greatness",
+	"modifications": [
+		{
+			"value": "TerritoryInfluence/Radius",
+			"multiply": 1.1
+		}
+	],
+	"stackable": true,
+	"type": "global"
 }

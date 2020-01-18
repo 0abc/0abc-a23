@@ -1,34 +1,88 @@
 {
-  "affects": ["Centre"],
-  "cost": { "silver": 0, "food": 0, "wood": 1200, "stone": 1200, "metal": 1200 },
-  "description": "Advances from a veritable city to a true metropolis, larger and more influential than any other settlement.",
-  "genericName": "Metropolis Phase",
-  "icon": "phase_iv.png",
-  "modifications": [
-    { "value": "Capturable/RegenRate",         "add":      5    },
-    { "value": "ResourceTrickle/Rates/food",   "add":     -0.2  },
-    { "value": "ResourceTrickle/Rates/silver", "add":      0.2  },
-    { "value": "TerritoryInfluence/Radius",    "multiply": 1.15 },
-    { "value": "TerritoryInfluence/Weight",    "multiply": 1.15 }
-  ],
-  "requirements": { "all": 
-    [
-      { "entity": { "class": "Forge",         "number":  1 } },
-      { "entity": { "class": "House",         "number": 20 } },
-      { "entity": { "class": "BarterMarket",  "number":  1 } },
-      { "entity": { "class": "Temple",        "number":  1 } },
-      { "entity": { "class": "Theatre",       "number":  1 } },
-      { "any": 
-        [
-          { "civ": "mace" },
-          { "civ": "ptol" },
-          { "civ": "sele" }
-        ]
-      }
-    ] 
-  },
-  "researchTime": 180,
-  "soundComplete": "interface/alarm/alarm_phase.xml",
-  "supersedes": "phase_city",
-  "tooltip": "Advance to Metropolis Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
+	"affects": [
+		"Centre"
+	],
+	"cost": {
+		"silver": 0,
+		"food": 0,
+		"wood": 1200,
+		"stone": 1200,
+		"metal": 1200
+	},
+	"description": "Advances from a veritable city to a true metropolis, larger and more influential than any other settlement.",
+	"genericName": "Metropolis Phase",
+	"icon": "phase_iv.png",
+	"modifications": [
+		{
+			"value": "Capturable/RegenRate",
+			"add": 5
+		},
+		{
+			"value": "ResourceTrickle/Rates/food",
+			"add": -0.2
+		},
+		{
+			"value": "ResourceTrickle/Rates/silver",
+			"add": 0.2
+		},
+		{
+			"value": "TerritoryInfluence/Radius",
+			"multiply": 1.15
+		},
+		{
+			"value": "TerritoryInfluence/Weight",
+			"multiply": 1.15
+		}
+	],
+	"requirements": {
+		"all": [
+			{
+				"entity": {
+					"class": "Forge",
+					"number": 1
+				}
+			},
+			{
+				"entity": {
+					"class": "House",
+					"number": 20
+				}
+			},
+			{
+				"entity": {
+					"class": "BarterMarket",
+					"number": 1
+				}
+			},
+			{
+				"entity": {
+					"class": "Temple",
+					"number": 1
+				}
+			},
+			{
+				"entity": {
+					"class": "Theatre",
+					"number": 1
+				}
+			},
+			{
+				"any": [
+					{
+						"civ": "mace"
+					},
+					{
+						"civ": "ptol"
+					},
+					{
+						"civ": "sele"
+					}
+				]
+			}
+		]
+	},
+	"researchTime": 180,
+	"soundComplete": "interface/alarm/alarm_phase.xml",
+	"supersedes": "phase_city",
+	"tooltip": "Advance to Metropolis Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
 }
