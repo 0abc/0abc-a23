@@ -399,12 +399,12 @@
         type="image"
         sprite="productLogo"
         ghost="true"
-        size="50%-110 30 50%+110 130"
+        size="50%-110 10 50%+110 110"
       />
 
       <object
         type="image"
-        size="8 156 100%-8 356"
+        size="8 120 100%-8 320"
         ghost="false"
       >
         <!-- GAME INFORMATION BUTTON -->
@@ -526,7 +526,7 @@
             <keep>[font="sans-bold-16"]</keep>
             <translate>Alpha XXIII: Ken Wood</translate>
             <keep>[/font]\n\n</keep>
-            <translate>WARNING: This is an early development version of the game. Many features have not been added yet.</translate>
+            <translate>This is an early development version of the game. Many features have not been added yet.</translate>
           </attribute>
         </object>
 
@@ -613,7 +613,7 @@
           ghost="true"
           size="50%-128 32 50%+128 48"
         >
-          <translatableAttribute id="caption">WILDFIRE GAMES</translatableAttribute>
+          <translatableAttribute id="caption">Wildfire Games</translatableAttribute>
         </object>
       </object>
 
