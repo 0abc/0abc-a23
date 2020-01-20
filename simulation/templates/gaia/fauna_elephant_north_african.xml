@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_gaia_fauna_melee_elephant">
+<Entity parent="template_gaia_animal_melee_elephant">
   <Attack>
     <Melee>
       <Crush op="mul">0.9</Crush>

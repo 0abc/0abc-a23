@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_gaia_fauna">
+<Entity parent="template_gaia_animal">
   <Footprint>
     <Height>1.5</Height>
     <Square width="1.3" depth="2.6"/>
