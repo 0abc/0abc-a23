@@ -150,6 +150,18 @@ function getHistoryTooltip(template)
   return bodyFont(template.history);
 }
 
+function getCurrentCaptureTooltip(entState, label)
+{
+  if (!entState.maxCapturePoints)
+    return "";
+
+  return sprintf(translate("%(captureLabel)s %(current)s / %(max)s"), {
+    "captureLabel": headerFont(label || translate("Capture points:")),
+    "current": Math.round(entState.capturePoints[entState.player]),
+    "max": Math.round(entState.maxCapturePoints)
+  });
+}
+
 function getHealthTooltip(template)
 {
   if (!template.health)
@@ -173,15 +185,49 @@ function getCurrentHealthTooltip(entState, label)
   });
 }
 
-function getCurrentCaptureTooltip(entState, label)
+/**
+ * Converts an armour level into the actual reduction percentage
+ */
+function armorLevelToPercentageString(level)
 {
-  if (!entState.maxCapturePoints)
+  return sprintf(translate("%(percentage)s%%"), {
+    "percentage": (100 - Math.round(Math.pow(0.9, level) * 100))
+  });
+}
+
+function getArmorTooltip(template)
+{
+  if (!template.armour)
     return "";
 
-  return sprintf(translate("%(captureLabel)s %(current)s / %(max)s"), {
-    "captureLabel": headerFont(label || translate("Capture points:")),
-    "current": Math.round(entState.capturePoints[entState.player]),
-    "max": Math.round(entState.maxCapturePoints)
+  return sprintf(translate("%(label)s %(details)s"), {
+    "label": headerFont(translate("Armour:")),
+    "details":
+      Object.keys(template.armour).map(
+        dmgType => sprintf(translate("%(armourPercentage)s %(damageType)s"), {
+          "armourPercentage": sprintf(translate("%(armourPercentage)s"), {
+              "armourPercentage": armorLevelToPercentageString(template.armour[dmgType])
+            }),
+          "damageType": unitFont(translateWithContext("damage type", g_DamageTypes.GetNames()[dmgType]))
+        })
+      ).join(", ")
+  });
+}
+
+function getArmourHealthTooltip(template)
+{
+  if (!template.armour || !template.health || !template.speed)
+    return "";
+
+  return sprintf(translate("%(label)s %(details)s"), {
+    "label": headerFont(translate("Armour-health equivalents:\n  ")),
+    "details":
+      Object.keys(template.armour).map(
+        dmgType => sprintf(translate("%(damage)s %(damageType)s"), {
+          "damage": Math.round(template.health / Math.pow(0.9, template.armour[dmgType])),
+          "damageType": unitFont(translateWithContext("damage type", dmgType))
+        })
+      ).join(", ")
   });
 }
 
@@ -224,35 +270,6 @@ function attackCostDetails(template, attackType)
             "resourceIcon": resourceIcon(res)
           })
         ).join("  ")
-  });
-}
-
-/**
- * Converts an armour level into the actual reduction percentage
- */
-function armorLevelToPercentageString(level)
-{
-  return sprintf(translate("%(percentage)s%%"), {
-    "percentage": (100 - Math.round(Math.pow(0.9, level) * 100))
-  });
-}
-
-function getArmorTooltip(template)
-{
-  if (!template.armour)
-    return "";
-
-  return sprintf(translate("%(label)s %(details)s"), {
-    "label": headerFont(translate("Armour:")),
-    "details":
-      Object.keys(template.armour).map(
-        dmgType => sprintf(translate("%(armourPercentage)s %(damageType)s"), {
-          "armourPercentage": sprintf(translate("%(armourPercentage)s"), {
-              "armourPercentage": armorLevelToPercentageString(template.armour[dmgType])
-            }),
-          "damageType": unitFont(translateWithContext("damage type", g_DamageTypes.GetNames()[dmgType]))
-        })
-      ).join(", ")
   });
 }
 
