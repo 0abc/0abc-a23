@@ -19,6 +19,9 @@
     <Rate>500</Rate>
     <UnhealableClasses datatype="tokens"/>
   </Heal>
+  <Health>
+    <Max>60</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>
     <GenericName>Healer</GenericName>

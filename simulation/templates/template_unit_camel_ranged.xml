@@ -7,9 +7,6 @@
       <PreferredClasses datatype="tokens">Support Cavalry Melee Organic</PreferredClasses>
     </Ranged>
   </Attack>
-  <Health>
-    <Max op="mul">1.44</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
     <Formations datatype="tokens">

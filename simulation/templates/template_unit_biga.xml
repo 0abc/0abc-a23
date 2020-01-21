@@ -10,8 +10,8 @@
     <BuildTime>70</BuildTime>
     <Population>4</Population>
     <Resources>
-      <food>160</food>
-      <silver>90</silver>
+      <food>150</food>
+      <metal>90</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -22,7 +22,7 @@
     <Size>8</Size>
   </Garrisonable>
   <Health>
-    <Max op="mul">2.4</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Human Mounted</Classes>

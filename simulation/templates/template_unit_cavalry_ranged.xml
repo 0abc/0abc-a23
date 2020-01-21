@@ -13,9 +13,6 @@
       <PreferredClasses datatype="tokens">Support Melee Organic</PreferredClasses>
     </Ranged>
   </Attack>
-  <Health>
-    <Max op="mul">1.2</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
     <Formations datatype="tokens">

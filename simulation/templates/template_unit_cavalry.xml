@@ -12,8 +12,8 @@
     <BuildTime>50</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>80</food>
-      <silver>40</silver>
+      <food>75</food>
+      <metal>45</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -23,6 +23,9 @@
   <Garrisonable>
     <Size>3</Size>
   </Garrisonable>
+  <Health>
+    <Max>150</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Human Mounted</Classes>
     <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>

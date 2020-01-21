@@ -2,7 +2,6 @@
 <Entity parent="template_unit_support_gatherer">
   <Attack disable=""/>
   <Cost>
-    <BuildTime>30</BuildTime>
     <Resources>
       <silver>30</silver>
     </Resources>

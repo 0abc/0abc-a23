@@ -12,8 +12,8 @@
     <BuildTime>60</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>70</food>
-      <silver>35</silver>
+      <food>80</food>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -23,6 +23,9 @@
   <Garrisonable>
     <Size>4</Size>
   </Garrisonable>
+  <Health>
+    <Max>160</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Human Mounted</Classes>
     <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>

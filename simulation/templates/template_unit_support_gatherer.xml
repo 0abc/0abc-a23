@@ -17,10 +17,19 @@
       <Thrust>0</Thrust>
     </Slaughter>
   </Attack>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>30</food>
+    </Resources>
+  </Cost>
   <Footprint>
     <Circle radius="1.5"/>
     <Height>3</Height>
   </Footprint>
+  <Health>
+    <Max>60</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Gatherer Worker</VisibleClasses>
     <GenericName>Gatherer</GenericName>

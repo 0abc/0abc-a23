@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_gatherer">
-  <Cost>
-    <BuildTime>30</BuildTime>
-    <Resources>
-      <food>30</food>
-    </Resources>
-  </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <GenericName>Worker</GenericName>

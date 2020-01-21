@@ -60,7 +60,7 @@
     <Population>1</Population>
     <Resources>
       <food>30</food>
-      <silver>30</silver>
+      <metal>30</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -70,6 +70,9 @@
   <Garrisonable>
     <Size>1</Size>
   </Garrisonable>
+  <Health>
+    <Max>60</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Human</Classes>
     <VisibleClasses datatype="tokens">Builder Soldier Infantry</VisibleClasses>

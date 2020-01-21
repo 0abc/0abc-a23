@@ -13,9 +13,6 @@
     </Melee>
     <Ranged disable=""/>
   </Attack>
-  <Health>
-    <Max op="mul">1.8</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Melee Camel</GenericName>

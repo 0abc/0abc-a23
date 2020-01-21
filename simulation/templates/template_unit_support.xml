@@ -6,9 +6,6 @@
   <Garrisonable>
     <Size>1</Size>
   </Garrisonable>
-  <Health>
-    <Max op="mul">0.5</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Human</Classes>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>

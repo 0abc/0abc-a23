@@ -8,8 +8,8 @@
   <Cost>
     <BuildTime op="mul">0.9</BuildTime>
     <Resources>
-      <food op="add">-30</food>
-      <silver op="add">-30</silver>
+      <food op="mul">0.9</food>
+      <metal op="mul">0.9</metal>
     </Resources>
   </Cost>
   <Health>

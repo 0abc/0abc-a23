@@ -3,7 +3,7 @@
 		"Melee Cavalry"
 	],
 	"cost": {
-		"silver": 500
+		"silver": 350
 	},
 	"description": "The now-extinct Nisian breed of horse was one of the largest and robust horses of ancient times. They were highly sought after by the Seleucids and Persians as both rider and mount gained heavier armour as time progressed.",
 	"genericName": "Nisean War Horses",
@@ -11,6 +11,10 @@
 	"modifications": [
 		{
 			"value": "Health/Max",
+			"multiply": 1.2
+		},
+		{
+			"value": "Cost/Resources/food",
 			"multiply": 1.2
 		}
 	],
@@ -27,5 +31,5 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"researchTime": 75,
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-	"tooltip": "Melee Cavalry +20% health."
+	"tooltip": "Melee Cavalry +20% food cost, +20% health."
 }

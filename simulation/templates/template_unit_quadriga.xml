@@ -11,7 +11,7 @@
     <Population>6</Population>
     <Resources>
       <food>240</food>
-      <silver>120</silver>
+      <metal>125</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -22,7 +22,7 @@
     <Size>12</Size>
   </Garrisonable>
   <Health>
-    <Max op="mul">3.6</Max>
+    <Max>480</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Human Mounted</Classes>
