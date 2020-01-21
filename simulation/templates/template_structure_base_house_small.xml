@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_base_house">
+  <Capturable>
+    <CapturePoints op="mul">2.0</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">2.0</BuildTime>
+    <PopulationBonus op="mul">2.0</PopulationBonus>
+    <Resources>
+      <wood op="mul">2.0</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max op="mul">2.0</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">2.0</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <ResourceTrickle>
+    <Rates>
+      <wood op="mul">2.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_base">
+  <Attack disable=""/>
+  <BuildingAI disable=""/>
   <BuildRestrictions>
     <Distance>
       <FromClass>Centre</FromClass>
@@ -7,25 +9,34 @@
     </Distance>
     <Territory>own</Territory>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>100</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <PopulationBonus>2</PopulationBonus>
+    <Resources>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>2</Max>
+  </GarrisonHolder>
   <Health>
+    <Max>200</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">House</Classes>
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
-    <Tooltip>Increase the population limit.</Tooltip>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/support_woman
-    </Entities>
-    <Technologies datatype="tokens">
-      armour_gatherer
-      training_house
-    </Technologies>
-  </ProductionQueue>
   <ResourceDropsite disable=""/>
+  <ResourceTrickle>
+    <Rates>
+      <wood>-0.01</wood>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_house.xml</constructed>

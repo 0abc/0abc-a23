@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_base_house">
-  <Attack>
-    <Ranged>
-      <Crush>6</Crush>
-      <MaxRange>20</MaxRange>
-      <ProjectileSpeed>25</ProjectileSpeed>
-    </Ranged>
-  </Attack>
   <Capturable>
-    <CapturePoints>600</CapturePoints>
+    <CapturePoints op="mul">6.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>60</BuildTime>
-    <PopulationBonus>12</PopulationBonus>
+    <BuildTime op="mul">6.0</BuildTime>
+    <PopulationBonus op="mul">6.0</PopulationBonus>
     <Resources>
-      <stone>60</stone>
-      <wood>180</wood>
+      <wood op="mul">6.0</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>12</Max>
+    <Max op="mul">6.0</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1200</Max>
+    <Max op="mul">6.0</Max>
   </Health>
   <Identity>
     <GenericName>Apartment Block</GenericName>
@@ -30,7 +22,7 @@
   </Identity>
   <ResourceTrickle>
     <Rates>
-      <wood>-0.06</wood>
+      <wood op="mul">6.0</wood>
     </Rates>
   </ResourceTrickle>
 </Entity>

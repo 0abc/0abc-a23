@@ -21,6 +21,7 @@
     <Entities datatype="tokens">
       structures/{civ}/centre
       structures/{civ}/house
+      structures/{civ}/apartment
       structures/{civ}/field
       structures/{civ}/farmstead
       structures/{civ}/storehouse

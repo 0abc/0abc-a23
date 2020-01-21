@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base_house_normal">
+<Entity parent="template_structure_base_house_large">
   <Footprint>
     <Height>5</Height>
     <Square width="15" depth="15"/>
@@ -10,19 +10,6 @@
   <Obstruction>
     <Static width="13" depth="13"/>
   </Obstruction>
-  <Upgrade>
-    <Apartment>
-      <Cost>
-        <metal>10</metal>
-        <stone>50</stone>
-        <wood>40</wood>
-      </Cost>
-      <Entity>structures/{civ}/apartment</Entity>
-      <RequiredTechnology>phase_city_cart</RequiredTechnology>
-      <Time>60</Time>
-      <Tooltip>Expand to accomodate more units.</Tooltip>
-    </Apartment>
-  </Upgrade>
   <VisualActor>
     <Actor>structures/carthaginians/house.xml</Actor>
     <FoundationActor>structures/carthaginians/fndn_house.xml</FoundationActor>

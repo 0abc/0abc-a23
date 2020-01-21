@@ -47,6 +47,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/{civ}/support_woman
       units/{civ}/infantry_archer
       units/{civ}/infantry_javelineer
       units/{civ}/infantry_maceman
