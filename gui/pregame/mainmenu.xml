@@ -157,31 +157,31 @@
 				tooltip_style="pgToolTip"
 				hidden="true"
 			>
-				<!-- Tutorial button -->
+				<!-- Matches button -->
 				<object
 					type="button"
 					style="StoneButtonFancy"
 					size="0 0 100% 28"
 					tooltip_style="pgToolTip"
 				>
-					<translatableAttribute id="caption">Tutorial</translatableAttribute>
-					<translatableAttribute id="tooltip">Start the economic tutorial.</translatableAttribute>
+					<translatableAttribute id="caption">Matches</translatableAttribute>
+					<translatableAttribute id="tooltip">Start a new single-player game.</translatableAttribute>
 					<action on="Press">
-						Engine.SwitchGuiPage("page_gamesetup.xml", { "tutorial": true });
+						Engine.SwitchGuiPage("page_gamesetup.xml", {});
 					</action>
 				</object>
 
-				<!-- Matches button -->
+				<!-- Tutorial button -->
 				<object
 					type="button"
 					style="StoneButtonFancy"
 					size="0 32 100% 60"
 					tooltip_style="pgToolTip"
 				>
-					<translatableAttribute id="caption">Matches</translatableAttribute>
-					<translatableAttribute id="tooltip">Start a new single-player game.</translatableAttribute>
+					<translatableAttribute id="caption">Tutorial</translatableAttribute>
+					<translatableAttribute id="tooltip">Start the economic tutorial.</translatableAttribute>
 					<action on="Press">
-						Engine.SwitchGuiPage("page_gamesetup.xml", {});
+						Engine.SwitchGuiPage("page_gamesetup.xml", { "tutorial": true });
 					</action>
 				</object>
 
