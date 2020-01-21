@@ -378,7 +378,7 @@
     <object name="mainMenu"
       type="image"
       style="MainMenuPanel"
-      size="60 -2 300 100%+2"
+      size="-2 -2 240-2 100%+2"
       z="50"
     >
       <!-- These are used to make the right side blend in with the submenu -->
