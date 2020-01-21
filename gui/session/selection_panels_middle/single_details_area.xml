@@ -2,111 +2,110 @@
 <!-- Unit details for single unit -->
 <object size="0 0 100% 100%" name="detailsAreaSingle">
 
-  <!-- Stats Bars -->
-  <object size="0 0 100% 50%" type="image" tooltip_style="sessionToolTip">
+	<!-- Stats Bars -->
+	<object size="0 0 100% 50%" type="image" tooltip_style="sessionToolTip">
 
-    <object size="4 4 100%-4 64" type="image" sprite="topEdgedPanelShader">
+		<object size="4 4 100%-4 64" type="image" sprite="topEdgedPanelShader">
 
-      <!-- Placeholders storing the position for the bars -->
-      <object size="88 1 100% 24" name="sectionPosTop" hidden="true"/>
-      <object size="88 11 100% 34" name="sectionPosMiddle" hidden="true"/>
-      <object size="88 32 100% 55" name="sectionPosBottom" hidden="true"/>
+			<!-- Placeholders storing the position for the bars -->
+			<object size="88 1 100% 24" name="sectionPosTop" hidden="true"/>
+			<object size="88 11 100% 34" name="sectionPosMiddle" hidden="true"/>
+			<object size="88 32 100% 55" name="sectionPosBottom" hidden="true"/>
 
-      <!-- Health bar -->
-      <object name="healthSection">
-        <object size="0 0 100% 12" name="healthLabel" type="text" style="StatsTextLeft" ghost="true">
-          <translatableAttribute id="tooltip">Health:</translatableAttribute>
-        </object>
-        <object size="0 0 100% 12" name="healthStats" type="text" style="StatsTextRight" ghost="true"/>
-        <object size="1 14 100% 21" name="health" type="image" tooltip_style="sessionToolTip">
-          <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
-          <object type="image" sprite="healthBackground" ghost="true"/>
-          <object type="image" sprite="healthForeground" ghost="true" name="healthBar"/>
-          <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
-        </object>
-      </object>
+			<!-- Health bar -->
+			<object name="healthSection">
+				<object size="0 0 100% 12" name="healthLabel" type="text" style="StatsTextLeft" ghost="true">
+					<translatableAttribute id="tooltip">Health:</translatableAttribute>
+				</object>
+				<object size="0 0 100% 12" name="healthStats" type="text" style="StatsTextRight" ghost="true"/>
+				<object size="1 14 100% 21" name="health" type="image" tooltip_style="sessionToolTip">
+					<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+					<object type="image" sprite="healthBackground" ghost="true"/>
+					<object type="image" sprite="healthForeground" ghost="true" name="healthBar"/>
+					<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+				</object>
+			</object>
 
-      <!-- Capture bar -->
-      <object name="captureSection">
-        <object size="0 0 100% 12" name="captureLabel" type="text" style="StatsTextLeft" ghost="true">
-          <translatableAttribute id="tooltip">Capture points:</translatableAttribute>
-        </object>
-        <object size="0 0 100% 12" name="captureStats" type="text" style="StatsTextRight" ghost="true"/>
-        <object size="1 14 100% 21" name="capture" type="image" tooltip_style="sessionToolTip">
-          <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
-          <repeat count="9">
-            <object type="image" sprite="playerColorBackground" ghost="true" name="captureBar[n]" hidden="true"/>
-          </repeat>
-          <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
-        </object>
-      </object>
+			<!-- Capture bar -->
+			<object name="captureSection">
+				<object size="0 0 100% 12" name="captureLabel" type="text" style="StatsTextLeft" ghost="true">
+					<translatableAttribute id="tooltip">Capture points:</translatableAttribute>
+				</object>
+				<object size="0 0 100% 12" name="captureStats" type="text" style="StatsTextRight" ghost="true"/>
+				<object size="1 14 100% 21" name="capture" type="image" tooltip_style="sessionToolTip">
+					<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+					<repeat count="9">
+						<object type="image" sprite="playerColorBackground" ghost="true" name="captureBar[n]" hidden="true"/>
+					</repeat>
+					<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+				</object>
+			</object>
 
-      <!-- Resource bar -->
-      <object name="resourceSection">
-        <object size="0 0 100% 12" name="resourceLabel" type="text" style="StatsTextLeft" ghost="true"/>
-        <object size="0 0 100% 12" name="resourceStats" type="text" style="StatsTextRight" ghost="true"/>
-        <object size="1 14 100% 21" name="resources" type="image">
-          <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
-          <object type="image" sprite="resourceBackground" ghost="true"/>
-          <object type="image" sprite="resourceForeground" ghost="true" name="resourceBar"/>
-          <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
-        </object>
-      </object>
-    </object>
+			<!-- Resource bar -->
+			<object name="resourceSection">
+				<object size="0 0 100% 12" name="resourceLabel" type="text" style="StatsTextLeft" ghost="true"/>
+				<object size="0 0 100% 12" name="resourceStats" type="text" style="StatsTextRight" ghost="true"/>
+				<object size="1 14 100% 21" name="resources" type="image">
+					<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+					<object type="image" sprite="resourceBackground" ghost="true"/>
+					<object type="image" sprite="resourceForeground" ghost="true" name="resourceBar"/>
+					<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+				</object>
+			</object>
+		</object>
 
-    <object size="4 63 100%-4 99">
-      <!-- Armour etc. tooltip -->
-      <object size="90 0 122 32" name="attackAndArmorStats" type="image" sprite="stretched:session/icons/stances/defensive.png" tooltip_style="sessionToolTipInstantly">
-        <translatableAttribute id="tooltip">Attack and Armour</translatableAttribute>
-      </object>
-      <!-- Resource carrying counter and icon, also used for number of gatherers and build time -->
-      <object size="100%-96 0 100%-32 32" type="text" name="resourceCarryingText" style="CarryingTextRight"/>
-      <object size="100%-32 0 100% 32" type="image" name="resourceCarryingIcon" tooltip_style="sessionToolTip"/>
-    </object>
+		<object size="4 63 100%-4 99">
+			<!-- Armour etc. tooltip -->
+			<object size="90 0 122 32" name="attackAndArmorStats" type="image" sprite="stretched:session/icons/stances/defensive.png" tooltip_style="sessionToolTipInstantly">
+				<translatableAttribute id="tooltip">Attack and Armour</translatableAttribute>
+			</object>
+			<!-- Resource carrying counter and icon, also used for number of gatherers and build time -->
+			<object size="100%-96 0 100%-32 32" type="text" name="resourceCarryingText" style="CarryingTextRight"/>
+			<object size="100%-32 0 100% 32" type="image" name="resourceCarryingIcon" tooltip_style="sessionToolTip"/>
+		</object>
 
-    <!-- Big unit icon -->
-    <object size="2 2 92 92" type="button" name="iconBorder" sprite="iconBorder" tooltip_style="sessionToolTip">
-      <object size="1 1 100%-1 100%-1" type="image" name="icon" ghost="true"/>
+		<!-- Big unit icon -->
+		<object size="2 2 92 92" type="button" name="iconBorder" sprite="iconBorder" tooltip_style="sessionToolTip">
+			<object size="1 1 100%-1 100%-1" type="image" name="icon" ghost="true"/>
 
-      <!-- Experience bar -->
-      <object size="2 2 6 100%-2" type="image" name="experience" tooltip_style="sessionToolTip">
-        <translatableAttribute id="tooltip">Experience</translatableAttribute>
-        <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
-        <object type="image" sprite="experienceBackground" ghost="true"/>
-        <object type="image" sprite="experienceForeground" ghost="true" name="experienceBar"/>
-        <object type="image" sprite="statsBarShaderVertical" ghost="true"/>
-      </object>
+			<!-- Experience bar -->
+			<object size="2 2 6 100%-2" type="image" name="experience" tooltip_style="sessionToolTip">
+				<translatableAttribute id="tooltip">Experience</translatableAttribute>
+				<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+				<object type="image" sprite="experienceBackground" ghost="true"/>
+				<object type="image" sprite="experienceForeground" ghost="true" name="experienceBar"/>
+				<object type="image" sprite="statsBarShaderVertical" ghost="true"/>
+			</object>
 
-      <object z="20" size="0 0 50% 50%" name="rankIcon" type="image" tooltip_style="sessionToolTip">
-        <translatableAttribute id="tooltip">Rank</translatableAttribute>
-      </object>
-    </object>
-  </object>
+			<object z="20" size="0 0 50% 50%" name="rankIcon" type="image" tooltip_style="sessionToolTip">
+				<translatableAttribute id="tooltip">Rank</translatableAttribute>
+			</object>
+		</object>
+	</object>
 
-  <!-- Names -->
-  <object size="4 96 100%-4 100%-36" name="statsArea" type="image" sprite="edgedPanelShader">
+	<!-- Names -->
+	<object size="4 96 100%-4 100%-36" name="statsArea" type="image" sprite="edgedPanelShader">
 
-    <!-- These images are used to clip off the top and bottom of the civ icon -->
-    <object z="30" size="0 -5 100% 40" ghost="true" type="image" sprite="remove"/>
-    <object z="30" size="0 100%-5 100% 100%+40" ghost="true" type="image" sprite="remove"/>
+		<!-- These images are used to clip off the top and bottom of the civ icon -->
+		<object z="30" size="0 -5 100% 40" ghost="true" type="image" sprite="remove"/>
+		<object z="30" size="0 100%-5 100% 100%+40" ghost="true" type="image" sprite="remove"/>
 
-    <object z="30" size="0 2 100% 45" ghost="true">
-      <!-- Specific Name -->
-      <object size="0 0 100% 20" name="specific" ghost="true" type="text" style="SpecificNameCentered"/>
-      <!-- Generic Name -->
-      <object size="0 15 100% 36" name="generic" ghost="true" type="text" style="GenericNameCentered"/>
-    </object>
+		<object z="30" size="0 2 100% 45" ghost="true">
+			<!-- Specific Name -->
+			<object size="0 0 100% 20" name="specific" ghost="true" type="text" style="SpecificNameCentered"/>
+			<!-- Generic Name -->
+			<object size="0 15 100% 36" name="generic" ghost="true" type="text" style="GenericNameCentered"/>
+		</object>
 
-    <!-- Player name and civilization emblem -->
-    <object size="0 40 100% 100%">
-      <object size="50%-48 50%-48 50%+48 50%+48" name="playerCivIcon" type="image" ghost="true"/>
-      <object size="0 0 100% 100%" name="playerColorBackground" type="image" sprite="playerColorBackground" ghost="true"/>
-      <object size="0 0 100% 100%" type="image" sprite="bottomEdgedPanelShader" ghost="true"/>
+		<!-- Player name and civilization emblem -->
+		<object size="0 40 100% 100%">
+			<object size="50%-48 50%-48 50%+48 50%+48" name="playerCivIcon" type="image" ghost="true"/>
+			<object size="0 0 100% 100%" name="playerColorBackground" type="image" sprite="playerColorBackground" ghost="true"/>
+			<object size="0 0 100% 100%" type="image" sprite="bottomEdgedPanelShader" ghost="true"/>
 
-      <!-- Why is this being automatically ghosted? In the mean time, set ghost to false -->
-      <object ghost="false" size="0 0 100% 100%-5" name="player" type="text" style="largeCenteredOutlinedText" tooltip_style="sessionToolTip"/>
-    </object>
-  </object>
+			<!-- Why is this being automatically ghosted? In the mean time, set ghost to false -->
+			<object ghost="false" size="0 0 100% 100%-5" name="player" type="text" style="largeCenteredOutlinedText" tooltip_style="sessionToolTip"/>
+		</object>
+	</object>
 
 </object>
-

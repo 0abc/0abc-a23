@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <setup>
-  <icon name="icon_food"
-    sprite="stretched:session/icons/resources/food.png"
-    size="16 16"
-  />
-  <icon name="icon_metal"
-    sprite="stretched:session/icons/resources/metal.png"
-    size="16 16"
-  />
-  <icon name="icon_population"
-    sprite="stretched:session/icons/resources/population.png"
-    size="16 16"
-  />
-  <icon name="icon_silver"
-    sprite="stretched:session/icons/resources/silver.png"
-    size="16 16"
-  />
-  <icon name="icon_stone"
-    sprite="stretched:session/icons/resources/stone.png"
-    size="16 16"
-  />
-  <icon name="icon_time"
-    sprite="stretched:session/icons/clock.png"
-    size="16 16"
-  />
-  <icon name="icon_wood"
-    sprite="stretched:session/icons/resources/wood.png"
-    size="16 16"
-  />
-  <icon name="icon_xp"
-    sprite="stretched:session/icons/promote.png"
-    size="16 16"
-  />
+	<icon name="icon_food"
+		sprite="stretched:session/icons/resources/food.png"
+		size="16 16"
+	/>
+	<icon name="icon_metal"
+		sprite="stretched:session/icons/resources/metal.png"
+		size="16 16"
+	/>
+	<icon name="icon_population"
+		sprite="stretched:session/icons/resources/population.png"
+		size="16 16"
+	/>
+	<icon name="icon_silver"
+		sprite="stretched:session/icons/resources/silver.png"
+		size="16 16"
+	/>
+	<icon name="icon_stone"
+		sprite="stretched:session/icons/resources/stone.png"
+		size="16 16"
+	/>
+	<icon name="icon_time"
+		sprite="stretched:session/icons/clock.png"
+		size="16 16"
+	/>
+	<icon name="icon_wood"
+		sprite="stretched:session/icons/resources/wood.png"
+		size="16 16"
+	/>
+	<icon name="icon_xp"
+		sprite="stretched:session/icons/promote.png"
+		size="16 16"
+	/>
 </setup>

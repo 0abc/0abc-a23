@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Displays buttons for the most important units, e.g. catafalques and heroes. -->
 <object name="panelEntityPanel" size="0 36 50 84">
-  <repeat count="20" var="n">
-    <object name="panelEntityButton[n]" size="0 0 48 48" type="button" hidden="true" style="iconButton" tooltip_style="sessionToolTip">
-      <object name="panelEntityImage[n]" size="4 4 100%-4 100%-4" type="image" ghost="true"/>
-      <object name="panelEntityHitOverlay[n]" hidden="true" type="image" ghost="true" size="4 4 100%-4 100%-4"/>
-      <!-- Health bar -->
-      <object size="3 100%-7 100%-3 100%-2" name="panelEntityHealthSection[n]" hidden="true" ghost="true">
-        <object size="0 0 100% 5" name="panelEntityHealth[n]" type="image" ghost="true">
-          <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
-          <object type="image" sprite="healthBackground" ghost="true"/>
-          <object type="image" sprite="healthForeground" ghost="true" name="panelEntityHealthBar[n]"/>
-          <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
-        </object>
-      </object>
-      <!-- Capture bar -->
-      <object size="3 100% 100%-3 100%+5" name="panelEntityCaptureSection[n]" hidden="true" ghost="true">
-        <object size="0 0 100% 5" name="panelEntityCapture[n]" type="image" ghost="true">
-          <object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
-          <repeat count="9" var="p">
-            <object type="image" sprite="playerColorBackground" ghost="true" name="panelEntity[n].CaptureBar[p]" hidden="true"/>
-          </repeat>
-          <object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
-        </object>
-      </object>
-    </object>
-  </repeat>
+	<repeat count="20" var="n">
+		<object name="panelEntityButton[n]" size="0 0 48 48" type="button" hidden="true" style="iconButton" tooltip_style="sessionToolTip">
+			<object name="panelEntityImage[n]" size="4 4 100%-4 100%-4" type="image" ghost="true"/>
+			<object name="panelEntityHitOverlay[n]" hidden="true" type="image" ghost="true" size="4 4 100%-4 100%-4"/>
+			<!-- Health bar -->
+			<object size="3 100%-7 100%-3 100%-2" name="panelEntityHealthSection[n]" hidden="true" ghost="true">
+				<object size="0 0 100% 5" name="panelEntityHealth[n]" type="image" ghost="true">
+					<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+					<object type="image" sprite="healthBackground" ghost="true"/>
+					<object type="image" sprite="healthForeground" ghost="true" name="panelEntityHealthBar[n]"/>
+					<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+				</object>
+			</object>
+			<!-- Capture bar -->
+			<object size="3 100% 100%-3 100%+5" name="panelEntityCaptureSection[n]" hidden="true" ghost="true">
+				<object size="0 0 100% 5" name="panelEntityCapture[n]" type="image" ghost="true">
+					<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+					<repeat count="9" var="p">
+						<object type="image" sprite="playerColorBackground" ghost="true" name="panelEntity[n].CaptureBar[p]" hidden="true"/>
+					</repeat>
+					<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+				</object>
+			</object>
+		</object>
+	</repeat>
 </object>

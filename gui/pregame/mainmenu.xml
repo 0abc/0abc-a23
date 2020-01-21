@@ -2,633 +2,633 @@
 
 <objects>
 
-  <script directory="gui/common/"/>
-  <script directory="gui/pregame/"/>
-  <script directory="gui/pregame/backgrounds/"/>
-  <script directory="gui/pregame/userreport/"/>
+	<script directory="gui/common/"/>
+	<script directory="gui/pregame/"/>
+	<script directory="gui/pregame/backgrounds/"/>
+	<script directory="gui/pregame/userreport/"/>
 
-  <!--
-  ==========================================
-  - MAIN MENU
-  ==========================================
-  -->
-  <object>
+	<!--
+	==========================================
+	- MAIN MENU
+	==========================================
+	-->
+	<object>
 
-    <action on="Tick">
-      onTick();
-    </action>
+		<action on="Tick">
+			onTick();
+		</action>
 
-    <repeat count="5">
-      <object name="background[n]"
-        type="image"
-        hidden="true"
-        ghost="true"
-      />
-    </repeat>
+		<repeat count="5">
+			<object name="background[n]"
+				type="image"
+				hidden="true"
+				ghost="true"
+			/>
+		</repeat>
 
-    <!--
-    ==========================================
-    - MAIN MENU - STATIC TOOLTIP WINDOW
-    ==========================================
-    -->
-    <object name="pgToolTip"
-      style="TranslucentPanel"
-      type="text"
-      hidden="true"
-      size="100%-290 25 100% 140"
-      ghost="true"
-    />
+		<!--
+		==========================================
+		- MAIN MENU - STATIC TOOLTIP WINDOW
+		==========================================
+		-->
+		<object name="pgToolTip"
+			style="TranslucentPanel"
+			type="text"
+			hidden="true"
+			size="100%-290 25 100% 140"
+			ghost="true"
+		/>
 
-    <!--
-    ==========================================
-    - MAIN MENU - USER REPORT
-    ==========================================
-    -->
-    <include file="gui/pregame/userreport/userreport.xml"/>
+		<!--
+		==========================================
+		- MAIN MENU - USER REPORT
+		==========================================
+		-->
+		<include file="gui/pregame/userreport/userreport.xml"/>
 
-    <!--
-    ==========================================
-    - SUBMENU
-    ==========================================
-    -->
+		<!--
+		==========================================
+		- SUBMENU
+		==========================================
+		-->
 
-    <object hotkey="cancel">
-      <action on="Press">
-        closeMenu();
-      </action>
-    </object>
+		<object hotkey="cancel">
+			<action on="Press">
+				closeMenu();
+			</action>
+		</object>
 
-    <!-- hide submenu when user clicks on the background -->
-    <object type="button">
-      <action on="Press">
-        closeMenu();
-      </action>
-    </object>
+		<!-- hide submenu when user clicks on the background -->
+		<object type="button">
+			<action on="Press">
+				closeMenu();
+			</action>
+		</object>
 
-    <!-- submenu -->
-    <object name="submenu"
-      type="image"
-      style="SubmenuPanel"
-      size="60 50%-100 300 50%+100"
-      hidden="true"
-    >
-      <!-- submenuLearnToPlay -->
-      <object name="submenuLearn"
-        type="image"
-        size="0 4 100%-4 100%-4"
-        tooltip_style="pgToolTip"
-        hidden="true"
-      >
-        <!-- Manual button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 0 100% 28"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Manual</translatableAttribute>
-          <translatableAttribute id="tooltip">Open the 0 A.D. Game Manual.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_manual.xml", {
-              "page": "manual/intro",
-              "title": getManual(),
-              "url": "https://trac.wildfiregames.com/wiki/0adManual"
-            });
-          </action>
-        </object>
+		<!-- submenu -->
+		<object name="submenu"
+			type="image"
+			style="SubmenuPanel"
+			size="60 50%-100 300 50%+100"
+			hidden="true"
+		>
+			<!-- submenuLearnToPlay -->
+			<object name="submenuLearn"
+				type="image"
+				size="0 4 100%-4 100%-4"
+				tooltip_style="pgToolTip"
+				hidden="true"
+			>
+				<!-- Manual button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 0 100% 28"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Manual</translatableAttribute>
+					<translatableAttribute id="tooltip">Open the 0 A.D. Game Manual.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_manual.xml", {
+							"page": "manual/intro",
+							"title": getManual(),
+							"url": "https://trac.wildfiregames.com/wiki/0adManual"
+						});
+					</action>
+				</object>
 
-        <!-- Civilizations button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 32 100% 60"
-          tooltip_style="pgToolTip"
-          name="civInfoButton"
-          hotkey="civinfo"
-        >
-          <translatableAttribute id="caption">Civilizations</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_civinfo.xml");
-          </action>
-        </object>
+				<!-- Civilizations button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 32 100% 60"
+					tooltip_style="pgToolTip"
+					name="civInfoButton"
+					hotkey="civinfo"
+				>
+					<translatableAttribute id="caption">Civilizations</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_civinfo.xml");
+					</action>
+				</object>
 
-        <!-- Structure Tree button -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="0 64 100% 92"
-          tooltip_style="pgToolTip"
-          name="structreeButton"
-          hotkey="structree"
-        >
-          <translatableAttribute id="caption">Structure Tree</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_structree.xml", {});
-          </action>
-        </object>
+				<!-- Structure Tree button -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="0 64 100% 92"
+					tooltip_style="pgToolTip"
+					name="structreeButton"
+					hotkey="structree"
+				>
+					<translatableAttribute id="caption">Structure Tree</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_structree.xml", {});
+					</action>
+				</object>
 
-        <!-- Welcome Screen button -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="0 96 100% 124"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Welcome Screen</translatableAttribute>
-          <translatableAttribute id="tooltip">Show the Welcome Screen. Useful if you hid it by mistake.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_splashscreen.xml", {
-              "page": "splashscreen",
-              "callback": "SplashScreenClosedCallback"
-            });
-          </action>
-        </object>
+				<!-- Welcome Screen button -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="0 96 100% 124"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Welcome Screen</translatableAttribute>
+					<translatableAttribute id="tooltip">Show the Welcome Screen. Useful if you hid it by mistake.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_splashscreen.xml", {
+							"page": "splashscreen",
+							"callback": "SplashScreenClosedCallback"
+						});
+					</action>
+				</object>
 
-      </object>
+			</object>
 
-      <!-- submenuSinglePlayer -->
-      <object name="submenuSinglePlayer"
-        type="image"
-        size="0 4 100%-4 100%-4"
-        tooltip_style="pgToolTip"
-        hidden="true"
-      >
-        <!-- Tutorial button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 0 100% 28"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Tutorial</translatableAttribute>
-          <translatableAttribute id="tooltip">Start the economic tutorial.</translatableAttribute>
-          <action on="Press">
-            Engine.SwitchGuiPage("page_gamesetup.xml", { "tutorial": true });
-          </action>
-        </object>
+			<!-- submenuSinglePlayer -->
+			<object name="submenuSinglePlayer"
+				type="image"
+				size="0 4 100%-4 100%-4"
+				tooltip_style="pgToolTip"
+				hidden="true"
+			>
+				<!-- Tutorial button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 0 100% 28"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Tutorial</translatableAttribute>
+					<translatableAttribute id="tooltip">Start the economic tutorial.</translatableAttribute>
+					<action on="Press">
+						Engine.SwitchGuiPage("page_gamesetup.xml", { "tutorial": true });
+					</action>
+				</object>
 
-        <!-- Matches button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 32 100% 60"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Matches</translatableAttribute>
-          <translatableAttribute id="tooltip">Start a new single-player game.</translatableAttribute>
-          <action on="Press">
-            Engine.SwitchGuiPage("page_gamesetup.xml", {});
-          </action>
-        </object>
+				<!-- Matches button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 32 100% 60"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Matches</translatableAttribute>
+					<translatableAttribute id="tooltip">Start a new single-player game.</translatableAttribute>
+					<action on="Press">
+						Engine.SwitchGuiPage("page_gamesetup.xml", {});
+					</action>
+				</object>
 
-        <!-- Load Game button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 64 100% 92"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Load Game</translatableAttribute>
-          <translatableAttribute id="tooltip">Load a saved game.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_loadgame.xml", { "type": "offline" });
-          </action>
-        </object>
+				<!-- Load Game button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 64 100% 92"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Load Game</translatableAttribute>
+					<translatableAttribute id="tooltip">Load a saved game.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_loadgame.xml", { "type": "offline" });
+					</action>
+				</object>
 
-        <!-- Replays button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 96 100% 124"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Replays</translatableAttribute>
-          <translatableAttribute id="tooltip">Playback previous games.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.SwitchGuiPage("page_replaymenu.xml", {
-              "replaySelectionData": {
-                "filters": {
-                  "singleplayer": "Singleplayer"
-                }
-              }
-            });
-          </action>
-        </object>
-      </object>
+				<!-- Replays button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 96 100% 124"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Replays</translatableAttribute>
+					<translatableAttribute id="tooltip">Playback previous games.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.SwitchGuiPage("page_replaymenu.xml", {
+							"replaySelectionData": {
+								"filters": {
+									"singleplayer": "Singleplayer"
+								}
+							}
+						});
+					</action>
+				</object>
+			</object>
 
-      <!-- submenuMultiplayer -->
-      <object name="submenuMultiplayer"
-        type="image"
-        size="0 4 100%-4 100%-4"
-        tooltip_style="pgToolTip"
-        hidden="true"
-      >
-        <!-- Join Game button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 0 100% 28"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption" comment="Join a game by specifying the host's IP address.">Join Game</translatableAttribute>
-          <translatableAttribute id="tooltip">Joining an existing multiplayer game.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_gamesetup_mp.xml", { "multiplayerGameType": "join" });
-          </action>
-        </object>
+			<!-- submenuMultiplayer -->
+			<object name="submenuMultiplayer"
+				type="image"
+				size="0 4 100%-4 100%-4"
+				tooltip_style="pgToolTip"
+				hidden="true"
+			>
+				<!-- Join Game button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 0 100% 28"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption" comment="Join a game by specifying the host's IP address.">Join Game</translatableAttribute>
+					<translatableAttribute id="tooltip">Joining an existing multiplayer game.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_gamesetup_mp.xml", { "multiplayerGameType": "join" });
+					</action>
+				</object>
 
-        <!-- Host Game button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 32 100% 60"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Host Game</translatableAttribute>
-          <translatableAttribute id="tooltip">Host a multiplayer game.\n\nRequires UDP port 20595 to be open.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_gamesetup_mp.xml", { multiplayerGameType: "host" });
-          </action>
-        </object>
+				<!-- Host Game button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 32 100% 60"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Host Game</translatableAttribute>
+					<translatableAttribute id="tooltip">Host a multiplayer game.\n\nRequires UDP port 20595 to be open.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_gamesetup_mp.xml", { multiplayerGameType: "host" });
+					</action>
+				</object>
 
-        <!-- Game Lobby button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 64 100% 92"
-          tooltip_style="pgToolTip"
-          name="lobbyButton"
-          hotkey="lobby"
-        >
-          <translatableAttribute id="caption">Game Lobby</translatableAttribute>
-          <action on="Press">
-            if (!Engine.StartXmppClient)
-              return;
-            closeMenu();
-            Engine.PushGuiPage("page_prelobby_entrance.xml");
-          </action>
-          <action on="load">
-            if (!Engine.StartXmppClient)
-            {
-              this.enabled = false;
-              this.tooltip = getLobbyDisabledByBuild();
-            }
-          </action>
-        </object>
+				<!-- Game Lobby button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 64 100% 92"
+					tooltip_style="pgToolTip"
+					name="lobbyButton"
+					hotkey="lobby"
+				>
+					<translatableAttribute id="caption">Game Lobby</translatableAttribute>
+					<action on="Press">
+						if (!Engine.StartXmppClient)
+							return;
+						closeMenu();
+						Engine.PushGuiPage("page_prelobby_entrance.xml");
+					</action>
+					<action on="load">
+						if (!Engine.StartXmppClient)
+						{
+							this.enabled = false;
+							this.tooltip = getLobbyDisabledByBuild();
+						}
+					</action>
+				</object>
 
-        <!-- Replays button -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="0 96 100% 124"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Replays</translatableAttribute>
-          <translatableAttribute id="tooltip">Playback previous games.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.SwitchGuiPage("page_replaymenu.xml", {
-              "replaySelectionData": {
-                "filters": {
-                  "singleplayer": "Multiplayer"
-                }
-              }
-            });
-          </action>
-        </object>
-      </object>
+				<!-- Replays button -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="0 96 100% 124"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Replays</translatableAttribute>
+					<translatableAttribute id="tooltip">Playback previous games.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.SwitchGuiPage("page_replaymenu.xml", {
+							"replaySelectionData": {
+								"filters": {
+									"singleplayer": "Multiplayer"
+								}
+							}
+						});
+					</action>
+				</object>
+			</object>
 
-      <!-- submenuOptions -->
-      <object name="submenuOptions"
-        type="image"
-        size="0 4 100%-4 100%-4"
-        tooltip_style="pgToolTip"
-        hidden="true"
-      >
-        <!-- Options -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="0 0 100% 28"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Options</translatableAttribute>
-          <translatableAttribute id="tooltip">Adjust game settings.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_options.xml");
-          </action>
-        </object>
+			<!-- submenuOptions -->
+			<object name="submenuOptions"
+				type="image"
+				size="0 4 100%-4 100%-4"
+				tooltip_style="pgToolTip"
+				hidden="true"
+			>
+				<!-- Options -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="0 0 100% 28"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Options</translatableAttribute>
+					<translatableAttribute id="tooltip">Adjust game settings.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_options.xml");
+					</action>
+				</object>
 
-        <!-- Language button -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="0 32 100% 60"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Language</translatableAttribute>
-          <translatableAttribute id="tooltip">Choose the language of the game.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            Engine.PushGuiPage("page_locale.xml");
-          </action>
-        </object>
+				<!-- Language button -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="0 32 100% 60"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Language</translatableAttribute>
+					<translatableAttribute id="tooltip">Choose the language of the game.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						Engine.PushGuiPage("page_locale.xml");
+					</action>
+				</object>
 
-        <!-- Mod Selection button -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="0 64 100% 92"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Mod Selection</translatableAttribute>
-          <translatableAttribute id="tooltip">Select and download mods for the game.</translatableAttribute>
-          <action on="Press">
-            Engine.SwitchGuiPage("page_modmod.xml");
-          </action>
-        </object>
+				<!-- Mod Selection button -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="0 64 100% 92"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Mod Selection</translatableAttribute>
+					<translatableAttribute id="tooltip">Select and download mods for the game.</translatableAttribute>
+					<action on="Press">
+						Engine.SwitchGuiPage("page_modmod.xml");
+					</action>
+				</object>
 
-        <!-- empty button -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="0 96 100% 124"
-          tooltip_style="pgToolTip"
-          enabled="false"
-        >
-        </object>
-      </object>
-    </object>
+				<!-- empty button -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="0 96 100% 124"
+					tooltip_style="pgToolTip"
+					enabled="false"
+				>
+				</object>
+			</object>
+		</object>
 
 
-    <!--
-    ==========================================
-    - MAIN MENU PANEL
-    ==========================================
-    -->
-    <object name="mainMenu"
-      type="image"
-      style="MainMenuPanel"
-      size="-2 -2 240-2 100%+2"
-      z="50"
-    >
-      <!-- These are used to make the right side blend in with the submenu -->
-      <object name="MainMenuPanelRightBorderTop"
-        type="image"
-        sprite="MainMenuPanelRightBorder"
-        ghost="true"
-        size="100%-2 0 100% 100%"
-      />
-      <object name="MainMenuPanelRightBorderBottom"
-        type="image"
-        sprite="MainMenuPanelRightBorder"
-        ghost="true"
-        size="100%-2 0 100% 100%"
-      />
+		<!--
+		==========================================
+		- MAIN MENU PANEL
+		==========================================
+		-->
+		<object name="mainMenu"
+			type="image"
+			style="MainMenuPanel"
+			size="-2 -2 240-2 100%+2"
+			z="50"
+		>
+			<!-- These are used to make the right side blend in with the submenu -->
+			<object name="MainMenuPanelRightBorderTop"
+				type="image"
+				sprite="MainMenuPanelRightBorder"
+				ghost="true"
+				size="100%-2 0 100% 100%"
+			/>
+			<object name="MainMenuPanelRightBorderBottom"
+				type="image"
+				sprite="MainMenuPanelRightBorder"
+				ghost="true"
+				size="100%-2 0 100% 100%"
+			/>
 
-      <object
-        type="image"
-        sprite="productLogo"
-        ghost="true"
-        size="50%-110 10 50%+110 110"
-      />
+			<object
+				type="image"
+				sprite="productLogo"
+				ghost="true"
+				size="50%-110 10 50%+110 110"
+			/>
 
-      <object
-        type="image"
-        size="8 120 100%-8 320"
-        ghost="false"
-      >
-        <!-- GAME INFORMATION BUTTON -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="4 4 100%-4 32"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Game Information</translatableAttribute>
-          <translatableAttribute id="tooltip">Display the Manual, Civilizations, Structure Tree, or Welcome Screen.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            openMenu("submenuLearn", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
-          </action>
-        </object>
+			<object
+				type="image"
+				size="8 120 100%-8 320"
+				ghost="false"
+			>
+				<!-- GAME INFORMATION BUTTON -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="4 4 100%-4 32"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Game Information</translatableAttribute>
+					<translatableAttribute id="tooltip">Display the Manual, Civilizations, Structure Tree, or Welcome Screen.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						openMenu("submenuLearn", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
+					</action>
+				</object>
 
-        <!-- SINGLEPLAYER BUTTON -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="4 36 100%-4 64"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Single-player</translatableAttribute>
-          <translatableAttribute id="tooltip">Challenge the computer player to a single-player match.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            openMenu("submenuSinglePlayer", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
-          </action>
-        </object>
+				<!-- SINGLEPLAYER BUTTON -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="4 36 100%-4 64"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Single-player</translatableAttribute>
+					<translatableAttribute id="tooltip">Challenge the computer player to a single-player match.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						openMenu("submenuSinglePlayer", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
+					</action>
+				</object>
 
-        <!-- MULTIPLAYER BUTTON -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="4 68 100%-4 96"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Multiplayer</translatableAttribute>
-          <translatableAttribute id="tooltip">Fight against one or more human players in a multiplayer game.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            openMenu("submenuMultiplayer", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
-          </action>
-        </object>
+				<!-- MULTIPLAYER BUTTON -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="4 68 100%-4 96"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Multiplayer</translatableAttribute>
+					<translatableAttribute id="tooltip">Fight against one or more human players in a multiplayer game.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						openMenu("submenuMultiplayer", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
+					</action>
+				</object>
 
-        <!-- OPTIONS BUTTON -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="4 100 100%-4 128"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Settings</translatableAttribute>
-          <translatableAttribute id="tooltip">Game options and mod selection.</translatableAttribute>
-          <action on="Press">
-            closeMenu();
-            openMenu("submenuOptions", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
-          </action>
-        </object>
+				<!-- OPTIONS BUTTON -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="4 100 100%-4 128"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Settings</translatableAttribute>
+					<translatableAttribute id="tooltip">Game options and mod selection.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						openMenu("submenuOptions", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
+					</action>
+				</object>
 
-        <!-- SCENARIO EDITOR BUTTON -->
-        <object
-          style="StoneButtonFancy"
-          type="button"
-          size="4 132 100%-4 160"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Scenario Editor</translatableAttribute>
-          <translatableAttribute id="tooltip">Open the Atlas Scenario Editor in a new window. You can run this more reliably by starting the game with the command-line argument &quot;-editor&quot;.</translatableAttribute>
-          <action on="Press">
-            pressedScenarioEditorButton();
-          </action>
-        </object>
+				<!-- SCENARIO EDITOR BUTTON -->
+				<object
+					style="StoneButtonFancy"
+					type="button"
+					size="4 132 100%-4 160"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Scenario Editor</translatableAttribute>
+					<translatableAttribute id="tooltip">Open the Atlas Scenario Editor in a new window. You can run this more reliably by starting the game with the command-line argument &quot;-editor&quot;.</translatableAttribute>
+					<action on="Press">
+						pressedScenarioEditorButton();
+					</action>
+				</object>
 
-        <!-- CREDITS BUTTON -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="4 164 100%-4 192"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Credits</translatableAttribute>
-          <translatableAttribute id="tooltip">Show the 0 A.D. credits.</translatableAttribute>
-          <action on="Press">
-            Engine.PushGuiPage("page_credits.xml");
-          </action>
-        </object>
+				<!-- CREDITS BUTTON -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="4 164 100%-4 192"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Credits</translatableAttribute>
+					<translatableAttribute id="tooltip">Show the 0 A.D. credits.</translatableAttribute>
+					<action on="Press">
+						Engine.PushGuiPage("page_credits.xml");
+					</action>
+				</object>
 
-        <!-- EXIT BUTTON -->
-        <object
-          type="button"
-          style="StoneButtonFancy"
-          size="4 196 100%-4 224"
-          tooltip_style="pgToolTip"
-        >
-          <translatableAttribute id="caption">Exit</translatableAttribute>
-          <translatableAttribute id="tooltip">Exit the game.</translatableAttribute>
-          <action on="Press">exitGamePressed();</action>
-        </object>
-      </object>
+				<!-- EXIT BUTTON -->
+				<object
+					type="button"
+					style="StoneButtonFancy"
+					size="4 196 100%-4 224"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Exit</translatableAttribute>
+					<translatableAttribute id="tooltip">Exit the game.</translatableAttribute>
+					<action on="Press">exitGamePressed();</action>
+				</object>
+			</object>
 
-      <!-- PRE-RELEASE INFO -->
-      <object size="8 100%-360 100%-8 100%-94"
-        type="image"
-        style="TranslucentPanelThinBorder"
-      >
-        <!-- PRE-RELEASE WARNING -->
-        <object
-          font="sans-14"
-          type="text"
-          textcolor="white"
-          size="8 8 100%-8 100%-36"
-          ghost="true"
-        >
-          <!-- IMPORTANT: remember to update session/top_panel/label.xml in sync with this: -->
-          <attribute id="caption">
-            <keep>[font="sans-bold-16"]</keep>
-            <translate>Alpha XXIII: Ken Wood</translate>
-            <keep>[/font]\n\n</keep>
-            <translate>This is an early development version of the game. Many features have not been added yet.</translate>
-          </attribute>
-        </object>
+			<!-- PRE-RELEASE INFO -->
+			<object size="8 100%-360 100%-8 100%-94"
+				type="image"
+				style="TranslucentPanelThinBorder"
+			>
+				<!-- PRE-RELEASE WARNING -->
+				<object
+					font="sans-14"
+					type="text"
+					textcolor="white"
+					size="8 8 100%-8 100%-36"
+					ghost="true"
+				>
+					<!-- IMPORTANT: remember to update session/top_panel/label.xml in sync with this: -->
+					<attribute id="caption">
+						<keep>[font="sans-bold-16"]</keep>
+						<translate>Alpha XXIII: Ken Wood</translate>
+						<keep>[/font]\n\n</keep>
+						<translate>This is an early development version of the game. Many features have not been added yet.</translate>
+					</attribute>
+				</object>
 
-        <!-- GET INVOLVED -->
-        <object type="button"
-          style="StoneButton"
-          tooltip_style="pgToolTip"
-          size="8 100%-144 50%-4 100%-116"
-        >
-          <translatableAttribute id="caption">Website</translatableAttribute>
-          <translatableAttribute id="tooltip">Open play0ad.com in your web browser.</translatableAttribute>
-          <action on="Press">
-            openURL("https://play0ad.com/");
-          </action>
-        </object>
+				<!-- GET INVOLVED -->
+				<object type="button"
+					style="StoneButton"
+					tooltip_style="pgToolTip"
+					size="8 100%-144 50%-4 100%-116"
+				>
+					<translatableAttribute id="caption">Website</translatableAttribute>
+					<translatableAttribute id="tooltip">Open play0ad.com in your web browser.</translatableAttribute>
+					<action on="Press">
+						openURL("https://play0ad.com/");
+					</action>
+				</object>
 
-        <object type="button"
-          style="StoneButton"
-          tooltip_style="pgToolTip"
-          size="50%+4 100%-144 100%-8 100%-116"
-        >
-          <translatableAttribute id="caption">Chat</translatableAttribute>
-          <translatableAttribute id="tooltip">Open the 0 A.D. IRC chat in your browser. (#0ad on webchat.quakenet.org)</translatableAttribute>
-          <action on="Press">
-            openURL("https://webchat.quakenet.org/?channels=0ad");
-          </action>
-        </object>
+				<object type="button"
+					style="StoneButton"
+					tooltip_style="pgToolTip"
+					size="50%+4 100%-144 100%-8 100%-116"
+				>
+					<translatableAttribute id="caption">Chat</translatableAttribute>
+					<translatableAttribute id="tooltip">Open the 0 A.D. IRC chat in your browser. (#0ad on webchat.quakenet.org)</translatableAttribute>
+					<action on="Press">
+						openURL("https://webchat.quakenet.org/?channels=0ad");
+					</action>
+				</object>
 
-        <object type="button"
-          style="StoneButton"
-          tooltip_style="pgToolTip"
-          size="8 100%-108 100%-8 100%-80"
-        >
-          <translatableAttribute id="caption">Report a Bug</translatableAttribute>
-          <translatableAttribute id="tooltip">Visit 0 A.D. Trac to report a bug, crash, or error.</translatableAttribute>
-          <action on="Press">
-            openURL("https://trac.wildfiregames.com/wiki/ReportingErrors/");
-          </action>
-        </object>
+				<object type="button"
+					style="StoneButton"
+					tooltip_style="pgToolTip"
+					size="8 100%-108 100%-8 100%-80"
+				>
+					<translatableAttribute id="caption">Report a Bug</translatableAttribute>
+					<translatableAttribute id="tooltip">Visit 0 A.D. Trac to report a bug, crash, or error.</translatableAttribute>
+					<action on="Press">
+						openURL("https://trac.wildfiregames.com/wiki/ReportingErrors/");
+					</action>
+				</object>
 
-        <object type="button"
-          style="StoneButton"
-          tooltip_style="pgToolTip"
-          size="8 100%-72 100%-8 100%-44"
-        >
-          <translatableAttribute id="caption">Translate the Game</translatableAttribute>
-          <translatableAttribute id="tooltip">Open the 0 A.D. translate page in your browser.</translatableAttribute>
-          <action on="Press">
-            openURL("https://trac.wildfiregames.com/wiki/Localization");
-          </action>
-        </object>
+				<object type="button"
+					style="StoneButton"
+					tooltip_style="pgToolTip"
+					size="8 100%-72 100%-8 100%-44"
+				>
+					<translatableAttribute id="caption">Translate the Game</translatableAttribute>
+					<translatableAttribute id="tooltip">Open the 0 A.D. translate page in your browser.</translatableAttribute>
+					<action on="Press">
+						openURL("https://trac.wildfiregames.com/wiki/Localization");
+					</action>
+				</object>
 
-        <object type="button"
-          style="StoneButton"
-          tooltip_style="pgToolTip"
-          size="8 100%-36 100%-8 100%-8"
-        >
-          <translatableAttribute id="caption">Donate</translatableAttribute>
-          <translatableAttribute id="tooltip">Help with the project expenses by donating.</translatableAttribute>
-          <action on="Press">
-            openURL("https://play0ad.com/community/donate/");
-          </action>
-        </object>
+				<object type="button"
+					style="StoneButton"
+					tooltip_style="pgToolTip"
+					size="8 100%-36 100%-8 100%-8"
+				>
+					<translatableAttribute id="caption">Donate</translatableAttribute>
+					<translatableAttribute id="tooltip">Help with the project expenses by donating.</translatableAttribute>
+					<action on="Press">
+						openURL("https://play0ad.com/community/donate/");
+					</action>
+				</object>
 
-      </object>
+			</object>
 
-      <!-- LOGO AND BUILD VERSION -->
-      <object
-        size="4 100%-84 100%-4 100%-56"
-        ghost="true"
-      >
+			<!-- LOGO AND BUILD VERSION -->
+			<object
+				size="4 100%-84 100%-4 100%-56"
+				ghost="true"
+			>
 
-        <!-- COMPANY LOGO -->
-        <object
-          type="image"
-          sprite="companyLogo"
-          ghost="true"
-          size="50%-16 0 50%+16 32"
-        />
+				<!-- COMPANY LOGO -->
+				<object
+					type="image"
+					sprite="companyLogo"
+					ghost="true"
+					size="50%-16 0 50%+16 32"
+				/>
 
-        <!-- COMPANY NAME -->
-        <object type="text"
-          style="MediumTitleText"
-          ghost="true"
-          size="50%-128 32 50%+128 48"
-        >
-          <translatableAttribute id="caption">Wildfire Games</translatableAttribute>
-        </object>
-      </object>
+				<!-- COMPANY NAME -->
+				<object type="text"
+					style="MediumTitleText"
+					ghost="true"
+					size="50%-128 32 50%+128 48"
+				>
+					<translatableAttribute id="caption">Wildfire Games</translatableAttribute>
+				</object>
+			</object>
 
-      <!-- VERSION -->
-      <object
-        type="text"
-        style="MediumTitleText"
-        ghost="true"
-        size="50%-128 100%-36 50%+128 100%"
-      >
-        <action on="Load">
-          this.caption = getBuildString();
-        </action>
-      </object>
-    </object>
-  </object>
+			<!-- VERSION -->
+			<object
+				type="text"
+				style="MediumTitleText"
+				ghost="true"
+				size="50%-128 100%-36 50%+128 100%"
+			>
+				<action on="Load">
+					this.caption = getBuildString();
+				</action>
+			</object>
+		</object>
+	</object>
 
 </objects>

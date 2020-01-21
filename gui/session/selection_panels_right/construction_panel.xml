@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object name="unitConstructionPanel" size="6 6 100% 100%">
-  <object size="0 0 100% 100%">
-    <repeat count="40">
-      <object name="unitConstructionButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
-        <object name="unitConstructionIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
-      </object>
-    </repeat>
-  </object>
+	<object size="0 0 100% 100%">
+		<repeat count="40">
+			<object name="unitConstructionButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
+				<object name="unitConstructionIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
+			</object>
+		</repeat>
+	</object>
 </object>

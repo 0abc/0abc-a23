@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object name="unitResearchPanel" size="6 100%-78 100% 100%">
-  <object size="0 0 100% 100%">
-    <repeat count="20">
-      <object name="unitResearchButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
-        <object name="unitResearchIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
-        <object name="unitResearchUnchosenIcon[n]" type="image" hidden="true" ghost="true" size="2 2 100%-2 100%-2" sprite="stretched:session/icons/tech_pair_would_be_unavailable.png"/>
-      </object>
-    </repeat>
-    <repeat count="10">
-      <object name="unitResearchPair[n]" hidden="true" size="0 0 36 72">
-        <object name="unitResearchPairIcon[n]" type="image" ghost="true" size="8 38 38 54" sprite="stretched:session/icons/vertical_pair.png"/>
-      </object>
-    </repeat>
-  </object>
+	<object size="0 0 100% 100%">
+		<repeat count="20">
+			<object name="unitResearchButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
+				<object name="unitResearchIcon[n]" type="image" ghost="true" size="2 2 100%-2 100%-2"/>
+				<object name="unitResearchUnchosenIcon[n]" type="image" hidden="true" ghost="true" size="2 2 100%-2 100%-2" sprite="stretched:session/icons/tech_pair_would_be_unavailable.png"/>
+			</object>
+		</repeat>
+		<repeat count="10">
+			<object name="unitResearchPair[n]" hidden="true" size="0 0 36 72">
+				<object name="unitResearchPairIcon[n]" type="image" ghost="true" size="8 38 38 54" sprite="stretched:session/icons/vertical_pair.png"/>
+			</object>
+		</repeat>
+	</object>
 </object>

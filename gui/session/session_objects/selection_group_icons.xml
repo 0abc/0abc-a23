@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object name="unitGroupPanel" size="0 50%-240 40 50%+160">
-  <repeat count="10">
-    <object name="unitGroupButton[n]" hidden="false" size="0 0 40 40" style="iconButton" tooltip_style="sessionToolTipBottomBold" type="button">
-      <translatableAttribute id="tooltip">Click to select grouped units, double-click to focus the grouped units and right-click to disband the group.</translatableAttribute>
-      <object name="unitGroupIcon[n]" ghost="true" size="4 4 36 36" sprite="groupsIcon" type="image"/>
-      <object name="unitGroupLabel[n]" ghost="true" style="largeCenteredOutlinedText" type="text"/>
-    </object>
-  </repeat>
+	<repeat count="10">
+		<object name="unitGroupButton[n]" hidden="false" size="0 0 40 40" style="iconButton" tooltip_style="sessionToolTipBottomBold" type="button">
+			<translatableAttribute id="tooltip">Click to select grouped units, double-click to focus the grouped units and right-click to disband the group.</translatableAttribute>
+			<object name="unitGroupIcon[n]" ghost="true" size="4 4 36 36" sprite="groupsIcon" type="image"/>
+			<object name="unitGroupLabel[n]" ghost="true" style="largeCenteredOutlinedText" type="text"/>
+		</object>
+	</repeat>
 </object>

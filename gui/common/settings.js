@@ -34,27 +34,27 @@ const g_Settings = loadSettingsValues();
  */
 function loadSettingsValues()
 {
-  var settings = {
-    "AIDescriptions": loadAIDescriptions(),
-    "AIDifficulties": loadAIDifficulties(),
-    "AIBehaviors": loadAIBehaviors(),
-    "Ceasefire": loadCeasefire(),
-    "VictoryDurations": loadVictoryDuration(),
-    "GameSpeeds": loadSettingValuesFile("game_speeds.json"),
-    "MapTypes": loadMapTypes(),
-    "MapSizes": loadSettingValuesFile("map_sizes.json"),
-    "Biomes": loadBiomes(),
-    "PlayerDefaults": loadPlayerDefaults(),
-    "PopulationCapacities": loadPopulationCapacities(),
-    "StartingResources": loadSettingValuesFile("starting_resources.json"),
-    "VictoryConditions": loadVictoryConditions(),
-    "TriggerDifficulties": loadSettingValuesFile("trigger_difficulties.json")
-  };
+	var settings = {
+		"AIDescriptions": loadAIDescriptions(),
+		"AIDifficulties": loadAIDifficulties(),
+		"AIBehaviors": loadAIBehaviors(),
+		"Ceasefire": loadCeasefire(),
+		"VictoryDurations": loadVictoryDuration(),
+		"GameSpeeds": loadSettingValuesFile("game_speeds.json"),
+		"MapTypes": loadMapTypes(),
+		"MapSizes": loadSettingValuesFile("map_sizes.json"),
+		"Biomes": loadBiomes(),
+		"PlayerDefaults": loadPlayerDefaults(),
+		"PopulationCapacities": loadPopulationCapacities(),
+		"StartingResources": loadSettingValuesFile("starting_resources.json"),
+		"VictoryConditions": loadVictoryConditions(),
+		"TriggerDifficulties": loadSettingValuesFile("trigger_difficulties.json")
+	};
 
-  if (Object.keys(settings).some(key => settings[key] === undefined))
-    return undefined;
+	if (Object.keys(settings).some(key => settings[key] === undefined))
+		return undefined;
 
-  return deepfreeze(settings);
+	return deepfreeze(settings);
 }
 
 /**
@@ -66,29 +66,29 @@ function loadSettingsValues()
  */
 function loadSettingValuesFile(filename)
 {
-  var json = Engine.ReadJSONFile(g_SettingsDirectory + filename);
+	var json = Engine.ReadJSONFile(g_SettingsDirectory + filename);
 
-  if (!json || !json.Data)
-  {
-    error("Could not load " + filename + "!");
-    return undefined;
-  }
+	if (!json || !json.Data)
+	{
+		error("Could not load " + filename + "!");
+		return undefined;
+	}
 
-  if (json.TranslatedKeys)
-  {
-    let keyContext = json.TranslatedKeys;
+	if (json.TranslatedKeys)
+	{
+		let keyContext = json.TranslatedKeys;
 
-    if (json.TranslationContext)
-    {
-      keyContext = {};
-      for (let key of json.TranslatedKeys)
-         keyContext[key] = json.TranslationContext;
-    }
+		if (json.TranslationContext)
+		{
+			keyContext = {};
+			for (let key of json.TranslatedKeys)
+				 keyContext[key] = json.TranslationContext;
+		}
 
-    translateObjectKeys(json.Data, keyContext);
-  }
+		translateObjectKeys(json.Data, keyContext);
+	}
 
-  return json.Data;
+	return json.Data;
 }
 
 /**
@@ -98,9 +98,9 @@ function loadSettingValuesFile(filename)
  */
 function loadAIDescriptions()
 {
-  var ais = Engine.GetAIs();
-  translateObjectKeys(ais, ["name", "description"]);
-  return ais.sort((a, b) => a.data.name.localeCompare(b.data.name));
+	var ais = Engine.GetAIs();
+	translateObjectKeys(ais, ["name", "description"]);
+	return ais.sort((a, b) => a.data.name.localeCompare(b.data.name));
 }
 
 /**
@@ -111,56 +111,56 @@ function loadAIDescriptions()
  */
 function loadAIDifficulties()
 {
-  return [
-    {
-      "Name": "sandbox",
-      "Title": translateWithContext("aiDiff", "Sandbox")
-    },
-    {
-      "Name": "very easy",
-      "Title": translateWithContext("aiDiff", "Very Easy")
-    },
-    {
-      "Name": "easy",
-      "Title": translateWithContext("aiDiff", "Easy")
-    },
-    {
-      "Name": "medium",
-      "Title": translateWithContext("aiDiff", "Medium"),
-      "Default": true
-    },
-    {
-      "Name": "hard",
-      "Title": translateWithContext("aiDiff", "Hard")
-    },
-    {
-      "Name": "very hard",
-      "Title": translateWithContext("aiDiff", "Very Hard")
-    }
-  ];
+	return [
+		{
+			"Name": "sandbox",
+			"Title": translateWithContext("aiDiff", "Sandbox")
+		},
+		{
+			"Name": "very easy",
+			"Title": translateWithContext("aiDiff", "Very Easy")
+		},
+		{
+			"Name": "easy",
+			"Title": translateWithContext("aiDiff", "Easy")
+		},
+		{
+			"Name": "medium",
+			"Title": translateWithContext("aiDiff", "Medium"),
+			"Default": true
+		},
+		{
+			"Name": "hard",
+			"Title": translateWithContext("aiDiff", "Hard")
+		},
+		{
+			"Name": "very hard",
+			"Title": translateWithContext("aiDiff", "Very Hard")
+		}
+	];
 }
 
 function loadAIBehaviors()
 {
-  return [
-    {
-      "Name": "random",
-      "Title": translateWithContext("aiBehavior", "Random"),
-      "Default": true
-    },
-    {
-      "Name": "balanced",
-      "Title": translateWithContext("aiBehavior", "Balanced"),
-    },
-    {
-      "Name": "defensive",
-      "Title": translateWithContext("aiBehavior", "Defensive")
-    },
-    {
-      "Name": "aggressive",
-      "Title": translateWithContext("aiBehavior", "Aggressive")
-    }
-  ];
+	return [
+		{
+			"Name": "random",
+			"Title": translateWithContext("aiBehavior", "Random"),
+			"Default": true
+		},
+		{
+			"Name": "balanced",
+			"Title": translateWithContext("aiBehavior", "Balanced"),
+		},
+		{
+			"Name": "defensive",
+			"Title": translateWithContext("aiBehavior", "Defensive")
+		},
+		{
+			"Name": "aggressive",
+			"Title": translateWithContext("aiBehavior", "Aggressive")
+		}
+	];
 }
 
 /**
@@ -168,20 +168,20 @@ function loadAIBehaviors()
  */
 function loadVictoryDuration()
 {
-  var jsonFile = "victory_times.json";
-  var json = Engine.ReadJSONFile(g_SettingsDirectory + jsonFile);
+	var jsonFile = "victory_times.json";
+	var json = Engine.ReadJSONFile(g_SettingsDirectory + jsonFile);
 
-  if (!json || json.Default === undefined || !json.Times || !Array.isArray(json.Times))
-  {
-    error("Could not load " + jsonFile);
-    return undefined;
-  }
+	if (!json || json.Default === undefined || !json.Times || !Array.isArray(json.Times))
+	{
+		error("Could not load " + jsonFile);
+		return undefined;
+	}
 
-  return json.Times.map(duration => ({
-    "Duration": duration,
-    "Default": duration == json.Default,
-    "Title": sprintf(translatePluralWithContext("victory duration", "%(min)s minute", "%(min)s minutes", duration), { "min": duration })
-  }));
+	return json.Times.map(duration => ({
+		"Duration": duration,
+		"Default": duration == json.Default,
+		"Title": sprintf(translatePluralWithContext("victory duration", "%(min)s minute", "%(min)s minutes", duration), { "min": duration })
+	}));
 }
 
 /**
@@ -191,20 +191,20 @@ function loadVictoryDuration()
  */
 function loadCeasefire()
 {
-  var json = Engine.ReadJSONFile(g_SettingsDirectory + "ceasefire.json");
+	var json = Engine.ReadJSONFile(g_SettingsDirectory + "ceasefire.json");
 
-  if (!json || json.Default === undefined || !json.Times || !Array.isArray(json.Times))
-  {
-    error("Could not load ceasefire.json");
-    return undefined;
-  }
+	if (!json || json.Default === undefined || !json.Times || !Array.isArray(json.Times))
+	{
+		error("Could not load ceasefire.json");
+		return undefined;
+	}
 
-  return json.Times.map(timeout => ({
-    "Duration": timeout,
-    "Default": timeout == json.Default,
-    "Title": timeout == 0 ? translateWithContext("ceasefire", "No ceasefire") :
-      sprintf(translatePluralWithContext("ceasefire", "%(minutes)s minute", "%(minutes)s minutes", timeout), { "minutes": timeout })
-  }));
+	return json.Times.map(timeout => ({
+		"Duration": timeout,
+		"Default": timeout == json.Default,
+		"Title": timeout == 0 ? translateWithContext("ceasefire", "No ceasefire") :
+			sprintf(translatePluralWithContext("ceasefire", "%(minutes)s minute", "%(minutes)s minutes", timeout), { "minutes": timeout })
+	}));
 }
 
 /**
@@ -214,37 +214,37 @@ function loadCeasefire()
  */
 function loadMapTypes()
 {
-  return [
-    {
-      "Name": "random",
-      "Title": translateWithContext("map", "Random"),
-      "Description": translate("Create a unique map with a different resource distribution each time. Freely select the number of players and teams."),
-      "Default": true
-    },
-    {
-      "Name": "skirmish",
-      "Title": translateWithContext("map", "Skirmish"),
-      "Description": translate("A map with a predefined landscape and number of players. Freely select the other gamesettings.")
-    },
-    {
-      "Name": "scenario",
-      "Title": translateWithContext("map", "Scenario"),
-      "Description": translate("A map with a predefined landscape and matchsettings.")
-    }
-  ];
+	return [
+		{
+			"Name": "random",
+			"Title": translateWithContext("map", "Random"),
+			"Description": translate("Create a unique map with a different resource distribution each time. Freely select the number of players and teams."),
+			"Default": true
+		},
+		{
+			"Name": "skirmish",
+			"Title": translateWithContext("map", "Skirmish"),
+			"Description": translate("A map with a predefined landscape and number of players. Freely select the other gamesettings.")
+		},
+		{
+			"Name": "scenario",
+			"Title": translateWithContext("map", "Scenario"),
+			"Description": translate("A map with a predefined landscape and matchsettings.")
+		}
+	];
 }
 
 function loadBiomes()
 {
-  return listFiles(g_BiomesDirectory, ".json", true).filter(biomeID => biomeID != "defaultbiome").map(biomeID => {
-    let description = Engine.ReadJSONFile(g_BiomesDirectory + biomeID + ".json").Description;
-    return {
-      "Id": biomeID,
-      "Title": translateWithContext("biome definition", description.Title),
-      "Description": description.Description ? translateWithContext("biome definition", description.Description) : "",
-      "Preview": description.Preview || undefined
-    };
-  });
+	return listFiles(g_BiomesDirectory, ".json", true).filter(biomeID => biomeID != "defaultbiome").map(biomeID => {
+		let description = Engine.ReadJSONFile(g_BiomesDirectory + biomeID + ".json").Description;
+		return {
+			"Id": biomeID,
+			"Title": translateWithContext("biome definition", description.Title),
+			"Description": description.Description ? translateWithContext("biome definition", description.Description) : "",
+			"Preview": description.Preview || undefined
+		};
+	});
 }
 
 /**
@@ -254,19 +254,19 @@ function loadBiomes()
  */
 function loadVictoryConditions()
 {
-  let subdir = "victory_conditions/";
+	let subdir = "victory_conditions/";
 
-  let victoryConditions = listFiles(g_SettingsDirectory + subdir, ".json", false).map(victoryScriptName => {
-    let victoryCondition = loadSettingValuesFile(subdir + victoryScriptName + ".json");
-    if (victoryCondition)
-      victoryCondition.Name = victoryScriptName;
-    return victoryCondition;
-  });
+	let victoryConditions = listFiles(g_SettingsDirectory + subdir, ".json", false).map(victoryScriptName => {
+		let victoryCondition = loadSettingValuesFile(subdir + victoryScriptName + ".json");
+		if (victoryCondition)
+			victoryCondition.Name = victoryScriptName;
+		return victoryCondition;
+	});
 
-  if (victoryConditions.some(victoryCondition => victoryCondition == undefined))
-    return undefined;
+	if (victoryConditions.some(victoryCondition => victoryCondition == undefined))
+		return undefined;
 
-  return victoryConditions.sort((a, b) => a.GUIOrder - b.GUIOrder || (a.Title > b.Title ? 1 : a.Title > b.Title ? -1 : 0));
+	return victoryConditions.sort((a, b) => a.GUIOrder - b.GUIOrder || (a.Title > b.Title ? 1 : a.Title > b.Title ? -1 : 0));
 }
 
 /**
@@ -276,13 +276,13 @@ function loadVictoryConditions()
  */
 function loadPlayerDefaults()
 {
-  var json = Engine.ReadJSONFile(g_SettingsDirectory + "player_defaults.json");
-  if (!json || !json.PlayerData)
-  {
-    error("Could not load player_defaults.json");
-    return undefined;
-  }
-  return json.PlayerData;
+	var json = Engine.ReadJSONFile(g_SettingsDirectory + "player_defaults.json");
+	if (!json || !json.PlayerData)
+	{
+		error("Could not load player_defaults.json");
+		return undefined;
+	}
+	return json.PlayerData;
 }
 
 /**
@@ -292,27 +292,27 @@ function loadPlayerDefaults()
  */
 function loadPopulationCapacities()
 {
-  let json = Engine.ReadJSONFile(g_SettingsDirectory + "population_capacities.json");
+	let json = Engine.ReadJSONFile(g_SettingsDirectory + "population_capacities.json");
 
-  if (!json || json.Default === undefined || !json.PopulationCapacities || !Array.isArray(json.PopulationCapacities))
-  {
-    error("Could not load population_capacities.json");
-    return undefined;
-  }
+	if (!json || json.Default === undefined || !json.PopulationCapacities || !Array.isArray(json.PopulationCapacities))
+	{
+		error("Could not load population_capacities.json");
+		return undefined;
+	}
 
-  let result = {};
-  result.individual = json.PopulationCapacities.map(population => ({
-    "Population": population,
-    "Default": population == json.Default,
-    "Title": population < 10000 ? population : translate("Unlimited")
-  }));
-  result.world = json.WorldPopulationCapacities.map(population => ({
-    "Population": population,
-    "Default": population == json.Default,
-    "Title": population < 10000 ? population : translate("Unlimited")
-  }));
+	let result = {};
+	result.individual = json.PopulationCapacities.map(population => ({
+		"Population": population,
+		"Default": population == json.Default,
+		"Title": population < 10000 ? population : translate("Unlimited")
+	}));
+	result.world = json.WorldPopulationCapacities.map(population => ({
+		"Population": population,
+		"Default": population == json.Default,
+		"Title": population < 10000 ? population : translate("Unlimited")
+	}));
 
-  return result;
+	return result;
 }
 
 /**
@@ -326,34 +326,34 @@ function loadPopulationCapacities()
  */
 function prepareForDropdown(settingValues)
 {
-  if (!settingValues)
-    return undefined;
+	if (!settingValues)
+		return undefined;
 
-  let settings = { "Default": 0 };
-  for (let index in settingValues)
-  {
-    for (let property in settingValues[index])
-    {
-      if (property == "Default")
-        continue;
+	let settings = { "Default": 0 };
+	for (let index in settingValues)
+	{
+		for (let property in settingValues[index])
+		{
+			if (property == "Default")
+				continue;
 
-      if (!settings[property])
-        settings[property] = [];
+			if (!settings[property])
+				settings[property] = [];
 
-      // Switch property and index
-      settings[property][index] = settingValues[index][property];
-    }
+			// Switch property and index
+			settings[property][index] = settingValues[index][property];
+		}
 
-    // Copy default value
-    if (settingValues[index].Default)
-      settings.Default = +index;
-  }
-  return deepfreeze(settings);
+		// Copy default value
+		if (settingValues[index].Default)
+			settings.Default = +index;
+	}
+	return deepfreeze(settings);
 }
 
 function getGameSpeedChoices(allowFastForward)
 {
-  return prepareForDropdown(g_Settings.GameSpeeds.filter(speed => !speed.FastForward || allowFastForward));
+	return prepareForDropdown(g_Settings.GameSpeeds.filter(speed => !speed.FastForward || allowFastForward));
 }
 
 /**
@@ -363,8 +363,8 @@ function getGameSpeedChoices(allowFastForward)
  */
 function translateAIName(aiName)
 {
-  let description = g_Settings.AIDescriptions.find(ai => ai.id == aiName);
-  return description ? translate(description.data.name) : translateWithContext("AI name", "Unknown");
+	let description = g_Settings.AIDescriptions.find(ai => ai.id == aiName);
+	return description ? translate(description.data.name) : translateWithContext("AI name", "Unknown");
 }
 
 /**
@@ -374,8 +374,8 @@ function translateAIName(aiName)
  */
 function translateAIDifficulty(index)
 {
-  let difficulty = g_Settings.AIDifficulties[index];
-  return difficulty ? difficulty.Title : translateWithContext("AI difficulty", "Unknown");
+	let difficulty = g_Settings.AIDifficulties[index];
+	return difficulty ? difficulty.Title : translateWithContext("AI difficulty", "Unknown");
 }
 
 /**
@@ -385,8 +385,8 @@ function translateAIDifficulty(index)
  */
 function translateAIBehavior(aiBehavior)
 {
-  let behavior = g_Settings.AIBehaviors.find(b => b.Name == aiBehavior);
-  return behavior ? behavior.Title : translateWithContext("AI behavior", "Default");
+	let behavior = g_Settings.AIBehaviors.find(b => b.Name == aiBehavior);
+	return behavior ? behavior.Title : translateWithContext("AI behavior", "Default");
 }
 
 /**
@@ -397,8 +397,8 @@ function translateAIBehavior(aiBehavior)
  */
 function translateMapType(mapType)
 {
-  let type = g_Settings.MapTypes.find(t => t.Name == mapType);
-  return type ? type.Title : translateWithContext("map type", "Unknown");
+	let type = g_Settings.MapTypes.find(t => t.Name == mapType);
+	return type ? type.Title : translateWithContext("map type", "Unknown");
 }
 
 /**
@@ -409,8 +409,8 @@ function translateMapType(mapType)
  */
 function translateMapSize(tiles)
 {
-  let mapSize = g_Settings.MapSizes.find(size => size.Tiles == +tiles);
-  return mapSize ? mapSize.Name : translateWithContext("map size", "Default");
+	let mapSize = g_Settings.MapSizes.find(size => size.Tiles == +tiles);
+	return mapSize ? mapSize.Name : translateWithContext("map size", "Default");
 }
 
 /**
@@ -421,12 +421,12 @@ function translateMapSize(tiles)
  */
 function translatePopulationCapacity(population, world)
 {
-  let type = world ? "world" : "individual";
-  let popCap = g_Settings.PopulationCapacities[type].find(p => p.Population == population);
+	let type = world ? "world" : "individual";
+	let popCap = g_Settings.PopulationCapacities[type].find(p => p.Population == population);
 
-  if (world)
-    return popCap ? popCap.Title + " " + translateWithContext("population capacity", "(world)") : translateWithContext("population capacity", "Unknown");
-  return popCap ? popCap.Title : translateWithContext("population capacity", "Unknown");
+	if (world)
+		return popCap ? popCap.Title + " " + translateWithContext("population capacity", "(world)") : translateWithContext("population capacity", "Unknown");
+	return popCap ? popCap.Title : translateWithContext("population capacity", "Unknown");
 }
 
 /**
@@ -437,7 +437,7 @@ function translatePopulationCapacity(population, world)
  */
 function translateVictoryCondition(victoryConditionName)
 {
-  let victoryCondition = g_Settings.VictoryConditions.find(victoryCondition => victoryCondition.Name == victoryConditionName);
-  return victoryCondition ? victoryCondition.Title : translate("Unknown Victory Condition");
+	let victoryCondition = g_Settings.VictoryConditions.find(victoryCondition => victoryCondition.Name == victoryConditionName);
+	return victoryCondition ? victoryCondition.Title : translate("Unknown Victory Condition");
 }
 
