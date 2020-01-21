@@ -1,60 +1,60 @@
 function GarrisonHolder() {}
 
 GarrisonHolder.prototype.Schema =
-  "<element name='Max' a:help='Maximum number of entities which can be garrisoned inside this holder'>" +
-    "<data type='positiveInteger'/>" +
-  "</element>" +
-  "<element name='List' a:help='Classes of entities which are allowed to garrison inside this holder (from Identity)'>" +
-    "<attribute name='datatype'>" +
-      "<value>tokens</value>" +
-    "</attribute>" +
-    "<text/>" +
-  "</element>" +
-  "<element name='EjectHealth' a:help='Percentage of maximum health below which this holder no longer allows garrisoning'>" +
-    "<ref name='nonNegativeDecimal'/>" +
-  "</element>" +
-  "<element name='EjectClassesOnDestroy' a:help='Classes of entities to be ejected on destroy. Others are killed'>" +
-    "<attribute name='datatype'>" +
-      "<value>tokens</value>" +
-    "</attribute>" +
-    "<text/>" +
-  "</element>" +
-  "<element name='BuffHeal' a:help='Number of hitpoints that will be restored to this holder&apos;s garrisoned units each second'>" +
-    "<ref name='nonNegativeDecimal'/>" +
-  "</element>" +
-  "<element name='LoadingRange' a:help='The maximum distance from this holder at which entities are allowed to garrison. Should be about 2.0 for land entities and preferably greater for ships'>" +
-    "<ref name='nonNegativeDecimal'/>" +
-  "</element>" +
-  "<optional>" +
-    "<element name='Pickup' a:help='This garrisonHolder will move to pick up units to be garrisoned'>" +
-      "<data type='boolean'/>" +
-    "</element>" +
-  "</optional>" +
-  "<optional>" +
-    "<element name='VisibleGarrisonPoints' a:help='Points that will be used to visibly garrison a unit'>" +
-      "<zeroOrMore>" +
-        "<element a:help='Element containing the offset coordinates'>" +
-          "<anyName/>" +
-          "<interleave>" +
-            "<element name='X'>" +
-              "<data type='decimal'/>" +
-            "</element>" +
-            "<element name='Y'>" +
-              "<data type='decimal'/>" +
-            "</element>" +
-            "<element name='Z'>" +
-              "<data type='decimal'/>" +
-            "</element>" +
-            "<optional>" +
-              "<element name='Angle' a:help='Angle in degrees relative to the garrisonHolder direction'>" +
-                "<data type='decimal'/>" +
-              "</element>" +
-            "</optional>" +
-          "</interleave>" +
-        "</element>" +
-      "</zeroOrMore>" +
-    "</element>" +
-  "</optional>";
+	"<element name='Max' a:help='Maximum number of entities which can be garrisoned inside this holder'>" +
+		"<data type='positiveInteger'/>" +
+	"</element>" +
+	"<element name='List' a:help='Classes of entities which are allowed to garrison inside this holder (from Identity)'>" +
+		"<attribute name='datatype'>" +
+			"<value>tokens</value>" +
+		"</attribute>" +
+		"<text/>" +
+	"</element>" +
+	"<element name='EjectHealth' a:help='Percentage of maximum health below which this holder no longer allows garrisoning'>" +
+		"<ref name='nonNegativeDecimal'/>" +
+	"</element>" +
+	"<element name='EjectClassesOnDestroy' a:help='Classes of entities to be ejected on destroy. Others are killed'>" +
+		"<attribute name='datatype'>" +
+			"<value>tokens</value>" +
+		"</attribute>" +
+		"<text/>" +
+	"</element>" +
+	"<element name='BuffHeal' a:help='Number of hitpoints that will be restored to this holder&apos;s garrisoned units each second'>" +
+		"<ref name='nonNegativeDecimal'/>" +
+	"</element>" +
+	"<element name='LoadingRange' a:help='The maximum distance from this holder at which entities are allowed to garrison. Should be about 2.0 for land entities and preferably greater for ships'>" +
+		"<ref name='nonNegativeDecimal'/>" +
+	"</element>" +
+	"<optional>" +
+		"<element name='Pickup' a:help='This garrisonHolder will move to pick up units to be garrisoned'>" +
+			"<data type='boolean'/>" +
+		"</element>" +
+	"</optional>" +
+	"<optional>" +
+		"<element name='VisibleGarrisonPoints' a:help='Points that will be used to visibly garrison a unit'>" +
+			"<zeroOrMore>" +
+				"<element a:help='Element containing the offset coordinates'>" +
+					"<anyName/>" +
+					"<interleave>" +
+						"<element name='X'>" +
+							"<data type='decimal'/>" +
+						"</element>" +
+						"<element name='Y'>" +
+							"<data type='decimal'/>" +
+						"</element>" +
+						"<element name='Z'>" +
+							"<data type='decimal'/>" +
+						"</element>" +
+						"<optional>" +
+							"<element name='Angle' a:help='Angle in degrees relative to the garrisonHolder direction'>" +
+								"<data type='decimal'/>" +
+							"</element>" +
+						"</optional>" +
+					"</interleave>" +
+				"</element>" +
+			"</zeroOrMore>" +
+		"</element>" +
+	"</optional>";
 
 /**
  * Initialize GarrisonHolder Component
@@ -63,25 +63,25 @@ GarrisonHolder.prototype.Schema =
  */
 GarrisonHolder.prototype.Init = function()
 {
-  // Garrisoned Units
-  this.entities = [];
-  this.timer = undefined;
-  this.allowGarrisoning = new Map();
-  this.visibleGarrisonPoints = [];
-  if (this.template.VisibleGarrisonPoints)
-  {
-    let points = this.template.VisibleGarrisonPoints;
-    for (let point in points)
-      this.visibleGarrisonPoints.push({
-        "offset": {
-          "x": +points[point].X,
-          "y": +points[point].Y,
-          "z": +points[point].Z
-        },
-        "angle": points[point].Angle ? +points[point].Angle * Math.PI / 180 : null,
-        "entity": null
-      });
-  }
+	// Garrisoned Units
+	this.entities = [];
+	this.timer = undefined;
+	this.allowGarrisoning = new Map();
+	this.visibleGarrisonPoints = [];
+	if (this.template.VisibleGarrisonPoints)
+	{
+		let points = this.template.VisibleGarrisonPoints;
+		for (let point in points)
+			this.visibleGarrisonPoints.push({
+				"offset": {
+					"x": +points[point].X,
+					"y": +points[point].Y,
+					"z": +points[point].Z
+				},
+				"angle": points[point].Angle ? +points[point].Angle * Math.PI / 180 : null,
+				"entity": null
+			});
+	}
 };
 
 /**
@@ -89,20 +89,20 @@ GarrisonHolder.prototype.Init = function()
  */
 GarrisonHolder.prototype.GetLoadingRange = function()
 {
-  return { "max": +this.template.LoadingRange, "min": 0 };
+	return { "max": +this.template.LoadingRange, "min": 0 };
 };
 
 GarrisonHolder.prototype.CanPickup = function(ent)
 {
-  if (!this.template.Pickup || this.IsFull())
-    return false;
-  let cmpOwner = Engine.QueryInterface(this.entity, IID_Ownership);
-  return !!cmpOwner && IsOwnedByPlayer(cmpOwner.GetOwner(), ent);
+	if (!this.template.Pickup || this.IsFull())
+		return false;
+	let cmpOwner = Engine.QueryInterface(this.entity, IID_Ownership);
+	return !!cmpOwner && IsOwnedByPlayer(cmpOwner.GetOwner(), ent);
 };
 
 GarrisonHolder.prototype.GetEntities = function()
 {
-  return this.entities;
+	return this.entities;
 };
 
 /**
@@ -111,22 +111,22 @@ GarrisonHolder.prototype.GetEntities = function()
  */
 GarrisonHolder.prototype.GetAllowedClasses = function()
 {
-  return this.template.List._string;
+	return this.template.List._string;
 };
 
 GarrisonHolder.prototype.GetCapacity = function()
 {
-  return ApplyValueModificationsToEntity("GarrisonHolder/Max", +this.template.Max, this.entity);
+	return ApplyValueModificationsToEntity("GarrisonHolder/Max", +this.template.Max, this.entity);
 };
 
 GarrisonHolder.prototype.IsFull = function()
 {
-  return this.GetGarrisonedSlots() >= this.GetCapacity();
+	return this.GetGarrisonedSlots() >= this.GetCapacity();
 };
 
 GarrisonHolder.prototype.GetHealRate = function()
 {
-  return ApplyValueModificationsToEntity("GarrisonHolder/BuffHeal", +this.template.BuffHeal, this.entity);
+	return ApplyValueModificationsToEntity("GarrisonHolder/BuffHeal", +this.template.BuffHeal, this.entity);
 };
 
 /**
@@ -142,55 +142,55 @@ GarrisonHolder.prototype.GetHealRate = function()
  */
 GarrisonHolder.prototype.AllowGarrisoning = function(allow, callerID)
 {
-  this.allowGarrisoning.set(callerID, allow);
+	this.allowGarrisoning.set(callerID, allow);
 };
 
 GarrisonHolder.prototype.IsGarrisoningAllowed = function()
 {
-  return Array.from(this.allowGarrisoning.values()).every(allow => allow);
+	return Array.from(this.allowGarrisoning.values()).every(allow => allow);
 };
 
 GarrisonHolder.prototype.GetGarrisonedEntitiesCount = function()
 {
-  let count = this.entities.length;
-  for (let ent of this.entities)
-  {
-    let cmpGarrisonHolder = Engine.QueryInterface(ent, IID_GarrisonHolder);
-    if (cmpGarrisonHolder)
-      count += cmpGarrisonHolder.GetGarrisonedEntitiesCount();
-  }
-  return count;
+	let count = this.entities.length;
+	for (let ent of this.entities)
+	{
+		let cmpGarrisonHolder = Engine.QueryInterface(ent, IID_GarrisonHolder);
+		if (cmpGarrisonHolder)
+			count += cmpGarrisonHolder.GetGarrisonedEntitiesCount();
+	}
+	return count;
 };
 
 GarrisonHolder.prototype.GetGarrisonedSlots = function()
 {
-  let count = 0;
-  for (let ent of this.entities)
-  {
-    let cmpGarrisonable = Engine.QueryInterface(ent, IID_Garrisonable);
-    if (cmpGarrisonable)
-      count += cmpGarrisonable.GetSize();
-    let cmpGarrisonHolder = Engine.QueryInterface(ent, IID_GarrisonHolder);
-    if (cmpGarrisonHolder)
-      count += cmpGarrisonHolder.GetGarrisonedSlots();
-  }
-  return count;
+	let count = 0;
+	for (let ent of this.entities)
+	{
+		let cmpGarrisonable = Engine.QueryInterface(ent, IID_Garrisonable);
+		if (cmpGarrisonable)
+			count += cmpGarrisonable.GetSize();
+		let cmpGarrisonHolder = Engine.QueryInterface(ent, IID_GarrisonHolder);
+		if (cmpGarrisonHolder)
+			count += cmpGarrisonHolder.GetGarrisonedSlots();
+	}
+	return count;
 };
 
 GarrisonHolder.prototype.IsAllowedToGarrison = function(ent)
 {
-  if (!this.IsGarrisoningAllowed())
-    return false;
+	if (!this.IsGarrisoningAllowed())
+		return false;
 
-  if (!IsOwnedByMutualAllyOfEntity(ent, this.entity))
-    return false;
+	if (!IsOwnedByMutualAllyOfEntity(ent, this.entity))
+		return false;
 
-  let cmpIdentity = Engine.QueryInterface(ent, IID_Identity);
-  if (!cmpIdentity)
-    return false;
+	let cmpIdentity = Engine.QueryInterface(ent, IID_Identity);
+	if (!cmpIdentity)
+		return false;
 
-  let entityClasses = cmpIdentity.GetClassesList();
-  return MatchesClassList(entityClasses, this.template.List._string) && !!Engine.QueryInterface(ent, IID_Garrisonable);
+	let entityClasses = cmpIdentity.GetClassesList();
+	return MatchesClassList(entityClasses, this.template.List._string) && !!Engine.QueryInterface(ent, IID_Garrisonable);
 };
 
 /**
@@ -201,49 +201,49 @@ GarrisonHolder.prototype.IsAllowedToGarrison = function(ent)
  */
 GarrisonHolder.prototype.Garrison = function(entity, vgpEntity)
 {
-  let cmpPosition = Engine.QueryInterface(entity, IID_Position);
-  if (!cmpPosition)
-    return false;
+	let cmpPosition = Engine.QueryInterface(entity, IID_Position);
+	if (!cmpPosition)
+		return false;
 
-  if (!this.PerformGarrison(entity))
-    return false;
+	if (!this.PerformGarrison(entity))
+		return false;
 
-  let visibleGarrisonPoint = vgpEntity;
-  if (!visibleGarrisonPoint)
-    for (let vgp of this.visibleGarrisonPoints)
-    {
-      if (vgp.entity)
-        continue;
-      visibleGarrisonPoint = vgp;
-      break;
-    }
+	let visibleGarrisonPoint = vgpEntity;
+	if (!visibleGarrisonPoint)
+		for (let vgp of this.visibleGarrisonPoints)
+		{
+			if (vgp.entity)
+				continue;
+			visibleGarrisonPoint = vgp;
+			break;
+		}
 
-  if (visibleGarrisonPoint)
-  {
-    visibleGarrisonPoint.entity = entity;
-    // Angle of turrets:
-    // Renamed entities (vgpEntity != undefined) should keep their angle.
-    // Otherwise if an angle is given in the visibleGarrisonPoint, use it.
-    // If no such angle given (usually walls for which outside/inside not well defined), we keep
-    // the current angle as it was used for garrisoning and thus quite often was from inside to
-    // outside, except when garrisoning from outWorld where we take as default PI.
-    let cmpTurretPosition = Engine.QueryInterface(this.entity, IID_Position);
-    if (!vgpEntity && visibleGarrisonPoint.angle != null)
-      cmpPosition.SetYRotation(cmpTurretPosition.GetRotation().y + visibleGarrisonPoint.angle);
-    else if (!vgpEntity && !cmpPosition.IsInWorld())
-      cmpPosition.SetYRotation(cmpTurretPosition.GetRotation().y + Math.PI);
-    let cmpUnitMotion = Engine.QueryInterface(entity, IID_UnitMotion);
-    if (cmpUnitMotion)
-      cmpUnitMotion.SetFacePointAfterMove(false);
-    cmpPosition.SetTurretParent(this.entity, visibleGarrisonPoint.offset);
-    let cmpUnitAI = Engine.QueryInterface(entity, IID_UnitAI);
-    if (cmpUnitAI)
-      cmpUnitAI.SetTurretStance();
-  }
-  else
-    cmpPosition.MoveOutOfWorld();
+	if (visibleGarrisonPoint)
+	{
+		visibleGarrisonPoint.entity = entity;
+		// Angle of turrets:
+		// Renamed entities (vgpEntity != undefined) should keep their angle.
+		// Otherwise if an angle is given in the visibleGarrisonPoint, use it.
+		// If no such angle given (usually walls for which outside/inside not well defined), we keep
+		// the current angle as it was used for garrisoning and thus quite often was from inside to
+		// outside, except when garrisoning from outWorld where we take as default PI.
+		let cmpTurretPosition = Engine.QueryInterface(this.entity, IID_Position);
+		if (!vgpEntity && visibleGarrisonPoint.angle != null)
+			cmpPosition.SetYRotation(cmpTurretPosition.GetRotation().y + visibleGarrisonPoint.angle);
+		else if (!vgpEntity && !cmpPosition.IsInWorld())
+			cmpPosition.SetYRotation(cmpTurretPosition.GetRotation().y + Math.PI);
+		let cmpUnitMotion = Engine.QueryInterface(entity, IID_UnitMotion);
+		if (cmpUnitMotion)
+			cmpUnitMotion.SetFacePointAfterMove(false);
+		cmpPosition.SetTurretParent(this.entity, visibleGarrisonPoint.offset);
+		let cmpUnitAI = Engine.QueryInterface(entity, IID_UnitAI);
+		if (cmpUnitAI)
+			cmpUnitAI.SetTurretStance();
+	}
+	else
+		cmpPosition.MoveOutOfWorld();
 
-  return true;
+	return true;
 };
 
 /**
@@ -251,42 +251,42 @@ GarrisonHolder.prototype.Garrison = function(entity, vgpEntity)
  */
 GarrisonHolder.prototype.PerformGarrison = function(entity)
 {
-  if (!this.HasEnoughHealth())
-    return false;
+	if (!this.HasEnoughHealth())
+		return false;
 
-  // Check if the unit is allowed to be garrisoned inside the building
-  if (!this.IsAllowedToGarrison(entity))
-    return false;
+	// Check if the unit is allowed to be garrisoned inside the building
+	if (!this.IsAllowedToGarrison(entity))
+		return false;
 
-  // Check the capacity
-  let cmpGarrisonable = Engine.QueryInterface(entity, IID_Garrisonable);
-  let extraCount = cmpGarrisonable.GetSize();
+	// Check the capacity
+	let cmpGarrisonable = Engine.QueryInterface(entity, IID_Garrisonable);
+	let extraCount = cmpGarrisonable.GetSize();
 
-  let cmpGarrisonHolder = Engine.QueryInterface(entity, IID_GarrisonHolder);
-  if (cmpGarrisonHolder)
-    extraCount += cmpGarrisonHolder.GetGarrisonedSlots();
-  if (this.GetGarrisonedSlots() + extraCount > this.GetCapacity())
-    return false;
+	let cmpGarrisonHolder = Engine.QueryInterface(entity, IID_GarrisonHolder);
+	if (cmpGarrisonHolder)
+		extraCount += cmpGarrisonHolder.GetGarrisonedSlots();
+	if (this.GetGarrisonedSlots() + extraCount > this.GetCapacity())
+		return false;
 
-  if (!this.timer && this.GetHealRate() > 0)
-  {
-    let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-    this.timer = cmpTimer.SetTimeout(this.entity, IID_GarrisonHolder, "HealTimeout", 1000, {});
-  }
+	if (!this.timer && this.GetHealRate() > 0)
+	{
+		let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+		this.timer = cmpTimer.SetTimeout(this.entity, IID_GarrisonHolder, "HealTimeout", 1000, {});
+	}
 
-  // Actual garrisoning happens here
-  this.entities.push(entity);
-  this.UpdateGarrisonFlag();
-  let cmpProductionQueue = Engine.QueryInterface(entity, IID_ProductionQueue);
-  if (cmpProductionQueue)
-    cmpProductionQueue.PauseProduction();
+	// Actual garrisoning happens here
+	this.entities.push(entity);
+	this.UpdateGarrisonFlag();
+	let cmpProductionQueue = Engine.QueryInterface(entity, IID_ProductionQueue);
+	if (cmpProductionQueue)
+		cmpProductionQueue.PauseProduction();
 
-  let cmpAura = Engine.QueryInterface(entity, IID_Auras);
-  if (cmpAura && cmpAura.HasGarrisonAura())
-    cmpAura.ApplyGarrisonBonus(this.entity);
+	let cmpAura = Engine.QueryInterface(entity, IID_Auras);
+	if (cmpAura && cmpAura.HasGarrisonAura())
+		cmpAura.ApplyGarrisonBonus(this.entity);
 
-  Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [entity], "removed": [] });
-  return true;
+	Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [entity], "removed": [] });
+	return true;
 };
 
 /**
@@ -297,74 +297,74 @@ GarrisonHolder.prototype.PerformGarrison = function(entity)
  */
 GarrisonHolder.prototype.Eject = function(entity, forced)
 {
-  let entityIndex = this.entities.indexOf(entity);
-  // Error: invalid entity ID, usually it's already been ejected
-  if (entityIndex == -1)
-    return false;
+	let entityIndex = this.entities.indexOf(entity);
+	// Error: invalid entity ID, usually it's already been ejected
+	if (entityIndex == -1)
+		return false;
 
-  // Find spawning location
-  let cmpFootprint = Engine.QueryInterface(this.entity, IID_Footprint);
-  let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
-  let cmpIdentity = Engine.QueryInterface(this.entity, IID_Identity);
+	// Find spawning location
+	let cmpFootprint = Engine.QueryInterface(this.entity, IID_Footprint);
+	let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
+	let cmpIdentity = Engine.QueryInterface(this.entity, IID_Identity);
 
-  // If the garrisonHolder is a sinking ship, restrict the location to the intersection of both passabilities
-  // TODO: should use passability classes to be more generic
-  let pos;
-  if ((!cmpHealth || cmpHealth.GetHitpoints() == 0) && cmpIdentity && cmpIdentity.HasClass("Ship"))
-    pos = cmpFootprint.PickSpawnPointBothPass(entity);
-  else
-    pos = cmpFootprint.PickSpawnPoint(entity);
+	// If the garrisonHolder is a sinking ship, restrict the location to the intersection of both passabilities
+	// TODO: should use passability classes to be more generic
+	let pos;
+	if ((!cmpHealth || cmpHealth.GetHitpoints() == 0) && cmpIdentity && cmpIdentity.HasClass("Ship"))
+		pos = cmpFootprint.PickSpawnPointBothPass(entity);
+	else
+		pos = cmpFootprint.PickSpawnPoint(entity);
 
-  if (pos.y < 0)
-  {
-    // Error: couldn't find space satisfying the unit's passability criteria
-    if (!forced)
-      return false;
+	if (pos.y < 0)
+	{
+		// Error: couldn't find space satisfying the unit's passability criteria
+		if (!forced)
+			return false;
 
-    // If ejection is forced, we need to continue, so use center of the building
-    let cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
-    pos = cmpPosition.GetPosition();
-  }
+		// If ejection is forced, we need to continue, so use center of the building
+		let cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
+		pos = cmpPosition.GetPosition();
+	}
 
-  this.entities.splice(entityIndex, 1);
-  let cmpEntPosition = Engine.QueryInterface(entity, IID_Position);
-  let cmpEntUnitAI = Engine.QueryInterface(entity, IID_UnitAI);
+	this.entities.splice(entityIndex, 1);
+	let cmpEntPosition = Engine.QueryInterface(entity, IID_Position);
+	let cmpEntUnitAI = Engine.QueryInterface(entity, IID_UnitAI);
 
-  for (let vgp of this.visibleGarrisonPoints)
-  {
-    if (vgp.entity != entity)
-      continue;
-    cmpEntPosition.SetTurretParent(INVALID_ENTITY, new Vector3D());
-    let cmpEntUnitMotion = Engine.QueryInterface(entity, IID_UnitMotion);
-    if (cmpEntUnitMotion)
-      cmpEntUnitMotion.SetFacePointAfterMove(true);
-    if (cmpEntUnitAI)
-      cmpEntUnitAI.ResetTurretStance();
-    vgp.entity = null;
-    break;
-  }
+	for (let vgp of this.visibleGarrisonPoints)
+	{
+		if (vgp.entity != entity)
+			continue;
+		cmpEntPosition.SetTurretParent(INVALID_ENTITY, new Vector3D());
+		let cmpEntUnitMotion = Engine.QueryInterface(entity, IID_UnitMotion);
+		if (cmpEntUnitMotion)
+			cmpEntUnitMotion.SetFacePointAfterMove(true);
+		if (cmpEntUnitAI)
+			cmpEntUnitAI.ResetTurretStance();
+		vgp.entity = null;
+		break;
+	}
 
-  if (cmpEntUnitAI)
-    cmpEntUnitAI.Ungarrison();
+	if (cmpEntUnitAI)
+		cmpEntUnitAI.Ungarrison();
 
-  let cmpEntProductionQueue = Engine.QueryInterface(entity, IID_ProductionQueue);
-  if (cmpEntProductionQueue)
-    cmpEntProductionQueue.UnpauseProduction();
+	let cmpEntProductionQueue = Engine.QueryInterface(entity, IID_ProductionQueue);
+	if (cmpEntProductionQueue)
+		cmpEntProductionQueue.UnpauseProduction();
 
-  let cmpEntAura = Engine.QueryInterface(entity, IID_Auras);
-  if (cmpEntAura && cmpEntAura.HasGarrisonAura())
-    cmpEntAura.RemoveGarrisonBonus(this.entity);
+	let cmpEntAura = Engine.QueryInterface(entity, IID_Auras);
+	if (cmpEntAura && cmpEntAura.HasGarrisonAura())
+		cmpEntAura.RemoveGarrisonBonus(this.entity);
 
-  cmpEntPosition.JumpTo(pos.x, pos.z);
-  cmpEntPosition.SetHeightOffset(0);
+	cmpEntPosition.JumpTo(pos.x, pos.z);
+	cmpEntPosition.SetHeightOffset(0);
 
-  let cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
-  if (cmpPosition)
-    cmpEntPosition.SetYRotation(cmpPosition.GetPosition().horizAngleTo(pos));
+	let cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
+	if (cmpPosition)
+		cmpEntPosition.SetYRotation(cmpPosition.GetPosition().horizAngleTo(pos));
 
-  Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [], "removed": [entity] });
+	Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [], "removed": [entity] });
 
-  return true;
+	return true;
 };
 
 /**
@@ -377,48 +377,48 @@ GarrisonHolder.prototype.Eject = function(entity, forced)
  */
 GarrisonHolder.prototype.PerformEject = function(entities, forced)
 {
-  if (!this.IsGarrisoningAllowed() && !forced)
-    return false;
+	if (!this.IsGarrisoningAllowed() && !forced)
+		return false;
 
-  let ejectedEntities = [];
-  let success = true;
-  let failedRadius;
-  let radius;
-  let cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
+	let ejectedEntities = [];
+	let success = true;
+	let failedRadius;
+	let radius;
+	let cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
 
-  for (let entity of entities)
-  {
-    if (failedRadius !== undefined)
-    {
-      let cmpObstruction = Engine.QueryInterface(entity, IID_Obstruction);
-      radius = cmpObstruction ? cmpObstruction.GetUnitRadius() : 0;
-      if (radius >= failedRadius)
-        continue;
-    }
+	for (let entity of entities)
+	{
+		if (failedRadius !== undefined)
+		{
+			let cmpObstruction = Engine.QueryInterface(entity, IID_Obstruction);
+			radius = cmpObstruction ? cmpObstruction.GetUnitRadius() : 0;
+			if (radius >= failedRadius)
+				continue;
+		}
 
-    if (this.Eject(entity, forced))
-    {
-      let cmpEntOwnership = Engine.QueryInterface(entity, IID_Ownership);
-      if (cmpOwnership && cmpEntOwnership && cmpOwnership.GetOwner() == cmpEntOwnership.GetOwner())
-        ejectedEntities.push(entity);
-    }
-    else
-    {
-      success = false;
-      if (failedRadius !== undefined)
-        failedRadius = Math.min(failedRadius, radius);
-      else
-      {
-        let cmpObstruction = Engine.QueryInterface(entity, IID_Obstruction);
-        failedRadius = cmpObstruction ? cmpObstruction.GetUnitRadius() : 0;
-      }
-    }
-  }
+		if (this.Eject(entity, forced))
+		{
+			let cmpEntOwnership = Engine.QueryInterface(entity, IID_Ownership);
+			if (cmpOwnership && cmpEntOwnership && cmpOwnership.GetOwner() == cmpEntOwnership.GetOwner())
+				ejectedEntities.push(entity);
+		}
+		else
+		{
+			success = false;
+			if (failedRadius !== undefined)
+				failedRadius = Math.min(failedRadius, radius);
+			else
+			{
+				let cmpObstruction = Engine.QueryInterface(entity, IID_Obstruction);
+				failedRadius = cmpObstruction ? cmpObstruction.GetUnitRadius() : 0;
+			}
+		}
+	}
 
-  this.OrderWalkToRallyPoint(ejectedEntities);
-  this.UpdateGarrisonFlag();
+	this.OrderWalkToRallyPoint(ejectedEntities);
+	this.UpdateGarrisonFlag();
 
-  return success;
+	return success;
 };
 
 /**
@@ -427,18 +427,18 @@ GarrisonHolder.prototype.PerformEject = function(entities, forced)
  */
 GarrisonHolder.prototype.OrderWalkToRallyPoint = function(entities)
 {
-  let cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
-  let cmpRallyPoint = Engine.QueryInterface(this.entity, IID_RallyPoint);
-  if (!cmpRallyPoint || !cmpRallyPoint.GetPositions()[0])
-    return;
+	let cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
+	let cmpRallyPoint = Engine.QueryInterface(this.entity, IID_RallyPoint);
+	if (!cmpRallyPoint || !cmpRallyPoint.GetPositions()[0])
+		return;
 
-  let commands = GetRallyPointCommands(cmpRallyPoint, entities);
-  // Ignore the rally point if it is autogarrison
-  if (commands[0].type == "garrison" && commands[0].target == this.entity)
-    return;
+	let commands = GetRallyPointCommands(cmpRallyPoint, entities);
+	// Ignore the rally point if it is autogarrison
+	if (commands[0].type == "garrison" && commands[0].target == this.entity)
+		return;
 
-  for (let command of commands)
-    ProcessCommand(cmpOwnership.GetOwner(), command);
+	for (let command of commands)
+		ProcessCommand(cmpOwnership.GetOwner(), command);
 };
 
 /**
@@ -448,7 +448,7 @@ GarrisonHolder.prototype.OrderWalkToRallyPoint = function(entities)
  */
 GarrisonHolder.prototype.Unload = function(entity, forced)
 {
-  return this.PerformEject([entity], forced);
+	return this.PerformEject([entity], forced);
 };
 
 /**
@@ -462,25 +462,25 @@ GarrisonHolder.prototype.Unload = function(entity, forced)
  */
 GarrisonHolder.prototype.UnloadTemplate = function(template, owner, all, forced)
 {
-  let entities = [];
-  let cmpTemplateManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_TemplateManager);
-  for (let entity of this.entities)
-  {
-    let cmpIdentity = Engine.QueryInterface(entity, IID_Identity);
+	let entities = [];
+	let cmpTemplateManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_TemplateManager);
+	for (let entity of this.entities)
+	{
+		let cmpIdentity = Engine.QueryInterface(entity, IID_Identity);
 
-    // Units with multiple ranks are grouped together.
-    let name = cmpIdentity.GetSelectionGroupName() || cmpTemplateManager.GetCurrentTemplateName(entity);
-    if (name != template || owner != Engine.QueryInterface(entity, IID_Ownership).GetOwner())
-      continue;
+		// Units with multiple ranks are grouped together.
+		let name = cmpIdentity.GetSelectionGroupName() || cmpTemplateManager.GetCurrentTemplateName(entity);
+		if (name != template || owner != Engine.QueryInterface(entity, IID_Ownership).GetOwner())
+			continue;
 
-    entities.push(entity);
+		entities.push(entity);
 
-    // If 'all' is false, only ungarrison the first matched unit.
-    if (!all)
-      break;
-  }
+		// If 'all' is false, only ungarrison the first matched unit.
+		if (!all)
+			break;
+	}
 
-  return this.PerformEject(entities, forced);
+	return this.PerformEject(entities, forced);
 };
 
 /**
@@ -492,11 +492,11 @@ GarrisonHolder.prototype.UnloadTemplate = function(template, owner, all, forced)
  */
 GarrisonHolder.prototype.UnloadAllByOwner = function(owner, forced)
 {
-  let entities = this.entities.filter(ent => {
-    let cmpOwnership = Engine.QueryInterface(ent, IID_Ownership);
-    return cmpOwnership && cmpOwnership.GetOwner() == owner;
-  });
-  return this.PerformEject(entities, forced);
+	let entities = this.entities.filter(ent => {
+		let cmpOwnership = Engine.QueryInterface(ent, IID_Ownership);
+		return cmpOwnership && cmpOwnership.GetOwner() == owner;
+	});
+	return this.PerformEject(entities, forced);
 };
 
 /**
@@ -506,7 +506,7 @@ GarrisonHolder.prototype.UnloadAllByOwner = function(owner, forced)
  */
 GarrisonHolder.prototype.UnloadAll = function(forced)
 {
-  return this.PerformEject(this.entities.slice(), forced);
+	return this.PerformEject(this.entities.slice(), forced);
 };
 
 /**
@@ -515,14 +515,14 @@ GarrisonHolder.prototype.UnloadAll = function(forced)
  */
 GarrisonHolder.prototype.OnHealthChanged = function(msg)
 {
-  if (!this.HasEnoughHealth() && this.entities.length)
-    this.EjectOrKill(this.entities.slice());
+	if (!this.HasEnoughHealth() && this.entities.length)
+		this.EjectOrKill(this.entities.slice());
 };
 
 GarrisonHolder.prototype.HasEnoughHealth = function()
 {
-  let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
-  return cmpHealth.GetHitpoints() > Math.floor(+this.template.EjectHealth * cmpHealth.GetMaxHitpoints());
+	let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
+	return cmpHealth.GetHitpoints() > Math.floor(+this.template.EjectHealth * cmpHealth.GetMaxHitpoints());
 };
 
 /**
@@ -530,22 +530,22 @@ GarrisonHolder.prototype.HasEnoughHealth = function()
  */
 GarrisonHolder.prototype.HealTimeout = function(data)
 {
-  let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-  if (!this.entities.length)
-  {
-    cmpTimer.CancelTimer(this.timer);
-    this.timer = undefined;
-    return;
-  }
+	let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+	if (!this.entities.length)
+	{
+		cmpTimer.CancelTimer(this.timer);
+		this.timer = undefined;
+		return;
+	}
 
-  for (let entity of this.entities)
-  {
-    let cmpHealth = Engine.QueryInterface(entity, IID_Health);
-    if (cmpHealth && !cmpHealth.IsUnhealable())
-      cmpHealth.Increase(this.GetHealRate());
-  }
+	for (let entity of this.entities)
+	{
+		let cmpHealth = Engine.QueryInterface(entity, IID_Health);
+		if (cmpHealth && !cmpHealth.IsUnhealable())
+			cmpHealth.Increase(this.GetHealRate());
+	}
 
-  this.timer = cmpTimer.SetTimeout(this.entity, IID_GarrisonHolder, "HealTimeout", 1000, {});
+	this.timer = cmpTimer.SetTimeout(this.entity, IID_GarrisonHolder, "HealTimeout", 1000, {});
 };
 
 /**
@@ -553,11 +553,11 @@ GarrisonHolder.prototype.HealTimeout = function(data)
  */
 GarrisonHolder.prototype.UpdateGarrisonFlag = function()
 {
-  let cmpVisual = Engine.QueryInterface(this.entity, IID_Visual);
-  if (!cmpVisual)
-    return;
+	let cmpVisual = Engine.QueryInterface(this.entity, IID_Visual);
+	if (!cmpVisual)
+		return;
 
-  cmpVisual.SetVariant("garrison", this.entities.length ? "garrisoned" : "ungarrisoned");
+	cmpVisual.SetVariant("garrison", this.entities.length ? "garrisoned" : "ungarrisoned");
 };
 
 /**
@@ -565,11 +565,11 @@ GarrisonHolder.prototype.UpdateGarrisonFlag = function()
  */
 GarrisonHolder.prototype.OnDestroy = function()
 {
-  if (this.timer)
-  {
-    let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-    cmpTimer.CancelTimer(this.timer);
-  }
+	if (this.timer)
+	{
+		let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+		cmpTimer.CancelTimer(this.timer);
+	}
 };
 
 /**
@@ -578,36 +578,36 @@ GarrisonHolder.prototype.OnDestroy = function()
  */
 GarrisonHolder.prototype.OnGlobalOwnershipChanged = function(msg)
 {
-  // The ownership change may be on the garrisonholder
-  if (this.entity == msg.entity)
-  {
-    let entities = this.entities.filter(ent => msg.to == INVALID_PLAYER || !IsOwnedByMutualAllyOfEntity(this.entity, ent));
+	// The ownership change may be on the garrisonholder
+	if (this.entity == msg.entity)
+	{
+		let entities = this.entities.filter(ent => msg.to == INVALID_PLAYER || !IsOwnedByMutualAllyOfEntity(this.entity, ent));
 
-    if (entities.length)
-      this.EjectOrKill(entities);
+		if (entities.length)
+			this.EjectOrKill(entities);
 
-    return;
-  }
+		return;
+	}
 
-  // or on some of its garrisoned units
-  let entityIndex = this.entities.indexOf(msg.entity);
-  if (entityIndex != -1)
-  {
-    // If the entity is dead, remove it directly instead of ejecting the corpse
-    let cmpHealth = Engine.QueryInterface(msg.entity, IID_Health);
-    if (cmpHealth && cmpHealth.GetHitpoints() == 0)
-    {
-      this.entities.splice(entityIndex, 1);
-      Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [], "removed": [msg.entity] });
-      this.UpdateGarrisonFlag();
+	// or on some of its garrisoned units
+	let entityIndex = this.entities.indexOf(msg.entity);
+	if (entityIndex != -1)
+	{
+		// If the entity is dead, remove it directly instead of ejecting the corpse
+		let cmpHealth = Engine.QueryInterface(msg.entity, IID_Health);
+		if (cmpHealth && cmpHealth.GetHitpoints() == 0)
+		{
+			this.entities.splice(entityIndex, 1);
+			Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [], "removed": [msg.entity] });
+			this.UpdateGarrisonFlag();
 
-      for (let point of this.visibleGarrisonPoints)
-        if (point.entity == msg.entity)
-          point.entity = null;
-    }
-    else if (msg.to == INVALID_PLAYER || !IsOwnedByMutualAllyOfEntity(this.entity, msg.entity))
-      this.EjectOrKill([msg.entity]);
-  }
+			for (let point of this.visibleGarrisonPoints)
+				if (point.entity == msg.entity)
+					point.entity = null;
+		}
+		else if (msg.to == INVALID_PLAYER || !IsOwnedByMutualAllyOfEntity(this.entity, msg.entity))
+			this.EjectOrKill([msg.entity]);
+	}
 };
 
 /**
@@ -615,37 +615,37 @@ GarrisonHolder.prototype.OnGlobalOwnershipChanged = function(msg)
  */
 GarrisonHolder.prototype.OnGlobalEntityRenamed = function(msg)
 {
-  let entityIndex = this.entities.indexOf(msg.entity);
-  if (entityIndex != -1)
-  {
-    let vgpRenamed;
-    for (let vgp of this.visibleGarrisonPoints)
-    {
-      if (vgp.entity != msg.entity)
-        continue;
-      vgpRenamed = vgp;
-      break;
-    }
-    this.Eject(msg.entity, true);
-    this.Garrison(msg.newentity, vgpRenamed);
-  }
+	let entityIndex = this.entities.indexOf(msg.entity);
+	if (entityIndex != -1)
+	{
+		let vgpRenamed;
+		for (let vgp of this.visibleGarrisonPoints)
+		{
+			if (vgp.entity != msg.entity)
+				continue;
+			vgpRenamed = vgp;
+			break;
+		}
+		this.Eject(msg.entity, true);
+		this.Garrison(msg.newentity, vgpRenamed);
+	}
 
-  if (!this.initGarrison)
-    return;
+	if (!this.initGarrison)
+		return;
 
-  // Update the pre-game garrison because of SkirmishReplacement
-  if (msg.entity == this.entity)
-  {
-    let cmpGarrisonHolder = Engine.QueryInterface(msg.newentity, IID_GarrisonHolder);
-    if (cmpGarrisonHolder)
-      cmpGarrisonHolder.initGarrison = this.initGarrison;
-  }
-  else
-  {
-    entityIndex = this.initGarrison.indexOf(msg.entity);
-    if (entityIndex != -1)
-      this.initGarrison[entityIndex] = msg.newentity;
-  }
+	// Update the pre-game garrison because of SkirmishReplacement
+	if (msg.entity == this.entity)
+	{
+		let cmpGarrisonHolder = Engine.QueryInterface(msg.newentity, IID_GarrisonHolder);
+		if (cmpGarrisonHolder)
+			cmpGarrisonHolder.initGarrison = this.initGarrison;
+	}
+	else
+	{
+		entityIndex = this.initGarrison.indexOf(msg.entity);
+		if (entityIndex != -1)
+			this.initGarrison[entityIndex] = msg.newentity;
+	}
 };
 
 /**
@@ -653,7 +653,7 @@ GarrisonHolder.prototype.OnGlobalEntityRenamed = function(msg)
  */
 GarrisonHolder.prototype.OnDiplomacyChanged = function()
 {
-  this.EjectOrKill(this.entities.filter(ent => !IsOwnedByMutualAllyOfEntity(this.entity, ent)));
+	this.EjectOrKill(this.entities.filter(ent => !IsOwnedByMutualAllyOfEntity(this.entity, ent)));
 };
 
 /**
@@ -662,45 +662,45 @@ GarrisonHolder.prototype.OnDiplomacyChanged = function()
  */
 GarrisonHolder.prototype.EjectOrKill = function(entities)
 {
-  let cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
-  // Eject the units which can be ejected (if not in world, it generally means this holder
-  // is inside a holder which kills its entities, so do not eject)
-  if (cmpPosition && cmpPosition.IsInWorld())
-  {
-    let ejectables = entities.filter(ent => this.IsEjectable(ent));
-    if (ejectables.length)
-      this.PerformEject(ejectables, false);
-  }
+	let cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
+	// Eject the units which can be ejected (if not in world, it generally means this holder
+	// is inside a holder which kills its entities, so do not eject)
+	if (cmpPosition && cmpPosition.IsInWorld())
+	{
+		let ejectables = entities.filter(ent => this.IsEjectable(ent));
+		if (ejectables.length)
+			this.PerformEject(ejectables, false);
+	}
 
-  // And destroy all remaining entities
-  let killedEntities = [];
-  for (let entity of entities)
-  {
-    let entityIndex = this.entities.indexOf(entity);
-    if (entityIndex == -1)
-      continue;
-    let cmpHealth = Engine.QueryInterface(entity, IID_Health);
-    if (cmpHealth)
-      cmpHealth.Kill();
-    this.entities.splice(entityIndex, 1);
-    killedEntities.push(entity);
-  }
+	// And destroy all remaining entities
+	let killedEntities = [];
+	for (let entity of entities)
+	{
+		let entityIndex = this.entities.indexOf(entity);
+		if (entityIndex == -1)
+			continue;
+		let cmpHealth = Engine.QueryInterface(entity, IID_Health);
+		if (cmpHealth)
+			cmpHealth.Kill();
+		this.entities.splice(entityIndex, 1);
+		killedEntities.push(entity);
+	}
 
-  if (killedEntities.length)
-    Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [], "removed": killedEntities });
-  this.UpdateGarrisonFlag();
+	if (killedEntities.length)
+		Engine.PostMessage(this.entity, MT_GarrisonedUnitsChanged, { "added": [], "removed": killedEntities });
+	this.UpdateGarrisonFlag();
 };
 
 GarrisonHolder.prototype.IsEjectable = function(entity)
 {
-  if (!this.entities.find(ent => ent == entity))
-    return false;
+	if (!this.entities.find(ent => ent == entity))
+		return false;
 
-  let ejectableClasses = this.template.EjectClassesOnDestroy._string;
-  ejectableClasses = ejectableClasses ? ejectableClasses.split(/\s+/) : [];
-  let entityClasses = Engine.QueryInterface(entity, IID_Identity).GetClassesList();
+	let ejectableClasses = this.template.EjectClassesOnDestroy._string;
+	ejectableClasses = ejectableClasses ? ejectableClasses.split(/\s+/) : [];
+	let entityClasses = Engine.QueryInterface(entity, IID_Identity).GetClassesList();
 
-  return ejectableClasses.some(ejectableClass => entityClasses.indexOf(ejectableClass) != -1);
+	return ejectableClasses.some(ejectableClass => entityClasses.indexOf(ejectableClass) != -1);
 };
 
 /**
@@ -708,34 +708,34 @@ GarrisonHolder.prototype.IsEjectable = function(entity)
  */
 GarrisonHolder.prototype.OnGlobalInitGame = function(msg)
 {
-  if (!this.initGarrison)
-    return;
+	if (!this.initGarrison)
+		return;
 
-  for (let ent of this.initGarrison)
-  {
-    let cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
-    if (cmpUnitAI && cmpUnitAI.CanGarrison(this.entity) && this.Garrison(ent))
-      cmpUnitAI.Autogarrison(this.entity);
-  }
-  this.initGarrison = undefined;
+	for (let ent of this.initGarrison)
+	{
+		let cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
+		if (cmpUnitAI && cmpUnitAI.CanGarrison(this.entity) && this.Garrison(ent))
+			cmpUnitAI.Autogarrison(this.entity);
+	}
+	this.initGarrison = undefined;
 };
 
 GarrisonHolder.prototype.OnValueModification = function(msg)
 {
-  if (msg.component != "GarrisonHolder" || msg.valueNames.indexOf("GarrisonHolder/BuffHeal") == -1)
-    return;
+	if (msg.component != "GarrisonHolder" || msg.valueNames.indexOf("GarrisonHolder/BuffHeal") == -1)
+		return;
 
-  if (this.timer && this.GetHealRate() == 0)
-  {
-    let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-    cmpTimer.CancelTimer(this.timer);
-    this.timer = undefined;
-  }
-  else if (!this.timer && this.GetHealRate() > 0)
-  {
-    let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-    this.timer = cmpTimer.SetTimeout(this.entity, IID_GarrisonHolder, "HealTimeout", 1000, {});
-  }
+	if (this.timer && this.GetHealRate() == 0)
+	{
+		let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+		cmpTimer.CancelTimer(this.timer);
+		this.timer = undefined;
+	}
+	else if (!this.timer && this.GetHealRate() > 0)
+	{
+		let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+		this.timer = cmpTimer.SetTimeout(this.entity, IID_GarrisonHolder, "HealTimeout", 1000, {});
+	}
 };
 
 Engine.RegisterComponentType(IID_GarrisonHolder, "GarrisonHolder", GarrisonHolder);

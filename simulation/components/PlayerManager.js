@@ -1,34 +1,34 @@
 function PlayerManager() {}
 
 PlayerManager.prototype.Schema =
-  "<a:component type='system'/><empty/>";
+	"<a:component type='system'/><empty/>";
 
 PlayerManager.prototype.Init = function()
 {
-  // List of player entity IDs.
-  this.playerEntities = [];
-  // Maximum world population (if applicable will be distributed amongst living players).
-  this.maxWorldPopulation = undefined;
+	// List of player entity IDs.
+	this.playerEntities = [];
+	// Maximum world population (if applicable will be distributed amongst living players).
+	this.maxWorldPopulation = undefined;
 };
 
 PlayerManager.prototype.AddPlayer = function(ent)
 {
-  var id = this.playerEntities.length;
-  var cmpPlayer = Engine.QueryInterface(ent, IID_Player);
-  cmpPlayer.SetPlayerID(id);
-  this.playerEntities.push(ent);
-  // initialize / update the diplomacy arrays
-  var newDiplo = [];
-  for (var i = 0; i < id; i++)
-  {
-    var cmpOtherPlayer = Engine.QueryInterface(this.GetPlayerByID(i), IID_Player);
-    cmpOtherPlayer.diplomacy[id] = -1;
-    newDiplo[i] = -1;
-  }
-  newDiplo[id] = 1;
-  cmpPlayer.SetDiplomacy(newDiplo);
+	var id = this.playerEntities.length;
+	var cmpPlayer = Engine.QueryInterface(ent, IID_Player);
+	cmpPlayer.SetPlayerID(id);
+	this.playerEntities.push(ent);
+	// initialize / update the diplomacy arrays
+	var newDiplo = [];
+	for (var i = 0; i < id; i++)
+	{
+		var cmpOtherPlayer = Engine.QueryInterface(this.GetPlayerByID(i), IID_Player);
+		cmpOtherPlayer.diplomacy[id] = -1;
+		newDiplo[i] = -1;
+	}
+	newDiplo[id] = 1;
+	cmpPlayer.SetDiplomacy(newDiplo);
 
-  return id;
+	return id;
 };
 
 /**
@@ -38,35 +38,35 @@ PlayerManager.prototype.AddPlayer = function(ent)
  */
 PlayerManager.prototype.ReplacePlayer = function(id, ent)
 {
-  var cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
-  var entities = cmpRangeManager.GetEntitiesByPlayer(id);
-  for (var e of entities)
-  {
-    var cmpOwnership = Engine.QueryInterface(e, IID_Ownership);
-    if (cmpOwnership)
-      cmpOwnership.SetOwner(INVALID_PLAYER);
-  }
+	var cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
+	var entities = cmpRangeManager.GetEntitiesByPlayer(id);
+	for (var e of entities)
+	{
+		var cmpOwnership = Engine.QueryInterface(e, IID_Ownership);
+		if (cmpOwnership)
+			cmpOwnership.SetOwner(INVALID_PLAYER);
+	}
 
-  var oldent = this.playerEntities[id];
-  var cmpPlayer = Engine.QueryInterface(oldent, IID_Player);
-  var diplo = cmpPlayer.GetDiplomacy();
-  var color = cmpPlayer.GetColor();
+	var oldent = this.playerEntities[id];
+	var cmpPlayer = Engine.QueryInterface(oldent, IID_Player);
+	var diplo = cmpPlayer.GetDiplomacy();
+	var color = cmpPlayer.GetColor();
 
-  var cmpPlayer = Engine.QueryInterface(ent, IID_Player);
-  cmpPlayer.SetPlayerID(id);
-  this.playerEntities[id] = ent;
-  cmpPlayer.SetColor(color);
-  cmpPlayer.SetDiplomacy(diplo);
+	var cmpPlayer = Engine.QueryInterface(ent, IID_Player);
+	cmpPlayer.SetPlayerID(id);
+	this.playerEntities[id] = ent;
+	cmpPlayer.SetColor(color);
+	cmpPlayer.SetDiplomacy(diplo);
 
-  Engine.DestroyEntity(oldent);
-  Engine.FlushDestroyedEntities();
+	Engine.DestroyEntity(oldent);
+	Engine.FlushDestroyedEntities();
 
-  for (var e of entities)
-  {
-    var cmpOwnership = Engine.QueryInterface(e, IID_Ownership);
-    if (cmpOwnership)
-      cmpOwnership.SetOwner(id);
-  }
+	for (var e of entities)
+	{
+		var cmpOwnership = Engine.QueryInterface(e, IID_Ownership);
+		if (cmpOwnership)
+			cmpOwnership.SetOwner(id);
+	}
 };
 
 /**
@@ -75,17 +75,17 @@ PlayerManager.prototype.ReplacePlayer = function(id, ent)
  */
 PlayerManager.prototype.GetPlayerByID = function(id)
 {
-  if (id in this.playerEntities)
-    return this.playerEntities[id];
+	if (id in this.playerEntities)
+		return this.playerEntities[id];
 
-  // All players at or below ID 0 get gaia-level data. (Observers for example)
-  if (id <= 0)
-    return this.playerEntities[0];
+	// All players at or below ID 0 get gaia-level data. (Observers for example)
+	if (id <= 0)
+		return this.playerEntities[0];
 
-  var stack = new Error().stack.trimRight().replace(/^/mg, '  '); // indent each line
-  warn("GetPlayerByID: no player defined for id '"+id+"'\n"+stack);
+	var stack = new Error().stack.trimRight().replace(/^/mg, '	'); // indent each line
+	warn("GetPlayerByID: no player defined for id '"+id+"'\n"+stack);
 
-  return INVALID_ENTITY;
+	return INVALID_ENTITY;
 };
 
 /**
@@ -93,7 +93,7 @@ PlayerManager.prototype.GetPlayerByID = function(id)
  */
 PlayerManager.prototype.GetNumPlayers = function()
 {
-  return this.playerEntities.length;
+	return this.playerEntities.length;
 };
 
 /**
@@ -101,10 +101,10 @@ PlayerManager.prototype.GetNumPlayers = function()
  */
 PlayerManager.prototype.GetAllPlayers = function()
 {
-  let players = [];
-  for (let i = 0; i < this.playerEntities.length; ++i)
-    players.push(i);
-  return players;
+	let players = [];
+	for (let i = 0; i < this.playerEntities.length; ++i)
+		players.push(i);
+	return players;
 };
 
 /**
@@ -112,10 +112,10 @@ PlayerManager.prototype.GetAllPlayers = function()
  */
 PlayerManager.prototype.GetNonGaiaPlayers = function()
 {
-  let players = [];
-  for (let i = 1; i < this.playerEntities.length; ++i)
-    players.push(i);
-  return players;
+	let players = [];
+	for (let i = 1; i < this.playerEntities.length; ++i)
+		players.push(i);
+	return players;
 };
 
 /**
@@ -123,35 +123,35 @@ PlayerManager.prototype.GetNonGaiaPlayers = function()
  */
 PlayerManager.prototype.GetActivePlayers = function()
 {
-  return this.GetNonGaiaPlayers().filter(playerID => QueryPlayerIDInterface(playerID).GetState() == "active");
+	return this.GetNonGaiaPlayers().filter(playerID => QueryPlayerIDInterface(playerID).GetState() == "active");
 };
 
 PlayerManager.prototype.RemoveAllPlayers = function()
 {
-  // Destroy existing player entities
-  for (var id of this.playerEntities)
-    Engine.DestroyEntity(id);
+	// Destroy existing player entities
+	for (var id of this.playerEntities)
+		Engine.DestroyEntity(id);
 
-  this.playerEntities = [];
+	this.playerEntities = [];
 };
 
 PlayerManager.prototype.RemoveLastPlayer = function()
 {
-  if (this.playerEntities.length == 0)
-    return;
+	if (this.playerEntities.length == 0)
+		return;
 
-  var lastId = this.playerEntities.pop();
-  Engine.DestroyEntity(lastId);
+	var lastId = this.playerEntities.pop();
+	Engine.DestroyEntity(lastId);
 };
 
 PlayerManager.prototype.SetMaxWorldPopulation = function(max)
 {
-  this.maxWorldPopulation = max;
+	this.maxWorldPopulation = max;
 };
 
 PlayerManager.prototype.GetMaxWorldPopulation = function()
 {
-  return this.maxWorldPopulation;
+	return this.maxWorldPopulation;
 };
 
 Engine.RegisterSystemComponentType(IID_PlayerManager, "PlayerManager", PlayerManager);
