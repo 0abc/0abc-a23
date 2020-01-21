@@ -3,11 +3,7 @@
 		"Barracks"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 500,
-		"wood": 0,
-		"stone": 0,
-		"metal": 0
+		"silver": 500
 	},
 	"description": "Significantly increase training speed of soldiers at the barracks by training them in large batches or battalions.",
 	"genericName": "Mass Training",

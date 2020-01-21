@@ -3,11 +3,7 @@
 		"Cavalry !Fanatic"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 1200,
-		"stone": 0,
-		"metal": 600
+		"silver": 1000
 	},
 	"description": "Metal armour for cavalry.",
 	"genericName": "Advanced Chamfron",

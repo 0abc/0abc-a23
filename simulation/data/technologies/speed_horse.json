@@ -4,11 +4,7 @@
 		"Chariot"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 300,
-		"wood": 0,
-		"stone": 0,
-		"metal": 100
+		"silver": 400
 	},
 	"description": "Keep your horses healthy and competitive.",
 	"genericName": "Horse Racing",

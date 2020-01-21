@@ -3,11 +3,7 @@
 		"Structure"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 500,
-		"wood": 500,
-		"stone": 0,
-		"metal": 500
+		"silver": 750
 	},
 	"description": "Units garrisoned in structures heal over time.",
 	"genericName": "Living Conditions",

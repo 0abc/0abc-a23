@@ -3,11 +3,7 @@
 		"Worker"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 300,
-		"stone": 0,
-		"metal": 200
+		"silver": 200
 	},
 	"description": "Increases wood gathering rates for trees.",
 	"genericName": "Iron Axe Heads",

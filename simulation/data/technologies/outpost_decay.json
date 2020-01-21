@@ -3,11 +3,7 @@
 		"Outpost"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 0,
-		"stone": 100,
-		"metal": 0
+		"silver": 100
 	},
 	"description": "Outposts survive twice as long in neutral territory.",
 	"genericName": "Stone Foundations",

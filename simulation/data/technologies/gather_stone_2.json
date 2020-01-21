@@ -3,11 +3,7 @@
 		"Worker"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 600,
-		"stone": 0,
-		"metal": 400
+		"silver": 400
 	},
 	"description": "Compel serfs to help your workers quarry stone. Increases stone gathering rates.",
 	"genericName": "Serfs",

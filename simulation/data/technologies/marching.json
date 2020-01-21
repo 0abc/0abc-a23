@@ -3,11 +3,7 @@
 		"Infantry Melee"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 500,
-		"wood": 200,
-		"stone": 0,
-		"metal": 100
+		"silver": 350
 	},
 	"description": "Unlike most other states, the Macedonians and Romans had standing armies, which could train in peacetime, especially at marching long distances. The subsequent Macedonian and Roman expansions were largely due to their ability to move around armies much faster than their opponents deemed possible, often arriving when their enemies were under-prepared.",
 	"genericName": "Forced Marching",

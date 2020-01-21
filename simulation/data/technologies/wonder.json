@@ -3,11 +3,7 @@
 		"Structure"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 2000,
-		"wood": 2000,
-		"stone": 2000,
-		"metal": 2000
+		"silver": 2000
 	},
 	"description": "The wonder attracts many more people to your civilization.",
 	"genericName": "Glorious Expansion",

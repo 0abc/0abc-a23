@@ -3,11 +3,7 @@
 		"CamelStable"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 500,
-		"wood": 0,
-		"stone": 0,
-		"metal": 0
+		"silver": 500
 	},
 	"description": "Significantly increase training speed of soldiers at the camel stables by training them in large batches or squadrons.",
 	"genericName": "Mass Training",

@@ -3,11 +3,7 @@
 		"Worker"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 900,
-		"stone": 0,
-		"metal": 600
+		"silver": 600
 	},
 	"description": "Training for workers to increase farm gathering speed.",
 	"genericName": "Gather Training",

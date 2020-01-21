@@ -3,11 +3,7 @@
 		"Infantry Melee !Fanatic"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 1000,
-		"stone": 0,
-		"metal": 500
+		"silver": 750
 	},
 	"description": "Equip infantrymen with body armour consisting of laminated linen.",
 	"genericName": "Laminated Linen Body Armour",

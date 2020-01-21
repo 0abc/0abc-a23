@@ -3,11 +3,7 @@
 		"Cavalry !Fanatic"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 800,
-		"stone": 0,
-		"metal": 400
+		"silver": 500
 	},
 	"description": "Leather armour for cavalry.",
 	"genericName": "Basic Chamfron",

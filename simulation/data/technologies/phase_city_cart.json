@@ -3,11 +3,7 @@
 		"Centre"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 800,
-		"stone": 800,
-		"metal": 800
+		"silver": 1000
 	},
 	"description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
 	"genericName": "City Phase (Carthage)",
@@ -71,5 +67,5 @@
 	"researchTime": 120,
 	"soundComplete": "interface/alarm/alarm_phase.xml",
 	"supersedes": "phase_town_generic",
-	"tooltip": "Advance to City Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight. Also allows fortifying Carthaginian Centres and Houses."
+	"tooltip": "Advance to City Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight. Also allows fortifying Carthaginian Centres."
 }

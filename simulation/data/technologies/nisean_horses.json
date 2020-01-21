@@ -3,11 +3,7 @@
 		"Melee Cavalry"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 600,
-		"wood": 200,
-		"stone": 0,
-		"metal": 200
+		"silver": 500
 	},
 	"description": "The now-extinct Nisian breed of horse was one of the largest and robust horses of ancient times. They were highly sought after by the Seleucids and Persians as both rider and mount gained heavier armour as time progressed.",
 	"genericName": "Nisean War Horses",

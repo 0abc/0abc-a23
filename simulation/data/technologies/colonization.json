@@ -4,11 +4,7 @@
 		"Dock"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 250,
-		"wood": 250,
-		"stone": 250,
-		"metal": 250
+		"silver": 600
 	},
 	"description": "Phoenician and Carthaginian cities established hundreds of colonies in the Mediterranean.",
 	"genericName": "Colonization",

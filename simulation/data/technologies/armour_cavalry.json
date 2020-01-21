@@ -3,11 +3,7 @@
 		"Cavalry !Fanatic"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 1200,
-		"stone": 0,
-		"metal": 800
+		"silver": 600
 	},
 	"description": "Leather armour for cavalry.",
 	"genericName": "Barding",

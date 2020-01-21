@@ -4,11 +4,7 @@
 		"Trader"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 600,
-		"stone": 0,
-		"metal": 400
+		"silver": 400
 	},
 	"description": "The progress in handicraft improves the trading profit.",
 	"genericName": "Improved Handicraft",

@@ -5,11 +5,7 @@
 		"Cavalry Swordsman"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 400,
-		"wood": 400,
-		"stone": 0,
-		"metal": 400
+		"silver": 450
 	},
 	"description": "Training increases melee attack.",
 	"genericName": "Cavalry Sword Training",
@@ -38,16 +34,20 @@
 				"tech": "phase_town"
 			},
 			{
-				"civ": "cart"
-			},
-			{
-				"civ": "gaul"
-			},
-			{
-				"civ": "kush"
-			},
-			{
-				"civ": "maur"
+				"any": [
+					{
+						"civ": "cart"
+					},
+					{
+						"civ": "gaul"
+					},
+					{
+						"civ": "kush"
+					},
+					{
+						"civ": "maur"
+					}
+				]
 			}
 		]
 	},

@@ -3,11 +3,7 @@
 		"Trader"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 200,
-		"stone": 0,
-		"metal": 200
+		"silver": 400
 	},
 	"description": "Increases defensive capability of traders.",
 	"genericName": "Trade Convoys",

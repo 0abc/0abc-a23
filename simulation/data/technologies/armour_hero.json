@@ -3,11 +3,7 @@
 		"Hero"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 250,
-		"stone": 0,
-		"metal": 500
+		"silver": 600
 	},
 	"description": "Body armour fashioned completely of iron, the hardest workable metal known in Antiquity.",
 	"genericName": "Iron Hero Armour",

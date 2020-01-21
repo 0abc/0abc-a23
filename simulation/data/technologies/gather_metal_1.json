@@ -3,11 +3,7 @@
 		"Worker"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 300,
-		"stone": 0,
-		"metal": 200
+		"silver": 200
 	},
 	"description": "Equip your workers with helpful tools.",
 	"genericName": "Wedge and Mallet",

@@ -1,13 +1,9 @@
 {
 	"affects": [
-		"Ship"
+		"Warship"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 0,
-		"wood": 400,
-		"stone": 0,
-		"metal": 800
+		"silver": 900
 	},
 	"description": "Lead sheathing protects ship hulls.",
 	"genericName": "Lead hull sheathing",

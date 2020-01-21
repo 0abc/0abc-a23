@@ -3,11 +3,7 @@
 		"Domestic"
 	],
 	"cost": {
-		"silver": 0,
-		"food": 100,
-		"wood": 0,
-		"stone": 0,
-		"metal": 0
+		"silver": 150
 	},
 	"description": "Breeding livestock for food.",
 	"genericName": "Stockbreeding",

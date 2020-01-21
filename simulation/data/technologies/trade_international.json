@@ -3,11 +3,7 @@
 		"Market"
 	],
 	"cost": {
-		"silver": 500,
-		"food": 0,
-		"wood": 0,
-		"stone": 0,
-		"metal": 0
+		"silver": 500
 	},
 	"description": "Improve the international trading profit.",
 	"genericName": "Commercial Treaty",
@@ -24,5 +20,5 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"researchTime": 75,
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-	"tooltip": "Market +10% international bonus."
+	"tooltip": "Markets +10% international bonus."
 }
