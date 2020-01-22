@@ -70,13 +70,13 @@ m.Worker.prototype.update = function(gameState, ent)
 	}
 
 	this.entAccess = m.getLandAccess(gameState, ent);
-	// base 0 for unassigned entities has no accessIndex, so take the one from the entity
+	// Base 0 for unassigned entities has no accessIndex, so take the one from the entity.
 	if (this.baseID == gameState.ai.HQ.baseManagers[0].ID)
 		this.baseAccess = this.entAccess;
 	else
 		this.baseAccess = this.base.accessIndex;
 
-	if (!subrole) // subrole may-be undefined after a transport, garrisoning, army, ...
+	if (!subrole) // Subrole may be undefined after a transport, garrisoning, army, etc.
 	{
 		ent.setMetadata(PlayerID, "subrole", "idle");
 		this.base.reassignIdleWorkers(gameState, [ent]);
@@ -603,7 +603,7 @@ m.Worker.prototype.startGathering = function(gameState)
 	if (shouldBuild)
 		return true;
 
-	// Still nothing ... try bases which need a transport
+	// Still nothing; try bases which need a transport.
 	for (let base of gameState.ai.HQ.baseManagers)
 	{
 		if (base.accessIndex == this.entAccess)
@@ -723,7 +723,7 @@ m.Worker.prototype.startGathering = function(gameState)
 		}
 	}
 
-	// If we are here, we have nothing left to gather ... certainly no more resources of this type
+	// If we are here, we have nothing left to gather, certainly no more resources of this type.
 	gameState.ai.HQ.lastFailedGather[resource] = gameState.ai.elapsedTime;
 	if (gameState.ai.Config.debug > 2)
 		API3.warn(" >>>>> worker with gather-type " + resource + " with nothing to gather ");

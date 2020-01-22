@@ -560,17 +560,17 @@ m.HQ.prototype.checkPhaseRequirements = function(gameState, queues)
 					!queues.militaryBuilding.hasQueuedUnits() &&
 					!queues.defenseBuilding.hasQueuedUnits())
 			{
-				if (!gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities() &&
-						this.canBuild(gameState, "structures/{civ}/market"))
-				{
-					plan = new m.ConstructionPlan(gameState, "structures/{civ}/market", { "phaseUp": true });
-					queue = "economicBuilding";
-					break;
-				}
 				if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities() &&
 						this.canBuild(gameState, "structures/{civ}/forge"))
 				{
 					plan = new m.ConstructionPlan(gameState, "structures/{civ}/forge", { "phaseUp": true });
+					queue = "economicBuilding";
+					break;
+				}
+				if (!gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities() &&
+						this.canBuild(gameState, "structures/{civ}/market"))
+				{
+					plan = new m.ConstructionPlan(gameState, "structures/{civ}/market", { "phaseUp": true });
 					queue = "economicBuilding";
 					break;
 				}
@@ -579,12 +579,6 @@ m.HQ.prototype.checkPhaseRequirements = function(gameState, queues)
 				{
 					plan = new m.ConstructionPlan(gameState, "structures/{civ}/temple", { "phaseUp": true });
 					queue = "economicBuilding";
-					break;
-				}
-				if (this.canBuild(gameState, "structures/{civ}/large_tower"))
-				{
-					plan = new m.ConstructionPlan(gameState, "structures/{civ}/large_tower", { "phaseUp": true });
-					queue = "defenseBuilding";
 					break;
 				}
 			}
@@ -1537,14 +1531,24 @@ m.HQ.prototype.findDefensiveLocation = function(gameState, template)
 	return [x, z, this.basesMap.map[bestJdx]];
 };
 
+// Economic technologies are researched at the Forge.
+// Moreover, the Forge is the only dropsite for metal. 
+// Therefore it's important to build a Forge early on.
+m.HQ.prototype.buildForge = function(gameState, queues)
+{
+	if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities() && this.canBuild(gameState, "structures/{civ}/forge"))
+		queues.economicBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/forge"));
+};
+
 m.HQ.prototype.buildTemple = function(gameState, queues)
 {
-	// at least one market (which have the same queue) should be build before any temple
+	// At least one forge and one market (which have the same queue) should be built before any temple.
 	if (queues.economicBuilding.hasQueuedUnits() ||
 		gameState.getOwnEntitiesByClass("Temple", true).hasEntities() ||
+		!gameState.getOwnEntitiesByClass("Forge", true).hasEntities() ||
 		!gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities())
 		return;
-	// Try to build a temple earlier if in regicide to recruit healer guards
+	// Try to build a temple earlier if in regicide to recruit healers.
 	if (this.currentPhase < 3 && !gameState.getVictoryConditions().has("regicide"))
 		return;
 
@@ -1585,7 +1589,7 @@ m.HQ.prototype.buildMarket = function(gameState, queues)
 		return;
 	}
 
-	gameState.ai.queueManager.changePriority("economicBuilding", 3*this.Config.priorities.economicBuilding);
+	gameState.ai.queueManager.changePriority("economicBuilding", 3 * this.Config.priorities.economicBuilding);
 	let plan = new m.ConstructionPlan(gameState, "structures/{civ}/market");
 	plan.queueToReset = "economicBuilding";
 	queues.economicBuilding.addPlan(plan);
@@ -1597,7 +1601,9 @@ m.HQ.prototype.buildFarmstead = function(gameState, queues)
 	// Only build one farmstead for the time being ("DropsiteFood" does not refer to CCs)
 	if (gameState.getOwnEntitiesByClass("Farmstead", true).hasEntities())
 		return;
-	// Wait to have at least one dropsite and house before the farmstead
+	// Wait to have at least one forge, storehouse, and house before the farmstead
+	if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities())
+		return;
 	if (!gameState.getOwnEntitiesByClass("Storehouse", true).hasEntities())
 		return;
 	if (!gameState.getOwnEntitiesByClass("House", true).hasEntities())
@@ -1688,8 +1694,8 @@ m.HQ.prototype.manageCorral = function(gameState, queues)
 };
 
 /**
- * build more houses if needed.
- * kinda ugly, lots of special cases to both build enough houses but not tooo many…
+ * Build more houses if needed.
+ * Quite ugly, lots of special cases to both build enough houses but not too many …
  */
 m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 {
@@ -1701,7 +1707,7 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 	if (numPlanned < 3 || numPlanned < 5 && gameState.getPopulation() > 80)
 	{
 		let plan = new m.ConstructionPlan(gameState, "structures/{civ}/house");
-		// change the starting condition according to the situation.
+		// Change the starting condition according to the situation.
 		plan.goRequirement = "houseNeeded";
 		queues.house.addPlan(plan);
 	}
@@ -1721,7 +1727,7 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 			if (count < entityReq.count && this.buildManager.isUnbuildable(gameState, houseTemplateName))
 			{
 				if (this.Config.debug > 1)
-					API3.warn("no room to place a house ... try to be less restrictive");
+					API3.warn("no room to place a house … try to be less restrictive");
 				this.buildManager.setBuildable(houseTemplateName);
 				this.requireHouses = true;
 			}
@@ -1748,8 +1754,8 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 	}
 
 	// When population limit too tight
-	//		- if no room to build, try to improve with technology
-	//		- otherwise increase temporarily the priority of houses
+	// * if no room to build, try to improve with technology
+	// * otherwise increase temporarily the priority of houses
 	let house = gameState.applyCiv("structures/{civ}/house");
 	let HouseNb = gameState.getOwnFoundations().filter(API3.Filters.byClass("House")).length;
 	let popBonus = gameState.getTemplate(house).getPopulationBonus();
@@ -1760,11 +1766,11 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 		if (this.buildManager.isUnbuildable(gameState, house))
 		{
 			if (this.Config.debug > 1)
-				API3.warn("no room to place a house ... try to improve with technology");
+				API3.warn("no room to place a house … try to improve with technology");
 			this.researchManager.researchPopulationBonus(gameState, queues);
 		}
 		else
-			priority = 2*this.Config.priorities.house;
+			priority = 2 * this.Config.priorities.house;
 	}
 	else
 		priority = this.Config.priorities.house;
@@ -1852,14 +1858,14 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
 		if (this.canBuild(gameState, "structures/{civ}/fortress"))
 		{
 			let numFortresses = gameState.getOwnEntitiesByClass("Fortress", true).length;
-			if ((!numFortresses || gameState.ai.elapsedTime > (1 + 0.10*numFortresses)*this.fortressLapseTime + this.fortressStartTime) &&
+			if ((!numFortresses || gameState.ai.elapsedTime > (1 + 0.10 * numFortresses) * this.fortressLapseTime + this.fortressStartTime) &&
 				numFortresses < this.numActiveBases() + 1 + this.extraFortresses &&
 				numFortresses < Math.floor(gameState.getPopulation() / 25) &&
 				gameState.getOwnFoundationsByClass("Fortress").length < 2)
 			{
 				this.fortressStartTime = gameState.ai.elapsedTime;
 				if (!numFortresses)
-					gameState.ai.queueManager.changePriority("defenseBuilding", 2*this.Config.priorities.defenseBuilding);
+					gameState.ai.queueManager.changePriority("defenseBuilding", 2 * this.Config.priorities.defenseBuilding);
 				let plan = new m.ConstructionPlan(gameState, "structures/{civ}/fortress");
 				plan.queueToReset = "defenseBuilding";
 				queues.defenseBuilding.addPlan(plan);
@@ -1868,48 +1874,35 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
 		}
 	}
 
-	if (this.Config.Military.numSentryTowers && this.currentPhase < 2 && this.canBuild(gameState, "structures/{civ}/small_tower"))
+	if (this.Config.Military.numSentryTowers && this.currentPhase < 2 && this.canBuild(gameState, "structures/{civ}/tower_small"))
 	{
 		let numTowers = gameState.getOwnEntitiesByClass("Tower", true).length; // we count all towers, including wall towers
-		let towerLapseTime = this.saveResource ? (1 + 0.5*numTowers) * this.towerLapseTime : this.towerLapseTime;
+		let towerLapseTime = this.saveResource ? (1 + 0.5 * numTowers) * this.towerLapseTime : this.towerLapseTime;
 		if (numTowers < this.Config.Military.numSentryTowers && gameState.ai.elapsedTime > towerLapseTime + this.fortStartTime)
 		{
 			this.fortStartTime = gameState.ai.elapsedTime;
-			queues.defenseBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/small_tower"));
+			queues.defenseBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/tower_small"));
 		}
 		return;
 	}
 
-	if (this.currentPhase < 2 || !this.canBuild(gameState, "structures/{civ}/large_tower"))
+	if (this.currentPhase < 2 || !this.canBuild(gameState, "structures/{civ}/tower_large"))
 		return;
 
 	let numTowers = gameState.getOwnEntitiesByClass("StoneTower", true).length;
 	let towerLapseTime = this.saveResource ? (1 + numTowers) * this.towerLapseTime : this.towerLapseTime;
-	if ((!numTowers || gameState.ai.elapsedTime > (1 + 0.1*numTowers)*towerLapseTime + this.towerStartTime) &&
+	if ((!numTowers || gameState.ai.elapsedTime > (1 + 0.1 * numTowers) * towerLapseTime + this.towerStartTime) &&
 		numTowers < 2 * this.numActiveBases() + 3 + this.extraTowers &&
 		numTowers < Math.floor(gameState.getPopulation() / 8) &&
 		gameState.getOwnFoundationsByClass("LargeTower").length < 3)
 	{
 		this.towerStartTime = gameState.ai.elapsedTime;
 		if (numTowers > 2 * this.numActiveBases() + 3)
-			gameState.ai.queueManager.changePriority("defenseBuilding", Math.round(0.7*this.Config.priorities.defenseBuilding));
-		let plan = new m.ConstructionPlan(gameState, "structures/{civ}/large_tower");
+			gameState.ai.queueManager.changePriority("defenseBuilding", Math.round(0.7 * this.Config.priorities.defenseBuilding));
+		let plan = new m.ConstructionPlan(gameState, "structures/{civ}/tower_large");
 		plan.queueToReset = "defenseBuilding";
 		queues.defenseBuilding.addPlan(plan);
 	}
-};
-
-m.HQ.prototype.buildForge = function(gameState, queues)
-{
-	if (this.getAccountedPopulation(gameState) < this.Config.Economy.popForForge ||
-		queues.militaryBuilding.hasQueuedUnits() || gameState.getOwnEntitiesByClass("Forge", true).length)
-		return;
-	// build a market before the forge
-	if (!gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities())
-		return;
-
-	if (this.canBuild(gameState, "structures/{civ}/forge"))
-		queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/forge"));
 };
 
 /**
@@ -1918,6 +1911,10 @@ m.HQ.prototype.buildForge = function(gameState, queues)
  */
 m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 {
+	// Soldiers cost metal, therefore make sure you have a forge.
+	if (!gameState.getOwnEntitiesByClass("Forge", true).hasEntities())
+		return;
+
 	if (this.saveResources && !this.canBarter || queues.militaryBuilding.hasQueuedUnits())
 		return;
 
@@ -2744,14 +2741,14 @@ m.HQ.prototype.update = function(gameState, queues, events)
 
 	if (this.currentPhase > 1 && gameState.ai.playedTurn % 3 == 0)
 	{
+//		if ()
+//			this.buildForge(gameState, queues);
+
 		if (!this.canBarter)
 			this.buildMarket(gameState, queues);
 
 		if (!this.saveResources)
-		{
-			this.buildForge(gameState, queues);
 			this.buildTemple(gameState, queues);
-		}
 
 		if (gameState.ai.playedTurn % 30 == 0 &&
 				gameState.getPopulation() > 0.9 * gameState.getPopulationMax())

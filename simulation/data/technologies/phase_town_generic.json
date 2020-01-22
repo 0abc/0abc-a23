@@ -43,12 +43,6 @@
 			},
 			{
 				"entity": {
-					"class": "House",
-					"number": 5
-				}
-			},
-			{
-				"entity": {
 					"class": "BarterMarket",
 					"number": 1
 				}

@@ -304,7 +304,7 @@ m.NavalManager.prototype.checkEvents = function(gameState, queues, events)
 			let endIndex = plan.endIndex;
 			for (let ent of plan.units.values())
 			{
-				if (!ent.position()) // unit from another ship of this plan ... do nothing
+				if (!ent.position()) // Unit from another ship of this plan: do nothing.
 					continue;
 				let access = m.getLandAccess(gameState, ent);
 				let endPos = ent.getMetadata(PlayerID, "endPos");

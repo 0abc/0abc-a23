@@ -171,10 +171,10 @@ m.DefenseArmy.prototype.removeOwn = function(gameState, id, Entity)
 
 /*
 	// TODO be sure that all units in the transport need the cancellation
-	if (!ent.position()) // this unit must still be in a transport plan ... try to cancel it
+	if (!ent.position()) // This unit must still be in a transport plan. Try to cancel it.
 	{
 		let planID = ent.getMetadata(PlayerID, "transport");
-		// no plans must mean that the unit was in a ship which was destroyed, so do nothing
+		// No plans must mean that the unit was in a ship which was destroyed, so do nothing.
 		if (planID)
 		{
 			if (gameState.ai.Config.debug > 0)

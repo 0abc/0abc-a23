@@ -25,7 +25,7 @@ m.BaseManager = function(gameState, Config)
 
 	// Maximum distance (from any dropsite) to look for resources
 	// 3 areas are used: from 0 to max/4, from max/4 to max/2 and from max/2 to max
-	this.maxDistResourceSquare = 360*360;
+	this.maxDistResourceSquare = 360 * 360;
 
 	this.constructing = false;
 	// Defenders to train in this cc when its construction is finished
@@ -399,7 +399,7 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
 					let numFound = gameState.getOwnFoundations().filter(API3.Filters.byClass("Field")).length;
 					let goal = this.Config.Economy.provisionFields;
 					if (gameState.ai.HQ.saveResources || gameState.ai.HQ.saveSpace || count > 300 || numFarms > 5)
-						goal = Math.max(goal-1, 1);
+						goal = Math.max(goal - 1, 1);
 					if (numFound + numQueue < goal)
 						queues.field.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/field", { "favouredBase": this.ID }));
 				}
@@ -420,9 +420,9 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
 			}
 			continue;
 		}
-		// Non food stuff
+		// Non-food stuff
 		if (!gameState.sharedScript.resourceMaps[type] || queues.dropsites.hasQueuedUnits() ||
-				gameState.getOwnFoundations().filter(API3.Filters.byClass("Storehouse")).hasEntities())
+			gameState.getOwnFoundations().filter(API3.Filters.byClass("Storehouse")).hasEntities())
 		{
 			this.gatherers[type].nextCheck = gameState.ai.playedTurn;
 			this.gatherers[type].used = 0;
@@ -438,7 +438,7 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
 			else if (ent.unitAIState() == "INDIVIDUAL.RETURNRESOURCE.APPROACHING")
 				++this.gatherers[type].lost;
 		}
-		// TODO	add also a test on remaining resources.
+		// TODO: add also a test on remaining resources.
 		let total = this.gatherers[type].used + this.gatherers[type].lost;
 		if (total > 150 || total > 60 && type != "wood")
 		{
@@ -453,7 +453,7 @@ m.BaseManager.prototype.checkResourceLevels = function(gameState, queues)
 					// No good dropsite, try to build a new base if no base already planned,
 					// and if not possible, be less strict on dropsite quality.
 					if ((!gameState.ai.HQ.canExpand || !gameState.ai.HQ.buildNewBase(gameState, queues, type)) &&
-							newDP.quality > Math.min(25, 50*0.15/ratio) &&
+							newDP.quality > Math.min(25, 50 * 0.15 / ratio) &&
 							gameState.ai.HQ.canBuild(gameState, "structures/{civ}/storehouse"))
 						queues.dropsites.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}/storehouse", { "base": this.ID, "type": type }, newDP.pos));
 				}
@@ -493,14 +493,14 @@ m.BaseManager.prototype.addGatherRates = function(gameState, currentRates)
 					return;
 				let gRate = ent.currentGatherRate();
 				if (gRate)
-					currentRates[res] += Math.log(1+gRate)/1.1;
+					currentRates[res] += Math.log(1 + gRate) / 1.1;
 			});
 			this.workersBySubrole(gameState, "fisher").forEach(ent => {
 				if (ent.isIdle() || !ent.position())
 					return;
 				let gRate = ent.currentGatherRate();
 				if (gRate)
-					currentRates[res] += Math.log(1+gRate)/1.1;
+					currentRates[res] += Math.log(1 + gRate) / 1.1;
 			});
 		}
 	}

@@ -340,7 +340,7 @@ m.AttackManager.prototype.update = function(gameState, queues, events)
 		(this.startedAttacks.Attack.length + this.startedAttacks.HugeAttack.length == 0 || gameState.getPopulationMax() - gameState.getPopulation() > 12))
 	{
 		if ((gameState.currentPhase() > 1 || gameState.isResearching(gameState.getPhaseName(2))) ||
-			!gameState.ai.HQ.baseManagers[1]) // if we have no base ... nothing else to do than attack
+			!gameState.ai.HQ.baseManagers[1]) // if we have no base, then nothing else to do than attack
 		{
 			let type = this.attackNumber < 2 || this.startedAttacks.HugeAttack.length > 0 ? "Attack" : "HugeAttack";
 			let attackPlan = new m.AttackPlan(gameState, this.Config, this.totalNumber, type);

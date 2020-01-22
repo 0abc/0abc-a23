@@ -6,7 +6,7 @@ var PETRA = function(m)
  * When a unit is ordered to garrison, it must be done through this.garrison() function so that
  * an object in this.holders is created. This object contains an array with the entities
  * in the process of being garrisoned. To have all garrisoned units, we must add those in holder.garrisoned().
- * Futhermore garrison units have a metadata garrisonType describing its reason (protection, transport, ...)
+ * Futhermore garrison units have a metadata garrisonType describing its reason (protection, transport, etc.)
  */
 
 m.GarrisonManager = function(Config)

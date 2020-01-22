@@ -425,7 +425,7 @@ m.TradeManager.prototype.checkRoutes = function(gameState, accessIndex)
 
 	let market1 = gameState.updatingCollection("OwnMarkets", API3.Filters.byClass("Market"), gameState.getOwnStructures());
 	let market2 = gameState.updatingCollection("diplo-ExclusiveAllyMarkets", API3.Filters.byClass("Market"), gameState.getExclusiveAllyEntities());
-	if (market1.length + market2.length < 2) // We have to wait ... markets will be built soon.
+	if (market1.length + market2.length < 2) // We have to wait; markets will be built soon.
 	{
 		this.tradeRoute = undefined;
 		this.potentialTradeRoute = undefined;

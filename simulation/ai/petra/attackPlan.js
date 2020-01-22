@@ -31,7 +31,7 @@ m.AttackPlan = function(gameState, Config, uniqueID, type, data)
 
 	this.uniqueTargetId = data && data.uniqueTargetId || undefined;
 
-	// get a starting rallyPoint ... will be improved later
+	// Get a starting rallyPoint. Should be improved later.
 	let rallyPoint;
 	let rallyAccess;
 	let allAccesses = {};
@@ -624,7 +624,7 @@ m.AttackPlan.prototype.trainMoreUnits = function(gameState)
 		if (queue.length() <= 5)
 		{
 			let template = gameState.ai.HQ.findBestTrainableUnit(gameState, firstOrder[1], firstOrder[3].interests);
-			// HACK (TODO replace) : if we have no trainable template... Then we'll simply remove the buildOrder,
+			// HACK (TODO replace) : if we have no trainable template, then we'll simply remove the buildOrder,
 			// effectively removing the unit from the plan.
 			if (template === undefined)
 			{

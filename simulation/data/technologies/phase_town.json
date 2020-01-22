@@ -34,14 +34,14 @@
 		"all": [
 			{
 				"entity": {
-					"class": "Forge",
+					"class": "Farmstead",
 					"number": 1
 				}
 			},
 			{
 				"entity": {
-					"class": "House",
-					"number": 5
+					"class": "Forge",
+					"number": 1
 				}
 			},
 			{

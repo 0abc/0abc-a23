@@ -25,14 +25,14 @@ m.Config = function(difficulty, behavior)
 		"numSentryTowers": 1
 	};
 	this.Economy = {
-		"popForForge": 30,
 		"popPhase2": 40, // How many units we want before aging to phase2.
 		"workPhase3": 60, // How many workers we want before aging to phase3.
 		"workPhase4": 90, // How many workers we want before aging to phase4 or higher.
 		"popForDock": 25,
+		"targetNumBuilders": 10, // dummy, will be changed later
 		"targetNumWorkers": 40, // dummy, will be changed later
 		"targetNumTraders": 5, // Target number of traders
-		"targetNumFishers": 1, // Target number of fishers per sea
+		"targetNumFishers": 1, // Target number of fishing boats per sea
 		"supportRatio": 0.35, // fraction of support workers among the workforce
 		"provisionFields": 3
 	};
@@ -217,10 +217,9 @@ m.Config.prototype.setConfig = function(gameState)
 	if (maxPop < 300)
 	{
 		this.popScaling = Math.sqrt(maxPop / 300);
-		this.Military.popForBarracks1 = Math.min(Math.max(Math.floor(this.Military.popForBarracks1 * this.popScaling), 12), Math.floor(maxPop/5));
-		this.Military.popForBarracks2 = Math.min(Math.max(Math.floor(this.Military.popForBarracks2 * this.popScaling), 45), Math.floor(maxPop*2/3));
+		this.Military.popForBarracks1 = Math.min(Math.max(Math.floor(this.Military.popForBarracks1 * this.popScaling), 25), Math.floor(maxPop/5));
+		this.Military.popForBarracks2 = Math.min(Math.max(Math.floor(this.Military.popForBarracks2 * this.popScaling), 50), Math.floor(maxPop*2/3));
 		this.Military.popForBarracks3 = Math.min(Math.max(Math.floor(this.Military.popForBarracks3 * this.popScaling), 75), Math.floor(maxPop*2/3));
-		this.Economy.popForForge = Math.min(Math.max(Math.floor(this.Economy.popForForge * this.popScaling), 30), Math.floor(maxPop/2));
 		this.Economy.popPhase2 = Math.min(Math.max(Math.floor(this.Economy.popPhase2 * this.popScaling), 20), Math.floor(maxPop/2));
 		this.Economy.workPhase3 = Math.min(Math.max(Math.floor(this.Economy.workPhase3 * this.popScaling), 40), Math.floor(maxPop*2/3));
 		this.Economy.workPhase4 = Math.min(Math.max(Math.floor(this.Economy.workPhase4 * this.popScaling), 60), Math.floor(maxPop*2/3));

@@ -27,7 +27,7 @@ m.TransportPlan = function(gameState, units, startIndex, endIndex, endPos, ship)
 {
 	this.ID = gameState.ai.uniqueIDs.transports++;
 	this.debug = gameState.ai.Config.debug;
-	this.flotilla = false; // when false, only one ship per transport ... not yet tested when true
+	this.flotilla = false; // When false, only one ship per transport. Not yet tested when true.
 
 	this.endPos = endPos;
 	this.endIndex = endIndex;
@@ -249,7 +249,7 @@ m.TransportPlan.prototype.releaseAll = function()
 	this.units.unregister();
 };
 
-/** TODO not currently used ... to be fixed */
+/** TODO not currently used: to be fixed */
 m.TransportPlan.prototype.cancelTransport = function(gameState)
 {
 	let ent = this.units.toEntityArray()[0];
@@ -363,7 +363,7 @@ m.TransportPlan.prototype.onBoarding = function(gameState)
 						this.nTry[shipId] = 1;
 					else
 						++this.nTry[shipId];
-					if (this.nTry[shipId] > 1) // we must have been blocked by something ... try with another boarding point
+					if (this.nTry[shipId] > 1) // We must have been blocked by something. Try with another boarding point.
 					{
 						this.nTry[shipId] = 0;
 						if (this.debug > 1)
@@ -381,7 +381,7 @@ m.TransportPlan.prototype.onBoarding = function(gameState)
 				let newPos = ent.position();
 				if (oldPos[0] == newPos[0] && oldPos[1] == newPos[1])
 				{
-					if (distShip < this.boardingRange) // looks like we are blocked ... try to go out of this trap
+					if (distShip < this.boardingRange) // Looks like we are blocked. Try to go out of this trap.
 					{
 						if (!this.nTry[ent.id()])
 							this.nTry[ent.id()] = 1;
@@ -390,7 +390,7 @@ m.TransportPlan.prototype.onBoarding = function(gameState)
 						if (this.nTry[ent.id()] > 5)
 						{
 							if (this.debug > 1)
-								API3.warn("unit blocked, but no ways out of the trap ... destroy it");
+								API3.warn("unit blocked, but no ways out of the trap … destroy it");
 							this.resetUnit(gameState, ent);
 							ent.destroy();
 							continue;
@@ -510,13 +510,13 @@ m.TransportPlan.prototype.getBoardingPos = function(gameState, ship, landIndex, 
 
 m.TransportPlan.prototype.onSailing = function(gameState)
 {
-	// Check that the units recovered on the previous turn have been reloaded
+	// Check that the units recovered on the previous turn have been reloaded.
 	for (let recov of this.recovered)
 	{
 		let ent = gameState.getEntityById(recov.entId);
-		if (!ent) // entity destroyed
+		if (!ent) // Entity destroyed.
 			continue;
-		if (!ent.position()) // reloading succeeded ... move a bit the ship before trying again
+		if (!ent.position()) // Reloading succeeded; move the ship a bit before trying again.
 		{
 			let ship = gameState.getEntityById(recov.shipId);
 			if (ship)
@@ -524,8 +524,8 @@ m.TransportPlan.prototype.onSailing = function(gameState)
 			continue;
 		}
 		if (this.debug > 1)
-			API3.warn(">>> transport " + this.ID + " reloading failed ... <<<");
-		// destroy the unit if inaccessible otherwise leave it there
+			API3.warn(">>> transport " + this.ID + " reloading failed … <<<");
+		// Destroy the unit if inaccessible; otherwise leave it there.
 		let index = m.getLandAccess(gameState, ent);
 		if (gameState.ai.HQ.landRegions[index])
 		{
@@ -590,7 +590,7 @@ m.TransportPlan.prototype.onSailing = function(gameState)
 			else
 			{
 				if (this.debug > 1)
-					API3.warn("no way ... we destroy it");
+					API3.warn("no way … we destroy it");
 				this.resetUnit(gameState, ent);
 				ent.destroy();
 			}
@@ -666,7 +666,7 @@ m.TransportPlan.prototype.onSailing = function(gameState)
 				this.nTry[shipId] = 1;
 			else
 				++this.nTry[shipId];
-			if (this.nTry[shipId] > 2) // we must have been blocked by something ... try with another boarding point
+			if (this.nTry[shipId] > 2) // We must have been blocked by something. Try with another boarding point.
 			{
 				this.nTry[shipId] = 0;
 				if (this.debug > 1)
