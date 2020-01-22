@@ -4,7 +4,7 @@ RESOURCE USAGE
 silver, food, —, wood, —.
 
 • Training soldiers:
-silver, food, —, —, —.
+silver, food, iron, —, —.
 
 • Constructing siege engines and ships:
 —, food, iron, wood, —.
@@ -13,7 +13,7 @@ silver, food, —, —, —.
 —, food, iron, wood, stone.
 
 • Researching technologies:
-silver, food, iron, wood, stone.
+silver, —, —, —, —.
 
 • Espionage:
 silver, —, —, —, —.
