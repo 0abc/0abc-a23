@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <Armour>
-    <Crush>5</Crush>
-    <Hack>1</Hack>
-    <Pierce>50</Pierce>
-    <Thrust>2</Thrust>
-  </Armour>
   <Attack>
     <Melee disable=""/>
   </Attack>
@@ -38,7 +32,7 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <BarHeight>0.5</BarHeight>
+    <BarHeight>0.4</BarHeight>
     <BarWidth>4.0</BarWidth>
   </StatusBars>
   <UnitAI>

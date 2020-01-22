@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_siege_ram">
+<Entity parent="template_unit_siege_ram_medium">
+  <Footprint>
+    <Square width="9" depth="15"/>
+  </Footprint>
   <Identity>
     <Civ>maur</Civ>
     <Icon>units/maur_siege_ram.png</Icon>

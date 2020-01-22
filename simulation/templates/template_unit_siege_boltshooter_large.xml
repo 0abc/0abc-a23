@@ -13,7 +13,6 @@
     <BuildTime>80</BuildTime>
     <Population>3</Population>
     <Resources>
-      <food>75</food>
       <metal>100</metal>
       <wood>200</wood>
     </Resources>
@@ -25,7 +24,7 @@
     <Max>200</Max>
   </Health>
   <Pack>
-    <Time>8</Time>
+    <Time>8000</Time>
   </Pack>
   <ResourceTrickle>
     <Interval>1000</Interval>

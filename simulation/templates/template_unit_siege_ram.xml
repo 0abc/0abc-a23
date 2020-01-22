@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>1</Hack>
+    <Pierce>50</Pierce>
+    <Thrust>3</Thrust>
+  </Armour>
   <Attack>
     <Melee>
       <Bonuses>
@@ -20,33 +26,14 @@
     </Melee>
     <Ranged disable=""/>
   </Attack>
-  <Cost>
-    <BuildTime>40</BuildTime>
-    <Population>4</Population>
-    <Resources>
-      <food>100</food>
-      <metal>50</metal>
-      <wood>250</wood>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Height>6</Height>
-    <Square width="8" depth="12"/>
-  </Footprint>
-  <Garrisonable>
-    <Size>10</Size>
-  </Garrisonable>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Support Infantry</List>
     <LoadingRange>2</LoadingRange>
-    <Max>6</Max>
+    <Max>4</Max>
   </GarrisonHolder>
-  <Health>
-    <Max>300</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
     <GenericName>Battering Ram</GenericName>
@@ -58,8 +45,8 @@ Bonuses: 2.0× vs Defensive Structures.</Tooltip>
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>128x256/ellipse.png</MainTexture>
-        <MainTextureMask>128x256/ellipse_mask.png</MainTextureMask>
+        <MainTexture>128x256/cartouche.png</MainTexture>
+        <MainTextureMask>128x256/cartouche_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

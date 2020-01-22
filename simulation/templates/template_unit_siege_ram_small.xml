@@ -2,28 +2,28 @@
 <Entity parent="template_unit_siege_ram">
   <Attack>
     <Melee>
-      <MaxRange>9</MaxRange>
+      <MaxRange>7</MaxRange>
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime>30</BuildTime>
     <Population>4</Population>
     <Resources>
-      <metal>60</metal>
-      <wood>300</wood>
+      <metal>40</metal>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Height>12</Height>
-    <Square width="8" depth="16"/>
+    <Height>6</Height>
+    <Square width="8" depth="12"/>
   </Footprint>
   <Garrisonable>
-    <Size>20</Size>
+    <Size>12</Size>
   </Garrisonable>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>6</Max>
   </GarrisonHolder>
   <Health>
-    <Max>450</Max>
+    <Max>300</Max>
   </Health>
 </Entity>

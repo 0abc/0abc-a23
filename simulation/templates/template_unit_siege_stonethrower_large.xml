@@ -12,7 +12,6 @@
     <BuildTime>120</BuildTime>
     <Population>4</Population>
     <Resources>
-      <food>100</food>
       <metal>180</metal>
       <wood>360</wood>
     </Resources>

@@ -2,6 +2,7 @@
 <Entity parent="template_unit_siege_ram_large">
   <Footprint>
     <Height>9</Height>
+    <Square width="9" depth="15"/>
   </Footprint>
   <Identity>
     <Civ>rome</Civ>

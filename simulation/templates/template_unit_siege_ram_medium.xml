@@ -6,24 +6,24 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime>40</BuildTime>
     <Population>4</Population>
     <Resources>
-      <metal>60</metal>
-      <wood>300</wood>
+      <metal>50</metal>
+      <wood>250</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Height>12</Height>
-    <Square width="8" depth="16"/>
+    <Height>6</Height>
+    <Square width="7" depth="14"/>
   </Footprint>
   <Garrisonable>
-    <Size>20</Size>
+    <Size>16</Size>
   </Garrisonable>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>8</Max>
   </GarrisonHolder>
   <Health>
-    <Max>450</Max>
+    <Max>375</Max>
   </Health>
 </Entity>
