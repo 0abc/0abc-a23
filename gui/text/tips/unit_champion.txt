@@ -4,7 +4,9 @@ CHAMPIONS
 
 • Can neither build nor gather resources.
 
-• +200% silver cost, +100 training time.
-
-• +2 armour levels, +50% health, +100% capture attack strength, +50% melee and ranged attack damage.
+• Significantly more powerful:
+    • +200% metal cost, +50% training time
+    • +4 armour levels
+    • +100% capture attack strength
+    • +50% attack damage
 

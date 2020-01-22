@@ -4,7 +4,17 @@ MERCENARIES
 
 • Can not gather resources.
 
-• +100% silver cost, 0 other resource costs, −50% training time.
+• Cost silver instead of other resources:
+    • Infantry: 60 silver
+    • Camel: 75 silver
+    • Cavalry: 90 silver
+    • Biga: 180 silver
+    • Quadriga: 240 silver
+    • Elephant: 300 silver
 
-• +10% health, +20% capture attack strength, +15% melee and ranged attack damage.
+• Slightly more powerful:
+    • −50% training time
+    • +10% health
+    • +20% capture attack strength
+    • +15% attack damage
 
