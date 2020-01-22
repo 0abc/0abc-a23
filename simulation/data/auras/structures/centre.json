@@ -2,7 +2,7 @@
 	"affects": [
 		"Worker"
 	],
-	"auraDescription": "Workers +20% build rate, –20% gather speed.",
+	"auraDescription": "Workers +20% build rate, –15% grain gather rate.",
 	"auraName": "Settlement Core",
 	"modifications": [
 		{
@@ -10,12 +10,12 @@
 			"multiply": 1.2
 		},
 		{
-			"value": "ResourceGatherer/BaseSpeed",
-			"multiply": 0.8
+			"value": "ResourceGatherer/Rates/food.grain",
+			"multiply": 0.85
 		}
 	],
 	"overlayIcon": "art/textures/ui/session/auras/build.png",
-	"radius": 75,
+	"radius": 100,
 	"rangeOverlay": {
 		"lineTexture": "auras/zigzag.png",
 		"lineTextureMask": "auras/zigzag_mask.png",

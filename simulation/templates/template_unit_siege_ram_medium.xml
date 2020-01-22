@@ -2,7 +2,7 @@
 <Entity parent="template_unit_siege_ram">
   <Attack>
     <Melee>
-      <MaxRange>9</MaxRange>
+      <MaxRange>8</MaxRange>
     </Melee>
   </Attack>
   <Cost>

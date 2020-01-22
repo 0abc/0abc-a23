@@ -6,8 +6,8 @@
   </Armour>
   <BuildRestrictions>
     <Distance>
-      <FromClass>Civic</FromClass>
-      <MinDistance>40</MinDistance>
+      <FromClass>Centre</FromClass>
+      <MaxDistance>100</MaxDistance>
     </Distance>
   </BuildRestrictions>
   <GarrisonHolder>
