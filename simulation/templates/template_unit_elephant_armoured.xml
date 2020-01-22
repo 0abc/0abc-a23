@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant">
+  <Armour>
+    <Crush op="add">4</Crush>
+    <Hack op="add">4</Hack>
+    <Pierce op="add">4</Pierce>
+    <Thrust op="add">4</Thrust>
+  </Armour>
+  <Cost>
+    <BuildTime op="mul">1.25</BuildTime>
+    <Resources>
+      <metal op="mul">2.0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Armmoured War Elephant</GenericName>
+  </Identity>
+</Entity>

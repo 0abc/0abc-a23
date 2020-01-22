@@ -1,0 +1,60 @@
+{
+	"affects": [
+		"Elephant"
+	],
+	"autoResearch": true,
+	"genericName": "African vs Asian Elephants",
+	"modifications": [
+		{
+			"value": "Attack/Melee/Crush",
+			"multiply": 0.9,
+			"affects": "AfricanElephant"
+		},
+		{
+			"value": "Attack/Melee/Crush",
+			"multiply": 1.1,
+			"affects": "AsianElephant"
+		},
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 0.9,
+			"affects": "AfricanElephant"
+		},
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 1.1,
+			"affects": "AsianElephant"
+		},
+		{
+			"value": "Cost/Resources/food",
+			"multiply": 0.9,
+			"affects": "AfricanElephant"
+		},
+		{
+			"value": "Cost/Resources/food",
+			"multiply": 1.1,
+			"affects": "AsianElephant"
+		},
+		{
+			"value": "Cost/Resources/metal",
+			"multiply": 0.9,
+			"affects": "AfricanElephant"
+		},
+		{
+			"value": "Cost/Resources/metal",
+			"multiply": 1.1,
+			"affects": "AsianElephant"
+		},
+		{
+			"value": "Health/Max",
+			"multiply": 0.9,
+			"affects": "AfricanElephant"
+		},
+		{
+			"value": "Health/Max",
+			"multiply": 1.1,
+			"affects": "AsianElephant"
+		}
+	],
+	"tooltip": "African Elephants −10% food cost, training time, health, and melee attack crush damage.\nAsian Elephants +10% food cost, training time, health, and melee attack crush damage."
+}

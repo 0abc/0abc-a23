@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_elephant">
   <Identity>
     <Civ>maur</Civ>
-    <VisibleClasses datatype="tokens">IndianElephant</VisibleClasses>
+    <Classes datatype="tokens">AsianElephant</Classes>
     <Icon>units/maur_support_elephant.png</Icon>
   </Identity>
   <VisualActor>

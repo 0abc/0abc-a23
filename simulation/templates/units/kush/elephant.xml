@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_northafrican">
+<Entity parent="template_unit_elephant">
   <Identity>
     <Civ>kush</Civ>
-    <Classes datatype="tokens">Kushite</Classes>
+    <Classes datatype="tokens">Kushite AfricanElephant</Classes>
     <Icon>units/kush_elephant_b.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/kush/war_elephant</SelectionGroupName>
     <SpecificName>Ethiopian Elephant</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/kushites/elephantry_c_m.xml</Actor>
+    <Actor>units/kushites/war_elephant.xml</Actor>
   </VisualActor>
 </Entity>

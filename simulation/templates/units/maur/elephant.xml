@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_indian">
+<Entity parent="template_unit_elephant">
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">Indian</Classes>
+    <Classes datatype="tokens">Indian AsianElephant</Classes>
     <Icon>units/pers_elephant_b.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur/war_elephant</SelectionGroupName>

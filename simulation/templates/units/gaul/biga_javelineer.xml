@@ -5,7 +5,7 @@
     <Classes datatype="tokens">Celt</Classes>
     <Icon>units/brit_chariot_javelinist_c.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/gaul/biga_javelineer_champion</SelectionGroupName>
+    <SelectionGroupName>units/gaul/biga_javelineer</SelectionGroupName>
     <SpecificName>Briton Chariot</SpecificName>
   </Identity>
   <VisualActor>

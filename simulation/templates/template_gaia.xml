@@ -30,7 +30,7 @@
     <EditorOnly/>
   </Selectable>
   <StatusBars>
-    <BarHeight>0.333</BarHeight>
+    <BarHeight>0.2</BarHeight>
     <BarWidth>2.0</BarWidth>
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>

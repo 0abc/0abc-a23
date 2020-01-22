@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_indian">
+<Entity parent="template_unit_elephant_armoured">
   <Identity>
     <Civ>sele</Civ>
-    <Classes datatype="tokens">Syrian</Classes>
-    <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
+    <Classes datatype="tokens">Syrian AsianElephant</Classes>
     <Icon>units/sele_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
@@ -11,6 +10,6 @@
     <SpecificName>Indian Elephant Cataphract</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/seleucids/elephantry_c_m.xml</Actor>
+    <Actor>units/seleucids/war_elephant.xml</Actor>
   </VisualActor>
 </Entity>

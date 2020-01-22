@@ -31,4 +31,7 @@
       </Texture>
     </Overlay>
   </Selectable>
+  <StatusBars>
+    <HeightOffset>5</HeightOffset>
+  </StatusBars>
 </Entity>

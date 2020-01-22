@@ -82,4 +82,7 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <StatusBars>
+    <HeightOffset>4.0</HeightOffset>
+  </StatusBars>
 </Entity>

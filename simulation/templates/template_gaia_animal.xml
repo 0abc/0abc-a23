@@ -56,6 +56,9 @@
       </Texture>
     </Overlay>
   </Selectable>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>

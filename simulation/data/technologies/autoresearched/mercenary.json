@@ -64,7 +64,33 @@
 		},
 		{
 			"value": "Cost/Resources/silver",
-			"multiply": 2.0
+			"replace": 180,
+			"affects": "Biga"
+		},
+		{
+			"value": "Cost/Resources/silver",
+			"replace": 75,
+			"affects": "Camel"
+		},
+		{
+			"value": "Cost/Resources/silver",
+			"replace": 90,
+			"affects": "Cavalry"
+		},
+		{
+			"value": "Cost/Resources/silver",
+			"replace": 300,
+			"affects": "Elephant"
+		},
+		{
+			"value": "Cost/Resources/silver",
+			"replace": 60,
+			"affects": "Infantry"
+		},
+		{
+			"value": "Cost/Resources/silver",
+			"replace": 240,
+			"affects": "Quadrigs"
 		},
 		{
 			"value": "Cost/Resources/stone",
@@ -79,5 +105,5 @@
 			"multiply": 1.1
 		}
 	],
-	"tooltip": "Mercenaries have +100% silver cost, 0 other resource costs, −50% training time, +10% health, +25% capture attack strength, +15% melee and ranged attack damage."
+	"tooltip": "Mercenaries have −50% training time, +10% health, +25% capture attack strength, +15% melee and ranged attack damage. Instead of any other resources, Mercenary Infantry cost 60 silver, Camel 75, Cavalry 90, Bigae 180, Quadrigae 240, Elephants 300."
 }

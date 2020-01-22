@@ -6,7 +6,7 @@
     <Icon>units/sele_chariot_scythed_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>units/sele/quadriga_scythed_champion</SelectionGroupName>
+    <SelectionGroupName>units/sele/quadriga_scythed</SelectionGroupName>
     <SpecificName>Scythed Chariot</SpecificName>
   </Identity>
   <VisualActor>

@@ -8,18 +8,18 @@
   </Armour>
   <Attack>
     <Melee>
-      <Crush>100</Crush>
+      <Crush>90</Crush>
       <MaxRange>6</MaxRange>
       <PreferredClasses datatype="tokens">Unit</PreferredClasses>
     </Melee>
     <Ranged disable=""/>
   </Attack>
   <Cost>
-    <Population>6</Population>
+    <Population>5</Population>
     <BuildTime>90</BuildTime>
     <Resources>
       <food>300</food>
-      <metal>200</metal>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -73,7 +73,6 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <BarWidth>3.0</BarWidth>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <UnitMotion>

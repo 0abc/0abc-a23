@@ -60,8 +60,7 @@
   </Sound>
   <StatusBars>
     <BarHeight>0.5</BarHeight>
-    <BarWidth>6.0</BarWidth>
-    <HeightOffset>6.0</HeightOffset>
+    <BarWidth>5.0</BarWidth>
   </StatusBars>
   <UnitMotion>
     <PassabilityClass>ship</PassabilityClass>

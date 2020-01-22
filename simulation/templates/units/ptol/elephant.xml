@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_northafrican">
+<Entity parent="template_unit_elephant">
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">Ethiopian</Classes>
+    <Classes datatype="tokens">Ethiopian AfricanElephant</Classes>
     <Icon>units/ptol_elephant_c.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
@@ -10,6 +10,6 @@
     <SpecificName>Libyan Elephant</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/ptolemies/elephantry_c_m.xml</Actor>
+    <Actor>units/ptolemies/war_elephant.xml</Actor>
   </VisualActor>
 </Entity>

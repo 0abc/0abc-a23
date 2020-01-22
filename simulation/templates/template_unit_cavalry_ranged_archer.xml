@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged">
+  <Armour>
+    <Crush>1</Crush>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Thrust>1</Thrust>
+  </Armour>
   <Attack>
     <Ranged>
       <MaxRange op="mul">6.0</MaxRange>

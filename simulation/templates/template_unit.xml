@@ -138,9 +138,9 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <BarHeight>0.333</BarHeight>
+    <BarHeight>0.3</BarHeight>
     <BarWidth>2.0</BarWidth>
-    <HeightOffset>5.0</HeightOffset>
+    <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitAI>
     <CanGuard>true</CanGuard>
