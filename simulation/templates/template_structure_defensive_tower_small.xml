@@ -63,10 +63,10 @@
         <stone>100</stone>
         <wood>25</wood>
       </Cost>
-      <Entity>structures/{civ}/large_tower</Entity>
+      <Entity>structures/{civ}/tower_large</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>
       <Time>90</Time>
-      <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
+      <Tooltip>Reinforce with stone and upgrade to a large tower.</Tooltip>
     </Tower>
   </Upgrade>
   <Vision>

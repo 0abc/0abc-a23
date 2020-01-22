@@ -32,8 +32,8 @@
       structures/{civ}/wonder
 
       structures/outpost
-      structures/{civ}/small_tower
-      structures/{civ}/large_tower
+      structures/{civ}/tower_small
+      structures/{civ}/tower_large
       structures/{civ}/fortress
       structures/wallset_palisade
       structures/wallset_wood
@@ -134,6 +134,9 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <StatusBars>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
   <UnitMotion>
     <Run>
       <Speed op="mul">1.0</Speed>

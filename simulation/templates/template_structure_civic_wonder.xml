@@ -51,9 +51,6 @@
       <select>interface/select/building/sel_wonder.xml</select>
     </SoundGroups>
   </Sound>
-  <StatusBars>
-    <HeightOffset>12.0</HeightOffset>
-  </StatusBars>
   <TerritoryInfluence>
     <Root>true</Root>
     <Radius>100</Radius>

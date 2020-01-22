@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_elephantstable">
   <Identity>
     <Civ>maur</Civ>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryans/stables.xml</Actor>

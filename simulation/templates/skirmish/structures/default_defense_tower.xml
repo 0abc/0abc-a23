@@ -8,7 +8,7 @@
     <Civ>skirm</Civ>
   </Identity>
   <SkirmishReplacer>
-    <general>structures/{civ}/large_tower</general>
+    <general>structures/{civ}/tower_large</general>
   </SkirmishReplacer>
   <VisualActor>
     <Actor>structures/hellenes/scout_tower.xml</Actor>

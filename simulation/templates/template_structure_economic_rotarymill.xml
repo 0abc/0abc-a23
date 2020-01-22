@@ -39,7 +39,4 @@
       <select>interface/select/building/sel_ffactri.xml</select>
     </SoundGroups>
   </Sound>
-  <StatusBars>
-    <HeightOffset>8.0</HeightOffset>
-  </StatusBars>
 </Entity>

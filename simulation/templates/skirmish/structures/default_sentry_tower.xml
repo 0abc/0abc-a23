@@ -4,7 +4,7 @@
     <Civ>skirm</Civ>
   </Identity>
   <SkirmishReplacer>
-    <general>structures/{civ}/small_tower</general>
+    <general>structures/{civ}/tower_small</general>
   </SkirmishReplacer>
   <VisualActor>
     <Actor>structures/hellenes/wooden_tower.xml</Actor>

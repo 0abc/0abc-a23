@@ -28,9 +28,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/support_elephant
-      units/{civ}/war_elephant
-      units/{civ}/war_elephant_mercenary
-      units/{civ}/war_elephant_champion
+      units/{civ}/elephant
+      units/{civ}/elephant_mercenary
+      units/{civ}/elephant_armoured
     </Entities>
     <Technologies datatype="tokens">
       training_elephant_stable
