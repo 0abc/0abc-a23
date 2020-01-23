@@ -131,13 +131,16 @@
 			"Count": 5
 		},
 		{
-			"Template": "units/maur/cavalry_javelineer"
+			"Template": "units/maur/biga_archer"
 		},
 		{
 			"Template": "units/maur/support_elephant"
 		},
 		{
 			"Template": "gaia/fauna_zebu"
+		},
+		{
+			"Template": "structures/maur/pillar"
 		}
 	],
 	"Formations": [
