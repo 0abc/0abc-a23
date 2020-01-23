@@ -220,7 +220,7 @@ function getArmourHealthTooltip(template)
 		return "";
 
 	return sprintf(translate("%(label)s %(details)s"), {
-		"label": headerFont(translate("Armour-health equivalents:\n	")),
+		"label": headerFont(translate("Armour-health equivalents:\n  ")),
 		"details":
 			Object.keys(template.armour).map(
 				dmgType => sprintf(translate("%(damage)s %(damageType)s"), {
@@ -551,7 +551,7 @@ function getGatherTooltip(template)
 		}, [0, 0]);
 
 		if (rate > 0)
-			rates[resource.code] = +(rate / count).toFixed(1);
+			rates[resource.code] = +(rate / count).toFixed(2);
 	}
 
 	if (!Object.keys(rates).length)
