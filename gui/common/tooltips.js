@@ -584,7 +584,7 @@ function getResourceTrickleTooltip(template)
 			"resources":
 				resCodes.map(
 					res => sprintf(translate("%(rate)s %(resourceIcon)s"), {
-						"rate": template.resourceTrickle.rates[res],
+						"rate": template.resourceTrickle.rates[res].toFixed(2),
 						"resourceIcon": resourceIcon(res)
 					})
 				).join(", "),
