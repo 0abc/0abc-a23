@@ -24,7 +24,7 @@
     <Max>3000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Library</Classes>
+    <VisibleClasses datatype="tokens">Library</VisibleClasses>
     <GenericName>Library</GenericName>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>

@@ -9,7 +9,7 @@
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
   <Identity>
-    <Classes datatype="tokens">-StoneWall WoodenWall</Classes>
+    <VisibleClasses datatype="tokens">-StoneWall WoodenWall</VisibleClasses>
     <GenericName>Wooden Wall</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

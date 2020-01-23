@@ -15,7 +15,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Range</Classes>
+    <VisibleClasses datatype="tokens">Range</VisibleClasses>
     <GenericName>Practice Range</GenericName>
     <Icon>structures/range.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>

@@ -11,7 +11,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Hall</Classes>
+    <VisibleClasses datatype="tokens">Hall</VisibleClasses>
     <GenericName>Hall</GenericName>
     <Icon>structures/italian_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

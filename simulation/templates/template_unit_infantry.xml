@@ -21,7 +21,6 @@
     <Entities datatype="tokens">
       structures/{civ}/centre
       structures/{civ}/house
-      structures/{civ}/apartment
       structures/{civ}/field
       structures/{civ}/farmstead
       structures/{civ}/storehouse
@@ -46,6 +45,7 @@
       structures/{civ}/elephant_stable
       structures/{civ}/hall
       structures/{civ}/nuba_village
+      structures/{civ}/apartment
       structures/{civ}/army_camp
       structures/{civ}/library
       structures/{civ}/lighthouse

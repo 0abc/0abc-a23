@@ -16,7 +16,7 @@
   </BuildRestrictions>
   <Capturable disable=""/>
   <Identity>
-    <Classes datatype="tokens">StoneWall</Classes>
+    <VisibleClasses datatype="tokens">StoneWall</VisibleClasses>
     <GenericName>City Wall</GenericName>
     <Icon>structures/wall.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

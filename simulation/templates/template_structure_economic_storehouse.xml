@@ -22,7 +22,8 @@
     <Max>600</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">DropsiteWood DropsiteStone Storehouse</Classes>
+    <Classes datatype="tokens">DropsiteWood DropsiteStone</Classes>
+    <VisibleClasses datatype="tokens">Storehouse</VisibleClasses>
     <GenericName>Storehouse</GenericName>
     <Icon>structures/storehouse.png</Icon>
     <Tooltip>Dropsite for wood and stone.</Tooltip>

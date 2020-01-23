@@ -35,7 +35,7 @@
     <Max>3000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Palace</Classes>
+    <VisibleClasses datatype="tokens">Palace</VisibleClasses>
     <GenericName>Palace</GenericName>
     <Icon>technologies/laurel_wreath.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

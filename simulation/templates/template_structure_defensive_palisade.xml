@@ -9,7 +9,7 @@
   <Capturable disable=""/>
   <GarrisonHolder disable=""/>
   <Identity>
-    <Classes datatype="tokens">Palisade</Classes>
+    <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
     <GenericName>Palisade</GenericName>
     <Icon>gaia/special_palisade.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>

@@ -27,7 +27,7 @@
     <Max>900</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">RotaryMill</Classes>
+    <VisibleClasses datatype="tokens">RotaryMill</VisibleClasses>
     <GenericName>Rotary Mill</GenericName>
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

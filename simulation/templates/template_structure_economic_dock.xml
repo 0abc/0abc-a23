@@ -24,8 +24,8 @@
     <Max>1800</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Dock NavalMarket</Classes>
-    <VisibleClasses datatype="tokens">Naval Market</VisibleClasses>
+    <Classes datatype="tokens">Market NavalMarket</Classes>
+    <VisibleClasses datatype="tokens">Naval Dock</VisibleClasses>
     <GenericName>Dock</GenericName>
     <Icon>structures/dock.png</Icon>
     <Tooltip>Dropsite for food, wood, stone. Construct fishing boats and merchant ships. Establish trade routes.</Tooltip>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base_house_apartment">
+<Entity parent="template_structure_house_apartment">
   <Footprint>
     <Height>10</Height>
     <Square width="15" depth="15"/>

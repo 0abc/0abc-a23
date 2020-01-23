@@ -6,7 +6,7 @@
     <Height>9.0</Height>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">Palisade</Classes>
+    <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
     <GenericName>Palisade Fort</GenericName>
     <Icon>structures/palisade_fort.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>

@@ -16,7 +16,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Stable</Classes>
+    <VisibleClasses datatype="tokens">Stable</VisibleClasses>
     <GenericName>Stable</GenericName>
     <Icon>technologies/horseshoe_metal.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>

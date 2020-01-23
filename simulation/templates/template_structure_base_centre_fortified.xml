@@ -28,7 +28,7 @@
     <Max op="mul">2.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">FortifiedCentre</Classes>
+    <VisibleClasses datatype="tokens">FortifiedCentre</VisibleClasses>
     <GenericName>Fortified Centre</GenericName>
     <Icon>structures/military_settlement.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

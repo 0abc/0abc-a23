@@ -17,7 +17,7 @@
   <BuildRestrictions>
     <Category>Centre</Category>
     <Distance>
-      <FromClass>Base</FromClass>
+      <FromClass>Centre</FromClass>
       <MinDistance>200</MinDistance>
     </Distance>
     <Territory>own neutral</Territory>

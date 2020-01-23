@@ -25,7 +25,8 @@
     <Max>750</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">DropsiteFood Farmstead</Classes>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
     <GenericName>Farmstead</GenericName>
     <Icon>structures/farmstead.png</Icon>
     <Tooltip>Dropsite for food.</Tooltip>

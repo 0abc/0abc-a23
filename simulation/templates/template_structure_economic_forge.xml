@@ -28,7 +28,8 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">DropsiteMetal Forge</Classes>
+    <Classes datatype="tokens">DropsiteMetal</Classes>
+    <VisibleClasses datatype="tokens">Forge</VisibleClasses>
     <GenericName>Forge</GenericName>
     <Icon>structures/blacksmith.png</Icon>
     <Tooltip>Dropsite for iron. Research economic technologies.</Tooltip>

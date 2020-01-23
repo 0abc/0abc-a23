@@ -17,7 +17,7 @@
     <Max>450</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Corral</Classes>
+    <VisibleClasses datatype="tokens">Corral</VisibleClasses>
     <GenericName>Corral</GenericName>
     <Icon>structures/corral.png</Icon>
     <Tooltip>Garrison domestic animals.</Tooltip>

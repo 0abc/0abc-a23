@@ -16,7 +16,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Arsenal</Classes>
+    <VisibleClasses datatype="tokens">Arsenal</VisibleClasses>
     <GenericName>Arsenal</GenericName>
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

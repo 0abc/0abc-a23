@@ -25,8 +25,7 @@
     <Max>5000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">NavalBase</Classes>
-    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
+    <VisibleClasses datatype="tokens">Naval NavalBase</VisibleClasses>
     <GenericName>Naval Base</GenericName>
     <Icon>structures/crannog.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

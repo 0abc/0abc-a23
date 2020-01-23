@@ -16,7 +16,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">ElephantStable</Classes>
+    <VisibleClasses datatype="tokens">ElephantStable</VisibleClasses>
     <GenericName>Elephant Stable</GenericName>
     <Icon>structures/elephant_stables.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

@@ -10,7 +10,7 @@
   </Footprint>
   <Identity>
     <Civ>brit</Civ>
-    <Classes datatype="tokens">Naval</Classes>
+    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
     <Icon>structures/crannog.png</Icon>
     <SpecificName>Island Settlement</SpecificName>
   </Identity>

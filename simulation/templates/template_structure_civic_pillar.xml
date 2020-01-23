@@ -22,7 +22,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Pillar</Classes>
+    <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
     <GenericName>Monumental Pillar</GenericName>
     <Icon>structures/tholos.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

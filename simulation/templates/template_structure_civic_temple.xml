@@ -20,7 +20,7 @@
     <Max>2000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Temple</Classes>
+    <VisibleClasses datatype="tokens">Temple</VisibleClasses>
     <GenericName>Temple</GenericName>
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

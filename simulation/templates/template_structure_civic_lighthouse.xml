@@ -23,8 +23,7 @@
     <Max>4000</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Lighthouse</Classes>
-    <VisibleClasses datatype="tokens">Naval</VisibleClasses>
+    <VisibleClasses datatype="tokens">Naval Lighthouse</VisibleClasses>
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <Tooltip>Very large vision range.</Tooltip>

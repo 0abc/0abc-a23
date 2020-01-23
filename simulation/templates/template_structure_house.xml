@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_base">
-  <Attack disable=""/>
-  <BuildingAI disable=""/>
+<Entity parent="template_structure">
   <BuildRestrictions>
     <Distance>
       <FromClass>Centre</FromClass>
@@ -20,6 +18,11 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Infantry Support+!Elephant Dog</List>
+    <LoadingRange>2</LoadingRange>
     <Max>2</Max>
   </GarrisonHolder>
   <Health>
@@ -27,11 +30,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">House</Classes>
+    <VisibleClasses datatype="tokens">House</VisibleClasses>
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
   </Identity>
-  <ResourceDropsite disable=""/>
   <ResourceTrickle>
     <Rates>
       <wood>-0.01</wood>

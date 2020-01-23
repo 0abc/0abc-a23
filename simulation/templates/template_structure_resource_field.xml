@@ -24,8 +24,8 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Field</Classes>
-    <VisibleClasses datatype="tokens">Resource</VisibleClasses>
+    <Classes datatype="tokens">Resource</Classes>
+    <VisibleClasses datatype="tokens">Field</VisibleClasses>
     <GenericName>Field</GenericName>
     <Icon>structures/field.png</Icon>
     <Tooltip>Harvest grain for food.</Tooltip>

@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>gaia</Civ>
-    <Classes datatype="tokens">-StoneWall WoodenWall</Classes>
+    <VisibleClasses datatype="tokens">-StoneWall WoodenWall</VisibleClasses>
     <GenericName>Wooden Wall</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
