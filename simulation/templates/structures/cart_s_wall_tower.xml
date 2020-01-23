@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/palisade_tower">
+<Entity parent="template_structure_defensive_low_wall">
+  <Cost>
+    <BuildTime op="mul">3.0</BuildTime>
+    <Resources>
+      <stone op="mul">3.0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8</Height>
+    <Square width="4" depth="4"/>
+  </Footprint>
+  <Health>
+    <Max op="mul">3.0</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>structures/cart_wallset_short</SelectionGroupName>
-    <SpecificName>Low Wall</SpecificName>
-    <GenericName>Stone Wall</GenericName>
   </Identity>
+  <Obstruction>
+    <ControlPersist/>
+    <Static width="3" depth="3"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/carthaginians/short_wall_tower.xml</Actor>
+    <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>3</Length>
+  </WallPiece>
 </Entity>

@@ -36,6 +36,7 @@
       structures/{civ}/fortress
       structures/wallset_palisade
       structures/wallset_wood
+      structures/{civ}/wallset_city_low
       structures/{civ}/wallset_city
       structures/{civ}/stable
       structures/{civ}/arsenal

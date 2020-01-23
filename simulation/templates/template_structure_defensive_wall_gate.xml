@@ -27,9 +27,6 @@
     <Static disable=""/>
   </Obstruction>
   <RallyPoint disable=""/>
-  <Repairable>
-    <RepairTimeRatio op="mul">0.675</RepairTimeRatio>
-  </Repairable>
   <ResourceTrickle>
     <Rates>
       <food>-0.06</food>
@@ -51,4 +48,7 @@
   <VisualActor>
     <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>36</Length>
+  </WallPiece>
 </Entity>
