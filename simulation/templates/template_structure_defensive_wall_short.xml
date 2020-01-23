@@ -17,4 +17,7 @@
   <VisualActor>
     <FoundationActor>structures/fndn_wall_short.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>12</Length>
+  </WallPiece>
 </Entity>

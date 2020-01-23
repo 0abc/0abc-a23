@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Height>12.0</Height>
-    <Square width="26.0" depth="9.0"/>
+    <Square width="25" depth="7"/>
+    <Height>11.6</Height>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -25,12 +25,9 @@
     <SelectionGroupName>structures/pers/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="7.0"/>
+    <Static width="24" depth="6"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/persians/wall_medium.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>24.0</Length>
-  </WallPiece>
 </Entity>

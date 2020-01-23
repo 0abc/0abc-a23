@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>7.0</Height>
-    <Square width="14.0" depth="6.0"/>
+    <Square width="13" depth="5"/>
+    <Height>6.7</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
@@ -29,7 +29,7 @@
     <SelectionGroupName>structures/wallset_wood</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="4.0"/>
+    <Static width="12" depth="3"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/romans/siege_wall_short.xml</Actor>

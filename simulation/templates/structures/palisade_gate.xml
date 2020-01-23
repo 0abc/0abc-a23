@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>9.0</Height>
-    <Square width="16" depth="3.0"/>
+    <Height>9</Height>
+    <Square width="15" depth="3"/>
   </Footprint>
   <Gate>
     <PassRange>12</PassRange>
@@ -43,6 +43,6 @@
     <FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>11.0</Length>
+    <Length>14</Length>
   </WallPiece>
 </Entity>

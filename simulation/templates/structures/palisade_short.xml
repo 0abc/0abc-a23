@@ -7,21 +7,21 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>9.0</Height>
-    <Square width="5.5" depth="3.0"/>
+    <Height>9</Height>
+    <Square width="5" depth="3"/>
   </Footprint>
   <Health>
     <Max op="mul">2.0</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="4.5" depth="2.0"/>
+    <Static width="5" depth="2"/>
   </Obstruction>
   <VisualActor>
     <Actor>props/special/palisade_rocks_short.xml</Actor>
     <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>4.8</Length>
+    <Length>5</Length>
   </WallPiece>
 </Entity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
+    <Square width="13" depth="8"/>
     <Height>10.0</Height>
-    <Square width="12.0" depth="9.0"/>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -19,12 +19,9 @@
     <SelectionGroupName>structures/iber/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="7.0"/>
+    <Static width="12" depth="7"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/iberians/wall_short.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>12.0</Length>
-  </WallPiece>
 </Entity>

@@ -7,15 +7,15 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>9.0</Height>
-    <Square width="15" depth="3.0"/>
+    <Height>9</Height>
+    <Square width="15" depth="3"/>
   </Footprint>
   <Health>
     <Max op="mul">6.0</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="14" depth="2.0"/>
+    <Static width="15" depth="2"/>
   </Obstruction>
   <Upgrade>
     <Gate>
@@ -31,6 +31,6 @@
     <FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>14.0</Length>
+    <Length>15</Length>
   </WallPiece>
 </Entity>

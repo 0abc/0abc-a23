@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Footprint>
-    <Height>14.0</Height>
-    <Square width="39.0" depth="8.5"/>
+    <Square width="37" depth="8"/>
+    <Height>10.5</Height>
   </Footprint>
   <Identity>
     <Civ>maur</Civ>
@@ -17,7 +17,4 @@
   <VisualActor>
     <Actor>structures/mauryans/wall_gate.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>36.2</Length>
-  </WallPiece>
 </Entity>

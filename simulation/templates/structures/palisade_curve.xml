@@ -7,15 +7,15 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>9.0</Height>
-    <Square width="3.5" depth="8.5"/>
+    <Height>9</Height>
+    <Square width="4" depth="10"/>
   </Footprint>
   <Health>
     <Max op="mul">5.0</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="3.0" depth="8.0"/>
+    <Static width="3" depth="9"/>
   </Obstruction>
   <VisualActor>
     <Actor>props/special/palisade_rocks_curve.xml</Actor>

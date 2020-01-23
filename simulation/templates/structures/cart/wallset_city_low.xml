@@ -2,10 +2,12 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>cart</Civ>
+    <GenericName>Low Wall</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <WallSet>
-    <MaxTowerOverlap>0.90</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <MaxTowerOverlap>0.9</MaxTowerOverlap>
+    <MinTowerOverlap>0.1</MinTowerOverlap>
     <Templates>
       <Gate>structures/cart_s_wall_gate</Gate>
       <Tower>structures/cart_s_wall_tower</Tower>

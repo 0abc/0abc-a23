@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Height>13.0</Height>
-    <Square width="23.0" depth="7.0"/>
+    <Square width="22" depth="6"/>
+    <Height>12.5</Height>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -25,12 +25,12 @@
     <SelectionGroupName>structures/sele/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="21.1" depth="5.0"/>
+    <Static width="21" depth=""/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/seleucids/wall_med.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>21.1</Length>
+    <Length>21</Length>
   </WallPiece>
 </Entity>

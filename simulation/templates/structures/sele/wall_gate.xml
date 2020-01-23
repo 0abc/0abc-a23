@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Footprint>
-    <Height>13.0</Height>
-    <Square width="39.0" depth="8.0"/>
+    <Square width="35" depth="8"/>
+    <Height>12.5</Height>
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
@@ -18,6 +18,6 @@
     <Actor>structures/seleucids/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>33.0</Length>
+    <Length>34</Length>
   </WallPiece>
 </Entity>

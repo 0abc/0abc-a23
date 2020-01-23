@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
-    <Height>15.0</Height>
-    <Square width="12" depth="12"/>
+    <Square width="10" depth="10"/>
+    <Height>20.0</Height>
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
   </Identity>
   <Obstruction>
-    <Static width="10" depth="10"/>
+    <Static width="9" depth="9"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/ptolemies/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>9.6</Length>
+    <Length>9</Length>
   </WallPiece>
 </Entity>

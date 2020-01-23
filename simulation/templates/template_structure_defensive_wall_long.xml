@@ -31,4 +31,7 @@
   <VisualActor>
     <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>36</Length>
+  </WallPiece>
 </Entity>

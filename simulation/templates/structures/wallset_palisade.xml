@@ -8,8 +8,8 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <WallSet>
-    <MaxTowerOverlap>0.85</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <MaxTowerOverlap>0.8</MaxTowerOverlap>
+    <MinTowerOverlap>0.2</MinTowerOverlap>
     <Templates>
       <Fort>structures/palisade_fort</Fort>
       <Gate>structures/palisade_gate</Gate>

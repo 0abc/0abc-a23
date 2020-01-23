@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Height>13.0</Height>
-    <Square width="13.0" depth="7.0"/>
+    <Square width="13" depth="6"/>
+    <Height>12.6</Height>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -19,12 +19,9 @@
     <SelectionGroupName>structures/kush/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="11.0" depth="5.0"/>
+    <Static width="12" depth="5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/kushites/wall_short.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>11</Length>
-  </WallPiece>
 </Entity>

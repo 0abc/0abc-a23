@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>9.0</Height>
+    <Height>9</Height>
     <Square width="5" depth="5"/>
   </Footprint>
   <Health>
@@ -16,13 +16,13 @@
   </Health>
   <Obstruction>
     <ControlPersist/>
-    <Static width="4.0" depth="4.0"/>
+    <Static width="4" depth="4"/>
   </Obstruction>
   <VisualActor>
     <Actor>props/special/palisade_rocks_tower.xml</Actor>
     <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>4.0</Length>
+    <Length>3</Length>
   </WallPiece>
 </Entity>

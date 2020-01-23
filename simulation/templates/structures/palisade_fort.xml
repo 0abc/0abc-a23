@@ -2,8 +2,8 @@
 <Entity parent="template_structure_defensive_tower_small">
   <Capturable disable=""/>
   <Footprint>
-    <Square width="9.5" depth="8.5"/>
-    <Height>9.0</Height>
+    <Square width="10" depth="8"/>
+    <Height>18</Height>
   </Footprint>
   <Identity>
     <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
@@ -12,7 +12,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
-    <Static width="9.0" depth="7.5"/>
+    <Static width="9" depth="7"/>
   </Obstruction>
   <ProductionQueue disable=""/>
   <Upgrade disable=""/>
@@ -20,6 +20,6 @@
     <Actor>props/special/palisade_rocks_fort.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>8.0</Length>
+    <Length>8</Length>
   </WallPiece>
 </Entity>

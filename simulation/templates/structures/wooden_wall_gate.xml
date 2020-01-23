@@ -9,8 +9,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>7.0</Height>
-    <Square width="38.0" depth="8.0"/>
+    <Square width="37" depth="7"/>
+    <Height>6.7</Height>
   </Footprint>
   <GarrisonHolder disable=""/>
   <Gate>
@@ -45,6 +45,6 @@
     <FoundationActor>structures/fndn_wall_long.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>36.0</Length>
+    <Length>36</Length>
   </WallPiece>
 </Entity>

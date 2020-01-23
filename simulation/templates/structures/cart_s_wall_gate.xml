@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/palisade_gate">
+  <Identity>
+    <Civ>cart</Civ>
+  </Identity>
+</Entity>

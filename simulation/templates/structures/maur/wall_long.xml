@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Height>14.0</Height>
-    <Square width="38.0" depth="9.0"/>
+    <Square width="37" depth="5"/>
+    <Height>10.5</Height>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -31,12 +31,9 @@
     <SelectionGroupName>structures/maur/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="36.1" depth="7.0"/>
+    <Static width="36" depth="4"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/mauryans/wall_long.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>36.1</Length>
-  </WallPiece>
 </Entity>

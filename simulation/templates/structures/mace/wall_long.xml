@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Height>13.0</Height>
-    <Square width="38.5" depth="7.0"/>
+    <Square width="37" depth="6"/>
+    <Height>12.5</Height>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -31,12 +31,9 @@
     <SelectionGroupName>structures/mace/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="37.0" depth="6.0"/>
+    <Static width="36" depth="5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/hellenes/wall_long.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>37.0</Length>
-  </WallPiece>
 </Entity>

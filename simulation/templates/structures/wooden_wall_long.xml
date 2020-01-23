@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>7.0</Height>
-    <Square width="38.0" depth="6.0"/>
+    <Square width="37" depth="5"/>
+    <Height>6.7</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>6</Max>
@@ -41,7 +41,7 @@
     <SelectionGroupName>structures/wallset_wood</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="36.0" depth="4.0"/>
+    <Static width="36" depth="3"/>
   </Obstruction>
   <Upgrade>
     <Gate>

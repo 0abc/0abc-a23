@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Footprint>
-    <Height>14.0</Height>
-    <Square width="46.0" depth="11.0"/>
+    <Square width="37" depth="9"/>
+    <Height>13.5</Height>
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
@@ -17,7 +17,4 @@
   <VisualActor>
     <Actor>structures/carthaginians/wall_gate.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>38.0</Length>
-  </WallPiece>
 </Entity>

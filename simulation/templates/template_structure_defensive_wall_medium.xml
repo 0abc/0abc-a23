@@ -17,4 +17,7 @@
   <VisualActor>
     <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>24</Length>
+  </WallPiece>
 </Entity>

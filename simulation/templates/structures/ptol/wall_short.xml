@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Height>11.0</Height>
-    <Square width="16.0" depth="10.0"/>
+    <Square width="17" depth="5"/>
+    <Height>10.7</Height>
   </Footprint>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
@@ -19,12 +19,12 @@
     <SelectionGroupName>structures/ptol/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="14.0" depth="8.0"/>
+    <Static width="16" depth="4"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/ptolemies/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>14.0</Length>
+    <Length>16</Length>
   </WallPiece>
 </Entity>
