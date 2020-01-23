@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee">
   <Armour>
     <Crush>6</Crush>
-    <Hack>5</Hack>
+    <Hack>4</Hack>
     <Pierce>6</Pierce>
-    <Thrust>7</Thrust>
+    <Thrust>8</Thrust>
   </Armour>
   <Attack>
     <Melee>

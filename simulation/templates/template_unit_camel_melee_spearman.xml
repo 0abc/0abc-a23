@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_camel_melee">
   <Armour>
-    <Crush>3</Crush>
-    <Hack>5</Hack>
+    <Crush>2</Crush>
+    <Hack>6</Hack>
     <Pierce>4</Pierce>
     <Thrust>4</Thrust>
   </Armour>

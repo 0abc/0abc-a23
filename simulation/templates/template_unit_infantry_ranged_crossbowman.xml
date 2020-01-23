@@ -3,8 +3,8 @@
   <Armour>
     <Crush>2</Crush>
     <Hack>1</Hack>
-    <Pierce>2</Pierce>
-    <Thrust>1</Thrust>
+    <Pierce>3</Pierce>
+    <Thrust>2</Thrust>
   </Armour>
   <Attack>
     <Ranged>

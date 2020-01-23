@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged">
   <Armour>
-    <Crush>4</Crush>
+    <Crush>5</Crush>
     <Hack>4</Hack>
     <Pierce>4</Pierce>
-    <Thrust>4</Thrust>
+    <Thrust>3</Thrust>
   </Armour>
   <Attack>
     <Ranged>
