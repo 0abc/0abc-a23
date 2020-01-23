@@ -16,6 +16,6 @@
     <Max>40</Max>
   </GarrisonHolder>
   <Health>
-    <Max>5100</Max>
+    <Max op="mul">1.7</Max>
   </Health>
 </Entity>

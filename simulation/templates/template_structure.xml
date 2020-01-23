@@ -56,6 +56,7 @@
       <mediumdamage>0.65</mediumdamage>
     </DamageVariants>
     <IdleRegenRate>0</IdleRegenRate>
+    <Max>1000</Max>
     <RegenRate>0</RegenRate>
     <Unhealable>true</Unhealable>
   </Health>

@@ -24,7 +24,7 @@
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
-    <Max>900</Max>
+    <Max op="mul">1.5</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">RotaryMill</VisibleClasses>

@@ -7,7 +7,16 @@
     <Territory>own neutral enemy ally</Territory>
   </BuildRestrictions>
   <Capturable disable=""/>
+  <Cost>
+    <BuildTime>2.5</BuildTime>
+    <Resources>
+      <wood>5</wood>
+    </Resources>
+  </Cost>
   <GarrisonHolder disable=""/>
+  <Health>
+    <Max op="mul">0.15</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
     <GenericName>Palisade</GenericName>

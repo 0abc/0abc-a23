@@ -30,6 +30,7 @@
     <List datatype="tokens">Soldier Support</List>
   </GarrisonHolder>
   <Health>
+    <Max op="mul">3.0</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

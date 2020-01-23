@@ -15,6 +15,16 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <stone>30</stone>
+      <wood>10</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">0.9</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">StoneWall</VisibleClasses>
     <GenericName>City Wall</GenericName>

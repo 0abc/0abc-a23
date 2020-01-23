@@ -21,7 +21,7 @@
     <Max>12</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1800</Max>
+    <Max op="mul">3.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Market NavalMarket</Classes>

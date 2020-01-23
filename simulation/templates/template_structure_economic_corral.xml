@@ -14,7 +14,7 @@
     <List datatype="tokens">Domestic</List>
   </GarrisonHolder>
   <Health>
-    <Max>450</Max>
+    <Max op="mul">0.75</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Corral</VisibleClasses>

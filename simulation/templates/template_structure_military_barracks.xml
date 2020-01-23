@@ -11,7 +11,6 @@
     <Max>15</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>

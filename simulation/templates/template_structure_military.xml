@@ -21,6 +21,9 @@
     <LoadingRange>2</LoadingRange>
     <Max>0</Max>
   </GarrisonHolder>
+  <Health>
+    <Max op="mul">2.0</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>

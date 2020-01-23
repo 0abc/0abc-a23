@@ -22,7 +22,7 @@
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
-    <Max>750</Max>
+    <Max op="mul">1.25</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">DropsiteFood</Classes>

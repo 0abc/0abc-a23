@@ -20,7 +20,7 @@
     <Max>40</Max>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max op="mul">4.0</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Naval Lighthouse</VisibleClasses>

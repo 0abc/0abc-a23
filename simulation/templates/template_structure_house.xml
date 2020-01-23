@@ -26,7 +26,7 @@
     <Max>2</Max>
   </GarrisonHolder>
   <Health>
-    <Max>200</Max>
+    <Max op="mul">0.2</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>

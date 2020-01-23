@@ -20,7 +20,7 @@
     <Square width="28" depth="28"/>
   </Footprint>
   <Health>
-    <Max>200</Max>
+    <Max op="mul">0.2</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
   </Health>
   <Identity>

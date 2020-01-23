@@ -661,8 +661,8 @@ function getEntityCostTooltip(template, entity, buildingsCountToTrainFullBatch, 
 		let wallCosts = getWallPieceTooltip([templateShort, templateMedium, templateLong]);
 		let towerCosts = getEntityCostComponentsTooltipString(templateTower);
 
-		return sprintf(translate("Walls:	%(costs)s"), { "costs": wallCosts.join(", ") }) + "\n" +
-					 sprintf(translate("Towers:	%(costs)s"), { "costs": towerCosts.join(", ") });
+		return sprintf(translate("Walls: %(costs)s"), { "costs": wallCosts.join(", ") }) + "\n" +
+					 sprintf(translate("Towers: %(costs)s"), { "costs": towerCosts.join(", ") });
 	}
 
 	if (template.cost)

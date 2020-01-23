@@ -36,7 +36,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>2500</Max>
+    <Max op="mul">2.5</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CivCentre CivilCentre</Classes>

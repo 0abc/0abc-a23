@@ -29,7 +29,7 @@
     <Max>2</Max>
   </GarrisonHolder>
   <Health>
-    <Max>750</Max>
+    <Max op="mul">0.75</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">GarrisonTower SmallTower</Classes>

@@ -22,6 +22,9 @@
     <LoadingRange>2</LoadingRange>
     <Max>0</Max>
   </GarrisonHolder>
+  <Health>
+    <Max op="mul">0.6</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Economic</VisibleClasses>
     <GenericName>Economic Structure</GenericName>

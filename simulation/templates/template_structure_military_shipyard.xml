@@ -13,7 +13,7 @@
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1800</Max>
+    <Max op="mul">0.9</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>

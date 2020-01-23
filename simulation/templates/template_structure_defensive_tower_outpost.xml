@@ -31,7 +31,7 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max>480</Max>
+    <Max op="mul">0.48</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Outpost</Classes>

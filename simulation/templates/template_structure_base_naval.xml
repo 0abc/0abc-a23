@@ -22,7 +22,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>5000</Max>
+    <Max op="mul">5.0</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Naval NavalBase</VisibleClasses>

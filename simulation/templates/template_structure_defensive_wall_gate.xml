@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_wall">
   <Auras disable=""/>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime op="mul">2.5</BuildTime>
     <Resources>
       <metal>40</metal>
       <stone>80</stone>
@@ -14,7 +14,7 @@
     <PassRange>18</PassRange>
   </Gate>
   <Health>
-    <Max>2250</Max>
+    <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
