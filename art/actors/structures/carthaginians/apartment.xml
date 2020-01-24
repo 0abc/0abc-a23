@@ -6,8 +6,6 @@
       <mesh>structural/kart_apt_1.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/ao/kart_apt_1_AO.png" name="aoTex"/>
@@ -17,8 +15,6 @@
       <mesh>structural/kart_apt_2.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/ao/kart_apt_2_AO.png" name="aoTex"/>
@@ -28,8 +24,6 @@
       <mesh>structural/kart_apt_3.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/ao/kart_apt_3_AO.png" name="aoTex"/>
