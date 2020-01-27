@@ -25,6 +25,7 @@
     <Classes datatype="tokens">DropsiteWood DropsiteStone</Classes>
     <VisibleClasses datatype="tokens">Storehouse</VisibleClasses>
     <GenericName>Storehouse</GenericName>
+    <SelectionGroupName>template_structure_economic_storehouse</SelectionGroupName>
     <Icon>structures/storehouse.png</Icon>
     <Tooltip>Dropsite for wood and stone.</Tooltip>
   </Identity>

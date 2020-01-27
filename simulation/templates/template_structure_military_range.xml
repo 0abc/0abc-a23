@@ -17,6 +17,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Range</VisibleClasses>
     <GenericName>Practice Range</GenericName>
+    <SelectionGroupName>template_structure_military_range</SelectionGroupName>
     <Icon>structures/range.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train ranged infantry. Research training improvements.</Tooltip>

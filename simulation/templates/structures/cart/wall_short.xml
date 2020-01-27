@@ -22,7 +22,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>cart</Civ>
-    <SelectionGroupName>structures/cart/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="7"/>

@@ -25,6 +25,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Naval Lighthouse</VisibleClasses>
     <GenericName>Lighthouse</GenericName>
+    <SelectionGroupName>template_structure_civic_lighthouse</SelectionGroupName>
     <Icon>structures/lighthouse.png</Icon>
     <Tooltip>Very large vision range.</Tooltip>
   </Identity>

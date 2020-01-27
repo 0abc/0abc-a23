@@ -27,6 +27,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Naval NavalBase</VisibleClasses>
     <GenericName>Naval Base</GenericName>
+    <SelectionGroupName>template_structure_base_naval</SelectionGroupName>
     <Icon>structures/crannog.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Territory root. Construct and repair warships.</Tooltip>

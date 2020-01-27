@@ -20,7 +20,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>sele</Civ>
-    <SelectionGroupName>structures/sele/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="11" depth="5"/>

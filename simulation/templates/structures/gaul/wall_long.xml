@@ -46,7 +46,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>gaul</Civ>
-    <SelectionGroupName>structures/gaul/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="36" depth="6"/>

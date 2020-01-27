@@ -29,6 +29,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">RotaryMill</VisibleClasses>
     <GenericName>Rotary Mill</GenericName>
+    <SelectionGroupName>template_structure_economic_rotarymill</SelectionGroupName>
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

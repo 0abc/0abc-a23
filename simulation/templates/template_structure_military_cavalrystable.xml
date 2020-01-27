@@ -17,6 +17,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Stable</VisibleClasses>
     <GenericName>Stable</GenericName>
+    <SelectionGroupName>template_structure_military_cavalry_stable</SelectionGroupName>
     <Icon>technologies/horseshoe_metal.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train cavalry. Research cavalry technologies.</Tooltip>

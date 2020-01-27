@@ -49,9 +49,6 @@
     <Max op="mul">36</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
-  <Identity>
-    <SelectionGroupName>structures/wallset_wood</SelectionGroupName>
-  </Identity>
   <Obstruction>
     <Static width="36" depth="3"/>
   </Obstruction>

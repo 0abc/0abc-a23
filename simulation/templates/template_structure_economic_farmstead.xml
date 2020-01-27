@@ -28,6 +28,7 @@
     <Classes datatype="tokens">DropsiteFood</Classes>
     <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
     <GenericName>Farmstead</GenericName>
+    <SelectionGroupName>template_structure_economic_farmstead</SelectionGroupName>
     <Icon>structures/farmstead.png</Icon>
     <Tooltip>Dropsite for food.</Tooltip>
   </Identity>

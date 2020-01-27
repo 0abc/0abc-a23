@@ -32,7 +32,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>sele</Civ>
-    <SelectionGroupName>structures/sele/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="21" depth="5"/>

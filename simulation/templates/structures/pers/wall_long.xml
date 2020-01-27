@@ -46,7 +46,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>structures/pers/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="36" depth="6"/>

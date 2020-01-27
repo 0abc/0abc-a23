@@ -27,6 +27,7 @@
     <Classes datatype="tokens">Market NavalMarket</Classes>
     <VisibleClasses datatype="tokens">Naval Dock</VisibleClasses>
     <GenericName>Dock</GenericName>
+    <SelectionGroupName>template_structure_economic_dock</SelectionGroupName>
     <Icon>structures/dock.png</Icon>
     <Tooltip>Dropsite for food, wood, stone. Construct fishing boats and merchant ships. Establish trade routes.</Tooltip>
   </Identity>

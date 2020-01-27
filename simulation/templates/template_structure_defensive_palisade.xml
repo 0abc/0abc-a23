@@ -19,9 +19,9 @@
   <Identity>
     <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
     <GenericName>Palisade</GenericName>
+    <SelectionGroupName>template_structure_defensive_palisade</SelectionGroupName>
     <Icon>gaia/special_palisade.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SelectionGroupName>structures/palisade_wallset</SelectionGroupName>
   </Identity>
   <RallyPoint disable=""/>
   <Repairable>

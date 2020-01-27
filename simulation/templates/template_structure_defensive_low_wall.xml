@@ -24,6 +24,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">LowWall</VisibleClasses>
     <GenericName>LowWall</GenericName>
+    <SelectionGroupName>template_structure_defensive_low_wall</SelectionGroupName>
     <Icon>structures/wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

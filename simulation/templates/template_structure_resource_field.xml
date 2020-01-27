@@ -27,6 +27,7 @@
     <Classes datatype="tokens">Resource</Classes>
     <VisibleClasses datatype="tokens">Field</VisibleClasses>
     <GenericName>Field</GenericName>
+    <SelectionGroupName>template_structure_resource_field</SelectionGroupName>
     <Icon>structures/field.png</Icon>
     <Tooltip>Harvest grain for food.</Tooltip>
   </Identity>

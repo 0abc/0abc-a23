@@ -12,6 +12,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Hall</VisibleClasses>
     <GenericName>Hall</GenericName>
+    <SelectionGroupName>template_structure_military_hall</SelectionGroupName>
     <Icon>structures/italian_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train infantry mercenaries.</Tooltip>

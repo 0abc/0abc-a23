@@ -34,6 +34,7 @@
   <Identity>
     <Classes datatype="tokens">GarrisonTower SmallTower</Classes>
     <GenericName>Small Tower</GenericName>
+    <SelectionGroupName>template_structure_defensive_tower_small</SelectionGroupName>
     <Icon>structures/sentry_tower.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>

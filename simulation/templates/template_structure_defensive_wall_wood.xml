@@ -21,6 +21,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">-StoneWall WoodenWall</VisibleClasses>
     <GenericName>Wooden Wall</GenericName>
+    <SelectionGroupName>template_structure_defensive_wall_wood</SelectionGroupName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

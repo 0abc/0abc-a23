@@ -46,7 +46,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>structures/ptol/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="39" depth="7"/>

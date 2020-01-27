@@ -22,7 +22,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>iber</Civ>
-    <SelectionGroupName>structures/iber/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="7"/>

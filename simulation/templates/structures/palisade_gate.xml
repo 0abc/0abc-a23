@@ -20,7 +20,6 @@
   <Identity>
     <GenericName>Gate</GenericName>
     <Icon>structures/wooden_gate.png</Icon>
-    <SelectionGroupName>structures/palisade_gate</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Obstructions>

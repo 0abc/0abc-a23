@@ -16,6 +16,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
     <GenericName>Barracks</GenericName>
+    <SelectionGroupName>template_structure_military_barracks</SelectionGroupName>
     <Icon>structures/pers_barracks.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Train infantry champions. Research infantry technologies.</Tooltip>

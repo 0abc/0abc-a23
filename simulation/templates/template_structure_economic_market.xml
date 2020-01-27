@@ -31,8 +31,9 @@
     <Classes datatype="tokens">BarterMarket LandMarket</Classes>
     <VisibleClasses datatype="tokens">Market</VisibleClasses>
     <GenericName>Market</GenericName>
+    <SelectionGroupName>template_structure_economic_market</SelectionGroupName>
     <Icon>structures/market.png</Icon>
-    <Tooltip>Barter resources. Train slaves and traders. Research traid gain technologies. Establish trade routes.</Tooltip>
+    <Tooltip>Barter resources. Train slaves and traders. Research trade gain technologies. Establish trade routes.</Tooltip>
   </Identity>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>

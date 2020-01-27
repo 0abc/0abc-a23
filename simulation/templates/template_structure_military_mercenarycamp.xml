@@ -26,6 +26,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
     <GenericName>Mercenary Camp</GenericName>
+    <SelectionGroupName>template_structure_military_mercenarycamp</SelectionGroupName>
     <Icon>structures/mercenary_camp.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

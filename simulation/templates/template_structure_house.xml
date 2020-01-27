@@ -32,6 +32,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">House</VisibleClasses>
     <GenericName>House</GenericName>
+    <SelectionGroupName>template_structure_house</SelectionGroupName>
     <Icon>structures/house.png</Icon>
   </Identity>
   <ProductionQueue disable=""/>

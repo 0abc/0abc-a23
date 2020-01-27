@@ -46,7 +46,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>athen</Civ>
-    <SelectionGroupName>structures/athen/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="36" depth="5"/>

@@ -22,7 +22,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>kush</Civ>
-    <SelectionGroupName>structures/kush/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="5"/>

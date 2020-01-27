@@ -24,6 +24,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">StoneWall</VisibleClasses>
     <GenericName>City Wall</GenericName>
+    <SelectionGroupName>template_structure_defensive_wall</SelectionGroupName>
     <Icon>structures/wall.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

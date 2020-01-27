@@ -17,6 +17,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">ElephantStable</VisibleClasses>
     <GenericName>Elephant Stable</GenericName>
+    <SelectionGroupName>template_structure_military_elephantstable</SelectionGroupName>
     <Icon>structures/elephant_stables.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Train elephantry. Research elephant technologies.</Tooltip>

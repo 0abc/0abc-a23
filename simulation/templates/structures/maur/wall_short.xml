@@ -22,7 +22,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>structures/maur/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="4"/>

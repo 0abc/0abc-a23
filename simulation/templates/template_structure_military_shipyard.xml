@@ -20,6 +20,7 @@
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Naval Shipyard</VisibleClasses>
     <GenericName>Shipyard</GenericName>
+    <SelectionGroupName>template_structure_military_shipyard</SelectionGroupName>
     <Icon>structures/uber_dock.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct warships. Research naval improvements.</Tooltip>

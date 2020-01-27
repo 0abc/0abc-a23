@@ -24,6 +24,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Pillar</VisibleClasses>
     <GenericName>Monumental Pillar</GenericName>
+    <SelectionGroupName>template_structure_civic_pillar</SelectionGroupName>
     <Icon>structures/tholos.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

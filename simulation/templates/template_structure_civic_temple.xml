@@ -22,6 +22,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Temple</VisibleClasses>
     <GenericName>Temple</GenericName>
+    <SelectionGroupName>template_structure_civic_temple</SelectionGroupName>
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train healers. Garrison units to heal them at a quick rate. Research healing technologies.</Tooltip>

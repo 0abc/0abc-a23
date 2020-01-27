@@ -37,6 +37,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
     <GenericName>Palace</GenericName>
+    <SelectionGroupName>template_structure_base_palace</SelectionGroupName>
     <Icon>technologies/laurel_wreath.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

@@ -18,6 +18,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Arsenal</VisibleClasses>
     <GenericName>Arsenal</GenericName>
+    <SelectionGroupName>template_structure_military_arsenal</SelectionGroupName>
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Construct siege engines and chariots.</Tooltip>

@@ -22,7 +22,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>rome</Civ>
-    <SelectionGroupName>structures/rome/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="8"/>

@@ -42,6 +42,7 @@
     <Classes datatype="tokens">CivCentre CivilCentre</Classes>
     <VisibleClasses datatype="tokens">Centre</VisibleClasses>
     <GenericName>Centre</GenericName>
+    <SelectionGroupName>template_structure_base_centre</SelectionGroupName>
     <Icon>structures/civic_centre.png</Icon>
     <Tooltip>Territory root. Build to acquire large tracts of territory. Dropsite for food, wood, stone. Train infantry citizen-soldiers.</Tooltip>
   </Identity>

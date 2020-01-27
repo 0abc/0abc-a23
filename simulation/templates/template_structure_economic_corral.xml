@@ -19,6 +19,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Corral</VisibleClasses>
     <GenericName>Corral</GenericName>
+    <SelectionGroupName>template_structure_economic_corral</SelectionGroupName>
     <Icon>structures/corral.png</Icon>
     <Tooltip>Garrison domestic animals.</Tooltip>
   </Identity>

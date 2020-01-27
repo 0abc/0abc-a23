@@ -63,6 +63,7 @@
     <Classes datatype="tokens">GarrisonFortress</Classes>
     <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
     <GenericName>Fortress</GenericName>
+    <SelectionGroupName>template_structure_defensive_fortress</SelectionGroupName>
     <Icon>structures/fortress.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Territory root. Garrison units to fire additional arrows.</Tooltip>

@@ -26,6 +26,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
     <GenericName>Library</GenericName>
+    <SelectionGroupName>template_structure_civic_library</SelectionGroupName>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <ResourceTrickle>

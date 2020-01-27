@@ -31,6 +31,7 @@
     <Classes datatype="tokens">DropsiteMetal</Classes>
     <VisibleClasses datatype="tokens">Forge</VisibleClasses>
     <GenericName>Forge</GenericName>
+    <SelectionGroupName>template_structure_economic_forge</SelectionGroupName>
     <Icon>structures/blacksmith.png</Icon>
     <Tooltip>Dropsite for iron. Research economic technologies.</Tooltip>
   </Identity>

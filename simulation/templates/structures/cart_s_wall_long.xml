@@ -16,7 +16,6 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SelectionGroupName>structures/cart_wallset_short</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="15" depth="2"/>

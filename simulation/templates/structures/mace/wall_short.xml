@@ -22,7 +22,6 @@
   </GarrisonHolder>
   <Identity>
     <Civ>mace</Civ>
-    <SelectionGroupName>structures/mace/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="5"/>
