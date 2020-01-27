@@ -2,22 +2,32 @@
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
     <Square width="22" depth="6"/>
-    <Height>12.5</Height>
+    <Height>11.4</Height>
   </Footprint>
   <GarrisonHolder>
+    <Max>7</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>2</X><Y>11.5</Y><Z>0</Z>
+        <X>0</X><Y>10.4</Y><Z>0</Z>
       </First>
       <Second>
-        <X>-2</X><Y>11.5</Y><Z>0</Z>
+        <X>3</X><Y>10.4</Y><Z>0</Z>
       </Second>
       <Third>
-        <X>6</X><Y>11.5</Y><Z>0</Z>
+        <X>-3</X><Y>10.4</Y><Z>0</Z>
       </Third>
       <Fourth>
-        <X>-6</X><Y>11.5</Y><Z>0</Z>
+        <X>6</X><Y>10.4</Y><Z>0</Z>
       </Fourth>
+      <Fifth>
+        <X>-6</X><Y>10.4</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>9</X><Y>10.4</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>-9</X><Y>10.4</Y><Z>0</Z>
+      </Seventh>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Identity>
@@ -25,8 +35,11 @@
     <SelectionGroupName>structures/sele/wallset</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="21" depth=""/>
+    <Static width="21" depth="5"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.4</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/seleucids/wall_med.xml</Actor>
   </VisualActor>

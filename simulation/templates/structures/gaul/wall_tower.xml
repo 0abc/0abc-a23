@@ -2,14 +2,33 @@
 <Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
     <Square width="10" depth="10"/>
-    <Height>20.0</Height>
+    <Height>14.5</Height>
   </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>13.5</Y><Z>1.5</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>13.5</Y><Z>1.5</Z>
+      </Second>
+      <Third>
+        <X>1.5</X><Y>13.5</Y><Z>-1.5</Z>
+      </Third>
+      <Fourth>
+        <X>-1.5</X><Y>13.5</Y><Z>-1.5</Z>
+      </Fourth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>gaul</Civ>
   </Identity>
   <Obstruction>
     <Static width="9" depth="9"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.5</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/celts/wall_tower.xml</Actor>
   </VisualActor>

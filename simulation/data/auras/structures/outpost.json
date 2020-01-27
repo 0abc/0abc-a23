@@ -1,9 +1,9 @@
 {
 	"affects": [
-		"Soldier"
+		"Unit"
 	],
-	"auraName": "Outpost",
-	"auraDescription": "Soldiers on Outposts have +2 armour, +10% ranged attack damage, and +20 vision range.",
+	"auraName": "Outpost Platform",
+	"auraDescription": "Units on outposts +2 armour, +20 vision.",
 	"modifications": [
 		{
 			"value": "Armour/Crush",
@@ -20,22 +20,6 @@
 		{
 			"value": "Armour/Thrust",
 			"add": 2
-		},
-		{
-			"value": "Attack/Ranged/Crush",
-			"multiply": 1.1
-		},
-		{
-			"value": "Attack/Ranged/Hack",
-			"multiply": 1.1
-		},
-		{
-			"value": "Attack/Ranged/Pierce",
-			"multiply": 1.1
-		},
-		{
-			"value": "Attack/Ranged/Thrust",
-			"multiply": 1.1
 		},
 		{
 			"value": "Vision/Range",

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall">
+  <Auras datatype="tokens">
+    structures/wall_03
+  </Auras>
   <Cost>
-    <BuildTime op="mul">2.0</BuildTime>
+    <BuildTime op="mul">12</BuildTime>
     <Resources>
-      <stone op="mul">2.0</stone>
-      <wood op="mul">2.0</wood>
+      <stone op="mul">12</stone>
+      <wood op="mul">12</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>2</Max>
+    <Max>4</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">2.0</Max>
+    <Max op="mul">12</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_short</SpawnEntityOnDeath>
   </Health>
   <VisualActor>

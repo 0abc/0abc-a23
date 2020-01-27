@@ -2,14 +2,33 @@
 <Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
     <Square width="8" depth="8"/>
-    <Height>20.0</Height>
+    <Height>20</Height>
   </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>13</Y><Z>1.5</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>13</Y><Z>1.5</Z>
+      </Second>
+      <Third>
+        <X>1.5</X><Y>13</Y><Z>-1.5</Z>
+      </Third>
+      <Fourth>
+        <X>-1.5</X><Y>13</Y><Z>-1.5</Z>
+      </Fourth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>sele</Civ>
   </Identity>
   <Obstruction>
     <Static width="7" depth="7"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>21</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/seleucids/wall_tower.xml</Actor>
   </VisualActor>

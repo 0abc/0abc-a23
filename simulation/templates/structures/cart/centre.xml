@@ -23,7 +23,6 @@
       <Entity>structures/{civ}/centre_fortified</Entity>
       <RequiredTechnology>phase_city_cart</RequiredTechnology>
       <Time>180</Time>
-      <Tooltip>Expand to accomodate more units.</Tooltip>
     </FortifiedCentre>
   </Upgrade>
   <VisualActor>

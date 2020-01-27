@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_04
+  </Auras>
   <Footprint>
     <Square width="37" depth="7"/>
-    <Height>11.6</Height>
+    <Height>13.8</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>12.8</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>12.8</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>4.5</X><Y>12.8</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>-4.5</X><Y>12.8</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>7.5</X><Y>12.8</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-7.5</X><Y>12.8</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>13.5</X><Y>11</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>-13.5</X><Y>11</Y><Z>0</Z>
+      </Eighth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>pers</Civ>
   </Identity>
@@ -14,6 +46,9 @@
       <Right width="11" depth="7" x="13" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.8</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/persians/wall_gate.xml</Actor>
   </VisualActor>

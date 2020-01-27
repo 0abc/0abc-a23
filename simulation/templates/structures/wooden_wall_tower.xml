@@ -1,28 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_wood">
+  <Auras datatype="tokens">
+    structures/wall_03
+  </Auras>
   <Cost>
-    <BuildTime op="mul">4.0</BuildTime>
+    <BuildTime op="mul">42</BuildTime>
     <Resources>
-      <wood op="mul">4.0</wood>
+      <wood op="mul">42</wood>
     </Resources>
   </Cost>
   <Footprint>
     <Square width="8" depth="8"/>
-    <Height>20</Height>
+    <Height>12.5</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>2</Max>
+    <Max>8</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>0</X><Y>7.5</Y><Z>0</Z>
+        <X>1.5</X><Y>11.5</Y><Z>1.5</Z>
       </First>
       <Second>
-        <X>0</X><Y>11.5</Y><Z>0</Z>
+        <X>-1.5</X><Y>11.5</Y><Z>1.5</Z>
       </Second>
+      <Third>
+        <X>1.5</X><Y>11.5</Y><Z>-1.5</Z>
+      </Third>
+      <Fourth>
+        <X>-1.5</X><Y>11.5</Y><Z>-1.5</Z>
+      </Fourth>
+      <Fifth>
+        <X>1.5</X><Y>7.5</Y><Z>1.5</Z>
+      </Fifth>
+      <Sixth>
+        <X>-1.5</X><Y>7.5</Y><Z>1.5</Z>
+      </Sixth>
+      <Seventh>
+        <X>1.5</X><Y>7.5</Y><Z>-1.5</Z>
+      </Seventh>
+      <Eighth>
+        <X>-1.5</X><Y>7.5</Y><Z>-1.5</Z>
+      </Eighth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">5.0</Max>
+    <Max op="mul">42</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -31,6 +52,9 @@
   <Obstruction>
     <Static width="6" depth="6"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/romans/siege_wall_tower.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>

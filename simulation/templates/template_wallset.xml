@@ -10,7 +10,7 @@
     <GenericName>City Wall</GenericName>
     <Icon>structures/wall.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Wall off an area for a stout defence.</Tooltip>
+    <Tooltip>Wall off an area.</Tooltip>
     <Undeletable>true</Undeletable>
   </Identity>
   <Visibility>

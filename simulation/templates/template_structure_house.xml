@@ -34,6 +34,7 @@
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
   </Identity>
+  <ProductionQueue disable=""/>
   <ResourceTrickle>
     <Rates>
       <wood>-0.01</wood>

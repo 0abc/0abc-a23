@@ -1,0 +1,30 @@
+{
+	"affects": [
+		"Unit"
+	],
+	"auraName": "Wall Protection",
+	"auraDescription": "Units on walls +6 armour, +30 vision.",
+	"modifications": [
+		{
+			"value": "Armour/Crush",
+			"add": 6
+		},
+		{
+			"value": "Armour/Hack",
+			"add": 6
+		},
+		{
+			"value": "Armour/Pierce",
+			"add": 6
+		},
+		{
+			"value": "Armour/Thrust",
+			"add": 6
+		},
+		{
+			"value": "Vision/Range",
+			"add": 30
+		}
+	],
+	"type": "garrisonedUnits"
+}

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
     <Square width="37" depth="9"/>
-    <Height>13.5</Height>
+    <Height>13</Height>
   </Footprint>
   <Identity>
     <Civ>skirm</Civ>

@@ -2,7 +2,7 @@ PALISADES
 
 • Available to all factions; enabled in village phase.
 
-• Can be built in own, allied, neutral, and enemy territory.
+• Can be built in own, neutral, enemy, and allied territory.
 
 • Cheap and quick to build, but also weak.
 

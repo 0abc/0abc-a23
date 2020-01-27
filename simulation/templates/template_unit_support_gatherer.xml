@@ -83,6 +83,6 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <HeightOffset>4.0</HeightOffset>
+    <HeightOffset>4</HeightOffset>
   </StatusBars>
 </Entity>

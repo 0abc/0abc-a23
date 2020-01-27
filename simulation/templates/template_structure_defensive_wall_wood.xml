@@ -9,7 +9,7 @@
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime op="mul">0.75</BuildTime>
+    <BuildTime op="mul">0.5</BuildTime>
     <Resources>
       <stone>0</stone>
       <wood op="mul">3.0</wood>
@@ -23,7 +23,6 @@
     <GenericName>Wooden Wall</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>A wooden and turf palisade buildable in own, neutral, and enemy territories.</Tooltip>
   </Identity>
   <Repairable>
     <RepairTimeRatio>5</RepairTimeRatio>

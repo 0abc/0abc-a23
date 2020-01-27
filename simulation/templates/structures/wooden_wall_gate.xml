@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_wood">
-  <Auras disable=""/>
+  <Auras datatype="tokens">
+    structures/wall_03
+  </Auras>
   <Cost>
-    <BuildTime op="mul">2.5</BuildTime>
+    <BuildTime op="mul">30</BuildTime>
     <Resources>
       <metal>30</metal>
       <wood>120</wood>
@@ -10,14 +12,72 @@
   </Cost>
   <Footprint>
     <Square width="37" depth="7"/>
-    <Height>6.7</Height>
+    <Height>12.5</Height>
   </Footprint>
-  <GarrisonHolder disable=""/>
+  <GarrisonHolder>
+    <Max>18</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>8</X><Y>11.5</Y><Z>1.5</Z>
+      </First>
+      <Second>
+        <X>-8</X><Y>11.5</Y><Z>1.5</Z>
+      </Second>
+      <Third>
+        <X>8</X><Y>11.5</Y><Z>-1.5</Z>
+      </Third>
+      <Fourth>
+        <X>-8</X><Y>11.5</Y><Z>-1.5</Z>
+      </Fourth>
+      <Fifth>
+        <X>11</X><Y>11.5</Y><Z>1.5</Z>
+      </Fifth>
+      <Sixth>
+        <X>-11</X><Y>11.5</Y><Z>1.5</Z>
+      </Sixth>
+      <Seventh>
+        <X>11</X><Y>11.5</Y><Z>-1.5</Z>
+      </Seventh>
+      <Eighth>
+        <X>-11</X><Y>11.5</Y><Z>-1.5</Z>
+      </Eighth>
+      <Ninth>
+        <X>8</X><Y>7.5</Y><Z>1.5</Z>
+      </Ninth>
+      <Tenth>
+        <X>-8</X><Y>7.5</Y><Z>1.5</Z>
+      </Tenth>
+      <Eleventh>
+        <X>8</X><Y>7.5</Y><Z>-1.5</Z>
+      </Eleventh>
+      <Twelfth>
+        <X>-8</X><Y>7.5</Y><Z>-1.5</Z>
+      </Twelfth>
+      <Thirteenth>
+        <X>11</X><Y>7.5</Y><Z>1.5</Z>
+      </Thirteenth>
+      <Fourteenth>
+        <X>-11</X><Y>7.5</Y><Z>1.5</Z>
+      </Fourteenth>
+      <Fifteenth>
+        <X>11</X><Y>7.5</Y><Z>-1.5</Z>
+      </Fifteenth>
+      <Sixteenth>
+        <X>-11</X><Y>7.5</Y><Z>-1.5</Z>
+      </Sixteenth>
+      <Seventeenth>
+        <X>15</X><Y>5.7</Y><Z>0</Z>
+      </Seventeenth>
+      <Eighteenth>
+        <X>-15</X><Y>5.7</Y><Z>0</Z>
+      </Eighteenth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Gate>
-    <PassRange>15</PassRange>
+    <PassRange>12</PassRange>
   </Gate>
   <Health>
-    <Max op="mul">2.5</Max>
+    <Max op="mul">30</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -37,6 +97,9 @@
       <food>-0.04</food>
     </Rates>
   </ResourceTrickle>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
   <Vision>
     <Range>20</Range>
   </Vision>

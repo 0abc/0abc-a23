@@ -7,11 +7,17 @@
   <GarrisonHolder>
     <VisibleGarrisonPoints>
       <First>
-        <X>2</X><Y>8.9</Y><Z>0</Z>
+        <X>1.5</X><Y>8.9</Y><Z>0</Z>
       </First>
       <Second>
-        <X>-2</X><Y>8.9</Y><Z>0</Z>
+        <X>-1.5</X><Y>8.9</Y><Z>0</Z>
       </Second>
+      <Third>
+        <X>4.5</X><Y>8.9</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>-4.5</X><Y>8.9</Y><Z>0</Z>
+      </Fourth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Identity>
@@ -21,6 +27,9 @@
   <Obstruction>
     <Static width="12" depth="8"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>10.9</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/romans/wall_short.xml</Actor>
   </VisualActor>

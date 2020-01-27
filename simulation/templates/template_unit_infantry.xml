@@ -136,7 +136,7 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <HeightOffset>5.0</HeightOffset>
+    <HeightOffset>5</HeightOffset>
   </StatusBars>
   <UnitMotion>
     <Run>

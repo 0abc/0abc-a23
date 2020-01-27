@@ -2,28 +2,44 @@
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
     <Square width="35" depth="6"/>
-    <Height>12.5</Height>
+    <Height>11.4</Height>
   </Footprint>
   <GarrisonHolder>
+    <Max>11</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>2</X><Y>11.5</Y><Z>0</Z>
+        <X>0</X><Y>10.4</Y><Z>0</Z>
       </First>
       <Second>
-        <X>-2</X><Y>11.5</Y><Z>0</Z>
+        <X>3</X><Y>10.4</Y><Z>0</Z>
       </Second>
       <Third>
-        <X>6</X><Y>11.5</Y><Z>0</Z>
+        <X>-3</X><Y>10.4</Y><Z>0</Z>
       </Third>
       <Fourth>
-        <X>-6</X><Y>11.5</Y><Z>0</Z>
+        <X>6</X><Y>10.4</Y><Z>0</Z>
       </Fourth>
       <Fifth>
-        <X>10</X><Y>11.5</Y><Z>0</Z>
+        <X>-6</X><Y>10.4</Y><Z>0</Z>
       </Fifth>
       <Sixth>
-        <X>-10</X><Y>11.5</Y><Z>0</Z>
+        <X>9</X><Y>10.4</Y><Z>0</Z>
       </Sixth>
+      <Seventh>
+        <X>-9</X><Y>10.4</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>12</X><Y>10.4</Y><Z>0</Z>
+      </Eighth>
+      <Ninth>
+        <X>-12</X><Y>10.4</Y><Z>0</Z>
+      </Ninth>
+      <Tenth>
+        <X>15</X><Y>10.4</Y><Z>0</Z>
+      </Tenth>
+      <Eleventh>
+        <X>-15</X><Y>10.4</Y><Z>0</Z>
+      </Eleventh>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Identity>
@@ -33,6 +49,9 @@
   <Obstruction>
     <Static width="34" depth="5"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.4</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/seleucids/wall_long.xml</Actor>
   </VisualActor>

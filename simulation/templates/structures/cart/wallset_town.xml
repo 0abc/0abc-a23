@@ -6,8 +6,8 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <WallSet>
-    <MaxTowerOverlap>0.9</MaxTowerOverlap>
-    <MinTowerOverlap>0.1</MinTowerOverlap>
+    <MaxTowerOverlap>0.85</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
       <Gate>structures/cart_s_wall_gate</Gate>
       <Tower>structures/cart_s_wall_tower</Tower>

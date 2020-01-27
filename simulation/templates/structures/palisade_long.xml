@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_palisade">
   <Cost>
-    <BuildTime op="mul">6.0</BuildTime>
+    <BuildTime op="mul">15</BuildTime>
     <Resources>
-      <wood op="mul">6.0</wood>
+      <wood op="mul">15</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Height>9</Height>
+    <Height>6</Height>
     <Square width="15" depth="3"/>
   </Footprint>
   <Health>
-    <Max op="mul">6.0</Max>
+    <Max op="mul">15</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="15" depth="2"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>7</HeightOffset>
+  </StatusBars>
   <Upgrade>
     <Gate>
       <Entity>structures/palisade_gate</Entity>

@@ -6,9 +6,10 @@
     <GenericName>Wooden Wall</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Wall off an area. Buildable in own, neutral, and enemy territories.</Tooltip>
   </Identity>
   <WallSet>
-    <MaxTowerOverlap>1.00</MaxTowerOverlap>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
       <Fort>structures/siege_fort</Fort>

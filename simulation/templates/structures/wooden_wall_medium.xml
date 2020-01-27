@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_wood">
+  <Auras datatype="tokens">
+    structures/wall_02
+  </Auras>
   <Cost>
-    <BuildTime op="mul">2.0</BuildTime>
+    <BuildTime op="mul">24</BuildTime>
     <Resources>
-      <wood op="mul">2.0</wood>
+      <wood op="mul">24</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -11,7 +14,7 @@
     <Height>6.7</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>4</Max>
+    <Max>6</Max>
     <VisibleGarrisonPoints>
       <First>
         <X>2</X><Y>5.7</Y><Z>0</Z>
@@ -25,10 +28,16 @@
       <Fourth>
         <X>-6</X><Y>5.7</Y><Z>0</Z>
       </Fourth>
+      <Fifth>
+        <X>10</X><Y>5.7</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-10</X><Y>5.7</Y><Z>0</Z>
+      </Sixth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">3.0</Max>
+    <Max op="mul">24</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -37,6 +46,9 @@
   <Obstruction>
     <Static width="24" depth="3"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>8</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/romans/siege_wall_medium.xml</Actor>
     <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>

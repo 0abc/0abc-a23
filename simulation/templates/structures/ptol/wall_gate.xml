@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_05
+  </Auras>
   <Footprint>
     <Square width="39" depth="12"/>
-    <Height>20.0</Height>
+    <Height>17.8</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>16.8</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>16.8</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>4.5</X><Y>16.8</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>-4.5</X><Y>16.8</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>7.5</X><Y>16.8</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-7.5</X><Y>16.8</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>13</X><Y>18.2</Y><Z>2</Z>
+      </Seventh>
+      <Eighth>
+        <X>-13</X><Y>18.2</Y><Z>2</Z>
+      </Eighth>
+      <Ninth>
+        <X>13</X><Y>18.2</Y><Z>-2</Z>
+      </Ninth>
+      <Tenth>
+        <X>-13</X><Y>18.2</Y><Z>-2</Z>
+      </Tenth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>ptol</Civ>
   </Identity>
@@ -14,6 +52,9 @@
       <Right width="14.5" depth="12.5" x="13.5" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>18.8</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/ptolemies/wall_gate.xml</Actor>
   </VisualActor>

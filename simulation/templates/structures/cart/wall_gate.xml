@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_04
+  </Auras>
   <Footprint>
     <Square width="37" depth="9"/>
-    <Height>13.5</Height>
+    <Height>16.5</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>12</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>15.5</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>15.5</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>4.5</X><Y>15.5</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>-4.5</X><Y>15.5</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>7.5</X><Y>15.5</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-7.5</X><Y>15.5</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>10.5</X><Y>15.5</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>-10.5</X><Y>15.5</Y><Z>0</Z>
+      </Eighth>
+      <Ninth>
+        <X>13.5</X><Y>15.5</Y><Z>0</Z>
+      </Ninth>
+      <Tenth>
+        <X>-13.5</X><Y>15.5</Y><Z>0</Z>
+      </Tenth>
+      <Eleventh>
+        <X>16.5</X><Y>15.5</Y><Z>0</Z>
+      </Eleventh>
+      <Twelfth>
+        <X>-16.5</X><Y>15.5</Y><Z>0</Z>
+      </Twelfth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>cart</Civ>
   </Identity>
@@ -14,6 +58,9 @@
       <Right width="13" depth="10" x="15" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.5</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/carthaginians/wall_gate.xml</Actor>
   </VisualActor>

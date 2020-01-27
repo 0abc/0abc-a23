@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
+  <Auras datatype="tokens">
+    -structures/wall_04
+    structures/wall_05
+  </Auras>
   <Footprint>
     <Square width="12" depth="12"/>
-    <Height>20.0</Height>
+    <Height>20</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>0</X><Y>19</Y><Z>3</Z>
+      </First>
+      <Second>
+        <X>-3</X><Y>19</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>3</X><Y>19</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>0</X><Y>19</Y><Z>-3</Z>
+      </Fourth>
+      <Fifth>
+        <X>3</X><Y>19</Y><Z>3</Z>
+      </Fifth>
+      <Sixth>
+        <X>-3</X><Y>19</Y><Z>3</Z>
+      </Sixth>
+      <Seventh>
+        <X>3</X><Y>19</Y><Z>-3</Z>
+      </Seventh>
+      <Eighth>
+        <X>-3</X><Y>19</Y><Z>-3</Z>
+      </Eighth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>cart</Civ>
   </Identity>
@@ -14,6 +47,9 @@
     <Actor>structures/carthaginians/wall_tower.xml</Actor>
     <FoundationActor>structures/carthaginians/fndn_wall_tower.xml</FoundationActor>
   </VisualActor>
+  <StatusBars>
+    <HeightOffset>21</HeightOffset>
+  </StatusBars>
   <WallPiece>
     <Length>11</Length>
   </WallPiece>

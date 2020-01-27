@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_03
+  </Auras>
   <Footprint>
     <Square width="37" depth="8"/>
-    <Height>10.0</Height>
+    <Height>12.7</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>11.7</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>11.7</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>4.5</X><Y>11.7</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>-4.5</X><Y>11.7</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>7.5</X><Y>11.7</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-7.5</X><Y>11.7</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>14</X><Y>17</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>-14</X><Y>17</Y><Z>0</Z>
+      </Eighth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>iber</Civ>
   </Identity>
@@ -14,6 +46,9 @@
       <Right width="10" depth="8.5" x="13" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.7</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/iberians/wall_gate.xml</Actor>
   </VisualActor>

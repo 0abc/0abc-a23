@@ -6,10 +6,11 @@
     <GenericName>Palisade</GenericName>
     <Icon>structures/palisade_wall.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Wall off an area. Buildable in own, neutral, enemy, and allied territories.</Tooltip>
   </Identity>
   <WallSet>
-    <MaxTowerOverlap>0.8</MaxTowerOverlap>
-    <MinTowerOverlap>0.2</MinTowerOverlap>
+    <MaxTowerOverlap>0.85</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
       <Fort>structures/palisade_fort</Fort>
       <Gate>structures/palisade_gate</Gate>

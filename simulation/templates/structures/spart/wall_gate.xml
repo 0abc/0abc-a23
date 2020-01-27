@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_04
+  </Auras>
   <Footprint>
     <Square width="37" depth="8"/>
-    <Height>12.5</Height>
+    <Height>15.5</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>9</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>0</X><Y>14.5</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>3</X><Y>14.5</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>-3</X><Y>14.5</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>6</X><Y>14.5</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>-6</X><Y>14.5</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>9</X><Y>14.5</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>-9</X><Y>14.5</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>14</X><Y>11.5</Y><Z>0</Z>
+      </Eighth>
+      <Ninth>
+        <X>-14</X><Y>11.5</Y><Z>0</Z>
+      </Ninth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>spart</Civ>
   </Identity>
@@ -14,6 +49,9 @@
       <Right width="12" depth="6.5" x="12.5" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>16.5</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/hellenes/wall_gate.xml</Actor>
   </VisualActor>

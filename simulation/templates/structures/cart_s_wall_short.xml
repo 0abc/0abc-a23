@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/palisade_short">
+<Entity parent="template_structure_defensive_low_wall">
   <Cost>
-    <BuildTime op="mul">2.0</BuildTime>
+    <BuildTime op="mul">5</BuildTime>
     <Resources>
-      <stone op="mul">2.0</stone>
+      <stone op="mul">5</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -11,7 +11,7 @@
     <Square width="5" depth="3"/>
   </Footprint>
   <Health>
-    <Max op="mul">2.0</Max>
+    <Max op="mul">5</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -21,6 +21,9 @@
   <Obstruction>
     <Static width="5" depth="2"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>7</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/carthaginians/short_wall_short.xml</Actor>
     <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>

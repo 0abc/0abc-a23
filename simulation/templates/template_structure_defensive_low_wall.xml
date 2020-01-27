@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
-  <Attack disable=""/>
+  <Armour>
+    <Crush>9</Crush>
+    <Hack>25</Hack>
+    <Thrust>36</Thrust>
+  </Armour>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
-    <Territory>own</Territory>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
-    <BuildTime>5</BuildTime>
+    <BuildTime>1</BuildTime>
     <Resources>
-      <stone>5</stone>
+      <stone>1</stone>
     </Resources>
   </Cost>
   <GarrisonHolder disable=""/>
   <Health>
-    <Max op="mul">0.25</Max>
+    <Max op="mul">0.05</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">LowWall</VisibleClasses>
@@ -33,7 +37,4 @@
       <select>interface/select/building/sel_wall.xml</select>
     </SoundGroups>
   </Sound>
-  <StatusBars>
-    <HeightOffset>9.0</HeightOffset>
-  </StatusBars>
 </Entity>

@@ -34,7 +34,7 @@
     <GenericName>Army Camp</GenericName>
     <Icon>structures/roman_camp.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Can be built in neutral and enemy territory. Garrison units to fire additional arrows.</Tooltip>
+    <Tooltip>Can be built in own, neutral, and enemy territory. Garrison units to fire additional arrows.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="36" depth="36"/>

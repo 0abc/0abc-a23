@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_tower">
-  <Attack disable=""/>
+<Entity parent="template_structure_defensive">
   <Auras datatype="tokens">
     structures/outpost
   </Auras>
-  <BuildingAI disable=""/>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -19,7 +17,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>12</Height>
+    <Height>13</Height>
     <Square width="7" depth="7"/>
   </Footprint>
   <GarrisonHolder>
@@ -34,16 +32,19 @@
     <Max op="mul">0.48</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Outpost</Classes>
+    <VisibleClasses datatype="tokens">Outpost</VisibleClasses>
     <GenericName>Outpost</GenericName>
     <Icon>structures/outpost.png</Icon>
-    <Tooltip>Can be built in neutral territory.</Tooltip>
+    <Tooltip>Build in own or neutral territory.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="5" depth="5"/>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>15</HeightOffset>
+    <HeightOffset>14</HeightOffset>
   </StatusBars>
   <TerritoryDecay disable=""/>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
 </Entity>

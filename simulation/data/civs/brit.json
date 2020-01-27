@@ -75,10 +75,7 @@
 			"Count": 5
 		},
 		{
-			"Template": "units/brit/cavalry_javelineer"
-		},
-		{
-			"Template": "units/brit/war_dog"
+			"Template": "units/brit/biga_javelineer"
 		},
 		{
 			"Template": "gaia/fauna_pig",

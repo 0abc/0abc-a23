@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_03
+  </Auras>
   <Footprint>
     <Square width="37" depth="8"/>
     <Height>10.3</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>1.5</X><Y>11.3</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>-1.5</X><Y>11.3</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>4.5</X><Y>11.3</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>-4.5</X><Y>11.3</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>10.5</X><Y>10.3</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-10.5</X><Y>10.3</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>13.5</X><Y>10.3</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>-13.5</X><Y>10.3</Y><Z>0</Z>
+      </Eighth>
+      <Ninth>
+        <X>16.5</X><Y>10.3</Y><Z>0</Z>
+      </Ninth>
+      <Tenth>
+        <X>-16.5</X><Y>10.3</Y><Z>0</Z>
+      </Tenth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>brit</Civ>
   </Identity>
@@ -14,6 +52,9 @@
       <Right width="11" depth="8" x="13" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>20</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/britons/wall_gate.xml</Actor>
   </VisualActor>

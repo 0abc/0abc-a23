@@ -63,6 +63,9 @@
 			"Template": "units/iber/support_healer"
 		},
 		{
+			"Template": "structures/iber/pillar"
+		},
+		{
 			"Template": "units/iber/infantry_javelineer",
 			"Count": 5
 		},

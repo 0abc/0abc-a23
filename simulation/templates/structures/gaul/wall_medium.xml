@@ -7,17 +7,29 @@
   <GarrisonHolder>
     <VisibleGarrisonPoints>
       <First>
-        <X>2</X><Y>9.3</Y><Z>0</Z>
+        <X>1.5</X><Y>9.3</Y><Z>0</Z>
       </First>
       <Second>
-        <X>-2</X><Y>9.3</Y><Z>0</Z>
+        <X>-1.5</X><Y>9.3</Y><Z>0</Z>
       </Second>
       <Third>
-        <X>6</X><Y>9.3</Y><Z>0</Z>
+        <X>4.5</X><Y>9.3</Y><Z>0</Z>
       </Third>
       <Fourth>
-        <X>-6</X><Y>9.3</Y><Z>0</Z>
+        <X>-4.5</X><Y>9.3</Y><Z>0</Z>
       </Fourth>
+      <Fifth>
+        <X>7.5</X><Y>9.3</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>-7.5</X><Y>9.3</Y><Z>0</Z>
+      </Sixth>
+      <Seventh>
+        <X>10.5</X><Y>9.3</Y><Z>0</Z>
+      </Seventh>
+      <Eighth>
+        <X>-10.5</X><Y>9.3</Y><Z>0</Z>
+      </Eighth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Identity>
@@ -27,6 +39,9 @@
   <Obstruction>
     <Static width="24" depth="6"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>11.3</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/celts/wall_medium.xml</Actor>
   </VisualActor>

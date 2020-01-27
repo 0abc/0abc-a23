@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
-  <Attack disable=""/>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
@@ -8,14 +7,14 @@
   </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
-    <BuildTime>2.5</BuildTime>
+    <BuildTime>1</BuildTime>
     <Resources>
-      <wood>5</wood>
+      <wood>1</wood>
     </Resources>
   </Cost>
   <GarrisonHolder disable=""/>
   <Health>
-    <Max op="mul">0.15</Max>
+    <Max op="mul">0.05</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
@@ -34,7 +33,4 @@
       <select>interface/select/building/sel_wall.xml</select>
     </SoundGroups>
   </Sound>
-  <StatusBars>
-    <HeightOffset>9.0</HeightOffset>
-  </StatusBars>
 </Entity>

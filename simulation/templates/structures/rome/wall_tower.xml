@@ -2,14 +2,46 @@
 <Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
     <Square width="11" depth="11"/>
-    <Height>20.0</Height>
+    <Height>20</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>0</X><Y>15</Y><Z>3</Z>
+      </First>
+      <Second>
+        <X>-3</X><Y>15</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>3</X><Y>15</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>0</X><Y>15</Y><Z>-3</Z>
+      </Fourth>
+      <Fifth>
+        <X>3</X><Y>15</Y><Z>3</Z>
+      </Fifth>
+      <Sixth>
+        <X>-3</X><Y>15</Y><Z>3</Z>
+      </Sixth>
+      <Seventh>
+        <X>3</X><Y>15</Y><Z>-3</Z>
+      </Seventh>
+      <Eighth>
+        <X>-3</X><Y>15</Y><Z>-3</Z>
+      </Eighth>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>rome</Civ>
   </Identity>
   <Obstruction>
     <Static width="10" depth="10"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>21</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/romans/wall_tower.xml</Actor>
   </VisualActor>

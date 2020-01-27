@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Auras datatype="tokens">
+    structures/wall_03
+  </Auras>
   <Footprint>
     <Square width="35" depth="8"/>
-    <Height>12.5</Height>
+    <Height>11.6</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>11</Max>
+    <VisibleGarrisonPoints>
+      <First>
+        <X>0</X><Y>10.6</Y><Z>0</Z>
+      </First>
+      <Second>
+        <X>3</X><Y>10.6</Y><Z>0</Z>
+      </Second>
+      <Third>
+        <X>-3</X><Y>10.6</Y><Z>0</Z>
+      </Third>
+      <Fourth>
+        <X>6</X><Y>10.6</Y><Z>0</Z>
+      </Fourth>
+      <Fifth>
+        <X>-6</X><Y>10.6</Y><Z>0</Z>
+      </Fifth>
+      <Sixth>
+        <X>9</X><Y>10.6</Y><Z>1.5</Z>
+      </Sixth>
+      <Seventh>
+        <X>-9</X><Y>10.6</Y><Z>1.5</Z>
+      </Seventh>
+      <Eighth>
+        <X>9</X><Y>10.6</Y><Z>-1.5</Z>
+      </Eighth>
+      <Ninth>
+        <X>-9</X><Y>10.6</Y><Z>-1.5</Z>
+      </Ninth>
+      <Tenth>
+        <X>13</X><Y>10.6</Y><Z>0</Z>
+      </Tenth>
+      <Eleventh>
+        <X>-13</X><Y>10.6</Y><Z>0</Z>
+      </Eleventh>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>sele</Civ>
   </Identity>
@@ -14,6 +55,9 @@
       <Right width="12" depth="6.5" x="12.5" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.6</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/seleucids/wall_gate.xml</Actor>
   </VisualActor>
