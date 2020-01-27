@@ -25,12 +25,6 @@
     <CanPatrol>false</CanPatrol>
     <DefaultStance>passive</DefaultStance>
   </UnitAI>
-  <UnitMotion>
-    <Run>
-      <Speed op="mul">0.9</Speed>
-    </Run>
-    <WalkSpeed op="mul">0.9</WalkSpeed>
-  </UnitMotion>
   <Vision>
     <Range>60</Range>
   </Vision>

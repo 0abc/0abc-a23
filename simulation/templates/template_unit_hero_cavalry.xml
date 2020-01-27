@@ -36,8 +36,8 @@
   </StatusBars>
   <UnitMotion>
     <Run>
-      <Speed op="mul">1.5</Speed>
+      <Speed op="mul">2</Speed>
     </Run>
-    <WalkSpeed op="mul">1.5</WalkSpeed>
+    <WalkSpeed op="mul">2</WalkSpeed>
   </UnitMotion>
 </Entity>

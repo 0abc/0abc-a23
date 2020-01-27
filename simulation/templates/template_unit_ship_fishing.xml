@@ -72,9 +72,9 @@
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
     <Run>
-      <Speed op="mul">1.2</Speed>
+      <Speed op="mul">1.25</Speed>
     </Run>
-    <WalkSpeed op="mul">1.2</WalkSpeed>
+    <WalkSpeed op="mul">1.25</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>75</Range>

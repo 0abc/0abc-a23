@@ -26,8 +26,8 @@
   </Identity>
   <UnitMotion>
     <Run>
-      <Speed op="mul">0.85</Speed>
+      <Speed op="mul">0.9</Speed>
     </Run>
-    <WalkSpeed op="mul">0.85</WalkSpeed>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
   </UnitMotion>
 </Entity>

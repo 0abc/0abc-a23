@@ -154,12 +154,12 @@
     <PassabilityClass>default</PassabilityClass>
     <Run>
       <DecayTime>0.2</DecayTime>
-      <Range>50.0</Range>
+      <Range>50</Range>
       <RangeMin>0.0</RangeMin>
       <RegenTime>0.1</RegenTime>
-      <Speed>15.0</Speed>
+      <Speed>16</Speed>
     </Run>
-    <WalkSpeed>10.0</WalkSpeed>
+    <WalkSpeed>8</WalkSpeed>
   </UnitMotion>
   <Visibility>
     <AlwaysVisible>false</AlwaysVisible>

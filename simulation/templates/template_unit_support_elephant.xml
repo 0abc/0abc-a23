@@ -64,11 +64,4 @@
     <BarWidth>3.0</BarWidth>
     <HeightOffset>9.0</HeightOffset>
   </StatusBars>
-  <UnitMotion>
-    <PassabilityClass>large</PassabilityClass>
-    <Run>
-      <Speed op="mul">0.6</Speed>
-    </Run>
-    <WalkSpeed op="mul">0.6</WalkSpeed>
-  </UnitMotion>
 </Entity>

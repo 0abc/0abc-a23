@@ -59,9 +59,9 @@
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed op="mul">1.7</Speed>
+      <Speed op="mul">2.4</Speed>
     </Run>
-    <WalkSpeed op="mul">1.7</WalkSpeed>
+    <WalkSpeed op="mul">2.4</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>85</Range>
