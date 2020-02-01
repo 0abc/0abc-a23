@@ -12,17 +12,12 @@
 		},
 		{
 			"value": "Cost/BuildTime",
-			"multiply": 1.2,
+			"multiply": 1.25,
 			"affects": "StoneWall"
 		},
 		{
 			"value": "Cost/Resources/stone",
 			"multiply": 1.25,
-			"affects": "StoneWall"
-		},
-		{
-			"value": "Cost/Resources/wood",
-			"multiply": 0.75,
 			"affects": "StoneWall"
 		},
 		{
@@ -34,5 +29,5 @@
 	"requirements": {
 		"civ": "cart"
 	},
-	"tooltip": "Markets −50% wood cost. City Walls +25% stone cost, −25% wood cost, +20% build time, +20% health."
+	"tooltip": "Markets −50% wood cost. City Walls +25% stone cost, +25% build time, +25% health."
 }

@@ -12,28 +12,44 @@
     <Max>8</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>0</X><Y>19</Y><Z>3</Z>
+        <X>0</X>
+        <Y>19</Y>
+        <Z>3</Z>
       </First>
       <Second>
-        <X>-3</X><Y>19</Y><Z>0</Z>
+        <X>-3</X>
+        <Y>19</Y>
+        <Z>0</Z>
       </Second>
       <Third>
-        <X>3</X><Y>19</Y><Z>0</Z>
+        <X>3</X>
+        <Y>19</Y>
+        <Z>0</Z>
       </Third>
       <Fourth>
-        <X>0</X><Y>19</Y><Z>-3</Z>
+        <X>0</X>
+        <Y>19</Y>
+        <Z>-3</Z>
       </Fourth>
       <Fifth>
-        <X>3</X><Y>19</Y><Z>3</Z>
+        <X>3</X>
+        <Y>19</Y>
+        <Z>3</Z>
       </Fifth>
       <Sixth>
-        <X>-3</X><Y>19</Y><Z>3</Z>
+        <X>-3</X>
+        <Y>19</Y>
+        <Z>3</Z>
       </Sixth>
       <Seventh>
-        <X>3</X><Y>19</Y><Z>-3</Z>
+        <X>3</X>
+        <Y>19</Y>
+        <Z>-3</Z>
       </Seventh>
       <Eighth>
-        <X>-3</X><Y>19</Y><Z>-3</Z>
+        <X>-3</X>
+        <Y>19</Y>
+        <Z>-3</Z>
       </Eighth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
@@ -43,13 +59,13 @@
   <Obstruction>
     <Static width="11" depth="11"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>21</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/carthaginians/wall_tower.xml</Actor>
     <FoundationActor>structures/carthaginians/fndn_wall_tower.xml</FoundationActor>
   </VisualActor>
-  <StatusBars>
-    <HeightOffset>21</HeightOffset>
-  </StatusBars>
   <WallPiece>
     <Length>11</Length>
   </WallPiece>

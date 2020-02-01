@@ -16,7 +16,4 @@
   <VisualActor>
     <Actor>structures/hellenes/wall_short.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>12</Length>
-  </WallPiece>
 </Entity>

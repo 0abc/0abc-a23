@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall">
+  <Cost>
+    <BuildTime op="mul">0.25</BuildTime>
+    <Resources>
+      <stone op="mul">0.25</stone>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max op="mul">0.25</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">-StoneWall LowWall</VisibleClasses>
+    <GenericName>Low Wall</GenericName>
+    <SelectionGroupName>template_structure_defensive_low_wall</SelectionGroupName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <RallyPoint disable=""/>
+</Entity>

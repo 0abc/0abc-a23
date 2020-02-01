@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>8</Height>
     <Square width="5" depth="5"/>
+    <Height>8</Height>
   </Footprint>
   <Health>
     <Max op="mul">9</Max>

@@ -15,6 +15,9 @@
     <Static width="9" depth="7"/>
   </Obstruction>
   <ProductionQueue disable=""/>
+  <StatusBars>
+    <HeightOffset>19</HeightOffset>
+  </StatusBars>
   <Upgrade disable=""/>
   <VisualActor>
     <Actor>props/special/palisade_rocks_fort.xml</Actor>

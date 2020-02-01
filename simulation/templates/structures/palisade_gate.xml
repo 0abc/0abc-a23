@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>7</Height>
     <Square width="15" depth="3"/>
+    <Height>7</Height>
   </Footprint>
   <Gate>
     <PassRange>12</PassRange>

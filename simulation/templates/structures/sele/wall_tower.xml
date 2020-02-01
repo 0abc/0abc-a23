@@ -7,16 +7,24 @@
   <GarrisonHolder>
     <VisibleGarrisonPoints>
       <First>
-        <X>1.5</X><Y>13</Y><Z>1.5</Z>
+        <X>1.5</X>
+        <Y>13</Y>
+        <Z>1.5</Z>
       </First>
       <Second>
-        <X>-1.5</X><Y>13</Y><Z>1.5</Z>
+        <X>-1.5</X>
+        <Y>13</Y>
+        <Z>1.5</Z>
       </Second>
       <Third>
-        <X>1.5</X><Y>13</Y><Z>-1.5</Z>
+        <X>1.5</X>
+        <Y>13</Y>
+        <Z>-1.5</Z>
       </Third>
       <Fourth>
-        <X>-1.5</X><Y>13</Y><Z>-1.5</Z>
+        <X>-1.5</X>
+        <Y>13</Y>
+        <Z>-1.5</Z>
       </Fourth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>

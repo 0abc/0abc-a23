@@ -24,7 +24,9 @@
     <Max>1</Max>
     <VisibleGarrisonPoints>
       <Ranged>
-        <X>0</X><Y>8</Y><Z>0</Z>
+        <X>0</X>
+        <Y>8</Y>
+        <Z>0</Z>
       </Ranged>
     </VisibleGarrisonPoints>
   </GarrisonHolder>

@@ -12,14 +12,14 @@
   </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
-    <BuildTime>2</BuildTime>
+    <BuildTime>4</BuildTime>
     <Resources>
-      <stone>3</stone>
+      <stone>4</stone>
       <wood>1</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">0.1</Max>
+    <Max op="mul">0.2</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">StoneWall</VisibleClasses>

@@ -14,34 +14,54 @@
     <Max>10</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>10</X><Y>11.6</Y><Z>3</Z>
+        <X>10</X>
+        <Y>11.6</Y>
+        <Z>3</Z>
       </First>
       <Second>
-        <X>-10</X><Y>11.6</Y><Z>3</Z>
+        <X>-10</X>
+        <Y>11.6</Y>
+        <Z>3</Z>
       </Second>
       <Third>
-        <X>10</X><Y>11.6</Y><Z>-3</Z>
+        <X>10</X>
+        <Y>11.6</Y>
+        <Z>-3</Z>
       </Third>
       <Fourth>
-        <X>-10</X><Y>11.6</Y><Z>-3</Z>
+        <X>-10</X>
+        <Y>11.6</Y>
+        <Z>-3</Z>
       </Fourth>
       <Fifth>
-        <X>10</X><Y>11.6</Y><Z>0</Z>
+        <X>10</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
       </Fifth>
       <Sixth>
-        <X>-10</X><Y>11.6</Y><Z>0</Z>
+        <X>-10</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
       </Sixth>
       <Seventh>
-        <X>13</X><Y>11.6</Y><Z>0</Z>
+        <X>13</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
       </Seventh>
       <Eighth>
-        <X>-13</X><Y>11.6</Y><Z>0</Z>
+        <X>-13</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
       </Eighth>
       <Ninth>
-        <X>16</X><Y>11.6</Y><Z>0</Z>
+        <X>16</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
       </Ninth>
       <Tenth>
-        <X>-16</X><Y>11.6</Y><Z>0</Z>
+        <X>-16</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
       </Tenth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>

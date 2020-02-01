@@ -17,22 +17,34 @@
     <Max>6</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>2</X><Y>5.7</Y><Z>0</Z>
+        <X>2</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </First>
       <Second>
-        <X>-2</X><Y>5.7</Y><Z>0</Z>
+        <X>-2</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Second>
       <Third>
-        <X>6</X><Y>5.7</Y><Z>0</Z>
+        <X>6</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Third>
       <Fourth>
-        <X>-6</X><Y>5.7</Y><Z>0</Z>
+        <X>-6</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Fourth>
       <Fifth>
-        <X>10</X><Y>5.7</Y><Z>0</Z>
+        <X>10</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Fifth>
       <Sixth>
-        <X>-10</X><Y>5.7</Y><Z>0</Z>
+        <X>-10</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Sixth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
@@ -41,10 +53,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="24" depth="3"/>
+    <Static width="24" depth="4"/>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>8</HeightOffset>
+    <HeightOffset>7.7</HeightOffset>
   </StatusBars>
   <VisualActor>
     <Actor>structures/romans/siege_wall_medium.xml</Actor>

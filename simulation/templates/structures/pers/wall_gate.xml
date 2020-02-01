@@ -11,28 +11,44 @@
     <Max>8</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>1.5</X><Y>12.8</Y><Z>0</Z>
+        <X>1.5</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
       </First>
       <Second>
-        <X>-1.5</X><Y>12.8</Y><Z>0</Z>
+        <X>-1.5</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
       </Second>
       <Third>
-        <X>4.5</X><Y>12.8</Y><Z>0</Z>
+        <X>4.5</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
       </Third>
       <Fourth>
-        <X>-4.5</X><Y>12.8</Y><Z>0</Z>
+        <X>-4.5</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
       </Fourth>
       <Fifth>
-        <X>7.5</X><Y>12.8</Y><Z>0</Z>
+        <X>7.5</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
       </Fifth>
       <Sixth>
-        <X>-7.5</X><Y>12.8</Y><Z>0</Z>
+        <X>-7.5</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
       </Sixth>
       <Seventh>
-        <X>13.5</X><Y>11</Y><Z>0</Z>
+        <X>13.5</X>
+        <Y>11</Y>
+        <Z>0</Z>
       </Seventh>
       <Eighth>
-        <X>-13.5</X><Y>11</Y><Z>0</Z>
+        <X>-13.5</X>
+        <Y>11</Y>
+        <Z>0</Z>
       </Eighth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
@@ -47,7 +63,7 @@
     </Obstructions>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>13.8</HeightOffset>
+    <HeightOffset>14.8</HeightOffset>
   </StatusBars>
   <VisualActor>
     <Actor>structures/persians/wall_gate.xml</Actor>

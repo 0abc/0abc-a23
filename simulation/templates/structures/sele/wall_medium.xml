@@ -8,25 +8,39 @@
     <Max>7</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>0</X><Y>10.4</Y><Z>0</Z>
+        <X>0</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </First>
       <Second>
-        <X>3</X><Y>10.4</Y><Z>0</Z>
+        <X>3</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </Second>
       <Third>
-        <X>-3</X><Y>10.4</Y><Z>0</Z>
+        <X>-3</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </Third>
       <Fourth>
-        <X>6</X><Y>10.4</Y><Z>0</Z>
+        <X>6</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </Fourth>
       <Fifth>
-        <X>-6</X><Y>10.4</Y><Z>0</Z>
+        <X>-6</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </Fifth>
       <Sixth>
-        <X>9</X><Y>10.4</Y><Z>0</Z>
+        <X>9</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </Sixth>
       <Seventh>
-        <X>-9</X><Y>10.4</Y><Z>0</Z>
+        <X>-9</X>
+        <Y>10.4</Y>
+        <Z>0</Z>
       </Seventh>
     </VisibleGarrisonPoints>
   </GarrisonHolder>

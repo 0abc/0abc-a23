@@ -17,31 +17,49 @@
     <Max>9</Max>
     <VisibleGarrisonPoints>
       <First>
-        <X>0</X><Y>5.7</Y><Z>0</Z>
+        <X>0</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </First>
       <Second>
-        <X>4</X><Y>5.7</Y><Z>0</Z>
+        <X>4</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Second>
       <Third>
-        <X>-4</X><Y>5.7</Y><Z>0</Z>
+        <X>-4</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Third>
       <Fourth>
-        <X>8</X><Y>5.7</Y><Z>0</Z>
+        <X>8</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Fourth>
       <Fifth>
-        <X>-8</X><Y>5.7</Y><Z>0</Z>
+        <X>-8</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Fifth>
       <Sixth>
-        <X>12</X><Y>5.7</Y><Z>0</Z>
+        <X>12</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Sixth>
       <Seventh>
-        <X>-12</X><Y>5.7</Y><Z>0</Z>
+        <X>-12</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Seventh>
       <Eighth>
-        <X>16</X><Y>5.7</Y><Z>0</Z>
+        <X>16</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Eighth>
       <Ninth>
-        <X>-16</X><Y>5.7</Y><Z>0</Z>
+        <X>-16</X>
+        <Y>5.7</Y>
+        <Z>0</Z>
       </Ninth>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
@@ -50,10 +68,10 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="36" depth="3"/>
+    <Static width="36" depth="4"/>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>8</HeightOffset>
+    <HeightOffset>7.7</HeightOffset>
   </StatusBars>
   <Upgrade>
     <Gate>

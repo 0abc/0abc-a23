@@ -9,9 +9,9 @@
   </Identity>
   <Obstruction>
     <Obstructions>
-      <Door width="11" depth="12.5" x="0" z="0"/>
-      <Left width="14.5" depth="12.5" x="-13.5" z="0"/>
-      <Right width="14.5" depth="12.5" x="13.5" z="0"/>
+      <Door width="11" depth="6.5" x="0" z="0"/>
+      <Left width="14.5" depth="6.5" x="-13.5" z="0"/>
+      <Right width="14.5" depth="6.5" x="13.5" z="0"/>
     </Obstructions>
   </Obstruction>
   <SkirmishReplacer>
