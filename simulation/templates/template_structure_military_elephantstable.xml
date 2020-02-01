@@ -4,8 +4,8 @@
     <Category>ElephantStable</Category>
   </BuildRestrictions>
   <Footprint>
-    <Height>8</Height>
     <Square width="31" depth="29"/>
+    <Height>8</Height>
   </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">Elephant</List>

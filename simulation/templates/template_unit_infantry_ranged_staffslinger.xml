@@ -9,7 +9,7 @@
   <Attack>
     <Ranged>
       <Crush>12</Crush>
-      <MaxRange op="mul">4.0</MaxRange>
+      <MaxRange op="mul">4</MaxRange>
       <ProjectileSpeed op="mul">0.6</ProjectileSpeed>
     </Ranged>
   </Attack>

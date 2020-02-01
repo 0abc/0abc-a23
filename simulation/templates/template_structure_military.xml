@@ -22,7 +22,7 @@
     <Max>0</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">2.0</Max>
+    <Max op="mul">2</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">ConquestCritical</Classes>

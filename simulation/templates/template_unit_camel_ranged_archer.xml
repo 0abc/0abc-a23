@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange op="mul">6.0</MaxRange>
+      <MaxRange op="mul">6</MaxRange>
       <Pierce>13</Pierce>
     </Ranged>
   </Attack>

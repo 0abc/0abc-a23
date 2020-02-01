@@ -16,7 +16,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>8.0</Height>
+    <Height>8</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>5</Max>

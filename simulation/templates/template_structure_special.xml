@@ -13,8 +13,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="24.0" depth="24.0"/>
-    <Height>8.0</Height>
+    <Square width="24" depth="24"/>
+    <Height>8</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>5</Max>
@@ -35,7 +35,7 @@
     <Tooltip>This is a special building unique to a particular civilization.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static width="24" depth="24"/>
   </Obstruction>
   <Sound>
     <SoundGroups>

@@ -20,8 +20,8 @@
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>1000</CapturePoints>
-    <GarrisonRegenRate>5.0</GarrisonRegenRate>
-    <RegenRate>0.0</RegenRate>
+    <GarrisonRegenRate>5</GarrisonRegenRate>
+    <RegenRate>0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>10</BuildTime>
@@ -37,10 +37,10 @@
   </Cost>
   <Decay>
     <Active>false</Active>
-    <DelayTime>0.0</DelayTime>
+    <DelayTime>0</DelayTime>
     <SinkAccel>9.8</SinkAccel>
     <SinkingAnim>false</SinkingAnim>
-    <SinkRate>3.0</SinkRate>
+    <SinkRate>3</SinkRate>
   </Decay>
   <Fogging/>
   <Footprint>
@@ -85,29 +85,29 @@
   <Position>
     <Altitude>0</Altitude>
     <Anchor>upright</Anchor>
-    <FloatDepth>0.0</FloatDepth>
+    <FloatDepth>0</FloatDepth>
     <Floating>false</Floating>
-    <TurnRate>6.0</TurnRate>
+    <TurnRate>6</TurnRate>
   </Position>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <TechCostMultiplier>
-      <food>1.0</food>
-      <metal>1.0</metal>
-      <silver>1.0</silver>
-      <stone>1.0</stone>
-      <wood>1.0</wood>
-      <time>1.0</time>
+      <food>1</food>
+      <metal>1</metal>
+      <silver>1</silver>
+      <stone>1</stone>
+      <wood>1</wood>
+      <time>1</time>
     </TechCostMultiplier>
   </ProductionQueue>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>0.0</food>
-      <metal>0.0</metal>
-      <silver>0.0</silver>
-      <stone>0.0</stone>
-      <wood>0.0</wood>
+      <food>0</food>
+      <metal>0</metal>
+      <silver>0</silver>
+      <stone>0</stone>
+      <wood>0</wood>
     </Rates>
   </ResourceTrickle>
   <RallyPoint/>
@@ -124,7 +124,7 @@
   <RangeOverlayManager/>
   <RangeOverlayRenderer/>
   <Repairable>
-    <RepairTimeRatio>2.0</RepairTimeRatio>
+    <RepairTimeRatio>2</RepairTimeRatio>
   </Repairable>
   <Selectable>
     <Overlay>
@@ -149,8 +149,8 @@
   </Sound>
   <StatusBars>
     <BarHeight>0.6</BarHeight>
-    <BarWidth>6.0</BarWidth>
-    <HeightOffset>12.0</HeightOffset>
+    <BarWidth>6</BarWidth>
+    <HeightOffset>12</HeightOffset>
   </StatusBars>
   <TerritoryDecay>
     <DecayRate>5</DecayRate>

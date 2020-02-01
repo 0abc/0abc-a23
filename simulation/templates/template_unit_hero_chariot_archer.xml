@@ -5,7 +5,7 @@
     <Ranged>
       <MaxRange>80</MaxRange>
       <Pierce>20</Pierce>
-      <Spread>1.0</Spread>
+      <Spread>1</Spread>
     </Ranged>
   </Attack>
   <Identity>

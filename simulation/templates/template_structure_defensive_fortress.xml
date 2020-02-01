@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
-  <Armour>
-    <Crush>9</Crush>
-    <Hack>25</Hack>
-    <Thrust>36</Thrust>
-  </Armour>
   <Attack>
     <Ranged>
       <Crush>0</Crush>
@@ -25,7 +20,7 @@
         <LineThickness>0.1</LineThickness>
       </RangeOverlay>
       <RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
-      <Spread>2.0</Spread>
+      <Spread>2</Spread>
       <Thrust>0</Thrust>
     </Ranged>
   </Attack>
@@ -44,7 +39,7 @@
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
-    <RegenRate>25.0</RegenRate>
+    <RegenRate>25</RegenRate>
   </Capturable>
   <Cost>
     <Resources>
@@ -56,7 +51,7 @@
     <List datatype="tokens">Soldier Support</List>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">3.0</Max>
+    <Max op="mul">3</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

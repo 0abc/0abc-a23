@@ -17,7 +17,7 @@
     <Max>20</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">2.0</Max>
+    <Max op="mul">2</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Temple</VisibleClasses>

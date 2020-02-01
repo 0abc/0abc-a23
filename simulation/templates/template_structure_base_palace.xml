@@ -19,7 +19,7 @@
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>1800</CapturePoints>
-    <RegenRate>15.0</RegenRate>
+    <RegenRate>15</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
@@ -32,7 +32,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">3.0</Max>
+    <Max op="mul">4</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
@@ -56,7 +56,7 @@
   </ResourceDropsite>
   <ResourceTrickle>
     <Rates>
-      <food>-1.0</food>
+      <food>-1</food>
       <silver>1.2</silver>
       <wood>-0.2</wood>
     </Rates>

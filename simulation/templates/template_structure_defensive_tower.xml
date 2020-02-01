@@ -20,7 +20,7 @@
         <LineThickness>0.1</LineThickness>
       </RangeOverlay>
       <RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
-      <Spread>2.0</Spread>
+      <Spread>2</Spread>
       <Thrust>0</Thrust>
     </Ranged>
   </Attack>

@@ -21,7 +21,7 @@
     <Max>12</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">3.0</Max>
+    <Max op="mul">3</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Market NavalMarket</Classes>
@@ -37,7 +37,7 @@
   </Market>
   <Position>
     <Floating>true</Floating>
-    <FloatDepth>0.0</FloatDepth>
+    <FloatDepth>0</FloatDepth>
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">

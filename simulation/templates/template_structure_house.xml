@@ -48,7 +48,7 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <HeightOffset>8.0</HeightOffset>
+    <HeightOffset>8</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
     <Radius>20</Radius>

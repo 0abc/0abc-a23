@@ -20,7 +20,7 @@
     <Max>40</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">4.0</Max>
+    <Max op="mul">5</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Naval Lighthouse</VisibleClasses>
@@ -31,7 +31,7 @@
   </Identity>
   <Position>
     <Floating>true</Floating>
-    <FloatDepth>0.0</FloatDepth>
+    <FloatDepth>0</FloatDepth>
   </Position>
   <ResourceTrickle>
     <Rates>

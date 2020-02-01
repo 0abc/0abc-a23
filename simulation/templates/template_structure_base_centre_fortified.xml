@@ -6,7 +6,7 @@
     </Ranged>
   </Attack>
   <Capturable>
-    <CapturePoints op="mul">2.0</CapturePoints>
+    <CapturePoints op="mul">2</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>600</BuildTime>
@@ -25,7 +25,7 @@
     <Max op="add">20</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">2.0</Max>
+    <Max op="mul">2</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">FortifiedCentre</VisibleClasses>
@@ -34,7 +34,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <TerritoryInfluence>
-    <Weight op="mul">2.0</Weight>
+    <Weight op="mul">2</Weight>
   </TerritoryInfluence>
   <Vision>
     <Range op="add">10</Range>

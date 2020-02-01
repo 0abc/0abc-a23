@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_house">
   <Capturable>
-    <CapturePoints op="mul">6.0</CapturePoints>
+    <CapturePoints op="mul">6</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime op="mul">6.0</BuildTime>
-    <PopulationBonus op="mul">6.0</PopulationBonus>
+    <BuildTime op="mul">6</BuildTime>
+    <PopulationBonus op="mul">6</PopulationBonus>
     <Resources>
-      <wood op="mul">6.0</wood>
+      <wood op="mul">6</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max op="mul">6.0</Max>
+    <Max op="mul">6</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">6.0</Max>
+    <Max op="mul">6</Max>
   </Health>
   <Identity>
     <GenericName>Apartment Block</GenericName>
@@ -22,7 +22,7 @@
   </Identity>
   <ResourceTrickle>
     <Rates>
-      <wood op="mul">6.0</wood>
+      <wood op="mul">6</wood>
     </Rates>
   </ResourceTrickle>
 </Entity>

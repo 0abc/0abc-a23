@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
-  <Armour>
-    <Hack>1</Hack>
-  </Armour>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -43,7 +40,7 @@
   <RallyPoint disable=""/>
   <ResourceSupply>
     <Amount>Infinity</Amount>
-    <DiminishingReturns>0.90</DiminishingReturns>
+    <DiminishingReturns>0.9</DiminishingReturns>
     <KillBeforeGather>false</KillBeforeGather>
     <MaxGatherers>5</MaxGatherers>
     <Type>food.grain</Type>
@@ -55,10 +52,10 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <HeightOffset>8.0</HeightOffset>
+    <HeightOffset>8</HeightOffset>
   </StatusBars>
   <TerritoryDecay>
-    <DecayRate>5.0</DecayRate>
+    <DecayRate>5</DecayRate>
   </TerritoryDecay>
   <Vision>
     <Range>1</Range>
