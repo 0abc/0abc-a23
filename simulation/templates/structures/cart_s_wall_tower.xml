@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_town">
   <Cost>
-    <BuildTime op="mul">9</BuildTime>
+    <BuildTime op="mul">16</BuildTime>
     <Resources>
-      <stone op="mul">9</stone>
+      <stone op="mul">16</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -11,7 +11,7 @@
     <Square width="4" depth="4"/>
   </Footprint>
   <Health>
-    <Max op="mul">9</Max>
+    <Max op="mul">16</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>

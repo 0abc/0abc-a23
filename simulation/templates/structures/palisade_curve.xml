@@ -27,7 +27,7 @@
   <WallPiece>
     <Bend>0.5</Bend>
     <Indent>2.8</Indent>
-    <Length>8.0</Length>
+    <Length>8</Length>
     <Orientation>0.75</Orientation>
   </WallPiece>
 </Entity>
