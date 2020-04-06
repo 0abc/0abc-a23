@@ -2,9 +2,7 @@
 	"affects": [
 		"Centre"
 	],
-	"cost": {
-		"silver": 2500
-	},
+	"autoResearch": true,
 	"description": "Advances from a veritable city to a true metropolis, larger and more influential than any other settlement.",
 	"genericName": "Metropolis Phase",
 	"icon": "phase_iv.png",
@@ -32,6 +30,12 @@
 	],
 	"requirements": {
 		"all": [
+			{
+				"entity": {
+					"class": "Centre",
+					"number": 1
+				}
+			},
 			{
 				"entity": {
 					"class": "Forge",
@@ -77,7 +81,6 @@
 			}
 		]
 	},
-	"researchTime": 180,
 	"soundComplete": "interface/alarm/alarm_phase.xml",
 	"supersedes": "phase_city",
 	"tooltip": "Advance to Metropolis Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."

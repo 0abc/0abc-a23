@@ -2,9 +2,7 @@
 	"affects": [
 		"Centre"
 	],
-	"cost": {
-		"silver": 1000
-	},
+	"autoResearch": true,
 	"description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
 	"genericName": "City Phase",
 	"icon": "phase_iii.png",
@@ -37,6 +35,12 @@
 		"all": [
 			{
 				"entity": {
+					"class": "Centre",
+					"number": 1
+				}
+			},
+			{
+				"entity": {
 					"class": "Forge",
 					"number": 1
 				}
@@ -64,7 +68,6 @@
 			}
 		]
 	},
-	"researchTime": 120,
 	"soundComplete": "interface/alarm/alarm_phase.xml",
 	"supersedes": "phase_town_generic",
 	"tooltip": "Advance to City Phase, which unlocks more Structures and Units. Centres +5 base capture points regeneration rate, increased food-to-silver trickle, and +15% territory influence radius and weight."
